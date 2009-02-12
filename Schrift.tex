@@ -1,0 +1,133 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[12pt,a4paper,twoside, openright, cleardoubleempty, headsepline, footnosepline, nochapterprefix, appendixprefix, bibtotoc, abstracton]{scrreprt}
+
+\usepackage{pdfsync}
+\usepackage{ngerman}
+\usepackage[ngerman]{babel}
+
+\usepackage{multicol}
+\usepackage{makeidx}
+\usepackage{scrpage2}
+\usepackage{natbib}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont{Hoefler Text}
+%\setromanfont{Gentium}
+%\setromanfont{LucidaGrande}
+\setsansfont{Gill Sans}
+%\setsansfont{Helvetica Neue}
+\setmonofont{Monaco}
+\makeindex
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+
+\usepackage{geometry}
+
+\usepackage[final, activate, verbose=true]{microtype}
+\usepackage{color}
+
+\usepackage[bookmarks]{hyperref}
+
+\definecolor{darkgray}{gray}{0.2} 
+\definecolor{lightgray}{gray}{0.8} 
+\fboxrule2pt
+\fboxsep10pt
+\parskip1ex
+
+\newcommand{\contribution}[1]{
+	\begin{center}
+	\fcolorbox{darkgray}{lightgray}{
+		\begin{minipage}{13cm}
+			\textbf{Kapitel \thechapter: Zusammenfassung}
+			\newline
+			\newline
+			#1
+		\end{minipage}
+	}
+	\end{center}
+}
+
+\newcommand{\objectives}[1]{
+	\begin{center}
+	\fcolorbox{darkgray}{lightgray}{
+		\begin{minipage}{13cm}
+			\textbf{Ziele des Kapitels \thechapter}
+			\newline
+			\newline
+			#1
+		\end{minipage}
+	}
+	\end{center}
+}
+
+\setcounter{tocdepth}{2}
+\renewcommand*{\dictumwidth}{.5\textwidth} 
+\renewcommand{\baselinestretch}{1.0}
+
+%\usepackage[numbers]{natbib}
+%\bibliographystyle{dinat}
+\bibliographystyle{apalike}
+
+\title{Diss}
+\author{Stefan Oppl}
+%\dedication{Für Felix und Sabrina}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\maketitle
+
+%\include{Vorwort}
+
+%\include{Abstract}
+
+\pagestyle{scrheadings}
+\automark[section]{chapter} 
+
+\pagenumbering{roman}
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\newpage
+\cleardoublepage
+
+\pagenumbering{arabic}
+
+%\include{Einfuehrung}
+
+\include{ArticulationWork}
+\include{Evaluierung}
+
+\bibliography{/Users/oppl/Documents/Dokumente/Literatur/archiv}
+
+\addcontentsline{toc}{part}{Index}
+\printindex
+
+\appendix
+%\include{Anhang}
+
+\end{document}
