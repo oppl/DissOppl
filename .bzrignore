@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+*.fmt
+*.aux
+*.toc
+*.lof
+*.lot
+*.mtc~
+*.maf
+*.idx
+*.pdfsync
+*.mtc1
+*.out
+*.bbl
+*.blg
