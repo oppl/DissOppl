@@ -66,11 +66,24 @@
 	\end{center}
 }
 
-\newcommand{\objectives}[1]{
+\newcommand{\context}[1]{
 	\begin{center}
 	\fcolorbox{darkgray}{lightgray}{
 		\begin{minipage}{13cm}
-			\textbf{Ziele des Kapitels \thechapter}
+			\textbf{Kontext}
+			\newline
+			\newline
+			#1
+		\end{minipage}
+	}
+	\end{center}
+}
+
+\newcommand{\structure}[1]{
+	\begin{center}
+	\fcolorbox{darkgray}{lightgray}{
+		\begin{minipage}{13cm}
+			\textbf{Struktur}
 			\newline
 			\newline
 			#1
@@ -120,6 +133,9 @@
 %\include{Einfuehrung}
 
 \include{ArticulationWork}
+
+\include{Werkzeug}
+
 \include{Evaluierung}
 
 \bibliography{/Users/oppl/Documents/Dokumente/Literatur/archiv}
