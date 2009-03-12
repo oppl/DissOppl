@@ -2,25 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>ImplementierungUeberblick.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-05T19:21:50Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-03-05T20:34:57Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ArticulationWork.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-05T19:21:49Z</date>
+			<date>2009-03-05T21:17:42Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Evaluierung.tex</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ImplementierungOutput.tex</string>
+			<key>lastUsed</key>
+			<date>2009-03-05T20:20:53Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ImplementierungInput.tex</string>
+			<key>lastUsed</key>
+			<date>2009-03-05T20:17:43Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ImplementierungUeberblick.tex</string>
+			<key>lastUsed</key>
+			<date>2009-03-05T21:17:42Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ImplementierungPersistence.tex</string>
+			<key>lastUsed</key>
+			<date>2009-03-05T20:34:54Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Werkzeug.tex</string>
+			<key>lastUsed</key>
+			<date>2009-03-05T20:34:52Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -36,7 +68,56 @@
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
-	<dict/>
+	<dict>
+		<key>ArticulationWork.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>43</integer>
+		</dict>
+		<key>ImplementierungUeberblick.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>33</integer>
+				<key>line</key>
+				<integer>43</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>23</integer>
+		</dict>
+		<key>Schrift.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>136</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>30</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>Schrift.tex</string>
+		<string>ImplementierungUeberblick.tex</string>
+		<string>ArticulationWork.tex</string>
+	</array>
 	<key>shellVariables</key>
 	<array>
 		<dict>
@@ -58,7 +139,19 @@
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
+	<key>showFileHierarchyPanel</key>
+	<true/>
+	<key>treeState</key>
+	<dict>
+		<key>img</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict/>
+		</dict>
+	</dict>
 	<key>windowFrame</key>
-	<string>{{223, 187}, {1061, 668}}</string>
+	<string>{{122, 195}, {1061, 668}}</string>
 </dict>
 </plist>
