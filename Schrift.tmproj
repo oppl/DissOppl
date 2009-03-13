@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ImplementierungUeberblick.tex</string>
+	<string>ImplementierungInput.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-05T20:34:57Z</date>
+			<date>2009-03-12T21:41:13Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -32,15 +32,15 @@
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-05T20:17:43Z</date>
+			<date>2009-03-12T21:41:13Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ImplementierungUeberblick.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-05T21:17:42Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-03-12T19:51:21Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -83,6 +83,20 @@
 			<key>firstVisibleLine</key>
 			<integer>43</integer>
 		</dict>
+		<key>ImplementierungInput.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1554</integer>
+				<key>line</key>
+				<integer>125</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>121</integer>
+		</dict>
 		<key>ImplementierungUeberblick.tex</key>
 		<dict>
 			<key>caret</key>
@@ -95,7 +109,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>23</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Schrift.tex</key>
 		<dict>
@@ -109,13 +123,14 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>30</integer>
+			<integer>106</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>Schrift.tex</string>
 		<string>ImplementierungUeberblick.tex</string>
+		<string>ImplementierungInput.tex</string>
 		<string>ArticulationWork.tex</string>
 	</array>
 	<key>shellVariables</key>
@@ -139,19 +154,7 @@
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
-	<key>showFileHierarchyPanel</key>
-	<true/>
-	<key>treeState</key>
-	<dict>
-		<key>img</key>
-		<dict>
-			<key>isExpanded</key>
-			<true/>
-			<key>subItems</key>
-			<dict/>
-		</dict>
-	</dict>
 	<key>windowFrame</key>
-	<string>{{122, 195}, {1061, 668}}</string>
+	<string>{{198, 77}, {1059, 801}}</string>
 </dict>
 </plist>
