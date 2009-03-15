@@ -3,20 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ImplementierungInput.tex</string>
+	<string>Schrift.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-12T21:41:13Z</date>
+			<date>2009-03-15T22:20:49Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ArticulationWork.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-05T21:17:42Z</date>
+			<date>2009-03-15T22:18:41Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -32,15 +34,13 @@
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-12T21:41:13Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-03-15T22:20:49Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ImplementierungUeberblick.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-12T19:51:21Z</date>
+			<date>2009-03-13T21:01:58Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -74,28 +74,44 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>290</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>55</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>43</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>280</integer>
+				<key>line</key>
+				<integer>55</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>290</integer>
+				<key>line</key>
+				<integer>55</integer>
+			</dict>
 		</dict>
 		<key>ImplementierungInput.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1554</integer>
+				<integer>3</integer>
 				<key>line</key>
-				<integer>125</integer>
+				<integer>177</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>121</integer>
+			<integer>0</integer>
 		</dict>
 		<key>ImplementierungUeberblick.tex</key>
 		<dict>
@@ -107,23 +123,23 @@
 				<integer>43</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>305</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Schrift.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>27</integer>
 				<key>line</key>
-				<integer>136</integer>
+				<integer>100</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>106</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -151,10 +167,30 @@
 			<key>variable</key>
 			<string>TM_LATEX_MASTER</string>
 		</dict>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>value</key>
+			<string>/Users/oppl/Desktop/Schrift</string>
+			<key>variable</key>
+			<string>TM_PROJECT_DIRECTORY</string>
+		</dict>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
+	<key>showFileHierarchyPanel</key>
+	<true/>
+	<key>treeState</key>
+	<dict>
+		<key>img</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict/>
+		</dict>
+	</dict>
 	<key>windowFrame</key>
-	<string>{{198, 77}, {1059, 801}}</string>
+	<string>{{63, 85}, {1178, 791}}</string>
 </dict>
 </plist>
