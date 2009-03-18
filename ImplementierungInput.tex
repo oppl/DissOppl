@@ -197,12 +197,6 @@ Die hier vorgestellten Systeme implementieren den Ansatz des code-basierten opti
 
 Wie bereits im letzten Abschnitt erhebt auch die hier angeführte Aufzählung keinen Anspruch auf Vollständigkeit. Neben der Darstellung der historischen Entwicklung des Feldes und der Beschreibung von in Forschung und Praxis relevanten Ansätzen wurde bei der Auswahl vor allem auf freie Verwendbarkeit und Zugriff auf den Source-Code der Erkennungsroutinen geachtet, da die Notwendigkeit applikationsspezifischer Anpassungen nicht auszuschließen war (etwa um benötigte aber nicht direkt unterstüzte Parameter zu extrahieren).
 
-\begin{itemize}
-	\item ReacTIVision
-	\item ARToolkit
-	\item Visual Codes (ETH)
-\end{itemize}
-
 \paragraph{ARToolkit}\label{par:artoolkit}
 \index{ARToolkit}
 Historisch erstes Framework, Mapping, beschränkter Code Raum
@@ -211,8 +205,14 @@ Historisch erstes Framework, Mapping, beschränkter Code Raum
 
 \paragraph{Visual Codes}\label{par:visualcodes}
 \index{Visual Codes}
-Vertreter von direkt codierenden Ansätzen - frei verfügbar und 
-andere (nicht freie) Ansätze: QRCode & Datamatrix
+
+Das Visual Codes System ist ein Vertreter der direkt codierenden Ansätze, d.h. dass die Nutzinformation ohne Zwischenschritt direkt aus dem Code extrahiert werden kann. Im Gegensatz zu den standardisierten und kommerziell genutzen Code-Formate QR-Code (REF) oder Datamatrix (REF), die eine Kapazität von bis zu einigen hundert Byte haben, bietet das Visual Code System lediglich 80 Bits an Nutzinformation an, was dazu führt, das in vielen Anwendungsfällen ein Mapping durch die Anwendung durchgeführt wird, um die zu verwaltende Information abbilden zu können.
+
+-- Abb. Visual Codes --
+
+Der Vorteil des Visual Code Systems liegt in seiner mächtigen Auswertbarkeit bei gleichzeitig geringem Bedarf an Rechenkapazität. In der Standardimplementierung werden neben der Position und der Rotation in der Ebene auch die Neigungsparameter im Raum extrahiert. Der Erkennungsalgorithmus läuft dabei in Echtzeit und kann unverändet sogar auf Java-fähigen Mobiltelefonen ausgeführt werden. Durch die relativ geringe Datendicht der Codes reichen dementsprechend auch verhältnismäßig niedrig auflösende Bilder (z.B. 320 x 240 Bildpunkte) für eine Erkennung aus. Wie alle anderen optischen Ansätzen leidet das Visual Code System unter Erkennungsproblemen bei wechselnden Lichtverhältnissen und insbesondere bei schlechtem Kontrast. Diese Verhalten kann in der vorliegenden Implementierung auch nicht duch Rekonfiguration korrigiert werden.
+
+Das Visual Code System muss von auf ihm aufbauenden Applikationen direkt auf Source-Code-Ebene eingebunden werden, eine vorgegebene externe Schnittstelle existiert nicht. Anbindungroutinen für Kameras existieren nur für Mobiltelefonen und müssen für andere Plattformen ggf. neu erstellt werden.
 
 % paragraph visualcodes (end)
 
@@ -240,7 +240,58 @@ Die aus dem Bilderstrom gewonnenen Daten werden im Falle einer Änderung zuminde
 
 \subsection{Technologieentscheidung} % (fold)
 \label{sub:technologieentscheidung}
--> ReacTIVision
+
+Auf Basis der Anforderungen, die im Anwendungsfall an das Werkzeug gestellt werden, ist nun nach der grundsätzlichen Entscheidung für ein auf optischen Ansätzen basierenden System die Entscheidung für ein konkretes Framework zu treffen. 
+
+\subsubsection{Vergleich der Frameworks für videobasieren Input}\label{subs:vergleich_video_frameworks}
+
+Für die Anbindung von videobasiertem Input wurde drei Frameworks vorgestellt. Diese Frameworks sind nun hinsichtlich mehrere Aspekte zu vergleichen, die sich aus den Anforderungen der zu erstellenden Applikation sowie der Forderung nach möglichst einfacher (im Sinne von unaufwändiger) Einbindung des Frameworks ergeben. Im Einzelnen sind dies 
+\begin{itemize}
+	\item die Unterstützung bei der Einbindung von Kameras, eine Schnittstelle zur Programmiersprache Java,
+	\item eine stabile und in Echtzeit ablaufende Bilderkennung,
+	\item eine ausreichende Anzahl von Codes (Größenordnung 100),
+	\item die Extraktion von Position und Rotationsinformation für Codes im Erfassungsbereich der Kamera sowie
+	\item die technische und lizenzrechtliche Möglichkeit, die Frameworks an die eigenen Anforderungen anzupassen.
+\end{itemize}
+    
+ReacTIVision bietet die umfassendste Unterstützung zur Einbindung unterschiedlicher Videoquellen und ist zur Anwendungsseite hin durch die Netzwerkschnittstelle am flexibelsten einsetzbar. Alle drei Ansätze bieten Schnittstellen bzw. Konnektoren für die Programmiersprache Java an. Die Frameworks selbst sind in C(++) oder Java erstellt und können auf den gängigen Plattformen (Windows, Linux, Mac OS x) ausgeführt werden. Eine Verteilung der Applikation auf mehrere Rechner wird nur von ReacTIVision explizit unterstützt.
+
+Hinsichtlich der eigentlichen Bilderkennungs-Routinen sind die Ansätze in ihrer Leistung und Geschwindigkeit vergleichbar, leiden aber alle unter der Abhängigkeit von der Umgebungsbeleuchtung. ReacTIVision bietet hier als einziger Ansatz die Möglichkeit, Kameraparameter zur Laufzeit nachzuführen und so Schwankungen der Umgebungshelligkeit auszugleichen.
+
+Durch den eingesetzten Mapping-Ansatz sind ARToolkit und ReacTIVision hinsichtlich Form und Inhalt der Codes flexibler als direkt codierende Ansätze wie Visual Codes. Dies ist im konkreten Anwendungsfall relevant, da aufgrund der Token-Form und deren beschränkter Größe eine ideale Platzausnutzung erfolgen muss, um ausreichende Erkennungsleistung zu gewährleisten.
+
+Die Extraktion der Raumparameter (Neigungsinformation, ...), die von ARToolkit und Visual Codes ermöglicht wird, ist in bei tisch-basierten Werkzeugen wie dem hier vorgestellten nicht notwendig - die Erhebung planarer Parameter (Position und Rotation) ist ausreichend.
+
+Die Anzahl der verfügbaren und zuverlässig unterscheidbaren Codes muss für die hier vorgeschlagene Anwendung in der Größenordnung 100 liegen. Visual Codes und ReacTIVision erfüllen diese Anforderung, ARToolkit bietet im Lieferumfang weniger Codes an, diese können jedoch erweitert werden und bieten auch in der gerforderten Anzahl noch ausreichend Unterscheidungsmerkmale für eine zuverlässige Unterscheidung (REF Schmalstieg TU System).
+
+Von allen drei Systemen steht der Source-Code zur Verfüng. Lizenzrechtlich erlauben ebenfalls alle Systeme eine Veränderung des Sourcecode (LIZENZEN AUFZÄHLEN)
+
+\begin{center}
+	\begin{tabular}{llll}
+		x & ARToolkit & Visual Codes & ReacTIVision \\
+		Kameraunterstützung 		  & x & x & x \\
+		Plattformen 			  & x & x & x \\
+		Schnittstelle zu Java 		  & x & x & x \\
+		Stabilität der Bilderkennung 	  & x & x & x \\
+		Geschwindigkeit der Bilderkennung & x & x & x \\
+		Anzahl von Codes 		  & x & x & x \\
+		Erkennung von Position 		  & x & x & x \\
+		Erkennung von Rotation 		  & x & x & x \\
+		Source-Code verfügbar 		  & x & x & x \\
+		Lizenz 				  & x & x & x \\
+	\end{tabular}
+	\captionof{table}{Gegenüberstellung der Eigenschaften von Frameworks zum videobasierten Input}
+	\label{tab:vergleich_video_frameworks}
+\end{center}
+
+Auf Basis dieses Vergleichs ist erkennbar, dass das ReacTIVision-Framework für den hier verfolgten Ansatz am besten geeignet erscheint. Es wird deshalb zur Umsetzung des Werkzeugs verwendet. Der zusätzliche Einsatz eines generischen Frameworks zur Flexibilisierung der Applikationsstruktur ist damit nach wie vor möglich und wird im nächsten Abschnitt diskutiert.
+
+% subsubsection vergleich_video_frameworks (end)
+
+\subsubsection{Vergleich der generischen Frameworks}\label{subs:vergleich_generische_frameworks}
+
+% subsubsection vergleich_generische_frameworks (end)
+
 % subsection technologieentscheidung (end)
 % section möglichkeiten_zur_erfassung_von_benutzerinteraktion (end)
 
