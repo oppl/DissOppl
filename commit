@@ -3,3 +3,4 @@ bzr add *.tex
 bzr add img
 echo committing ...
 bzr commit -m %1
+echo finished
