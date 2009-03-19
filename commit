@@ -1,6 +1,7 @@
+#!/bin/bash
 echo adding files ...
 bzr add *.tex
 bzr add img
 echo committing ...
-bzr commit -m %1
+bzr commit -m "$1"
 echo finished
