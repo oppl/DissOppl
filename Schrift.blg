@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: Schrift.aux
+The style file: apalike.bst
+A level-1 auxiliary file: ArticulationWork.aux
+A level-1 auxiliary file: Werkzeug.aux
+A level-1 auxiliary file: Evaluierung.aux
+Database file #1: /Users/oppl/Documents/Dokumente/Literatur/archiv.bib
+You've used 24 entries,
+            1935 wiz_defined-function locations,
+            648 strings with 7404 characters,
+and the built_in function-call counts, 8901 in all, are:
+= -- 884
+> -- 287
+< -- 27
++ -- 95
+- -- 89
+* -- 672
+:= -- 1544
+add.period$ -- 78
+call.type$ -- 24
+change.case$ -- 158
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 394
+empty$ -- 667
+format.name$ -- 127
+if$ -- 1810
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 21
+newline$ -- 123
+num.names$ -- 76
+pop$ -- 156
+preamble$ -- 1
+purify$ -- 163
+quote$ -- 0
+skip$ -- 298
+stack$ -- 0
+substring$ -- 558
+swap$ -- 69
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 136
+warning$ -- 0
+while$ -- 67
+width$ -- 0
+write$ -- 320

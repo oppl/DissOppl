@@ -1,0 +1,23 @@
+\addvspace {10\p@ }
+\contentsline {xchapter}{Articulation Work}{1}{chapter.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Struktur von Arbeitsabläufen}}{2}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Konzeptualisierung von „Arbeit“ nach \citep {Strauss85} und \citep {Fujimura87}}}{3}{figure.1.2}
+\contentsline {xpart}{Umsetzung}{9}{part.1}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implementierung – Überblick}{9}{chapter.2}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Input \& Interpretation}{13}{chapter.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ReacTIVision Code}}{26}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Überblick über den Aufbau des Tabletop Interfaces}}{33}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces An Tokens angebrachte ReacTIVision-Codes zur Identifikation}}{34}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Arten von Modellierungstokens}}{35}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Rückwand von Container Tokens}}{36}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Geöffnetes Container Token}}{36}{figure.3.6}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Visualisierung und Modellierungsunterstützung}{39}{chapter.4}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Persistierung}{41}{chapter.5}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Untersuchungsdesign}{43}{chapter.6}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Untersuchungsergebnisse}{47}{chapter.7}

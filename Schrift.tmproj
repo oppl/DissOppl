@@ -10,7 +10,7 @@
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-17T17:27:26Z</date>
+			<date>2009-03-19T15:41:53Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -32,7 +32,7 @@
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-17T17:27:26Z</date>
+			<date>2009-03-19T15:41:53Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -106,12 +106,12 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>177</integer>
+				<integer>399</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>382</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>208</integer>
+			<integer>392</integer>
 		</dict>
 		<key>ImplementierungUeberblick.tex</key>
 		<dict>
@@ -132,14 +132,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>3</integer>
+				<integer>26</integer>
 				<key>line</key>
-				<integer>40</integer>
+				<integer>100</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>34</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -178,19 +178,7 @@
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
-	<key>showFileHierarchyPanel</key>
-	<true/>
-	<key>treeState</key>
-	<dict>
-		<key>img</key>
-		<dict>
-			<key>isExpanded</key>
-			<true/>
-			<key>subItems</key>
-			<dict/>
-		</dict>
-	</dict>
 	<key>windowFrame</key>
-	<string>{{63, 85}, {1178, 791}}</string>
+	<string>{{28, 87}, {1178, 791}}</string>
 </dict>
 </plist>
