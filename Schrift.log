@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  19 MAR 2009 16:53
+This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  20 MAR 2009 17:30
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -462,7 +462,7 @@ File: hdvipdfm.def 2007/02/07 v6.75r Hyperref driver for dvipdfm
 \pdfm@box=\box57
 \Fld@listcount=\count134
 )
-(./Schrift.aux (./ArticulationWork.aux) (./Werkzeug.aux) (./Evaluierung.aux))
+(./Schrift.aux (./Werkzeug.aux))
 \openout1 = `Schrift.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
@@ -687,26 +687,31 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 ] (./Schrift.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2.
-LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' undefined
-(Font)              using `EU1/HoeflerText(0)/m/n' instead on input line 56.
- [1
-
-
-])
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write7
 \openout7 = `Schrift.toc'.
 
- [2] (./Schrift.lof)
-\tf@lof=\write8
-\openout8 = `Schrift.lof'.
-
- [3
+LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' undefined
+(Font)              using `EU1/HoeflerText(0)/m/n' instead on input line 124.
+ [1
 
 
 ]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[2
+
+
+] (./Schrift.lof)
+\tf@lof=\write8
+\openout8 = `Schrift.lof'.
+
+ [3]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
@@ -727,90 +732,35 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-\openout2 = `ArticulationWork.aux'.
-
- (./ArticulationWork.tex
-Kapitel 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
-[1
-
-
-
-]
-File: img/ArticulationWork/ArbeitInteraktion.png Graphic file (type QTm)
- <use  "img/ArticulationWork/ArbeitInteraktion.png" >
-File: img/ArticulationWork/ArtikulationProduktion.png Graphic file (type QTm)
-
-<use  "img/ArticulationWork/ArtikulationProduktion.png" > [2] [3] [4]) [5]
 \openout2 = `Werkzeug.aux'.
 
+ (./Werkzeug.tex [1
 
-(./Werkzeug.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-[6
-
-
-
-
-] [7]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-[8] (./ImplementierungUeberblick.tex
-Kapitel 2.
-
-Overfull \hbox (40.61874pt too wide) in paragraph at lines 9--10
-\EU1/HoeflerText(0)/m/sl/12 mit den Arbeiten von Ishii & Ullmer. Auch die erste
- Anwendung, die sich mit Modellierungs-
- []
-
-
-Underfull \vbox (badness 3635) has occurred while \output is active []
-
- [9
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+HoeflerText(0) on inpu
-t line 46.
-LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 46.
-LaTeX Font Info:    Font shape `OMS/HoeflerText(0)/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 46.
-LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/bx/n' undefined
-(Font)              using `OT1/HoeflerText(0)/m/n' instead
-(Font)              for symbol `textendash' on input line 48.
-
-[10]) (./ImplementierungInput.tex [11]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[12
-
-
-]
-Kapitel 3.
+[2] (./ImplementierungInput.tex
+Kapitel 1.
 
 Overfull \hbox (0.1946pt too wide) in paragraph at lines 10--11
 \EU1/HoeflerText(0)/m/sl/12 Im Gegensatz zu Systemen mit dezidierten Eingabeger
 äten (wie Tastatur oder Maus)
  []
 
-[13]
+[3
+
+
+]
 Overfull \hbox (21.55469pt too wide) in paragraph at lines 21--22
 \EU1/HoeflerText(0)/m/sl/12 Technologien, die eine Erfassung dieser Parameter m
 it einer Genauigkeit im Zentimeter-
  []
 
-[14] [15]
+[4] [5]
 Overfull \hbox (1.31453pt too wide) in paragraph at lines 44--45
 []\EU1/HoeflerText(0)/m/sl/12 Kapazitive Systeme eignen sich also zur Positions
 bestimmung, nicht aber zur Iden-
@@ -825,13 +775,13 @@ bedingt zur Feststellung von Raum-
 
 Underfull \vbox (badness 1946) has occurred while \output is active []
 
- [16]
+ [6]
 Overfull \hbox (0.1073pt too wide) in paragraph at lines 68--69
 \EU1/HoeflerText(0)/m/sl/12 tisch) verdeckte Tokens. Eine Anfälligkeit gegenü
 ber anderen Störeinflüssen besteht
  []
 
-[17]
+[7]
 Overfull \hbox (3.1033pt too wide) in paragraph at lines 88--89
 \EU1/HoeflerText(0)/m/sl/12 Hinsichtlich des Tokenzustands sind im Kontext des 
 hier vorgestellten Anwendungs-
@@ -843,38 +793,38 @@ Overfull \hbox (0.11084pt too wide) in paragraph at lines 98--99
 amit ist es grundsätzlich möglich,
  []
 
-[18]
+[8]
 Overfull \hbox (0.65465pt too wide) in paragraph at lines 110--111
 \EU1/HoeflerText(0)/m/sl/12 ansonsten eventuell zu verwendende Kabel zu vermeid
 en. Eine Stromversorung über
  []
 
-[19]
+[9]
 Overfull \hbox (5.79407pt too wide) in paragraph at lines 117--118
 \EU1/HoeflerText(0)/m/sl/12 Technologien ”Bluetooth” und ”ZigBee” an. B
 luetooth erreicht höhere Übertragungs-
  []
 
-[20]
+[10]
 Underfull \hbox (badness 1331) in paragraph at lines 138--139
 \EU1/HoeflerText(0)/m/sl/12 macht. [][]\EU1/HoeflerText(0)/m/it/12 Frameworks f
 ür video-basierten Input für Tangible Interfaces \EU1/HoeflerText(0)/m/sl/12 
 sind hochs-
  []
 
-[21]
+[11]
 Overfull \hbox (4.83414pt too wide) in paragraph at lines 153--154
 []\EU1/HoeflerText(0)/m/sl/12 Konzeptuell existieren im Framework drei Arten vo
 n Komponenten: Context Wid-
  []
 
-[22]
+[12]
 Overfull \hbox (0.84055pt too wide) in paragraph at lines 179--180
 \EU1/HoeflerText(0)/m/sl/12 ren”, ”Aggragtoren” und ”Anwendungen / Aktu
 atoren” (siehe Grafik XY 1). ”Sensor”-
  []
 
-[23]
+[13]
 Overfull \hbox (25.82309pt too wide) in paragraph at lines 181--182
 []\EU1/HoeflerText(0)/m/sl/12 Die Verbindung der Komponenten erfolgt wie erwäh
 nt mittels einem daten-zentrierten
@@ -883,10 +833,17 @@ nt mittels einem daten-zentrierten
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-[25]
+ [14]
+[15]
 File: img/ImplementierungInput/ReactivisionCode.png Graphic file (type QTm)
- <use  "img/ImplementierungInput/ReactivisionCode.png" > [26] [27]
+ <use  "img/ImplementierungInput/ReactivisionCode.png" > [16]
+LaTeX Font Info:    Try loading font information for OMS+HoeflerText(0) on inpu
+t line 255.
+LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 255.
+LaTeX Font Info:    Font shape `OMS/HoeflerText(0)/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 255.
+ [17]
 Overfull \hbox (2.32306pt too wide) in paragraph at lines 262--263
 []\EU1/HoeflerText(0)/m/sl/12 ReacTIVision bietet die umfassendste Unterstützu
 ng zur Einbindung unterschied-
@@ -905,6 +862,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
 Underfull \hbox (badness 10000) in paragraph at lines 277--277
 \EU1/HoeflerText(0)/m/sl/12 unterstützten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+\EU1/HoeflerText(0)/m/sl/12 Plattformen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+\EU1/HoeflerText(0)/m/sl/12 via USB und
  []
 
 
@@ -952,19 +919,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\EU1/HoeflerText(0)/m/sl/12 Source-Code
  []
 
-[28] [29]
+[18] [19]
 Overfull \hbox (0.67482pt too wide) in paragraph at lines 312--313
 []\EU1/HoeflerText(0)/m/sl/12 Hinsichtlich der Skalierbarkeit der Frameworks k�
 �nnen aufgrund mangelnder Ver-
  []
 
-[30]
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-[32]
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
 File: img/ImplementierungInput/TischSeitenansicht.png Graphic file (type QTm)
- <use  "img/ImplementierungInput/TischSeitenansicht.png" > [33]
+
+<use  "img/ImplementierungInput/TischSeitenansicht.png" > [23]
 Overfull \hbox (10.67116pt too wide) in paragraph at lines 355--356
 \EU1/HoeflerText(0)/m/sl/12 In diesem Abschnitt werden die einzelnen durch die 
 Benutzer manipulierbaren Token-
@@ -974,83 +944,22 @@ File: img/ImplementierungInput/TokensCodes.jpg Graphic file (type QTm)
 <use  "img/ImplementierungInput/TokensCodes.jpg" >
 File: img/ImplementierungInput/TokenTypes.jpg Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/TokenTypes.jpg" > [34]
+<use  "img/ImplementierungInput/TokenTypes.jpg" > [24] [25]
 File: img/ImplementierungInput/ContainerRueckseite.jpg Graphic file (type QTm)
 
 <use  "img/ImplementierungInput/ContainerRueckseite.jpg" >
-Underfull \vbox (badness 1460) has occurred while \output is active []
-
- [35]
 File: img/ImplementierungInput/ContainerToken.jpg Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/ContainerToken.jpg" >)
-(./ImplementierungOutput.tex [36] [37]
+<use  "img/ImplementierungInput/ContainerToken.jpg" > [26] [27]))
+Underfull \vbox (badness 5970) has occurred while \output is active []
+
+ [28]
+[29] (./Schrift.bbl
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[38
-
-
-]
-Kapitel 4.
-) (./ImplementierungPersistence.tex [39]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-[40
-
-
-]
-Kapitel 5.
-)) [41]
-\openout2 = `Evaluierung.aux'.
-
- (./Evaluierung.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-[42
-
-
-
-
-]
-Kapitel 6.
-[43]
-Overfull \hbox (2.55486pt too wide) in paragraph at lines 35--37
-\EU1/HoeflerText(0)/m/sl/12 und Befragung modellierender Personen sowie der Unt
-ersuchung der Modellierungs-
- []
-
-
-Overfull \hbox (0.65111pt too wide) in paragraph at lines 35--37
-\EU1/HoeflerText(0)/m/sl/12 teraktion sondern die Verwendung des Werkzeugs selb
-st untersucht werden soll. Die
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-[45]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-[46
-
-
-]
-Kapitel 7.
-) [47] (./Schrift.bbl
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-[48
+[30
 
 
 
@@ -1065,7 +974,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[49]) (./Schrift.ind [50] [51
+[31]) (./Schrift.ind [32] [33
 
 
 
@@ -1084,16 +993,16 @@ Package minitoc(hints) Warning: <W0024>
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Schrift.log file.
 
-(./Schrift.aux (./ArticulationWork.aux) (./Werkzeug.aux) (./Evaluierung.aux))
+(./Schrift.aux (./Werkzeug.aux))
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
- 9454 strings out of 94863
- 151547 string characters out of 1171490
+ 9329 strings out of 94863
+ 148848 string characters out of 1171490
  293067 words of memory out of 1500000
- 12206 multiletter control sequences out of 10000+50000
- 10156 words of font info for 62 fonts, out of 1200000 for 2000
+ 12133 multiletter control sequences out of 10000+50000
+ 8809 words of font info for 54 fonts, out of 1200000 for 2000
  605 hyphenation exceptions out of 8191
- 35i,11n,44p,1768b,465s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 35i,11n,44p,1643b,465s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on Schrift.pdf (59 pages).
+Output written on Schrift.pdf (41 pages).

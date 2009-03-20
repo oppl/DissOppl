@@ -352,7 +352,7 @@ Das gesamte System ist so zerlegbar, dass es im Kofferraum eines Mittelklassewag
 \subsection{Tokens \& Input-Werkzeuge} % (fold)
 \label{sub:tokens_&_input_werkzeuge}
 
-In diesem Abschnitt werden die einzelnen durch die Benutzer manipulierbaren Token-Árten beschrieben. Neben den eigentlichen Modellierungstokens sind dies die Tokens zur Einbettung in Container sowie die Werkzeugtokens, von denen es Ausführungen zur generischen Interaktion mit dem System und Tokens zur Auslösung bzw. Kontrolle spezifischer Funktionalitäten gibt.
+In diesem Abschnitt werden die einzelnen durch die Benutzer manipulierbaren Token-Arten beschrieben. Neben den eigentlichen Modellierungstokens sind dies die Tokens zur Einbettung in Container sowie die Werkzeugtokens, von denen es Ausführungen zur Manipulation des Modells und Tokens zur Auslösung bzw. Kontrolle spezifischer Funktionalitäten gibt.
 
 \subsubsection{Modellierungs-Tokens} %fold 
 \label{subs:modellierungs_tokens}
@@ -397,13 +397,42 @@ Wie in der Beschreibung der Anforderungen gefordert und oben bereits beschrieben
 \subsubsection{Einbettbare Tokens} % (fold)
 \label{einbettbare_tokens}
 
+Die einbettbaren Token erlauben wie in Kapitel XY beschrieben die Verschachtelung von Modellen und das Hinzufügen von Zusatzinformation. Sie werden in einem definierten Interaktionsvorgang an Information gebunden und dann in einen Container gelegt. Hinsichtlich des Hardware-Designs sind folgende Anforderungen zu beachten:
+\begin{itemize}
+	\item Die Token müssen klein genug sein, um auch mehrere Einheiten ein einem Container unterzubringen.
+	\item Sie müssen gleichzeitig groß genug sein, um einen ReacTIVision-Code zur eindeutigen Information anzubringen.
+	\item Sie müssen so ausgeführt sein, dass haptisch oder akustisch erkennbar ist, ob in einem geschlossenen Container Tokens eingebettet sind oder nicht (z.B. durch Gewicht oder Geräusche beim Schütteln eines Containers).
+\end{itemize}
 
+Die einbettbaren Tokens wurden aus flexiblen Kunststoffmatten gefertigt und mit einem Metallstück versehen (siehe Abbildung \ref{fig:img_ImplementierungInput_ContainerToken}), das einerseits als Griff dient und andererseits sowohl das Gewicht erhöht und akustisches Feedback beim Schütteln eines Container-Tokens verursacht. Die einbettbaren Tokens wurden exemplarisch in drei Ausführungen gefertigt, je nach Art und Anzahl der einzubettenden Information kann eine Definition weiterer Tokens sinnvoll sein. Folgende Tokens wurden für den aktuellen Entwicklungsstand des Werkzeugs angefertigt:
+\begin{itemize}
+	\item Einbettung von Teilmodellen (inhärente Kernfunktionalität des Werkzeugs)
+	\item Einbettung von digitalen Ressourcen bzw. Dateien am lokalen Rechner (Erweiterung zur Verknüpfung des Modells mit den realen digitalen Ressourcen aus dem Arbeitskontext)
+	\item Einbettung von Fotos (Erweiterung zur Verknüpfung des Modells mit dem realen Arbeitskontext, z.B. mittels Fotos von Arbeitsmitteln oder Personen)
+\end{itemize}
+
+Alle Tokens sind auf der Unterseite mit einem ReacTIVision-Code versehen, der sie eindeutig identifiziert. Aufgrund der beschränkten Größe der Tokens ist dieser Code von der Kamera, die die Tischoberfläche erfasst, nur in der Mitte der Oberfläche erfassbar (da dort die geringsten Linsen-Verzerrungen auftreten und der Code somit gerade noch erkannt werden kann). Um etwaige Bedienungsprobleme zu vermeiden, wurde die deshalb die Interaktion mit einbettbaren Tokens (Registrierung, Binden von Information) auf die in Abbildung \ref{fig:img_ImplementierungInput_TischSeitenansicht} dargestellte zweite Kamera ("Registrierungs-Kamera") verlegt, die durch die physische Nähe zu den Modellierenden die Codes der einbettbaren Tokens problemlos erfassen kann.
 
 % subsubsection einbettbare_tokens (end)
 
 \subsubsection{Werkzeug Tokens} % (fold)
 \label{ssub:werkzeug_tokens}
 
+Neben den Tokens, die Modellierungsinhalt repräsentieren, wurden auch Tokens angefertigt, der Interaktion mit dem System ansich und der Steuerung der Modellierungsablaufs dienen. Hier sind zwei Arten zu unterscheiden: einerseits gibt es Werkzeuge, die der Manipulation des Modells dienen (z.B. Herstellung von Verbindungen zwischen Tokens, Benennung von Tokens) und andererseits solche, die der Steuerung von modellierungsunterstützender Zusatzfunktionalität dienen (etwa Tokens, die die Rückverfolgung der Modellierungshistorie kontrollieren). Außerdem sind orthogonal zu dieser Klassifizierung noch Tokens zu unterscheiden, die beim Einsatz ein Ereignis auslösen und solche, die die für einen Zustandswechsel des Systems sorgen, solange sie im Einsatz sind (gleich einem Schalter). Im Folgenden werden die einzelnen Werkzeuge beschrieben und den eben definierten Kategorien zugeordnet.
+
+\paragraph{Manipulation des Modellierungsablaufs} % (fold)
+\label{par:manipulation_des_modellierungsablaufs}
+
+Die bei der Verwendung des Systems wichtigsten Werkzeug Tokens sind jene, die zur Benennung und Verbindung von Modellierungs-Tokens verwendet werden. 
+
+-- Bild der Auswahl-Werkzeuge --
+
+% paragraph manipulation_des_modellierungsablaufs (end)
+
+\paragraph{Steuerung von Unterstützungsfunktionen} % (fold)
+\label{par:steuerung_von_unterstützungsfunktionen}
+
+% paragraph steuerung_von_unterstützungsfunktionen (end)
 % subsubsection werkzeug_tokens (end)
 % subsection tokens_&_input_werkzeuge (end)
 
@@ -413,13 +442,46 @@ Wie in der Beschreibung der Anforderungen gefordert und oben bereits beschrieben
 Semitransparente Oberfläche, Projektion von unten (Umlenkspiegel), Kamera von unten - Überleitung zur 
 Illumination via Interferenz zwischen Beamer und Kamera
 
-% subsection input_auf_der_tischoberfläche (end)
-
-\subsection{Illumination und Umgebungslichtabhängigkeit} % (fold)
+\subsubsection{Illumination und Umgebungslichtabhängigkeit} % (fold)
 \label{sub:illumination_und_umgebungslichtabhängigkeit}
 
-% subsection illumination_und_umgebungslichtabhängigkeit (end)
+% subsubsection illumination_und_umgebungslichtabhängigkeit (end)
+% subsection input_auf_der_tischoberfläche (end)
 % section konzeption_und_umsetzung_der_hardwarekomponenten (end)
+
+\section{Benutzerinteraktion mit dem Werkzeug} % (fold)
+\label{sec:benutzerinteraktion_mit_dem_werkzeug}
+
+\subsection{Hinzufügen und Verändern von Modellelementen} % (fold)
+\label{sub:hinzufügen_und_verändern_von_modellelementen}
+
+% subsection hinzufügen_und_verändern_von_modellelementen (end)
+
+\subsection{Benennen von Modellelementen} % (fold)
+\label{sub:benennen_von_modellelementen}
+
+% subsection benennen_von_modellelementen (end)
+
+\subsection{Verbinden von Modellelementen} % (fold)
+\label{sub:verbinden_von_modellelementen}
+
+% subsection verbinden_von_modellelementen (end)
+
+\subsection{Löschen von Elementen und Verbindungen} % (fold)
+\label{sub:subsection_name}
+
+% subsection subsection_name (end)
+
+\subsection{Einbettung von Zusatzinformation} % (fold)
+\label{sub:einbettung_von_zusatzinformation}
+
+% subsection einbettung_von_zusatzinformation (end)
+
+\subsection{Kontrolle der Modellierungshistorie} % (fold)
+\label{sub:kontrolle_der_modellierungshistorie}
+
+% subsection kontrolle_der_modellierungshistorie (end)
+% section benutzerinteraktion_mit_dem_werkzeug (end)
 
 \section{Erfassung der Benutzerinteraktion durch Software} % (fold)
 \label{sec:erfassung_der_benutzerinteraktion_durch_softfware}

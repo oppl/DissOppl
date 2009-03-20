@@ -17,6 +17,8 @@
 			<string>ArticulationWork.tex</string>
 			<key>lastUsed</key>
 			<date>2009-03-15T22:18:41Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -32,9 +34,7 @@
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-19T15:41:53Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-03-19T16:08:59Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -145,9 +145,7 @@
 	<key>openDocuments</key>
 	<array>
 		<string>Schrift.tex</string>
-		<string>ImplementierungUeberblick.tex</string>
 		<string>ImplementierungInput.tex</string>
-		<string>ArticulationWork.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -178,6 +176,18 @@
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
+	<key>showFileHierarchyPanel</key>
+	<true/>
+	<key>treeState</key>
+	<dict>
+		<key>img</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict/>
+		</dict>
+	</dict>
 	<key>windowFrame</key>
 	<string>{{28, 87}, {1178, 791}}</string>
 </dict>
