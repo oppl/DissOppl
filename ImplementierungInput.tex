@@ -420,17 +420,42 @@ Alle Tokens sind auf der Unterseite mit einem ReacTIVision-Code versehen, der si
 
 Neben den Tokens, die Modellierungsinhalt repräsentieren, wurden auch Tokens angefertigt, der Interaktion mit dem System ansich und der Steuerung der Modellierungsablaufs dienen. Hier sind zwei Arten zu unterscheiden: einerseits gibt es Werkzeuge, die der Manipulation des Modells dienen (z.B. Herstellung von Verbindungen zwischen Tokens, Benennung von Tokens) und andererseits solche, die der Steuerung von modellierungsunterstützender Zusatzfunktionalität dienen (etwa Tokens, die die Rückverfolgung der Modellierungshistorie kontrollieren). Außerdem sind orthogonal zu dieser Klassifizierung noch Tokens zu unterscheiden, die beim Einsatz ein Ereignis auslösen und solche, die die für einen Zustandswechsel des Systems sorgen, solange sie im Einsatz sind (gleich einem Schalter). Im Folgenden werden die einzelnen Werkzeuge beschrieben und den eben definierten Kategorien zugeordnet.
 
-\paragraph{Manipulation des Modellierungsablaufs} % (fold)
-\label{par:manipulation_des_modellierungsablaufs}
+\paragraph{Manipulation des Modells} % (fold)
+\label{par:manipulation_des_modells}
 
-Die bei der Verwendung des Systems wichtigsten Werkzeug Tokens sind jene, die zur Benennung und Verbindung von Modellierungs-Tokens verwendet werden. 
+Die bei der Verwendung des Systems wichtigsten Werkzeug-Tokens sind jene, die zur Benennung und Verbindung von Modellierungs-Tokens verwendet werden. Sie sind als auf die Oberfläche aufsetzbare Stäbe konzipiert, die unten eine Standfläche aufweisen, welche auch den Code aufnimmt. Am oberen Ende ist eine Verbreiterung angebracht, die eine stabile Handhabung gewährleistet (siehe Abbildung XY). Bedingt durch die kleine Standfläche kann nur der einfachste ReacTIVision-Code verwendet werden, der lediglich aus einem schwarzen Ring besteht. Das ReacTIVision-System erkennt diesen Ring nicht als regulären Code sondern als "Cursor", also als Zeiger, der ausschließlich eine Position in der Ebene besitzt, aber keine Rotation aufweist. Für die Verwendung zur Markierung von Modellierungs-Tokens zum Zwecke der Benennung oder Verbindung ist dies auch nicht notwendig.
 
 -- Bild der Auswahl-Werkzeuge --
 
-% paragraph manipulation_des_modellierungsablaufs (end)
+Das Modellierungswerkzeug muss zwischen unterschiedlichen Arten von Verbindungen unterscheiden können, da diese bei der vorgestellten Art der Externalisierung zum Einsatz kommen können. Im Wesentlichen ist zwischen ungerichteten und gerichteten Verbindern zu unterscheiden. Im Gegensatz zu ungerichteten Verbindern weisen gerichtete Verbinder Pfeilspitzen an einem Ende oder an beiden Enden auf, die von den Modellierenden zusätzlich mit Bedeutung belegt werden können. Für die Werkzeug-Tokens bedeutet dies, dass neben den bereits beschriebenen, einfachen Markierungs-Tokens auch solche zum Einsatz kommen, die anstatt einer runden Grundfläche eine größere, dreieckige Grundfläche aufweisen, die eine Pfeilspitze symbolisiert (siehe Abbildung XY rechts). Technisch werden die beiden Arten von Markierungs-Tokens durch einen zweiten Cursor-Code unterschieden, der an Tokens mit dreieckiger Grundfläche zusätzlich angebracht ist.
+
+Die Markierungs-Tokens sind der Kategorie der ein Ereignis auslösenden Tokens zuzuordnen. Dies bedeutet, dass das System zu jenem Zeitpunkt eine Aktion setzt, zudem das Token auf der Oberfläche aufgesetzt und erkannt wird. Wird ein Markierungs-Token auf der Oberfläche belassen, verursacht es keine weiteren Aktionen bis es entfernt und erneut aufgesetzt wird.
+
+Dem hingegen ist das zweite hier behandelte Token der Kategorie der den Systemzustand beeinflussenden Tokens zuzuordnen. Es hat also solange Auswirkungen auf den Modellierungsablauf, solange es auf der Oberfläche belassen wird. Die konkrete Funktionalität dieses zweiten Tokens ist der Wechsel ein jenen Werkzeugmodus, der ein explizites Entfernen bzw. Löschen von Bestandteilen des Modells, insbesondere Verbindungen, erlaubt. Das Token ist als Radiergummi ausgeführt und codiert so die Metapher des expliziten Herausnehmens von Information aus dem Modell (siehe Abbildung XY). An der Unterseite des Tokens ist eine ReacTIVision-Code angebracht um es gegenüber dem System eindeutig zu identifizieren.
+
+-- Bild des Radierer-Tokens --
+
+Der Einsatz der Radierer-Tokens verändert im System im Wesentlichen die Interpretation des Markierungs-Tokens, die nun anstatt der Herstellung einer Verbindung das Löschen derselben auslösen. Der detaillierte zugehörige Interaktionsablauf ist in Abschnitt \ref{sub:löschen_von_elementen} dargelegt.
+
+Ein weiteres Werkzeug im Kontext der Manipulation des Modells ist das Registrierungstoken für die Benennung von Blöcken mittels handgeschriebenen Haftnotizen. Wie in Abschnitt \ref{sub:benennen_von_modellelementen} im Detail ausgeführt, gibt es zwei Modalitäten um ein Modellierungs-Token zu benennen. Einerseits kann der herkömmlich Eingabeweg über die Tastatur gewählt werden, andererseits ist es möglich, die Modellierungs-Tokens mittels aufgeklebten Haftnotizen zu benennen. Um die handgeschriebene Information in die digitale Information übernehmen zu können, wird diese mittels Bildanalyse-Verfahren aus einem Bild extrahiert, das von der oben bereits erwähnten Registrierungskamera (siehe Abbildung \ref{fig:img_ImplementierungInput_TischSeitenansicht}) aufgenommen wird. Die Aufnahme wird durch das erwähnte Registrierungstoken ausgelöst. Dieses fungiert gleichzeitig als Halter für die noch unbeschrifteten Haftnotizen und weist am linken und rechten Rand jeweils einen ReacTIVision-Code auf (siehe Abbildung XY). Diese beiden Codes erlauben es, im Bild die Position der Haftnotiz und damit der zu extrahierenden Information zu identifizieren. 
+
+-- Bild des Registrierungstokens --
+
+Das Registrierungstoken ist in die Kategorie der ein Ereignis auslösende Tokens einzuordnen. Seine Verwendung erwies sich im praktischen Einsatz als wenig intuitiv und technisch instabil bzw. zu langsam, so dass wie erwähnt als alternativer Eingabeweg zusätzlich eine Tastatur ins System aufgenommen wurde. Die Interaktionsabläufe sind in beiden Fällen ähnlich und werden im Detail in Abschnitt \ref{sub:benennen_von_modellelementen} dargestellt.
+% paragraph manipulation_des_modells (end)
 
 \paragraph{Steuerung von Unterstützungsfunktionen} % (fold)
 \label{par:steuerung_von_unterstützungsfunktionen}
+
+Im Werkzeug wurden entsprechend den Anforderungen auf Kapitel XY eine den Modellierungsablauf unterstützende Funktionen implementiert. Diese werden über dezidierte Werkzeug-Tokens kontrolliert. Der Kernbereich dieser Art von Tokens ist die Steuerung aller Funktionen, die im Kontext der Verfolgbarkeit der Modellierungs-Historie umgesetzt wurden. 
+
+Das Snapshot-Token dient der durch die Benutzer ausgelösten Speicherung des aktuellen Systemzustandes. Wie in Kapitel XY beschrieben, verfolgt das System den Modellierungsablauf und speichert selbsttätig stabile Systemzustände (zur Identifikation dieser Zustände siehe Abschnitt \ref{sec:benutzerinteraktion_mit_dem_werkzeug}). Zusätzlich können Benutzer mit eben dem hier beschriebenen Token die explizite Aufnahme des aktuellen Modellzustandes veranlassen, wenn er ihnen wesentlich erscheint. Das Token ist als ereignis-auslösendes Element konzipiert und wird durch kurzes Aufsetzen des Tokens auf die Modellierungsoberfläche aktiviert. Physisch ist es als prototypisch als großes rotes Quadrat ausgeführt, an dessen Oberseite eine Griffstück angebracht ist. Auf der Unterseite sitzt wiederum ein ReacTIVision-Code zur Identifikation des Tokens.
+
+Neben der Speicherung von Modellzuständen können diese auch wieder abgerufen und in ihrer zeitlichen Sequenz dargestellt werden. Zur Aktivierung des Historien-Modus und zur Navigation in der Zeitlinie wurde ein weiteres Token eingeführt, das als einziges sowohl der zustandsverändernden als auch der ereignisauslösenden Token-Kategorie zuzuordnen ist. Zustandsverändernd wirkt das Token insofern, als das das Aufsetzen auf die Oberfläche das System in den Historienmodus schaltet und ein Entfernen wiederum die aktuelle Modell-Ansicht wieder herstellt. Durch Rotation des Token im bzw. gegen den Uhrzeigersinn kann nun durch die in ihrer zeitlichen Abfolge angeordneten gespeicherten Modellzustände navigiert werden. Die Rotation löst dabei jeweils nach einem bestimmten zurückgelegten Drehwinkel ein Ereignis aus, das den entsprechend vorhergehenden bzw. nachfolgenden Systemzustand abruft. Um die Rotation möglichst natürlich handhabbar zu machen, ist das Token mit runder Grundfläche etwa mit Faustdurchmesser ausgeführt (siehe Abbildung XY). Auf der Unterseite der Grundfläche ist wiederum der ReacTIVision-Code angebracht.
+
+-- Bild des Zeitglases --
+
+Das letze hier behandelte Token zur Steuerung einer Unterstützungsfunktion ist jenes, dass die in Kapitel XY als Anforderung definierte und in Kapitel XY im Detail beschriebene Wiederherstellungsunterstützung auslöst. Die Verwendung dieses Tokens ist identisch mit jener des oben beschriebenen Snapshot-Tokens. Wie dieses ist es der ereignisauslösenden Kategorie zuzuordnen und aktiviert die Wiederherstellungsunterstützung wenn es bei aktivem Historien-Modus auf der Modellierungsoberfläche aufgesetzt wird. Die eigentliche Wiederherstellungsunterstützung ist dem Output-Kanal zuzuordnen und in ihrem Ablauf deshalb im Detail in Kapitel XY (Abschnitt XY) beschrieben.
 
 % paragraph steuerung_von_unterstützungsfunktionen (end)
 % subsubsection werkzeug_tokens (end)
@@ -439,8 +464,11 @@ Die bei der Verwendung des Systems wichtigsten Werkzeug Tokens sind jene, die zu
 \subsection{Input auf der Tischoberfläche} % (fold)
 \label{sub:input_auf_der_tischoberfläche}
 
-Semitransparente Oberfläche, Projektion von unten (Umlenkspiegel), Kamera von unten - Überleitung zur 
-Illumination via Interferenz zwischen Beamer und Kamera
+Nachdem nun die Tokens beschrieben wurden, die den Benutzern unmittelbar zur Interkation mit dem System dienen, liegt der Fokus dieses Abschnitts nun auf der technischen Umsetzung der Erfassung der aktuell auf der Oberfläche sichtbaren ReacTIVision-Codes und damit Tokens.
+
+Wie bereits oben beschrieben, wurde bei der Umsetzung des optischen Tracking-Ansatzes eine Identifikation der Codes von der Unterseite gewählt, um etwaigen Erkennungsproblemen mit Verdeckungen vorzubeugen. Dies bedingt, dass die Modellierungsoberfläche für Kameras möglichst unsichtbar sein muss und den Identifikationsvorgang nicht negativ beeinflussen soll. Grundsätzlich bietet sich dazu der Einsatz einer (Acryl-)Glasplatte an, die keinen Einfluss auf die Erfassung der auf ihr platzierten Codes hat. Der Einsatz einer (Acryl-)Glasplatte bringt jedoch zwei Probleme mit sich. Einerseits kann die Verwendung einer transparenten Oberfläche dazu führen, dass Modellierende durch den Einblick auf den inneren Aufbau des Systems von der Aufgabe abgelenkt bzw. irritiert werden. Andererseits verhindert eine transparente Oberfläche den Einsatz dieser als Rückkanal zur Darstellung von zusätzlicher Information durch einen Videoprojektor. Dies ist im konkreten Fall besonders schwerwiegend, da die generischen Modellierungs-Tokens erst durch die Projektion der zusätzlichen Information explizit bedeutungstragend werden. Deswegen wurde eine semi-transparente Acrylglas-Oberfläche eingesetzt, die einerseits für die Erfassung der Codes ausreichend durchlässig ist, andererseits aber auch das projizierte Licht soweit bricht, dass die darzustellende Information auf der Oberfläche sichtbar ist.
+
+Die Kamera sitzt wie in Abbildung \ref{fig:img_ImplementierungInput_TischSeitenansicht} schematisch dargestellt in der Mitte der Bodenplatte. Die Kamera ist mit einem Weitwinkel-Objektiv ausgestattet, das es erlaubt, die gesamte Oberfläche zu erfassen, ohne dass der Tisch höher als 100 cm sein muss (Öffnungswinkel etwa 45°). Die Kamera hat eine native Auflösung von 1024 x 768 Bildpunkten und ist über eine Firewire-Schnittstelle (IEEE 1394 REF!) mit dem Rechner verbunden. Die Kamera kann so bis zu 30 Bilder pro Sekunde an den Rechner senden. Das Weitwinkelobjektiv verursacht Verzerrungen in den Randbereichen, was trotz der Möglichkeit von ReacTIVision, das Bild softwareseitig zu entzerren, dazu führt, dass links und rechts etwa 10 cm der Tischoberfläche nicht zur Idenifikation von Codes verwendet werden können. Dieser Problematik kann aufgrund der beschränkten Kameraauflösung nur durch größere Codes begegnet werden, was durch die beschränkte Größe der Tokens nicht möglich ist. Im Prototypen wurden deshalb die Randbereiche des Systems ausgespart und können zur Ablage von aktuell nicht eingesetzten Tokens verwendet werden. 
 
 \subsubsection{Illumination und Umgebungslichtabhängigkeit} % (fold)
 \label{sub:illumination_und_umgebungslichtabhängigkeit}
@@ -449,6 +477,15 @@ Illumination via Interferenz zwischen Beamer und Kamera
 % subsection input_auf_der_tischoberfläche (end)
 % section konzeption_und_umsetzung_der_hardwarekomponenten (end)
 
+\section{Erfassung der Benutzerinteraktion durch Software} % (fold)
+\label{sec:erfassung_der_benutzerinteraktion_durch_softfware}
+
+% section erfassung_der_benutzerinteraktion_durch_software (end)
+
+\section{Interpretation der Rohdaten und Stabilisierung der Erkennungsleistung} % (fold)
+\label{sec:interpretation_der_rohdaten_und_stabilisierung_der_erkennungsleistung}
+
+% section interpretation_der_rohdaten_und_stabilisierung_der_erkennungsleistung (end)
 \section{Benutzerinteraktion mit dem Werkzeug} % (fold)
 \label{sec:benutzerinteraktion_mit_dem_werkzeug}
 
@@ -468,9 +505,9 @@ Illumination via Interferenz zwischen Beamer und Kamera
 % subsection verbinden_von_modellelementen (end)
 
 \subsection{Löschen von Elementen und Verbindungen} % (fold)
-\label{sub:subsection_name}
+\label{sub:löschen_von_elementen}
 
-% subsection subsection_name (end)
+% subsection löschen_von_elementen (end)
 
 \subsection{Einbettung von Zusatzinformation} % (fold)
 \label{sub:einbettung_von_zusatzinformation}
@@ -483,13 +520,4 @@ Illumination via Interferenz zwischen Beamer und Kamera
 % subsection kontrolle_der_modellierungshistorie (end)
 % section benutzerinteraktion_mit_dem_werkzeug (end)
 
-\section{Erfassung der Benutzerinteraktion durch Software} % (fold)
-\label{sec:erfassung_der_benutzerinteraktion_durch_softfware}
-
-% section erfassung_der_benutzerinteraktion_durch_software (end)
-
-\section{Interpretation der Rohdaten und Stabilisierung der Erkennungsleistung} % (fold)
-\label{sec:interpretation_der_rohdaten_und_stabilisierung_der_erkennungsleistung}
-
-% section interpretation_der_rohdaten_und_stabilisierung_der_erkennungsleistung (end)
 % chapter input_&_interpretation (end)

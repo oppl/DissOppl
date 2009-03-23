@@ -32,18 +32,18 @@
 \contentsline {subsubsection}{Modellierungs-Tokens}{24}{section*.25}
 \contentsline {subsubsection}{Einbettbare Tokens}{26}{section*.26}
 \contentsline {subsubsection}{Werkzeug Tokens}{28}{section*.27}
-\contentsline {paragraph}{Manipulation des Modellierungsablaufs}{28}{section*.28}
-\contentsline {paragraph}{Steuerung von Unterstützungsfunktionen}{28}{section*.29}
-\contentsline {subsection}{\numberline {1.2.3}Input auf der Tischoberfläche}{28}{subsection.1.2.3}
-\contentsline {subsubsection}{Illumination und Umgebungslichtabhängigkeit}{29}{section*.30}
-\contentsline {section}{\numberline {1.3}Benutzerinteraktion mit dem Werkzeug}{29}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Hinzufügen und Verändern von Modellelementen}{29}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Benennen von Modellelementen}{29}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Verbinden von Modellelementen}{29}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Löschen von Elementen und Verbindungen}{29}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Einbettung von Zusatzinformation}{29}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Kontrolle der Modellierungshistorie}{29}{subsection.1.3.6}
-\contentsline {section}{\numberline {1.4}Erfassung der Benutzerinteraktion durch Software}{29}{section.1.4}
-\contentsline {section}{\numberline {1.5}Interpretation der Rohdaten und Stabilisierung der Erkennungsleistung}{29}{section.1.5}
-\contentsline {chapter}{Literaturverzeichnis}{31}{chapter*.31}
-\contentsline {part}{Index}{32}{chapter*.31}
+\contentsline {paragraph}{Manipulation des Modells}{28}{section*.28}
+\contentsline {paragraph}{Steuerung von Unterstützungsfunktionen}{30}{section*.29}
+\contentsline {subsection}{\numberline {1.2.3}Input auf der Tischoberfläche}{31}{subsection.1.2.3}
+\contentsline {subsubsection}{Illumination und Umgebungslichtabhängigkeit}{32}{section*.30}
+\contentsline {section}{\numberline {1.3}Erfassung der Benutzerinteraktion durch Software}{32}{section.1.3}
+\contentsline {section}{\numberline {1.4}Interpretation der Rohdaten und Stabilisierung der Erkennungsleistung}{32}{section.1.4}
+\contentsline {section}{\numberline {1.5}Benutzerinteraktion mit dem Werkzeug}{32}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Hinzufügen und Verändern von Modellelementen}{32}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Benennen von Modellelementen}{32}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Verbinden von Modellelementen}{32}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Löschen von Elementen und Verbindungen}{32}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}Einbettung von Zusatzinformation}{32}{subsection.1.5.5}
+\contentsline {subsection}{\numberline {1.5.6}Kontrolle der Modellierungshistorie}{32}{subsection.1.5.6}
+\contentsline {chapter}{Literaturverzeichnis}{33}{chapter*.31}
+\contentsline {part}{Index}{34}{chapter*.31}

@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  20 MAR 2009 17:30
+This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  24 MAR 2009 00:05
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -950,20 +950,28 @@ File: img/ImplementierungInput/ContainerRueckseite.jpg Graphic file (type QTm)
 <use  "img/ImplementierungInput/ContainerRueckseite.jpg" >
 File: img/ImplementierungInput/ContainerToken.jpg Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/ContainerToken.jpg" > [26] [27]))
-Underfull \vbox (badness 5970) has occurred while \output is active []
-
- [28]
-[29] (./Schrift.bbl
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
+<use  "img/ImplementierungInput/ContainerToken.jpg" > [26] [27] [28]
+Overfull \hbox (23.73071pt too wide) in paragraph at lines 432--433
+\EU1/HoeflerText(0)/m/sl/12 zudem das Token auf der Oberfläche aufgesetzt und 
+erkannt wird. Wird ein Markierungs-
  []
 
-[30
+
+Overfull \hbox (0.2148pt too wide) in paragraph at lines 438--439
+\EU1/HoeflerText(0)/m/sl/12 dung das Löschen derselben auslösen. Der detailli
+erte zugehörige Interaktionsablauf
+ []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [29]
+Overfull \hbox (7.57089pt too wide) in paragraph at lines 454--455
+\EU1/HoeflerText(0)/m/sl/12 fen und in ihrer zeitlichen Sequenz dargestellt wer
+den. Zur Aktivierung des Historien-
+ []
+
+[30] [31])) [32] (./Schrift.bbl
 ./Schrift.bbl:66: Misplaced alignment tab character &.
 l.66 \newblock {\em New Technology, Work &
                                            Employment}, 20(2):166 -- 181.
@@ -974,7 +982,11 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[31]) (./Schrift.ind [32] [33
+[33
+
+
+
+]) (./Schrift.ind [34] [35
 
 
 
@@ -998,11 +1010,11 @@ LaTeX Font Info:    Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  9329 strings out of 94863
- 148848 string characters out of 1171490
- 293067 words of memory out of 1500000
+ 148841 string characters out of 1171490
+ 292067 words of memory out of 1500000
  12133 multiletter control sequences out of 10000+50000
  8809 words of font info for 54 fonts, out of 1200000 for 2000
  605 hyphenation exceptions out of 8191
  35i,11n,44p,1643b,465s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on Schrift.pdf (41 pages).
+Output written on Schrift.pdf (43 pages).

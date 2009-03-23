@@ -10,15 +10,13 @@
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-19T15:41:53Z</date>
+			<date>2009-03-20T16:14:31Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ArticulationWork.tex</string>
 			<key>lastUsed</key>
 			<date>2009-03-15T22:18:41Z</date>
-			<key>selected</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -34,7 +32,9 @@
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-19T16:08:59Z</date>
+			<date>2009-03-23T10:02:01Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -52,7 +52,7 @@
 			<key>filename</key>
 			<string>Werkzeug.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-05T20:34:52Z</date>
+			<date>2009-03-20T16:20:18Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -106,12 +106,12 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>399</integer>
+				<integer>449</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>311</integer>
 			<key>firstVisibleLine</key>
-			<integer>392</integer>
+			<integer>413</integer>
 		</dict>
 		<key>ImplementierungUeberblick.tex</key>
 		<dict>
@@ -132,19 +132,34 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>100</integer>
+				<integer>138</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>34</integer>
+			<integer>113</integer>
+		</dict>
+		<key>Werkzeug.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>Schrift.tex</string>
+		<string>Werkzeug.tex</string>
 		<string>ImplementierungInput.tex</string>
 	</array>
 	<key>shellVariables</key>
@@ -176,18 +191,6 @@
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
-	<key>showFileHierarchyPanel</key>
-	<true/>
-	<key>treeState</key>
-	<dict>
-		<key>img</key>
-		<dict>
-			<key>isExpanded</key>
-			<true/>
-			<key>subItems</key>
-			<dict/>
-		</dict>
-	</dict>
 	<key>windowFrame</key>
 	<string>{{28, 87}, {1178, 791}}</string>
 </dict>
