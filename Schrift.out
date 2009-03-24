@@ -1,21 +1,23 @@
 \BOOKMARK [-1][-]{part.1}{Umsetzung}{}
-\BOOKMARK [0][-]{chapter.1}{Input \046 Interpretation}{part.1}
+\BOOKMARK [0][-]{chapter.1}{Input und Interpretation}{part.1}
 \BOOKMARK [1][-]{section.1.1}{Möglichkeiten zur Erfassung von Benutzerinteraktion}{chapter.1}
 \BOOKMARK [2][-]{subsection.1.1.1}{In Frage kommende technologische Ansätze}{section.1.1}
 \BOOKMARK [2][-]{subsection.1.1.2}{In Frage kommende Frameworks}{section.1.1}
 \BOOKMARK [2][-]{subsection.1.1.3}{Technologieentscheidung}{section.1.1}
 \BOOKMARK [1][-]{section.1.2}{Konzeption und Umsetzung der Hardwarekomponenten}{chapter.1}
 \BOOKMARK [2][-]{subsection.1.2.1}{Überblick}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.2}{Tokens \046 Input-Werkzeuge}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.2}{Tokens und Input-Werkzeuge}{section.1.2}
 \BOOKMARK [2][-]{subsection.1.2.3}{Input auf der Tischoberfläche}{section.1.2}
 \BOOKMARK [1][-]{section.1.3}{Erfassung der Benutzerinteraktion durch Software}{chapter.1}
-\BOOKMARK [1][-]{section.1.4}{Interpretation der Rohdaten und Stabilisierung der Erkennungsleistung}{chapter.1}
-\BOOKMARK [1][-]{section.1.5}{Benutzerinteraktion mit dem Werkzeug}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.5.1}{Hinzufügen und Verändern von Modellelementen}{section.1.5}
-\BOOKMARK [2][-]{subsection.1.5.2}{Benennen von Modellelementen}{section.1.5}
-\BOOKMARK [2][-]{subsection.1.5.3}{Verbinden von Modellelementen}{section.1.5}
-\BOOKMARK [2][-]{subsection.1.5.4}{Löschen von Elementen und Verbindungen}{section.1.5}
-\BOOKMARK [2][-]{subsection.1.5.5}{Einbettung von Zusatzinformation}{section.1.5}
-\BOOKMARK [2][-]{subsection.1.5.6}{Kontrolle der Modellierungshistorie}{section.1.5}
+\BOOKMARK [2][-]{subsection.1.3.1}{Interpretation der Rohdaten}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.2}{Stabilisierung der Erkennungsleistung}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.3}{Tracking des Modellzustandes}{section.1.3}
+\BOOKMARK [1][-]{section.1.4}{Benutzerinteraktion mit dem Werkzeug}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.4.1}{Hinzufügen und Verändern von Modellelementen}{section.1.4}
+\BOOKMARK [2][-]{subsection.1.4.2}{Benennen von Modellelementen}{section.1.4}
+\BOOKMARK [2][-]{subsection.1.4.3}{Verbinden von Modellelementen}{section.1.4}
+\BOOKMARK [2][-]{subsection.1.4.4}{Löschen von Elementen und Verbindungen}{section.1.4}
+\BOOKMARK [2][-]{subsection.1.4.5}{Einbettung von Zusatzinformation}{section.1.4}
+\BOOKMARK [2][-]{subsection.1.4.6}{Kontrolle der Modellierungshistorie}{section.1.4}
 \BOOKMARK [0][-]{chapter*.31}{Literaturverzeichnis}{part.1}
 \BOOKMARK [-1][-]{chapter*.31}{Index}{}

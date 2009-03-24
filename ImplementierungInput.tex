@@ -1,6 +1,6 @@
-\chapter{Input \& Interpretation} % (fold)
+\chapter{Input und Interpretation} % (fold)
 \label{cha:input_&_interpretation}
-In diesem Kapitel wird jener Teil des Werkzeuges beschrieben, in dem die Interaktion der der Benutzer mit dem Werkzeug erfasst und interpretiert wird. Der erste Abschnitt behandelt grundlegende Möglichkeiten zur Erfassung der Benutzerinteraktion auf tisch-basierten Benutzungsschnittstellen und endet mit der Identifikation der im konkreten Anwendungsfalls geeignetsten Technologie. Diese wird durch die Beschreibung von dafür verfügbaren Frameworks konkretisiert, was letzendlich in der Entscheidung für ein konkretes Produkt mündet.
+In diesem Kapitel wird jener Teil des Werkzeuges beschrieben, in dem die Interaktion der Benutzer mit dem Werkzeug erfasst und interpretiert wird. Der erste Abschnitt behandelt grundlegende Möglichkeiten zur Erfassung der Benutzerinteraktion auf tisch-basierten Benutzungsschnittstellen und endet mit der Identifikation der im konkreten Anwendungsfalls geeignetsten Technologie. Diese wird durch die Beschreibung von dafür verfügbaren Frameworks konkretisiert, was letztendlich in der Entscheidung für ein konkretes Produkt mündet.
 
 Basierend auf dieser Entscheidung wird in den folgenden beiden Abschnitten auf das Design der Hard- und Softwarekomponenten eingegangen, die unmittelbar der Eingabe von Information durch Benutzer dienen. Der Ausgabeaspekt wird hier bewusst ausgeklammert und im nächsten Kapitel beschrieben. Dieses Kapitel endet mit eine Beschreibung der Interpretationsroutinen, die aus den durch das Framework gelieferten Rohdaten höherwertige, anwendungsspezifische Information extrahieren und diese den nachgeordneten Software-Modulen zur Verfügung stellen.
 
@@ -276,7 +276,7 @@ Von allen drei Systemen steht der Source-Code zur Verfüng. Lizenzrechtlich erla
 		 & ARToolkit & Visual Codes & ReacTIVision \\ \hline \hline
 		Kamera\-unterstützung 		  		& ? & nativ nur für Mobiltelefone & nativ auf allen unterstützten Plattformen via USB und Firewire \\ \hline
 		Plattformen 			  	  		& x & Java-basiert auf allen Plattformen & Windows, Linux, Mac OS X \\ \hline
-		Schnittstelle zu Java 		  		& ja & ja & ja \\ \hline
+		Schnittstelle zu Java 		  		& via Dritt-Software & nativ & ja \\ \hline
 		Stabilität der Bilderkennung 	  	& eher hoch & eher hoch & hoch \\ \hline
 		Geschwindigkeit der Bilderkennung 	& > 10 fps & > 10 fps & > 10 fps \\ \hline
 		Anzahl von Codes 		  			& eher hoch & hoch & hoch \\ \hline
@@ -349,7 +349,7 @@ Das gesamte System ist so zerlegbar, dass es im Kofferraum eines Mittelklassewag
 
 % subsection Überblick (end)
 
-\subsection{Tokens \& Input-Werkzeuge} % (fold)
+\subsection{Tokens und Input-Werkzeuge} % (fold)
 \label{sub:tokens_&_input_werkzeuge}
 
 In diesem Abschnitt werden die einzelnen durch die Benutzer manipulierbaren Token-Arten beschrieben. Neben den eigentlichen Modellierungstokens sind dies die Tokens zur Einbettung in Container sowie die Werkzeugtokens, von denen es Ausführungen zur Manipulation des Modells und Tokens zur Auslösung bzw. Kontrolle spezifischer Funktionalitäten gibt.
@@ -473,6 +473,16 @@ Die Kamera sitzt wie in Abbildung \ref{fig:img_ImplementierungInput_TischSeitena
 \subsubsection{Illumination und Umgebungslichtabhängigkeit} % (fold)
 \label{sub:illumination_und_umgebungslichtabhängigkeit}
 
+Optische Tracking-Systeme leiden generell unter ihrer Abhängigkeit von den Umgebungslichtbedingungen. Probleme, die in diesem Zusammenhang auftreten, hängen nicht nur mit der absoluten Stärke der Einstrahlung von Umgebungslicht zusammen (die zu schwach, aber auch zu stark sein kann), sondern auch mit der Änderung der Lichtbedingungen über die Zeit. Gegenstand dieses Abschnitts ist die genauere Erörterung dieser Problematik und die Darlegung von Möglichkeiten ihr zu begegnen.
+
+Zu geringe Umgebungshelligkeit führt zu Erkennungsproblemen, da der Kamera nicht ausreichen Licht und damit Kontrast zur Verfügung steht, um ein Bild zu liefern, in dem die ReacTIVision-Codes zuverlässig identifiziert werden können (dies gilt im Übrigen auch für alle zusätzlichen optischen Identifikations-Ansätze). Das Problem wird zusätzlich verschärft, da zur Aufnahme des Bildes nicht das Spektrum des sichtbaren Lichts verwendet wird, sondern in den Infrarot-Bereich ("near infrared", Wellenlänge etwa 550 nm) ausgewichen wird. Dies ist notwendig, da andernfalls Reflexionen des auf die Oberfläche projizierten Output-Kanals (siehe Abschnitt XY) erfasst werden, was eine Identifikation der Codes unmöglich macht. Die meisten Kunstlicht-Quellen strahlen jedoch nicht ausreichend Licht im verwendeten Infrarot-Bereich ab, um eine ausreichende und gleichmäßige Ausleuchtung der Oberfläche zu gewährleisten. Dieser Problematik wurde dadurch begegnet, dass dezidierte im betreffenden Infrarot-Bereich strahlende Beleuchtungsquellen in den Tisch (konkret in den Ecken der Bodenplatte) eingebaut wurden (siehe Abbildung \ref{fig:img_ImplementierungInput_TischSeitenansicht}). Um eine gleichmäßige, diffuse Ausleuchtung zu erreichen, wurde der Tisch rundum mit weißen Kunststoffplatten mit strukturierter Oberfläche verkleidet, die das vorhandene Licht streuen. Um Reflexionen der Lichtquellen (die nach oben abstrahlen) auf der Oberfläche zu vermeiden, wurden etwa 50 cm über den Lichtquellen Streuscheiben angebracht. Es konnte so eine ausreichend diffuse Beleuchtungssituation geschaffen werden, deren Stärke ausreicht, um die Codes auch bei vollkommener Dunkelheit in der Umgebung zuverlässig zu erkennen.
+
+Das zweite Problemfeld betrifft zu starke Lichteinstrahung aus der Umgebung. Zu hohe Umgebungshelligkeit führt zu einem Überstrahlen des Kamerabildes in manchen Bereichen, womit in Teilen der Oberfläche keine Codes erkannt werden können. Dies liegt in dem von ReacTIVision eingesetzten adaptiven Code-Extraktions-Algorithmus begründet, der bei schwachen oder guten Beleuchtungsverhältnissen leichte Unterschiede in der Ausleuchtung korrigieren kann, bei starken Unterschieden oder großer Helligkeit jedoch nicht mehr zuverlässig funktioniert. Wie bereits erwähnt, arbeitet die Kamera im Infrarot-Bereich. Dies ist dann problematisch, wenn starke Sonneneinstrahlung vorhanden ist, da diese einen hohen Anteil an Lichts der relevanten Wellenlänge enthält. Auch bestimmte Kunstlichtquellen wie Leuchtstoffröhren, die unmittelbar über dem Tisch angebracht sind, verursachen Probleme. Während punktuelle Helligkeitszonen ("Spotlights") nicht durch die Software korrigiert werden können und vermieden werden müssen, kann eine generell zu hohe Umgebungshelligkeit durch die Kalibrierung der ReacTIVision-Software bzw. der ihr zugrunde liegenden Kamera-Treiber korrigiert werden. Im Konkreten ermöglicht ReacTIVision bei Firewire-Kameras eine Veränderung der Kamerablende (größere Blende - weniger Licht am Sensor) sowie der Signalverstärkung (weniger Verstärkung - dunkleres Bild). Durch Veränderung dieser beiden Parameter kann nahezu jede Beleuchtungssituation korrigiert werden, sofern sie über die Zeit stabil bleibt.
+
+Bei Umgebungslicht-Bedingungen, die sich über die Zeit verändern (z.B. bei Tageslicht, das sich durch Wolkenbewegungen oder tageszeitabhängig verändert), kann die Konfiguration des ReacTIVision-Frameworks nicht sinnvoll eingesetzt werden, da sich nicht automatisiert über eine Software-Schnittstelle vorgenommen werden kann, sondern manuell durchgeführt werden muss. Leichte Veränderung der Helligkeit kann das ReacTIVision-Framework durch den adaptiven Erkennungs-Algorithmus noch selbst korrigieren, bei größeren Veränderungen funktioniert jedoch die Erkennung nicht mehr stabil. Dies äußert sich darin, dass Codes für einige Sekundenbruchteile von der Kamera nicht mehr erfasst werden, was wiederum zu unerwünschten von Framework gemeldeten Ereignissen führt (z.B. dass ein Container-Token verschwunden wäre, obwohl es sich physisch noch auf der Oberfläche befindet). Da diese Erkennungsausfälle im Grenzbereich grade noch möglicher Erkennung zwar regelmäßig auftreten, in ihrer zeitlichen Ausdehung aber eher kurz sind, wurde auf Ebene der Interpretation der vom ReacTIVision-Framework gemeldeten Ereignisse eine Stabilisierungsebene eingezogen, die versucht, Ausfälle und Fehlerkennungen zu identifizieren und dementsprechend nicht an die übergeordneten Software-Ebenen weiterzugeben. Die in dieser Ebene umgesetzten Maßnahmen sind in Abschnitt \ref{sub:stabilisierung_der_erkennungsleistung} beschrieben.
+
+Durch die Kombination aller beschriebenen Maßnahmen ist es möglich, eine sehr weitgehende Einsetzbarkeit der Werkzeugs unabhängig von den herrschenden Umgebungslichtbedingungen zu gewährleisten. Lediglich bei extremen Verhältnissen wie direkter Einstrahlung von in der Stärke stark variierenden Lichtquellen verhindert einen zuverlässigen Einsatz des Systems.  
+
 % subsubsection illumination_und_umgebungslichtabhängigkeit (end)
 % subsection input_auf_der_tischoberfläche (end)
 % section konzeption_und_umsetzung_der_hardwarekomponenten (end)
@@ -480,12 +490,35 @@ Die Kamera sitzt wie in Abbildung \ref{fig:img_ImplementierungInput_TischSeitena
 \section{Erfassung der Benutzerinteraktion durch Software} % (fold)
 \label{sec:erfassung_der_benutzerinteraktion_durch_softfware}
 
+Das Software-System, das die Benutzereingaben von der Hardwareschnittstelle bis hin zur abstrahierten Modellierungsinformation aufbereitet, ist Gegenstand dieses Abschnitts. Die darüber hinausgehenden Komponenten sind Gegenstand der Kapitel X und Y. Die hier behandelten Software-Komponenten sind
+\begin{itemize}
+	\item jene Komponente, die die Rohdaten von ReacTIVision empfängt und sie hinsichtlich der Modellierungsinformation auswertet und interpretiert,
+	\item die Komponente, die für die Stabilisierung der Erkennungsleistung sorgt, wenn Fehlerkennung oder Erkennungsausfälle auftreten, sowie
+	\item jene Komponente, die für das Tracking des Modellzustandes und damit für die Nachvollziehbarkeit des Modellierungsablaufs zuständig ist. 
+\end{itemize}
+Wie in Abschnitt \ref{subs:vergleich_generische_frameworks} ausgeführt, soll zur Verknüpfung dieser Komponenten das TUIpist-Framework zum Einsatz kommen. Im vorliegenden Prototypen wurde das System jedoch zwar modular aber ohne Einsatz des TUIpist-Frameworks implementiert. Eine erste Umsetzung der Architektur auf die TUIpist-Strukturen liegt vor, ist jedoch noch nicht im produktiven Einsatz. An dieser Stelle wird deshalb der Aufbau der Komponenten in ihrer derzeitigen Implementierung beschrieben, da diese auch bei der Evaluierung des Werkzeugs eingesetzt wurde. Erste Umsetzungserfahrungen deuten darauf hin, dass der Aufwand zur Einbindung von TUIpist sich wie erwartet in Grenzen hält.
 % section erfassung_der_benutzerinteraktion_durch_software (end)
 
-\section{Interpretation der Rohdaten und Stabilisierung der Erkennungsleistung} % (fold)
-\label{sec:interpretation_der_rohdaten_und_stabilisierung_der_erkennungsleistung}
+\subsection{Interpretation der Rohdaten} % (fold)
+\label{sub:interpretation_der_rohdaten}
 
-% section interpretation_der_rohdaten_und_stabilisierung_der_erkennungsleistung (end)
+Das ReacTIVision-Framework liefert wie in Abschnitt \ref{par:reactivision} beschrieben die aus dem Kamerabild extrahierten Informationen bezüglich der erkennbaren Codes in einem propritären Nachrichtenformat über eine UDP-Schnittstelle an. Für jeden erkennbaren Code wird eine separate Nachricht gesandt, sobald sich zumindest ein Parameter (also Position oder Rotation) verändert. Diese Nachrichten treffen über die UDP-Schnittstelle bei einem von ReacTIVision bereitgestellten Java-Objekt ein, das die Auswertung der Nachricht übernimmt und über einen Callback-Mechanismus (REF auf Entwurfsmuster, das hier eingesetzt wurde) vom Anwendungsentwickler implementierte Methoden aufruft, die auf das jeweilige Ereignis reagieren. Die Ereignisse, die auftreten können, beschränken sich auf das Erscheinen eines Tokens, die Änderung der Parameter eines Tokens und das Verschwinden eines Tokens sowie die gleichen drei Ereignisse für die Behandlung eines Cursors (wie das Markierungs-Werkzeugtoken). Dazu werden jeweils die relevanten Parameter zur Verfügung gestellt (im Wesentlichen die ID des Tokens, seine Position, seine Rotation und einige weitere abgeleitete Parameter, die in der konkreten Anwendung nicht eingesetzt werden).
+
+In den betreffenden Methoden wird im ersten Schritt ausgewertet, ob das identifizierte Token ein Modellierungs-Element oder ein Werkzeug ist. Im Falle eines Modellierungs-Elements wird im nächsten Schritt festgestellt, um welche Art von Token es sich handelt und ob es im aktuellen Modellierungsvorgang bereits im Einsatz war (ob z.B. bereits Information über die Benennung des Tokens oder dessen Inhalt vorhanden ist). Im Falle eines Werkzeug-Tokens wird diese identifiziert und an die für die Behandlung zuständige Methode weitergeleitet.
+
+
+% subsection interpretation_der_rohdaten (end)
+
+\subsection{Stabilisierung der Erkennungsleistung} % (fold)
+\label{sub:stabilisierung_der_erkennungsleistung}
+
+% subsection stabilisierung_der_erkennungsleistung (end)
+
+\subsection{Tracking des Modellzustandes} % (fold)
+\label{sub:tracking_des_modellzustandes}
+
+% subsection tracking_des_modellzustandes (end)
+
 \section{Benutzerinteraktion mit dem Werkzeug} % (fold)
 \label{sec:benutzerinteraktion_mit_dem_werkzeug}
 
