@@ -3,9 +3,9 @@
 
 \documentclass[12pt,a4paper,twoside, openright, cleardoubleempty, headsepline, footnosepline, nochapterprefix, appendixprefix, bibtotoc, abstracton]{scrreprt}
 
-%\usepackage{pdfsync}
-%\usepackage{ngerman}
-%\usepackage[ngerman]{babel}
+\usepackage{pdfsync}
+\usepackage{ngerman}
+\usepackage[ngerman]{babel}
 
 \usepackage{multicol}
 \usepackage{makeidx}
@@ -19,16 +19,16 @@
 \usepackage{listings}
 
 % If you want to generate a toc for each chapter (use with book)
-%\usepackage{minitoc}
+\usepackage{minitoc}
 
 \usepackage{fontspec}
 \defaultfontfeatures{Mapping=tex-text}
-\setromanfont{Hoefler Text}
-%\setromanfont{Gentium}
-%\setromanfont{LucidaGrande}
-\setsansfont{Gill Sans}
-%\setsansfont{Helvetica Neue}
-\setmonofont{Monaco}
+%\setromanfont{Hoefler Text}
+%%\setromanfont{Gentium}
+%%\setromanfont{LucidaGrande}
+%\setsansfont{Gill Sans}
+%%\setsansfont{Helvetica Neue}
+%\setmonofont{Monaco}
 \makeindex
 
 % This is now the recommended way for checking for PDFLaTeX:
@@ -98,7 +98,7 @@
 
 %\usepackage[numbers]{natbib}
 %\bibliographystyle{dinat}
-\bibliographystyle{dinalpha}
+\bibliographystyle{apalike}
 
 \title{Diss}
 \author{Stefan Oppl}
@@ -132,11 +132,11 @@
 
 %\include{Einfuehrung}
 
-\include{ArticulationWork}
+%\include{ArticulationWork}
 
 \include{Werkzeug}
 
-\include{Evaluierung}
+%\include{Evaluierung}
 
 \bibliography{/Users/oppl/Documents/Dokumente/Literatur/archiv}
 
