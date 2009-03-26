@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.141592-2.2-0.996-patch2 (Web2C 7.5.6) (format=xelatex 2009.3.25)  26 MAR 2009 00:43
+This is XeTeXk, Version 3.141592-2.2-0.996-patch2 (Web2C 7.5.6) (format=xelatex 2009.3.25)  26 MAR 2009 08:01
 entering extended mode
  %&-line parsing enabled.
 **Schrift.tex
@@ -853,11 +853,14 @@ nkungen, vor-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-[38])) [39] (./Schrift.bbl [40
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+[39] [40])) [41] (./Schrift.bbl [42
 
 
 
-] [41]) (./Schrift.ind [42] [43
+] [43]) (./Schrift.ind [44] [45
 
 
 
@@ -890,4 +893,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  35i,29n,44p,1819b,556s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on Schrift.pdf (51 pages).
+Output written on Schrift.pdf (53 pages).

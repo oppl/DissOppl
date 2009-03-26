@@ -40,12 +40,12 @@
 \contentsline {subsection}{\numberline {1.3.1}Hinzufügen und Verändern von Modellelementen}{35}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Benennen von Modellelementen}{36}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Verbinden von Modellelementen}{38}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Löschen von Elementen und Verbindungen}{38}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Einbettung von Zusatzinformation}{38}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Kontrolle der Modellierungshistorie}{38}{subsection.1.3.6}
-\contentsline {section}{\numberline {1.4}Erfassung der Benutzerinteraktion durch Software}{38}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Interpretation der Rohdaten}{38}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Stabilisierung der Erkennungsleistung}{39}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Tracking des Modellzustandes}{39}{subsection.1.4.3}
-\contentsline {chapter}{Literaturverzeichnis}{41}{chapter*.31}
-\contentsline {part}{Index}{42}{chapter*.31}
+\contentsline {subsection}{\numberline {1.3.4}Löschen von Elementen und Verbindungen}{39}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Einbettung von Zusatzinformation}{40}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Kontrolle der Modellierungshistorie}{40}{subsection.1.3.6}
+\contentsline {section}{\numberline {1.4}Erfassung der Benutzerinteraktion durch Software}{40}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Interpretation der Rohdaten}{40}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Stabilisierung der Erkennungsleistung}{41}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Tracking des Modellzustandes}{41}{subsection.1.4.3}
+\contentsline {chapter}{Literaturverzeichnis}{43}{chapter*.31}
+\contentsline {part}{Index}{44}{chapter*.31}
