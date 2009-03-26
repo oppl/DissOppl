@@ -568,8 +568,10 @@ Die Kontrolle der Modellierungshistorie umfasst im Wesentlich drei Interaktionsb
 
 Die Erfassung von Modellzuständen erfolgt im Normalfall implizit und muss von den Benutzern nicht explizit ausgelöst werden. Wenn sich das Modell auf der Modellierungsoberfläche länger als 5 Sekunden in einem stabilen Zustand befinden (wenn also weder die Position, noch die Rotation oder die Benennung der Tokens geändert wurden und auch keine Verbindungen oder Einbettungen erstellt wurden), wird der aktuelle Modellzustand gespeichert. Sollen bestimmte Modellzustände aber aufgrund ihrer Relevanz für den Modellierungsverlauf explizit gespeichert und auch entsprechend gekennzeichnet werden, so kann das Snapshot-Token eingesetzt werden. Dieses löst sobald es auf der Modellierungsoberfläche aufgesetzt wird die Speicherung des aktuellen Modellzustandes aus. Das System quittiert die Speicherung mit visuellem Feedback über die Ausgabekanäle. Explizit erfasste Zustände werden im Gegensatz zu automatisch gespeicherten gekennzeichnet und in den weiterverarbeitenden Modulen (vor allem bei der Persistierung) speziell behandelt.
 
-Die Navigation durch die Modellierungshistorie erfolgt mittels einem runden Werkzeug-Token, dass diese Navigation durch Rotation im oder entgegen dem Uhrzeigersinn ermöglicht. Das System wird durch das Aufsetzen dieses Tokens auf die Modellierungsoberfläche in den Historien-Modus geschaltet, was Auswirkungen auf die Darstellung des Modells in den Outputkanälen (siehe Abschnitt XY) hat. 
+Die Navigation durch die Modellierungshistorie erfolgt mittels einem runden Werkzeug-Token, dass diese Navigation durch Rotation im oder entgegen dem Uhrzeigersinn ermöglicht. Das System wird durch das Aufsetzen dieses Tokens auf die Modellierungsoberfläche in den Historien-Modus geschaltet, was Auswirkungen auf die Darstellung des Modells in den Outputkanälen (siehe Abschnitt XY) hat. Bei Aktivierung des Historien-Modus wird der aktuellste gespeicherte Modellzustand geladen. Durch Drehen des Tokens gegen den Uhrzeigersinn kann in der Zeit zurück navigiert werden. Das Laden der nächstälteren Modellzustands erfolgt dabei in regelmäßigen Intervallen von jeweils 45 Grad (8 Modellzustände pro voller Umdrehung). Der absolute zeitliche Abstand zwischen den gespeicherten Modellzuständen, der sich aus dem Auftreten stabiler Modellzustände ergibt, wird bei der Navigation nicht berücksichtigt - der zurückzulegende Winkel ist immer gleich groß. Gleiches gilt sinngemäß für das Drehen des Tokens im Uhrzeigersinn - dabei wird in regelmäßigen Abständen der nächstjüngere Modellzustand geladen. Wird das Token entfernt, wird der Historien-Modus deaktiviert und wieder in der aktuelle Systemzustand an die Output-Kanäle übergeben.
 
+Soll ein gespeicherter Modellzustand wiederhergestellt werden, so bietet das System Unterstützung für die dazu notwendige Interaktion. Da weder die Tokens noch der Tisch selbst über steuerbare bewegliche Komponenten verfügen, die eine automatisierten Wiederherstellung eines Modellzustandes ermöglichen würden, kommt die Aufgabe der eigentlichen Wiederherstellung den Benutzern zu. Das System unterstützt dabei insofern, als das über die Ausgabekanäle Information an die Benutzer weitergegeben wird, die die korrekte Platzierung der Elemente anleitet (Details dazu sind in Abschnitt XY nachzulesen). Gespeicherte Modellzustände können dabei entweder aus dem Historienmodus oder aus an eingebettete Tokens gebundene Teilmodelle bezogen werden. Im ersten Fall wird die Wiederherstellungsunterstützung durch ein spezielles Token aktiviert, das auf die Oberfläche aufgesetzt wird während der alte Systemzustand über die Outputkanäle dargestellt wird. Im zweiten Fall muss das Teilmodell, das an das eingebettete Token gebunden ist, über die Registrierungskamera abgerufen werden, wodurch es ebenfall über die Outputkanäle dargestellt wird. Während der Darstellung wird die Wiederherstellungsunterstützung wiederum durch Aufsetzen des betreffenden Werkzeug-Tokens auf die Oberfläche aktiviert. In beiden Fällen läuft dann die Wiederherstellungsunterstüztung durch das System angeleitet automatisiert ab. Nach Abschluss der Wiederherstellung werden die Benutzer aufgefordert eventuell noch vorhandene Werkzeug-Tokens (wie das Historien-Navigations-Token) zu entfernen, wodurch das System wieder den aktuellen Modellzustand als Grundlage der Darstellung verwendet.
+ 
 % subsection kontrolle_der_modellierungshistorie (end)
 % section benutzerinteraktion_mit_dem_werkzeug (end)
 
@@ -591,18 +593,50 @@ Wie in Abschnitt \ref{subs:vergleich_generische_frameworks} ausgeführt, soll zu
 
 Das ReacTIVision-Framework liefert wie in Abschnitt \ref{par:reactivision} beschrieben die aus dem Kamerabild extrahierten Informationen bezüglich der erkennbaren Codes in einem propritären Nachrichtenformat über eine UDP-Schnittstelle an. Für jeden erkennbaren Code wird eine separate Nachricht gesandt, sobald sich zumindest ein Parameter (also Position oder Rotation) verändert. Diese Nachrichten treffen über die UDP-Schnittstelle bei einem von ReacTIVision bereitgestellten Java-Objekt ein, das die Auswertung der Nachricht übernimmt und über einen Callback-Mechanismus (REF auf Entwurfsmuster, das hier eingesetzt wurde) vom Anwendungsentwickler implementierte Methoden aufruft, die auf das jeweilige Ereignis reagieren. Die Ereignisse, die auftreten können, beschränken sich auf das Erscheinen eines Tokens, die Änderung der Parameter eines Tokens und das Verschwinden eines Tokens sowie die gleichen drei Ereignisse für die Behandlung eines Cursors (wie das Markierungs-Werkzeugtoken). Dazu werden jeweils die relevanten Parameter zur Verfügung gestellt (im Wesentlichen die ID des Tokens, seine Position, seine Rotation und einige weitere abgeleitete Parameter, die in der konkreten Anwendung nicht eingesetzt werden).
 
-In den betreffenden Methoden wird im ersten Schritt ausgewertet, ob das identifizierte Token ein Modellierungs-Element oder ein Werkzeug ist. Im Falle eines Modellierungs-Elements wird im nächsten Schritt festgestellt, um welche Art von Token es sich handelt und ob es im aktuellen Modellierungsvorgang bereits im Einsatz war (ob z.B. bereits Information über die Benennung des Tokens oder dessen Inhalt vorhanden ist). Diese Information wird ggf. geladen und den weiterverarbeitenden Komponenten zu Verfügung gestellt. Im Falle eines Werkzeug-Tokens wird diese identifiziert und an die für die Behandlung zuständige Methode weitergeleitet. Diese Methoden schalten das System je nach Art des eingesetzten Tokens in einen alternativen Zustand oder lösen eine Aktion auf den übergeordneten Ebenen aus.
+In den betreffenden Methoden wird im ersten Schritt ausgewertet, ob das identifizierte Token ein Modellierungs-Element oder ein Werkzeug ist. Im Falle eines Modellierungs-Elements wird im nächsten Schritt festgestellt, um welche Art von Token es sich handelt und ob es im aktuellen Modellierungsvorgang bereits im Einsatz war (ob z.B. bereits Information über die Benennung des Tokens oder dessen Inhalt vorhanden ist). Diese Information wird ggf. geladen und den weiterverarbeitenden Komponenten zu Verfügung gestellt. Im Falle eines Werkzeug-Tokens wird dieses identifiziert und an die für die Behandlung zuständige Methode weitergeleitet. Diese Methoden schalten das System je nach Art des eingesetzten Tokens in einen alternativen Zustand oder lösen eine Aktion auf den übergeordneten Ebenen aus.
+
+Ist für die Interpretation einer Benutzerinteraktion mehr als ein Token notwendig (z.B. beim Ziehen von Verbindungen), werden die Kandidaten, die möglicherweise den Beginn einer derartigen Interaktionssequenz darstellen in einen Buffer geschrieben. Beim Auftreten eines Tokens, das möglicherweise den zweiten Teil dieser Interaktion darstellt, wird dieser Buffer geprüft und die Interpretation ggf. auf Basis der gespeicherten und aktuellen Token-Daten durchgeführt.
+
+Manche Benutzereingaben müssen - um eine bequeme Eingabe des Modells zu ermöglichen - ggf. auch nach Entfernen eines Tokens für einen bestimmten Zeitraum gespeichert werden. Beispiele hierfür sind Markierungen, die auch nach Entfernen des Markierungstokens für einige Sekunden aktiv bleiben um Zeit für die Benennung oder die Herstellung einer Verbindung zu geben oder auch Modellierungstoken, die durch Manipulation temporär aus dem Erkennungsbereich der Kamera geraten und in diesem Fall nicht sofort als "entfernt" interpretiert werden sollen. Auch in diesem Fall werden Buffer eingesetzt, die die entsprechende Information mit einem Zeitstempel versehen aufnehmen. Zur Sicherstellung der Modellkonsistenz (also der Übereinstimmung zwischen physischem und digitalem Modell) prüfen speziell dazu konzipiert Methoden, die von einem Timer in regelmäßigen Abständen aufgerufen werden, ob die vorgegebene Gültigkeitsdauer der Information bereits abgelaufen ist und entfernen diese ggf. endgültig aus dem Buffer und dem Modell (löschen also konkret eine Markierung oder entfernen ein Modellelement und alle abhängigen Verbindungen aus dem Modell). Die Zeitintervalle dieser Prüfungen sind auf den jeweiligen Anwendungsfall abgestimmt und bewegen sich im Bereich zwischen drei und fünf Sekunden.
 
 % subsection interpretation_der_rohdaten (end)
 
 \subsection{Stabilisierung der Erkennungsleistung} % (fold)
 \label{sub:stabilisierung_der_erkennungsleistung}
 
+Da wie bereits beschrieben beim Einsatz von ReacTIVision bei grenzwertigen Beleuchtungsbedingungen zu Erkennungsproblemen oder Fehlerkennungen neigt, wurden im Programmcode des Interpretationsmoduls Mechanismen verankert, die potentielle Fehlerkennungen und Erkennungsprobleme identifizieren und ignorieren sollen. Im Folgenden werden häufige Fehlerquellen benannt und der jeweilige Lösungsansatz beschrieben.
+
+\subsubsection{Bildrauschen} % (fold)
+\label{ssub:bildrauschen}
+
+Cursorflackern, temporäres Nicht-Erkennen von Codes
+
+% subsubsection bildrauschen (end)
+
+\subsubsection{Spotlights} % (fold)
+\label{ssub:spotlights}
+
+Ständiger cursor
+
+% subsubsection spotlights (end)
+
+\subsubsection{Bildverzerrungen} % (fold)
+\label{ssub:bildverzerrungen}
+
+Fehlerkennung von Codes, Nicht-Erkennen von Codes
+
+% subsubsection bildverzerrungen (end)
 % subsection stabilisierung_der_erkennungsleistung (end)
+
+\subsection{Erkennung von Markierungen und Verbindungen} % (fold)
+\label{sub:erkennen_von_verbindungen}
+
+% subsection erkennen_von_verbindungen (end)
 
 \subsection{Tracking des Modellzustandes} % (fold)
 \label{sub:tracking_des_modellzustandes}
 
 % subsection tracking_des_modellzustandes (end)
+
 
 % chapter input_&_interpretation (end)

@@ -44,10 +44,10 @@ order=-1
 
 [item:ImplementierungInput.tex]
 archive=true
-column=389
+column=49
 encoding=UTF-8
 highlight=LaTeX
-line=570
+line=630
 open=true
 order=0
 

@@ -42,10 +42,14 @@
 \contentsline {subsection}{\numberline {1.3.3}Verbinden von Modellelementen}{38}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}Löschen von Elementen und Verbindungen}{39}{subsection.1.3.4}
 \contentsline {subsection}{\numberline {1.3.5}Einbettung von Zusatzinformation}{40}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Kontrolle der Modellierungshistorie}{40}{subsection.1.3.6}
-\contentsline {section}{\numberline {1.4}Erfassung der Benutzerinteraktion durch Software}{40}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Interpretation der Rohdaten}{40}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Stabilisierung der Erkennungsleistung}{41}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Tracking des Modellzustandes}{41}{subsection.1.4.3}
-\contentsline {chapter}{Literaturverzeichnis}{43}{chapter*.31}
-\contentsline {part}{Index}{44}{chapter*.31}
+\contentsline {subsection}{\numberline {1.3.6}Kontrolle der Modellierungshistorie}{41}{subsection.1.3.6}
+\contentsline {section}{\numberline {1.4}Erfassung der Benutzerinteraktion durch Software}{43}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Interpretation der Rohdaten}{44}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Stabilisierung der Erkennungsleistung}{45}{subsection.1.4.2}
+\contentsline {subsubsection}{Bildrauschen}{45}{section*.31}
+\contentsline {subsubsection}{Spotlights}{45}{section*.32}
+\contentsline {subsubsection}{Bildverzerrungen}{45}{section*.33}
+\contentsline {subsection}{\numberline {1.4.3}Erkennung von Markierungen und Verbindungen}{45}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}Tracking des Modellzustandes}{45}{subsection.1.4.4}
+\contentsline {chapter}{Literaturverzeichnis}{47}{chapter*.34}
+\contentsline {part}{Index}{48}{chapter*.34}
