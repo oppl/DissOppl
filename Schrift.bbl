@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Arnold et~al., 1999]{Arnold99}
+Arnold, K., Scheifler, R., Waldo, J., O'Sullivan, B., and Wollrath, A. (1999).
+\newblock {\em {Jini Specification}}.
+\newblock Addison-Wesley Longman Publishing, Boston, MA, USA.
+
 \bibitem[Beer et~al., 2003]{Beer03}
 Beer, W., Christian, V., Ferscha, A., and Mehrmann, L. (2003).
 \newblock {Modeling Context-aware Behavior by Interpreted ECA Rules}.
@@ -7,40 +12,46 @@ Beer, W., Christian, V., Ferscha, A., and Mehrmann, L. (2003).
   Distributed Computing (EUROPAR '03)}, volume 2790 of {\em LNCS}, pages
   1064--1073. Springer.
 
+\bibitem[Bloks, 1996]{Bloks96}
+Bloks, R. H.~J. (1996).
+\newblock {The IEEE-1394 high speed serial bus}.
+\newblock {\em Philips Journal of Research}, 50(1-2):209--216.
+
+\bibitem[{Bluetooth SIG}, 2007]{Bluetooth-SIG07}
+{Bluetooth SIG} (2007).
+\newblock {Bluetooth Specification Version 2.1 + EDR}.
+\newblock Specification, Bluetooth SIG.
+
+\bibitem[Carriero and Gelernter, 1989]{Carriero89}
+Carriero, N. and Gelernter, D. (1989).
+\newblock Linda in context.
+\newblock {\em Communications of the ACM}, 32(4):444--458.
+
+\bibitem[Curbera et~al., 2002]{Curbera02}
+Curbera, F., Duftler, M., Khalaf, R., Nagy, W., Mukhi, N., and Weerawarana, S.
+  (2002).
+\newblock {Unraveling the Web services web: an introduction to SOAP, WSDL, and
+  UDDI}.
+\newblock {\em IEEE Internet Computing}, 6(2):86--93.
+
 \bibitem[Dey et~al., 2001]{Dey01}
 Dey, A.~K., Salber, D., and Abowd, G.~D. (2001).
 \newblock A conceptual framework and a toolkit for supporting the rapid
   prototyping of context-aware applications.
 \newblock {\em Human-Computer Interaction (HCI) Journal}, 16(2-4):97--166.
 
-\bibitem[Fitzmaurice, 1996]{Fitzmaurice96}
-Fitzmaurice, G. (1996).
-\newblock {\em Graspable User Interfaces}.
-\newblock Phd-thesis, University of Toronto.
+\bibitem[Downing, 1998]{Downing98}
+Downing, T. (1998).
+\newblock {\em {Java RMI: remote method invocation}}.
+\newblock IDG Books Worldwide, Inc., Foster City, CA, USA.
 
-\bibitem[Fitzmaurice et~al., 1995]{Fitzmaurice95}
-Fitzmaurice, G., Ishii, H., and Buxton, W. (1995).
-\newblock Bricks: laying the foundations for graspable user interfaces.
-\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
-  computing systems (CHI)}, pages 442--449. ACM Press/Addison-Wesley Publishing
-  Co. New York, NY, USA.
-
-\bibitem[Fjeld, 2001]{Fjeld01}
-Fjeld, M. (2001).
-\newblock {\em Designing for tangible interaction}.
-\newblock PhD thesis, Swiss Federal Institute of Technology.
-
-\bibitem[Fjuk et~al., 1997]{Fjuk97}
-Fjuk, A., Nurminen, M., and Sm{\o}rdal, O. (1997).
-\newblock {Taking Articulation Work Seriously: An Activity Theoretical
-  Approach}.
-\newblock Technical Report TUCS TR 120, Turku Centre for Computer Science.
-
-\bibitem[Fujimura, 1987]{Fujimura87}
-Fujimura, J. (1987).
-\newblock {Constructing 'Do-Able' Problems in Cancer Research: Articulating
-  Alignment}.
-\newblock {\em Social Studies of Science}, 17(2):257--293.
+\bibitem[Ferscha et~al., 2008]{Ferscha08}
+Ferscha, A., Vogl, S., Emsenhuber, B., and Wally, B. (2008).
+\newblock {Physical shortcuts for media remote controls}.
+\newblock In {\em Proceedings of the 2nd international conference on
+  INtelligent TEchnologies for interactive enterTAINment table of contents}.
+  ICST (Institute for Computer Sciences, Social-Informatics and
+  Telecommunications Engineering) ICST, Brussels, Belgium, Belgium.
 
 \bibitem[Furtm{\"u}ller, 2007]{Furtmuller07}
 Furtm{\"u}ller, F. (2007).
@@ -54,40 +65,53 @@ Furtm{\"u}ller, F. and Oppl, S. (2007).
   Interfaces}.
 \newblock In {\em Proceedings of WETICE '07}. IEEE Press.
 
-\bibitem[Gerson and Star, 1986]{Gerson86}
-Gerson, E. and Star, S. (1986).
-\newblock {Analyzing due process in the workplace}.
-\newblock {\em ACM Transactions on Information Systems (TOIS)}, 4(3):257--270.
+\bibitem[Gamma et~al., 1995]{Gamma95}
+Gamma, E., Helm, R., Johnson, R., and Vlissides, J. (1995).
+\newblock {\em {Design patterns: elements of reusable object-oriented
+  software}}.
+\newblock Addison-wesley Reading, MA.
 
-\bibitem[Hampson and Junor, 2005]{Hampson05}
-Hampson, I. and Junor, A. (2005).
-\newblock Invisible work, invisible skills: interactive customer service as
-  articulation work.
-\newblock {\em New Technology, Work \& Employment}, 20(2):166 -- 181.
+\bibitem[Gellersen et~al., 2004]{Gellersen04}
+Gellersen, H., Kortuem, G., Schmidt, A., and Beigl, M. (2004).
+\newblock {Physical prototyping with smart-its}.
+\newblock {\em IEEE Pervasive Computing}, 3(3):74--82.
 
-\bibitem[Hanke, 2006]{Hanke06}
-Hanke, U. (2006).
-\newblock {\em {Externale Modellbildung als Hilfe bei der
-  Informationsverarbeitung und beim Lernen}}.
-\newblock PhD thesis, University of Freiburg.
+\bibitem[GS1, 2008]{GS108}
+GS1 (2008).
+\newblock Introduction to gs1 datamatrix.
+\newblock Guideline, GS1.
 
-\bibitem[Hughes, 1971]{Hughes71}
-Hughes, F. (1971).
-\newblock {\em The Sociological Eye}.
-\newblock Aldine de Gruyter.
+\bibitem[{ISO JTC1/SC31}, 2006]{QR2008}
+{ISO JTC1/SC31} (2006).
+\newblock Information technology -- automatic identification and data capture
+  techniques -- qr code 2005 bar code symbology specification.
+\newblock International Standard 18004:2006, ISO/IEC.
 
-\bibitem[Ishii and Ullmer, 1997]{Ishii97}
-Ishii, H. and Ullmer, B. (1997).
-\newblock Tangible bits: towards seamless interfaces between people, bits and
-  atoms.
-\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
-  computing systems (CHI)}, pages 234--241. ACM Press New York, NY, USA.
+\bibitem[James, 1997]{James97}
+James, M. (1997).
+\newblock {\em {Microcontroller Cookbook - PIC \& 8051}}.
+\newblock Butterworth-Heinemann.
 
-\bibitem[Nonaka and Takeuchi, 1995]{Nonaka95}
-Nonaka, I. and Takeuchi, H. (1995).
-\newblock {\em The Knowledge-Creating Company: How Japanese Companies Create
-  the Dynamics of Innovation}.
-\newblock Oxford University Press.
+\bibitem[Kaltenbrunner and Bencina, 2007]{Kaltenbrunner07}
+Kaltenbrunner, M. and Bencina, R. (2007).
+\newblock reactivision: a computer-vision framework for table-based tangible
+  interaction.
+\newblock In {\em TEI '07: Proceedings of the 1st international conference on
+  Tangible and embedded interaction}, pages 69--74, New York, NY, USA. ACM
+  Press.
+
+\bibitem[Kato et~al., 2000]{Kato00}
+Kato, H., Billinghurst, M., Poupyrev, I., Imamoto, K., and Tachibana, K.
+  (2000).
+\newblock {Virtual object manipulation on a table-top AR environment}.
+\newblock In {\em IEEE and ACM International Symposium on Augmented Reality,
+  2000.(ISAR 2000). Proceedings}, pages 111--119.
+
+\bibitem[Klemmer et~al., 2004]{Klemmer04}
+Klemmer, S., Li, J., Lin, J., and Landay, J. (2004).
+\newblock Papier-m{\^a}ch{\'e}: Toolkit support for tangible input.
+\newblock {\em CHI Letters, Human Factors in Computing Systems: CHI2004.},
+  6(1).
 
 \bibitem[Oppl, 2004]{Oppl04}
 Oppl, S. (2004).
@@ -95,48 +119,51 @@ Oppl, S. (2004).
 \newblock Master's thesis, University of Linz, Department for Pervasive
   Computing.
 
-\bibitem[Patten et~al., 2001]{Patten01}
-Patten, J., Ishii, H., Hines, J., and Pangaro, G. (2001).
-\newblock Sensetable: a wireless object tracking platform for tangible
-  interfaces.
-\newblock In {\em Proceedings of the ACM Conference on Human Factors in
-  Computing Systems 2001 (CHI '01)}.
+\bibitem[Rohs, 2005]{Rohs05}
+Rohs, M. (2005).
+\newblock {Visual code widgets for marker-based interaction}.
+\newblock In {\em 25th IEEE International Conference on Distributed Computing
+  Systems Workshops, 2005}, pages 506--513. IEEE Press.
 
-\bibitem[Rumelhart and Norman, 1978]{Rumelhart78}
-Rumelhart, D. and Norman, D. (1978).
-\newblock Accretion, tuning, and restructuring: Three modes of learning.
-\newblock In Cotton, J. and Klatzky, R., editors, {\em Semantic factors in
-  cognition}, pages 37--53. Erlbaum, Hillsdale, N.J.
+\bibitem[Rohs and Gfeller, 2004]{Rohs04}
+Rohs, M. and Gfeller, B. (2004).
+\newblock {Using camera-equipped mobile phones for interacting with real-world
+  objects}.
+\newblock In {\em Advances in Pervasive Computing}, pages 265--271. Austrian
+  Computer Society (OCG).
 
-\bibitem[Schmidt, 1990]{Schmidt90}
-Schmidt, K. (1990).
-\newblock {Analysis of Cooperative Work. A Conceptual Framework}.
-\newblock Technical Report Ris{\o}-M-2890, Ris{\o} National Laboratory.
+\bibitem[Schilit et~al., 1994]{Schilit94}
+Schilit, B., Adams, N., and Want, R. (1994).
+\newblock {Context-aware computing applications}.
+\newblock In {\em Proceedings of the Workshop on Mobile Computing Systems and
+  Applications}, pages 85--90.
 
-\bibitem[Seel, 1991]{Seel91}
-Seel, N.~M. (1991).
-\newblock {\em Weltwissen und mentale Modelle}.
-\newblock Hogrefe, G{\"o}ttingen u.a.
+\bibitem[Stary, 1994]{Stary94}
+Stary, C. (1994).
+\newblock {\em {Interaktive Systeme: Softwareentwicklung und
+  Softwareergonomie}}.
+\newblock Vieweg.
 
-\bibitem[Semmer and Udris, 2004]{Semmer04}
-Semmer, N. and Udris, I. (2004).
-\newblock {Bedeutung und Wirkung von Arbeit}.
-\newblock In Schuler, H., editor, {\em {Lehrbuch Organisationspsychologie}},
-  pages 157--195. Huber, Bern, 3rd edition.
+\bibitem[Van~Laerhoven et~al., 2003]{Van-Laerhoven03}
+Van~Laerhoven, K., Villar, N., Schmidt, A., Gellersen, H., Hakansson, M., and
+  Holmquist, L. (2003).
+\newblock {Pin\&Play: the surface as network medium}.
+\newblock {\em IEEE Communications Magazine}, 41(4):90--95.
 
-\bibitem[Strauss, 1985]{Strauss85}
-Strauss, A. (1985).
-\newblock {Work and the Division of Labor}.
-\newblock {\em The Sociological Quarterly}, 26(1):1--19.
+\bibitem[Wagner and Schmalstieg, 2003]{Wagner03}
+Wagner, D. and Schmalstieg, D. (2003).
+\newblock {ARToolKit on the PocketPC platform}.
+\newblock In {\em IEEE International Augmented Reality Toolkit Workshop, 2003},
+  pages 14--15. IEEE Press.
 
-\bibitem[Strauss, 1988]{Strauss88}
-Strauss, A. (1988).
-\newblock {The Articulation of Project Work: An Organizational Process}.
-\newblock {\em The Sociological Quarterly}, 29(2):163--178.
+\bibitem[Weiser, 1991]{Weiser91}
+Weiser, M. (1991).
+\newblock The computer for the 21st century.
+\newblock {\em Scientific American}, 265.
 
-\bibitem[Strauss, 1993]{Strauss93}
-Strauss, A. (1993).
-\newblock {\em {Continual Permutations of Action}}.
-\newblock Aldine de Gruyter, New York.
+\bibitem[{ZigBee Alliance}, 2007]{ZigBee07}
+{ZigBee Alliance} (2007).
+\newblock {Zigbee Specification}.
+\newblock Specification r17, ZigBee Alliance.
 
 \end{thebibliography}

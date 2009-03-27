@@ -1,24 +1,30 @@
-This is XeTeXk, Version 3.141592-2.2-0.996-patch2 (Web2C 7.5.6) (format=xelatex 2009.3.25)  26 MAR 2009 21:00
+This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  27 MAR 2009 15:07
 entering extended mode
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **Schrift.tex
 (./Schrift.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, german, ngerman, loaded.
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrreprt.cls
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/local/texlive/2007/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2006/07/30 v2.95b KOMA-Script document class (report)
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2006/07/30 v2.95b KOMA-Script package (basics and keyval use)
 
 
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2006/03/28 v2.95 KOMA-Script package (loading files)
 
 Package scrlfile, 2006/03/28 v2.95 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-) (/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+) (/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
@@ -33,10 +39,10 @@ Package scrkbase Info: You've used the obsolete option `12pt'.
 (scrkbase)             \KOMAoptions{fontsize=12pt} will be used instead.
 (scrkbase)             You should do this change too on input line 631.
 
-(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
-(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2006/07/30 v2.95b KOMA-Script package (type area)
 
 Package typearea, 2006/07/30 v2.95b KOMA-Script package (type area)
@@ -82,36 +88,39 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) (/usr/share/texmf-texlive/tex/latex/pdfsync/pdfsync.sty
-Package: pdfsync 2007/01/15 v1.0
+) (/Users/oppl/Library/texmf/tex/latex/pdfsync.sty
+Package: pdfsync 2004/01/31 v0.6
+\PDFPOS=\write3
+\PDFSYNC@folio=\count89
+\PDFSYNC@rder=\count90
 )
-(/usr/share/texmf-texlive/tex/generic/german/ngerman.sty v2.5e 1998-07-08
+(/usr/local/texlive/2007/texmf-dist/tex/generic/german/ngerman.sty
+v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-ngerman -- \language number for naustrian undefined, default 5 used.
-ngerman -- \language number for French undefined, default 255 used.
+ngerman -- \language number for naustrian undefined, default 12 used.
 )
-(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+(/usr/local/texlive/2007/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2005/11/23 v3.8h The Babel package
 
-(/usr/share/texmf-texlive/tex/generic/babel/ngermanb.ldf
+(/usr/local/texlive/2007/texmf-dist/tex/generic/babel/ngermanb.ldf
 Language: ngermanb 2004/02/20 v2.6m new German support from the babel system
 
-(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+(/usr/local/texlive/2007/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2005/11/23 v3.8h Babel common definitions
-\babel@savecnt=\count89
+\babel@savecnt=\count91
 \U@D=\dimen104
 )))
-(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
-\c@tracingmulticols=\count90
+\c@tracingmulticols=\count92
 \mult@box=\box27
 \multicol@leftmargin=\dimen105
-\c@unbalance=\count91
-\c@collectmore=\count92
-\doublecol@number=\count93
-\multicoltolerance=\count94
-\multicolpretolerance=\count95
+\c@unbalance=\count93
+\c@collectmore=\count94
+\doublecol@number=\count95
+\multicoltolerance=\count96
+\multicolpretolerance=\count97
 \full@width=\dimen106
 \page@free=\dimen107
 \premulticols=\dimen108
@@ -141,67 +150,67 @@ Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
 \@tempa=\box48
 \@tempa=\box49
 \@tempa=\box50
-\c@columnbadness=\count96
-\c@finalcolumnbadness=\count97
+\c@columnbadness=\count98
+\c@finalcolumnbadness=\count99
 \last@try=\dimen110
 \multicolovershoot=\dimen111
 \multicolundershoot=\dimen112
 \mult@nat@firstbox=\box51
 \colbreak@box=\box52
 )
-(/usr/share/texmf-texlive/tex/latex/base/makeidx.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrpage2.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/koma-script/scrpage2.sty
 Package: scrpage2 2006/03/29 v2.2c LaTeX2e KOMA-Script package
 LaTeX Info: Redefining \pagemark on input line 134.
 )
-(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2007/02/05 8.0 (PWD)
 \bibhang=\skip49
 \bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 602.
-\c@NAT@ctr=\count98
+\c@NAT@ctr=\count100
 )
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/boxedminipage.sty)
-(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
-\lst@mode=\count99
+(/usr/local/texlive/2007/texmf-dist/tex/latex/ltxmisc/boxedminipage.sty)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count101
 \lst@gtempboxa=\box53
 \lst@token=\toks15
-\lst@length=\count100
+\lst@length=\count102
 \lst@currlwidth=\dimen113
-\lst@column=\count101
-\lst@pos=\count102
+\lst@column=\count103
+\lst@pos=\count104
 \lst@lostspace=\dimen114
 \lst@width=\dimen115
-\lst@newlines=\count103
-\lst@lineno=\count104
-\c@lstlisting=\count105
+\lst@newlines=\count105
+\lst@lineno=\count106
+\c@lstlisting=\count107
 \lst@maxwidth=\dimen116
 
-(/usr/share/texmf-texlive/tex/latex/listings/lstpatch.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2004/10/17 1.3b (Carsten Heinz)
 )
-(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
-\c@lstnumber=\count106
-\lst@skipnumbers=\count107
+\c@lstnumber=\count108
+\lst@skipnumbers=\count109
 \lst@framebox=\box54
 )
-(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2007/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2004/09/05 1.3 listings configuration
 ))
 Package: listings 2004/10/17 1.3b (Carsten Heinz)
 
-(/usr/share/texmf-texlive/tex/latex/minitoc/minitoc.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/minitoc/minitoc.sty
 Package: minitoc 2007/01/09 v51 Package minitoc (JPFD)
 
-(/usr/share/texmf-texlive/tex/latex/minitoc/mtcmess.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/minitoc/mtcmess.sty
 Package: mtcmess 2006/03/14
 )
 Package minitoc Info: <I0001>
 (minitoc)             *** minitoc package, version 51 ***.
-\tf@mtc=\write3
+\tf@mtc=\write4
 \mtcindent=\skip51
 \mtcskipamount=\skip52
 Package minitoc Info: <I0005>
@@ -215,68 +224,69 @@ Package minitoc Info: <I0003>
 \mtc@hstrutbox=\box56
 Package minitoc Info: <I0002>
 (minitoc)             Autoconfiguration of extensions.
-\openout3 = `Schrift.mtc1'.
+\openout4 = `Schrift.mtc1'.
 
-\openout3 = `Schrift.mtc'.
+\openout4 = `Schrift.mtc'.
 
- (./Schrift.mtc1)
+
+(./Schrift.mtc1)
 Package minitoc Info: <I0012>
 (minitoc)             Long extensions (Unix-like) will be used.
 Package minitoc Info: <I0031>
 (minitoc)             ==> this version is configured for UNIX-like 
 (minitoc)                 (long extensions) file names.
-\openout3 = `Schrift.mtc'.
+\openout4 = `Schrift.mtc'.
 
-\openout3 = `Schrift.mtc1'.
+\openout4 = `Schrift.mtc1'.
 
-\c@mtc=\count108
-\c@minitocdepth=\count109
-\c@ptc=\count110
-\c@parttocdepth=\count111
+\c@mtc=\count110
+\c@minitocdepth=\count111
+\c@ptc=\count112
+\c@parttocdepth=\count113
 \ptcindent=\skip53
 Package minitoc Info: <I0010>
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4684.
 
-(/usr/share/texmf-texlive/tex/latex/minitoc/english.mld
+(/usr/local/texlive/2007/texmf-dist/tex/latex/minitoc/english.mld
 File: english.mld 2006/01/13
 )
-(/usr/share/texmf-texlive/tex/latex/minitoc/english.mld
+(/usr/local/texlive/2007/texmf-dist/tex/latex/minitoc/english.mld
 File: english.mld 2006/01/13
 ))
-(/usr/share/texmf-texlive/tex/xelatex/fontspec/fontspec.sty
+(/usr/local/texlive/2007/texmf-dist/tex/xelatex/fontspec/fontspec.sty
 Package: fontspec 2006/12/24 v1.13 Advanced font selection for XeLaTeX
 
-(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2007/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2006/08/21 v0.3 Provides ifxetex conditional
 )
-\c@zf@newff=\count112
-\c@zf@index=\count113
-\c@zf@script=\count114
-\c@zf@language=\count115
+\c@zf@newff=\count114
+\c@zf@index=\count115
+\c@zf@script=\count116
+\c@zf@language=\count117
 
-(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count116
-\calc@Bcount=\count117
+\calc@Acount=\count118
+\calc@Bcount=\count119
 \calc@Adimen=\dimen117
 \calc@Bdimen=\dimen118
 \calc@Askip=\skip54
 \calc@Bskip=\skip55
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count118
+\calc@Ccount=\count120
 \calc@Cskip=\skip56
 )
-(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
 
-(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.tex
+(/usr/local/texlive/2007/texmf-dist/tex/latex/xkeyval/xkeyval.tex
 \XKV@toks=\toks17
-\XKV@depth=\count119
+\XKV@depth=\count121
 File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
 ))
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2007/01/14 v1.3 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 13.
@@ -311,16 +321,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 29.
 )
-(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texmf-texlive/tex/xelatex/euenc/eu1enc.def
+(/usr/local/texlive/2007/texmf-dist/tex/xelatex/euenc/eu1enc.def
 File: eu1enc.def 2006/08/13 v0.1a Experimental unicode font encoding
 )
 LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
 
 
-(/usr/share/texmf-texlive/tex/xelatex/euenc/lm/eu1lmr.fd
+(/usr/local/texlive/2007/texmf-dist/tex/xelatex/euenc/lm/eu1lmr.fd
 File: eu1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 ))
 LaTeX Info: Redefining \itshape on input line 1050.
@@ -329,77 +339,92 @@ LaTeX Info: Redefining \scshape on input line 1056.
 LaTeX Info: Redefining \upshape on input line 1059.
 
 fontspec.cfg loaded.
-(/usr/share/texmf-texlive/tex/xelatex/fontspec/fontspec.cfg))
-\@indexfile=\write4
-\openout4 = `Schrift.idx'.
+(/Users/oppl/Library/texmf/tex/xelatex/fontspec.cfg))
+\c@zf@famc@Hoefler Text=\count122
+Package fontspec Info: Defining font family for "Hoefler Text" with options [Ma
+pping=tex-text,] on input line 26.
+\c@zf@famc@Gill Sans=\count123
+Package fontspec Info: Defining font family for "Gill Sans" with options [Mappi
+ng=tex-text,] on input line 29.
+\c@zf@famc@Monaco=\count124
+Package fontspec Info: Defining font family for "Monaco" with options [Mapping=
+tex-text,] on input line 31.
+Package fontspec Info: Could not resolve font Monaco/B (it might not exist) on 
+input line 31.
+Package fontspec Info: Could not resolve font Monaco/I (it might not exist) on 
+input line 31.
+Package fontspec Info: Could not resolve font Monaco/BI (it might not exist) on
+ input line 31.
+\@indexfile=\write5
+\openout5 = `Schrift.idx'.
 
 
 Writing index file Schrift.idx
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2007/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2006/02/20 v1.4 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode not detected.
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
+(/usr/local/texlive/2007/texmf/tex/latex/config/graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: xetex.def on input line 90.
 
-(/usr/share/texmf-texlive/tex/xelatex/graphics/xetex.def
+(/usr/local/texlive/2007/texmf-dist/tex/xelatex/graphics/xetex.def
 File: xetex.def 2006/08/10 v0.92 LaTeX color/graphics driver for XeTeX (RRM, mo
 d. JK)
 ))
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
 )
-(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2002/07/08 v3.2 Page Geometry
-\Gm@cnth=\count120
-\Gm@cntv=\count121
-\c@Gm@tempcnt=\count122
+\Gm@cnth=\count125
+\Gm@cntv=\count126
+\c@Gm@tempcnt=\count127
 \Gm@bindingoffset=\dimen121
 \Gm@wd@mp=\dimen122
 \Gm@odd@mp=\dimen123
 \Gm@even@mp=\dimen124
 \Gm@dimlist=\toks18
 
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
-(/usr/share/texmf-texlive/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2007/texmf-dist/tex/xelatex/xetexconfig/geometry.cfg))
+(/usr/local/texlive/2007/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2007/01/21 v2.0 Micro-typography with pdfTeX (RS)
 
 
 Package microtype Warning: You don't seem to be using pdftex.
 (microtype)                All micro-typographic features will be disabled.
 
-) (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+) (/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/etc/texmf/tex/latex/config/color.cfg
+(/usr/local/texlive/2007/texmf/tex/latex/config/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: xetex.def on input line 130.
 )
-(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
 \@linkdim=\dimen125
-\Hy@linkcounter=\count123
-\Hy@pagecounter=\count124
+\Hy@linkcounter=\count128
+\Hy@pagecounter=\count129
 
-(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
 )
-(/etc/texmf/tex/latex/config/hyperref.cfg
+(/usr/local/texlive/2007/texmf/tex/latex/config/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
 HO)
 )
@@ -412,12 +437,12 @@ Package hyperref Info: Backreferencing OFF on input line 2308.
 
 Implicit mode ON; LaTeX internals redefined
 Package hyperref Info: Bookmarks ON on input line 2444.
-(/usr/share/texmf-texlive/tex/xelatex/xetexurl/url.sty
+(/usr/local/texlive/2007/texmf-dist/tex/xelatex/xetexurl/url.sty
 \Urlmuskip=\muskip10
 Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 2599.
-\Fld@menulength=\count125
+\Fld@menulength=\count130
 \Field@Width=\dimen126
 \Fld@charsize=\dimen127
 \Choice@toks=\toks19
@@ -427,17 +452,17 @@ Package hyperref Info: Link nesting OFF on input line 3107.
 Package hyperref Info: Hyper index ON on input line 3110.
 Package hyperref Info: backreferencing OFF on input line 3117.
 Package hyperref Info: Link coloring OFF on input line 3122.
-\Hy@abspage=\count126
-\c@Item=\count127
-\c@Hfootnote=\count128
+\Hy@abspage=\count131
+\c@Item=\count132
+\c@Hfootnote=\count133
 )
 *hyperref using default driver hdvipdfm*
-(/usr/share/texmf-texlive/tex/latex/hyperref/hdvipdfm.def
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/hdvipdfm.def
 File: hdvipdfm.def 2007/02/07 v6.75r Hyperref driver for dvipdfm
 \pdfm@box=\box57
-\Fld@listcount=\count129
-) (./Schrift.aux
-(./Werkzeug.aux))
+\Fld@listcount=\count134
+)
+(./Schrift.aux (./Werkzeug.aux))
 \openout1 = `Schrift.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
@@ -456,21 +481,13 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 107.
 LaTeX Font Info:    ... okay on input line 107.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
 LaTeX Font Info:    ... okay on input line 107.
-Configuring pdfsync
-\PDFSYNC@ut=\write5
-\openout5 = `Schrift.pdfsync'.
+**** pdfsync.sty: Synchronization is enabled.
+\openout3 = `Schrift.pdfsync'.
 
-\PDFSYNCf@li@=\count130
-\PDFSYNC@rder=\count131
-**** pdfsync.sty: Synchronizing at \everypar
-\PDFSYNCeveryp@r=\toks21
-**** pdfsync.sty: Synchronizing at \everymath
-\PDFSYNCeverym@th=\toks22
-**** pdfsync.sty: Synchronizing at \everyhbox
-\PDFSYNCeveryhb@x=\toks23
-**** pdfsync.sty: Synchronizing at \everyvbox
-\PDFSYNCeveryvb@x=\toks24
-**** pdfsync.sty: started
+**** pdfsync.sty: Synchronizing par
+**** pdfsync.sty: Synchronizing math
+**** pdfsync.sty: Synchronizing hbox
+**** pdfsync.sty: Synchronizing extra
 Package minitoc(hints) Info: <I0049>
 (minitoc(hints))             ==> You requested the hints option 
 (minitoc(hints))             Some hints are eventually given below.
@@ -530,33 +547,44 @@ LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
 (Font)              `operators' in the math version `normal' on input line 107.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> EU1/lmr/m/n on input line 107.
+(Font)                  OT1/lmr/m/n --> EU1/HoeflerText(0)/m/n on input line 10
+7.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
 (Font)              `operators' in the math version `bold' on input line 107.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> EU1/lmr/m/n on input line 107.
+(Font)                  OT1/lmr/bx/n --> EU1/HoeflerText(0)/m/n on input line 1
+07.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 107.
+(Font)                  EU1/HoeflerText(0)/m/n --> EU1/HoeflerText(0)/m/n on in
+put line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 107.
+(Font)                  EU1/HoeflerText(0)/m/n --> EU1/HoeflerText(0)/m/n on in
+put line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> EU1/lmr/m/it on input line 107.
+(Font)                  OT1/lmr/m/it --> EU1/HoeflerText(0)/m/it on input line 
+107.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> EU1/lmr/bx/n on input line 107.
+(Font)                  OT1/lmr/bx/n --> EU1/HoeflerText(0)/bx/n on input line 
+107.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> EU1/lmss/m/n on input line 107.
+(Font)                  OT1/lmss/m/n --> EU1/GillSans(0)/m/n on input line 107.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> EU1/lmtt/m/n on input line 107.
+(Font)                  OT1/lmtt/m/n --> EU1/Monaco(0)/m/n on input line 107.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 107.
+(Font)                  EU1/HoeflerText(0)/m/n --> EU1/HoeflerText(0)/bx/n on i
+nput line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 107.
+(Font)                  EU1/HoeflerText(0)/m/n --> EU1/HoeflerText(0)/bx/n on i
+nput line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> EU1/lmr/bx/it on input line 107.
+(Font)                  OT1/lmr/bx/it --> EU1/HoeflerText(0)/bx/it on input lin
+e 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> EU1/lmss/bx/n on input line 107.
+(Font)                  OT1/lmss/bx/n --> EU1/GillSans(0)/bx/n on input line 10
+7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> EU1/lmtt/bx/n on input line 107.
+(Font)                  OT1/lmtt/m/n --> EU1/Monaco(0)/bx/n on input line 107.
 -------------------- Geometry parameters
 paper: a4paper
 landscape: --
@@ -597,42 +625,37 @@ driver: pdftex
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
 Package hyperref Info: Link coloring OFF on input line 107.
-(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
-(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/oberdiek/refcount.sty
 Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
-\c@section@level=\count132
+\c@section@level=\count135
 )
 LaTeX Info: Redefining \ref on input line 107.
 LaTeX Info: Redefining \pageref on input line 107.
- (./Schrift.out)
-(./Schrift.out)
+
+(./Schrift.out) (./Schrift.out)
 \@outlinefile=\write6
 \openout6 = `Schrift.out'.
 
-LaTeX Font Info:    Try loading font information for EU1+lmss on input line 112
-.
- (/usr/share/texmf-texlive/tex/xelatex/euenc/lm/eu1lmss.fd
-File: eu1lmss.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 112.
 
 
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
+(/usr/local/texlive/2007/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 112
 .
 
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+(/usr/local/texlive/2007/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 112
 .
 
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+(/usr/local/texlive/2007/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -641,16 +664,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 112.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 112.
+LaTeX Font Info:    Try loading font information for OT1+HoeflerText(0) on inpu
+t line 112.
+LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 112.
+LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 112.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[1
 
 
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
-) [1
 
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
 
-
-] [2
+[2
 
 ] (./Schrift.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -661,25 +694,41 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write7
 \openout7 = `Schrift.toc'.
 
+LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' undefined
+(Font)              using `EU1/HoeflerText(0)/m/n' instead on input line 124.
  [1
 
 
-] [2
-
-
 ]
-(./Schrift.lof)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[2
+
+
+] (./Schrift.lof)
 \tf@lof=\write8
 \openout8 = `Schrift.lof'.
 
- [3] [4
+ [3]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[4
 
 
 ] (./Schrift.lot)
 \tf@lot=\write9
 \openout9 = `Schrift.lot'.
 
- [5] [6
+ [5]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[6
 
 
 ]
@@ -689,193 +738,363 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-] [2]
-(./ImplementierungInput.tex
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[2] (./ImplementierungInput.tex
 Kapitel 1.
+
+Overfull \hbox (0.1946pt too wide) in paragraph at lines 10--11
+\EU1/HoeflerText(0)/m/sl/12 Im Gegensatz zu Systemen mit dezidierten Eingabeger
+äten (wie Tastatur oder Maus)
+ []
+
 [3
 
 
-] [4] [5]
-Underfull \vbox (badness 1694) has occurred while \output is active []
+]
+Overfull \hbox (21.55469pt too wide) in paragraph at lines 21--22
+\EU1/HoeflerText(0)/m/sl/12 Technologien, die eine Erfassung dieser Parameter m
+it einer Genauigkeit im Zentimeter-
+ []
+
+[4] [5]
+Overfull \hbox (1.31453pt too wide) in paragraph at lines 44--45
+[]\EU1/HoeflerText(0)/m/sl/12 Kapazitive Systeme eignen sich also zur Positions
+bestimmung, nicht aber zur Iden-
+ []
+
+
+Overfull \hbox (5.57098pt too wide) in paragraph at lines 57--58
+\EU1/HoeflerText(0)/m/sl/12 des bei gleichzeitig beschränkter Genauigkeit nur 
+bedingt zur Feststellung von Raum-
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
 
  [6]
-[7] [8] [9] [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (0.1073pt too wide) in paragraph at lines 68--69
+\EU1/HoeflerText(0)/m/sl/12 tisch) verdeckte Tokens. Eine Anfälligkeit gegenü
+ber anderen Störeinflüssen besteht
+ []
 
- [11]
+[7]
+Overfull \hbox (3.1033pt too wide) in paragraph at lines 88--89
+\EU1/HoeflerText(0)/m/sl/12 Hinsichtlich des Tokenzustands sind im Kontext des 
+hier vorgestellten Anwendungs-
+ []
+
+
+Overfull \hbox (0.11084pt too wide) in paragraph at lines 98--99
+\EU1/HoeflerText(0)/m/sl/12 ten Teilbereichen der Außenfläche eines Tokens. D
+amit ist es grundsätzlich möglich,
+ []
+
+[8]
+Overfull \hbox (0.65465pt too wide) in paragraph at lines 110--111
+\EU1/HoeflerText(0)/m/sl/12 ansonsten eventuell zu verwendende Kabel zu vermeid
+en. Eine Stromversorung über
+ []
+
+[9]
+Overfull \hbox (0.33095pt too wide) in paragraph at lines 117--118
+\EU1/HoeflerText(0)/m/sl/12 gleichzeitig verwendbaren Geräte (max. 7) für den
+ hier vorgestellten Anwendungsfall
+ []
+
+[10]
+Underfull \hbox (badness 1331) in paragraph at lines 138--139
+\EU1/HoeflerText(0)/m/sl/12 macht. [][]\EU1/HoeflerText(0)/m/it/12 Frameworks f
+ür video-basierten Input für Tangible Interfaces \EU1/HoeflerText(0)/m/sl/12 
+sind hochs-
+ []
+
+[11]
+Overfull \hbox (4.83414pt too wide) in paragraph at lines 153--154
+[]\EU1/HoeflerText(0)/m/sl/12 Konzeptuell existieren im Framework drei Arten vo
+n Komponenten: Context Wid-
+ []
+
 [12] [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (7.73354pt too wide) in paragraph at lines 179--180
+\EU1/HoeflerText(0)/m/sl/12 ren”, ”Aggragtoren” und ”Anwendungen / Aktu
+atoren” (siehe Abbildung []1.1[]). ”Sensor”-
+ []
 
- [14]
-[15]
+File: img/ImplementierungInput/TUIpistArchitecture.jpg Graphic file (type QTm)
+<use  "img/ImplementierungInput/TUIpistArchitecture.jpg" >
+Overfull \hbox (25.82309pt too wide) in paragraph at lines 188--189
+[]\EU1/HoeflerText(0)/m/sl/12 Die Verbindung der Komponenten erfolgt wie erwäh
+nt mittels einem daten-zentrierten
+ []
+
+
+Overfull \hbox (0.12677pt too wide) in paragraph at lines 188--189
+\EU1/HoeflerText(0)/m/sl/12 (siehe Abbildung []1.2[]). Das Tupelspace-Konzept e
+rlaubt auch eine dynamische Erwei-
+ []
+
+[14]
+File: img/ImplementierungInput/TUIpistOperation.jpg Graphic file (type QTm)
+ <use  "img/ImplementierungInput/TUIpistOperation.jpg" > [15]
+File: img/ImplementierungInput/artoolkit.jpg Graphic file (type QTm)
+
+<use  "img/ImplementierungInput/artoolkit.jpg" > [16]
+File: img/ImplementierungInput/visualcodes.png Graphic file (type QTm)
+
+<use  "img/ImplementierungInput/visualcodes.png" > [17]
 File: img/ImplementierungInput/ReactivisionCode.png Graphic file (type QTm)
- <use  "img/ImplementierungInput/ReactivisionCode.png" > [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 255.
+<use  "img/ImplementierungInput/ReactivisionCode.png" > [18]
+LaTeX Font Info:    Try loading font information for OMS+HoeflerText(0) on inpu
+t line 277.
+LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 277.
+LaTeX Font Info:    Font shape `OMS/HoeflerText(0)/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 277.
 
+Overfull \hbox (2.32306pt too wide) in paragraph at lines 284--285
+[]\EU1/HoeflerText(0)/m/sl/12 ReacTIVision bietet die umfassendste Unterstützu
+ng zur Einbindung unterschied-
+ []
 
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 255.
- [18]
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-[][][]\EU1/lmr/m/n/12 Kamera-
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]\EU1/HoeflerText(0)/m/sl/12 Kamera-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-[][][]\EU1/lmr/m/n/12 nativ nur für
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]\EU1/HoeflerText(0)/m/sl/12 nativ auf allen
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 277--277
-[][][]\EU1/lmr/m/n/12 nativ auf allen
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\EU1/HoeflerText(0)/m/sl/12 unterstützten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-\EU1/lmr/m/n/12 unterstützten
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\EU1/HoeflerText(0)/m/sl/12 Plattformen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-\EU1/lmr/m/n/12 Plattformen
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\EU1/HoeflerText(0)/m/sl/12 via USB und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-\EU1/lmr/m/n/12 via USB und
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+[]\EU1/HoeflerText(0)/m/sl/12 Java-basiert auf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-\EU1/lmr/m/n/12 allen Plattfor-
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+\EU1/HoeflerText(0)/m/sl/12 allen Plattfor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[][][]\EU1/lmr/m/n/12 Windows, Li-
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+[]\EU1/HoeflerText(0)/m/sl/12 Windows, Li-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-\EU1/lmr/m/n/12 nux, Mac OS
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+\EU1/HoeflerText(0)/m/sl/12 nux, Mac OS
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 279--279
-[][][]\EU1/lmr/m/n/12 Schnittstelle zu
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]\EU1/HoeflerText(0)/m/sl/12 Schnittstelle zu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
-[][][]\EU1/lmr/m/n/12 via Dritt-
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]\EU1/HoeflerText(0)/m/sl/12 via Dritt-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
-[][][]\EU1/lmr/m/n/12 Stabilität der
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+\EU1/HoeflerText(0)/m/sl/12 der Bilderken-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-[][][]\EU1/lmr/m/n/12 Geschwindigkeit
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]\EU1/HoeflerText(0)/m/sl/12 Erkennung von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-\EU1/lmr/m/n/12 der Bilderken-
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]\EU1/HoeflerText(0)/m/sl/12 Erkennung von
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 283--283
-[][][]\EU1/lmr/m/n/12 Erkennung von
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]\EU1/HoeflerText(0)/m/sl/12 Source-Code
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 284--284
-[][][]\EU1/lmr/m/n/12 Erkennung von
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]\EU1/HoeflerText(0)/m/sl/12 GPL, alternativ
+ []
+
+[20] [21]
+Overfull \hbox (0.67482pt too wide) in paragraph at lines 336--337
+[]\EU1/HoeflerText(0)/m/sl/12 Hinsichtlich der Skalierbarkeit der Frameworks k�
+�nnen aufgrund mangelnder Ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[][][]\EU1/lmr/m/n/12 Source-Code
- []
-
-[19] [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+[24]
 File: img/ImplementierungInput/TischSeitenansicht.png Graphic file (type QTm)
+ <use  "img/ImplementierungInput/TischSeitenansicht.png" > [25]
+Overfull \hbox (10.67116pt too wide) in paragraph at lines 379--380
+\EU1/HoeflerText(0)/m/sl/12 In diesem Abschnitt werden die einzelnen durch die 
+Benutzer manipulierbaren Token-
+ []
 
-<use  "img/ImplementierungInput/TischSeitenansicht.png" > [23] [24]
 File: img/ImplementierungInput/TokensCodes.jpg Graphic file (type QTm)
-
 <use  "img/ImplementierungInput/TokensCodes.jpg" >
 File: img/ImplementierungInput/TokenTypes.jpg Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/TokenTypes.jpg" > [25]
+<use  "img/ImplementierungInput/TokenTypes.jpg" > [26]
 File: img/ImplementierungInput/ContainerRueckseite.jpg Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/ContainerRueckseite.jpg" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
+<use  "img/ImplementierungInput/ContainerRueckseite.jpg" > [27]
 File: img/ImplementierungInput/ContainerToken.jpg Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/ContainerToken.jpg" > [27] [28]
-Overfull \hbox (0.81033pt too wide) in paragraph at lines 426--427
-\EU1/lmr/m/n/12 Werkzeug-Tokens sind jene, die zur Benennung und Verbindung von
- Modellierungs-
+<use  "img/ImplementierungInput/ContainerToken.jpg" > [28] [29]
+Overfull \hbox (23.73071pt too wide) in paragraph at lines 456--457
+\EU1/HoeflerText(0)/m/sl/12 zudem das Token auf der Oberfläche aufgesetzt und 
+erkannt wird. Wird ein Markierungs-
  []
 
-[29]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
-[31] [32] [33]
+Overfull \hbox (0.2148pt too wide) in paragraph at lines 462--463
+\EU1/HoeflerText(0)/m/sl/12 dung das Löschen derselben auslösen. Der detailli
+erte zugehörige Interaktionsablauf
+ []
+
+[31]
+Overfull \hbox (7.57089pt too wide) in paragraph at lines 478--479
+\EU1/HoeflerText(0)/m/sl/12 fen und in ihrer zeitlichen Sequenz dargestellt wer
+den. Zur Aktivierung des Historien-
+ []
+
+[32] [33]
+Overfull \hbox (3.68315pt too wide) in paragraph at lines 504--505
+\EU1/HoeflerText(0)/m/sl/12 wenn starke Sonneneinstrahlung vorhanden ist, da di
+ese einen hohen Anteil an Lichts
+ []
+
+
+Overfull \hbox (1.00299pt too wide) in paragraph at lines 506--507
+[]\EU1/HoeflerText(0)/m/sl/12 Bei Umgebungslicht-Bedingungen, die sich über di
+e Zeit verändern (z.B. bei Tages-
+ []
+
+
+Overfull \hbox (14.24683pt too wide) in paragraph at lines 506--507
+\EU1/HoeflerText(0)/m/sl/12 keit kann das ReacTIVision-Framework durch den adap
+tiven Erkennungs-Algorithmus
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-Overfull \hbox (4.14503pt too wide) in paragraph at lines 498--499
-\EU1/lmr/m/n/12 Modellierungsproblematik, nicht aber durch technische Einschrä
-nkungen, vor-
+Overfull \hbox (4.42134pt too wide) in paragraph at lines 522--523
+\EU1/HoeflerText(0)/m/sl/12 Modellierungsproblematik, nicht aber durch technisc
+he Einschränkungen, vor-
  []
 
-[35] [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1122) has occurred while \output is active []
 
- [38]
-[39] [40]
-Underfull \vbox (badness 1888) has occurred while \output is active []
+ [35]
+[36] [37] [38] [39]
+Overfull \hbox (8.43079pt too wide) in paragraph at lines 580--581
+\EU1/HoeflerText(0)/m/sl/12 einbettbaren Tokens, dessen Form die Art der einzub
+ettenden Information bestimmt.
+ []
+
+[40]
+Overfull \hbox (29.32309pt too wide) in paragraph at lines 584--585
+\EU1/HoeflerText(0)/m/sl/12 teraktionsablauf definiert. Dieser beginnt mit dem 
+Öffnen des entsprechenden Container-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
+Overfull \hbox (32.77051pt too wide) in paragraph at lines 595--596
+[]\EU1/HoeflerText(0)/m/sl/12 Die Navigation durch die Modellierungshistorie er
+folgt mittels einem runden Werkzeug-
+ []
+
+[42] [43]
+Overfull \hbox (1.36143pt too wide) in paragraph at lines 609--610
+[]\EU1/HoeflerText(0)/m/sl/12 die Komponente, die für die Stabilisierung der E
+rkennungsleistung sorgt, wenn
+ []
+
+
+Overfull \hbox (4.61461pt too wide) in paragraph at lines 618--619
+\EU1/HoeflerText(0)/m/sl/12 das die Auswertung der Nachricht übernimmt und üb
+er einen Callback-Mechanismus
+ []
+
+
+Overfull \hbox (0.76672pt too wide) in paragraph at lines 618--619
+\EU1/HoeflerText(0)/m/sl/12 server), das bei der Entwicklung wiederverwendbarer
+ objektorientierter Software als
+ []
+
+[44]
+Overfull \hbox (1.97488pt too wide) in paragraph at lines 631--632
+\EU1/HoeflerText(0)/m/sl/12 leuchtungsbedingungen zu Erkennungsproblemen oder F
+ehlerkennungen neigt, wur-
+ []
+
+[45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-Underfull \vbox (badness 5756) has occurred while \output is active []
+ [46]))
+Underfull \vbox (badness 1210) has occurred while \output is active []
 
- [43]
-Underfull \vbox (badness 3977) has occurred while \output is active []
-
- [44]))
-[45] (./Schrift.bbl [46
+ [47]
+[48] (./Schrift.bbl [49
 
 
 
-] [47]) (./Schrift.ind [48] [49
+]
+Underfull \hbox (badness 2961) in paragraph at lines 142--146
+[]\EU1/HoeflerText(0)/m/sl/12 Stary, C. (1994).  \EU1/HoeflerText(0)/m/it/12 In
+teraktive Systeme: Softwareentwicklung und Softwareergono-
+ []
+
+[50]) (./Schrift.ind [51]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[52
 
 
+] [53
 
 
 
@@ -884,7 +1103,7 @@ Underfull \vbox (badness 3977) has occurred while \output is active []
 Package minitoc Info: <I0009>
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Schrift.maf file.
-\openout3 = `Schrift.maf'.
+\openout4 = `Schrift.maf'.
 
 
 
@@ -893,17 +1112,15 @@ Package minitoc(hints) Warning: <W0024>
 (minitoc(hints))                in the Schrift.log file.
 
 (./Schrift.aux (./Werkzeug.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+LaTeX Font Info:    Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
- 9313 strings out of 95775
- 146892 string characters out of 1189971
- 291652 words of memory out of 1500000
- 12051 multiletter control sequences out of 10000+50000
- 14439 words of font info for 43 fonts, out of 1200000 for 2000
- 28 hyphenation exceptions out of 8191
- 35i,29n,44p,2203b,556s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 9358 strings out of 94863
+ 149542 string characters out of 1171490
+ 294067 words of memory out of 1500000
+ 12158 multiletter control sequences out of 10000+50000
+ 8809 words of font info for 54 fonts, out of 1200000 for 2000
+ 605 hyphenation exceptions out of 8191
+ 35i,11n,44p,2203b,473s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on Schrift.pdf (57 pages).
+Output written on Schrift.pdf (61 pages).
