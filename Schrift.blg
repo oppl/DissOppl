@@ -3,44 +3,44 @@ The top-level auxiliary file: Schrift.aux
 The style file: apalike.bst
 A level-1 auxiliary file: Werkzeug.aux
 Database file #1: /Users/oppl/Documents/Dokumente/Literatur/archiv.bib
-You've used 28 entries,
+You've used 29 entries,
             1935 wiz_defined-function locations,
-            666 strings with 8321 characters,
-and the built_in function-call counts, 10999 in all, are:
-= -- 1090
-> -- 422
-< -- 27
-+ -- 144
-- -- 140
-* -- 851
-:= -- 1900
-add.period$ -- 91
-call.type$ -- 28
-change.case$ -- 207
-chr.to.int$ -- 28
-cite$ -- 28
-duplicate$ -- 470
-empty$ -- 783
-format.name$ -- 178
-if$ -- 2212
+            676 strings with 8464 characters,
+and the built_in function-call counts, 11271 in all, are:
+= -- 1118
+> -- 429
+< -- 29
++ -- 146
+- -- 142
+* -- 870
+:= -- 1954
+add.period$ -- 94
+call.type$ -- 29
+change.case$ -- 213
+chr.to.int$ -- 29
+cite$ -- 29
+duplicate$ -- 482
+empty$ -- 801
+format.name$ -- 181
+if$ -- 2263
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 27
-newline$ -- 143
-num.names$ -- 84
-pop$ -- 213
+newline$ -- 148
+num.names$ -- 87
+pop$ -- 216
 preamble$ -- 1
-purify$ -- 210
+purify$ -- 216
 quote$ -- 0
-skip$ -- 352
+skip$ -- 361
 stack$ -- 0
-substring$ -- 661
-swap$ -- 85
-text.length$ -- 10
+substring$ -- 673
+swap$ -- 86
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 158
+type$ -- 164
 warning$ -- 0
-while$ -- 85
+while$ -- 87
 width$ -- 0
-write$ -- 370
+write$ -- 384

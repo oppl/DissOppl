@@ -32,7 +32,7 @@
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-27T08:27:27Z</date>
+			<date>2009-03-27T20:35:05Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -102,14 +102,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>59</integer>
+				<integer>48</integer>
 				<key>line</key>
-				<integer>307</integer>
+				<integer>514</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>352</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>287</integer>
+			<integer>500</integer>
 		</dict>
 		<key>ImplementierungUeberblick.tex</key>
 		<dict>
@@ -190,6 +190,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{0, 57}, {1070, 940}}</string>
+	<string>{{0, 62}, {1070, 816}}</string>
 </dict>
 </plist>
