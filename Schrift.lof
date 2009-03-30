@@ -1,13 +1,15 @@
 \contentsline {xpart}{Umsetzung}{3}{part.1}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Input und Interpretation}{3}{chapter.1}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Architektur des TUIpist-Framework \citep {Furtmuller07a}}}{14}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Zusammenspiel der Komponenten in TUIpist \citep {Furtmuller07a}}}{15}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces AR Toolkit Marker (Quelle: www.hitl.washington.edu/artoolkit/)}}{16}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Visual Codes - Aufbau und Features (übernommen von \citet {Rohs04})}}{17}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces ReacTIVision Code}}{18}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Überblick über den Aufbau des Tabletop Interfaces}}{26}{figure.1.6}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Architektur des TUIpist-Framework \citep {Furtmuller07a}}}{15}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Zusammenspiel der Komponenten in TUIpist \citep {Furtmuller07a}}}{16}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces AR Toolkit Marker (Quelle: www.hitl.washington.edu/artoolkit/)}}{17}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Visual Codes -- Aufbau und Features (übernommen von \citet {Rohs04})}}{18}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ReacTIVision Code}}{19}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Eingabekomponenten}}{27}{figure.1.6}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces An Tokens angebrachte ReacTIVision-Codes zur Identifikation}}{28}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Arten von Modellierungstokens}}{28}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Rückwand von Container Tokens}}{29}{figure.1.9}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Arten von Modellierungstokens}}{29}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Rückwand von Container Tokens}}{30}{figure.1.9}
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Geöffnetes Container Token}}{30}{figure.1.10}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Modellelemente -- Taxonomie}}{31}{figure.1.11}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Softwarearchitektur zur Erkennung von Benutzerinteraktion}}{48}{figure.1.12}
