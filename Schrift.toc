@@ -1,65 +1,26 @@
 \contentsline {part}{\numberline {I}Umsetzung}{1}{part.1}
 \contentsline {xpart}{Umsetzung}{3}{part.1}
-\contentsline {chapter}{\numberline {1}Input und Interpretation}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Möglichkeiten zur Erfassung von Benutzerinteraktion}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}In Frage kommende technologische Ansätze}{4}{subsection.1.1.1}
-\contentsline {subsubsection}{Raumparameter}{4}{section*.4}
-\contentsline {paragraph}{Optisch}{4}{section*.5}
-\contentsline {paragraph}{Kapazitiv}{5}{section*.6}
-\contentsline {paragraph}{Elektromagnetisch}{6}{section*.7}
-\contentsline {paragraph}{Akustisch}{7}{section*.8}
-\contentsline {paragraph}{Bewertung}{7}{section*.9}
-\contentsline {subsubsection}{Tokenzustand}{8}{section*.10}
-\contentsline {paragraph}{Passive Token}{8}{section*.11}
-\contentsline {paragraph}{Aktive Token}{9}{section*.12}
-\contentsline {paragraph}{Bewertung}{10}{section*.13}
-\contentsline {subsection}{\numberline {1.1.2}In Frage kommende Frameworks}{11}{subsection.1.1.2}
-\contentsline {subsubsection}{Generische Frameworks}{11}{section*.14}
-\contentsline {paragraph}{Context Toolkit}{12}{section*.15}
-\contentsline {paragraph}{SiLiCon Context Framework}{13}{section*.16}
-\contentsline {paragraph}{Papiermaché}{13}{section*.17}
-\contentsline {paragraph}{TUIpist}{14}{section*.18}
-\contentsline {subsubsection}{Frameworks für video-basierten Input}{16}{section*.19}
-\contentsline {paragraph}{AR Toolkit}{17}{section*.20}
-\contentsline {paragraph}{Visual Codes}{17}{section*.21}
-\contentsline {paragraph}{ReacTIVision}{18}{section*.22}
-\contentsline {subsection}{\numberline {1.1.3}Technologieentscheidung}{20}{subsection.1.1.3}
-\contentsline {subsubsection}{Vergleich der Frameworks für videobasierten Input}{20}{section*.23}
-\contentsline {subsubsection}{Vergleich der generischen Frameworks}{23}{section*.24}
-\contentsline {section}{\numberline {1.2}Konzeption und Umsetzung der Hardwarekomponenten}{26}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Überblick}{26}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Tokens und Input-Werkzeuge}{28}{subsection.1.2.2}
-\contentsline {subsubsection}{Modellierungs-Tokens}{28}{section*.25}
-\contentsline {subsubsection}{Einbettbare Tokens}{31}{section*.26}
-\contentsline {subsubsection}{Werkzeug Tokens}{32}{section*.27}
-\contentsline {paragraph}{Manipulation des Modells}{33}{section*.28}
-\contentsline {paragraph}{Steuerung von Unterstützungsfunktionen}{34}{section*.29}
-\contentsline {subsection}{\numberline {1.2.3}Input auf der Tischoberfläche}{35}{subsection.1.2.3}
-\contentsline {subsubsection}{Illumination und Umgebungslichtabhängigkeit}{36}{section*.30}
-\contentsline {section}{\numberline {1.3}Benutzerinteraktion mit dem Werkzeug}{38}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Hinzufügen und Verändern von Modellelementen}{39}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Benennen von Modellelementen}{40}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Verbinden von Modellelementen}{41}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Löschen von Elementen und Verbindungen}{42}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Einbettung von Zusatzinformation}{43}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Kontrolle der Modellierungshistorie}{45}{subsection.1.3.6}
-\contentsline {section}{\numberline {1.4}Erfassung der Benutzerinteraktion durch Software}{46}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Interpretation der Rohdaten}{47}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Stabilisierung der Erkennungsleistung}{50}{subsection.1.4.2}
-\contentsline {subsubsection}{Bildrauschen}{50}{section*.31}
-\contentsline {subsubsection}{Spotlights}{51}{section*.32}
-\contentsline {subsubsection}{Überstrahlte Bereiche}{53}{section*.33}
-\contentsline {subsubsection}{Bildverzerrungen}{54}{section*.34}
-\contentsline {subsection}{\numberline {1.4.3}Erkennung von Markierungen und Verbindungen}{55}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Erkennung von geöffneten Tokens}{57}{subsection.1.4.4}
-\contentsline {subsubsection}{Einbetten und Abrufen von eingebetteter Information}{58}{section*.35}
-\contentsline {subsection}{\numberline {1.4.5}Benennung von Modellelementen}{60}{subsection.1.4.5}
-\contentsline {subsubsection}{Benennung mittels Tastatur}{60}{section*.36}
-\contentsline {subsubsection}{Benennung mittels Haftnotiz}{61}{section*.37}
-\contentsline {subsection}{\numberline {1.4.6}Tracking des Modellzustandes}{62}{subsection.1.4.6}
-\contentsline {subsubsection}{Navigation in der Modellierungshistorie}{62}{section*.38}
-\contentsline {subsubsection}{Wiederherstellung eines Modellzustandes}{63}{section*.39}
-\contentsline {subsection}{\numberline {1.4.7}Verteilung des Modellzustandes}{64}{subsection.1.4.7}
-\contentsline {section}{\numberline {1.5}Zusammenfassung}{65}{section.1.5}
-\contentsline {chapter}{Literaturverzeichnis}{67}{chapter*.40}
-\contentsline {part}{Index}{69}{chapter*.40}
+\contentsline {chapter}{\numberline {1}Ausgabe}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Technologische Grundlage der Ausgabe}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Ansätze zur kohärenten Ausgabe}{3}{subsection.1.1.1}
+\contentsline {subsubsection}{Mögliche Ansätze}{3}{section*.4}
+\contentsline {paragraph}{Projektion}{3}{section*.5}
+\contentsline {paragraph}{Aktive Anzeige auf Tokens}{3}{section*.6}
+\contentsline {paragraph}{Aktuatoren}{3}{section*.7}
+\contentsline {subsubsection}{Entscheidung}{3}{section*.8}
+\contentsline {subsection}{\numberline {1.1.2}Frameworks zur Ausgabe}{3}{subsection.1.1.2}
+\contentsline {subsubsection}{In Frage kommende Frameworks}{3}{section*.9}
+\contentsline {paragraph}{JHotDraw}{3}{section*.10}
+\contentsline {subsubsection}{Framework-Entscheidung}{4}{section*.11}
+\contentsline {section}{\numberline {1.2}Ausgabe von Information}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Architekur}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Ausgabe von Information zum Modell}{4}{subsection.1.2.2}
+\contentsline {subsubsection}{Information zur Modellelemeenten}{4}{section*.12}
+\contentsline {subsubsection}{Information zu Verbindern}{4}{section*.13}
+\contentsline {subsection}{\numberline {1.2.3}Ausgabe zur Kontrolle des Systems}{4}{subsection.1.2.3}
+\contentsline {subsubsection}{Zustandsmeldungen}{4}{section*.14}
+\contentsline {subsubsection}{Wiederherstellungsunterstützung}{4}{section*.15}
+\contentsline {section}{\numberline {1.3}Umsetzung der Ausgabe mit Software}{4}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Ausgabe des Modellzustands}{4}{subsection.1.3.1}
+\contentsline {subsubsection}{Kalibrierung der Ausgabe}{4}{section*.16}
+\contentsline {subsection}{\numberline {1.3.2}Weitere Ausgabekanäle}{4}{subsection.1.3.2}

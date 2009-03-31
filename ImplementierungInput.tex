@@ -2,6 +2,8 @@
 \label{cha:input_&_interpretation}
 In diesem Kapitel wird jener Teil des Werkzeuges beschrieben, in dem die Interaktion der Benutzer mit dem Werkzeug erfasst und interpretiert wird. Der erste Abschnitt behandelt grundlegende Möglichkeiten zur Erfassung der Benutzerinteraktion auf tisch-basierten Benutzungsschnittstellen und endet mit der Identifikation der im konkreten Anwendungsfalls geeignetsten Technologie. Diese wird durch die Beschreibung von dafür verfügbaren Frameworks konkretisiert, was letztendlich in der Entscheidung für ein konkretes Produkt mündet.
 
+-- Einordnungsgrafik (Kontext - Vorgelagerte und nachfolgende Kapitel)
+
 Basierend auf dieser Entscheidung wird in den folgenden beiden Abschnitten auf das Design der Hard- und Softwarekomponenten eingegangen, die unmittelbar der Eingabe von Information durch Benutzer dienen. Der Ausgabeaspekt wird hier bewusst ausgeklammert und im nächsten Kapitel beschrieben. Dieses Kapitel endet mit eine Beschreibung der Interpretationsroutinen, die aus den durch das Framework gelieferten Rohdaten höherwertige, anwendungsspezifische Information extrahieren und diese den nachgeordneten Software-Modulen zur Verfügung stellen.
 
 \section{Möglichkeiten zur Erfassung von Benutzerinteraktion} % (fold)
@@ -787,6 +789,15 @@ Die Benennung mittels Haftnotiz ermöglicht die handschriftliche Benennung eines
 
 % subsubsection benennung_mittels_haftnotiz (end)
 % subsection benennung_von_modellelementen (end)
+
+\subsection{Festlegung der Bedeutung von Modellelementen} % (fold)
+\label{sub:festlegung_der_bedeutung_von_modellelementen}
+
+Durch die Möglichkeit der Festlegung der Bedeutung eines bestimmten Modelltyps (siehe Abschnitt \ref{sub:hinzufügen_und_verändern_von_modellelementen}) wird die Forderung nach semantisch flexibler Modellierung umgesetzt. Die Arten von Modellelementen sind semantisch nicht vorbelegt sondern werden während des Modellierungsvorgangs spezifiziert. Die Frage nach der  Angabe des Bedeutungstyps wird ausgelöst, wenn eine Tokenart erstmals auf der Oberfläche erkannt wird. Über eine Eingabemaske und die Tastatur kann dann die Bedeutung textuell eingegeben werden. Wird dieser Vorgang von den Benutzern abgebrochen, besteht die Möglichkeit die aktive Nachfrage bezüglich der Bedeutungszuordnung für den laufenden Modellierungsvorgang auszuschalten, um im Erstellungsprozess nicht unterbrochen zu werden. Die Bedeutungszuordnung kann aber immer ausgelöst werden, wenn ein Token in den Erfassungsbereich der Registrierungskamera gehalten wird. Das System fragt dann nach der Zuordnung der Bedeutung zum jeweiligen Elementtypen.
+
+Auf den Modellierungsvorgang selbst hat die Festlegung der Bedeutung technisch keine Auswirkungen. Für die Persistierung des Modells ist sie jedoch von Bedeutung, da neben dem eigentlichen Modell auch das Metamodell (und damit die Arten von verwendeten Modellelementen und deren Bedeutung) gespeichert werden (siehe Kapitel XY).
+
+% subsection festlegung_der_bedeutung_von_modellelementen (end)
 
 \subsection{Tracking des Modellzustandes} % (fold)
 \label{sub:tracking_des_modellzustandes}
