@@ -1,6 +1,10 @@
 \chapter{Persistierung} % (fold)
 \label{cha:persistierung}
 
+In den vorangegangen drei Kapiteln wurde die Umsetzung des eigentlichen Werkzeugs beschrieben. Neben der Unterstützung des Modellierungsvorgangs ist aber auch die persistente Speicherung der erstellten Modelle zum Zwecke der Weiterverarbeitung ein hier zu beleuchtender Aspekt. Auf die Persistierung wirken vor allem zwei der in Kapitel XY identifzierten Anforderungen ein. Zum ersten ist die Nachvollziehbarkeit des Modellierungsvorganges sicherzustellen -- dies gilt nicht nur während des Vorgangs selbst, sondern auch danach. Dementsprechend ist sämtliche Information zu persistieren, die zur Wiederherstellung nicht nur des Modells selbst sondern auch der gesamten Modellierungshistorie notwendig ist. Zum zweiten hat die Forderung nach semantischer Offenheit bei der Modellierung auch unmittelbare Auswirkungen auf die Persistierung. Neben dem Modell selbst muss aufgrund dieser Anforderung auch die Bedeutung der verwendeten Modellierungselemente miterfasst und persistiert werden, so dass diese bei der Weiterverarbeitung der Modelle verwendet werden kann.
+
+In diesem Kapitel werden nun aufgrund der eben genannten Forderungen technologische Ansätze identifiziert, beschrieben und schließlich hinsichtlich ihrer Eignung für den konkreten Einsatz beurteilt. Der ausgewählte Ansatz wird im darauf folgenden Abschnitt konzeptuell beschrieben. Die Abbildung der Modelle und der ebenfalls zu persistierenden zusätzlichen Information in ein geeignetes Datenmodell ist Gegenstand des darauf folgenden Abschnitts. Schließlich wird die konkrete technische Umsetzung der Persistierung dargelegt und die dazu notwendigen Software-Module im Detail beschrieben.
+ 
 \section{Möglichkeiten der Persistenzsicherung} % (fold)
 \label{sec:möglichkeiten_der_persistenzsicherung}
 
@@ -15,6 +19,30 @@
 \section{Topic Maps} % (fold)
 \label{sec:topic_maps}
 
+Topic Maps sind wie bereits in Abschnitt XY beschrieben ein Mittel zur Abbildung von semantischen Netzen. In Topic Maps können beliebige Daten strukutriert aufbereitet und zueinander in Beziehung gesetzt werden. Die Art der zu repräsentierenden Daten ist dabei irrelvant, eine Topic Map trifft keine Aussage über ein den repräsentierten Daten zugrundeliegendes Begriffsystem (sie ist "ontology-agnostic" REF).
+
+Historisch stammen Topic Maps aus dem Bereich der technischen Repräsentation von Thesauri und Indizes. Aus diesen Bereichen motivieren sich auch die Bausteine einer Topic Map, wenngleich der Verwendung durch diesen Ursprung nicht eingeschränkt wird. Die grundlegenden Elemente einer Topic Map sind "Topics", "Associations" und "Occurrences". 
+
+-- Abbildung TAO aus AWM
+
+ "Topics" sind stellen Begriffe dar und bilden die Knoten des semantischen Netzes. Ein Topic kann beliebige Information darstellen \footnote{ZITAT AUS DEM STANDARD ... WHATSOEVER}, repräsentiert aber immer genau ein Phänomen der realen Welt (d.h. zu einem Topic muss es eine Entsprechung außerhalb der Topic Maps geben, die beobachtbar oder beschreibbar ist und auf die die modellierende Person Bezug nehmen will). Eine Topic Map ist damit im Sinne von Stachowiak (REF) ein diagrammatisches Modell, das einen bestimmten, für den Modellersteller relevanten Ausschnitt der Realität abbildet.
+
+"Associations" bilden die Beziehungen zwischen Topics ab und stellen damit die Kanten des semantischen Netzes dar. Eine Association verknüpft Topics semantisch miteinander und kann frei mit Bedeutung belegt werden. Die Art der Beziehungen ist also nicht festgelegt und wird wie die Bedeutung der Topics frei gewählt werden. Topics und Associations decken historisch den Bereich der Darstellung von Thesauri ab, in denen Begriffe definiert und zueinanden in Beziehung gesetzt werden. 
+
+Der zweite historische Ursprung von Topic Maps, die Indizes, werden durch das Konstrukt der "Occurences" abgedeckt. Occurences ("Auftreten") sind Referenzen aus der Topic Map in die reale Welt. Sie setzen die Topics einer Topic Map in Bezug zu beliebiger referenzierbarer Information (z.B. Dokumente). Im Kontext der eben geannten Indizes, kann eine Topic Map als der mit Querverweisen versehene Index eines Buches verstanden werden, in dem durch die Angabe von Seitenzahlen auf dne Text des Buches verwiesen wird. Diese Verweise durch Angabe der Seitenzahlen sind in diesem Zusammenhang die Occurrences.
+
+Die Ansammlung von durch Associations verknüpften und mit Occurrences versehenen Topics bilden eine Topic Map. Darüber hinaus kann in Topic Maps jedoch noch weiterführende Information repräsentiert werden, die Gegenstand der folgenden Abschnitte sein werden.
+
+\begin{itemize}
+ \item Topics, Topic Names, Variants und Subjects
+ \item Associations und Roles
+ \item Occurrences und Datatypes
+ \item Metamodellierung (Topic Types, Association Types und Occurrence Types)
+ \item Scopes und Reification
+\end{itemize}
+
+Weiterführende Technologien:
+TMCL und TMQL
 % section topic_maps (end)
 
 \section{Abbildung von Modellen auf Topic Maps} % (fold)
@@ -26,4 +54,9 @@
 \label{sec:technische_umsetzung_der_persistierung_von_modellen}
 
 % section technische_umsetzung_der_persistierung_von_modellen (end)
+
+\section{Zusammenfassung} % (fold)
+\label{sec:persistierung_zusammenfassung}
+
+% section persisitierung_zusammenfassung (end)
 % chapter persistierung (end)

@@ -3,7 +3,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.0
-lastDocument=ImplementierungInput.tex
+lastDocument=ImplementierungPersistence.tex
 masterDocument=Schrift.tex
 name=Schrift
 pkg_extIsRegExp=false
@@ -44,39 +44,39 @@ order=-1
 
 [item:ImplementierungInput.tex]
 archive=true
-column=0
+column=385
 encoding=UTF-8
 highlight=LaTeX
-line=684
-open=true
-order=0
+line=2
+open=false
+order=2
 
 [item:ImplementierungOutput.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=0
-open=false
-order=-1
+line=6
+open=true
+order=0
 
 [item:ImplementierungPersistence.tex]
+archive=true
+column=13
+encoding=UTF-8
+highlight=LaTeX
+line=44
+open=true
+order=1
+
+[item:ImplementierungUeberblick.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=24
 open=false
-order=-1
-
-[item:ImplementierungUeberblick.tex]
-archive=true
-column=46
-encoding=UTF-8
-highlight=LaTeX
-line=0
-open=false
-order=-1
+order=1
 
 [item:Schrift.tex]
 archive=true
@@ -89,12 +89,12 @@ order=1
 
 [item:Werkzeug.tex]
 archive=true
-column=16643070
-encoding=
-highlight=
+column=25
+encoding=UTF-8
+highlight=LaTeX
 line=0
 open=false
-order=-1
+order=1
 
 [item:schrift.kilepr]
 archive=true
