@@ -1,0 +1,28 @@
+\begin{thebibliography}{}
+
+\bibitem[{ISO JTC1/SC34/WG3}, 2008]{TMDM08}
+{ISO JTC1/SC34/WG3} (2008).
+\newblock {Information Technology - Topic Maps - Part 2: Data Model}.
+\newblock International Standard 13250-2, ISO/IEC.
+
+\bibitem[Pepper, 2000]{Pepper00}
+Pepper, S. (2000).
+\newblock The tao of topic maps.
+\newblock In {\em Proceedings of XML Europe}.
+
+\bibitem[Rath, 2003]{Rath03}
+Rath, H. (2003).
+\newblock {\em The Topic Maps Handbook}.
+\newblock empolis GmbH.
+
+\bibitem[Stachowiak, 1973]{Stachowiak73}
+Stachowiak, H. (1973).
+\newblock {\em {Allgemeine Modelltheorie}}.
+\newblock Springer Wien.
+
+\bibitem[Vatant, 2004]{Vatant04}
+Vatant, B. (2004).
+\newblock {Ontology-driven Topic Maps}.
+\newblock In {\em Proceedings of XML Europe 2004}, Amsterdam.
+
+\end{thebibliography}

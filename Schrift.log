@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  31 MAR 2009 08:04
+This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  2 APR 2009 22:55
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -664,11 +664,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 117.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 117.
-LaTeX Font Info:    Try loading font information for OT1+HoeflerText(0) on inpu
-t line 117.
-LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 117.
-LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 117.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
@@ -743,17 +738,50 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[2] (./ImplementierungOutput.tex
+[2] (./ImplementierungPersistence.tex
 Kapitel 1.
+LaTeX Font Info:    Try loading font information for OMS+HoeflerText(0) on inpu
+t line 12.
+LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 12.
+LaTeX Font Info:    Font shape `OMS/HoeflerText(0)/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 12.
 
-Underfull \vbox (badness 4084) has occurred while \output is active []
+Underfull \vbox (badness 1776) has occurred while \output is active []
 
  [3
 
 
-]))
-[4]
-No file Schrift.bbl.
+]
+File: img/Persistenz/TMBasic.png Graphic file (type QTm)
+
+<use  "img/Persistenz/TMBasic.png" >
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 33.
+ [4]
+File: img/Persistenz/TMFull.png Graphic file (type QTm)
+ <use  "img/Persistenz/TMFull.png" >
+File: img/Persistenz/TopicNaming.png Graphic file (type QTm)
+
+<use  "img/Persistenz/TopicNaming.png" >
+File: img/Persistenz/MetaModelExample.png Graphic file (type QTm)
+
+<use  "img/Persistenz/MetaModelExample.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6])) [7] (./Schrift.bbl
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[8
+
+
+
+])
 No file Schrift.ind.
 Package minitoc Info: <I0009>
 (minitoc)             Listing minitoc auxiliary files. 
@@ -765,16 +793,16 @@ Package minitoc(hints) Warning: <W0024>
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Schrift.log file.
 
-(./Schrift.aux (./Werkzeug.aux))
+[9] (./Schrift.aux (./Werkzeug.aux))
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
- 9242 strings out of 94863
- 146901 string characters out of 1171490
- 284067 words of memory out of 1500000
- 12063 multiletter control sequences out of 10000+50000
- 8544 words of font info for 52 fonts, out of 1200000 for 2000
+ 9273 strings out of 94863
+ 147367 string characters out of 1171490
+ 286067 words of memory out of 1500000
+ 12078 multiletter control sequences out of 10000+50000
+ 10140 words of font info for 60 fonts, out of 1200000 for 2000
  605 hyphenation exceptions out of 8191
- 35i,10n,44p,509b,406s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 35i,11n,44p,1131b,406s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on Schrift.pdf (12 pages).
+Output written on Schrift.pdf (17 pages).
