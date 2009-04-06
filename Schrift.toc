@@ -4,16 +4,16 @@
 \contentsline {section}{\numberline {1.1}Möglichkeiten der Persistenzsicherung}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Topic Maps}{4}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Topics, Subjects, Topic Names und Variants}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Associations und Roles}{5}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Occurrences und Datatypes}{5}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Metamodellierung in Topic Maps}{5}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Scopes}{7}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Weiterführende Konzepte}{7}{subsection.1.2.6}
-\contentsline {subsubsection}{Reification}{7}{section*.4}
-\contentsline {subsubsection}{Merging}{7}{section*.5}
-\contentsline {subsection}{\numberline {1.2.7}Einschränkungen}{7}{subsection.1.2.7}
-\contentsline {section}{\numberline {1.3}Abbildung von Modellen auf Topic Maps}{7}{section.1.3}
-\contentsline {section}{\numberline {1.4}Technische Umsetzung der Persistierung von Modellen}{7}{section.1.4}
-\contentsline {section}{\numberline {1.5}Zusammenfassung}{7}{section.1.5}
-\contentsline {chapter}{Literaturverzeichnis}{9}{chapter*.6}
-\contentsline {part}{Index}{9}{chapter*.6}
+\contentsline {subsection}{\numberline {1.2.2}Associations und Roles}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Occurrences und Datatypes}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Metamodellierung in Topic Maps}{8}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Statements und Scopes}{9}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Weiterführende Konzepte}{9}{subsection.1.2.6}
+\contentsline {subsubsection}{Reification}{9}{section*.4}
+\contentsline {subsubsection}{Merging}{9}{section*.5}
+\contentsline {subsection}{\numberline {1.2.7}Einschränkungen}{9}{subsection.1.2.7}
+\contentsline {section}{\numberline {1.3}Abbildung von Modellen auf Topic Maps}{9}{section.1.3}
+\contentsline {section}{\numberline {1.4}Technische Umsetzung der Persistierung von Modellen}{9}{section.1.4}
+\contentsline {section}{\numberline {1.5}Zusammenfassung}{9}{section.1.5}
+\contentsline {chapter}{Literaturverzeichnis}{11}{chapter*.6}
+\contentsline {part}{Index}{11}{chapter*.6}

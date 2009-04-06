@@ -3,20 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ImplementierungOutput.tex</string>
+	<string>Schrift.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-29T19:51:06Z</date>
+			<date>2009-04-06T13:28:48Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ArticulationWork.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-15T22:18:41Z</date>
+			<date>2009-04-06T13:28:33Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -26,9 +28,7 @@
 			<key>filename</key>
 			<string>ImplementierungOutput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-31T06:03:50Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-04-05T21:22:53Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -46,13 +46,13 @@
 			<key>filename</key>
 			<string>ImplementierungPersistence.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-05T20:34:54Z</date>
+			<date>2009-04-06T13:28:46Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Werkzeug.tex</string>
 			<key>lastUsed</key>
-			<date>2009-03-31T05:58:49Z</date>
+			<date>2009-04-06T13:28:48Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -74,37 +74,21 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>290</integer>
+				<integer>24</integer>
 				<key>line</key>
-				<integer>55</integer>
+				<integer>56</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>43</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>280</integer>
-				<key>line</key>
-				<integer>55</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>290</integer>
-				<key>line</key>
-				<integer>55</integer>
-			</dict>
+			<integer>40</integer>
 		</dict>
 		<key>ImplementierungOutput.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>34</integer>
+				<integer>0</integer>
 				<key>line</key>
 				<integer>6</integer>
 			</dict>
@@ -112,6 +96,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>47</integer>
+		</dict>
+		<key>ImplementierungPersistence.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>84</integer>
+				<key>line</key>
+				<integer>75</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>ImplementierungUeberblick.tex</key>
 		<dict>
@@ -132,23 +130,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>58</integer>
+				<integer>141</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>26</integer>
+			<integer>110</integer>
 		</dict>
 		<key>Werkzeug.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>25</integer>
-				<key>line</key>
 				<integer>0</integer>
+				<key>line</key>
+				<integer>8</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -161,6 +159,8 @@
 		<string>Schrift.tex</string>
 		<string>Werkzeug.tex</string>
 		<string>ImplementierungOutput.tex</string>
+		<string>ImplementierungPersistence.tex</string>
+		<string>ArticulationWork.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -192,6 +192,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{0, 62}, {1070, 816}}</string>
+	<string>{{0, 186}, {1070, 816}}</string>
 </dict>
 </plist>

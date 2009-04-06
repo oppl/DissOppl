@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  2 APR 2009 22:55
+This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  6 APR 2009 15:31
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -763,21 +763,24 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [4]
 File: img/Persistenz/TMFull.png Graphic file (type QTm)
  <use  "img/Persistenz/TMFull.png" >
+[5] [6]
+File: img/Persistenz/SubjectVsOccurrence.png Graphic file (type QTm)
+ <use  "img/Persistenz/SubjectVsOccurrence.png" >
 File: img/Persistenz/TopicNaming.png Graphic file (type QTm)
 
-<use  "img/Persistenz/TopicNaming.png" >
+<use  "img/Persistenz/TopicNaming.png" > [7]
 File: img/Persistenz/MetaModelExample.png Graphic file (type QTm)
 
 <use  "img/Persistenz/MetaModelExample.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-[6])) [7] (./Schrift.bbl
+ [8]))
+[9] (./Schrift.bbl
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[8
+[10
 
 
 
@@ -793,16 +796,20 @@ Package minitoc(hints) Warning: <W0024>
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Schrift.log file.
 
-[9] (./Schrift.aux (./Werkzeug.aux))
+[11] (./Schrift.aux (./Werkzeug.aux))
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 9273 strings out of 94863
- 147367 string characters out of 1171490
- 286067 words of memory out of 1500000
- 12078 multiletter control sequences out of 10000+50000
+ 9276 strings out of 94863
+ 147468 string characters out of 1171490
+ 290067 words of memory out of 1500000
+ 12080 multiletter control sequences out of 10000+50000
  10140 words of font info for 60 fonts, out of 1200000 for 2000
  605 hyphenation exceptions out of 8191
- 35i,11n,44p,1131b,406s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 35i,11n,44p,1606b,406s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on Schrift.pdf (17 pages).
+Output written on Schrift.pdf (19 pages).
