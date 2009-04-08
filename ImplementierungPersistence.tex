@@ -116,7 +116,7 @@ Bei allen anderen Types (konkret also Topic Name Types, Association Types, Role 
 
 Der Topic Map Standard erlaubt zwar die Angabe von Metamodellelementen (Types), ermöglicht es aber nicht Regeln anzugeben, anhand derer der semantisch korrekte Aufbau einer Topic Map geprüft werden. Ed ist beispielsweise möglich, einen Association-Type „hat Mitglieder“ zu definieren, der mittels den Roles „Organisationseinheit“ und „Mitarbeiter“ die Zuordnung von Mitarbeitern zu den Organisationseinheiten eines Unternehmens zuzuordnen. Es ist jedoch in der Topic Map nicht möglich zu spezifizieren, das beispielsweise mindestens drei Mitarbeiter zugeordnet werden müssen oder das es in dieser Beziehung nur eine Organisationseinheit geben darf. Weiters kann nicht spezifiziert werden, durch Topics welchen Types die jeweiligen Roles eingenommen werden dürfen -- beispielsweise ist eine Zuordnung von Produktionsmitteln in der Role „Mitarbeiter“ zulässig bzw. kann sie nicht als unzulässig gekennzeichnet werden.
 
-Ist eine derartige semantische Einschränkung bei der Topic Map Erstellung und die Einführung verbindlicher Strukturvorgaben notwendig, so muss dies außerhalb der Topic Map oder durch externe Interpretation spezifischer Topic Map Elemente geschehen. In ersterem Fall kann die noch finalem Zustand vorliegende TMCL (Topic Map Constraint Language), eine XML-basierte Regelsprache zur Einschränkung der Repräsentationsmöglichkeiten in einer Topic Map, verwendet werden. Im zweiten Fall können die Metamodell-Elemente (also alle Topics, die als Types verwendet werden) durch zusätzliche Associations verknüpft werden, die semantisch so interpretiert werden, dass sie eine zulässige Kombination von Topics der jeweiligen Kategorie anzeigen.
+Ist eine derartige semantische Einschränkung bei der Topic Map Erstellung und die Einführung verbindlicher Strukturvorgaben notwendig, so muss dies außerhalb der Topic Map oder durch externe Interpretation spezifischer Topic Map Elemente geschehen. In ersterem Fall kann die noch finalem Zustand vorliegende TMCL (Topic Map Constraint Language, REF), eine XML-basierte Regelsprache zur Einschränkung der Repräsentationsmöglichkeiten in einer Topic Map, verwendet werden. Im zweiten Fall können die Metamodell-Elemente (also alle Topics, die als Types verwendet werden) durch zusätzliche Associations verknüpft werden, die semantisch so interpretiert werden, dass sie eine zulässige Kombination von Topics der jeweiligen Kategorie anzeigen.
 
 % subsection metamodellierung_in_topic_maps (end)
 
@@ -145,7 +145,7 @@ Für Topics selbst kann kein Scope angegeben werden. Das ist hinsichtlich des To
 
 Wie bereits zu Beginn angeführt, können in einer Topic Map beliebige Inhalte abgebildet werden, jegliche Phänomene der realen Welt können durch Topics repräsentiert werden. Konsequenterweise können nun auch Elemente der Topic Map selbst oder sogar die Topic Map ansich durch ein Topic dargestellt werden. Eine derartige selbstbezügliche Abbildung wird als „Reification“ bezeichnet. Der Ausgangspunkt für eine Reification kann ein Statement sein oder eine Topic Map selbst. Topics können nicht verwendet werden, da ein sie repräsentierendes Topic semantisch äquivalent mit dem Ausgangspunkt wäre und damit zwei Topics vorhanden wären, die das gleiche Subject referenzieren. Nachdem die Abbildung zwischen Subject und Topic eineindeutig sein muss, ist ein derartiges Konstrukt nicht erlaubt.
 
-In Abgrenzung zur Types (Association Types, Occurrence Types, \ldots) repräsentiert ein reifizierendes Topic nicht die Kategorie eines Elements sondern das konkrete Element selbst. Es ist so möglich, einem konkreten Element wie einer Association zusätzliche Information hinzuzufügen (etwa eine Occurrence) oder auch eine bestehende Topic Map als Ganzes zu kapseln und als solche durch das sie reifizierende Topic Bezug zu nehmen. 
+In Abgrenzung zur Types (Association Types, Occurrence Types, \ldots) repräsentiert ein reifizierendes Topic nicht die Kategorie eines Elements sondern das konkrete Element selbst. Es ist so möglich, einem konkreten Element wie einer Association zusätzliche Information hinzuzufügen (etwa eine Occurrence) oder auch eine bestehende Topic Map als Ganzes zu kapseln und durch das sie reifizierende Topic Bezug zu nehmen. 
 
 % subsubsection reification (end)
 
@@ -161,12 +161,89 @@ Der Topic Map Standard definiert für jede Art von Element Regeln, anhand der fe
 
 \section{Abbildung von Modellen auf Topic Maps} % (fold)
 \label{sec:abbildung_von_modellen_auf_topic_maps}
--> DA Matthias
+
+Diagrammatische Modelle (REF Tamodia Paper) können direkt ohne zusätzliche Transformationen auf Topic Maps abgebildet werden. Derartige Modelle bestehen aus Knoten und Kanten, die Verwendung dieser im konkreten Anwendungskontext ist durch die Modellierungssprache festgelegt. In den folgenden Abschnitten wird nun beschrieben, wie die einzelnen Aspekte eines diagrammatischen Modells auf eine Topic Map abgebildet werden könenn.
+
+\subsection{Grundlegende Abbildung} % (fold)
+\label{sub:grundlegende_abbildung}
+Der naheliegendste Ansatz, um diagrammatische Modelle auf Topic Maps abzubilden, werden nun die Knoten auf Topics, die Kanten auf Associations abzubilden. Ist in den Kanten mehr Information als die bloße Anzeige der Verbindung von zwei Knoten abgebildet (wie z.B. in UML State Charts (REF), bei denen die zu einem Zustandsübergang führenden Ereignisse inkl. Bedingungen und ablaufende Aktionen in den Kanten repräsentiert werden), so kann es sinnvoll sein, auch die Kanten auf Topics abzubilden, da diesen auf dem Wege der Occurrences zusätzliche Information zugewiesen werden kann. Associations würden in diesem Fall verwendet, um die Knoten und Kanten des Modells zu verbinden, spielen also in der Repräsentation der Information nur noch ein untergeordnete Rolle. Ein Weg, die direkte Abbildung beizubehalten (indem Knoten auf Topics und Kanten auf Associations abgebildet werden) ist, zur Repräsentation der zusätzlich in den Kanten liegenen Information die Mäglichkeit der Reification zu nutzen, den Associations also Topics zuzuweisen, die genutzt werden können, um diese zusätzliche Information zu verwalten (siehe Abbildung XY).
+
+-- Abbildung: Darstellung der drei eben beschriebenen Fälle (Mapping direkt, indirekt und durch Reification). --
+
+Die Bedeutung der Knoten des abzubildenten Modells im Kontext einer bestimmten Kante muss in den direkt abbildenden Varianten (in denen Kanten auf Associations abgebildet werden) durch Roles dargestellt werden. In der indirekten Abbildung (bei der Kanten auf Topics abgebildet werden), kann diese Information auch in den Associations repräsentiert werden, die die Topics die Knoten darstellen und jene die Kanten darstellen miteinander verbinden.
+% subsection grundlegende_abbildung (end)
+
+\subsection{Abbildung des Metamodells}
+\label{sub:abbildung_des_metamodells}
+Da Topic Maps von vorne herein nicht auf eine bestimmte semantische Bedeutung der Topics und Associations festgelegt sind, muss auch das Meta-Model der abgebildeten Modellierungssprache mit eingebettet werden. Dies wird in Topic Maps durch die Einbindung von Types ermöglicht. In den nun folgenden Ausführungen wird nur noch auf die direkt abbildende Variante Bezug genommen, da deren Ausdruckstärke durch die Möglichkeit zur Reification gegenüber dem indirekt abbildenden Ansatz nicht eingeschränkt ist und die unmittelbare Abbildung zu insgesamt kleineren, einfacher zu verwaltenden Topic Maps führt (für eine Kanten wird nur eine Association benötigt, im Gegensatz dazu benötigt der alternative Ansatz ein Topic und mindestens zwei Associations zu Abbildung einr Kante).
+
+Die in der Modellierungssprache festgelegten Arten von Knotentypen (also den eigentlichen Modellierungselementen) werden auf Topic Types abgebildet. Durch die Referenzierung eines einen Knoten repräsentierenden Topics auf diesen Topic Type wird die Bedeutung zugewiesen.
+
+Ebenso wird mit Kanten verfahren. Durch die Einführung von Topics die als Association Types und Role Types fungieren, kann die Bedeutung einer Kante im abzubildenden Modell definiert werden. Dazu wird ein Association Type festgelegt, der die eigentliche Bedeutung der Kante festlegt, die zugehörigen Role Types definieren, wieviele Endpunkte existieren und welche Bedeutung diese haben. Für eine konkrete Kante wird dann eine Association und eine der Anzahl der Endpunkte enstprechende Nummer an Roles erstellt, dener der jeweilige Association bzw. Role Type zugewiesen wird. 
+
+Die Verwendung von Occurrences und dementsprechend die Erstellung von Occurrence Types ist zur reinen Abbildung von diagrammatischen Modellen nicht notwendig. Die Verwendung von Occurrences kann aber sinnvoll sein, wenn aus dem ursprünglichen Modell ebenfalls Ressourcen referenziert werden, die für die weitere Verarbeitung des Modells notwendig sind. Occurrences werden dann im Sinne der Topic Map zur Referenzierung dieser Ressorucen verwendet, wobei sich die zu verwendenden Occurrence Types an der Bedeutung der Ressourcen im abzubildenden Modell orientiert.
+
+Wie in Abschnitt \ref{sub:metamodellierung_in_topic_maps} bereits beschrieben, bietet die Topic Map selbst jedoch keine Möglichkeit, eine explizite Zuordnung zwischen Topic Types, Association Types und Role Types zu definieren, so dass ein in einer Topic Map repräsentiertes Modell auf semantische Korrektheit hin überprüft werden kann. Die einzige ohne zusätzliche Information überprüfbaren Bedingungen sind die Prüfungen, ob alle Knoten und Kanten (also Topics, Associations und Roles) einer Kategorie (also einem Type) zugewiesen  wurden.
+
+Zusätzlich muss also eine externe Möglichkeit geschaffen werden, semantische Korrektheits-Bedingungen zu formulieren und zu überprüfen:
+\begin{enumerate}
+ \item Zulässige Kategorien von Knoten (Topic Types)
+ \item Zulässige Kategorien von Kanten (Association Types, Role Types und eine Zuordnung zwischen diesen, die eine Aussage über die Anzahl und Bedeutung der Endpunkte der Kante zulässt)
+ \item Zulässige Verbindungen zwischen Knoten und Kanten (Zuordnung zwischen Endpunkten einer Kantenkategorie und den Knotenkategorien, die diese Endpunkte belegen dürfen -- also eine Zuordnung zwischen Role Types und Topic Types)
+\end{enumerate}
+
+Wie bereits oben beschrieben, können derartige Bedingungen innerhalb oder außerhalb der Topic Map formuliert werden. Die Interpretation der formulierten Bedingungen und deren Anwendung auf konkrete Anwendungsfälle muss immer von außerhalb der Topic Map durchgeführt werden. Hier wird der Ansatz der Repräsentation der Bedingungen innerhalb der Topic Map verfolgt, um durch die Übermittlung einer Topic Map nicht nur ein Modell ansich zu übertragen sondern auch jene Information zu liefern, die zur Interpretation derselben notwendig ist.
+
+Die Formulierung der Bedingungen erfolgt auf Ebene der als Types eingesetzten Topics und vervollständigt so das in der Topic Map enthaltene Meta-Modell der Sprache in der das zu repräsentierende Modell erstellt wurde. Die Information über zulässige Knoten und Kanten wird über die Festlegung von entsprechenden Types definiert. Für jeden Typen wird ein Topic eingeführt, das aus dem auf die Topic Map abgebildeten Modell referenziert werden kann. Alle oben notwendigen Zuordnungen zwischen diesen Types werden über Associations abgebildet, die die als Types verwendeten Topics verbinden.
+
+-- Abbildung des Meta-Modells aus der AMW-Arbeit (inkl. Meta-Meta-Modell oder dieses dann separat weiter unten in einer Gesamtübersicht --
+
+Die Definition der Kantentypen erfolgt über eine Association mit mindestens drei Roles. 
+Eine dieser Roles referenziert den Association Type, die anderen Roles verweisen auf die zu verwendenden Role Types, die zur Beschreibung der Endpunkte der Kante verwendet werden (wovon mindestens zwei vorhanden sein müssen). Die Angabe der Kardinaliät (d.h. wie oft ein bestimmter Endpunkt im konkreten Modell auftreten darf) wird durch eine die jeweilige Role reifizierendes Topic festgelegt.
+
+Ähnlich wird die Zuordnung zwischen Endpunkten und Knotenkategorien realsiert. Zwischen den entsprechenden Topic Types und Role Types werden Associations erstellt, die festlegen, ob eine bestimmte Knotenkategorie einen Endpunkt einnehmen darf oder nicht. Dazu enthält die betreffende Association mindestens zwei Roles, von denen eine auf den Role Type verweist, der den Endpunkt realisiert und eine entsprechende Anzahl von Roles, an die die zulässigen Topic Types (also Knotenkategorien) angebunden werden.
+
+Die eben beschriebenen Abbildungsvorschriften selbst werden ebenfalls in der Topic Map abgebildet. Die Topic Map enthält damit auch das Meta-Meta-Modell das die Elemente die zur Festlegung eines Meta-Models und deren Zusammenspiel festlegt. Eine so definierte Topic Map ist also semantisch vollständig definiert und ermöglicht eine Rekonstruktion eines Modells, das in einer im Vorfeld unbekannten Sprache modelliert wurde, sofern lediglich das Meta-Meta-Modell bekannt ist, dass zur Interpretation der Sprachbeschreibung (Meta-Modell) notwendig ist.
+
+% subsection abbildung_des_metamodells (end)
+
+\subsection{Abgrenzung von Submodellen}
+\label{sub:abgrenzung_von_submodellen}
+
+In einem Modell kann es sinnvoll oder notwendig sein, unterschiedliche Modellbereiche voneinander abzugrenzen. Der Grund für die Abgrenzung kann ein inhaltlicher sein (z.B. eine Partitionierung nach Akteuren bei Aktivitätsdiagrammen REF) oder aus dem Modellierungsvorgang heraus motiviert sein (etwa bei der Abgrenzung von Teilmodellen, die durch verschiedene Personen erstellt wurden). Außerdem ist es möglich, in einer Topic Map mehrere Modelle zu repräsentieren, die ebenfalls voneinander abgrenzt werden müssen.
+
+Für diese Abgrenzung bietet sich die Verwendung von Scopes an. Scopes haben zwar keinen Einfluss auf die vorhandenen Topics, wirken jedoch auf die Statements und -- hier relevant -- vor allem auf die die Topics verbindenden Associations. Werden also Scopes eingesetzt, um Teilmodelle voneinander zu unterscheiden bzw. zu trennen, so können die im Moment nicht relevanten Teilmodelle zwar nicht "ausgeblendet" werden (im Sinne von "temporär vollkommen entfernt", durch die Entfernung der nicht relevanten Statements sind jedoch nur noch jene Topics untereinander verbunden, die dem aktuell betrachteten Submodell angehören. Ausgehend von einer beliebigen, im Scope gültigen Association oder einem Topic, das bekannterweise dem aktuellen Teilmodell angehört kann so der gesamte relevante Teil der Topic Map erschlossen werden.
+
+Die Realisierung der Trennung zwischen Teilmodellen durch das Ausblenden irrelevanter Verbindungen zwischen Topics birgt einen weiteren potentiellen Vorteil. Werden in einer Topic Map mehrere untereinander zusammenhängene Modelle abgebildet, so wird -- der Grundforderung einer Topic Map nach Eineindeutigkeit entsprechend -- jedes Element nur einmal abgebildet, egal ob es in nur einem Modell verwendet wird oder in mehreren. Durch den Einsatz von Scopes bilden in mehreren Modellen verwendete Elemente automatisch eine Schnittstelle, an der zwischen den Modellen navigiert werden kann. Dieser Vorteil muss in herkömmlichen Modellierungsansätzen mit mehreren untereinander verknüpften Modellen wie der UML (REF) oder ARIS (REF) technisch durch explizite Verknüpfung bzw. Referenzierung der äquivalenten Modellelemente in den unterschiedlichen Modeller erzeugt werden. 
+
+Zur Kennzeichnung des Scopes muss zumindest ein Topic verwendet werden. Im Metamodell muss festgelegt werden, ob dazu ein Topic eines bestehenden Types verwendet wird oder ein neuer Type eingeführt werden, dessen Topics ausschließlich zum Aufspannen eines Scopes verwendet werden. Dazu wird im Meta-Meta-Modell ein Type "Partition" eingeführt, der der für alle Elemente des Meta-Modells verwendet werden muss, deren konkrete Instanzen einen Scope im Modell kennzeichnen sollen.
+
+-- Gesamtübersicht mit Scope-Beispiel --
+
+% subsection abgrenzung_von_submodellen}
+
+\subsection{Flexibilisierung der Abbildung}
+\label{sub:flexibilisierung_der_abbildung}
+
+Wie in Kapitel XY beschrieben, ist das Meta-Modell von Modellen die im vorgestellten Ansatz entstehen, nicht im vorhinein festgelegt. Die Modellierungssprache -- also das Meta-Modell -- wird während der Modellbildung semantisch definiert und ist damit erst zur Modellierungszeit bekannt. Das Metamodell kann außerdem während der Modellierung erweitert werden, es ist auch möglich, dass sich die Bedeutung bereits existierender Meta-Modell-Elemente ändert.
+
+Für die Persistierung bedeutet dies, dass das Meta-Modell nicht im Vorhinein sondern erst zum Zeitpunkt der Speicherung festgeschrieben werden kann. Außerdem kann die Prüfung auf semantische Korrektheit des Modells ebenfalls nur durchgeführt werden, sobald das Modell definiert ist. 
+
+Um die geforderte Flexibilität bei der Sprachdefinition in Form und Zeitpunkt zu gewährleisten, wurde von \citet{Neubauer08} ein System entwickelt, dass es erlaubt, dynamisch zur Laufzeit Modellelemente zu definieren, die Regeln zu deren Verwendung festzulegen und diese ohne Unterbrechung des Modellierungsvorgangs unmittelbar zu verwenden (wobei auch die Prüfung der semantischen Korrektheit zur Laufzeit adaptiert wird).
+
+... Kurzbeschreibung von Matthias' Ansatz ...
+
+% subsection flexibilisierung_der_abbildung (end)
+
 % section abbildung_von_modellen_auf_topic_maps (end)
 
 \section{Technische Umsetzung der Persistierung von Modellen} % (fold)
 \label{sec:technische_umsetzung_der_persistierung_von_modellen}
+
+\subsection{Topic Map Engine}
 Topic Map Engine Persistence Layer
+
+\subsection{Persistierung}
 % section technische_umsetzung_der_persistierung_von_modellen (end)
 
 \section{Zusammenfassung} % (fold)

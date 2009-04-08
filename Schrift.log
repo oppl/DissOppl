@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  7 APR 2009 10:43
+This is XeTeXk, Version 3.141592-2.2-0.996 (Web2C 7.5.6) (format=xelatex 2007.7.13)  7 APR 2009 14:43
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -462,7 +462,7 @@ File: hdvipdfm.def 2007/02/07 v6.75r Hyperref driver for dvipdfm
 \pdfm@box=\box57
 \Fld@listcount=\count134
 )
-(./Schrift.aux (./Werkzeug.aux))
+(./Schrift.aux (./ArticulationWork.aux))
 \openout1 = `Schrift.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
@@ -682,9 +682,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 ] (./Schrift.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 2.
 )
 \tf@toc=\write7
 \openout7 = `Schrift.toc'.
@@ -727,54 +727,99 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-\openout2 = `Werkzeug.aux'.
+\openout2 = `ArticulationWork.aux'.
 
- (./Werkzeug.tex [1
+ (./ArticulationWork.tex
+Kapitel 1.
 
-
-
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
+Overfull \hbox (0.54674pt too wide) in paragraph at lines 4--5
+\EU1/HoeflerText(0)/m/sl/12 In diesem Kapitel wird das Konzept „Articulation 
+Work“ dargestellt und in den Kon-
  []
 
-[2] (./ImplementierungPersistence.tex
-Kapitel 1.
-LaTeX Font Info:    Try loading font information for OMS+HoeflerText(0) on inpu
-t line 12.
-LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 12.
-LaTeX Font Info:    Font shape `OMS/HoeflerText(0)/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 12.
 
-Underfull \vbox (badness 1776) has occurred while \output is active []
+Overfull \hbox (0.96237pt too wide) in paragraph at lines 4--5
+\EU1/HoeflerText(0)/m/sl/12 sich gute „Articulation Work“ zeigt, sowie den 
+Möglichkeiten der Unterstützung von
+ []
 
- [3
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 9.
+
+Underfull \hbox (badness 2277) in paragraph at lines 13--13
+\EU1/HoeflerText(0)/m/it/10 grund selbst- oder fremddefinierter Aufgaben, mit g
+esellschaftlicher, materieller oder ideeller Bewer-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 13--13
+\EU1/HoeflerText(0)/m/it/10 tung, zur Realisierung oder Weiterentwicklung indiv
+idueller oder kollektiver Bedürfnisse, Ansprüche
+ []
+
+[1
+
 
 
 ]
-File: img/Persistenz/TMBasic.png Graphic file (type QTm)
+File: img/ArticulationWork/ArbeitInteraktion.png Graphic file (type QTm)
+ <use  "img/ArticulationWork/ArbeitInteraktion.png" >
+File: img/ArticulationWork/ArtikulationProduktion.png Graphic file (type QTm)
 
-<use  "img/Persistenz/TMBasic.png" >
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 33.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 33.
- [4]
-File: img/Persistenz/TMFull.png Graphic file (type QTm)
- <use  "img/Persistenz/TMFull.png" >
-[5] [6]
-File: img/Persistenz/SubjectVsOccurrence.png Graphic file (type QTm)
- <use  "img/Persistenz/SubjectVsOccurrence.png" >
-File: img/Persistenz/TopicNaming.png Graphic file (type QTm)
+<use  "img/ArticulationWork/ArtikulationProduktion.png" >
+Overfull \hbox (0.14595pt too wide) in paragraph at lines 31--33
+\EU1/HoeflerText(0)/m/sl/12 schätzt werden muss ([]Fujimura[], []1987[][]). �
+�Articulation Work“ ist kein klar abgegrenztes
+ []
 
-<use  "img/Persistenz/TopicNaming.png" > [7] [8] [9]
-File: img/Persistenz/MetaModelExample.png Graphic file (type QTm)
+[2]
+Underfull \hbox (badness 1057) in paragraph at lines 42--43
+\EU1/HoeflerText(0)/m/sl/12 dig ist: [][]\EU1/HoeflerText(0)/m/it/12 „A usefu
+l fundamental distinction between classes of interaction is between
+ []
 
-<use  "img/Persistenz/MetaModelExample.png" > [10] [11] [12]
-File: img/Persistenz/Scope.png Graphic file (type QTm)
+[3] [4]
+Overfull \hbox (13.13953pt too wide) in paragraph at lines 56--57
+[]\EU1/HoeflerText(0)/m/sl/12 Forschungsgebiet aus dem das Konstrukt ”Articul
+ation Work”
+ []
 
-<use  "img/Persistenz/Scope.png" > [13] [14])) [15] [16] (./Schrift.bbl)
+
+Overfull \hbox (1.7306pt too wide) in paragraph at lines 58--59
+[]\EU1/HoeflerText(0)/m/sl/12 Bei der Betrachtung der Untersuchungs-
+ []
+
+
+Overfull \hbox (1.10648pt too wide) in paragraph at lines 61--62
+[]\EU1/HoeflerText(0)/m/sl/12 Tatsächliche oder vermutete Auswirkungen der Unt
+erstüt-
+ []
+
+[5] [6] [7]) [8] (./Schrift.bbl
+LaTeX Font Info:    Try loading font information for OT1+HoeflerText(0) on inpu
+t line 4.
+LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 4.
+LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead
+(Font)              for symbol `o' on input line 4.
+
+./Schrift.bbl:30: Misplaced alignment tab character &.
+l.30 \newblock {\em New Technology, Work &
+                                           Employment}, 20(2):166 -- 181.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[9
+
+
+
+])
 No file Schrift.ind.
 Package minitoc Info: <I0009>
 (minitoc)             Listing minitoc auxiliary files. 
@@ -786,20 +831,16 @@ Package minitoc(hints) Warning: <W0024>
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Schrift.log file.
 
-[17
-
-
-
-] (./Schrift.aux (./Werkzeug.aux))
+[10] (./Schrift.aux (./ArticulationWork.aux))
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
- 9278 strings out of 94863
- 147499 string characters out of 1171490
- 294067 words of memory out of 1500000
- 12081 multiletter control sequences out of 10000+50000
- 10140 words of font info for 60 fonts, out of 1200000 for 2000
+ 9265 strings out of 94863
+ 147222 string characters out of 1171490
+ 292067 words of memory out of 1500000
+ 12076 multiletter control sequences out of 10000+50000
+ 9899 words of font info for 61 fonts, out of 1200000 for 2000
  605 hyphenation exceptions out of 8191
- 35i,11n,44p,2207b,406s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 35i,10n,43p,1770b,469s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on Schrift.pdf (25 pages).
+Output written on Schrift.pdf (18 pages).

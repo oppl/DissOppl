@@ -1,20 +1,24 @@
-\contentsline {part}{\numberline {I}Umsetzung}{1}{part.1}
-\contentsline {xpart}{Umsetzung}{3}{part.1}
-\contentsline {chapter}{\numberline {1}Persistierung}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Möglichkeiten der Persistenzsicherung}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Topic Maps}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Topics, Subjects, Topic Names und Variants}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Associations und Roles}{8}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Occurrences und Datatypes}{9}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Metamodellierung in Topic Maps}{9}{subsection.1.2.4}
-\contentsline {subsubsection}{Topic Types}{10}{section*.4}
-\contentsline {subsubsection}{Andere Types}{11}{section*.5}
-\contentsline {subsubsection}{Modellieren von Einschränkungen}{12}{section*.6}
-\contentsline {subsection}{\numberline {1.2.5}Statements und Scopes}{13}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Reification}{14}{subsection.1.2.6}
-\contentsline {subsection}{\numberline {1.2.7}Merging}{15}{subsection.1.2.7}
-\contentsline {section}{\numberline {1.3}Abbildung von Modellen auf Topic Maps}{15}{section.1.3}
-\contentsline {section}{\numberline {1.4}Technische Umsetzung der Persistierung von Modellen}{15}{section.1.4}
-\contentsline {section}{\numberline {1.5}Zusammenfassung}{16}{section.1.5}
-\contentsline {chapter}{Literaturverzeichnis}{17}{chapter*.7}
-\contentsline {part}{Index}{17}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Articulation Work}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Begriffsbestimmung}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Kontext}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Arten von Articulation Work}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Unterstützung von Articulation Work}{4}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Auswertung existierender Arbeiten}{6}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Papertitel / Titel des Forschungsprojekts}{6}{subsection.1.4.2}
+\contentsline {paragraph}{Forschungsdomäne}{6}{section*.4}
+\contentsline {paragraph}{Untersuchungsdomäne}{6}{section*.5}
+\contentsline {paragraph}{Verständnis von Articulation Work}{6}{section*.6}
+\contentsline {paragraph}{Auftretende Phänomene}{6}{section*.7}
+\contentsline {paragraph}{Unterstützung}{6}{section*.8}
+\contentsline {paragraph}{Auftretende Effekte}{6}{section*.9}
+\contentsline {subsection}{\numberline {1.4.3}Work and the Division of Labor}{6}{subsection.1.4.3}
+\contentsline {paragraph}{Forschungsdomäne}{6}{section*.10}
+\contentsline {paragraph}{Untersuchungsdomäne}{7}{section*.11}
+\contentsline {paragraph}{Verständnis von Articulation Work}{7}{section*.12}
+\contentsline {paragraph}{Auftretende Phänomene}{7}{section*.13}
+\contentsline {paragraph}{Unterstützung}{7}{section*.14}
+\contentsline {paragraph}{Auftretende Effekte}{7}{section*.15}
+\contentsline {subsection}{\numberline {1.4.4}Gegenüberstellung und Zusammenfassung}{7}{subsection.1.4.4}
+\contentsline {section}{\numberline {1.5}Fazit}{7}{section.1.5}
+\contentsline {chapter}{Literaturverzeichnis}{9}{chapter*.16}
+\contentsline {part}{Index}{10}{chapter*.16}
