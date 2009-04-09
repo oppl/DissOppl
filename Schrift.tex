@@ -98,6 +98,19 @@
 }
 
 \setcounter{tocdepth}{2}
+
+\newcommand*\uebersicht{%
+\addchap*{Inhaltsübersicht}
+\markboth{Inhaltsübersicht}{}
+\begingroup
+\value{tocdepth}\shorttocdepth\relax % uebler Hack!
+\makeatletter
+\input{\jobname.toc}%
+\makeatother
+\endgroup
+}
+\newcommand*{\shorttocdepth}{0}
+
 \renewcommand*{\dictumwidth}{.5\textwidth} 
 \renewcommand{\baselinestretch}{1.0}
 
@@ -124,6 +137,9 @@
 
 \pagenumbering{roman}
 
+%% Inhaltsübersicht:
+
+\uebersicht
 \tableofcontents
 
 \listoffigures
@@ -137,18 +153,23 @@
 
 %\include{Einfuehrung}
 
+\part{Grundlagen} % (fold)
+\label{prt:grundlagen}
+
 \include{ArticulationWork}
+% part grundlagen (end)
 
-%\include{Werkzeug}
+\include{Werkzeug}
 
-%\include{Evaluierung}
+\include{Evaluierung}
 
 \bibliography{/Users/oppl/Documents/Dokumente/Literatur/archiv}
 
-\addcontentsline{toc}{part}{Index}
+\addcontentsline{toc}{chapter}{Index}
 \printindex
 
 \appendix
-%\include{Anhang}
+\addcontentsline{toc}{part}{Anhang}
+\include{AnhangBildquellen}
 
 \end{document}

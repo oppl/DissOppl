@@ -1,4 +1,42 @@
 \addvspace {10\p@ }
-\contentsline {xchapter}{Articulation Work}{1}{chapter.1}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Struktur von Arbeitsabläufen}}{2}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Konzeptualisierung von „Arbeit“ nach \citep {Strauss85} und \citep {Fujimura87}}}{3}{figure.1.2}
+\contentsline {xchapter}{Articulation Work}{3}{chapter.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Struktur von Arbeitsabläufen}}{4}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Konzeptualisierung von „Arbeit“ nach \citep {Strauss85} und \citep {Fujimura87}}}{5}{figure.1.2}
+\contentsline {xpart}{Grundlagen}{3}{part.1}
+\contentsline {xpart}{Umsetzung}{13}{part.2}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Grundlagen der Implementierung}{13}{chapter.2}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Input und Interpretation}{17}{chapter.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architektur des TUIpist-Framework \citep {Furtmuller07a}}}{29}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Zusammenspiel der Komponenten in TUIpist \citep {Furtmuller07a}}}{30}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces AR Toolkit Marker (Quelle: www.hitl.washington.edu/artoolkit/)}}{31}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Visual Codes -- Aufbau und Features (übernommen von \citet {Rohs04})}}{32}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ReacTIVision Code}}{33}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Eingabekomponenten}}{41}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces An Tokens angebrachte ReacTIVision-Codes zur Identifikation}}{42}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Arten von Modellierungstokens}}{43}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Rückwand von Container Tokens}}{44}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Geöffnetes Container Token}}{44}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Modellelemente -- Taxonomie}}{45}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Softwarearchitektur zur Erkennung von Benutzerinteraktion}}{62}{figure.3.12}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Ausgabe}{81}{chapter.4}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Persistierung}{85}{chapter.5}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Grundlegende Elemente einer Topic Map}}{86}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Umfassende Darstellung der Elemente einer Topic Map}}{88}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Abgrenzung zwischen Subject und Occurrence in Topic Maps}}{89}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Benennung von Topics}}{90}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Beziehungen in der Metamodellbildung in Topic Maps}}{93}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Abbildung von Gültigkeitsbereichen durch Scopes}}{96}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Abbildung von Modellinformation in Topic Maps}}{98}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Definition des Meta-Models (ohne Kardinalitäten)}}{101}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Einbindung des Meta-Meta-Modells}}{103}{figure.5.9}
+\contentsline {xpart}{Evaluierung}{109}{part.3}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Untersuchungsdesign}{109}{chapter.6}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Untersuchungsergebnisse}{113}{chapter.7}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Abbildungquellen}{121}{appendix.A}
