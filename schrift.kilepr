@@ -24,6 +24,15 @@ line=0
 open=false
 order=-1
 
+[item:Acronyme.tex]
+archive=true
+column=41
+encoding=UTF-8
+highlight=LaTeX
+line=26
+open=true
+order=3
+
 [item:AnhangBildquellen.tex]
 archive=true
 column=45
@@ -71,10 +80,10 @@ order=2
 
 [item:ImplementierungOutput.tex]
 archive=true
-column=965
+column=447
 encoding=UTF-8
 highlight=LaTeX
-line=59
+line=102
 open=true
 order=0
 
@@ -107,7 +116,7 @@ order=0
 
 [item:Schrift.tex]
 archive=true
-column=18
+column=11
 encoding=UTF-8
 highlight=LaTeX
 line=158
