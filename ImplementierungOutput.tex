@@ -82,7 +82,7 @@ Im Bereich der Tabletop Interfaces ist die Verwendung von Aktuatoren eher selten
 
 Ansätze zur enkoppelten Ausgabe sind solche, die von \citet{Fishkin04} in seiner Taxonomie in der Embodiment-Dimension unter den Ausprägungen "environment" oder "distant" eingeordnet werden. 
 
-"Environmental Embodiment" ist dann gegeben, wenn Eingabe- und Ausgabekanäle räumlich nicht kohärent sind, aber Eingaben trotzdem offensichtlich Reaktionen in der unmittelbnaren Umgebung auslösen. Klassische von Fishkin genannte Ansätze sind hier Audiokanäle aber auch die Veränderung von Umgebungslicht oder Temperatur. Auch olfaktorische Interfaces wären in diese Kategorie einzuordnen. In den folgenden Abschnitten werden jedoch ausschließlich audio-basierte Kanäle beschrieben, da diese im Bereich der Tabletop Interfaces Relevanz besitzen (etwa in REF reacTable und REF TEI Paper von Däne)
+"Environmental Embodiment" ist dann gegeben, wenn Eingabe- und Ausgabekanäle räumlich nicht kohärent sind, aber Eingaben trotzdem offensichtlich Reaktionen in der unmittelbaren Umgebung auslösen. Klassische von Fishkin genannte Ansätze sind hier Audiokanäle aber auch die Veränderung von Umgebungslicht oder Temperatur. Auch olfaktorische Interfaces wären in diese Kategorie einzuordnen. In den folgenden Abschnitten werden jedoch ausschließlich audio-basierte Kanäle beschrieben, da diese im Bereich der Tabletop Interfaces Relevanz besitzen (etwa in REF reacTable und REF TEI Paper von Däne)
 
 Die Ausprägung "distant" kennzeichnet Ansätze, in denen die Eingabekanäle räumlich von den Ausgabekanälen vollkommen enkoppelt sind bzw. entkoppelt werden können. Ein Kriterium zur Einordung eines Ansatzes unter "distant" ist, dass Benutzer zur Beobachtung der Ausgabe nicht mehr die Eingabe im Blickfeld haben können (was bei allen anderen Ausprägungen möglich ist). Klassische Vertreter dieses Ansatzes sind alle Ansätze die auf der Darstellung von Information auf herkömmlichen Bildschirmen oder Projektionsflächen basieren.
 
@@ -107,6 +107,12 @@ Bei individueller Nutzung eines Tangible Interfaces ist in der Verwendung von Bi
 \subsubsection{Audio-basierte Ausgabekanäle} % (fold)
 \label{ssub:tokens_mit_aktuatoren}
 
+Audio-basierte Ansätze werden hier als Vertreter von Ausgabekanälen vorgestellt, die in die Kategorie "environmental Embodiment" eingeordnet werden. Audio-Interfaces arbeiten mit akustischer Ausgabe von Information, die im Allgemeinen in Zusammenhang mit den Eingaben am Tangible Interface stehen. 
+
+Die ausgegebene Information kann abstrakt, codiert oder natürlichsprachlich sein. Unter "abstrakter" Information werden hier akustische Ausgaben verstanden, die nicht unmittelbar Bedeutung im sprachlichen Sinn tragen sondern auf Meldodien oder anderen Klangmustern basieren. Derartige Formen der Ausgabe kommen vor allem im künstlerischen Bereich zu Einsatz (REF reactable, TEI-Däne). "Codierte" akustische Ausgabe deckt alle Bereiche ab, in denen Klänge verwendet werden, um Information zu transportieren, ohne das diese selbst in diesen Klängen abgebildet ist. Beispiele hierfür sind Signaltöne, die einen Fehler melden oder anderweitig die Aufmerksamkeit der Benutzer auf sich ziehen sollen. Unter "natürlichsprachlicher" akustischer Ausgabe werden hier schließlich alle Ansätze eingeordnet, die die Ausgabe der Information direkt in Sprache umgesetzt vornehmen. Dies kann mittels gespeicherten (Teil-)Ansagen oder mittels Sprachsynthese realisiert werden. Im Gegensatz zu den anderen beiden Formen der akustischen Ausgabe ist die natürlichsprachliche Ausgabe abhängig vom Sprachverständnis der Benutzer und deshalb in einer bestimmten Konfiguration nur für einen beschränkten Benutzerkreis nutzbar.
+
+Akustische Ausgabe ist allen ihren Ausprägungen der Embodiment-Dimension "environment" zuzuordnen. Sie kann im Allegemeinen (ohne den Einsatz von Ohrhöreren) von allen sich im Umfeld des Interfaces befindlichen Personen wahrgenommen werden. Bei codierter Ausgabe muss darauf geachtet werden, das die Interpretation der Signale bekannt ist bzw. durch unterstützende (visuelle oder taktile) Maßnahmen erschließbar wird.
+
 % subsubsection tokens_mit_aktuatoren (end)
 
 % subsection entkoppelte_ausgabe (end)
@@ -114,10 +120,31 @@ Bei individueller Nutzung eines Tangible Interfaces ist in der Verwendung von Bi
 \subsection{Technologie-Entscheidung} % (fold)
 \label{sub:output_ansatz_entscheidung}
 
+Auf Basis der in Abschnitt \ref{sec:auszugebende_information} festgelegten auszugebenden Information und den im letzten Abschnitt beschriebenen technologischen Alternativen zur Realisierung unterschiedlich ausgeprägter Ausgabekanäle können nun grundsätzliche Technologieentscheidungen getroffen werden.
+
+Für die im Kontext der eigentlichen Modellierung auszugebenden Information (Benennungen, \ldots} erscheint ein kohärenter Ansatz am geeignetsten, da die Information inhärenter Bestandteil des Modells ist und deshalb räumlich mit den physischen Elementteilen (den Tokens) in eine einheitliche Modellsicht integriert werden sollte. Mit der bereits in Kapitel \ref{cha:input_&_interpretation} aurgumentierten Entscheidung für passive Tokens ist die Projektion der Information auf die Tischoberfläche der einzig naheliegende Ansatz. Dabei wird im Sinne der kompakteren Bauweise und der nicht vorhandenene Einschränkung bezüglich Verdeckungen der Projektion durch modellierende Personen ein Lösungsansatz mit Projektion auf die Unterseite bevorzugt. Die kompaktere Bauweise ergibt sich aus der Tatsache, dass der Innenraum des Tisches ohnehin bereits für die Erfassung der Tokens durch die Kamera genutzt wird und dass bei gleichzeitiger Nutzung für die Projektion ein Auf- bzw. Überbau des Tisches zur Aufnahme des Projektors entfällt.
+
+Die Ausgabe vergangener Modellzustände erscheint mit den gegebenen technologischen Rahmenbedingungen hingegen nicht für kohärente Ausgabe geeignet. Passive Tokens können ihre Position nicht selbständig verändern, weshalb die auf der Tischoberfläche vorhandenen Modellierungstokens immer an den Positionen liegen, an denen sie sich im aktuelleń Modellzustand befinden. Eine kohärente Ausgabe von vergangenen Modellzuständen auf der gleichen Oberfläche ist deswegen nicht möglich -- es käme zu Überdeckungen der physischen und projizierten Modelldarstellungen. Aus diesem Grund wird Zweck ein zweiter Ausgabekanal verwendet, der diese Modellierungshistorie nicht kohärent darstellt. Akustische Ansätze erscheinen ob der Komplexität der Modelle und deren inhärent visuell-diagrammatischen Darstellung im Gegensatz zu visuellen Ansätzen als ungeeignet. Zu diesem Zweck wird also ein Bildschirm- oder Projektions-basierter Ausgabekanal implementiert. Dies hat auch den Vorteil, dass ins Modell zu integrierende digitale Ressourcen in ihrer "natürlichen" Umgebung, dem Bildschirm eines Rechners manipuliert und ausgewählt werden können. Letzendlich lässt sich ein derartiger Ausgabekanal beliebig replizieren und auch für entfernte Ausgabe des Modellzustandes nutzen.
+
+Konkret werden für das vorgestellte System also zwei Ausgabekanäle genutzt, die beide auf der visuellen Darstellung von Information basieren und sich in ihrer Ausprägung der "Embodiment"-Dimension nach \citep{Fishkin04} unterschieden. Der hauptsächliche Ausgabekanal ist die Tischoberfläche, auf ihr wird Information "nearby" ausgegeben. Für Funktionen, für die diese kohärente Ausgabeform nicht adäquat einsetzbar ist, existiert ein zweiter, "distant" Ausgabekanal in Form eines Bildschirms oder eines externen Projektors. Dieser Kanal kann in zwei Modi betrieben werden. Wird er nicht benötigt, kann er entweder deaktiviert werden (und so den Fokus auf den primären Ausgabekanal, die Tischoberfläche, lenken) oder synchron mit der Tischoberfläche den aktuellen Modellzustand anzeigen. Zweiteres ist sinnvoll, wenn der Modellierungsprozess auch von Personen verfolgt werden können soll, die sich nicht unmittelbar bei der Modellieruungsoberfläche befinden. 
+
+Hardwareseitig ergibt sich aus dieser Entscheidung der in Abbildung \ref{fig:img_ImplementierungInput_TischSeitenansichtOutput} dargestellte Aufbau. Dabei kann der in der Standardkonfiguration vorhandene Bildschirm als Ausgabekanal je nach den räumlichen Gegebenheiten und dem konkreten Anwendungsszenario durch einen Projektor ersetzt werden.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=4in]{img/ImplementierungInput/TischSeitenansichtOutput.png}
+	\caption{Überblick über den Aufbau des Werkzeugs -- Ausgabekomponenten}
+	\label{fig:img_ImplementierungInput_TischSeitenansichtOutput}
+\end{figure}
+
 % subsection output_ansatz_entscheidung (end)
 
 \subsection{Frameworks zur Ausgabe} % (fold)
 \label{sub:frameworks_zur_ausgabe}
+
+Im Sinne der eben getroffenen Technologieentscheidung wird nun eine Softwarekomponente benötigt, die die Ansteuerung der Ausgabekanäle erlaubt. Diese Softwarekomponente muss im Wesentlichen die Modellinformation, die über die Eingabekanäle erhoben wurde, visuell ausgeben und zusätzlich den Modellierungsunterstützungs-Funktionen des Werkzeugs einen Kanal zur Kommunikation mit den Benutzern bieten.
+
+Für die graphische Darstellung diagrammatischer Modelle (also vernetzter Strukturen) existieren verschiedene Frameworks die -- basierend auf unterschiedlichen technologischen Ansätzen -- die Darstellung von Modellelementen, der Verbindung und der Manipulation des Modells durch bereits implementierte Funktionalität ermöglichen und unterstützen. 
 
 \subsubsection{In Frage kommende Frameworks} % (fold)
 \label{ssub:in_frage_kommende_frameworks}
@@ -126,6 +153,10 @@ Bei individueller Nutzung eines Tangible Interfaces ist in der Verwendung von Bi
 
 \paragraph{JHotDraw} % (fold)
 \label{par:jhotdraw}
+
+Das JHotDraw-Framework (REF Gamma) ist eine Java-Implementierung des Smalltalk-Frameworks HotDraw. Dieses wurde entwickelt, um einerseits eine einfache Möglichkeit zur Erstellung graphischer Editoren beliebiger Natur zu bieten und andererseits die Stärken und Möglichkeiten objektorientierter Softwareentwicklung unter Einsatz der von (REF Entwurfsmuster) vorgeschlagenen Entwurfsmuster zu zeigen.
+
+JHotDraw nutzt intensiv objektorientierte Konzepte, vorallem die dynamische Typisierung von Objekten und implementiert einen Großteil seiner Features als Instanzen der eben erwähnten Entwurfsmuster. Dies erleichtert die Adaptierung und Erweitungerung des Systems für eigenen Anwendungsfälle und ermöglicht eine rasche, unaufwändige Implementierung anwendungsspezifischer graphischer Editoren.
 
 % paragraph jhotdraw (end)
 
@@ -198,6 +229,10 @@ Bildschirm und Projektor
 
 \subsubsection{Kalibrierung der Ausgabe} % (fold)
 \label{ssub:kalibrierung_der_ausgabe}
+
+Der Projektor, der die Information auf die Tischoberfläche projeziert, ist aus Gründen der Transportierbarkeit nicht fix im Boden des Tisches eingebaut. Deswegen ist nach dem Aufbau der Systems im Allgemeinen die projizierte Version des Modells nicht deckungsgleich mit der Position der physischen Tokens. Es kann eine Verschiebung entlang beider Achsen auftreten, die alle zu den physichen Tokens ausgegebene Information von diesne absetzt. Dadurch kann die Information unter Umständen nicht mehr eindeutig zugeordnet werden.
+
+Aus diesem Grund ist die Position der projizierten Modellversion einstellbar, die Kalibirierung muss einmalig nach dem Aufbau des Werkzeugs vorgenommen werden. Aufgrund der Verwendung des Umlenkspiegels kann es nicht nur zu einer Verschiebung der Information auf der X- oder Y-Achse kommen, es können auch Spreizungen oder Stauchungen auftreten, welche den Projektions-Fehler von links nach rechts bzw. von oben nach unten zunehmen lassen. Auch diese Spreizugnen oder Stauchungen sind softwareseitig im Rahmen der Kalibirerung korrigierbar. 
 
 % subsubsection kalibrierung_der_ausgabe (end)
 
