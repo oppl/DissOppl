@@ -17,10 +17,10 @@ QuickBuild=
 
 [item:../../Dokumente/Literatur/Archiv.bib]
 archive=true
-column=59
+column=33
 encoding=UTF-8
 highlight=BibTeX
-line=0
+line=3458
 open=false
 order=-1
 
@@ -31,7 +31,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=26
 open=true
-order=2
+order=1
 
 [item:AnhangBildquellen.tex]
 archive=true
@@ -71,19 +71,19 @@ order=-1
 
 [item:ImplementierungInput.tex]
 archive=true
-column=1195
+column=179
 encoding=UTF-8
 highlight=LaTeX
 line=850
 open=true
-order=3
+order=2
 
 [item:ImplementierungOutput.tex]
 archive=true
-column=540
+column=39
 encoding=UTF-8
 highlight=LaTeX
-line=234
+line=200
 open=true
 order=0
 
@@ -119,8 +119,8 @@ archive=true
 column=11
 encoding=UTF-8
 highlight=LaTeX
-line=158
-open=true
+line=177
+open=false
 order=1
 
 [item:Werkzeug.tex]

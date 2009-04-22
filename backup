@@ -1,0 +1,2 @@
+tar -cz * --exclude=.bzr --exclude=Drafts | gpg -e -r oppl -o Schrift-`date +%d-%m-%y`.tar.gz.gpg
+

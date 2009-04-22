@@ -23,12 +23,12 @@
 
 \usepackage{fontspec}
 \defaultfontfeatures{Mapping=tex-text}
-%\setromanfont{Hoefler Text}
+\setromanfont{Hoefler Text}
 %%\setromanfont{Gentium}
 %%\setromanfont{LucidaGrande}
-%\setsansfont{Gill Sans}
+\setsansfont{Gill Sans}
 %%\setsansfont{Helvetica Neue}
-%\setmonofont{Monaco}
+\setmonofont{Monaco}
 \makeindex
 
 % This is now the recommended way for checking for PDFLaTeX:
@@ -48,14 +48,15 @@
 \usepackage[bookmarks]{hyperref}
 
 \usepackage[
-style=altlist,
-hypertoc=true,
-hyper=true,
-number=none,
-acronym=true
-]{glossary}
-\setacronymnamefmt{\gloshort}
-\makeacronym
+nonumberlist, %keine Seitenzahlen anzeigen
+acronym,      %ein Abkürzungsverzeichnis erstellen
+toc,          %Einträge im Inhaltsverzeichnis
+section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
+{glossaries}
+\renewcommand*{\glspostdescription}{}
+\makeglossaries
+
+\include{Acronyme}
 
 \definecolor{darkgray}{gray}{0.2} 
 \definecolor{lightgray}{gray}{0.8} 
@@ -156,9 +157,6 @@ acronym=true
 
 \listoftables
 
-\include{Acronyme}
-\printacronym 
-
 \newpage
 \cleardoublepage
 
@@ -172,10 +170,13 @@ acronym=true
 
 \include{Evaluierung}
 
-\bibliography{/Users/oppl/Documents/Dokumente/Literatur/archiv}
+%\bibliography{/home/oppl/Dokumente/Literatur/Archiv}
+\bibliography{/Users/oppl/Documents/Dokumente/Literatur/Archiv}
 
 \addcontentsline{toc}{chapter}{Index}
 \printindex
+
+\printglossary[type=\acronymtype,style=long,title=Abkürzungsverzeichnis]
 
 \appendix
 \addcontentsline{toc}{part}{Anhang}

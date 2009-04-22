@@ -1,0 +1,9 @@
+./backup
+echo 'Backup created'
+mount /home/oppl/iDisk
+echo 'iDisk mounted'
+mv *.gpg /home/oppl/iDisk/Documents/
+echo 'Backup transfered to iDisk'
+sleep 30
+umount /home/oppl/iDisk
+echo 'iDisk unmounted'
