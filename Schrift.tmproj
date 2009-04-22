@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ArticulationWork.tex</string>
+	<string>ImplementierungOutput.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-22T12:36:35Z</date>
+			<date>2009-04-22T15:10:14Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -20,9 +20,7 @@
 			<key>filename</key>
 			<string>ArticulationWork.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-22T12:36:35Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-04-22T15:10:11Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -46,13 +44,15 @@
 			<key>filename</key>
 			<string>ImplementierungOutput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-22T12:02:32Z</date>
+			<date>2009-04-22T15:10:20Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-22T08:29:58Z</date>
+			<date>2009-04-22T15:10:16Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -76,7 +76,7 @@
 			<key>filename</key>
 			<string>Acronyme.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-22T08:32:08Z</date>
+			<date>2009-04-22T15:10:20Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -111,20 +111,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>ArticulationWork.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>62</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>57</integer>
-		</dict>
 		<key>ImplementierungInput.tex</key>
 		<dict>
 			<key>caret</key>
@@ -144,14 +130,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>841</integer>
+				<integer>315</integer>
 				<key>line</key>
-				<integer>63</integer>
+				<integer>207</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>965</integer>
 			<key>firstVisibleLine</key>
-			<integer>54</integer>
+			<integer>198</integer>
 		</dict>
 		<key>MentaleModelle.tex</key>
 		<dict>
@@ -219,8 +205,6 @@
 		<string>Werkzeug.tex</string>
 		<string>ImplementierungInput.tex</string>
 		<string>Schrift.tex</string>
-		<string>ArticulationWork.tex</string>
-		<string>MentaleModelle.tex</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -252,6 +236,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{0, 0}, {1070, 746}}</string>
+	<string>{{0, 62}, {1070, 746}}</string>
 </dict>
 </plist>

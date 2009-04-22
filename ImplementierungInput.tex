@@ -833,7 +833,7 @@ Zur Abhandlung der Wiederherstellungsunterstützung wird das System in einen spe
 % subsection tracking_des_modellzustandes (end)
 
 \subsection{Verteilung des Modellzustandes} % (fold)
-\label{sub:verteilung_des_modellzustandes}
+
 
 Die Verteilung der darzustellenden Modellinformation an die übergeordneten Softwaremodule ist Gegenstand des letzten Abschnitts in diesem Kapitel. Die interpretierten und aggregierten Informationen werden jenen Softwaremodulen zur Verfügung gestellt, die bisher in ihrer Gesamtheit als „Ausgabekanäle“ bezeichnet wurden. Diese Ausgabekanäle sind in der vorgestellten Anwendung mehrere grafische Oberflächen, die den Systemzustand visuell wiedergeben (siehe dazu Details in Kapitel \ref{cha:visualisierung}). Wichtig im Kontext dieses Kapitels ist dabei, dass die Ausgabekanäle frei definierbar und erweiterbar sein sollen. Um dieser Anforderung auch vor dem Einsatz eines Frameworks wie TUIpist gerecht zu werden, wurde eine Verteilungskomponente implementiert, die auf dem bereits oben mehrmals erwähnten Besuchermuster von \citet{Gamma95} basiert. Dabei registrieren sich Ausgabekanäle beim Interpretationsmodul und werden danach über eine definierte Schnittstelle mit der entsprechenden Modellinformation versorgt. Die Schnittstelle ist Teil des Interpretationsmoduls und muss von jedem Ausgabekanal vollständig implementiert werden, auch wenn dieser die betreffende Information nicht benötigt (in diesem Fall bleibt die ausgabeseitig aufgerufene Methode leer). Eine Verteilung der Ausgabekanäle ist im implementierten Prototypen nicht vorgesehen, da diese Funktionalität von dem noch einzufügenden generischen Framework transparent zur Verfügung gestellt wird. 
 
