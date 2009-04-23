@@ -207,7 +207,7 @@ Aus den vorangegangenen Ausführungen ist ersichtlich, dass beide Ansätze Vor- 
 
 Wie im letzten Abschnitt beschrieben, unterscheidet sich die Ausgabe von Information auf den beiden Ausgabekanälen nur in einigen Fällen, im synchronen Ausgabemodus wird weitgehend die gleiche Information in -- den unterschiedlichen Ausgabemedien geschuldet -- zum Teil unterschiedlichen Ausgabeformen dargestellt.  
 
-Grundsätzlich wird die Architektur der Ausgabekanal-Verwaltung erweiterbar angelegt, um veränderte Anforderungen an der Werkzeug oder erweiterte Funktionalität umsetzen zu können. Basis dieser erweiterbaren Architektur ist das in Abschnitt \ref{sub:verteilung_des_modellzustandes} bereits beschriebene Modul zur Verteilung des aktuellen Modellzustandes an die verwendeten Ausgabekanäle. Jeder Ausgabekanal, der über Änderungen am Modell an den Eingabekanälen benachrichtigt werden soll, muss ein definiertes Interface implementieren, das jene Methoden definiert, die zur Datenübermittlung zwischen dem Interpretationsmodul und den Ausgabekanälen notwendig sind. In der konkreten Implementierung sind zur Zeit zwei auf JHotDraw basierende Ausgabekanäle umgesetzt, zusätzlich existiert ein weiteres Modul, das gegenüber dem System als Ausgabekanal agiert, die übermittelte Information selbst jedoch wieder an beliebige via TCP/IP erreichbare Clients verteilt (siehe Abbildung \ref{fig:img_ImplementierungOutput_OutputArchitecture}). Auf diesem Weg können entfernte Ausgabekanäle realisiert werden, die es erlauben, den Modellierungsprozess auch ohne räumliche Anwesenheit zur verfolgen. Mittels der gleichen Schnittstelle können auch weitere, nicht auf visuelle Ausgabe beschränkte Kanäle wie z.B. akustische Benachrichtigungen mit Information versorgt werden. 
+Grundsätzlich wird die Architektur der Ausgabekanal-Verwaltung erweiterbar angelegt, um veränderte Anforderungen an der Werkzeug oder erweiterte Funktionalität umsetzen zu können. Basis dieser erweiterbaren Architektur ist das in Abschnitt \ref{sub:verteilung_des_modellzustandes} bereits beschriebene Modul zur Verteilung des aktuellen Modellzustandes an die verwendeten Ausgabekanäle. Jeder Ausgabekanal, der über Änderungen am Modell an den Eingabekanälen benachrichtigt werden soll, muss ein definiertes Interface implementieren, das jene Methoden definiert, die zur Datenübermittlung zwischen dem Interpretationsmodul und den Ausgabekanälen notwendig sind. In der konkreten Implementierung sind zur Zeit zwei auf JHotDraw basierende Ausgabekanäle umgesetzt, zusätzlich existiert ein weiteres Modul, das gegenüber dem System als Ausgabekanal agiert, die übermittelte Information selbst jedoch wieder an beliebige via \gls{TCP}/\gls{IP} erreichbare Clients verteilt (siehe Abbildung \ref{fig:img_ImplementierungOutput_OutputArchitecture}). Auf diesem Weg können entfernte Ausgabekanäle realisiert werden, die es erlauben, den Modellierungsprozess auch ohne räumliche Anwesenheit zur verfolgen. Mittels der gleichen Schnittstelle können auch weitere, nicht auf visuelle Ausgabe beschränkte Kanäle wie z.B. akustische Benachrichtigungen mit Information versorgt werden. 
 
 \begin{figure}[htbp]
 	\centering
@@ -253,6 +253,8 @@ Ebenfalls nur auf der sekundären Oberfläche explizit auszugeben ist die Inform
 
 Da Verbinder nicht physisch existieren sondern immer über die Ausgabekanäle dargestellt werden müssen, gelten die nun folgenden Ausführungen für beide Ausgabekanäle. Wird ein Verbinder hergestellt, so kann neben den beiden Endpunkten (Modellelementen) auch noch die Richtung des Verbinders sowie eine Bezeichnung festgelegt werden.
 
+-- screenshots und bilder
+
 Ein Verbinder wird auf den Ausgabekanälen als Linie dargestellt die zwei Modellierungstokens bzw. deren graphische Repräsentation verbindet. Die Richtung des Verbinders wird über Pfeilspitzen angegeben, die an den Enden der Linien angebracht werden. Dabei können diese Pfeilspitzen fehlen (ungerichteter Verbinder), an einem Ende angebracht werden (gerichteter Verbinder) oder an beiden Enden dargestellt werden (bidirektionaler Verbinder). Die Ausgabe der Benennung eines Verbinders erfolgt -- sofern vorhanden -- zentriert auf halbem Weg zwischen den verbundenen Modellelementen unterhalb der Linie. 
 
 % subsubsection information_zu_verbindern (end)
@@ -261,22 +263,45 @@ Ein Verbinder wird auf den Ausgabekanälen als Linie dargestellt die zwei Modell
 \label{ssub:information_zu_eingebetteten_elementen}
 % subsubsection information_zu_eingebetteten_elementen (end)
 
-Im Kontext der Ausgabe von Information zu eingebetteten Elementen müssen folgende Modellaspekte berücksichtigt werden:
+Im Kontext der Ausgabe von Information zu eingebetteten Elementen müssen unterschiedliche Modellaspekte berücksichtigt werden. Im einzelnen sind dies:
 \begin{itemize}
  \item Öffnungszustand von Modellelementen
  \item Anzahl und Art der eingebetteten Elemente
  \item Information, welche an eingebettete Elemente gebunden ist
 \end{itemize}
 
+Der Öffnungszustand von Modellelementen ist auf der Tischoberfläche durch den Zustand des jeweiligen Containertokens ersichtlich. Auch die Art und Anzahl der eingebetteten Elemente ist sichtbar, wenn ein Containertoken geöffnet ist. Am sekundären Ausgabekanal, also auf dem Bildschirm wird ein geöffnetes Modellelement vergrößert dargestellt, um innerhalb der Fläche des Elements visuelle Repräsentationen der eingebetteten Elemente einblenden zu können. Somit ist auch am sekundären Ausgabekanal erkennbar, wann bzw. dass ein Element geöffnet ist. 
 
+-- screenshots und bilder
+
+Jene Information, die an die eingebetteten Elemente gebunden ist, wird auf beiden Kanälen nicht ohne explizite Benutzerinteraktion dargestellt. Fordern die Benutzer auf einem Eingabekanal die Darstellung der eingebetteten Information an, so wird diese auf dem sekundären, nicht kohärenten Ausgabekanal dargestellt. Eine Darstellung der angebundenen Information auf der Tischoberfläche würde mit den physisch vorhanden Modellelementen interferieren. Die eingebetteten Submodelle bzw. die sonstigen digitalen Ressourcen werden also auf dem Bildschirm dargestellt, wobei Submodelle den aktuellen Modellzustand temporär ersetzen und andere Ressourcen mittels der im Betriebssystem definierten Standardapplikation geöffnet werden. 
 % subsection ausgabe_von_information_zum_modell (end)
 
 \subsection{Ausgabe zur Kontrolle des Systems} % (fold)
 \label{sub:ausgabe_zur_kontrolle_des_systems}
 
-\subsubsection{Zustandsmeldungen} % (fold)
-\label{ssub:zustandsmeldungen}
-Löschmodus etc.
+Neben der eigentlichen Modellinformation wird auch Information ausgegeben, die zum Feedback über den Systemzustand oder der Kontrolle desselben notwendig ist. Wo möglich wird auch in diesem Fall die Tischoberfläche als primärer Ausgabekanal genutzt.
+
+\subsubsection{Zustands- und Ereignismeldungen} % (fold)
+\label{ssub:zustands_und_ereignismeldungen}
+
+Bei der Verwendung der die Modellierung unterstützenden Werkzeuge muss den Benutzern Feedback über deren Erkennung bzw. den durch diese ausgelösten Änderung des Systemzustandes gegeben werden. Dabei ist zwischen jenen Interaktionen zu unterscheiden, die ein Ereignis auslösen und jenen, die den Systemzustand permanent ändern. Dieser Unterschied muss auch in der Visualisierung den Benutzern kommuniziert werden. Dabei kann es duch die vom System nicht beeinflussbaren physischen Werkzeugtokens zu potentiellen Mißverständnissen kommen. Wird ein Werkzeugtoken, das lediglich ein Ereignis auslöst (wie zum Beispiel das Markierungstoken), von den Modellierenden auf der Oberfläche belassen, kann dieses als unter Umständen als zustandsverändernd und nicht als ereignisauslösend wahrgenommen werden. 
+
+\paragraph{Elementauswahl}
+
+Wird mittels dem Markierungstoken ein Element ausgewählt, so müssen die Benutzer über die Erkennung der Markierung benachrichtigt werden. Dabei muss erkenntlich sein, welches Element ausgewählt wurde und wie lange die Auswahl gültig ist. Die Auswahl eines Elements ist grundsätzlich ein Ereignis, ist jedoch immer Teil einer umfassenderen Interaktion, in der die Benutzer das ausgewählte Element verwenden (z.B. dieses benennen). Deswegen wirkt das Markierungsereignis einige Sekunden nach, um den Benutzern die Gelegenheit zur Fortsetzung des Interaktionsablaufs zu geben. Eine permanente Markierung eines ausgewählten Elements ist insofern nicht wünschenswert, als dass etwaige fehlerhafte Markierungen (durch Fehlauswahl oder Fehlerkennung) dann zusätzlicher Benutzerinteraktion zur Korrektur bedürften. Deswegen werden Markierungen als Ereignisse mit längerer Wirkungsdauer interpretiert.
+
+Die Anzeige der Auswahl erfolgt auf beiden Ausgabekanälen mittels einer ovalen Markierung, die das ausgewählte Element umschließt. Diese wird solange angezeigt, bis die Interaktion, der sie zuzuordnen ist, abgeschlossen ist oder die Gültigkeitsdauer abgelaufen ist. Danach verschwindet sie selbständig ohne weiter Benutzerinteraktion.
+
+\paragraph{Verbindungsherstellung}
+
+Die Herstellung von Verbindungen kann auf zwei unterschiedliche Arten durch die Benutzer ausgelöst werden. Wird eine Verbindung duch die Auswahl zweier Modellelemente hergestellt, werden die eben beschriebenen ovalen Markierungen zur Visualisierung der Auswahl verwendet. Dabei kann es zur Auswahl eines Elements als Endpunkt einer gerichteten Verbindung kommen. Die ovale Markierung wechselt in diesem Fall die Farbe, um die erfolgreiche Erkennung einer Pfeilspitze rückzumelden. Nachdem beide Endpunkte erkannt und markiert wurden, wird unmittelbar die Verbindung hergestellt. Diese wird initial als einee Linie dargestellt, die in Farbe und Strichstärke hervorsticht, und in der Folge in einer Animation durch eine herkömmliche Verbindung ersetzt. Diese Animation dient dazu, das Ereignis der Verbindungsherstellung klar zu visualisieren und die Aufmerksamkeit der Benutzer auf dieses Ereignis zu lenken.
+
+Werden zwei Elemente durch ihre räumliche Nähe zueinander in Beziehung gesetzt und eine Verbindung hergestellt, entfallen die ovalen Markierungen (da keine explizite Auswahl der Elemente erfolgt). Es wird lediglich die Animation zur Verbindungsherstellung dargestellt. Auf diesem Wege ist keine Herstellung von gerichteten Verbindern möglich. 
+
+\paragraph{explizite Snapshots}
+
+\paragraph{Löschmodus}
 
 % subsubsection zustandsmeldungen (end)
 
