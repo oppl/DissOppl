@@ -301,7 +301,11 @@ Werden zwei Elemente durch ihre räumliche Nähe zueinander in Beziehung gesetzt
 
 \paragraph{explizite Snapshots}
 
+Im Zusammenhang mit der Speicherung der Modellierungshistorie (also der über die Zeit veränderten Modellzustände) ist es möglich, neben der automatischen Speicherung auch explizit der Aufnahme eines Snapshots auszulösen. Während bei der automatischen Speicherung kein Feedback an die Benutzer gegeben wird (da auch keine Interaktion zum Auslösen derselben stattfindet), wird im Falle einer expliziten Speicherung den Benutzern die erfolgreiche Durchführung der Aktion rückgemeldet. Die Speicherung des Snapshots ist ein Ereignis ohne zeitliche Ausdehnung und wird dementsprechend visualisert. Dies erfolgt in Form eines roten Blitzes, der sowohl über die Tischoberfläche als auch den Bildschirm ausgegeben wird. Die Verwendung der gespeicherten Modellzustände und deren Visualisierung wird in Abschnitt \ref{ssub:wiederherstellungsunterstützung} im Detail behandelt.
+
 \paragraph{Löschmodus}
+
+Im Gegensatz den in den vorangegangenen Abschnitten behandelten Werkzeugen löst der Einsatz des Lösch-Tokens kein Ereignis aus sondern schaltet das System in einen anderen Zustand, solange es auf der Oberfläche vorhanden ist. Dies spiegelt sich auch in der Visualisierung wieder. Solange das Lösch-Token von der Kamera erfasst wird, wird auf beiden Ausgabekanälen der Hintergrund des Modells (also die gesamte Tischoberfläche bzw. der gesamte Bildschirm) in roter Farbe dargestellt, während im Vordergrund nach wie vor der aktuelle Modellzustand visualisiert wird. Dies entspricht den Interaktionsmöglichkeiten der Benutzer -- das Modell kann nach wie vor manipuliert werden, jene Interaktionen, die aber im Normalfall eine Verbindung herstellen, löschen diese in diesem Modus wieder. Wird das Lösch-Token entfernt, wechselt der Hintergrund wieder auf die Standard-Farbe, das System reagiert auf dei betroffenen Interaktionen wieder mit der Herstellung eines Verbinders.
 
 % subsubsection zustandsmeldungen (end)
 
