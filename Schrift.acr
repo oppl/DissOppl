@@ -1,0 +1,23 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{L}\relax \glsresetentrylist %
+\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{85\delimR 87}\delimN 
+		\setentrycounter{page}\glsnumberformat{89}}}%
+\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{87}}}\glsgroupskip
+\glsgroupheading{O}\relax \glsresetentrylist %
+\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{87}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossaryentryfield{RFID}{\glsnamefont{\acronymfont {RFID}}}{Radio Frequency Identification}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{22}\delimN 
+		\setentrycounter{page}\glsnumberformat{26}}}\glsgroupskip
+\glsgroupheading{U}\relax \glsresetentrylist %
+\glossaryentryfield{UML}{\glsnamefont{\acronymfont {UML}}}{Unified Modelling Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{116}\delimN 
+		\setentrycounter{page}\glsnumberformat{122}}}\glsgroupskip
+\glsgroupheading{X}\relax \glsresetentrylist %
+\glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{103}}}%
+\end{theglossary}\glossarypostamble

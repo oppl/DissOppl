@@ -45,18 +45,19 @@
 \usepackage[final, activate, verbose=true]{microtype}
 \usepackage{color}
 
-\usepackage[bookmarks]{hyperref}
+\usepackage[bookmarks, backref=page]{hyperref}
+\renewcommand*{\backrefpagesname}{S.}
+\renewcommand*{\backref}{\backrefpagesname\ }
 
 \usepackage[
 nonumberlist, %keine Seitenzahlen anzeigen
 acronym,      %ein Abkürzungsverzeichnis erstellen
-toc,          %Einträge im Inhaltsverzeichnis
-section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
+footnote]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 {glossaries}
 \renewcommand*{\glspostdescription}{}
+\renewcommand*{\glspluralsuffix}{s}
 \makeglossaries
-
-\include{Acronyme}
+\loadglsentries[\acronymtype]{Acronyme}
 
 \definecolor{darkgray}{gray}{0.2} 
 \definecolor{lightgray}{gray}{0.8} 
@@ -65,48 +66,48 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \parskip1ex
 
 % Keine "Schusterjungen"
-%\clubpenalty = 10000
+\clubpenalty = 10000
 % Keine "Hurenkinder"
-%\widowpenalty = 10000 \displaywidowpenalty = 10000
+\widowpenalty = 10000 \displaywidowpenalty = 10000
 
-\newcommand{\contribution}[1]{
-	\begin{center}
-	\fcolorbox{darkgray}{lightgray}{
-		\begin{minipage}{13cm}
-			\textbf{Kapitel \thechapter: Zusammenfassung}
-			\newline
-			\newline
-			#1
-		\end{minipage}
-	}
-	\end{center}
-}
-
-\newcommand{\context}[1]{
-	\begin{center}
-	\fcolorbox{darkgray}{lightgray}{
-		\begin{minipage}{13cm}
-			\textbf{Kontext}
-			\newline
-			\newline
-			#1
-		\end{minipage}
-	}
-	\end{center}
-}
-
-\newcommand{\structure}[1]{
-	\begin{center}
-	\fcolorbox{darkgray}{lightgray}{
-		\begin{minipage}{13cm}
-			\textbf{Struktur}
-			\newline
-			\newline
-			#1
-		\end{minipage}
-	}
-	\end{center}
-}
+% \newcommand{\contribution}[1]{
+% 	\begin{center}
+% 	\fcolorbox{darkgray}{lightgray}{
+% 		\begin{minipage}{13cm}
+% 			\textbf{Kapitel \thechapter: Zusammenfassung}
+% 			\newline
+% 			\newline
+% 			#1
+% 		\end{minipage}
+% 	}
+% 	\end{center}
+% }
+% 
+% \newcommand{\context}[1]{
+% 	\begin{center}
+% 	\fcolorbox{darkgray}{lightgray}{
+% 		\begin{minipage}{13cm}
+% 			\textbf{Kontext}
+% 			\newline
+% 			\newline
+% 			#1
+% 		\end{minipage}
+% 	}
+% 	\end{center}
+% }
+% 
+% \newcommand{\structure}[1]{
+% 	\begin{center}
+% 	\fcolorbox{darkgray}{lightgray}{
+% 		\begin{minipage}{13cm}
+% 			\textbf{Struktur}
+% 			\newline
+% 			\newline
+% 			#1
+% 		\end{minipage}
+% 	}
+% 	\end{center}
+% }
 
 \setcounter{tocdepth}{2}
 
@@ -153,10 +154,6 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \uebersicht
 \tableofcontents
 
-\listoffigures
-
-\listoftables
-
 \newpage
 \cleardoublepage
 
@@ -170,16 +167,28 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 
 \include{Evaluierung}
 
-%\bibliography{/home/oppl/Dokumente/Literatur/Archiv}
-\bibliography{/Users/oppl/Documents/Dokumente/Literatur/Archiv}
+\appendix
+\pagenumbering{Roman}
 
-\addcontentsline{toc}{chapter}{Index}
+\part*{Verzeichnisse}
+\addcontentsline{toc}{part}{Verzeichnisse}
+
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\listoffigures
+
+\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+\listoftables
+
+\addcontentsline{toc}{chapter}{Stichwortverzeichnis}
 \printindex
 
+\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
 \printglossary[type=\acronymtype,style=long,title=Abkürzungsverzeichnis]
 
-\appendix
-\addcontentsline{toc}{part}{Anhang}
+\addcontentsline{toc}{chapter}{Bildquellen}
 \include{AnhangBildquellen}
+
+%\bibliography{/home/oppl/Dokumente/Literatur/Archiv}
+\bibliography{/Users/oppl/Documents/Dokumente/Literatur/Archiv}
 
 \end{document}

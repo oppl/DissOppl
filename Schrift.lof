@@ -25,21 +25,21 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Ausgabe}{83}{chapter.5}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Ausgabekomponenten}}{92}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Softwarearchitektur zur Verwaltung der Ausgabekanäle}}{97}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Zusammenhänge der Klassen zur Ausgabebehandlung}}{98}{figure.5.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Persistierung}{99}{chapter.6}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Grundlegende Elemente einer Topic Map}}{100}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Umfassende Darstellung der Elemente einer Topic Map}}{102}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Abgrenzung zwischen Subject und Occurrence in Topic Maps}}{103}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Benennung von Topics}}{104}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Beziehungen in der Metamodellbildung in Topic Maps}}{107}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Abbildung von Gültigkeitsbereichen durch Scopes}}{110}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Abbildung von Modellinformation in Topic Maps}}{112}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Definition des Meta-Models (ohne Kardinalitäten)}}{115}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Einbindung des Meta-Meta-Modells}}{117}{figure.6.9}
-\contentsline {xpart}{Evaluierung}{123}{part.3}
+\contentsline {xchapter}{Persistierung}{103}{chapter.6}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Grundlegende Elemente einer Topic Map}}{104}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Umfassende Darstellung der Elemente einer Topic Map}}{106}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Abgrenzung zwischen Subject und Occurrence in Topic Maps}}{107}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Benennung von Topics}}{108}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Beziehungen in der Metamodellbildung in Topic Maps}}{111}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Abbildung von Gültigkeitsbereichen durch Scopes}}{114}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Abbildung von Modellinformation in Topic Maps}}{116}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Definition des Meta-Models (ohne Kardinalitäten)}}{119}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Einbindung des Meta-Meta-Modells}}{121}{figure.6.9}
+\contentsline {xpart}{Evaluierung}{127}{part.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Untersuchungsdesign}{123}{chapter.7}
+\contentsline {xchapter}{Untersuchungsdesign}{127}{chapter.7}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Untersuchungsergebnisse}{127}{chapter.8}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Abbildungquellen}{137}{appendix.A}
+\contentsline {xchapter}{Untersuchungsergebnisse}{131}{chapter.8}
