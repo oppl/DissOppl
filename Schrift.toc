@@ -91,12 +91,12 @@
 \contentsline {paragraph}{Verbindungsherstellung}{89}{section*.53}
 \contentsline {paragraph}{explizite Snapshots}{90}{section*.54}
 \contentsline {paragraph}{Löschmodus}{90}{section*.55}
-\contentsline {subsubsection}{Abruf der Modellierungshistorie}{92}{section*.56}
+\contentsline {subsubsection}{Abruf der Modellierungshistorie}{90}{section*.56}
 \contentsline {subsubsection}{Wiederherstellungsunterstützung}{92}{section*.57}
-\contentsline {section}{\numberline {2.4}Umsetzung der Ausgabe mit Software}{92}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Ausgabe des Modellzustands}{92}{subsection.2.4.1}
-\contentsline {subsubsection}{Kalibrierung der Ausgabe}{92}{section*.58}
-\contentsline {subsection}{\numberline {2.4.2}Weitere Ausgabekanäle}{92}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.4}Umsetzung der Ausgabe mit Software}{93}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Ausgabe des Modellzustands}{93}{subsection.2.4.1}
+\contentsline {subsubsection}{Kalibrierung der Ausgabe}{93}{section*.58}
+\contentsline {subsection}{\numberline {2.4.2}Weitere Ausgabekanäle}{94}{subsection.2.4.2}
 \partbegin 
 \contentsline {part}{Verzeichnisse}{III}{part*.59}
 \contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.60}

@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  27 APR 2009 11:29
+This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  28 APR 2009 00:22
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -1918,22 +1918,40 @@ File: img/SystemNeu/Container3EinbettungenTisch.jpg Graphic file (type QTm)
 File: img/SystemNeu/Container3EinbettungenScreen.png Graphic file (type QTm)
 
 <use  "img/SystemNeu/Container3EinbettungenScreen.png" >
+Overfull \hbox (1.13315pt too wide) in paragraph at lines 300--302
+\EU1/HoeflerText(0)/m/n/12 die physisch vorhanden Modellelemente gestört. Die 
+eingebetteten Submodelle bzw.
+ []
+
+
+Overfull \hbox (1.0429pt too wide) in paragraph at lines 300--302
+\EU1/HoeflerText(0)/m/n/12 sourcen mittels der im Betriebssystem definierten St
+andardapplikation geöffnet wer-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [87]
 [88]
 File: img/SystemNeu/MarkierungTisch.jpg Graphic file (type QTm)
- <use  "img/SystemNeu/MarkierungTisch.jpg" > [89]
+ <use  "img/SystemNeu/MarkierungTisch.jpg" > [89] [90]
 File: img/SystemNeu/HistoryScreen.png Graphic file (type QTm)
 
-<use  "img/SystemNeu/HistoryScreen.png" >
+<use  "img/SystemNeu/HistoryScreen.png" > [91]
+Overfull \hbox (1.52452pt too wide) in paragraph at lines 364--365
+\EU1/HoeflerText(0)/m/n/12 derherstellungsunterstützung aktiviert werden. Im R
+ahmen der Wiederherstellungs-
+ []
+
 File: img/SystemNeu/WiederherstellungTisch.jpg Graphic file (type QTm)
-
 <use  "img/SystemNeu/WiederherstellungTisch.jpg" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (0.54454pt too wide) in paragraph at lines 379--380
+\EU1/HoeflerText(0)/m/n/12 lich, auch irrtümlicherweise während der Wiederher
+stellung entfernte, hinzugefügte
+ []
 
- [90]
-[91])) [92] [1
+[92] [93])) [94] [1
 
 
 
@@ -2082,17 +2100,14 @@ LaTeX Font Info:    Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  13178 strings out of 494701
  213777 string characters out of 1164829
- 385254 words of memory out of 3000000
+ 385241 words of memory out of 3000000
  15860 multiletter control sequences out of 10000+50000
  7506 words of font info for 53 fonts, out of 3000000 for 5000
  669 hyphenation exceptions out of 8191
  40i,11n,56p,2572b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Schrift.pdf (112 pages).
+Output written on Schrift.pdf (114 pages).

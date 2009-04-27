@@ -297,7 +297,7 @@ Der Öffnungszustand von Modellelementen ist auf der Tischoberfläche durch den 
 	\label{fig:img_SystemNeu_Container}
 \end{figure}
 
-Jene Information, die an die eingebetteten Elemente gebunden ist, wird auf beiden Kanälen nicht ohne explizite Benutzerinteraktion dargestellt. Fordern die Benutzer auf einem Eingabekanal die Darstellung der eingebetteten Information an, so wird diese auf dem sekundären, nicht kohärenten Ausgabekanal dargestellt. Eine Darstellung der angebundenen Information auf der Tischoberfläche würde mit den physisch vorhanden Modellelementen interferieren. Die eingebetteten Submodelle bzw. die sonstigen digitalen Ressourcen werden also auf dem Bildschirm dargestellt, wobei Submodelle den aktuellen Modellzustand temporär ersetzen und andere Ressourcen mittels der im Betriebssystem definierten Standardapplikation geöffnet werden. 
+Jene Information, die an die eingebetteten Elemente gebunden ist, wird auf beiden Kanälen nicht ohne explizite Benutzerinteraktion dargestellt. Fordern die Benutzer auf einem Eingabekanal die Darstellung der eingebetteten Information an, so wird diese auf dem sekundären, nicht kohärenten Ausgabekanal dargestellt. Eine Darstellung der angebundenen Information auf der Tischoberfläche würde durch die physisch vorhanden Modellelemente gestört. Die eingebetteten Submodelle bzw. die sonstigen digitalen Ressourcen werden also auf dem Bildschirm dargestellt, wobei Submodelle den aktuellen Modellzustand temporär ersetzen und andere Ressourcen mittels der im Betriebssystem definierten Standardapplikation geöffnet werden. 
 % subsection ausgabe_von_information_zum_modell (end)
 
 \subsection{Ausgabe zur Kontrolle des Systems} % (fold)
@@ -331,7 +331,7 @@ Werden zwei Elemente durch ihre räumliche Nähe zueinander in Beziehung gesetzt
 
 \paragraph{explizite Snapshots}
 
-Im Zusammenhang mit der Speicherung der Modellierungshistorie (also der über die Zeit veränderten Modellzustände) ist es möglich, neben der automatischen Speicherung auch explizit der Aufnahme eines Snapshots auszulösen. Während bei der automatischen Speicherung kein Feedback an die Benutzer gegeben wird (da auch keine Interaktion zum Auslösen derselben stattfindet), wird im Falle einer expliziten Speicherung den Benutzern die erfolgreiche Durchführung der Aktion rückgemeldet. Die Speicherung des Snapshots ist ein Ereignis ohne zeitliche Ausdehnung und wird dementsprechend visualisert. Dies erfolgt in Form eines roten Blitzes, der sowohl über die Tischoberfläche als auch den Bildschirm ausgegeben wird. Die Verwendung der gespeicherten Modellzustände und deren Visualisierung wird in Abschnitt \ref{ssub:abruf_der_modellierungshistorie} im Detail behandelt.
+Im Zusammenhang mit der Speicherung der Modellierungshistorie (also der über die Zeit veränderten Modellzustände) ist es möglich, neben der automatischen Speicherung auch explizit der Aufnahme eines Snapshots auszulösen. Während bei der automatischen Speicherung kein Feedback an die Benutzer gegeben wird (da auch keine Interaktion zum Auslösen derselben stattfindet), wird im Falle einer expliziten Speicherung den Benutzern die erfolgreiche Durchführung der Aktion rückgemeldet. Die Speicherung des Snapshots ist ein Ereignis ohne zeitliche Ausdehnung und wird dementsprechend visualisiert. Dies erfolgt in Form eines roten Blitzes, der sowohl über die Tischoberfläche als auch den Bildschirm ausgegeben wird. Die Verwendung der gespeicherten Modellzustände und deren Visualisierung wird in Abschnitt \ref{ssub:abruf_der_modellierungshistorie} im Detail behandelt.
 
 \paragraph{Löschmodus}
 
@@ -342,6 +342,10 @@ Im Gegensatz den in den vorangegangenen Abschnitten behandelten Werkzeugen löst
 \subsubsection{Abruf der Modellierungshistorie} % (fold)
 \label{ssub:abruf_der_modellierungshistorie}
 
+Der Abruf der Modellierungshistorie wird mit dem runden Kontroll-Token ausgelöst und kontrolliert. Hinsichtlich der Darstellung ist die Modellierungshistorie die erste der hier beschriebenen Zustands- und Ereignismeldungen, bei der keine kohärente Darstellung möglich ist. Auf der Tischoberfläche befinden sich zum Zeitpunkt der Aktivierung des Historienmodus alle Tokens, die im Elemente im aktuellen Modellzustand repräsentieren. Da der Historienmodus als Referenz dient, in der die Entstehung des Models rekapituliert werden kann, die gespeicherten Modellzustände aber im Allgemeinen nicht den aktuellen Zustand ersetzen sollen, verbleiben diese Tokens auch auf der Oberfläche. Damit kann nach Deaktivierung des Historienmodus der Modellierungsvorgang unmittelbar fortgesetzt werden. Die auf der Oberfläche befindlichen Tokens stören aber die Darstellung gespeicherter Modellzustände, da sie Teile verdecken und keinen Bezug zum projizierten Modell haben.
+
+Die Information des Historienmodus wird deshalb ausschließlich auf dem sekundären Ausgabekanal -- dem Bildschirm -- dargestellt (die Kontrolle verbleibt mit dem runden Kontroll-Token auf der Tischoberfläche). Die gespeicherten Modellzustände ersetzen dabei den aktuellen Modellzustand, der im Normalbetrieb synchron zur Tischoberfläche dargestellt wird. Ist das System so konfiguriert, das der sekundäre Ausgabekanal nicht synchron betrieben wird, so wird er bei Erkennung des Historienmodus aktiviert.
+
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=2in]{img/SystemNeu/HistoryScreen.png}
@@ -349,9 +353,21 @@ Im Gegensatz den in den vorangegangenen Abschnitten behandelten Werkzeugen löst
 	\label{fig:img_SystemNeu_HistoryScreen}
 \end{figure}
 
+Zusätzlich zur graphischen Darstellung des gespeicherten Modellzustandes wird ein Zeitstempel in der linken oberen Ecke eingeblendet, der den Zeitpunkt der Speicherung angibt. Am unteren Rand des Bildes wird ein Balken eingeblendet, der auf den relativen Zeitpunkt der Aufnahme (bezogen auf die Gesamtzahl der gespeicherten Zustände) angibt (siehe Abbildung \ref{fig:img_SystemNeu_HistoryScreen}). Die Schrittweite (also die Verlängerung des Balken, die durch das Umschalten auf einen unmittelbar folgenden Zustand verursacht wird) wird dazu dynamisch an die Anzahl der gespeicherten Modellzustände angepasst.
+
+Ist der erste bzw. letzte Modellzustand erreicht, werden weitere entsprechende Kommandos durch Drehen des Kontroll-Tokens ignoriert. Die Benutzer werden durch einen vollständig leeren bzw. ausgefüllten Balken auf das Erreichen des jeweiligen Endpunktes hingewiesen. Wird das Kontroll-Token von der Tischoberfläche entfernt, so wird der Historienmodus deaktiviert. Die Darstellung auf dem sekundären Ausgabekanal wird wieder auf die synchrone Darstellung des aktuellen Modellzustandes geschalten bzw. wird diese deaktiviert, falls das System dementsprechend konfiguriert ist.
+
 % subsubsection abruf_der_modellierungshistorie (end)
 \subsubsection{Wiederherstellungsunterstützung} % (fold)
 \label{ssub:wiederherstellungsunterstützung}
+
+Im Rahmen des Abrufs der Modellierungshistorie kann von den Benutzern die Wiederherstellungsunterstützung aktiviert werden. Im Rahmen der Wiederherstellungsunterstützung leitet das System die Benutzer bei der Rekonstruktion eines gespeicherten Modellzustandes an. Dazu werden auf der Tischoberfläche und am Bildschirm (sofern aktiviert) -- also auf beiden Ausgabekanälen -- Hinweise angezeigt, wie der aktuelle Modellzustand verändert werden muss, um den gespeicherten Zustand wieder herzustellen. Da der aktuelle Modellzustand als Ausgangspunkt dient, kann eine kohärente Visualisierung zum Einsatz kommen.
+
+Bei der Aktivierung der Wiederherstellungsunterstützung werden die im Modell befindlichen Verbinder ausgeblendet, da diese nicht manuell verändert werden müssen. Die notwendige manuelle Intervention der Benutzer zur Wiederherstellung beschränkt sich auf die Platzierung der Modellierungstokens an die dem gespeicherten Modellzustand entsprechenden Orte. In der ersten Phase werden vom System schrittweise alle Tokens markiert, die im aktuellen Modell enthalten sind und im gespeicherten Modellzustand nicht vorhanden sind -- also entfernt werden müssen. Schrittweise heißt in diesem Zusammenhang, dass immer nur ein Token markiert wird, sobald dieses entfernt wurde, wird das nächste Token zur Entfernung markiert. Die Markierung ist als rote, ovale Hinterlegung des Tokens umgesetzt.
+
+In der zweiten Phase werden jene Tokens behandelt, die sowohl im aktuellen als auch im gespeicherten Modellzustand enthalten sind, sich aber jeweils an unterschiedlichen Positionen befinden -- also verschoben werden müssen. Dazu wird wiederum schrittweise eine Markierung an der Zielposition des Tokens eingeblendet und diese mit einem Pfeil mit der aktuellen Position des betroffenen Tokens verbunden (siehe Abbildung \ref{fig:img_SystemNeu_WiederherstellungTisch}).
+
+In der letzten Phase werden alle Tokens hinzugefügt, die im aktuellen Modell nicht vorhanden sind, es im gespeicherten Modellzustand aber waren. Diese werden schrittweise durch grüne, ovale Markierungen an den jeweiligen Positionen angezeigt, wobei die Benennung des Tokens in die Markierung eingeblendet wird, um das jeweilige zu platzierende Element identifizieren zu können.
 
 \begin{figure}[htbp]
 	\centering
@@ -359,6 +375,10 @@ Im Gegensatz den in den vorangegangenen Abschnitten behandelten Werkzeugen löst
 	\caption{Unterstützung der Wiederherstellung von Modellzuständen}
 	\label{fig:img_SystemNeu_WiederherstellungTisch}
 \end{figure}
+
+Die zur Rekonstruktions des Modellzustandes notwendigen Schritte sind nicht vorberechnet sondern werden vielmehr Schritt für Schritt aus der aktuell auf der Tischoberfläche befindlichen Token-Konstellation extrahiert. Dadurch ist es möglich, auch irrtümlicherweise während der Wiederherstellung entfernte, hinzugefügte oder vor allem verschobene Tokens zu korrigieren, auch wenn die Rekonstruktion grundsätzlich schon in eine spätere Phase getreten wäre. So würde das System beispielsweise nach Abschluss eines Schrittes in der dritten Phase (Elemente hinzufügen) auf eine Anweisung in der zweiten Phase (Verschieben) zurückgreifen, wenn durch das Hinzufügen ein anderes, bereits an der korrekten Position befindliches Element verschoben worden wäre.
+
+Sobald sich die Positionen der Tokens mit jenen des gespeicherten Modellzustandes decken, ist die notwendige Benutzerintervention zur Wiederherstellung abgeschlossen. Die Benutzer werden nun ggf. aufgefordert, das Historien-Kontroll-Token und das Wiederherstellungs-Token zu entfernen (sofern sich diese noch auf der Oberfläche befinden). Dieser Schritt schließt die Wiederherstellungsunterstützung ab. Das System blendet die Verbinder (nun aus dem gespeicherten Modellzustand) wieder ein und zeigt damit den (neuen) aktuellen Modellzustand an. 
 
 % subsubsection wiederherstellungsunterstützung (end)
 % subsection ausgabe_zur_kontrolle_des_systems (end)
