@@ -1,49 +1,47 @@
 This is BibTeX, Version 0.99c (Web2C 7.5.7)
 The top-level auxiliary file: Schrift.aux
 The style file: apalike.bst
-A level-1 auxiliary file: Grundlagen.aux
 A level-1 auxiliary file: Werkzeug.aux
-A level-1 auxiliary file: Evaluierung.aux
 A level-1 auxiliary file: AnhangBildquellen.aux
 Database file #1: /Users/oppl/Documents/Dokumente/Literatur/Archiv.bib
-You've used 63 entries,
+You've used 15 entries,
             1935 wiz_defined-function locations,
-            888 strings with 12717 characters,
-and the built_in function-call counts, 22936 in all, are:
-= -- 2263
-> -- 790
-< -- 67
-+ -- 265
-- -- 251
-* -- 1722
-:= -- 4015
-add.period$ -- 201
-call.type$ -- 63
-change.case$ -- 426
-chr.to.int$ -- 63
-cite$ -- 63
-duplicate$ -- 1009
-empty$ -- 1692
-format.name$ -- 342
-if$ -- 4611
+            576 strings with 5628 characters,
+and the built_in function-call counts, 4937 in all, are:
+= -- 486
+> -- 142
+< -- 17
++ -- 46
+- -- 42
+* -- 339
+:= -- 882
+add.period$ -- 48
+call.type$ -- 15
+change.case$ -- 93
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 234
+empty$ -- 386
+format.name$ -- 63
+if$ -- 992
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 60
-newline$ -- 318
-num.names$ -- 195
-pop$ -- 436
+missing$ -- 13
+newline$ -- 78
+num.names$ -- 47
+pop$ -- 101
 preamble$ -- 1
-purify$ -- 438
+purify$ -- 95
 quote$ -- 0
-skip$ -- 751
+skip$ -- 168
 stack$ -- 0
-substring$ -- 1363
-swap$ -- 159
-text.length$ -- 19
+substring$ -- 269
+swap$ -- 29
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 350
+type$ -- 84
 warning$ -- 0
-while$ -- 176
+while$ -- 38
 width$ -- 0
-write$ -- 826
+write$ -- 195

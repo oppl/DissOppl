@@ -32,19 +32,19 @@ Hier wird bewusst noch nicht auf die technische Umsetzung dieser Ausgabe eingega
 \section{Technologische Grundlage der Ausgabe} % (fold)
 \label{sec:technologische_grundlage_der_visualisierung}
 
-Bei der Ausgabe von Information muss im Falle von Tangible Interfaces zwischen Ansätzen mit unterschiedlich stark ausgeprägter Kohärenz mit den Eingabekanälen unterschieden werden. Unter Kohärenz ist hier zu verstehen, das jene Artefakte, die zur Eingabe verwendet werden gleichzeitig auch die Reaktion des Systems -- also die Ausgabe -- wiederspiegeln. In der von \citet{Fishkin04} vorgeschlagenen Taxonomie (siehe Abschnitt XY) werden in der Dimension "Embodiment" auch Werkzeuge als Tangible Interfaces klassifiziert, bei denen die Ausgabe vollständig von der Eingabe entkoppelt ist. Diesem Verständnis folgt auch diese Arbeit.
+Bei der Ausgabe von Information muss im Falle von Tangible Interfaces zwischen Ansätzen mit unterschiedlich stark ausgeprägter Kohärenz mit den Eingabekanälen unterschieden werden. Unter Kohärenz ist hier zu verstehen, das jene Artefakte, die zur Eingabe verwendet werden gleichzeitig auch die Reaktion des Systems -- also die Ausgabe -- wiederspiegeln. In der von \citet{Fishkin04} vorgeschlagenen Taxonomie (siehe Abschnitt XY) werden in der Dimension „Embodiment“ auch Werkzeuge als Tangible Interfaces klassifiziert, bei denen die Ausgabe vollständig von der Eingabe entkoppelt ist. Diesem Verständnis folgt auch diese Arbeit.
 
 Bei Tabletop Interfaces bietet sich die Tischoberfläche als Ausgabemedium an, um kohärente Informationsausgabe zu gewährleisten. Die Tischoberfläche dient hier wie in Kapitel \ref{cha:input_&_interpretation} beschrieben der Eingabe und kann durch unterschiedliche technologische Maßnahme auch zur Ausgabe genutzt werden. Eine weitere Möglichkeit, die Ausgabekohärenz bei Tabletop Interfaces sicherzustellen bzw. zu steigern, ist die Verwendung der zur Interaktion mit dem System verwendeten Tokens als Ausgabemedium. Je nach verfolgtem Ansatz (bzw. einer Kombination) sind unterschiedliche technische Maßnahmen zu setzen. In den folgenden Abschnitten werden die hier erwähnten grundsätzlich in Frage kommenden Ansätze betrachtet und im Anschluss hinsichtlich ihrer Eignung für das hier entwickelte System beurteilt. Basierend auf der grundsätzlichen Technologieentscheidung werden im Anschluss unterschiedliche technische Lösungen zur Erfüllung der Anforderungen beschrieben.
 
 \subsection{Ansätze zur kohärenten Ausgabe} % (fold)
 \label{sub:kohärente_ausgabe}
 
-In diesem Abschnitt werden Ausgabeansätze behandelt, die nach \citep{Fishkin04} in der Embodiment-Dimension den Ausprägungen "full" oder "nearby" zuzuordnen sind. Die Ausgabe erfolgt bei den hier vorgestellten Ansätzen also direkt über die Eingabetokens ("full") oder ist räumlich unmittelbar in der Umgebung der Tokens angesiedelt.
+In diesem Abschnitt werden Ausgabeansätze behandelt, die nach \citep{Fishkin04} in der Embodiment-Dimension den Ausprägungen „full“ oder „nearby“ zuzuordnen sind. Die Ausgabe erfolgt bei den hier vorgestellten Ansätzen also direkt über die Eingabetokens („full“) oder ist räumlich unmittelbar in der Umgebung der Tokens angesiedelt.
 
 \subsubsection{Darstellung auf der Tischoberfläche} % (fold)
 \label{ssub:darstellung_auf_der_tischoberfläche}
 
-Bei Tabletop-Interfaces ist die Nutzung der Tischoberfläche ein naheliegender und gängiger Ansatz zur Realisierung der Ausgabekanäle. Die Ausgabe erfolgt hierbei visuell, also durch die Darstellung der auszugebenden Information. Ein derartig ausgestaltetes Interface ist hinsichtlich seiner Ausprägung in der Embodiment-Dimension als "nearby" zu klassifizieren. Technologisch kommen zur Darstellung horizontal eingesetzte Bildschirme oder Oberflächen, auf die projiziert werden kann, in Frage.
+Bei Tabletop-Interfaces ist die Nutzung der Tischoberfläche ein naheliegender und gängiger Ansatz zur Realisierung der Ausgabekanäle. Die Ausgabe erfolgt hierbei visuell, also durch die Darstellung der auszugebenden Information. Ein derartig ausgestaltetes Interface ist hinsichtlich seiner Ausprägung in der Embodiment-Dimension als „nearby“ zu klassifizieren. Technologisch kommen zur Darstellung horizontal eingesetzte Bildschirme oder Oberflächen, auf die projiziert werden kann, in Frage.
 
 Bei der Verwendung von Bildschirmen sind die Größe der zur Anzeige verwendbaren Oberfläche sowie die zur Anzeige verfügbare Auflösung (also indirekt die Größe eines Bildpunktes) wesentliche Kriterien. Bei heute verfügbaren \gls{LCD}-Modulen mit Größen bis zu 132 cm in der Diagonale und Auflösungen von 1920 x 1080 Bildpunkten ist die Technologie soweit ausgereift und verfügbar, das dieser Ansatz grundsätzlich für den Einsatz in Tabletop Interfaces in Frage kommt. Vorteile sind die geringe Bauhöhe der Ausgabeeinheit (im Vergleich zu den im Folgenden vorgestellten Projektions-Lösungen). Nachteile sind die relative geringe Leuchtstärke, die einen Einsatz bei Tageslichtbedingungen schwierig machen sowie die Blickwinkelabhängigkeit, die bei horizontalem Einbau der Anzeigeeinheit stärker zum Tragen kommt als bei herkömmlicher vertikaler Verwendung.
 
@@ -55,7 +55,7 @@ Als Alternative zur Verwendung von aktiven Anzeigeeinheiten können Projektoren 
 \subsubsection{Aktive Anzeige auf Tokens} % (fold)
 \label{ssub:aktive_anzeige_auf_tokens}
 
-Alternativ zur Darstellung auf der Tischoberfläche können bei Tabletop-Interfaces auch die Tokens selbst als Ausgabekanal dienen. Die hier das Eingabemedium gleich dem Ausgabemedium ist, ist diese Form der Ausgabe hinsichlich der Embodiment-Dimension in die Ausprägung "full" einzuordnen. Technologisch können je nach Art der darzustellenden Information Tokens mit Displays ausgestattet werden oder lediglich visuelle Statusanzeigen beinhalten, die Feedback über den aktuellen Zustand des Tokens geben. In beiden Fällen müssen die Tokens generell mit Elektronik und Energieversorgung ausgestattet sein und die Möglichkeit haben, selbst oder über eine Verbindung mit der Infrastruktur ihren Zustand festzustellen.
+Alternativ zur Darstellung auf der Tischoberfläche können bei Tabletop-Interfaces auch die Tokens selbst als Ausgabekanal dienen. Die hier das Eingabemedium gleich dem Ausgabemedium ist, ist diese Form der Ausgabe hinsichlich der Embodiment-Dimension in die Ausprägung „full“ einzuordnen. Technologisch können je nach Art der darzustellenden Information Tokens mit Displays ausgestattet werden oder lediglich visuelle Statusanzeigen beinhalten, die Feedback über den aktuellen Zustand des Tokens geben. In beiden Fällen müssen die Tokens generell mit Elektronik und Energieversorgung ausgestattet sein und die Möglichkeit haben, selbst oder über eine Verbindung mit der Infrastruktur ihren Zustand festzustellen.
 
 Um textuelle oder grafische Information auf Tokens darzustellen ist die Verwendung von Displays notwendig. Bei der Verwendung von herkömmlichen \gls{LCD}-Displays ist durch die notwendige Hintergrundbeleuchtung sowie der notwendigen Stromversorgung zur Aufrechterhaltung der Anzeige der Energieverbrauch verhältnismäßig hoch. Alternativ können neuere Technologien wie \gls{OLED}- (REF) oder eInk-Displays (REF) verwendet werden. \gls{OLED}s bestehen aus organischen Materialien und benötigen keine Hintergrundbeleuchtung, das das Material selbst Licht emmitiert. eInk verwendet eine papierartige Oberfläche zur Anzeige, strahlt selbst kein Licht aus und ist deshalb auf Umgebungshelligkeit zur Verwendung angewiesen. eInk bietet in hellen Umgebungen die besten Kontrastverhältnisse (vergleichbar mit bedrucktem Papier) kann allerdings beim heutigen Stand der Entwickung keine Farben darstellen. Der größte Vorteil von eInk liegt in der Eigenschaft, dass die Anzeige auch ohne Energieversorgung aufrecht bleibt -- Energie ist lediglich zur Änderung des Display-Inhalts notwendig.
 
@@ -68,7 +68,7 @@ Neben der Verwendung eines Displays kann der Status eines Tokens auch mit Leucht
 \subsubsection{Token mit Aktuatoren} % (fold)
 \label{ssub:tokens_mit_aktuatoren}
 
-Neben der Verwendung von Displays zur Realisierung eines "full embodied" Ausgabekanals können Tokens auch mit Aktuatoren ausgestattet werden, die es erlauben, das Token bzw. dessen Verhalten selbst ohne direkte Benutzerinteraktion zu beeinflussen. Beispiele für Aktuatoren sind unter anderem Vibrationsmodule oder mechanische Einheiten zur Veränderung der äußeren Form des Tokens oder dessen Position (auf der Tischoberfläche). Der Einsatz von Aktuatoren ist ob der technologischen und anwendungsspezifischen Vielfalt nicht generisch beschreibbar wie das bei reinen optischen Anzeigeeinheiten der Fall war. Aktuatoren müssen auf den jeweiligen Anwendungsfall abgestimmt sein. Ihr Einsatz ist im Allgemeinen eher disruptiv, unterbricht durch die vom Benutzer nicht selbst ausgelöste Interaktion dessen aktuelle Aktivität und zieht die Aufmerksamkeit auf sich. Dies kann im einzelnen Anwendungsfall erwünscht sein, kann aber zu unerwünschten Effekten bei der Verwendbarkeit des Systems führen.
+Neben der Verwendung von Displays zur Realisierung eines „full embodied“ Ausgabekanals können Tokens auch mit Aktuatoren ausgestattet werden, die es erlauben, das Token bzw. dessen Verhalten selbst ohne direkte Benutzerinteraktion zu beeinflussen. Beispiele für Aktuatoren sind unter anderem Vibrationsmodule oder mechanische Einheiten zur Veränderung der äußeren Form des Tokens oder dessen Position (auf der Tischoberfläche). Der Einsatz von Aktuatoren ist ob der technologischen und anwendungsspezifischen Vielfalt nicht generisch beschreibbar wie das bei reinen optischen Anzeigeeinheiten der Fall war. Aktuatoren müssen auf den jeweiligen Anwendungsfall abgestimmt sein. Ihr Einsatz ist im Allgemeinen eher disruptiv, unterbricht durch die vom Benutzer nicht selbst ausgelöste Interaktion dessen aktuelle Aktivität und zieht die Aufmerksamkeit auf sich. Dies kann im einzelnen Anwendungsfall erwünscht sein, kann aber zu unerwünschten Effekten bei der Verwendbarkeit des Systems führen.
 
 Wie bei Anzeigemodulen müssen auch hier die Tokens mit Energieversorgung ausgestattet sein und mit Elektronik integriert werden, die für die Ansteuerung der Aktuatoren sorgt.
 
@@ -80,11 +80,11 @@ Im Bereich der Tabletop Interfaces ist die Verwendung von Aktuatoren eher selten
 \subsection{Ansätze zur entkoppelten Ausgabe} % (fold)
 \label{sub:entkoppelte_ausgabe}
 
-Ansätze zur enkoppelten Ausgabe sind solche, die von \citet{Fishkin04} in seiner Taxonomie in der Embodiment-Dimension unter den Ausprägungen "environment" oder "distant" eingeordnet werden. 
+Ansätze zur enkoppelten Ausgabe sind solche, die von \citet{Fishkin04} in seiner Taxonomie in der Embodiment-Dimension unter den Ausprägungen „environment“ oder „distant“ eingeordnet werden. 
 
-"Environmental Embodiment" ist dann gegeben, wenn Eingabe- und Ausgabekanäle räumlich nicht kohärent sind, aber Eingaben trotzdem offensichtlich Reaktionen in der unmittelbaren Umgebung auslösen. Klassische von Fishkin genannte Ansätze sind hier Audiokanäle aber auch die Veränderung von Umgebungslicht oder Temperatur. Auch olfaktorische Interfaces wären in diese Kategorie einzuordnen. In den folgenden Abschnitten werden jedoch ausschließlich audio-basierte Kanäle beschrieben, da diese im Bereich der Tabletop Interfaces Relevanz besitzen (etwa in REF reacTable und REF TEI Paper von Däne)
+„Environmental Embodiment“ ist dann gegeben, wenn Eingabe- und Ausgabekanäle räumlich nicht kohärent sind, aber Eingaben trotzdem offensichtlich Reaktionen in der unmittelbaren Umgebung auslösen. Klassische von Fishkin genannte Ansätze sind hier Audiokanäle aber auch die Veränderung von Umgebungslicht oder Temperatur. Auch olfaktorische Interfaces wären in diese Kategorie einzuordnen. In den folgenden Abschnitten werden jedoch ausschließlich audio-basierte Kanäle beschrieben, da diese im Bereich der Tabletop Interfaces Relevanz besitzen (etwa in REF reacTable und REF TEI Paper von Däne)
 
-Die Ausprägung "distant" kennzeichnet Ansätze, in denen die Eingabekanäle räumlich von den Ausgabekanälen vollkommen enkoppelt sind bzw. entkoppelt werden können. Ein Kriterium zur Einordung eines Ansatzes unter "distant" ist, dass Benutzer zur Beobachtung der Ausgabe nicht mehr die Eingabe im Blickfeld haben können (was bei allen anderen Ausprägungen möglich ist). Klassische Vertreter dieses Ansatzes sind alle Ansätze die auf der Darstellung von Information auf herkömmlichen Bildschirmen oder Projektionsflächen basieren.
+Die Ausprägung „distant“ kennzeichnet Ansätze, in denen die Eingabekanäle räumlich von den Ausgabekanälen vollkommen enkoppelt sind bzw. entkoppelt werden können. Ein Kriterium zur Einordung eines Ansatzes unter „distant“ ist, dass Benutzer zur Beobachtung der Ausgabe nicht mehr die Eingabe im Blickfeld haben können (was bei allen anderen Ausprägungen möglich ist). Klassische Vertreter dieses Ansatzes sind alle Ansätze die auf der Darstellung von Information auf herkömmlichen Bildschirmen oder Projektionsflächen basieren.
 
 \subsubsection{Darstellung auf Monitoren} % (fold)
 \label{ssub:monitore}
@@ -107,11 +107,11 @@ Bei individueller Nutzung eines Tangible Interfaces ist in der Verwendung von Bi
 \subsubsection{Audio-basierte Ausgabekanäle} % (fold)
 \label{ssub:audioausgabe}
 
-Audio-basierte Ansätze werden hier als Vertreter von Ausgabekanälen vorgestellt, die in die Kategorie "environmental Embodiment" eingeordnet werden. Audio-Interfaces arbeiten mit akustischer Ausgabe von Information, die im Allgemeinen in Zusammenhang mit den Eingaben am Tangible Interface stehen. 
+Audio-basierte Ansätze werden hier als Vertreter von Ausgabekanälen vorgestellt, die in die Kategorie „environmental Embodiment“ eingeordnet werden. Audio-Interfaces arbeiten mit akustischer Ausgabe von Information, die im Allgemeinen in Zusammenhang mit den Eingaben am Tangible Interface stehen. 
 
-Die ausgegebene Information kann abstrakt, codiert oder natürlichsprachlich sein. Unter "abstrakter" Information werden hier akustische Ausgaben verstanden, die nicht unmittelbar Bedeutung im sprachlichen Sinn tragen sondern auf Meldodien oder anderen Klangmustern basieren. Derartige Formen der Ausgabe kommen vor allem im künstlerischen Bereich zu Einsatz (REF reactable, TEI-Däne). "Codierte" akustische Ausgabe deckt alle Bereiche ab, in denen Klänge verwendet werden, um Information zu transportieren, ohne das diese selbst in diesen Klängen abgebildet ist. Beispiele hierfür sind Signaltöne, die einen Fehler melden oder anderweitig die Aufmerksamkeit der Benutzer auf sich ziehen sollen. Unter "natürlichsprachlicher" akustischer Ausgabe werden hier schließlich alle Ansätze eingeordnet, die die Ausgabe der Information direkt in Sprache umgesetzt vornehmen. Dies kann mittels gespeicherten (Teil-)Ansagen oder mittels Sprachsynthese realisiert werden. Im Gegensatz zu den anderen beiden Formen der akustischen Ausgabe ist die natürlichsprachliche Ausgabe abhängig vom Sprachverständnis der Benutzer und deshalb in einer bestimmten Konfiguration nur für einen beschränkten Benutzerkreis nutzbar.
+Die ausgegebene Information kann abstrakt, codiert oder natürlichsprachlich sein. Unter „abstrakter“ Information werden hier akustische Ausgaben verstanden, die nicht unmittelbar Bedeutung im sprachlichen Sinn tragen sondern auf Meldodien oder anderen Klangmustern basieren. Derartige Formen der Ausgabe kommen vor allem im künstlerischen Bereich zu Einsatz (REF reactable, TEI-Däne). „Codierte“ akustische Ausgabe deckt alle Bereiche ab, in denen Klänge verwendet werden, um Information zu transportieren, ohne das diese selbst in diesen Klängen abgebildet ist. Beispiele hierfür sind Signaltöne, die einen Fehler melden oder anderweitig die Aufmerksamkeit der Benutzer auf sich ziehen sollen. Unter „natürlichsprachlicher“ akustischer Ausgabe werden hier schließlich alle Ansätze eingeordnet, die die Ausgabe der Information direkt in Sprache umgesetzt vornehmen. Dies kann mittels gespeicherten (Teil-)Ansagen oder mittels Sprachsynthese realisiert werden. Im Gegensatz zu den anderen beiden Formen der akustischen Ausgabe ist die natürlichsprachliche Ausgabe abhängig vom Sprachverständnis der Benutzer und deshalb in einer bestimmten Konfiguration nur für einen beschränkten Benutzerkreis nutzbar.
 
-Akustische Ausgabe ist allen ihren Ausprägungen der Embodiment-Dimension "environment" zuzuordnen. Sie kann im Allegemeinen (ohne den Einsatz von Ohrhöreren) von allen sich im Umfeld des Interfaces befindlichen Personen wahrgenommen werden. Bei codierter Ausgabe muss darauf geachtet werden, das die Interpretation der Signale bekannt ist bzw. durch unterstützende (visuelle oder taktile) Maßnahmen erschließbar wird.
+Akustische Ausgabe ist allen ihren Ausprägungen der Embodiment-Dimension „environment“ zuzuordnen. Sie kann im Allegemeinen (ohne den Einsatz von Ohrhörern) von allen sich im Umfeld des Interfaces befindlichen Personen wahrgenommen werden. Bei codierter Ausgabe muss darauf geachtet werden, das die Interpretation der Signale bekannt ist bzw. durch unterstützende (visuelle oder taktile) Maßnahmen erschließbar wird.
 
 % subsubsection tokens_mit_aktuatoren (end)
 
@@ -124,9 +124,9 @@ Auf Basis der in Abschnitt \ref{sec:auszugebende_information} festgelegten auszu
 
 Für die im Kontext der eigentlichen Modellierung auszugebenden Information (Benennungen, \ldots) erscheint ein kohärenter Ansatz am geeignetsten, da die Information inhärenter Bestandteil des Modells ist und deshalb räumlich mit den physischen Elementteilen (den Tokens) in eine einheitliche Modellsicht integriert werden sollte. Mit der bereits in Kapitel \ref{cha:input_&_interpretation} aurgumentierten Entscheidung für passive Tokens ist die Projektion der Information auf die Tischoberfläche der einzig naheliegende Ansatz. Dabei wird im Sinne der kompakteren Bauweise und der nicht vorhandenene Einschränkung bezüglich Verdeckungen der Projektion durch modellierende Personen ein Lösungsansatz mit Projektion auf die Unterseite bevorzugt. Die kompaktere Bauweise ergibt sich aus der Tatsache, dass der Innenraum des Tisches ohnehin bereits für die Erfassung der Tokens durch die Kamera genutzt wird und dass bei gleichzeitiger Nutzung für die Projektion ein Auf- bzw. Überbau des Tisches zur Aufnahme des Projektors entfällt.
 
-Die Ausgabe vergangener Modellzustände erscheint mit den gegebenen technologischen Rahmenbedingungen hingegen nicht für kohärente Ausgabe geeignet. Passive Tokens können ihre Position nicht selbständig verändern, weshalb die auf der Tischoberfläche vorhandenen Modellierungstokens immer an den Positionen liegen, an denen sie sich im aktuelleń Modellzustand befinden. Eine kohärente Ausgabe von vergangenen Modellzuständen auf der gleichen Oberfläche ist deswegen nicht möglich -- es käme zu Überdeckungen der physischen und projizierten Modelldarstellungen. Aus diesem Grund wird Zweck ein zweiter Ausgabekanal verwendet, der diese Modellierungshistorie nicht kohärent darstellt. Akustische Ansätze erscheinen ob der Komplexität der Modelle und deren inhärent visuell-diagrammatischen Darstellung im Gegensatz zu visuellen Ansätzen als ungeeignet. Zu diesem Zweck wird also ein Bildschirm- oder Projektions-basierter Ausgabekanal implementiert. Dies hat auch den Vorteil, dass ins Modell zu integrierende digitale Ressourcen in ihrer "natürlichen" Umgebung, dem Bildschirm eines Rechners manipuliert und ausgewählt werden können. Letzendlich lässt sich ein derartiger Ausgabekanal beliebig replizieren und auch für entfernte Ausgabe des Modellzustandes nutzen.
+Die Ausgabe vergangener Modellzustände erscheint mit den gegebenen technologischen Rahmenbedingungen hingegen nicht für kohärente Ausgabe geeignet. Passive Tokens können ihre Position nicht selbständig verändern, weshalb die auf der Tischoberfläche vorhandenen Modellierungstokens immer an den Positionen liegen, an denen sie sich im aktuelleń Modellzustand befinden. Eine kohärente Ausgabe von vergangenen Modellzuständen auf der gleichen Oberfläche ist deswegen nicht möglich -- es käme zu Überdeckungen der physischen und projizierten Modelldarstellungen. Aus diesem Grund wird Zweck ein zweiter Ausgabekanal verwendet, der diese Modellierungshistorie nicht kohärent darstellt. Akustische Ansätze erscheinen ob der Komplexität der Modelle und deren inhärent visuell-diagrammatischen Darstellung im Gegensatz zu visuellen Ansätzen als ungeeignet. Zu diesem Zweck wird also ein Bildschirm- oder Projektions-basierter Ausgabekanal implementiert. Dies hat auch den Vorteil, dass ins Modell zu integrierende digitale Ressourcen in ihrer „natürlichen“ Umgebung, dem Bildschirm eines Rechners manipuliert und ausgewählt werden können. Letzendlich lässt sich ein derartiger Ausgabekanal beliebig replizieren und auch für entfernte Ausgabe des Modellzustandes nutzen.
 
-Konkret werden für das vorgestellte System also zwei Ausgabekanäle genutzt, die beide auf der visuellen Darstellung von Information basieren und sich in ihrer Ausprägung der "Embodiment"-Dimension nach \citep{Fishkin04} unterschieden. Der hauptsächliche Ausgabekanal ist die Tischoberfläche, auf ihr wird Information "nearby" ausgegeben. Für Funktionen, für die diese kohärente Ausgabeform nicht adäquat einsetzbar ist, existiert ein zweiter, "distant" Ausgabekanal in Form eines Bildschirms oder eines externen Projektors. Dieser Kanal kann in zwei Modi betrieben werden. Wird er nicht benötigt, kann er entweder deaktiviert werden (und so den Fokus auf den primären Ausgabekanal, die Tischoberfläche, lenken) oder synchron mit der Tischoberfläche den aktuellen Modellzustand anzeigen. Zweiteres ist sinnvoll, wenn der Modellierungsprozess auch von Personen verfolgt werden können soll, die sich nicht unmittelbar bei der Modellieruungsoberfläche befinden. 
+Konkret werden für das vorgestellte System also zwei Ausgabekanäle genutzt, die beide auf der visuellen Darstellung von Information basieren und sich in ihrer Ausprägung der „Embodiment“-Dimension nach \citep{Fishkin04} unterschieden. Der hauptsächliche Ausgabekanal ist die Tischoberfläche, auf ihr wird Information „nearby“ ausgegeben. Für Funktionen, für die diese kohärente Ausgabeform nicht adäquat einsetzbar ist, existiert ein zweiter, „distant“ Ausgabekanal in Form eines Bildschirms oder eines externen Projektors. Dieser Kanal kann in zwei Modi betrieben werden. Wird er nicht benötigt, kann er entweder deaktiviert werden (und so den Fokus auf den primären Ausgabekanal, die Tischoberfläche, lenken) oder synchron mit der Tischoberfläche den aktuellen Modellzustand anzeigen. Zweiteres ist sinnvoll, wenn der Modellierungsprozess auch von Personen verfolgt werden können soll, die sich nicht unmittelbar bei der Modellieruungsoberfläche befinden. 
 
 Hardwareseitig ergibt sich aus dieser Entscheidung der in Abbildung \ref{fig:img_ImplementierungInput_TischSeitenansichtOutput} dargestellte Aufbau. Dabei kann der in der Standardkonfiguration vorhandene Bildschirm als Ausgabekanal je nach den räumlichen Gegebenheiten und dem konkreten Anwendungsszenario durch einen Projektor ersetzt werden.
 
@@ -236,15 +236,19 @@ Um im Folgenden auf die Details der Implementierung eingehen zu können, muss an
 \subsubsection{Information zu Modellelementen} % (fold)
 \label{ssub:information_zu_modellelemeenten}
 
-Information, die im Zusammenhang mit einzelnen Modellelementen ausgegeben wird, wird unmittelbar auf der Modellierungsoberfläche, also am primären Ausgabekanal, dargestellt. Wenn der sekundäre Ausgabekanal für synchrone Modelldarstellung konfiguriert ist oder entfernte Modellbetrachter eingesetzt werden, so wird diese Information auch auf diesen dargestellt, wobei die Ausgabe auf diesen identisch ist (dies gilt auch in den weiteren Abschnitten). Dabei wird das Modellelemtent selbst graphisch repräsentiert, um eine Zuordnung der Information zu ermöglichen. Auf der Tischoberfläche ist eine dezidierte Darstellung des Modellelements nicht notwendig, das dieses durch die kohärente Eingabe ohnedies durch das entsprechende Modellierungstoken dargestellt wird.
+Information, die im Zusammenhang mit einzelnen Modellelementen ausgegeben wird, wird unmittelbar auf der Modellierungsoberfläche, also am primären Ausgabekanal, dargestellt. Wenn der sekundäre Ausgabekanal für synchrone Modelldarstellung konfiguriert ist oder entfernte Modellbetrachter eingesetzt werden, so wird diese Information auch auf diesen dargestellt, wobei die Ausgabe auf diesen identisch ist (dies gilt auch in den weiteren Abschnitten). Dabei wird das Modellelement selbst graphisch repräsentiert, um eine Zuordnung der Information zu ermöglichen. Auf der Tischoberfläche ist eine dezidierte Darstellung des Modellelements nicht notwendig, das dieses durch die kohärente Eingabe ohnedies durch das entsprechende Modellierungstoken dargestellt wird (siehe Abbildung \ref{fig:img_SystemNeu_Token})
 
--- Bild eines Tokens mit projizierter Information
-
--- Screenshot des gleichen Modellierungselements am Bildschirm
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=5cm]{img/SystemNeu/TokenTisch.jpg}
+		\includegraphics[width=5cm]{img/SystemNeu/TokenScreen.png}
+	\caption[Darstellung von Modellelementen]{\centering Darstellung von Modellelementen \par \centering (links: Tischoberfläche, rechts: Bildschirm)}
+	\label{fig:img_SystemNeu_Token}
+\end{figure}
 
 In der aktuellen Implementierung wird an Information lediglich die Bezeichnung des Tokens auf beiden Ausgabekanälen explizit ausgegeben. Der Typ des Tokens ist in der Farb- und Formgebung codiert.  Auf dem sekundären Ausgabekanal ist sind die Elemente in der graphischen Darstellung den physischen Elementen nachempfunden und bilden deren Farbe und Grundriss ab.
 
-Ebenfalls nur auf der sekundären Oberfläche explizit auszugeben ist die Information hinsichtlich der aktuellen Rotation eines Modellierungstokens. Auf der Oberfläche ist diese am pyhsischen Token erkennbar bzw. wird durch diese festgelegt. In der graphischen Repräsentation am sekundären Ausgabekanal muss diese Rotation ebenfalls abgebildet und nachgeführt werden.
+Ebenfalls nur auf der sekundären Oberfläche explizit auszugeben ist die Information hinsichtlich der aktuellen Rotation eines Modellierungstokens. Auf der Oberfläche ist diese am physischen Token erkennbar bzw. wird durch diese festgelegt. In der graphischen Repräsentation am sekundären Ausgabekanal muss diese Rotation ebenfalls abgebildet und nachgeführt werden.
 
 % subsubsection information_zu_modellelementen (end)
 
@@ -253,9 +257,22 @@ Ebenfalls nur auf der sekundären Oberfläche explizit auszugeben ist die Inform
 
 Da Verbinder nicht physisch existieren sondern immer über die Ausgabekanäle dargestellt werden müssen, gelten die nun folgenden Ausführungen für beide Ausgabekanäle. Wird ein Verbinder hergestellt, so kann neben den beiden Endpunkten (Modellelementen) auch noch die Richtung des Verbinders sowie eine Bezeichnung festgelegt werden.
 
--- screenshots und bilder
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/SystemNeu/VerbindungTisch.jpg}
+		\includegraphics[height=2in]{img/SystemNeu/VerbindungScreen.png}
+	\caption[Darstellung von Verbindern]{\centering Darstellung von Verbindern \par \centering (oben Tischoberfläche, unten Bildschirm)}
+	\label{fig:img_SystemNeu_Verbinder}
+\end{figure}
 
-Ein Verbinder wird auf den Ausgabekanälen als Linie dargestellt die zwei Modellierungstokens bzw. deren graphische Repräsentation verbindet. Die Richtung des Verbinders wird über Pfeilspitzen angegeben, die an den Enden der Linien angebracht werden. Dabei können diese Pfeilspitzen fehlen (ungerichteter Verbinder), an einem Ende angebracht werden (gerichteter Verbinder) oder an beiden Enden dargestellt werden (bidirektionaler Verbinder). Die Ausgabe der Benennung eines Verbinders erfolgt -- sofern vorhanden -- zentriert auf halbem Weg zwischen den verbundenen Modellelementen unterhalb der Linie. 
+Ein Verbinder wird auf den Ausgabekanälen als Linie dargestellt die zwei Modellierungstokens bzw. deren graphische Repräsentation verbindet (siehe Abbildung \ref{fig:img_SystemNeu_Verbinder}). Die Richtung des Verbinders wird über Pfeilspitzen angegeben, die an den Enden der Linien angebracht werden (siehe Abbildung \ref{fig:img_SystemNeu_VerbindungGerichtetTisch}). Dabei können diese Pfeilspitzen fehlen (ungerichteter Verbinder), an einem Ende angebracht werden (gerichteter Verbinder) oder an beiden Enden dargestellt werden (bidirektionaler Verbinder). Die Ausgabe der Benennung eines Verbinders erfolgt -- sofern vorhanden -- zentriert auf halbem Weg zwischen den verbundenen Modellelementen unterhalb der Linie. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/SystemNeu/VerbindungGerichtetTisch.jpg}
+	\caption{Darstellung gerichteter Verbinder}
+	\label{fig:img_SystemNeu_VerbindungGerichtetTisch}
+\end{figure}
 
 % subsubsection information_zu_verbindern (end)
 
@@ -270,9 +287,15 @@ Im Kontext der Ausgabe von Information zu eingebetteten Elementen müssen unters
  \item Information, welche an eingebettete Elemente gebunden ist
 \end{itemize}
 
-Der Öffnungszustand von Modellelementen ist auf der Tischoberfläche durch den Zustand des jeweiligen Containertokens ersichtlich. Auch die Art und Anzahl der eingebetteten Elemente ist sichtbar, wenn ein Containertoken geöffnet ist. Am sekundären Ausgabekanal, also auf dem Bildschirm wird ein geöffnetes Modellelement vergrößert dargestellt, um innerhalb der Fläche des Elements visuelle Repräsentationen der eingebetteten Elemente einblenden zu können. Somit ist auch am sekundären Ausgabekanal erkennbar, wann bzw. dass ein Element geöffnet ist. 
+Der Öffnungszustand von Modellelementen ist auf der Tischoberfläche durch den Zustand des jeweiligen Containertokens ersichtlich. Auch die Art und Anzahl der eingebetteten Elemente ist sichtbar, wenn ein Containertoken geöffnet ist. Am sekundären Ausgabekanal, also auf dem Bildschirm wird ein geöffnetes Modellelement vergrößert dargestellt, um innerhalb der Fläche des Elements visuelle Repräsentationen der eingebetteten Elemente einblenden zu können. Somit ist auch am sekundären Ausgabekanal erkennbar, wann bzw. dass ein Element geöffnet ist (siehe Abbildung \ref{fig:img_SystemNeu_Container}). 
 
--- screenshots und bilder
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/SystemNeu/Container3EinbettungenTisch.jpg}
+		\includegraphics[height=2in]{img/SystemNeu/Container3EinbettungenScreen.png}
+	\caption[Darstellung von Containern und eingebetteten Elementen]{\centering Darstellung von Containern und eingebetteten Elementen \par \centering (links Tischoberfläche, rechts Bildschirm)}
+	\label{fig:img_SystemNeu_Container}
+\end{figure}
 
 Jene Information, die an die eingebetteten Elemente gebunden ist, wird auf beiden Kanälen nicht ohne explizite Benutzerinteraktion dargestellt. Fordern die Benutzer auf einem Eingabekanal die Darstellung der eingebetteten Information an, so wird diese auf dem sekundären, nicht kohärenten Ausgabekanal dargestellt. Eine Darstellung der angebundenen Information auf der Tischoberfläche würde mit den physisch vorhanden Modellelementen interferieren. Die eingebetteten Submodelle bzw. die sonstigen digitalen Ressourcen werden also auf dem Bildschirm dargestellt, wobei Submodelle den aktuellen Modellzustand temporär ersetzen und andere Ressourcen mittels der im Betriebssystem definierten Standardapplikation geöffnet werden. 
 % subsection ausgabe_von_information_zum_modell (end)
@@ -291,7 +314,14 @@ Bei der Verwendung der die Modellierung unterstützenden Werkzeuge muss den Benu
 
 Wird mittels dem Markierungstoken ein Element ausgewählt, so müssen die Benutzer über die Erkennung der Markierung benachrichtigt werden. Dabei muss erkenntlich sein, welches Element ausgewählt wurde und wie lange die Auswahl gültig ist. Die Auswahl eines Elements ist grundsätzlich ein Ereignis, ist jedoch immer Teil einer umfassenderen Interaktion, in der die Benutzer das ausgewählte Element verwenden (z.B. dieses benennen). Deswegen wirkt das Markierungsereignis einige Sekunden nach, um den Benutzern die Gelegenheit zur Fortsetzung des Interaktionsablaufs zu geben. Eine permanente Markierung eines ausgewählten Elements ist insofern nicht wünschenswert, als dass etwaige fehlerhafte Markierungen (durch Fehlauswahl oder Fehlerkennung) dann zusätzlicher Benutzerinteraktion zur Korrektur bedürften. Deswegen werden Markierungen als Ereignisse mit längerer Wirkungsdauer interpretiert.
 
-Die Anzeige der Auswahl erfolgt auf beiden Ausgabekanälen mittels einer ovalen Markierung, die das ausgewählte Element umschließt. Diese wird solange angezeigt, bis die Interaktion, der sie zuzuordnen ist, abgeschlossen ist oder die Gültigkeitsdauer abgelaufen ist. Danach verschwindet sie selbständig ohne weiter Benutzerinteraktion.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/SystemNeu/MarkierungTisch.jpg}
+	\caption{Markierung von Modellelementen}
+	\label{fig:img_SystemNeu_MarkierungTisch}
+\end{figure}
+
+Die Anzeige der Auswahl erfolgt auf beiden Ausgabekanälen mittels einer ovalen Markierung, die das ausgewählte Element umschließt (siehe Abbildung \ref{fig:img_SystemNeu_MarkierungTisch}). Diese wird solange angezeigt, bis die Interaktion, der sie zuzuordnen ist, abgeschlossen ist oder die Gültigkeitsdauer abgelaufen ist. Danach verschwindet sie selbständig ohne weiter Benutzerinteraktion.
 
 \paragraph{Verbindungsherstellung}
 
@@ -301,7 +331,7 @@ Werden zwei Elemente durch ihre räumliche Nähe zueinander in Beziehung gesetzt
 
 \paragraph{explizite Snapshots}
 
-Im Zusammenhang mit der Speicherung der Modellierungshistorie (also der über die Zeit veränderten Modellzustände) ist es möglich, neben der automatischen Speicherung auch explizit der Aufnahme eines Snapshots auszulösen. Während bei der automatischen Speicherung kein Feedback an die Benutzer gegeben wird (da auch keine Interaktion zum Auslösen derselben stattfindet), wird im Falle einer expliziten Speicherung den Benutzern die erfolgreiche Durchführung der Aktion rückgemeldet. Die Speicherung des Snapshots ist ein Ereignis ohne zeitliche Ausdehnung und wird dementsprechend visualisert. Dies erfolgt in Form eines roten Blitzes, der sowohl über die Tischoberfläche als auch den Bildschirm ausgegeben wird. Die Verwendung der gespeicherten Modellzustände und deren Visualisierung wird in Abschnitt \ref{ssub:wiederherstellungsunterstützung} im Detail behandelt.
+Im Zusammenhang mit der Speicherung der Modellierungshistorie (also der über die Zeit veränderten Modellzustände) ist es möglich, neben der automatischen Speicherung auch explizit der Aufnahme eines Snapshots auszulösen. Während bei der automatischen Speicherung kein Feedback an die Benutzer gegeben wird (da auch keine Interaktion zum Auslösen derselben stattfindet), wird im Falle einer expliziten Speicherung den Benutzern die erfolgreiche Durchführung der Aktion rückgemeldet. Die Speicherung des Snapshots ist ein Ereignis ohne zeitliche Ausdehnung und wird dementsprechend visualisert. Dies erfolgt in Form eines roten Blitzes, der sowohl über die Tischoberfläche als auch den Bildschirm ausgegeben wird. Die Verwendung der gespeicherten Modellzustände und deren Visualisierung wird in Abschnitt \ref{ssub:abruf_der_modellierungshistorie} im Detail behandelt.
 
 \paragraph{Löschmodus}
 
@@ -309,8 +339,26 @@ Im Gegensatz den in den vorangegangenen Abschnitten behandelten Werkzeugen löst
 
 % subsubsection zustandsmeldungen (end)
 
+\subsubsection{Abruf der Modellierungshistorie} % (fold)
+\label{ssub:abruf_der_modellierungshistorie}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/SystemNeu/HistoryScreen.png}
+	\caption{Darstellung der Modellierungshistorie}
+	\label{fig:img_SystemNeu_HistoryScreen}
+\end{figure}
+
+% subsubsection abruf_der_modellierungshistorie (end)
 \subsubsection{Wiederherstellungsunterstützung} % (fold)
 \label{ssub:wiederherstellungsunterstützung}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/SystemNeu/WiederherstellungTisch.jpg}
+	\caption{Unterstützung der Wiederherstellung von Modellzuständen}
+	\label{fig:img_SystemNeu_WiederherstellungTisch}
+\end{figure}
 
 % subsubsection wiederherstellungsunterstützung (end)
 % subsection ausgabe_zur_kontrolle_des_systems (end)
@@ -328,9 +376,9 @@ Bildschirm und Projektor
 \subsubsection{Kalibrierung der Ausgabe} % (fold)
 \label{ssub:kalibrierung_der_ausgabe}
 
-Der Projektor, der die Information auf die Tischoberfläche projeziert, ist aus Gründen der Transportierbarkeit nicht fix im Boden des Tisches eingebaut. Deswegen ist nach dem Aufbau der Systems im Allgemeinen die projizierte Version des Modells nicht deckungsgleich mit der Position der physischen Tokens. Es kann eine Verschiebung entlang beider Achsen auftreten, die alle zu den physichen Tokens ausgegebene Information von diesne absetzt. Dadurch kann die Information unter Umständen nicht mehr eindeutig zugeordnet werden.
+Der Projektor, der die Information auf die Tischoberfläche projiziert, ist aus Gründen der Transportierbarkeit nicht fix im Boden des Tisches eingebaut. Deswegen ist nach dem Aufbau der Systems im Allgemeinen die projizierte Version des Modells nicht deckungsgleich mit der Position der physischen Tokens. Es kann eine Verschiebung entlang beider Achsen auftreten, die alle zu den physischen Tokens ausgegebene Information von diesen absetzt. Dadurch kann die Information unter Umständen nicht mehr eindeutig zugeordnet werden.
 
-Aus diesem Grund ist die Position der projizierten Modellversion einstellbar, die Kalibirierung muss einmalig nach dem Aufbau des Werkzeugs vorgenommen werden. Aufgrund der Verwendung des Umlenkspiegels kann es nicht nur zu einer Verschiebung der Information auf der X- oder Y-Achse kommen, es können auch Spreizungen oder Stauchungen auftreten, welche den Projektions-Fehler von links nach rechts bzw. von oben nach unten zunehmen lassen. Auch diese Spreizugnen oder Stauchungen sind softwareseitig im Rahmen der Kalibirerung korrigierbar. 
+Aus diesem Grund ist die Position der projizierten Modellversion einstellbar, die Kalibrierung muss einmalig nach dem Aufbau des Werkzeugs vorgenommen werden. Aufgrund der Verwendung des Umlenkspiegels kann es nicht nur zu einer Verschiebung der Information auf der X- oder Y-Achse kommen, es können auch Spreizungen oder Stauchungen auftreten, welche den Projektions-Fehler von links nach rechts bzw. von oben nach unten zunehmen lassen. Auch diese Spreizungen oder Stauchungen sind softwareseitig im Rahmen der Kalibrierung korrigierbar. 
 
 % subsubsection kalibrierung_der_ausgabe (end)
 

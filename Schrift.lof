@@ -1,45 +1,33 @@
-\contentsline {xpart}{Grundlagen}{3}{part.1}
+\contentsline {xpart}{Unterstützung}{3}{part.1}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Articulation Work}{3}{chapter.1}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Struktur von Arbeitsabläufen}}{4}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Konzeptualisierung von „Arbeit“ nach \citep {Strauss85} und \citep {Fujimura87}}}{5}{figure.1.2}
+\contentsline {xchapter}{Input und Interpretation}{3}{chapter.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Architektur des TUIpist-Framework}}{15}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Zusammenspiel der Komponenten in TUIpist}}{16}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces AR Toolkit Marker}}{17}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Visual Codes -- Aufbau und Features}}{18}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ReacTIVision Code}}{19}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Eingabekomponenten}}{27}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces An Tokens angebrachte ReacTIVision-Codes zur Identifikation}}{28}{figure.1.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Arten von Modellierungstokens}}{29}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Rückwand von Container Tokens}}{29}{figure.1.9}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Geöffnetes Container Token}}{30}{figure.1.10}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Modellelemente -- Taxonomie}}{31}{figure.1.11}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Einbettbare Tokens}}{32}{figure.1.12}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Markierung-Token}}{33}{figure.1.13}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Lösch-Token}}{34}{figure.1.14}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Registrierungstoken}}{35}{figure.1.15}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Snapshot-Token}}{36}{figure.1.16}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces History-Token}}{37}{figure.1.17}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Softwarearchitektur zur Erkennung von Benutzerinteraktion}}{50}{figure.1.18}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Mentale Modelle}{11}{chapter.2}
-\contentsline {xpart}{Unterstützung}{15}{part.2}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Grundlagen der Implementierung}{15}{chapter.3}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Input und Interpretation}{19}{chapter.4}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Architektur des TUIpist-Framework \citep {Furtmuller07a}}}{31}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Zusammenspiel der Komponenten in TUIpist \citep {Furtmuller07a}}}{32}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces AR Toolkit Marker (Quelle: www.hitl.washington.edu/artoolkit/)}}{33}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Visual Codes -- Aufbau und Features (übernommen von \citet {Rohs04})}}{34}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces ReacTIVision Code}}{35}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Eingabekomponenten}}{43}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces An Tokens angebrachte ReacTIVision-Codes zur Identifikation}}{44}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Arten von Modellierungstokens}}{45}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Rückwand von Container Tokens}}{45}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Geöffnetes Container Token}}{46}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Modellelemente -- Taxonomie}}{47}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Softwarearchitektur zur Erkennung von Benutzerinteraktion}}{64}{figure.4.12}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Ausgabe}{83}{chapter.5}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Ausgabekomponenten}}{92}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Softwarearchitektur zur Verwaltung der Ausgabekanäle}}{97}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Zusammenhänge der Klassen zur Ausgabebehandlung}}{98}{figure.5.3}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Persistierung}{103}{chapter.6}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Grundlegende Elemente einer Topic Map}}{104}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Umfassende Darstellung der Elemente einer Topic Map}}{106}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Abgrenzung zwischen Subject und Occurrence in Topic Maps}}{107}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Benennung von Topics}}{108}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Beziehungen in der Metamodellbildung in Topic Maps}}{111}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Abbildung von Gültigkeitsbereichen durch Scopes}}{114}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Abbildung von Modellinformation in Topic Maps}}{116}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Definition des Meta-Models (ohne Kardinalitäten)}}{119}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Einbindung des Meta-Meta-Modells}}{121}{figure.6.9}
-\contentsline {xpart}{Evaluierung}{127}{part.3}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Untersuchungsdesign}{127}{chapter.7}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Untersuchungsergebnisse}{131}{chapter.8}
+\contentsline {xchapter}{Ausgabe}{69}{chapter.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Ausgabekomponenten}}{78}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Softwarearchitektur zur Verwaltung der Ausgabekanäle}}{83}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Zusammenhänge der Klassen zur Ausgabebehandlung}}{84}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Darstellung von Modellelementen}}{85}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Darstellung von Verbindern}}{86}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Darstellung gerichteter Verbinder}}{87}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Darstellung von Containern und eingebetteten Elementen}}{88}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Markierung von Modellelementen}}{89}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Darstellung der Modellierungshistorie}}{91}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Unterstützung der Wiederherstellung von Modellzuständen}}{91}{figure.2.10}

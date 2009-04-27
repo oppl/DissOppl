@@ -1,21 +1,7 @@
-\contentsline {xpart}{Grundlagen}{3}{part.1}
+\contentsline {xpart}{Unterstützung}{3}{part.1}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Articulation Work}{3}{chapter.1}
+\contentsline {xchapter}{Input und Interpretation}{3}{chapter.1}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Gegenüberstellung der Frameworks für video-basierten Input}}{22}{table.1.1}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Gegenüberstellung der generischen Frameworks}}{25}{table.1.2}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Mentale Modelle}{11}{chapter.2}
-\contentsline {xpart}{Unterstützung}{15}{part.2}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Grundlagen der Implementierung}{15}{chapter.3}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Input und Interpretation}{19}{chapter.4}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Gegenüberstellung der Frameworks für video-basierten Input}}{38}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Gegenüberstellung der generischen Frameworks}}{41}{table.4.2}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Ausgabe}{83}{chapter.5}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Persistierung}{103}{chapter.6}
-\contentsline {xpart}{Evaluierung}{127}{part.3}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Untersuchungsdesign}{127}{chapter.7}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Untersuchungsergebnisse}{131}{chapter.8}
+\contentsline {xchapter}{Ausgabe}{69}{chapter.2}
