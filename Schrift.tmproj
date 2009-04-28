@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ImplementierungOutput.tex</string>
+	<string>ImplementierungPersistence.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -32,7 +32,7 @@
 			<key>filename</key>
 			<string>Werkzeug.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-27T08:23:13Z</date>
+			<date>2009-04-28T08:02:48Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -44,19 +44,21 @@
 			<key>filename</key>
 			<string>ImplementierungOutput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-27T09:19:56Z</date>
+			<date>2009-04-28T08:02:43Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-27T09:19:56Z</date>
+			<date>2009-04-28T08:01:50Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ImplementierungPersistence.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-14T20:38:41Z</date>
+			<date>2009-04-28T08:02:48Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -68,7 +70,7 @@
 			<key>filename</key>
 			<string>AnhangBildquellen.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-27T08:26:39Z</date>
+			<date>2009-04-27T22:24:47Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -109,20 +111,6 @@
 			<key>firstVisibleLine</key>
 			<integer>24</integer>
 		</dict>
-		<key>AnhangBildquellen.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>107</integer>
-				<key>line</key>
-				<integer>9</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>ImplementierungInput.tex</key>
 		<dict>
 			<key>caret</key>
@@ -133,7 +121,7 @@
 				<integer>479</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>531</integer>
+			<integer>411</integer>
 			<key>firstVisibleLine</key>
 			<integer>435</integer>
 		</dict>
@@ -142,14 +130,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>945</integer>
 				<key>line</key>
-				<integer>343</integer>
+				<integer>391</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>706</integer>
+			<integer>841</integer>
 			<key>firstVisibleLine</key>
-			<integer>333</integer>
+			<integer>382</integer>
+		</dict>
+		<key>ImplementierungPersistence.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>288</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>270</integer>
 		</dict>
 		<key>MentaleModelle.tex</key>
 		<dict>
@@ -199,8 +201,8 @@
 		<string>ImplementierungOutput.tex</string>
 		<string>Acronyme.tex</string>
 		<string>Werkzeug.tex</string>
+		<string>ImplementierungPersistence.tex</string>
 		<string>ImplementierungInput.tex</string>
-		<string>AnhangBildquellen.tex</string>
 		<string>Schrift.tex</string>
 	</array>
 	<key>shellVariables</key>
@@ -233,6 +235,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{14, 132}, {1070, 746}}</string>
+	<string>{{10, 132}, {1070, 746}}</string>
 </dict>
 </plist>

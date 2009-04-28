@@ -26,10 +26,10 @@ order=-1
 
 [item:Acronyme.tex]
 archive=true
-column=30
+column=24
 encoding=UTF-8
 highlight=LaTeX
-line=26
+line=78
 open=true
 order=1
 
@@ -75,26 +75,26 @@ column=0
 encoding=UTF-8
 highlight=LaTeX
 line=835
-open=true
+open=false
 order=2
 
 [item:ImplementierungOutput.tex]
 archive=true
-column=33
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=314
+line=401
 open=true
-order=0
+order=2
 
 [item:ImplementierungPersistence.tex]
 archive=true
-column=1
+column=696
 encoding=UTF-8
 highlight=LaTeX
-line=257
-open=false
-order=1
+line=307
+open=true
+order=0
 
 [item:ImplementierungUeberblick.tex]
 archive=true
@@ -116,7 +116,7 @@ order=0
 
 [item:Schrift.tex]
 archive=true
-column=11
+column=0
 encoding=UTF-8
 highlight=LaTeX
 line=177
