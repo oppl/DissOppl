@@ -218,14 +218,6 @@ Grundsätzlich wird die Architektur der Ausgabekanal-Verwaltung erweiterbar ange
 
 Durch die flexible Architekur von JHotDraw ist es möglich, unterschiedliche Ausgabekanäle mit der gleichen Codebasis durch den Einsatz verschiedener Basisklassen als vollständig eigenständige Applikation auszuführen oder als Applet in Webbrowsern zu starten (siehe Abbildung \ref{fig:img_ImplementierungOutput_OutputClasses}). Auf diese Weise ist es möglich, die einmal implementierte Visualisierung des Modellzustandes für die lokalen Ausgabekanäle sowie für entfernte Betrachter zu verwenden, die alle über die gleiche Schnittstelle synchron mit Information versorgt werden.
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=13cm]{img/ImplementierungOutput/OutputClasses.png}
-	\caption{Zusammenhänge der Klassen zur Ausgabebehandlung}
-	\label{fig:img_ImplementierungOutput_OutputClasses}
-\end{figure}
-
-Die beiden lokalen Ausgabekanäle basieren wie bereits erwähnt auf einer einheitlichen Codebasis, die sich aufgrund der unterschiedlichen Anforderung jedoch in Detail der Darstellung unterscheidet. So müssen auf dem bildschirmbasierten Ausgabekanal unter anderem die Modellelemente graphisch dargestellt werden, wohingegen diese auf der Tischoberfläche in Form der physischen Modellierungstokens bereits vorhanden sind. Beiden Kanälen einheitlich ist hingegen zum Beispiel die Behandlung der Verbinder, die hier wie dort dargestellt werden müssen. Durch das nur partiell unterschiedliche Verhalten der beiden Ausgabekanäle ist es möglich, diese von einer gemeinsamen Basisklasse abzuleiten und die Spezifika in Subklassen zu imlementieren. Dies reduziert auch den Wartungsaufwand der Codebasis und vermindert die Gefahr von Inkonsistenzen.  
 % subsection architekur (end)
 
 \subsection{Ausgabe von Information zum Modell} % (fold)
@@ -388,6 +380,21 @@ Sobald sich die Positionen der Tokens mit jenen des gespeicherten Modellzustande
 \section{Umsetzung der Ausgabe mit Software} % (fold)
 \label{sec:umsetzung_der_ausgabe_mit_software}
 
+Wie in Abschnitt \ref{sub:ausgabe_konzept} bereits beschrieben, basiert die Implementierung des Ausgabekanäle auf dem JHotDraw-Framework. Die Implementierung erfolgt dabei wieder in Modulen, die die Art und Anzahl der Ausgabekanäle flexibel erweiterbar macht. Die Ähnlichkeiten der Anforderungen, die sich im Detail zwar durchaus unterscheiden, im Allgemeinen aber stark ähneln, legt die Verwendung einer gemeinsamen Basisklasse nahe, die die verallgemeinerbaren Aufgaben bereits implementiert und von der die konkreten Implementierungen der Ausgabekanäle abgeleitet werden. So müssen auf dem bildschirmbasierten Ausgabekanal unter anderem die Modellelemente graphisch dargestellt werden, wohingegen diese auf der Tischoberfläche in Form der physischen Modellierungstokens bereits vorhanden sind. Beiden Kanälen einheitlich ist hingegen zum Beispiel die Behandlung der Verbinder, die hier wie dort dargestellt werden müssen. Durch das nur partiell unterschiedliche Verhalten der beiden Ausgabekanäle ist es möglich, diese von einer gemeinsamen Basisklasse abzuleiten und die Spezifika in Subklassen zu imlementieren. Dies reduziert auch den Wartungsaufwand der Codebasis und vermindert die Gefahr von Inkonsistenzen. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=13cm]{img/ImplementierungOutput/OutputClasses.png}
+	\caption{Zusammenhänge der Klassen zur Ausgabebehandlung}
+	\label{fig:img_ImplementierungOutput_OutputClasses}
+\end{figure}
+
+Konkret wurde die Architektur wie in \ref{fig:img_ImplementierungOutput_OutputClasses} dargestellt auf Klassen abgebildet. Zentrale Schnittstelle zu den informationsliefernden Modulen ist das Interface \texttt{DispatcherListener}, dass eine Reihe von Methoden definiert, die Ausgabekanäle implementieren müssen, falls sie an die Informationeingabe- und -interpretations-Infrastruktur angebunden werden sollen. Das Interface ist allgemein einsetzbar, kann also auch durch Ausgabekanäle anderer technologischer Ansätze implementiert werden. Als zentrales Element implementiert die Klasse zur Ausgabe von Information auf dem sekundären Ausgabekanal (dem Bildschirm) dieses Interface. Diese Klasse wurde deswegen als zentraler Knotenpunkt gewählt, weil sie im Vergleich mit den anderen Ausgabekanälen den größten Anteil an durch sie ausgegebenen Information besitzt. Die Klasse zur Ausgabe von Information auf der Tischoberfläche implementiert ledigklich ein Subset an Visualisierungs-Methoden (so müssen z.B. die Elemente selbst nicht ausgegeben werden). Diese Klasse wird deshalb von jener zur Bedienung des sekundären Ausgabekanals abgeleitet, die nicht benötigten Methoden werden mit leeren Methoden überschrieben. Die zur Ausgabe benötigten Methoden werden unverändert übernommen, unterschiedliche Darstellungsformen (etwa die Stichstärke bei Verbindungen) werden durch Parametrisierung der Datenklassen realisiert, die die darzustellende Information kapseln.
+
+Beide lokale Ausgabekanäle betten die eigentliche Visualisierungs-Klasse in einen JHotDraw-Rahmen ein, der die Applikationsinfrastruktur zur Verfügung stellt. In diesem Fall ist dies die Klasse \texttt{DrawApplication}, die eine direkt ausführbare Java-Applikation erzeugt. Die Einbindung der eigentlichen Ausgabekanäle erfolgt über die Klasse \texttt{DrawingView}, die als Basisklasse für die die Ausgabekanäle bedienenden Klassen fungiert. Zur Anzeige auf der Tischoberfläche wird die JHotDraw-Applikation in den Vollbild-Modus geschalten und mit schwarzem Hintergrund versehen. Auf der Tischoberfläche ist dadurch keine Projektion zu erkennen, wenn sich keine Modellelmente auf ihr befinden. Die Anzeige am sekundären Ausgabekanal erfolgt in einem regulären Fenster.
+
+Die Ausgabe auf entfernten (visuellen) Kanälen basiert ebenfalls auf der Klasse, die den sekundären Ausgabekanal bedient. Tatsächlich ist die Form der Visualisierung identisch mit einem mit synchroner Darstellung betriebenen sekundären Ausgabekanal. Die Implementierung von entfernten Kanälen unterscheidet sich ausschließlich in der Übermittlung der darzustellenden Information über eine Netzwerkverbindung. 
+
 \subsection{Ausgabe des Modellzustands} % (fold)
 \label{sub:einsatz_von_jhotdraw}
 
@@ -404,8 +411,6 @@ Aus diesem Grund ist die Position der projizierten Modellversion einstellbar, di
 
 \subsection{Weitere Ausgabekanäle} % (fold)
 \label{sub:weitere_ausgabekanäle}
-
-Verteilter Viewer
 
 % subsection weitere_ausgabekanäle (end)
 % section umsetzung_der_ausgabe_mit_software (end)
