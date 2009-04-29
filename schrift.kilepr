@@ -26,30 +26,30 @@ order=-1
 
 [item:Acronyme.tex]
 archive=true
-column=24
+column=37
 encoding=UTF-8
 highlight=LaTeX
-line=78
+line=82
 open=true
 order=1
 
 [item:AnhangBildquellen.tex]
 archive=true
-column=45
+column=19
 encoding=UTF-8
 highlight=LaTeX
 line=8
-open=false
-order=2
+open=true
+order=4
 
 [item:ArticulationWork.tex]
 archive=true
-column=0
+column=132
 encoding=UTF-8
 highlight=LaTeX
 line=74
-open=false
-order=2
+open=true
+order=5
 
 [item:Evaluierung.tex]
 archive=true
@@ -80,19 +80,19 @@ order=2
 
 [item:ImplementierungOutput.tex]
 archive=true
-column=0
+column=58
 encoding=UTF-8
 highlight=LaTeX
-line=401
+line=427
 open=true
 order=2
 
 [item:ImplementierungPersistence.tex]
 archive=true
-column=696
+column=101
 encoding=UTF-8
 highlight=LaTeX
-line=307
+line=309
 open=true
 order=0
 
@@ -102,8 +102,8 @@ column=0
 encoding=UTF-8
 highlight=LaTeX
 line=24
-open=false
-order=1
+open=true
+order=3
 
 [item:MentaleModelle.tex]
 archive=true
