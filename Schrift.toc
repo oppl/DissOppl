@@ -1,107 +1,189 @@
-\contentsline {part}{\numberline {I}Unterstützung}{1}{part.1}
-\contentsline {xpart}{Unterstützung}{3}{part.1}
-\contentsline {chapter}{\numberline {1}Input und Interpretation}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Möglichkeiten zur Erfassung von Benutzerinteraktion}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}In Frage kommende technologische Ansätze}{4}{subsection.1.1.1}
-\contentsline {subsubsection}{Raumparameter}{4}{section*.3}
-\contentsline {paragraph}{Optisch}{4}{section*.4}
-\contentsline {paragraph}{Kapazitiv}{5}{section*.5}
-\contentsline {paragraph}{Elektromagnetisch}{6}{section*.6}
-\contentsline {paragraph}{Akustisch}{7}{section*.7}
-\contentsline {paragraph}{Bewertung}{7}{section*.8}
-\contentsline {subsubsection}{Tokenzustand}{8}{section*.9}
-\contentsline {paragraph}{Passive Token}{8}{section*.10}
-\contentsline {paragraph}{Aktive Token}{9}{section*.11}
-\contentsline {paragraph}{Bewertung}{10}{section*.12}
-\contentsline {subsection}{\numberline {1.1.2}In Frage kommende Frameworks}{11}{subsection.1.1.2}
-\contentsline {subsubsection}{Generische Frameworks}{11}{section*.13}
-\contentsline {paragraph}{Context Toolkit}{12}{section*.14}
-\contentsline {paragraph}{SiLiCon Context Framework}{13}{section*.15}
-\contentsline {paragraph}{Papiermaché}{13}{section*.16}
-\contentsline {paragraph}{TUIpist}{14}{section*.17}
-\contentsline {subsubsection}{Frameworks für video-basierten Input}{16}{section*.18}
-\contentsline {paragraph}{AR Toolkit}{17}{section*.19}
-\contentsline {paragraph}{Visual Codes}{17}{section*.20}
-\contentsline {paragraph}{ReacTIVision}{18}{section*.21}
-\contentsline {subsection}{\numberline {1.1.3}Technologieentscheidung}{20}{subsection.1.1.3}
-\contentsline {subsubsection}{Vergleich der Frameworks für videobasierten Input}{20}{section*.22}
-\contentsline {subsubsection}{Vergleich der generischen Frameworks}{23}{section*.23}
-\contentsline {section}{\numberline {1.2}Konzeption und Umsetzung der Hardwarekomponenten}{26}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Überblick}{26}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Tokens und Input-Werkzeuge}{28}{subsection.1.2.2}
-\contentsline {subsubsection}{Modellierungs-Tokens}{28}{section*.24}
-\contentsline {subsubsection}{Einbettbare Tokens}{31}{section*.25}
-\contentsline {subsubsection}{Werkzeug Tokens}{32}{section*.26}
-\contentsline {paragraph}{Manipulation des Modells}{33}{section*.27}
-\contentsline {paragraph}{Steuerung von Unterstützungsfunktionen}{35}{section*.28}
-\contentsline {subsection}{\numberline {1.2.3}Input auf der Tischoberfläche}{37}{subsection.1.2.3}
-\contentsline {subsubsection}{Illumination und Umgebungslichtabhängigkeit}{38}{section*.29}
-\contentsline {section}{\numberline {1.3}Benutzerinteraktion mit dem Werkzeug}{40}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Hinzufügen und Verändern von Modellelementen}{41}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Benennen von Modellelementen}{41}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Verbinden von Modellelementen}{43}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Löschen von Elementen und Verbindungen}{44}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Einbettung von Zusatzinformation}{45}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Kontrolle der Modellierungshistorie}{47}{subsection.1.3.6}
-\contentsline {section}{\numberline {1.4}Erfassung der Benutzerinteraktion durch Software}{48}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Interpretation der Rohdaten}{49}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Stabilisierung der Erkennungsleistung}{51}{subsection.1.4.2}
-\contentsline {subsubsection}{Bildrauschen}{52}{section*.30}
-\contentsline {subsubsection}{Spotlights}{53}{section*.31}
-\contentsline {subsubsection}{Überstrahlte Bereiche}{55}{section*.32}
-\contentsline {subsubsection}{Bildverzerrungen}{56}{section*.33}
-\contentsline {subsection}{\numberline {1.4.3}Erkennung von Markierungen und Verbindungen}{57}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Erkennung von geöffneten Tokens}{59}{subsection.1.4.4}
-\contentsline {subsubsection}{Einbetten und Abrufen von eingebetteter Information}{60}{section*.34}
-\contentsline {subsection}{\numberline {1.4.5}Benennung von Modellelementen}{62}{subsection.1.4.5}
-\contentsline {subsubsection}{Benennung mittels Tastatur}{62}{section*.35}
-\contentsline {subsubsection}{Benennung mittels Haftnotiz}{63}{section*.36}
-\contentsline {subsection}{\numberline {1.4.6}Festlegung der Bedeutung von Modellelementen}{63}{subsection.1.4.6}
-\contentsline {subsection}{\numberline {1.4.7}Tracking des Modellzustandes}{64}{subsection.1.4.7}
-\contentsline {subsubsection}{Navigation in der Modellierungshistorie}{65}{section*.37}
-\contentsline {subsubsection}{Wiederherstellung eines Modellzustandes}{65}{section*.38}
-\contentsline {subsection}{\numberline {1.4.8}Verteilung des Modellzustandes}{66}{subsection.1.4.8}
-\contentsline {section}{\numberline {1.5}Zusammenfassung}{67}{section.1.5}
-\contentsline {chapter}{\numberline {2}Ausgabe}{69}{chapter.2}
-\contentsline {section}{\numberline {2.1}Auszugebende Information}{69}{section.2.1}
-\contentsline {section}{\numberline {2.2}Technologische Grundlage der Ausgabe}{70}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Ansätze zur kohärenten Ausgabe}{71}{subsection.2.2.1}
-\contentsline {subsubsection}{Darstellung auf der Tischoberfläche}{71}{section*.39}
-\contentsline {subsubsection}{Aktive Anzeige auf Tokens}{72}{section*.40}
-\contentsline {subsubsection}{Token mit Aktuatoren}{73}{section*.41}
-\contentsline {subsection}{\numberline {2.2.2}Ansätze zur entkoppelten Ausgabe}{74}{subsection.2.2.2}
-\contentsline {subsubsection}{Darstellung auf Monitoren}{75}{section*.42}
-\contentsline {subsubsection}{Projektion auf entfernte Oberflächen}{75}{section*.43}
-\contentsline {subsubsection}{Audio-basierte Ausgabekanäle}{75}{section*.44}
-\contentsline {subsection}{\numberline {2.2.3}Technologie-Entscheidung}{76}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Frameworks zur Ausgabe}{78}{subsection.2.2.4}
-\contentsline {subsubsection}{In Frage kommende Frameworks}{78}{section*.45}
-\contentsline {paragraph}{JHotDraw}{78}{section*.46}
-\contentsline {subsubsection}{Framework-Entscheidung}{79}{section*.47}
-\contentsline {section}{\numberline {2.3}Ausgabe von Information}{79}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Konzept}{79}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Architekur}{81}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Ausgabe von Information zum Modell}{82}{subsection.2.3.3}
-\contentsline {subsubsection}{Information zu Modellelementen}{85}{section*.48}
-\contentsline {subsubsection}{Information zu Verbindern}{85}{section*.49}
-\contentsline {subsubsection}{Information zu eingebetteten Elementen}{86}{section*.50}
-\contentsline {subsection}{\numberline {2.3.4}Ausgabe zur Kontrolle des Systems}{88}{subsection.2.3.4}
-\contentsline {subsubsection}{Zustands- und Ereignismeldungen}{88}{section*.51}
-\contentsline {paragraph}{Elementauswahl}{88}{section*.52}
-\contentsline {paragraph}{Verbindungsherstellung}{89}{section*.53}
-\contentsline {paragraph}{explizite Snapshots}{90}{section*.54}
-\contentsline {paragraph}{Löschmodus}{90}{section*.55}
-\contentsline {subsubsection}{Abruf der Modellierungshistorie}{90}{section*.56}
-\contentsline {subsubsection}{Wiederherstellungsunterstützung}{92}{section*.57}
-\contentsline {section}{\numberline {2.4}Umsetzung der Ausgabe mit Software}{93}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Ausgabe des Modellzustands}{93}{subsection.2.4.1}
-\contentsline {subsubsection}{Kalibrierung der Ausgabe}{93}{section*.58}
-\contentsline {subsection}{\numberline {2.4.2}Weitere Ausgabekanäle}{94}{subsection.2.4.2}
+\contentsline {part}{\numberline {I}Grundlagen}{1}{part.1}
+\contentsline {xpart}{Grundlagen}{3}{part.1}
+\contentsline {chapter}{\numberline {1}Articulation Work}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Begriffsbestimmung}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Kontext}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Arten von Articulation Work}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Systematisierung von Articulation Work}{6}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Systematik nach Fjuk, Smørdal und Nurminen}{7}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Systematik nach Hampson und Junor}{7}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Unterstützung von Articulation Work}{7}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Papertitel / Titel des Forschungsprojekts}{9}{subsection.1.5.1}
+\contentsline {paragraph}{Forschungsdomäne}{9}{section*.3}
+\contentsline {paragraph}{Untersuchungsdomäne}{9}{section*.4}
+\contentsline {paragraph}{Verständnis von Articulation Work}{9}{section*.5}
+\contentsline {paragraph}{Auftretende Phänomene}{9}{section*.6}
+\contentsline {paragraph}{Unterstützung}{9}{section*.7}
+\contentsline {paragraph}{Auftretende Effekte}{9}{section*.8}
+\contentsline {subsection}{\numberline {1.5.2}Work and the Division of Labor}{9}{subsection.1.5.2}
+\contentsline {paragraph}{Forschungsdomäne}{9}{section*.9}
+\contentsline {paragraph}{Untersuchungsdomäne}{10}{section*.10}
+\contentsline {paragraph}{Verständnis von Articulation Work}{10}{section*.11}
+\contentsline {paragraph}{Auftretende Phänomene}{10}{section*.12}
+\contentsline {paragraph}{Unterstützung}{10}{section*.13}
+\contentsline {paragraph}{Auftretende Effekte}{10}{section*.14}
+\contentsline {subsection}{\numberline {1.5.3}Gegenüberstellung und Zusammenfassung}{10}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Fazit}{10}{section.1.6}
+\contentsline {chapter}{\numberline {2}Mentale Modelle}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Begriffsbestimmung}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Entwicklung des Begriffs}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Veränderung mentaler Modelle}{13}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Mentale Modelle und Articulation Work}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Methoden zur Externalisierung mentaler Modelle}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Überblick}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Concept Mapping}{14}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Strukturlegetechniken}{14}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Herausforderungen bei der Anwendung}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Kollaborative Anwendbarkeit}{14}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Nachhaltige Verwendung der Information}{14}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Zusammenführung}{14}{subsection.2.4.3}
+\contentsline {part}{\numberline {II}Unterstützung}{15}{part.2}
+\contentsline {xpart}{Unterstützung}{17}{part.2}
+\contentsline {chapter}{\numberline {3}Input und Interpretation}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Möglichkeiten zur Erfassung von Benutzerinteraktion}{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}In Frage kommende technologische Ansätze}{18}{subsection.3.1.1}
+\contentsline {subsubsection}{Raumparameter}{18}{section*.15}
+\contentsline {paragraph}{Optisch}{18}{section*.16}
+\contentsline {paragraph}{Kapazitiv}{19}{section*.17}
+\contentsline {paragraph}{Elektromagnetisch}{20}{section*.18}
+\contentsline {paragraph}{Akustisch}{21}{section*.19}
+\contentsline {paragraph}{Bewertung}{21}{section*.20}
+\contentsline {subsubsection}{Tokenzustand}{22}{section*.21}
+\contentsline {paragraph}{Passive Token}{22}{section*.22}
+\contentsline {paragraph}{Aktive Token}{23}{section*.23}
+\contentsline {paragraph}{Bewertung}{24}{section*.24}
+\contentsline {subsection}{\numberline {3.1.2}In Frage kommende Frameworks}{25}{subsection.3.1.2}
+\contentsline {subsubsection}{Generische Frameworks}{25}{section*.25}
+\contentsline {paragraph}{Context Toolkit}{26}{section*.26}
+\contentsline {paragraph}{SiLiCon Context Framework}{27}{section*.27}
+\contentsline {paragraph}{Papiermaché}{27}{section*.28}
+\contentsline {paragraph}{TUIpist}{28}{section*.29}
+\contentsline {subsubsection}{Frameworks für video-basierten Input}{30}{section*.30}
+\contentsline {paragraph}{AR Toolkit}{31}{section*.31}
+\contentsline {paragraph}{Visual Codes}{31}{section*.32}
+\contentsline {paragraph}{ReacTIVision}{32}{section*.33}
+\contentsline {subsection}{\numberline {3.1.3}Technologieentscheidung}{34}{subsection.3.1.3}
+\contentsline {subsubsection}{Vergleich der Frameworks für videobasierten Input}{34}{section*.34}
+\contentsline {subsubsection}{Vergleich der generischen Frameworks}{37}{section*.35}
+\contentsline {section}{\numberline {3.2}Konzeption und Umsetzung der Hardwarekomponenten}{40}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Überblick}{41}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Tokens und Input-Werkzeuge}{42}{subsection.3.2.2}
+\contentsline {subsubsection}{Modellierungs-Tokens}{42}{section*.36}
+\contentsline {subsubsection}{Einbettbare Tokens}{45}{section*.37}
+\contentsline {subsubsection}{Werkzeug Tokens}{46}{section*.38}
+\contentsline {paragraph}{Manipulation des Modells}{47}{section*.39}
+\contentsline {paragraph}{Steuerung von Unterstützungsfunktionen}{49}{section*.40}
+\contentsline {subsection}{\numberline {3.2.3}Input auf der Tischoberfläche}{51}{subsection.3.2.3}
+\contentsline {subsubsection}{Illumination und Umgebungslichtabhängigkeit}{52}{section*.41}
+\contentsline {section}{\numberline {3.3}Benutzerinteraktion mit dem Werkzeug}{54}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Hinzufügen und Verändern von Modellelementen}{55}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Benennen von Modellelementen}{55}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Verbinden von Modellelementen}{57}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Löschen von Elementen und Verbindungen}{58}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Einbettung von Zusatzinformation}{59}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Kontrolle der Modellierungshistorie}{61}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Erfassung der Benutzerinteraktion durch Software}{62}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Interpretation der Rohdaten}{63}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Stabilisierung der Erkennungsleistung}{65}{subsection.3.4.2}
+\contentsline {subsubsection}{Bildrauschen}{66}{section*.42}
+\contentsline {subsubsection}{Spotlights}{67}{section*.43}
+\contentsline {subsubsection}{Überstrahlte Bereiche}{69}{section*.44}
+\contentsline {subsubsection}{Bildverzerrungen}{70}{section*.45}
+\contentsline {subsection}{\numberline {3.4.3}Erkennung von Markierungen und Verbindungen}{71}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Erkennung von geöffneten Tokens}{73}{subsection.3.4.4}
+\contentsline {subsubsection}{Einbetten und Abrufen von eingebetteter Information}{74}{section*.46}
+\contentsline {subsection}{\numberline {3.4.5}Benennung von Modellelementen}{76}{subsection.3.4.5}
+\contentsline {subsubsection}{Benennung mittels Tastatur}{76}{section*.47}
+\contentsline {subsubsection}{Benennung mittels Haftnotiz}{77}{section*.48}
+\contentsline {subsection}{\numberline {3.4.6}Festlegung der Bedeutung von Modellelementen}{77}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}Tracking des Modellzustandes}{78}{subsection.3.4.7}
+\contentsline {subsubsection}{Navigation in der Modellierungshistorie}{79}{section*.49}
+\contentsline {subsubsection}{Wiederherstellung eines Modellzustandes}{79}{section*.50}
+\contentsline {subsection}{\numberline {3.4.8}Verteilung des Modellzustandes}{80}{subsection.3.4.8}
+\contentsline {section}{\numberline {3.5}Zusammenfassung}{81}{section.3.5}
+\contentsline {chapter}{\numberline {4}Ausgabe}{83}{chapter.4}
+\contentsline {section}{\numberline {4.1}Auszugebende Information}{83}{section.4.1}
+\contentsline {section}{\numberline {4.2}Technologische Grundlage der Ausgabe}{84}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Ansätze zur kohärenten Ausgabe}{85}{subsection.4.2.1}
+\contentsline {subsubsection}{Darstellung auf der Tischoberfläche}{85}{section*.51}
+\contentsline {subsubsection}{Aktive Anzeige auf Tokens}{86}{section*.52}
+\contentsline {subsubsection}{Token mit Aktuatoren}{87}{section*.53}
+\contentsline {subsection}{\numberline {4.2.2}Ansätze zur entkoppelten Ausgabe}{88}{subsection.4.2.2}
+\contentsline {subsubsection}{Darstellung auf Monitoren}{89}{section*.54}
+\contentsline {subsubsection}{Projektion auf entfernte Oberflächen}{89}{section*.55}
+\contentsline {subsubsection}{Audio-basierte Ausgabekanäle}{90}{section*.56}
+\contentsline {subsection}{\numberline {4.2.3}Technologie-Entscheidung}{90}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Frameworks zur Ausgabe}{92}{subsection.4.2.4}
+\contentsline {subsubsection}{In Frage kommende Frameworks}{92}{section*.57}
+\contentsline {paragraph}{Eclipse GEF}{93}{section*.58}
+\contentsline {paragraph}{JHotDraw}{93}{section*.59}
+\contentsline {subsubsection}{Framework-Entscheidung}{94}{section*.60}
+\contentsline {section}{\numberline {4.3}Ausgabe von Information}{94}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Konzept}{94}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Architekur}{96}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Ausgabe von Information zum Modell}{97}{subsection.4.3.3}
+\contentsline {subsubsection}{Information zu Modellelementen}{99}{section*.61}
+\contentsline {subsubsection}{Information zu Verbindern}{99}{section*.62}
+\contentsline {subsubsection}{Information zu eingebetteten Elementen}{100}{section*.63}
+\contentsline {subsection}{\numberline {4.3.4}Ausgabe zur Kontrolle des Systems}{102}{subsection.4.3.4}
+\contentsline {subsubsection}{Zustands- und Ereignismeldungen}{102}{section*.64}
+\contentsline {paragraph}{Elementauswahl}{102}{section*.65}
+\contentsline {paragraph}{Verbindungsherstellung}{103}{section*.66}
+\contentsline {paragraph}{explizite Snapshots}{104}{section*.67}
+\contentsline {paragraph}{Löschmodus}{104}{section*.68}
+\contentsline {subsubsection}{Abruf der Modellierungshistorie}{104}{section*.69}
+\contentsline {subsubsection}{Wiederherstellungsunterstützung}{106}{section*.70}
+\contentsline {section}{\numberline {4.4}Umsetzung der Ausgabe mit Software}{107}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Ausgabe des Modellzustands}{108}{subsection.4.4.1}
+\contentsline {subsubsection}{Kalibrierung der Ausgabe}{110}{section*.71}
+\contentsline {subsection}{\numberline {4.4.2}Ausgabe der Modellierungshistorie}{111}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Umsetzung der Wiederherstellungsunterstützung}{112}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Persistierung}{115}{chapter.5}
+\contentsline {section}{\numberline {5.1}Möglichkeiten der Persistenzsicherung}{115}{section.5.1}
+\contentsline {section}{\numberline {5.2}Topic Maps}{116}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Topics, Subjects, Topic Names und Variants}{117}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Associations und Roles}{120}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Occurrences und Datatypes}{121}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Metamodellierung in Topic Maps}{121}{subsection.5.2.4}
+\contentsline {subsubsection}{Topic Types}{122}{section*.72}
+\contentsline {subsubsection}{Andere Types}{123}{section*.73}
+\contentsline {subsubsection}{Modellieren von Einschränkungen}{124}{section*.74}
+\contentsline {subsection}{\numberline {5.2.5}Statements und Scopes}{125}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Reification}{126}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Merging}{127}{subsection.5.2.7}
+\contentsline {section}{\numberline {5.3}Abbildung von Modellen auf Topic Maps}{127}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Grundlegende Abbildung}{128}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Abbildung des Metamodells}{129}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Abgrenzung von Submodellen}{132}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Flexibilisierung der Abbildung}{134}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Technische Umsetzung der Persistierung von Modellen}{135}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Topic Map Engine}{135}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Dynamische Metamodelle}{135}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Persistierung}{135}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Export graphischer Repräsentationen}{135}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Ausgabeformen}{135}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Technische Umsetzung des graphischen Exports}{139}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Zusammenfassung}{140}{section.5.6}
+\contentsline {part}{\numberline {III}Evaluierung}{141}{part.3}
+\contentsline {xpart}{Evaluierung}{143}{part.3}
+\contentsline {chapter}{\numberline {6}Untersuchungsdesign}{143}{chapter.6}
+\contentsline {section}{\numberline {6.1}Frage 1 – Unterstützung von Articulation Work}{143}{section.6.1}
+\contentsline {section}{\numberline {6.2}Frage 2 – Beitrag und Verwendung der Teilwerkzeuge}{144}{section.6.2}
+\contentsline {section}{\numberline {6.3}Untersuchungsablauf}{145}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Phase 1 – Verwendbarkeit}{145}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Phase 2 – Lehr- und Lern-Szenarien}{145}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Phase 3 – Unternehmenseinsatz}{145}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {7}Untersuchungsergebnisse}{147}{chapter.7}
+\contentsline {section}{\numberline {7.1}Erhobene Daten}{147}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Phase 1}{147}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Phase 2}{147}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Phase 3}{147}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Auswertung \& Interpretation}{147}{section.7.2}
 \partbegin 
-\contentsline {part}{Verzeichnisse}{III}{part*.59}
-\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.60}
-\contentsline {chapter}{Tabellenverzeichnis}{III}{appendix*.61}
-\contentsline {chapter}{Stichwortverzeichnis}{V}{appendix*.62}
-\contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{appendix*.63}
-\contentsline {chapter}{Bildquellen}{IX}{table..1}
-\contentsline {chapter}{Literaturverzeichnis}{XIII}{appendix*.67}
+\contentsline {part}{Verzeichnisse}{III}{part*.75}
+\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.76}
+\contentsline {chapter}{Tabellenverzeichnis}{IV}{appendix*.77}
+\contentsline {chapter}{Stichwortverzeichnis}{V}{appendix*.78}
+\contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{appendix*.79}
+\contentsline {chapter}{Bildquellen}{X}{table..1}
+\contentsline {chapter}{Literaturverzeichnis}{XIII}{appendix*.83}
