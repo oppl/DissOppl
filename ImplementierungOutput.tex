@@ -44,7 +44,7 @@ In diesem Abschnitt werden Ausgabeansätze behandelt, die nach \citep{Fishkin04}
 \subsubsection{Darstellung auf der Tischoberfläche} % (fold)
 \label{ssub:darstellung_auf_der_tischoberfläche}
 
-Bei Tabletop-Interfaces ist die Nutzung der Tischoberfläche ein naheliegender und gängiger Ansatz zur Realisierung der Ausgabekanäle. Die Ausgabe erfolgt hierbei visuell, also durch die Darstellung der auszugebenden Information. Ein derartig ausgestaltetes Interface ist hinsichtlich seiner Ausprägung in der Embodiment-Dimension als „nearby“ zu klassifizieren. Technologisch kommen zur Darstellung horizontal eingesetzte Bildschirme oder Oberflächen, auf die projiziert werden kann, in Frage.
+Bei Tabletop-Interfaces ist die Nutzung der Tischoberfläche ein naheliegender und gängiger  Ansatz zur Realisierung der Ausgabekanäle. Die Ausgabe erfolgt hierbei vorrangig visuell, also durch die Darstellung der auszugebenden Information. Ein derartig ausgestaltetes Interface ist hinsichtlich seiner Ausprägung in der Embodiment-Dimension als „nearby“ zu klassifizieren. Technologisch kommen zur Darstellung horizontal eingesetzte Bildschirme oder Oberflächen, auf die projiziert werden kann, in Frage.
 
 Bei der Verwendung von Bildschirmen sind die Größe der zur Anzeige verwendbaren Oberfläche sowie die zur Anzeige verfügbare Auflösung (also indirekt die Größe eines Bildpunktes) wesentliche Kriterien. Bei heute verfügbaren \gls{LCD}-Modulen mit Größen bis zu 132 cm in der Diagonale und Auflösungen von 1920 x 1080 Bildpunkten ist die Technologie soweit ausgereift und verfügbar, das dieser Ansatz grundsätzlich für den Einsatz in Tabletop Interfaces in Frage kommt. Vorteile sind die geringe Bauhöhe der Ausgabeeinheit (im Vergleich zu den im Folgenden vorgestellten Projektions-Lösungen). Nachteile sind die relative geringe Leuchtstärke, die einen Einsatz bei Tageslichtbedingungen schwierig machen sowie die Blickwinkelabhängigkeit, die bei horizontalem Einbau der Anzeigeeinheit stärker zum Tragen kommt als bei herkömmlicher vertikaler Verwendung.
 
@@ -149,7 +149,22 @@ Für die graphische Darstellung diagrammatischer Modelle (also vernetzter Strukt
 \subsubsection{In Frage kommende Frameworks} % (fold)
 \label{ssub:in_frage_kommende_frameworks}
 
---> JHotDraw + evtl. andere Frameworks aus KnowIT-Diplomarbeit
+Die Anzahl der Möglichkeiten zur Darstellung graphischer Modelle durch Java ist groß. Die unterschiedlichen Ansätze unterscheiden sich vor allem in der angebotenen Abstraktionsstufe, wobei die Pole durch eine direkte Manipulation der Pixelgrafik in der das Modell dargestellt werden soll einerseits und eine rein logische, von der eigentlichen Darstellung vollständig entkoppelte Repräsentation des Modells andererseits gebildet werden. Hier wurden nur jene Frameworks betrachtet, die eine Verwaltung des darzustellendne Modells auf logischer Ebene ermöglichen und die eigentliche Ausgabe auf den Bildschirm übernehmen und kapseln. Kandidaten für Frameworks die diese Forderung erfüllen sind ohne Anspruch auf Vollständigkeit
+\begin{itemize}
+ \item Eclipse GEF (REF von Thomas)
+ \item Tigris GEF (REF von Thomas)
+ \item JHotDraw (REF)
+ \item Jazz (REF von Seiringer)
+\end{itemize}
+
+Jazz wird nicht mehr ... 
+
+\paragraph{Eclipse \gls{GEF}}
+\label{par:gefgmf}
+
+Das Graphical Editing Framework (REF) stellt als Teil der Eclipse Plattform (REF) eine Möglichkeit dar, graphische Editoren zu erstellen und diese in einer Eclipse Applikation eingebettet auszuführen. Das \gls{GEF} bildet zusammen mit \gls{EMF} (REF) auch die Grundlage für das \gls{GMF} (REF), dass die graphische Erstellung von domänen-spezifischen Sprachen mit nachfolgender Generierung von entsprechenden Klassen ermöglicht. Diese Klassen binden sich nahtlos in die Eclipse Infrastruktur ein und werden als Teil eines modell-getriebenen Softwareentwicklungszylus zur Erstellung domänen-spezifischen Applikationen verwendet.
+
+\gls{GEF} behandelt lediglich die graphische Ausgabe und erlaubt die Darstellung vernetzter Strukturen, die flexibel ausgestaltet werden können. \gls{GEF} baut dabei konsequent auf dem \gls{MVC}-Konzept (REF) auf und trennt strikt zwischen Repräsentation der Daten und deren Darstellung.
 
 \paragraph{JHotDraw} % (fold)
 \label{par:jhotdraw}
@@ -157,6 +172,10 @@ Für die graphische Darstellung diagrammatischer Modelle (also vernetzter Strukt
 Das JHotDraw-Framework (REF Gamma) ist eine Java-Implementierung des Smalltalk-Frameworks HotDraw (REF). Dieses wurde entwickelt, um einerseits eine einfache Möglichkeit zur Erstellung graphischer Editoren beliebiger Natur zu bieten und andererseits die Stärken und Möglichkeiten objektorientierter Softwareentwicklung unter Einsatz der von (REF Entwurfsmuster) vorgeschlagenen Entwurfsmuster zu zeigen.
 
 JHotDraw nutzt intensiv objektorientierte Konzepte, vorallem die dynamische Typisierung von Objekten und implementiert einen Großteil seiner Features als Instanzen der eben erwähnten Entwurfsmuster. Dies erleichtert die Adaptierung und Erweitungerung des Systems für eigenen Anwendungsfälle und ermöglicht eine rasche, unaufwändige Implementierung anwendungsspezifischer graphischer Editoren.
+
+Ein Vorteil von JHotDraw liegt in der überschaubaren Struktur und im insgesamt für graphische Editoren-Frameworks eher kompakten Aufbau. Dies ist sowohl auf die resultierenden Applikationen bezogen, die wenig Ressourcen benötigen und ohne merkliche Verzögerung starten, als auch auf Framework-Klassen-Struktur zur Erstellung dieser Applikationen, die eine rasche Entwicklung ohne hohen Einarbeitungsaufwand oder weitgehende Parametrisierungen ermöglicht.
+
+Ein weiterer Vorteil von JHotDraw ist die Eigenständigkeit seiner Klassenbiblothek, die von keinen anderen Bibliotheken abhängt. Die einzige zu erfüllende Abhängigkeit besteht zum Fenster-Management-System Java SWING, das ohnehin Teil des \gls{JRE} ist. JHotDraw-basierte Applikationen können so ohne weiteren Installations-Aufwand auf allen Rechneren ausgeführt werden, auf denen ein \gls{JRE} vorhanden ist. Zusätzlich ist SWING auch Teil jener Bibliotheken, die von Java Applets zur Ausführung in Browsern verwendet werden können. Jede JHotDraw-Applikation kann damit ohne Modifikation lediglich durch Austausch der Basisklasse über eine \gls{HTTP}-Verbindung geladen und im Browser ausgeführt werden.
 
 % paragraph jhotdraw (end)
 
