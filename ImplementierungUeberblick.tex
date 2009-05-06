@@ -27,6 +27,10 @@ Die Entwicklung des Forschungsgebiets der "Tangible Interfaces" wurde von mehrer
 
 Zur struktrierten Betrachtung von Tangible Interfaces ist es außerdem notwendig, jene Dimensionen zu identifizieren, an denen sich einzelne Tangible Interfaces einordnen und unterscheiden lassen. Die Ausprägungen dieser Dimensionen liefern kombiniert ein Begriffssystem, dass bei der Aufbereitung von unterschiedlichen Ansätzen im Bereich der Tangible Interface sowie deren Vergleich helfen kann. Die hier vorgestellten Ansätze tragen unterschiedlich detailliert und aus unterschiedlichen Gesichtspunkten zu dieser Thematik bei. Die einzelnen Ansätze werden hier dargestellt und in Kapitel XY auf das in dieser Arbeit entwickelte System angewandt um so das System-Design aus konzeptueller Sicht zu reflektieren und potentielle Verbesserungs- und Erweiterungsmöglichkeiten zu identifizieren.
 
+Allgemein ist anzumerken, dass eine Vielzahl von Ausdrücken im sich entwickelnden Forschungsgebiet mehrfach belegt wurden und/oder nicht eindeutig definiert sind. Im Folgenden werden die Ausdrücke der jeweiligen Autoren übernommen, eine Interpretation bzw. Abbildung auf die Terminologie anderer Autoren wird nur vorgenommen, wo sie im jeweiligen Artikel explizit angeführt wurde. In der Zusammenfassung dieses Abschnitts wird versucht, die unterschiedlichen Terminologien nochmals zusammenzufassen und einen Satz an Ausdrücken festzulegen, der im Folgenden für diese Arbeit Anwendung findet.
+
+-- evtl. Kurzüberblick (definition list) über die Ansätze, die jetzt kommen --
+
 \subsection{Graspable User Interfaces}
 
 \citeauthor{Fitzmaurice96} legt in jener Arbeit, in der es den Begriff des "Graspable User Inferfaces" prägt \citep{Fitzmaurice96}, auch Eigenschaften fest, anhand deren sich die "Graspability" einer Benutzungsschnittstelle zeigt und beurteilen lässt. Diese Beurteilung erfolgt auf einer generischen Skala mit Ausprägungen von "niedrig" bis "hoch", wobei "hohe" Werte in mehreren Eigenschaften auf eher hohe "Graspability" hinweist.
@@ -42,14 +46,36 @@ Zur struktrierten Betrachtung von Tangible Interfaces ist es außerdem notwendig
 \citep{Ishii97}
 
 \subsection{Containers, Tokens und Tools}
+\label{sub:containers_tokens_tools}
 
-\citep{Holmquist99} legen ihre Arbeit als konzeptuelle Betrachtung von interaktiven Systemen an, in denen physische Objekte verwendet werden, um auf digitale Information zuzugreifen bzw. diese zu manipulieren. Das Einteilungsschema, das die Autoren vorschlagen, basiert auf der Art und Weise, in der Information an diese physischen Objekte gebunden ist. 
+\citet{Holmquist99} legen ihre Arbeit als konzeptuelle Betrachtung von interaktiven Systemen an, in denen physische Objekte verwendet werden, um auf digitale Information zuzugreifen bzw. diese zu manipulieren. Das Einteilungsschema, das die Autoren vorschlagen, basiert auf der Art und Weise, in der Information an diese physischen Objekte gebunden ist. Grundsätzlich unterschieden sie zwischen \emph{Containern}, \emph{Tokens} und \emph{Tools}, wobei eine exakte Abgrenzung bzw. eindeutige Zuordung zu einer Kategorie nicht immer möglich und sinnvoll ist.
+
+Der hier vorgestellte Ansatz fokussiert auf die physische Interaktion als Eingabemedium, auf den Aspekt der Informationsausgabe wird nicht eingegangen. Dies ist für das Verständnis der folgenden Beschreibungen im Kontext der späteren historischen Entwicklung wichtig und muss bei der Anwendung dieses Ansatzes berücksichtigt werden. 
 
 \subsubsection{Containers}
 
+Als Container werden alle jene Objekte bezeichnet, an die beliebige digitale Information gebunden werden kann. Eine Container ist also ein unspezifisches physisches Objekt in einem Tangible User Interface. Sein Aussehen oder andere physische Eigenschaften lasst keine Aussage über die Art der angebundenen Information bzw. die Information selbst zu. 
+
+Beliebige physische Objekte können als Container agieren, sofern sie die Möglichkeit bieten, Information in bzw. auf ihnen abzulegen oder von einer Infrastruktur eindeutig identifizierbar sind, so dass Information über die eindeutige Identifikation an sie gebunden werden kann. Container agieren somit ausschließlich als physische Informationsträger und können als solche verwendet werden, um Information zwischen Systemen zu transportieren. 
+
+Ein typisches Beispiel ist die Verwendung eines Füllfederhalters als Container, an den beliebige Information gebunden werden kann, um diese von einem Ort zum anderen transportieren zu können. Der Füllfederhalter steht in keinem direkten Zusammenhang mit der angebundenen Information, aus seinem Erscheinungsbild oder seinen Eigenschaften kann nicht auf die angebundene Information geschlossen werden.
+
 \subsubsection{Tokens}
 
+Tokens sind physische Objekte, deren äußeres Erscheinungsbild bzw. deren Eigenschaften in irgendeiner Weise mit der durch sie repräsentierten Information zusammenhängen. Das physische Objekte und die angebundene Information sind nicht mehr voneinander unabhängig sondern stehen in eine konzeptuellen Zusammenhang. Die äußere Form oder andere physische Eigenschaften dienen of als Hinweis auf die angebundenen Informationsart oder stehen sogar in Zusammenhang mit der konkrekt angebundenen Information.
+
+Ein typisches Beispiel für ein Token wäre ein Buch, an das über eine eindeutige Identifikation (etwa ein \gls{RFID}-Tag) der jeweilige Text oder Zusatzmaterial gebunden wird. Das physische Buch steht dabei in dirketem Zusammenhang mit der angebundenen digitalen Information.
+
 \subsubsection{Tools}
+Tools sind physische Elemente, die nicht Information, sondern Funktionen repräsentieren. Die Anwendung von Tools hat dabei nicht unbedingt physische Auswirkungen, jene digitalen, virtuellen Objekte, auf die das Tool angewandt wird, werden aber entsprechend der Funktion des Tools manipuliert.
+
+Beispiele für Tools sind physische Objekte, die zur Auswahl digitaler Objekte dienen oder Objekte wie Linsen, deren Anwendung zusätzliche Information zu anderen Containern oder Tokens abruft.
+
+\subsubsection{Zugriff auf und Interaktion mit Tokens und Containern}
+
+Der Zugriff auf die Information, die an ein Token oder einen Container gebunden ist, erfolgt über \emph{Information Faucets} (also "Informations-Zapfhähne" oder "-Armaturen"). Diese Faucets sind aktive Komponenten (im Gegensatz zu Tokens und Containern, die im Allgemeinen passive Komponenten sind, also keine dedizierte Elektronik enthalten), deren Aufgabe darin besteht, aus Tokens oder Containern, die in deren Reichweite gelangen, die angebundene Information zu extrahieren und auszugeben. Faucets können auch dazu verwendet werden, den Zugriff auf Information einzuschränken. So kann die Ausgabe von Information an eine bestimmte Kombination von Tokens oder Containern gebunden werden oder von einem bestimmten Aufenthaltsort abhängig gemacht werden.
+
+Die Anbindung von Information an ein Token oder einen Container kann ebenfalls eingeschränkt sein, bzw. ist im Fall von Tokens per Definition durch den notwendigen Zusammenhang zwischen physischem Element und Information eingeschränkt. Neben dieser konzeptuell notwendigen Einschränkung können auch weitere Regeln geprüft werden oder z.B. die Bindung zwischen Objekt und Information statisch (d.h. unveränderbar) gespeichert werden. 
 
 \subsection{Das MCRpd Interaktions-Modell}
 \citep{Ullmer00}
@@ -72,6 +98,9 @@ Zur struktrierten Betrachtung von Tangible Interfaces ist es außerdem notwendig
 \subsection{Tangible Bits: Beyond Pixels}
 \citep{Ishii08}
 
+\subsection{Zusammenfassung}
+
+-- Grafik mit den Zusammenhängen und Bezugnahmen zwischen den einzelnen Arbeiten --
 % section konzeptualisierungen_von_tangible_interfaces (end)
 
 \section{Tangible Interfaces in kooperativer Verwendung} % (fold)
