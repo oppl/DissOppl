@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Schrift.tex</string>
+	<string>ImplementierungUeberblick.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-30T07:38:30Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2009-05-02T18:18:42Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -40,7 +38,9 @@
 			<key>filename</key>
 			<string>ImplementierungUeberblick.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-20T21:01:04Z</date>
+			<date>2009-05-05T13:47:42Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -52,7 +52,7 @@
 			<key>filename</key>
 			<string>ImplementierungInput.tex</string>
 			<key>lastUsed</key>
-			<date>2009-04-28T08:01:50Z</date>
+			<date>2009-05-02T18:19:01Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -125,20 +125,6 @@
 			<key>firstVisibleLine</key>
 			<integer>82</integer>
 		</dict>
-		<key>ImplementierungInput.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>165</integer>
-				<key>line</key>
-				<integer>479</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>411</integer>
-			<key>firstVisibleLine</key>
-			<integer>435</integer>
-		</dict>
 		<key>ImplementierungOutput.tex</key>
 		<dict>
 			<key>caret</key>
@@ -166,6 +152,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>270</integer>
+		</dict>
+		<key>ImplementierungUeberblick.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>26</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>25</integer>
 		</dict>
 		<key>MentaleModelle.tex</key>
 		<dict>
@@ -212,12 +212,7 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>ImplementierungOutput.tex</string>
-		<string>ArticulationWork.tex</string>
-		<string>Acronyme.tex</string>
-		<string>Werkzeug.tex</string>
-		<string>ImplementierungPersistence.tex</string>
-		<string>ImplementierungInput.tex</string>
+		<string>ImplementierungUeberblick.tex</string>
 		<string>Schrift.tex</string>
 	</array>
 	<key>shellVariables</key>
@@ -250,6 +245,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{10, 132}, {1070, 746}}</string>
+	<string>{{10, 102}, {1070, 746}}</string>
 </dict>
 </plist>

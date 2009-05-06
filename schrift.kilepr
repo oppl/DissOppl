@@ -3,7 +3,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1
-lastDocument=ImplementierungPersistence.tex
+lastDocument=ImplementierungUeberblick.tex
 masterDocument=Schrift.tex
 name=Schrift
 pkg_extIsRegExp=false
@@ -89,10 +89,10 @@ order=2
 
 [item:ImplementierungPersistence.tex]
 archive=true
-column=27
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=279
+line=283
 open=true
 order=0
 
@@ -101,7 +101,7 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=24
+line=45
 open=true
 order=3
 
