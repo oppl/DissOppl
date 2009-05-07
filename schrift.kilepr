@@ -30,8 +30,8 @@ column=10
 encoding=UTF-8
 highlight=LaTeX
 line=14
-open=false
-order=1
+open=true
+order=4
 
 [item:AnhangBildquellen.tex]
 archive=true
@@ -71,21 +71,21 @@ order=11
 
 [item:ImplementierungInput.tex]
 archive=true
-column=0
+column=188
 encoding=UTF-8
 highlight=LaTeX
-line=835
-open=false
+line=122
+open=true
 order=2
 
 [item:ImplementierungOutput.tex]
 archive=true
-column=3
+column=441
 encoding=UTF-8
 highlight=LaTeX
-line=168
-open=false
-order=1
+line=59
+open=true
+order=3
 
 [item:ImplementierungPersistence.tex]
 archive=true
@@ -98,19 +98,19 @@ order=0
 
 [item:ImplementierungUeberblick.tex]
 archive=true
-column=375
+column=25
 encoding=UTF-8
 highlight=LaTeX
-line=75
+line=97
 open=true
 order=0
 
 [item:KonzeptuelleEvaluierung.tex]
 archive=true
-column=420
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=17
+line=30
 open=true
 order=1
 
