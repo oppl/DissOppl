@@ -77,6 +77,9 @@ Der Zugriff auf die Information, die an ein Token oder einen Container gebunden 
 
 Die Anbindung von Information an ein Token oder einen Container kann ebenfalls eingeschränkt sein, bzw. ist im Fall von Tokens per Definition durch den notwendigen Zusammenhang zwischen physischem Element und Information eingeschränkt. Neben dieser konzeptuell notwendigen Einschränkung können auch weitere Regeln geprüft werden oder z.B. die Bindung zwischen Objekt und Information statisch (d.h. unveränderbar) gespeichert werden. 
 
+\subsection{Tangible Objects Meaning}
+\citep{Underkoffler99}
+
 \subsection{Das MCRpd Interaktions-Modell}
 \citep{Ullmer00}
 
@@ -90,7 +93,37 @@ Die Anbindung von Information an ein Token oder einen Container kann ebenfalls e
 \citep{Klemmer04}
 
 \subsection{Taxonomie nach Fishkin}
-\citep{Fishkin04}
+\label{sub:taxonomie_fishkin}
+
+\citet{Fishkin04} versucht in seiner Arbeit, den Begriff des Tangible User Interfaces zu definieren und ein Kategorienschema zu schaffen, in das sich auf tangibler Interaktion beruhrende Systeme einordnen lassen. Sein Ziel ist es, ein Framework zur Verfügung zu stellen, auf Basis dessen sich Systeme vergleichen lassen und das das Design von Tangible Interfaces unterstützen kann.
+
+\citeauthor{Fishkin04} fasst den Begriff des Tangible Interfaces sehr breit und definiert ein Interaktives System mit tangiblem Interface als eines, in dem die Eingabe über die Manipulation (im wörtlichen Sinn, also mit den Händen) von phyischen Objekten vorgenommen wird und die Ausgabe die physische Natur eines Objektes verändert. Diese Definition umfasst auch Systeme mit "herkömmlichen" Interfaces.
+
+Nach dieser umfassenden Definition strukturiert \citeauthor{Fishkin04} den Raum möglicher Tangible Interfaces durch die Einführung zweier Analysedimensionen, anhand derer er seine  Taxonomie aufspannt. Diese beiden Dimensionen sind "Embodiment" und "Metaphor". Sie sind orthogonal zueinander und hohe Wert dieser beiden Dimensionen bezeichnen "tangiblere" Systeme. "Hohe Tangibilität" ist jedoch kein Qualitätskriterium sondern lediglich eine Eigenschaft, die ein System für einen bestimmten Anwendungsfall besser oder schlechter geeignet machen kann.
+
+\subsubsection{Embodiment}
+Die Dimension "Embodiment" beschreibt, wie eng die Eingabe am Interface mit der Ausgabe gekoppelt ist. Das Kriterium zu Einordnung ist hier der Ort der Wahrnehmbarkeit des Systemzustandes und der Systemaktivität. Je kohärenter die Ausgabe- und Eingabe-Kanäle sind, je näher sich die Informationsausgabe also bei der Eingabe befindet, desto höher ist die Ausprägung dieser Dimension. \citeauthor{Fishkin04} unterscheidet hier vier Ausprägungen:
+\begin{description}
+ \item[Full] Bei "full Embodiment" ist das Ausgabegerät gleichzeitig das Eingabegerät. Der Zustand des Geräts ist direkt in seinen physischen Eigenschaften abgebildet.
+ \item[Nearby] "Nearby Embodiment" tritt auf, wenn die Ausgabe nahe dem Eingabeobjekt auftritt und eng an dieses gebunden ist, also in direktem, unmittelbaren Zusammenhang steht. 
+ \item[Environmental] "Environmental Embodiment" ist gegeben, wenn die Ausgabe im unmittelbaren Umfeld des auftritt aber sich nicht unmittelbar am tangiblen Eingabeobjekt manifestiert. Typische Vertreter dieser Ausprägung sind akustische Ausgabekanäle.
+ \item[Distant] Von "distant Embodiment" spricht man, wenn sich Ein- und Ausgabekanäle vollständig raumlich enthoppelt sind, der Fokus der Aufmerksamkeit der Benutzer also nicht gleichzeitig auf Ein- und Ausgabekanal liegen kann. 
+ \end{description}
+
+\subsubsection{Metaphor}
+
+Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf eine Benutzerinteraktion so zu reagieren, wie die reale Welt auf eine entsprechende Aktion reagieren würde. Die Ausprägung in "Metaphor" ist also dann hoch, wenn das System analog zu realem, physiklisch begründbarem Verhalten reagiert. Hier sind grundsätzlich zwei Kategorien zu unterscheiden, in denen der Bezugspunkt der "Methaphor" verschieden ist. "Metaphor" kann sich entweder auf das Aussehen des jeweiligen Objektes beziehen oder auf die Bewegung des Objektes Bezug nehmen. Im ersten Fall spricht \citeauthor{Fishkin04} von "Metaphor of Noun", im zweiten Fall von "Metaphor of Verb". Die Ausprägungen auf der "Metaphor"-Dimension gruppieren sich dann wie Folgt:
+\begin{description}
+ \item[None] Die Interface-Objekte zeigen weder in Form noch Funktion eine Analogie zur Realität
+ \item[Noun] Diese Analogie ist gegeben, wenn am Interface Objekte existieren, die eine reale Entsprechung haben, aber nicht wie diese manipuliert werden können. Ein klassisches Beispiel aus traditionellen interaktiven Systemen ist die "Fenster"- oder "Schreibtisch"-Metapher (sind analog zu realen Fenstern bzw. Schreibtischen ausgelegt, bieten aber andere Interaktionsmöglichkeiten). Bei Tangible User Interfaces ist diese Zuordnung dann gegeben, wenn ein Eingabeobjekt so aussieht wie ein Objekt der realen Welt, aber keine weiteren Eigenschaften mit diesem teilt.
+ \item[Verb] Eine Zuordung zu dieser Kategorie erfolgt, wenn die Interaktion mit einem Objekt eine reale Entsprechung hat, dieses jedoch selbst keine Analogie zur realen Welt bildet. Diese Ausprägung tritt bei \glspl{TUI} unter anderem bei Gestensteuerung von Systemen auf.
+ \item[Noun and Verb] Hier hat das betreffende Objekt selbst eine Entsprechung in der realen Welt und auch dessen Verwendung ist analog zu jener der realen Entsprechung. Die Objekte sind dennoch nach wie vor unterschiedlich, das reale Objekt kann nicht im Tangible Interface eingesetzt werden, umgekehrt bietet das \gls{TUI}-Objekt nicht die reale Funktionalität des realen Objektes. 
+ \item[Full] In der höchsten Ausprägung existiert kein Unterschied zwischen \gls{TUI}-Objekt und realem Objekt - es gibt keine Analogie mehr, weil die Objekte identisch sind. Dieser Zustand ist erreicht, wenn Benutzer das TUI-Objekt manipulieren und sich die reale Welt entsprechend verändert. Beispiele für Systeme auf dieser Stufe sind zum Beispiel digital augmentierte Whiteboards, wo mit elektronischen Markern auf eine Oberfläche "geschrieben" wird, wobei die hinterlassene "Tinte" simultan projiziert wird.
+ 
+ \end{description}
+
+\subsubsection{Anwendung der Taxonomie}
+\citeauthor{Fishkin04} wendet seine Taxonomie auf die oben bereits beschriebenen Ansätze von \citep{Holmquist99} und \citep{Underkoffler99} an und zeigt, dass sich diese einordnen lassen. Er ordnet nach einer umfassenden Literaturstudie außerdem über 60 konkrete Tangible Interfaces in seine Taxonomie ein und stellt diese anhand deren Ausprägungen gegenüber. Ein offener Punkt ist die Verbindung zum MCRpd-Framework \citep{Ullmer00}, dass \citeauthor{Fishkin04} als komplementär bezeichnet und das auf einer anderen Abstraktionsstufe operiere. 
 
 \subsection{Tokens und Constraints nach Ullmer et al.}
 \citep{Ullmer05}
