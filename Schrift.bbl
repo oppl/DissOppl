@@ -51,6 +51,12 @@ Downing, T. (1998).
 \newblock {\em {Java RMI: remote method invocation}}.
 \newblock IDG Books Worldwide, Inc., Foster City, CA, USA.
 
+\bibitem[Feiner, 2008]{Feiner08}
+Feiner, T. (2008).
+\newblock {Modelleditor auf Basis dynamischer Metamodelle zur Unterst{\"u}tzung
+  partizipativer Modellerfassung und -reflexion}.
+\newblock Master's thesis, University of Linz.
+
 \bibitem[Ferscha et~al., 2008]{Ferscha08}
 Ferscha, A., Vogl, S., Emsenhuber, B., und Wally, B. (2008).
 \newblock {Physical shortcuts for media remote controls}.
@@ -63,6 +69,23 @@ Ferscha, A., Vogl, S., Emsenhuber, B., und Wally, B. (2008).
 Fishkin, K.~P. (2004).
 \newblock A taxonomy for and analysis of tangible interfaces.
 \newblock {\em Personal and Ubiquitous Computing}, 8(5):347--358.
+
+\bibitem[Fitzmaurice, 1996]{Fitzmaurice96}
+Fitzmaurice, G. (1996).
+\newblock {\em Graspable User Interfaces}.
+\newblock Phd-thesis, University of Toronto.
+
+\bibitem[Fitzmaurice et~al., 1995]{Fitzmaurice95}
+Fitzmaurice, G., Ishii, H., und Buxton, W. (1995).
+\newblock Bricks: laying the foundations for graspable user interfaces.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems (CHI)}, Seiten 442--449. ACM Press/Addison-Wesley
+  Publishing Co. New York, NY, USA.
+
+\bibitem[Fjeld, 2001]{Fjeld01}
+Fjeld, M. (2001).
+\newblock {\em Designing for tangible interaction}.
+\newblock PhD thesis, Swiss Federal Institute of Technology.
 
 \bibitem[Fjuk et~al., 1997]{Fjuk97}
 Fjuk, A., Nurminen, M., und Sm{\o}rdal, O. (1997).
@@ -127,10 +150,35 @@ Hanke, U. (2006).
   Informationsverarbeitung und beim Lernen}}.
 \newblock PhD thesis, University of Freiburg.
 
+\bibitem[Holmquist et~al., 1999]{Holmquist99}
+Holmquist, L., Redstr{\"o}m, J., und Ljungstrand, P. (1999).
+\newblock {Token-Based Acces to Digital Information}.
+\newblock In {\em Proceedings of the 1st international Symposium on Handheld
+  and Ubiquitous Computing}, Seiten 234--245. Springer-Verlag London, UK.
+
+\bibitem[Hornecker, 2004]{Hornecker04}
+Hornecker, E. (2004).
+\newblock {\em Tangible User Interfaces als kooperationsunterst{\"u}tzendes
+  Medium}.
+\newblock Phd-{T}hesis, University of Bremen. Dept. of Computing.
+
 \bibitem[Hughes, 1971]{Hughes71}
 Hughes, F. (1971).
 \newblock {\em The Sociological Eye}.
 \newblock Aldine de Gruyter.
+
+\bibitem[Ishii, 2008]{Ishii08}
+Ishii, H. (2008).
+\newblock {Tangible bits: beyond pixels}.
+\newblock In {\em Proceedings of the 2nd international conference on Tangible
+  and embedded interaction}. ACM New York, NY, USA.
+
+\bibitem[Ishii und Ullmer, 1997]{Ishii97}
+Ishii, H. und Ullmer, B. (1997).
+\newblock Tangible bits: towards seamless interfaces between people, bits and
+  atoms.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems (CHI)}, Seiten 234--241. ACM Press New York, NY, USA.
 
 \bibitem[{ISO JTC1/SC31}, 2006]{QR2008}
 {ISO JTC1/SC31} (2006).
@@ -174,6 +222,12 @@ Klemmer, S., Li, J., Lin, J., und Landay, J. (2004).
 \newblock {\em CHI Letters, Human Factors in Computing Systems: CHI2004.},
   6(1).
 
+\bibitem[Koleva et~al., 2003]{Koleva03}
+Koleva, B., Benford, S., Ng, K., und Rodden, T. (2003).
+\newblock {A Framework for Tangible User Interfaces}.
+\newblock In {\em Workshop-Proceedings on Real World User Interfaces, Mobile
+  HCI Conference 03}, Seiten 257--264.
+
 \bibitem[Neubauer, 2008]{Neubauer08}
 Neubauer, M. (2008).
 \newblock {Abbildung generischer Modelle auf Topic Maps}.
@@ -204,6 +258,13 @@ Oppl, S. und Stary, C. (2005).
 \newblock In Dix, A. und Dittmar, A., editors, {\em Proceedings of the 4th
   International Workshop on Task Models and Diagrams for User Interface Design
   (TAMODIA 2005)}, Seiten 55--62. ACM Press New York, NY, USA.
+
+\bibitem[Patten et~al., 2001]{Patten01}
+Patten, J., Ishii, H., Hines, J., und Pangaro, G. (2001).
+\newblock Sensetable: a wireless object tracking platform for tangible
+  interfaces.
+\newblock In {\em Proceedings of the ACM Conference on Human Factors in
+  Computing Systems 2001 (CHI '01)}.
 
 \bibitem[Pepper, 2000]{Pepper00}
 Pepper, S. (2000).
@@ -266,6 +327,11 @@ Semmer, N. und Udris, I. (2004).
 \newblock In Schuler, H., editor, {\em {Lehrbuch Organisationspsychologie}},
   Seiten 157--195. Huber, Bern, 3rd edition.
 
+\bibitem[Shaer et~al., 2004]{Shaer04}
+Shaer, O., Leland, N., Calvillo-Gamez, E., und Jacob, R. (2004).
+\newblock {The TAC paradigm: specifying tangible user interfaces}.
+\newblock {\em Personal and Ubiquitous Computing}, 8(5):359--369.
+
 \bibitem[Siegrist, 2005]{Siegrist05}
 Siegrist, J. (2005).
 \newblock {\em {Medizinische Soziologie}}.
@@ -301,6 +367,20 @@ Strauss, A. (1993).
 Ullmer, B. und Ishii, H. (2000).
 \newblock Emerging frameworks for tangible user interfaces.
 \newblock {\em IBM Systems Journal}, 39(3):915--931.
+
+\bibitem[Ullmer et~al., 2005]{Ullmer05}
+Ullmer, B., Ishii, H., und Jacob, R. (2005).
+\newblock Token + constraint systems for tangible interaction with digital
+  information.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  12(1):81--118.
+
+\bibitem[Underkoffler und Ishii, 1999]{Underkoffler99}
+Underkoffler, J. und Ishii, H. (1999).
+\newblock {Urp: A luminous-tangible workbench for urban planning and design}.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems: the CHI is the limit}, Seiten 386--393. ACM New York, NY,
+  USA.
 
 \bibitem[Van~Laerhoven et~al., 2003]{Van-Laerhoven03}
 Van~Laerhoven, K., Villar, N., Schmidt, A., Gellersen, H., Hakansson, M., und

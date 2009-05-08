@@ -1,7 +1,7 @@
 \chapter{Ausgabe} % (fold)
 \label{cha:visualisierung}
 
-In diesem Kapitel wird die konzeptuelle Ausrichtung und technische Umsetzung jenes Teils des Werkzeugs behandelt, der sich mit der Ausgabe von Information an die Benutzer beschäftigt. Im Bereich der Tangible Interface erfolgt die Ausgabe von Information zumeist kohärent mit dem Eingabemedium, eine physische Trennung zwischen Eingabe- und Ausgabekanälen wie in der herkömmlichen Mensch-Maschine-Interaktion liegt nicht vor \citep{Ullmer00}. \citet{Fishkin04} relativiert die strikte Forderung in seiner Taxonomie für Tangible Interfaces (wie in Abschnitt \ref{sub:tangibles_taxonomien} beschrieben und klassifiziert Benutzungsschnittstellen unter anderem nach dem Grad deren Ein- und Ausgabe-Kohärenz. Dementsprechend sind nicht nur jene Ausgabekanäle Gegenstand dieses Kapitels, die Information in direkter Verbindung mit den Eingabemedien zurückspiegeln, sondern auch jene, die Information auf anderen, nicht-kohärenten Wegen ausgeben.
+In diesem Kapitel wird die konzeptuelle Ausrichtung und technische Umsetzung jenes Teils des Werkzeugs behandelt, der sich mit der Ausgabe von Information an die Benutzer beschäftigt. Im Bereich der Tangible Interface erfolgt die Ausgabe von Information zumeist kohärent mit dem Eingabemedium, eine physische Trennung zwischen Eingabe- und Ausgabekanälen wie in der herkömmlichen Mensch-Maschine-Interaktion liegt nicht vor \citep{Ullmer00}. \citet{Fishkin04} relativiert die strikte Forderung in seiner Taxonomie für Tangible Interfaces (wie in Abschnitt \ref{sub:taxonomie_fishkin} beschrieben und klassifiziert Benutzungsschnittstellen unter anderem nach dem Grad deren Ein- und Ausgabe-Kohärenz. Dementsprechend sind nicht nur jene Ausgabekanäle Gegenstand dieses Kapitels, die Information in direkter Verbindung mit den Eingabemedien zurückspiegeln, sondern auch jene, die Information auf anderen, nicht-kohärenten Wegen ausgeben.
 
 Im ersten Abschnitt dieses Kapitels werden auf Basis der in Kapitel XY genannten Anforderung an das Werkzeug die den Benutzern mitzuteilenden Informationen identifiziert, noch ohne konkret auf die technologische Realisierung der Ausgabekanäle einzugehen. Im darauf folgenden Abschnitt die technologischen Möglichkeiten zur Ausgabe von Information betrachtet und im Anschluss hinsichtlich ihrer Eignung für die im konkreten Anwendungsfall auszugebende Information bewertet und entsprechend zugeordnet.
 
@@ -16,7 +16,7 @@ Die das Modell betreffende Information muss folgende Aspekte abdecken:
 \begin{itemize}
  \item Die Modellelemente betreffende Information (Art, Position, Benennung)
  \item Die Verbinder betreffende Information (Art, Endpunkte, Benennung)
- \item Einbettete Elemente betreffene Information (Art, Inhalt, Container)
+ \item Einbettete Elemente betreffende Information (Art, Inhalt, Container)
 \end{itemize}
 
 Zur Unterstützung des Modellierungsablaufs müssen folgende Aspekte zur Verfügung gestellt werden:
@@ -100,7 +100,7 @@ Generell muss bei entkoppelten Ausgabekanälen darauf geachtet werden, dass bei 
 
 Bei Ausgabe mittels Projektion auf entfernte Oberfläche (im Sinne von Oberflächen, die nicht dem eigentlichen Interface zuzuordnen sind) sind Aspekte wie Größe des Bildes oder Blickwinkelabhängigkeit der Darstellung meist keine Herausforderung. Mit einem Projektor können zumeist alle Benutzer ausreichend mit Information bedient werden. Ansonsten gelten die obigen Ausführungen hinsichtlich eindeutig zuzuordnendem Feedbacks analog.
 
-Bei individueller Nutzung eines Tangible Interfaces ist in der Verwendung von Bildschirm oder Projektor noch ein unterschiedlich hoher Grad an Privatheit der Ausgabekanäle festzustellen. Während Bildschirme eher dem mit dem System interagierenden Individuum als Ausgabekanal vorbehalten bleiben, sind projezierte Informationen quasi öffentlich verfügbar. Abhängig vom Anwendungsszenario des Tangible Interfaces kann dies erwünscht sein oder nicht.
+Bei individueller Nutzung eines Tangible Interfaces ist in der Verwendung von Bildschirm oder Projektor noch ein unterschiedlich hoher Grad an Privatheit der Ausgabekanäle festzustellen. Während Bildschirme eher dem mit dem System interagierenden Individuum als Ausgabekanal vorbehalten bleiben, sind projizierte Informationen quasi öffentlich verfügbar. Abhängig vom Anwendungsszenario des Tangible Interfaces kann dies erwünscht sein oder nicht.
 
 % subsubsection tokens_mit_aktuatoren (end)
 
@@ -111,7 +111,7 @@ Audio-basierte Ansätze werden hier als Vertreter von Ausgabekanälen vorgestell
 
 Die ausgegebene Information kann abstrakt, codiert oder natürlichsprachlich sein. Unter „abstrakter“ Information werden hier akustische Ausgaben verstanden, die nicht unmittelbar Bedeutung im sprachlichen Sinn tragen sondern auf Meldodien oder anderen Klangmustern basieren. Derartige Formen der Ausgabe kommen vor allem im künstlerischen Bereich zu Einsatz (REF reactable, TEI-Däne). „Codierte“ akustische Ausgabe deckt alle Bereiche ab, in denen Klänge verwendet werden, um Information zu transportieren, ohne das diese selbst in diesen Klängen abgebildet ist. Beispiele hierfür sind Signaltöne, die einen Fehler melden oder anderweitig die Aufmerksamkeit der Benutzer auf sich ziehen sollen. Unter „natürlichsprachlicher“ akustischer Ausgabe werden hier schließlich alle Ansätze eingeordnet, die die Ausgabe der Information direkt in Sprache umgesetzt vornehmen. Dies kann mittels gespeicherten (Teil-)Ansagen oder mittels Sprachsynthese realisiert werden. Im Gegensatz zu den anderen beiden Formen der akustischen Ausgabe ist die natürlichsprachliche Ausgabe abhängig vom Sprachverständnis der Benutzer und deshalb in einer bestimmten Konfiguration nur für einen beschränkten Benutzerkreis nutzbar.
 
-Akustische Ausgabe ist allen ihren Ausprägungen der Embodiment-Dimension „environment“ zuzuordnen. Sie kann im Allegemeinen (ohne den Einsatz von Ohrhörern) von allen sich im Umfeld des Interfaces befindlichen Personen wahrgenommen werden. Bei codierter Ausgabe muss darauf geachtet werden, das die Interpretation der Signale bekannt ist bzw. durch unterstützende (visuelle oder taktile) Maßnahmen erschließbar wird.
+Akustische Ausgabe ist allen ihren Ausprägungen der Embodiment-Dimension „environment“ zuzuordnen. Sie kann im Allgemeinen (ohne den Einsatz von Ohrhörern) von allen sich im Umfeld des Interfaces befindlichen Personen wahrgenommen werden. Bei codierter Ausgabe muss darauf geachtet werden, das die Interpretation der Signale bekannt ist bzw. durch unterstützende (visuelle oder taktile) Maßnahmen erschließbar wird.
 
 % subsubsection tokens_mit_aktuatoren (end)
 
@@ -149,7 +149,7 @@ Für die graphische Darstellung diagrammatischer Modelle (also vernetzter Strukt
 \subsubsection{In Frage kommende Frameworks} % (fold)
 \label{ssub:in_frage_kommende_frameworks}
 
-Die Anzahl der Möglichkeiten zur Darstellung graphischer Modelle durch Java ist groß. Die unterschiedlichen Ansätze unterscheiden sich vor allem in der angebotenen Abstraktionsstufe, wobei die Pole durch eine direkte Manipulation der Pixelgrafik in der das Modell dargestellt werden soll einerseits und eine rein logische, von der eigentlichen Darstellung vollständig entkoppelte Repräsentation des Modells andererseits gebildet werden. Hier wurden nur jene Frameworks betrachtet, die eine Verwaltung des darzustellendne Modells auf logischer Ebene ermöglichen und die eigentliche Ausgabe auf den Bildschirm übernehmen und kapseln. Kandidaten für Frameworks die diese Forderung erfüllen sind ohne Anspruch auf Vollständigkeit
+Die Anzahl der Möglichkeiten zur Darstellung graphischer Modelle durch Java ist groß. Die unterschiedlichen Ansätze unterscheiden sich vor allem in der angebotenen Abstraktionsstufe, wobei die Pole durch eine direkte Manipulation der Pixelgrafik in der das Modell dargestellt werden soll einerseits und eine rein logische, von der eigentlichen Darstellung vollständig entkoppelte Repräsentation des Modells andererseits gebildet werden. Hier wurden nur jene Frameworks betrachtet, die eine Verwaltung des darzustellenden Modells auf logischer Ebene ermöglichen und die eigentliche Ausgabe auf den Bildschirm übernehmen und kapseln. Kandidaten für Frameworks die diese Forderung erfüllen waren zum Zeitpunkt der Technologie-Entscheidung:
 \begin{itemize}
  \item Eclipse GEF (REF von Thomas)
  \item Tigris GEF (REF von Thomas)
@@ -184,6 +184,10 @@ Ein weiterer Vorteil von JHotDraw ist die Eigenständigkeit seiner Klassenbiblot
 \subsubsection{Framework-Entscheidung} % (fold)
 \label{ssub:output:framework_entscheidung}
 
+Für das konkret zu implementierende System erscheinen grundsätzlich beide Frameworks als geeignet. JHotDraw weist in der Standarddistribution einen geringeren, dafür aber auf die eigentliche Visualisierungsaufgabe fokussierteren Funktionsumfang auf, was sich positiv auf den für die Verwendung notwendigen Lernaufwand auswirkt. Für die Entwicklung des prototypischen Systems wurde neben diesem Grund aufgrund der leichtgewichtigeren Bibliothek und geringeren Abhängigkeiten von externen Bibliotheken sowie des größeren Umfangs von in der Standarddistribution mitgelieferten benötigten Funktionalitäten JHotDraw ausgewählt.
+
+In einer im Kontext der hier vorgestellten Arbeit angefertigten Diplomarbeit \citep{Feiner08} wurde ein auf \gls{GEF} basierendes System entwickelt, das an die existierenden Eingabekanäle angebunden werden kann und prototypisch zeigt, wie \gls{GEF} für die Darstellung flexibler Modelle (im Sinne von dynamisch zugewiesener Semantik und Visualisierung) eingesetzt werden kann. Ein zusätzlicher Aspekt dieser Arbeit ist die Möglichkeit zum synchronen verteilten Betrieb mehrerer Instanzen der Applikation, die simultan am gleichen Modell arbeiten. Die Arbeit schafft damit die Voraussetzungen, synchron an mehreren (physischen oder graphischen) Schnittstellen ein Modell kooperativ zu manipulieren. Sie ist außerdem aufgrund der gemeinsamen Basis-Infrastruktur in Instanzer der Eclipse Rich Client Platform (REF) integrierbar und kann so nahtlos in komplexere, auf dieser Plattform basierende Systeme integrierbar.
+
 % subsubsection output_framework_entscheidung (end)
 % subsubsetion in_frage_kommende_frameworks (end)
 
@@ -204,7 +208,7 @@ Wiederum auf abstrakter Ebene beginnend, wird das Konzept beschrieben, das bei d
 \subsection{Konzept} % (fold)
 \label{sub:ausgabe_konzept}
 
-Wie bereits oben beschrieben wird die auszugebende Information im konkreten Werkzeug auf zwei Ausgabekanäle verteilt. Grundsätzlich wird Information auf einem mit den Eingabekanälen räumlich kohärenten Kanal (der Tischoberfläche) ausgegeben. Ist dies aufgrund der Art der auszugebenden Information nicht adäquat möglich, wird der zweite Ausgabekanal als primäres Kommunikationsmedium verwendet. In der übrigen Zeit spielt der zweite Ausgabekanal eine untergeordnete Rolle und kann zur unterstützenden simulatenen Visualisierung der am primären Kanal ohnehin ausgegebenen Information dienen.
+Wie bereits oben beschrieben wird die auszugebende Information im konkreten Werkzeug auf zwei Ausgabekanäle verteilt. Grundsätzlich wird Information auf einem mit den Eingabekanälen räumlich kohärenten Kanal (der Tischoberfläche) ausgegeben. Ist dies aufgrund der Art der auszugebenden Information nicht adäquat möglich, wird der zweite Ausgabekanal als primäres Kommunikationsmedium verwendet. In der übrigen Zeit spielt der zweite Ausgabekanal eine untergeordnete Rolle und kann zur unterstützenden simultanen Visualisierung der am primären Kanal ohnehin ausgegebenen Information dienen.
 
 Während eines Modellierungsvorgangs bleibt der Fokus der Ausgabe grundsätzlich am primären Ausgabekanal, der Tischoberfläche, auf der kohärent mit den auf ihr platzierten Tokens Information ausgegeben wird. In lediglich zwei Fällen erhält der zweite Ausgabekanal den Fokus:
 \begin{itemize}
@@ -461,5 +465,18 @@ Zum einen bringt die Klasse \texttt{Task} eine eigene Methode zur Prüfung der E
 % subsection umsetzung_der_wiederherstellungsunterstützung (end)
 
 % section umsetzung_der_ausgabe_mit_software (end)
+\section{Zusammenfassung} % (fold)
+\label{sec:output_zusammenfassung}
 
+In diesem Kapitel wurden alle Aspekte dargestellt, die in Zusammenhang mit der Ausgabe von Information durch das hier entwickelte Werkzeug stehen. Die Struktur des Kapitels wurde dabei analog zu jener des vorhergehenden Kapitels erstellt um eine konsistente Darstellung der technischen Aspekte des Systems zu gewährleisten. Im ersten Teil wurde auf Basis der in Kapitel XY definierten Anforderungen abgeleitet, welche Arten von Information den Benutzern zur Unterstützung der Modellierung zur Verfügung gestellt werden müssen. Die dort identifizierten Aspekte bilden die Grundlage der Technologieentscheidung und der konkreten Umsetzung des Systems.
+
+Im zweiten Abschnitt wurden die technologischen Grundlagen der Informationsausgabe behandelt. Nach der Identifikation der Kohärenz von Ein- und Ausgabekanälen als wesentliches Designkriterium bei Tangible User Interfaces wurden unterschiedliche technische Lösungen für kohärente und nicht kohärente Informationsausgabe beschrieben. Die Klassifikation der Ansätze erfolgt dabei auf Basis der von \citep{Fishkin04} vorgeschlagenen Taxonomie. Auf Basis der bereits vorhandenen technologischen Einschränkungen durch die Technologie-Entscheidung in Kapitel \ref{cha:input_&_interpretation} wurde in der Folge für jede auszugebende Informationsart ein Zuordnung zu kohärenten oder nicht-kohärenten Ausgabeformen getroffen. Daraus resultiert die Entscheidung, mehr als einen Ausgabekanal zu verwenden, da eine ausschließlich kohärente Ausgabe nicht möglich ist. Für die Umsetzung der Ausgabekanäle, die auf visuellem Weg realisiert werden, wurden geeignete Software-Frameworks beschrieben und einander gegenübergestellt. Auf Basis der festgelegten funktionalen und nicht-funktionalen Anforderungen kommen die Frameworks JHotDraw (REF) und \gls{GEF} (REF) in Frage, von denen für die Erstellung des Prototypen JHotDraw als das System mit der fokussierteren Funktionalität und geringerem Einarbeitungsaufwand ausgewählt wurde. Im Rahmen einer Diplomarbeit \citep{Feiner08} wurde jedoch daneben ein auf \gls{GEF} basierender Ausgabekanal implementiert.
+
+Der dritte Abschnitt widmet sich auf Basis der auszugebenden Information und der zuvor getroffenen Technologieentscheidung der konzeptuellen Architektur der Ausgabekanäle. Hier wurde festgelegt, welche Information in welcher Form auf welchen Ausgabekanal dargestellt wird. Dabei wurde zur besseren Strukturierung in Ausgaben unterschieden, die dem Modell selbst zuzuordnen sind und in solche, die der Unterstützung der Modellbildung dienen.
+
+Die Beschreibung der konkreten Umsetzung der Ausgabekanäle ist Gegenstand des vierten Abschnitts. Anhand eines Klassendiagramms der konkreten Umsetzung wurden die Zusammenhänge zwischen den Implementierungen der Ausgabekanäle gezeigt, die so ausgelegt sind, das Änderungen mit minimalem Aufwand an nur einer Stelle für beide Ausgabekanäle durchgeführt werden können. Außerdem wurde beschrieben, wie die Anbindung entfernter Ausgabekanäle realisiert wurde. Für jede Art von auszugebender Information (Modellzustand, Modellierungshistorie und Wiederherstellungsunterstützung) ist außerdem angeführt, welche Abläufe innerhalb des Systems letztendlich zur Ausgabe der korrekten Visualisierung führt. 
+
+Mit der Beschreibung der Softwarekomponenten, die für die Ausgabe der Information sorgen, ist die eigentliche Benutzungsschnittstelle vollständig definiert. Auf Basis dieses und des vorhergehenden Kapitels wird in Kapitel \ref{cha:konzeptuelle_evaluierung} das System in die in Kapitel \ref{cha:implementierung_Überblick} beschriebenen Erklärungs- und Strukturierungsansätze für Tangible Interfaces eingeordnet. Ein weiterer Aspekt der Implementierung, der in dieser Arbeit zu berücksichtigen ist, ist die Persistierung der Modell-Information in einer Form, die eine vollständige Abbildung der Semantik der Modelle und eine Weiterverarbeitung durch externe System erlaubt. Dieser Aspekt ist Gegenstand des folgenden Kapitels.
+
+% section output_zusammenfassung (end)
 % chapter visualisierung (end)

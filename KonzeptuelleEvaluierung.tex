@@ -15,17 +15,58 @@ Die Werkzeugtokens des hier vorgestellten Systems entsprechen in ihrer Konzeptio
 
 \subsection{Bewertung}
 
-Die konzeptuellen Elemente des hier vorgestellten Systems sind also auf das Ordnungsstem von \citet{Holmquist99} abbildbar. Die Problematik der nicht eindeutigen Zuordnung von Modellierungstokens zur Kategorie \emph{Tokens] oder \emph{Constraints} ist einerseits auf eine der grundlegenen Design-Paradigmen des hier entwickelten Werkzeugs -- der Flexibiltät der Abbildung -- zurückzuführen, weist aber andererseits auch auf mögliches Verbesserungspotential hin.
+Die konzeptuellen Elemente des hier vorgestellten Systems sind also auf das Ordnungsstem von \citet{Holmquist99} abbildbar. Die Problematik der nicht eindeutigen Zuordnung von Modellierungstokens zur Kategorie \emph{Tokens} oder \emph{Constraints} ist einerseits auf eine der grundlegenden Design-Paradigmen des hier entwickelten Werkzeugs -- der Flexibiltät der Abbildung -- zurückzuführen, weist aber andererseits auch auf mögliches Verbesserungspotential hin.
 
 Durch die Flexibilisierung nicht nur der Bindung zwischen physischen Elementen und digitaler Repräsentation sondern auch der Verwendung von unterschiedlichen physischen Elementen selbst könnten Modellierungstokens eher \emph{Token}-artiger werden. Indem Modellierende eigenen physische Elemente (auf ihrem Arbeitskontext) einbringen können, könnte die Erfassbarkeit der Bedeutung der physischen Repräsentation unter Umständen verbessert werden können.
 
-\section{Einordung in die Taxonomie von Fishkin}
+\section{Einordnung in die Taxonomie von Fishkin}
 
-Grundlage der Einordung in diesem Abschnitt ist der Ansatzes von \citep{Holmquist99}, der in Abschnitt \ref{sub:taxonomie_fishkin} beschrieben wurde.
+Grundlage der Einordnung in diesem Abschnitt ist der Ansatzes von \citep{Fishkin04}, der in Abschnitt \ref{sub:taxonomie_fishkin} beschrieben wurde.
 
 \subsection{Abbildung}
+Das in dieser Arbeit entwickelte Werkzeug überspannt aufgrund seiner komplexen Struktur in beiden von \citeauthor{Fishkin04} vorgeschlagenen Dimensionen zur Klassifikation von Tangible Interfaces mehrere Ausprägungen. Um eine umfassende und ins Detail gehende Einordnung vornehmen zu können, werden im Folgenden Einzelaspekte des Systems betrachtet und eingeordnet. Während die Dimension "Embodiment" bereits in Kapitel \ref{cha:visualisierung} betrachtet wurde, um eine strukturierte Zuordnung der Ausgabekanäle vornehmen zu können, werden hier die einzelnen Funktionalitäten des Systems (siehe Abschnitt \ref{sec:benutzerinteraktion_mit_dem_werkzeug}) jeweils beiden Dimensionen zugeordnet (siehe Tabelle \ref{tab:einordnungFishkin})
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{| p{6cm} || p{3cm} | p{3cm} |} \hline
+		 & Embodiment & Metaphor \\ \hline \hline
+		Platzieren und Benennen von Modellelementen & distant, nearby (Tastatur), full (Haftnotiz) & verb (Tastatur), verb + noun (Haftnotiz) \\ \hline
+		Erstellen von Verbindern & nearby & verb bis noun+verb (Werkzeugtokens), verb (räumliche Nähe)\\ \hline
+		Löschen von Verbindern & environmental bis nearby & noun \\ \hline
+		Einbetten von Information & full & noun + verb \\ \hline
+		Abrufen von Information & distant & verb \\ \hline
+		Erstellen von Snapshots & environmental bis nearby & none \\ \hline
+		Navigation in der Modell-Historie & distant & verb \\ \hline
+		Wiederherstellen eines Modell-Zustandes & nearby & noun + verb\\ \hline
+	\end{tabular}
+	\caption{Einordnung des Systems in die Taxonomie nach Fishkin}
+	\label{tab:einordnungFishkin}
+\end{table}
+
+Beim \emph{Platzieren und Benennen von Modellelementen} ist die Benennung auf zwei Arten möglich, die unterschiedlich in die Taxonomie einzuordnen sind. Bei Benennung mittels Auswahl und Tastatur ist durch die Projektion der Benennung die Embodiment-Ausprägung "nearby" zu wählen. Der Vorgang der Auswahl und Benennung kann als analog zur realen Welt gesehen werden, die eingesetzten Werkzeuge sind aber generischer Natur -- Metaphor ist also als "verb" zu klassifizieren. Bei der Benennung mittels Haftnotitz ist durch die unmittelbar auf den Tokens angebrachten Benennungen Embodiment "full", Der Vorgang des Beschriftens wird analog zur realen Welt durchgeführt, auch die Informationsträger (Haftnotizen) entsprechen jenen der realen Welt, Metaphor ist also "verb + noun", wobei  der notwendige Vorgang der expliziten Erfassung einer Beschriftung durch das System eine Klassifikation "full" verhindert und sogar die Einstufung "noun + verb" etwas abschwächt (keine Analogie des Vorgangs zur realen Welt).
+
+Zur \emph{Herstellung von Verbindern} existieren ebenfalls zwei Möglichkeiten. In beiden Fällen ist durch die Projektion der Verbindung die Ausprägung in Embodiment "nearby", sie unterscheiden sich jedoch hinsichtlich "Metaphor". Bei der Verwendung von Werkzeugtokens ist der Vorgang der Auswahl der Endpunkte analog zur realen Welt zu sehen und somit als "verb" einzustufen. Die Verwendung von spezifischen Werkzeugtokens zur Herstellung gerichteter Verbinder zeigt sogar Züge von "noun + verb", da die durch das Token dargestellte Pfeilspitze eine Analogie zur realen Welt bildet.
+
+Das \emph{Löschen von Verbindern} wird durch das Lösch-Token vorgenommen. Dieses ist durch einen Radiergummi symbolisiert, der jedoch nicht als solche eingesetzt wird sondern das System nur in einen Löschmodus versetzt. Die Klassifikation in Metaphor ist demnach "noun". Die Visualisierung des Löschzustandes erfolgt unspezifisch durch die Umfärbung der gesamten Tischoberfläche, womit ein Embodiment von "nearby" oder "environmental" (aufgrund der Unspezifität) gerechtfertigt wäre.
+
+\emph{Einbetten von Information} erfolgt durch die Verwendung der Modellierungstokens als Container und Hineinlegen von kleineren Tokens. Embodiment ist in diesem Fall "full", die die Einbettung physisch nachvollzogen wird. Metaphor ist durch die Analogie des "Hineinlegens" von Information in "Container" in die Ausprägung "noun + verb" einzuordnen.
+
+Das \emph{Abrufen von Information} wird über den sekundären Ausgabekanal abgewickelt und ist daher in Embodiment als "distant" einzuordnen. Der Vorgang des Herausnehmens von Information aus einem Container existiert analog zur realen Welt, das bei diesem Vorgang im Zentrum stehende Objekt, das einbettbare Token, ist jedoch generisch und weist nicht auf die Art der eigebetteten Information hin. Eine Klassifikation von "verb" in Metaphor erscheint daher gerechtfertigt.
+
+Beim \emph{Erstellen von Snapshots} wird die gesamte Tischoberfläche als Feedbackkanal genutzt. Insofern ist Embodiment wie im Falle des Löschens von Verbindern im Bereich "environmental" bis "nearby" anzusiedeln. Das Snapshot-Token selbst ist ein generisches Objekt, das keine Analogie zur realen Welt aufweist. Metaphor ist daher "none".
+
+Die \emph{Navigation in der Modell-Hierarchie} erfolgt mit dem runden Navigations-Token. Zur Ausgabe der gespeicherten Modell-Zustände wird der sekundäre Ausgabekanal
+verwendet. Embodiment ist deshalb "distant". Metaphor beschränkt sich auf "verb", da der Drehvorgang zur Navigation analog zum Einstellen einer Uhr erfolgt, das Token selbst aber bis auf seine runde Form generisch ist.
+
+Das \emph{Wiederherstellen eines Modellzustandes} erfolgt durch spezifische Anweisungen auf der Modellierungsoberfläche. Embodiment ist also als "nearby" einzustufen. Der Vorgang der Wiederherstellung erfolgt durch Verschieben der Modellierungstokens, was im Wesentlichen analog zur realen Welt abläuft. Da unmittelbar die Objekte manipuliert werden, kann Metaphor als "noun + verb" eingestuft werden.
 
 \subsection{Bewertung}
+
+Die Taxonomie nach \citeauthor{Fishkin04} ermöglicht eine strukturierte Erfassung einzelner Aspekte eines Tangible User Interfaces. Eine aussagekräftige Gesamteinordnung ist nur bei einfachen \glspl{TUI} möglich, komplexe, mit vielen Interaktionsmöglichkeiten ausgestattete Systeme tendieren dazu, ein sehr breites Spektrum der Taxonomie abzudecken. Für die detaillierte Betrachtung eines komplexen Gesamtsystems erscheint die Taxonomie dennoch geeignet, da einerseits aus den einzelnen Teileinordnungen für den jeweiligen Anwendungsfall ggf. Verbesserungspotentiale abgeleitet werden können und andererseits (nach der Betrachtung des hier entwickelten Systems) scheint, als ob ein die Taxonomie breit abdeckendes Gesamtsystem potentiell Inkonsistenzen im Interaktionsdesign aufweist bzw. unterschiedliche Interaktionsparadigmen vermischt wurden. Vor allem "Ausreißer" aus einem vorwiegend einheitlichen Gesamtbild scheinen einer näheren Betrachtung hinsichtlich eines möglichen Redesigns wert.
+
+Konkret können diese Vermutungen im vorliegenden System vor allem an der Konzeption des Lösch-Tokens und des Snapshot-Tokens festgemacht werden. Der Großteil der Interaktionen mit dem System beinhaltet in der Dimension Metaphor den "verb"-Aspekt (zu etwa gleichen Teilen ausschließlich und in der Kombination mit "noun"). Die Funktionalitäten, die die beiden erwähnten Tokens einbeziehen, laufen diesem Trend entgegen und zeigen in Metaphor die Ausprägung "noun" bzw. "none". Tatsächlich zeigt sich in der Praxis, das die die Anwendbarkeit dieser Tokens von Benutzern missverstanden bzw. nicht verstanden wird. Ein Redesign dieser Tokens mit expliziterer bzw. eher aktivitätsorientierter Metaphor erscheint deshalb untersuchenswert.
+
+Zusammenfassend scheint die Taxonomie vor allem im Zusammenhang mit der Sicherung von konsistenter Interaktion an der Benutzungsschnittstelle sinnvoll anwendbar zu sein. Der Mehrwert des Ansatzes zeigt sich hier nicht so sehr in den absoluten Ausprägungen auf den beiden Dimensionen sondern vielmehr in den relativen Unterschieden, die zwischen den einzelnen Teilen des Tangible User Interfaces auftreten.
 
 \section{Zusammenfassung}
 
