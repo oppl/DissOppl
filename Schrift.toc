@@ -161,10 +161,10 @@
 \contentsline {subsubsection}{Information zu Modellelementen}{108}{section*.75}
 \contentsline {subsubsection}{Information zu Verbindern}{110}{section*.76}
 \contentsline {subsubsection}{Information zu eingebetteten Elementen}{110}{section*.77}
-\contentsline {subsection}{\numberline {5.3.4}Ausgabe zur Kontrolle des Systems}{113}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.4}Ausgabe zur Kontrolle des Systems}{112}{subsection.5.3.4}
 \contentsline {subsubsection}{Zustands- und Ereignismeldungen}{113}{section*.78}
 \contentsline {paragraph}{Elementauswahl}{113}{section*.79}
-\contentsline {paragraph}{Verbindungsherstellung}{114}{section*.80}
+\contentsline {paragraph}{Verbindungsherstellung}{113}{section*.80}
 \contentsline {paragraph}{explizite Snapshots}{114}{section*.81}
 \contentsline {paragraph}{Löschmodus}{115}{section*.82}
 \contentsline {subsubsection}{Abruf der Modellierungshistorie}{115}{section*.83}
@@ -172,7 +172,7 @@
 \contentsline {section}{\numberline {5.4}Umsetzung der Ausgabe mit Software}{118}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Ausgabe des Modellzustands}{120}{subsection.5.4.1}
 \contentsline {subsubsection}{Kalibrierung der Ausgabe}{121}{section*.85}
-\contentsline {subsection}{\numberline {5.4.2}Ausgabe der Modellierungshistorie}{122}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Ausgabe der Modellierungshistorie}{121}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}Umsetzung der Wiederherstellungsunterstützung}{122}{subsection.5.4.3}
 \contentsline {section}{\numberline {5.5}Zusammenfassung}{124}{section.5.5}
 \contentsline {chapter}{\numberline {6}Persistierung}{127}{chapter.6}

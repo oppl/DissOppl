@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  8 MAY 2009 21:43
+This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  9 MAY 2009 23:23
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -1105,6 +1105,11 @@ Underfull \hbox (badness 1052) in paragraph at lines 42--43
 Underfull \vbox (badness 2529) has occurred while \output is active []
 
  [6]
+
+Package natbib Warning: Citation `Leontev78' on page 7 undefined on input line 
+57.
+
+
 Overfull \hbox (2.78247pt too wide) in paragraph at lines 57--58
 []\EU1/HoeflerText(0)/m/n/12 In der Literatur existieren zwei Ansätze zur Diff
 erenzierung zwischen unterschied-
@@ -1853,6 +1858,15 @@ Overfull \hbox (2.50359pt too wide) in paragraph at lines 47--48
  []
 
 [95]
+
+Package natbib Warning: Citation `Shinar04' on page 96 undefined on input line 
+60.
+
+
+Package natbib Warning: Citation `Comiskey98' on page 96 undefined on input lin
+e 60.
+
+
 Overfull \hbox (11.24474pt too wide) in paragraph at lines 60--61
 \EU1/HoeflerText(0)/m/n/12 dung von Displays notwendig. Bei der Verwendung von 
 herkömmlichen []LCD[][]-Displays
@@ -1864,17 +1878,15 @@ Overfull \hbox (5.0179pt too wide) in paragraph at lines 60--61
 rgieverbrauch verhältnismäßig
  []
 
-
-Overfull \hbox (3.96767pt too wide) in paragraph at lines 60--61
-\EU1/HoeflerText(0)/m/n/12 hoch. Alternativ können neuere Technologien wie OLE
-D[][][][]- (REF) oder eInk-Displays
- []
-
 [96] [97]
 Overfull \hbox (0.41104pt too wide) in paragraph at lines 75--76
 []\EU1/HoeflerText(0)/m/n/12 Im Bereich der Tabletop Interfaces ist die Verwend
 ung von Aktuatoren eher selten
  []
+
+
+Package natbib Warning: Citation `Kaltenbrunner06' on page 98 undefined on inpu
+t line 85.
 
 
 Overfull \hbox (4.53581pt too wide) in paragraph at lines 87--88
@@ -1887,6 +1899,10 @@ Overfull \hbox (24.88068pt too wide) in paragraph at lines 110--111
 \EU1/HoeflerText(0)/m/n/12 die in die Kategorie „environmental Embodiment“ 
 eingeordnet werden. Audio-Interfaces
  []
+
+
+Package natbib Warning: Citation `Kaltenbrunner06' on page 100 undefined on inp
+ut line 112.
 
 
 Overfull \hbox (1.97165pt too wide) in paragraph at lines 112--113
@@ -1912,9 +1928,27 @@ zlich den Modellierungsunterstützungs-
  []
 
 [102]
-Overfull \hbox (21.62784pt too wide) in paragraph at lines 174--175
+
+Package natbib Warning: Citation `Gamma96' on page 103 undefined on input line 
+156.
+
+
+Package natbib Warning: Citation `Budinsky03' on page 103 undefined on input li
+ne 165.
+
+
+Package natbib Warning: Citation `Gamma96' on page 103 undefined on input line 
+174.
+
+
+Package natbib Warning: Citation `Brant95' on page 103 undefined on input line 
+174.
+
+
+Overfull \hbox (30.83418pt too wide) in paragraph at lines 174--175
 [] \EU1/GillSans(0)/bx/n/12 JHotDraw[][] \EU1/HoeflerText(0)/m/n/12 Das JHotDra
-w-Framework (REF Gamma) ist eine Java-Implementierung
+w-Framework (\EU1/HoeflerText(0)/bx/n/12 ?\EU1/HoeflerText(0)/m/n/12 ) ist eine
+ Java-Implementierung des Smalltalk-
  []
 
 [103]
@@ -1929,16 +1963,17 @@ Overfull \hbox (1.23093pt too wide) in paragraph at lines 187--188
 en grundsätzlich beide Frame-
  []
 
+
+Package natbib Warning: Citation `McAffer05' on page 104 undefined on input lin
+e 189.
+
 [104]
 Overfull \hbox (12.06306pt too wide) in paragraph at lines 204--205
 \EU1/HoeflerText(0)/m/n/12 In diesem Abschnitt wird nun auf Basis der eben getr
 offenen Framework-Entscheidung
  []
 
-
-Underfull \vbox (badness 2435) has occurred while \output is active []
-
- [105]
+[105]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [106]
@@ -1984,13 +2019,9 @@ Overfull \hbox (1.0429pt too wide) in paragraph at lines 317--319
 andardapplikation geöffnet wer-
  []
 
-
-Underfull \vbox (badness 4120) has occurred while \output is active []
-
- [112]
+[112]
 File: img/SystemNeu/MarkierungTisch.jpg Graphic file (type QTm)
-
-<use  "img/SystemNeu/MarkierungTisch.jpg" > [113] [114]
+ <use  "img/SystemNeu/MarkierungTisch.jpg" > [113] [114]
 File: img/SystemNeu/HistoryScreen.png Graphic file (type QTm)
 
 <use  "img/SystemNeu/HistoryScreen.png" > [115]
@@ -2426,11 +2457,13 @@ sen, H., Hakansson, M., und Holm-
  []
 
 )
+
+Package natbib Warning: There were undefined citations.
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Schrift.maf file.
 \openout4 = `Schrift.maf'.
-
 
 
 Package minitoc(hints) Warning: W0024
@@ -2440,12 +2473,16 @@ Package minitoc(hints) Warning: W0024
 [18] (./Schrift.aux (./Grundlagen.aux) (./Werkzeug.aux) (./Evaluierung.aux)
 (./AnhangBildquellen.aux))
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 14122 strings out of 494701
- 229678 string characters out of 1164829
+ 14130 strings out of 494701
+ 229769 string characters out of 1164829
  405926 words of memory out of 3000000
- 16721 multiletter control sequences out of 10000+50000
+ 16729 multiletter control sequences out of 10000+50000
  7546 words of font info for 58 fonts, out of 3000000 for 5000
  669 hyphenation exceptions out of 8191
  40i,11n,56p,2572b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
