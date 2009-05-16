@@ -4,46 +4,46 @@ The style file: apalike.bst
 A level-1 auxiliary file: Grundlagen.aux
 A level-1 auxiliary file: Werkzeug.aux
 A level-1 auxiliary file: Evaluierung.aux
-A level-1 auxiliary file: AnhangBildquellen.aux
+A level-1 auxiliary file: Bildquellen.aux
 Database file #1: /Users/oppl/Documents/Dokumente/Literatur/Archiv.bib
-You've used 71 entries,
+You've used 86 entries,
             1935 wiz_defined-function locations,
-            935 strings with 14171 characters,
-and the built_in function-call counts, 26299 in all, are:
-= -- 2607
-> -- 906
-< -- 74
-+ -- 303
-- -- 289
-* -- 1977
-:= -- 4574
-add.period$ -- 228
-call.type$ -- 71
-change.case$ -- 485
-chr.to.int$ -- 71
-cite$ -- 71
-duplicate$ -- 1159
-empty$ -- 1940
-format.name$ -- 390
-if$ -- 5307
+            1024 strings with 16518 characters,
+and the built_in function-call counts, 31624 in all, are:
+= -- 3123
+> -- 1114
+< -- 90
++ -- 373
+- -- 355
+* -- 2389
+:= -- 5531
+add.period$ -- 276
+call.type$ -- 86
+change.case$ -- 584
+chr.to.int$ -- 86
+cite$ -- 86
+duplicate$ -- 1383
+empty$ -- 2316
+format.name$ -- 479
+if$ -- 6356
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 66
-newline$ -- 358
-num.names$ -- 219
-pop$ -- 500
+missing$ -- 80
+newline$ -- 433
+num.names$ -- 268
+pop$ -- 601
 preamble$ -- 1
-purify$ -- 497
+purify$ -- 602
 quote$ -- 0
-skip$ -- 863
+skip$ -- 1028
 stack$ -- 0
-substring$ -- 1594
-swap$ -- 193
-text.length$ -- 22
+substring$ -- 1883
+swap$ -- 223
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 398
+type$ -- 480
 warning$ -- 0
-while$ -- 203
+while$ -- 244
 width$ -- 0
-write$ -- 932
+write$ -- 1126
