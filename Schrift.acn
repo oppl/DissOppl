@@ -62,7 +62,9 @@
 \glossaryentry{API?\glossaryentryfield{API}{\glsnamefont{\acronymfont {API}}}{Application Interface}{\relax }|setentrycounter{page}\glsnumberformat}{149}
 \glossaryentry{XTM?\glossaryentryfield{XTM}{\glsnamefont{\acronymfont {XTM}}}{XML Topic Map}{\relax }|setentrycounter{page}\glsnumberformat}{150}
 \glossaryentry{XML?\glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }|setentrycounter{page}\glsnumberformat}{150}
+\glossaryentry{RDBMS?\glossaryentryfield{RDBMS}{\glsnamefont{\acronymfont {RDBMS}}}{Relationales Datenbank Management System}{\relax }|setentrycounter{page}\glsnumberformat}{150}
 \glossaryentry{XTM?\glossaryentryfield{XTM}{\glsnamefont{\acronymfont {XTM}}}{XML Topic Map}{\relax }|setentrycounter{page}\glsnumberformat}{150}
+\glossaryentry{RDBMS?\glossaryentryfield{RDBMS}{\glsnamefont{\acronymfont {RDBMS}}}{Relationales Datenbank Management System}{\relax }|setentrycounter{page}\glsnumberformat}{150}
 \glossaryentry{JPEG?\glossaryentryfield{JPEG}{\glsnamefont{\acronymfont {JPEG}}}{Joint Photographic Experts Group (File Interchange Format)}{\relax }|setentrycounter{page}\glsnumberformat}{156}
 \glossaryentry{GIF?\glossaryentryfield{GIF}{\glsnamefont{\acronymfont {GIF}}}{Graphics Interchange Format}{\relax }|setentrycounter{page}\glsnumberformat}{156}
 \glossaryentry{PNG?\glossaryentryfield{PNG}{\glsnamefont{\acronymfont {PNG}}}{Portable Network Graphics}{\relax }|setentrycounter{page}\glsnumberformat}{156}
@@ -73,3 +75,6 @@
 \glossaryentry{PNG?\glossaryentryfield{PNG}{\glsnamefont{\acronymfont {PNG}}}{Portable Network Graphics}{\relax }|setentrycounter{page}\glsnumberformat}{156}
 \glossaryentry{AWT?\glossaryentryfield{AWT}{\glsnamefont{\acronymfont {AWT}}}{Abstract Window Toolkit}{\relax }|setentrycounter{page}\glsnumberformat}{156}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{165}
+\glossaryentry{CSCW?\glossaryentryfield{CSCW}{\glsnamefont{\acronymfont {CSCW}}}{Computer Supported Cooperative Work}{\relax }|setentrycounter{page}\glsnumberformat}{174}
+\glossaryentry{EPK?\glossaryentryfield{EPK}{\glsnamefont{\acronymfont {EPK}}}{Ereignisgesteuerte Prozesskette}{\relax }|setentrycounter{page}\glsnumberformat}{176}
+\glossaryentry{EPK?\glossaryentryfield{EPK}{\glsnamefont{\acronymfont {EPK}}}{Ereignisgesteuerte Prozesskette}{\relax }|setentrycounter{page}\glsnumberformat}{176}

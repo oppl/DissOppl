@@ -45,6 +45,14 @@ Budinsky, F., Brodsky, S., und Merks, E. (2003).
 \newblock {\em {Eclipse modeling framework}}.
 \newblock Pearson Education.
 
+\bibitem[Ca{\~n}as et~al., 2004]{Canas04}
+Ca{\~n}as, A., Hill, G., Carff, R., Suri, N., Lott, J., Eskridge, T.,
+  G{\'o}mez, G., Arroyo, M., und Carvajal, R. (2004).
+\newblock Cmaptools: A knowledge modeling and sharing environment.
+\newblock In {\em Concept Maps: Theory, Methodology, Technology, Proceedings of
+  the 1st International Conference on Concept Mapping. Pamplona, Spain:
+  Universidad P{\'u}blica de Navarra}.
+
 \bibitem[Carriero und Gelernter, 1989]{Carriero89}
 Carriero, N. und Gelernter, D. (1989).
 \newblock Linda in context.
@@ -82,6 +90,12 @@ Dey, A.~K., Salber, D., und Abowd, G.~D. (2001).
 Downing, T. (1998).
 \newblock {\em {Java RMI: remote method invocation}}.
 \newblock IDG Books Worldwide, Inc., Foster City, CA, USA.
+
+\bibitem[Ellson et~al., 2002]{Ellson02}
+Ellson, J., Gansner, E., Koutsofios, L., North, S., und Woodhull, G. (2002).
+\newblock {Graphviz-open source graph drawing tools}.
+\newblock In {\em Graph Drawing}, Lecture Notes in Computer Science, Seiten
+  483--484. Springer.
 
 \bibitem[Emery und Trist, 1960]{Emery60}
 Emery, F. und Trist, E. (1960).
@@ -192,6 +206,12 @@ Hanke, U. (2006).
   Informationsverarbeitung und beim Lernen}}.
 \newblock PhD thesis, University of Freiburg.
 
+\bibitem[Herrmann et~al., 2004]{Herrmann04a}
+Herrmann, T., Hoffmann, M., Kunau, G., und Loser, K. (2004).
+\newblock A modelling method for the development of groupware applications as
+  socio-technical systems.
+\newblock {\em Behaviour \& Information Technology}, 23(2):119--135.
+
 \bibitem[Holmquist et~al., 1999]{Holmquist99}
 Holmquist, L., Redstr{\"o}m, J., und Ljungstrand, P. (1999).
 \newblock {Token-Based Acces to Digital Information}.
@@ -240,6 +260,11 @@ Ishii, H. und Ullmer, B. (1997).
 {ISO JTC1/SC34} (2008).
 \newblock {Topic Maps Constraint Language}.
 \newblock draft standard, ISO/IEC.
+
+\bibitem[{ISO JTC1/SC34/WG3}, 2006]{XTM06}
+{ISO JTC1/SC34/WG3} (2006).
+\newblock {Information Technology - Topic Maps - Part 3: XML Syntax}.
+\newblock International standard, ISO.
 
 \bibitem[{ISO JTC1/SC34/WG3}, 2008]{TMDM08}
 {ISO JTC1/SC34/WG3} (2008).
@@ -349,6 +374,12 @@ Patten, J., Ishii, H., Hines, J., und Pangaro, G. (2001).
 \newblock In {\em Proceedings of the ACM Conference on Human Factors in
   Computing Systems 2001 (CHI '01)}.
 
+\bibitem[Pedersen und Hornb\aek, 2009]{Pedersen09}
+Pedersen, E.~W. und Hornb\aek, K. (2009).
+\newblock mixitui: a tangible sequencer for electronic live performances.
+\newblock In {\em TEI '09: Proceedings of the 3rd International Conference on
+  Tangible and Embedded Interaction}, Seiten 223--230, New York, NY, USA. ACM.
+
 \bibitem[Pepper, 2000]{Pepper00}
 Pepper, S. (2000).
 \newblock The tao of topic maps.
@@ -358,6 +389,11 @@ Pepper, S. (2000).
 Rath, H. (2003).
 \newblock {\em The Topic Maps Handbook}.
 \newblock empolis GmbH.
+
+\bibitem[{Red Hat Middleware}, 2007]{Hibernate07}
+{Red Hat Middleware} (2007).
+\newblock {Hibernate Reference Documentation}.
+\newblock Reference documentation, {Red Hat Middleware}.
 
 \bibitem[Rohs, 2005]{Rohs05}
 Rohs, M. (2005).
@@ -382,6 +418,13 @@ Rumelhart, D. und Norman, D. (1978).
 \newblock Accretion, tuning, and restructuring: Three modes of learning.
 \newblock In Cotton, J. und Klatzky, R., editors, {\em Semantic factors in
   cognition}, Seiten 37--53. Erlbaum, Hillsdale, N.J.
+
+\bibitem[Scheer und Nuettgens, 2000]{Scheer00}
+Scheer, A. und Nuettgens, M. (2000).
+\newblock Aris architecture and reference models for business process
+  management.
+\newblock {\em Business Process Management: Models, Techniques, and Empirical
+  Studies}, Seiten 376--389.
 
 \bibitem[Scheer, 2003]{Scheer03}
 Scheer, A.-W. (2003).
@@ -496,5 +539,12 @@ Weiser, M. (1991).
 {ZigBee Alliance} (2007).
 \newblock {Zigbee Specification}.
 \newblock Specification r17, ZigBee Alliance.
+
+\bibitem[Zuckerman et~al., 2005]{Zuckerman05}
+Zuckerman, O., Arida, S., und Resnick, M. (2005).
+\newblock Extending tangible interfaces for education: digital
+  montessori-inspired manipulatives.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems (CHI)}, Seiten 859--868. ACM Press New York, NY, USA.
 
 \end{thebibliography}

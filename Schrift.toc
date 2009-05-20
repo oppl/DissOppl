@@ -225,32 +225,48 @@
 \contentsline {subsubsection}{Anwendungen und Teilnehmer}{172}{section*.96}
 \contentsline {subsubsection}{Verwendung der Ergebnisse}{173}{section*.97}
 \contentsline {subsection}{\numberline {8.2.2}Block 2: Aushandlung von Zusammenarbeit 1}{173}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Block 3: Concept Mapping 1}{173}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Block 4: Aushandlung von Zusammenarbeit 2}{173}{subsection.8.2.4}
-\contentsline {subsection}{\numberline {8.2.5}Block 5: Concept Mapping 2}{173}{subsection.8.2.5}
-\contentsline {section}{\numberline {8.3}Zusammenfassung}{173}{section.8.3}
-\contentsline {chapter}{\numberline {9}Evaluierung der Verwendbarkeit des Werkzeugs}{175}{chapter.9}
-\contentsline {section}{\numberline {9.1}Untersuchungsdesign}{175}{section.9.1}
-\contentsline {section}{\numberline {9.2}Durchführung}{175}{section.9.2}
-\contentsline {section}{\numberline {9.3}Ergebnisse}{176}{section.9.3}
-\contentsline {chapter}{\numberline {10}Untersuchungsdesign}{177}{chapter.10}
-\contentsline {section}{\numberline {10.1}Frage 1 – Unterstützung von Articulation Work}{177}{section.10.1}
-\contentsline {section}{\numberline {10.2}Frage 2 – Beitrag und Verwendung der Teilwerkzeuge}{178}{section.10.2}
-\contentsline {section}{\numberline {10.3}Untersuchungsablauf}{179}{section.10.3}
-\contentsline {subsection}{\numberline {10.3.1}Phase 1 – Verwendbarkeit}{179}{subsection.10.3.1}
-\contentsline {subsection}{\numberline {10.3.2}Phase 2 – Lehr- und Lern-Szenarien}{179}{subsection.10.3.2}
-\contentsline {subsection}{\numberline {10.3.3}Phase 3 – Unternehmenseinsatz}{179}{subsection.10.3.3}
-\contentsline {chapter}{\numberline {11}Untersuchungsergebnisse}{181}{chapter.11}
-\contentsline {section}{\numberline {11.1}Erhobene Daten}{181}{section.11.1}
-\contentsline {subsection}{\numberline {11.1.1}Phase 1}{181}{subsection.11.1.1}
-\contentsline {subsection}{\numberline {11.1.2}Phase 2}{181}{subsection.11.1.2}
-\contentsline {subsection}{\numberline {11.1.3}Phase 3}{181}{subsection.11.1.3}
-\contentsline {section}{\numberline {11.2}Auswertung \& Interpretation}{181}{section.11.2}
+\contentsline {subsubsection}{Kontext}{173}{section*.98}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{174}{section*.99}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{174}{section*.100}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{175}{section*.101}
+\contentsline {subsection}{\numberline {8.2.3}Block 3: Concept Mapping 1}{175}{subsection.8.2.3}
+\contentsline {subsubsection}{Kontext}{176}{section*.102}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{176}{section*.103}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{177}{section*.104}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{177}{section*.105}
+\contentsline {subsection}{\numberline {8.2.4}Block 4: Aushandlung von Zusammenarbeit 2}{178}{subsection.8.2.4}
+\contentsline {subsubsection}{Kontext}{178}{section*.106}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{178}{section*.107}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{178}{section*.108}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{178}{section*.109}
+\contentsline {subsection}{\numberline {8.2.5}Block 5: Concept Mapping 2}{179}{subsection.8.2.5}
+\contentsline {subsubsection}{Kontext}{179}{section*.110}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{179}{section*.111}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{180}{section*.112}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{180}{section*.113}
+\contentsline {section}{\numberline {8.3}Zusammenfassung}{180}{section.8.3}
+\contentsline {chapter}{\numberline {9}Evaluierung der Verwendbarkeit des Werkzeugs}{183}{chapter.9}
+\contentsline {section}{\numberline {9.1}Untersuchungsdesign}{183}{section.9.1}
+\contentsline {section}{\numberline {9.2}Durchführung}{183}{section.9.2}
+\contentsline {section}{\numberline {9.3}Ergebnisse}{184}{section.9.3}
+\contentsline {chapter}{\numberline {10}Untersuchungsdesign}{185}{chapter.10}
+\contentsline {section}{\numberline {10.1}Frage 1 – Unterstützung von Articulation Work}{185}{section.10.1}
+\contentsline {section}{\numberline {10.2}Frage 2 – Beitrag und Verwendung der Teilwerkzeuge}{186}{section.10.2}
+\contentsline {section}{\numberline {10.3}Untersuchungsablauf}{187}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Phase 1 – Verwendbarkeit}{187}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}Phase 2 – Lehr- und Lern-Szenarien}{187}{subsection.10.3.2}
+\contentsline {subsection}{\numberline {10.3.3}Phase 3 – Unternehmenseinsatz}{187}{subsection.10.3.3}
+\contentsline {chapter}{\numberline {11}Untersuchungsergebnisse}{189}{chapter.11}
+\contentsline {section}{\numberline {11.1}Erhobene Daten}{189}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Phase 1}{189}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}Phase 2}{189}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.3}Phase 3}{189}{subsection.11.1.3}
+\contentsline {section}{\numberline {11.2}Auswertung \& Interpretation}{189}{section.11.2}
 \partbegin 
-\contentsline {part}{Verzeichnisse}{III}{part*.98}
-\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.99}
-\contentsline {chapter}{Tabellenverzeichnis}{IV}{appendix*.100}
-\contentsline {chapter}{Stichwortverzeichnis}{V}{appendix*.101}
-\contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{appendix*.102}
+\contentsline {part}{Verzeichnisse}{III}{part*.114}
+\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.115}
+\contentsline {chapter}{Tabellenverzeichnis}{IV}{appendix*.116}
+\contentsline {chapter}{Stichwortverzeichnis}{V}{appendix*.117}
+\contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{appendix*.118}
 \contentsline {chapter}{Bildquellen}{X}{table..1}
-\contentsline {chapter}{Literaturverzeichnis}{XIII}{appendix*.106}
+\contentsline {chapter}{Literaturverzeichnis}{XIII}{appendix*.122}
