@@ -41,14 +41,40 @@ Allgemein ist anzumerken, dass eine Vielzahl von Ausdrücken im sich entwickelnd
 \subsubsection{Spartially aware}
 \subsubsection{Spatial recofigurability}
 
-\subsection{Tangible Bits}
+\subsection{Bricks} % (fold)
+\label{sub:bricks}
 
-\citep{Ishii97}
+% subsection bricks (end)
+
+\subsection{Tangible Bits}
+\label{sub:tangible_bits}
+
+\citet{Ishii97} stellen in ihrer Arbeit den Ansatz der „Tangible Bits“ vor, der die virtuelle Welt mit der realen Umwelt verknüpfen soll. Dabei wird digitale Information mit realen Objekten oder Phänomenen gekoppelt und so „tangibel“. Die Autoren unterscheiden drei grundsätzliche Kernkonzepte, die den Ansatz umsetzen:
+\begin{description}
+	\item[Interactive Surfaces], bei denen beliebige Oberflächen in der realen Welt (etwa Wände oder Schreibtische) zu aktiven Schnittstellen zur virtuellen Welt werden,
+	\item[Coupling Bits and Atoms], wo physische Objekte mit ihnen zuzuordnender Information gekoppelt werden, so das die realen Objekte zu Trägern von und Schnittstellen zu digitaler Information werden und
+	\item[Ambient Media], bei deren Einsatz über die Umgebung der Benutzer Information vermittelt wird (z.B. mittels Veränderung der Beleuchtung), ohne die eigentliche Tätigkeit zu unterbrechen. 
+\end{description}
+
+Die Autoren ordnen Tangible Bits an die Schnittstelle zwischen den Forschungsgebieten „Ubiquitous Computing“ und „Augmented Reality“ ein. „Ubiquitous Computing“ \citep{Weiser91} beschäftigt sich mit Anwendungen, in denen Computer nicht mehr als als solche wahrnehmbare Geräte eingesetzt werden, sondern in der Umgebung integriert sind und von Benutzern nicht mehr bewusst wahrgenommen sondern nur noch als Teil der Alltagswelt benutzt werden. Tangible Bits erben von dieser Forschungsrichtung die Idee der physischen, natürlichen Interaktion zwischen Benutzern und Rechner, unterscheiden sich aber insofern, als das nach wie vor ein Interface zur virtuellen Welt vorhanden ist, diese also zum Teil noch bewusst wahrgenommen wird. In diesem Aspekt ähneln Tangible Bits den Ideen die aus der „Augmented Reality“ Forschung stammen. Augmented Reality beschäftigt sich mit Methoden, die die reale Welt mit digitaler Information nahtlos ergänzen bzw. anreichern. Vor allem im Bereich der Ausgabetechnologien werden bei Tangible Bits viele aus dem „Augmented Reality“-Bereich stammende Konzepte eingesetzt.
+
+Nach der Einordnung stellen die Autoren Prototypen vor, die das Konzept der „Interactive Surfaces“ als auch der „Ambient Media“ umsetzten. Erwähnenswert ist im Zusammenhang mit dieser Arbeit der Prototyp „metaDESK“ \citep{Ullmer97}, eine interaktive Oberfläche in Form eines Tisches, auf der die klassischen Interaktionselemente eines \gls{GUI} in die reale Welt transferiert wurden. Dabei wurden die \gls{GUI}-Elemente auf \gls{TUI}-Elemente abgebildet\footnote{dies stellt im Übrigen die historisch erste Erwähnung des Begriffs „Tangible User Interface“ dar}: 
+\begin{itemize}
+	\item Windows werden auf „Lenses“ abgebildet, also Linsen, die Information zu realen, physischen Elementen anzeigen.
+	\item Icons werden in der physischen Welt als „Phicons“ abgebildet und sind im wesentlichen phyischen Objekte, die Information repräsentieren.
+	\item Menüs werden durch „Trays“ repräsentiert, in denen Phicons an unterschiedlichen Stellen abgelegt werden können, wobei die Ablageposition jeweils an eine spezifische Operation gebunden ist. 
+	\item Handles (Elemente zur Manipulation von GUI-Objekten) werden durch „Phandles“ abgebildet, die im Wesentlichen Phicons sind, die zur Eigabe von Information verwendet werden können.
+	\item Widgets (Kontroll- und Steuerelemente) werden durch „Instruments“ abgebildet, welche Phicons sind, die zur Steuerung der jeweiligen Applikation dienen.
+\end{itemize}
+
+Ohne hier weiter auf die Beispiele der Autoren einzugehen, ist doch das den Prototypen zugrunde liegende Designkonzept erwähnenswert, etablierte Metaphern aus der realen oder digitalen Welt für die Benutzerinteraktion zu verwenden. In der Diskussion ihrer Ergebnisse identifizieren die Autoren die Thematik der Metaphern, die die Brücke zwischen realer und virtueller Welt schlagen, als eine der interessantesten offenen Fragen für weitere Forschung auf dem Gebiet. Als Schlussfolgerung ihrer Erfahrungen mit den erstellten Prototypen schlagen sich außerdem vor, „optischen“ Metaphern besondere Aufmerksamkeit zu schenken, da diese für den Brückenschlag besonders geeignet wären. 
+
+Als optische Metaphern verwenden die Autoren vor allem Beleuchtung, Schattenwurf und Linsen. Sie bilden diese realen Phänomene auf die Schnittstelle zwischen digitaler und realer Welt ab, so dass z.B. digitale Beleuchtung Information sichtbar macht, die in „unbeleuchteten“ Gebieten fehlt, dass reale Objekte digitale Schatten werfen können und so zusätzliche Information transportieren oder dass eine digitale Linse verwendet wird, um reale Objekt „näher“ zu betrachten und Zusatzinformation einzublenden. Bei der Verwendung von Methaphern wird darauf hingewiesen, das es wichtig sei, auf ein realitätsgetreues Verhalten der digital augmentierten Artefakte zu achten, um eine nahtlose Integration der digitalen Information in die reale Welt zu ermöglichen.
 
 \subsection{Containers, Tokens und Tools}
 \label{sub:containers_tokens_tools}
 
-\citet{Holmquist99} legen ihre Arbeit als konzeptuelle Betrachtung von interaktiven Systemen an, in denen physische Objekte verwendet werden, um auf digitale Information zuzugreifen bzw. diese zu manipulieren. Das Einteilungsschema, das die Autoren vorschlagen, basiert auf der Art und Weise, in der Information an diese physischen Objekte gebunden ist. Grundsätzlich unterschieden sie zwischen \emph{Containern}, \emph{Tokens} und \emph{Tools}, wobei eine exakte Abgrenzung bzw. eindeutige Zuordung zu einer Kategorie nicht immer möglich und sinnvoll ist.
+\citet{Holmquist99} legen ihre Arbeit als konzeptuelle Betrachtung von interaktiven Systemen an, in denen physische Objekte verwendet werden, um auf digitale Information zuzugreifen bzw. diese zu manipulieren. Das Einteilungsschema, das die Autoren vorschlagen, basiert auf der Art und Weise, in der Information an diese physischen Objekte gebunden ist. Grundsätzlich unterschieden sie zwischen \emph{Containern}, \emph{Tokens} und \emph{Tools}, wobei eine exakte Abgrenzung bzw. eindeutige Zuordnung zu einer Kategorie nicht immer möglich und sinnvoll ist.
 
 Der hier vorgestellte Ansatz fokussiert auf die physische Interaktion als Eingabemedium, auf den Aspekt der Informationsausgabe wird nicht eingegangen. Dies ist für das Verständnis der folgenden Beschreibungen im Kontext der späteren historischen Entwicklung wichtig und muss bei der Anwendung dieses Ansatzes berücksichtigt werden. 
 
@@ -81,7 +107,33 @@ Die Anbindung von Information an ein Token oder einen Container kann ebenfalls e
 \citep{Underkoffler99}
 
 \subsection{Das MCRpd Interaktions-Modell}
-\citep{Ullmer00}
+
+Basierend auf früheren Arbeiten entwickeln \citet{Ullmer00} ein Interaktionsmodell zur Beschreibung von Tangible User Interfaces. Es handelt sich bei dieser Arbeit um den ersten Ansatz, der sich der Domäne aus Sicht der Systemstruktur nähert und nicht ausschließlich eine reine Klassifikation nach bestimmten Merkmalen eines Systems vornimmt.
+
+Die Autoren grenzen \glspl{TUI} von \glspl{GUI} insofern ab, als das \glspl{TUI} über eine nahtlose Integration zwischen Repräsentation des Systemzustandes und dessen Kontrolle aufweisen (im Gegensatz zu \glspl{GUI}, bei denen der Systemzustand über einen graphischen Kanal ausgegeben wird und über andere Kanäle, etwa Tastatur und Maus, kontrolliert wird). Mit der Forderung nach nahtloser Integration von Repräsentation und Kontrolle -- also im Wesentlich einer Einheit von Eingabe- und Ausgabe-Kanälen -- wird ein eher striktes, eingeschränktes Verständnis von \glspl{TUI} propagiert. Als Tangible User Interface kann ein System demnach nur bezeichnet werden, wenn es Ein- und Ausgabe kohärent über einen Kanal führt.
+
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=12cm]{img/ImplementierungUeberblick/MCRpd.jpg}
+	\caption[Interaktionsmodelle für GUI und TUI]{Interaktionsmodelle für GUI und TUI (übernommen von \citet{Ullmer00})}
+	\label{fig:img_ImplementierungUeberblick_MCRpd}
+\end{figure}
+
+Diese Sichtweise setzten die Autoren in der Folge in einem Interaktionsmodell für \glspl{TUI} um, dass die Struktur eines Tangible User Interfaces konzeptuell beschreibt. Das Modell wird dabei analog zum \gls{MVC}-Modell konzipiert, das für \glspl{GUI} zum Einsatz kommt und entsprechend der engeren Kopplung zwischen Repräsentation und Kontrolle als \gls{MCRpd}-Modell bezeichnet (siehe Abbildung \ref{fig:img_ImplementierungUeberblick_MCRpd}). An der Gegenüberstellung zwischen \gls{MVC}- und \gls{MCRpd}-Modell wird die Unterscheidung zwischen \gls{GUI} und \gls{TUI} deutlich. Beiden Ansätzen ist gemein, dass der Systemzustand im Rechner durch ein \emph{Model} dargestellt wird. Unterschiede zeigen sich in der Art der Manipulation und Manifestation dieses \emph{Models}. Bei \glspl{GUI} ist Eingabe und Ausgabe strikt getrennt. Die Manipulation des Systemzustandes erfolgt durch die Komponente \emph{Control}, in der physische Kontrollgeräte eine Veränderung des Zustandes erlauben. Die Kontrollgeräte sind dabei im Allgemeinen generisch, d.h. unabhängig vom konkreten Anwendungsfall (also etwa Maus oder Tastatur) und werden durch digitale Kontroll-Elemente an diesen angepasst. Die Ausgabe erfolgt durch die Komponente \emph{View}, wobei auch in diesem Fall ein generisches Ausgabegerät (etwa ein Bildschirm) verwendet wird. Im Falle eines \gls{TUI} existiert keine Trennung zwischen Ein- und Ausgabe. Das \emph{Model} manifestiert sich durch eine \emph{Representation} in der realen Welt. Diese \emph{Representation} hat eine physische Komponente (\emph{REP-P}) und eine digitale Komponente (\emph{REP-D}), die miteinander verknüpft sind. Die digitale Komponente der Repräsentation ist dabei all jene Information, die nicht durch physische, berührbare Elemente dargestellte wird (etwa Projektion, Audio, \ldots). Sie steht dabei jedoch nicht für sich selbst sondern ist immer von eine physischen Repräsentations-Komponente abhängig bzw. dieser zugeordnet. Die physischen Komponenten (\emph{REP-P}) spielen insofern eine zentrale Rolle, als dass ihnen auch die \emph{Control} zugeordnet ist, über sie also der Systemzustand manipuliert werden kann. Die physischen Komponenten des Ausgabe-Kanals fungieren also zugleich als Instanzen des Eingabe-Kanals.
+
+Basierend auf diesem Ansatz identifizieren die Autoren vier Kern-Charakteristika von Tangible User Interfaces:
+\begin{itemize}
+	\item Physikalische Repräsentationen sind mit digitaler Information gekoppelt
+	\item Physikalische Repräsentationen enthalten Mechanismen zur Kontrolle des Systems
+	\item Physikalische Repräsentationen sind in der Wahrnehmung der Benutzer mit digitalen Repräsentationen gekoppelt
+	\item Der physische Zustand eines Tangible Interfaces stellt die Kernaspekt des Systemzustandes dar
+\end{itemize}
+
+Aufbauend auf diesen Eigenschafen entwickeln die Autoren in der Folge ein Schema, das unterschiedliche Ansätze bei der Konzeption eines Tangible Interfaces abdeckt. Als zentrale Ansätze werden „spatial“ (räumliche), „relational“ (relationale) und „constructive“ (konstruierende) Ansätze unterschieden. Räumliche Ansätze nutzen die Anordnung der physischen Elemente in einem Referenzrahmen, um den Systemzustand zu repräsentieren bzw. zu manipulieren. Bei relationalen Ansätzen ist die räumliche Anordnung unwesentlich, lediglich die Beziehungen zwischen den Elementen codieren den Systemzustand. Konstruierende Ansätze sind zwischen den beiden erstgenannten Ansätzen einzuordnen, da sie Beziehungen zwischen Elementen durch eine räumliche Anordnung der Elemente zueinander abbilden. Systeme, in denen Information lediglich in der Zuordnung zu einem physischen Element codiert wird und nicht in der Beziehung zwischen den Elementen, werden in die Kategorie der „associative“ (assoziativen) Ansätze eingeordnet.
+
+Als zusätzliche Gestaltungsdimension führen die Autoren die Konzeption der physischen Repräsentationen an, die bereits in \citep{Ullmer97} eingeführt wurde. Unterschieden wird hier zwischen „iconic“ und „symbolic representations“, wobei ikonische Elemente einen Bezug zu dem jeweils repräsentierten Objekt der realen Welt haben (etwa ein Bild einer Person), während diese Möglichkeit der Zuordnung bei symbolischen Elementen nicht gegeben ist (etwa bei der Repräsentation einer Person durch ein rotes Rechteck). Aus einer umfassenden Betrachtung der zum Zeitpunkt der Erstellung des Artikels verfügbaren Tangible User Interfaces schließen die Autoren, dass ikonische Repräsentationen vorrangig in räumlichen und assoziativen Ansätzen zum Einsatz kommen, während symbolische Repräsentationen eher bei relationen oder konstruierenden Ansätzen anzutreffen sind.
+
 
 \subsection{Degree of Coherence}
 \citep{Koleva03}
