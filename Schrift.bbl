@@ -116,10 +116,22 @@ Ferscha, A., Vogl, S., Emsenhuber, B., und Wally, B. (2008).
   ICST (Institute for Computer Sciences, Social-Informatics and
   Telecommunications Engineering) ICST, Brussels, Belgium, Belgium.
 
+\bibitem[Fishkin et~al., 1998]{Fishkin98}
+Fishkin, K., Moran, T., und Harrison, B. (1998).
+\newblock {Embodied User Interfaces: Towards Invisible User Interfaces}.
+\newblock In {\em Proceedings of the IFIP TC2/TC13 WG2. 7/WG13. 4 Seventh
+  Working Conference on Engineering for Human-Computer Interaction}, Seiten
+  1--18. Kluwer.
+
 \bibitem[Fishkin, 2004]{Fishkin04}
 Fishkin, K.~P. (2004).
 \newblock A taxonomy for and analysis of tangible interfaces.
 \newblock {\em Personal and Ubiquitous Computing}, 8(5):347--358.
+
+\bibitem[Fishkin et~al., 2000]{Fishkin00}
+Fishkin, K.~P., Gujar, A., Harrison, B.~L., Moran, T.~P., und Want, R. (2000).
+\newblock Embodied user interfaces for really direct manipulation.
+\newblock {\em Communications of the ACM}, 43(9):74--80.
 
 \bibitem[Fitzmaurice, 1996]{Fitzmaurice96}
 Fitzmaurice, G. (1996).
@@ -493,6 +505,12 @@ Strauss, A. (1988).
 Strauss, A. (1993).
 \newblock {\em {Continual Permutations of Action}}.
 \newblock Aldine de Gruyter, New York.
+
+\bibitem[Ullmer, 2002]{Ullmer02}
+Ullmer, B. (2002).
+\newblock {\em Tangible interfaces for manipulating aggregates of digital
+  information}.
+\newblock PhD thesis, Massachusetts Institute of Technology.
 
 \bibitem[Ullmer und Ishii, 1997]{Ullmer97}
 Ullmer, B. und Ishii, H. (1997).

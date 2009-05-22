@@ -46,7 +46,7 @@
 \usepackage{color}
 
 \usepackage[bookmarks, backref=page]{hyperref}
-\renewcommand*{\backrefpagesname}{zitiert auf S.}
+\renewcommand*{\backrefpagesname}{\footnotesize Referenziert auf S.}
 \renewcommand*{\backref}{\backrefpagesname\ }
 
 \usepackage[
@@ -78,7 +78,7 @@ footnote]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \begingroup
 \value{tocdepth}\shorttocdepth\relax % uebler Hack!
 \makeatletter
-\input{\jobname.toc}%
+%\input{\jobname.toc}%
 \makeatother
 \endgroup
 }

@@ -103,10 +103,18 @@ Der Zugriff auf die Information, die an ein Token oder einen Container gebunden 
 
 Die Anbindung von Information an ein Token oder einen Container kann ebenfalls eingeschränkt sein, bzw. ist im Fall von Tokens per Definition durch den notwendigen Zusammenhang zwischen physischem Element und Information eingeschränkt. Neben dieser konzeptuell notwendigen Einschränkung können auch weitere Regeln geprüft werden oder z.B. die Bindung zwischen Objekt und Information statisch (d.h. unveränderbar) gespeichert werden. 
 
+\subsection{Embodied User Interfaces} % (fold)
+\label{sub:embodied_user_interfaces}
+
+\citep{Fishkin98}\citep{Fishkin00}
+
+% subsection embodied_user_interfaces (end)
+
 \subsection{Tangible Objects Meaning}
 \citep{Underkoffler99}
 
 \subsection{Das MCRpd Interaktions-Modell}
+\label{sub:mcrpd}
 
 Basierend auf früheren Arbeiten entwickeln \citet{Ullmer00} ein Interaktionsmodell zur Beschreibung von Tangible User Interfaces. Es handelt sich bei dieser Arbeit um den ersten Ansatz, der sich der Domäne aus Sicht der Systemstruktur nähert und nicht ausschließlich eine reine Klassifikation nach bestimmten Merkmalen eines Systems vornimmt.
 
@@ -134,12 +142,70 @@ Aufbauend auf diesen Eigenschafen entwickeln die Autoren in der Folge ein Schema
 
 Als zusätzliche Gestaltungsdimension führen die Autoren die Konzeption der physischen Repräsentationen an, die bereits in \citep{Ullmer97} eingeführt wurde. Unterschieden wird hier zwischen „iconic“ und „symbolic representations“, wobei ikonische Elemente einen Bezug zu dem jeweils repräsentierten Objekt der realen Welt haben (etwa ein Bild einer Person), während diese Möglichkeit der Zuordnung bei symbolischen Elementen nicht gegeben ist (etwa bei der Repräsentation einer Person durch ein rotes Rechteck). Aus einer umfassenden Betrachtung der zum Zeitpunkt der Erstellung des Artikels verfügbaren Tangible User Interfaces schließen die Autoren, dass ikonische Repräsentationen vorrangig in räumlichen und assoziativen Ansätzen zum Einsatz kommen, während symbolische Repräsentationen eher bei relationen oder konstruierenden Ansätzen anzutreffen sind.
 
+\subsection{Tokens und Constraints nach Ullmer}
+\citep{Ullmer02}
+\citep{Ullmer05}
 
-\subsection{Degree of Coherence}
-\citep{Koleva03}
 
-\subsection{Tokens und Constraints nach Shaer et al.}
-\citep{Shaer04}
+\subsection{Degree of Coherence} % (fold)
+\label{sub:degree_of_coherence}
+\citet{Koleva03} schlagen ein Framework vor, dass die Klassifikation von Tangible Interfaces ermöglichen und so das Verständnis der möglichen Verknüpfungen zwischen physischer und digitaler Welt vertiefen soll. Im Gegensatz zu dem von \citet{Ullmer00} mit dem MCRpd-Modell vorgeschlagenen relative strikten Verständnis eines Tangible Interfaces öffnen \citeauthor{Koleva03} den Begriff und definieren eine kontinuierliche Skala von „Tangibility“, die sich am Grad der „Coherence“ (Kohärenz) zwischen realer und digitaler Welt bemisst. Hohe Kohärenz sagt dabei aus, dass das physische Objekt und sein digitales Gegenstück als ein „Ding“ wahrgenommen werden, also nicht voneinander abgrenzbar sind.
+
+Entlang diesem Kontinuum führen die Autoren Kategorien ein, die die typischen Eigenschaften eines Systems im betreffenden Bereich der Skala beschreiben. Diese Kategorien dienen als Einordnungsschema für Elemente von Tangible Interfaces und können als Grundlage einer Gegenüberstellung unterschiedlicher \glspl{TUI} bzw. deren Komponenten dienen. Entlang der Kohärenz-Skala legen die Autoren folgende Kategorien fest, die sich jeweils auf die Bedeutung des physische Objekt für die Benutzungssschnittstelle beziehen (beginnend mit niedriger Kohärenz): 
+
+\begin{description}
+	\item[General-purpose tool] Ein Werkzeug, das zur Manipulation verschiedener digitaler Objekte benutzt werden kann und dabei unterschiedliche Operationen auf diesen Objekten auslösen kann.
+	\item[Specialized tool] Ein Werkzeug, das eine bestimmte Operation auslöst, diese aber auf unterschiedliche digitale Objekte anwenden kann.
+	\item[Identifier] Objekte, die als Referenz auf ein digitales Objekt agieren. Die Referenz ist nicht zwangsweise permanent sondern kann unter Umständen dynamisch verändert werden.
+	\item[Proxy] Objekte, die insofern enger an die digitale Information gekoppelt sind als Identifier, als dass durch sie die digitale Information manipuliert und nicht nur abgerufen werden kann. 
+	\item[Projection] Objekte, die so eng an die digitale Repräsentation gebunden sind, dass dessen physische Eigenschaft Information direkt repräsentieren und die Existenz der Information von der Existenz des Objekts abhängig ist.
+	\item[Illusion of same objects] Keine Kopplung im engeren Sinne sondern Identität zwischen realem Objekt und digitaler Information. Ist dann gegeben, wenn beide Komponenten ausschließlich gemeinsam auftreten oder für Benutzer nahtlos von der digitalen in die reale Welt und umgekehrt übergehen.
+\end{description}
+
+In der Folge detaillieren die Autoren diese Kategorien und identifizieren Eigenschaften, die eine Verknüpfung zwischen realer und digitaler Welt aufweisen kann und an denen sich der Grad an Kohärenz bemisst bzw. an denen er sichtbar wird:
+
+\begin{description}
+	\item[Transformation] Beschreibt, wie Manipulationen am realen Objekt in die virtuelle Welt umgesetzt werden. \emph{Literal Mediation} liegt vor, wenn Manipulationen in realer und virtueller Welt analog umgesetzt werden (wenn z.B. eine Bewegung eines Objekts auch in eine Bewegung dessen realer Repräsentation umgesetzt wird). \emph{Transformed Mediation} liegt vor, wenn eine Manipulation eines realen Objekte eine nicht unmittelbar assozierbare Reaktion in der digitalen Welt auslöst (bei der Rotation eines Tokens etwa die Lautstärke eines Audiokanals verändert).
+	\item[Sensing of Interaction] Beschreibt auf welche Parameter eines Objektes der realen Welt die digitale Repräsentation reagiert. Die möglichen Ausprägungen reichen von einer binären Reaktion auf die Präsenz eines Objekts bis zur kontinuierlichen Reaktion auf alle sechs Freiheitsgrade des physischen Objekts.
+	\item[Configurability of Transformations] Gibt an, ob die Assoziation zwischen physischem Objekt und digitaler Repräsentation vorgegeben oder konfigurierbar ist. Mögliche Ausprägungen sind \emph{konfigurierbar} und \emph{fixiert}.
+	\item[Lifetime of Link] Gibt an, ob die Assoziation zwischen physischem Objekt und digitaler Repräsentation nach der Kopplung permanent ist oder zur Laufzeit verändert werden kann. Mögliche Ausprägungen sind \emph{temporär} und \emph{permanent}.
+	\item[Autonomy] Beschreibt, ob eine Existenzbeziehung zwischen dem realen Objekt und der digitalen Repräsentation besteht, ob also die digitale Ressource unabhängig vom realen Objekt existiert oder bei der Kopplung erzeugt wird. Mögliche Ausprägungen sind \emph{autonom} und \emph{abhängig}.
+	\item[Cardinality of Link] Gibt an, ob die Zuordnung zwischen realem Objekt und digitaler Repräsentation eindeutig ist oder ein mehrdeutige Zuordnung von physischer zu digitaler Welt oder umgekehrt möglich ist. Die vorrangig auftretende Ausprägung ist eine eindeutige Abbildung (\emph{1:1}), aber auch \emph{1:n}- oder \emph{n:1}-Abbildungen sind möglich (wobei \emph{n} unbeschränkt oder beschränkt sein kann).
+	\item[Link Source] Gibt an, ob der Gegenstand der Manipulation das physische Objekt oder die digitale Repräsentation ist. Die digitale Repräsentation ist dann die Quelle der Kopplung, wenn Änderungen an ihr Auswirkungen auf das physische Objekt haben.
+\end{description}
+
+Das hier vorgestellte Framework ist das erste, dass die Art der Verknüpfung zwischen realer und digitaler Welt in das Zentrum der Betrachtung stellt und Tangible User Interfaces entlang dieser Dimension klassifiziert. Die Idee der Berücksichtigung dieses Aspektes bei der Einordnung von \glspl{TUI} wird später von \citet{Fishkin04} (siehe Abschnitt \ref{sub:taxonomie_fishkin}) wieder aufgegriffen und -- vereinfacht -- in seine mehrdimensionale Taxonomie für Tangible User Interfaces integriert.
+
+% subsection degree_of_coherence (end)
+
+\subsection{Tokens und Constraints nach Shaer et al.} % (fold)
+\label{sub:tokens_und_constraints_nach_shaer_et_al_}
+
+\citet{Shaer04} stellen in ihrer Arbeit den Anspruch einen Satz von Konstrukten zu identifizieren, der die Struktur und Funktionalität von Tangible User Interfaces zu beschreiben. Letztendliches Ziel ist es, eine konzeptuelle Basis zu schaffen, die die Entwicklung eines Software-Toolkits ermöglicht, das die Spezifikation, Simulation und Implementierung von \glspl{TUI} erlaubt. \citet{Shaer04} bauen dabei auf dem „Token \& Constraints“-Ansatz von \citet{Ullmer02} auf und detaillieren das \emph{Constraint}-Konzept, so dass es die Beschreibung eines \glspl{TUI} vollständiger erlaubt. 
+
+Die grundlegenden Konzepte des Ansatzes orientieren sich an der Annahme, das die Struktur und Funktion eines \gls{TUI} an den Beziehungen zwischen physischen Objekten und digitaler Information festgemacht werden kann. Diese Konzepte sind im Einzelnen:
+
+\subsubsection{Pyfo}
+
+\subsubsection{Token}
+
+\subsubsection{Constraint} 
+
+\subsubsection{Variable}
+
+\subsubsection{TAC (Token and Constraints)}
+
+Basierend auf diesen Konzepten werden fünf Kerneigenschaften, die ein Tangible User Interface bzw. dessen Elemente aufweisen können. Diese Kerneigenschaften sind:
+
+\begin{description}
+	\item[Couple]
+	\item[Relative Definition] description
+	\item[Association] description
+	\item[Computational Interpretation] description
+	\item[Manipulation] description 
+\end{description}
+
+% subsection tokens_und_constraints_nach_shaer_et_al_ (end)
 
 \subsection{Einteilung nach Klemmer, Li, Lin und Landay}
 \citep{Klemmer04}
@@ -147,7 +213,7 @@ Als zusätzliche Gestaltungsdimension führen die Autoren die Konzeption der phy
 \subsection{Taxonomie nach Fishkin}
 \label{sub:taxonomie_fishkin}
 
-\citet{Fishkin04} versucht in seiner Arbeit, den Begriff des Tangible User Interfaces zu definieren und ein Kategorienschema zu schaffen, in das sich auf tangibler Interaktion beruhrende Systeme einordnen lassen. Sein Ziel ist es, ein Framework zur Verfügung zu stellen, auf Basis dessen sich Systeme vergleichen lassen und das das Design von Tangible Interfaces unterstützen kann.
+\citet{Fishkin04} versucht in seiner Arbeit, den Begriff des Tangible User Interfaces zu definieren und ein Kategorienschema zu schaffen, in das sich auf tangibler Interaktion beruhende Systeme einordnen lassen. Sein Ziel ist es, ein Framework zur Verfügung zu stellen, auf Basis dessen sich Systeme vergleichen lassen und das das Design von Tangible Interfaces unterstützen kann.
 
 \citeauthor{Fishkin04} fasst den Begriff des Tangible Interfaces sehr breit und definiert ein Interaktives System mit tangiblem Interface als eines, in dem die Eingabe über die Manipulation (im wörtlichen Sinn, also mit den Händen) von phyischen Objekten vorgenommen wird und die Ausgabe die physische Natur eines Objektes verändert. Diese Definition umfasst auch Systeme mit "herkömmlichen" Interfaces.
 
@@ -159,12 +225,12 @@ Die Dimension "Embodiment" beschreibt, wie eng die Eingabe am Interface mit der 
  \item[Full] Bei "full Embodiment" ist das Ausgabegerät gleichzeitig das Eingabegerät. Der Zustand des Geräts ist direkt in seinen physischen Eigenschaften abgebildet.
  \item[Nearby] "Nearby Embodiment" tritt auf, wenn die Ausgabe nahe dem Eingabeobjekt auftritt und eng an dieses gebunden ist, also in direktem, unmittelbaren Zusammenhang steht. 
  \item[Environmental] "Environmental Embodiment" ist gegeben, wenn die Ausgabe im unmittelbaren Umfeld des auftritt aber sich nicht unmittelbar am tangiblen Eingabeobjekt manifestiert. Typische Vertreter dieser Ausprägung sind akustische Ausgabekanäle.
- \item[Distant] Von "distant Embodiment" spricht man, wenn sich Ein- und Ausgabekanäle vollständig raumlich enthoppelt sind, der Fokus der Aufmerksamkeit der Benutzer also nicht gleichzeitig auf Ein- und Ausgabekanal liegen kann. 
+ \item[Distant] Von "distant Embodiment" spricht man, wenn sich Ein- und Ausgabekanäle vollständig räumlich entkoppelt sind, der Fokus der Aufmerksamkeit der Benutzer also nicht gleichzeitig auf Ein- und Ausgabekanal liegen kann. 
  \end{description}
 
 \subsubsection{Metaphor}
 
-Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf eine Benutzerinteraktion so zu reagieren, wie die reale Welt auf eine entsprechende Aktion reagieren würde. Die Ausprägung in "Metaphor" ist also dann hoch, wenn das System analog zu realem, physiklisch begründbarem Verhalten reagiert. Hier sind grundsätzlich zwei Kategorien zu unterscheiden, in denen der Bezugspunkt der "Methaphor" verschieden ist. "Metaphor" kann sich entweder auf das Aussehen des jeweiligen Objektes beziehen oder auf die Bewegung des Objektes Bezug nehmen. Im ersten Fall spricht \citeauthor{Fishkin04} von "Metaphor of Noun", im zweiten Fall von "Metaphor of Verb". Die Ausprägungen auf der "Metaphor"-Dimension gruppieren sich dann wie Folgt:
+Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf eine Benutzerinteraktion so zu reagieren, wie die reale Welt auf eine entsprechende Aktion reagieren würde. Die Ausprägung in "Metaphor" ist also dann hoch, wenn das System analog zu realem, physikalisch begründbarem Verhalten reagiert. Hier sind grundsätzlich zwei Kategorien zu unterscheiden, in denen der Bezugspunkt der "Methaphor" verschieden ist. "Metaphor" kann sich entweder auf das Aussehen des jeweiligen Objektes beziehen oder auf die Bewegung des Objektes Bezug nehmen. Im ersten Fall spricht \citeauthor{Fishkin04} von "Metaphor of Noun", im zweiten Fall von "Metaphor of Verb". Die Ausprägungen auf der "Metaphor"-Dimension gruppieren sich dann wie Folgt:
 \begin{description}
  \item[None] Die Interface-Objekte zeigen weder in Form noch Funktion eine Analogie zur Realität
  \item[Noun] Diese Analogie ist gegeben, wenn am Interface Objekte existieren, die eine reale Entsprechung haben, aber nicht wie diese manipuliert werden können. Ein klassisches Beispiel aus traditionellen interaktiven Systemen ist die "Fenster"- oder "Schreibtisch"-Metapher (sind analog zu realen Fenstern bzw. Schreibtischen ausgelegt, bieten aber andere Interaktionsmöglichkeiten). Bei Tangible User Interfaces ist diese Zuordnung dann gegeben, wenn ein Eingabeobjekt so aussieht wie ein Objekt der realen Welt, aber keine weiteren Eigenschaften mit diesem teilt.
@@ -175,10 +241,7 @@ Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf 
  \end{description}
 
 \subsubsection{Anwendung der Taxonomie}
-\citeauthor{Fishkin04} wendet seine Taxonomie auf die oben bereits beschriebenen Ansätze von \citep{Holmquist99} und \citep{Underkoffler99} an und zeigt, dass sich diese einordnen lassen. Er ordnet nach einer umfassenden Literaturstudie außerdem über 60 konkrete Tangible Interfaces in seine Taxonomie ein und stellt diese anhand deren Ausprägungen gegenüber. Ein offener Punkt ist die Verbindung zum MCRpd-Framework \citep{Ullmer00}, dass \citeauthor{Fishkin04} als komplementär bezeichnet und das auf einer anderen Abstraktionsstufe operiere. 
-
-\subsection{Tokens und Constraints nach Ullmer et al.}
-\citep{Ullmer05}
+\citeauthor{Fishkin04} wendet seine Taxonomie auf die oben bereits beschriebenen Ansätze von \citep{Holmquist99} und \citep{Underkoffler99} an und zeigt, dass sich diese einordnen lassen. Er ordnet nach einer umfassenden Literaturstudie außerdem über 60 konkrete Tangible Interfaces in seine Taxonomie ein und stellt diese anhand deren Ausprägungen gegenüber. Ein offener Punkt ist die Verbindung zum \gls{MCRpd}-Framework \citep{Ullmer00}, dass \citeauthor{Fishkin04} als komplementär bezeichnet und das auf einer anderen Abstraktionsstufe operiere. 
 
 \subsection{Tangible Bits: Beyond Pixels}
 \citep{Ishii08}
