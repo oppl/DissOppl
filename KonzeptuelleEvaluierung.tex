@@ -69,22 +69,22 @@ Das Framework eignet sich zur Einordnung einzelner Aspekte eines Tangible User I
 
 \begin{table}[htbp]
 	\centering
+	\caption{Beurteilung des Werkzeugs hinsichtlich des Degree of Coherence}
 	\begin{tabular}{| p{2cm} || p{2cm} | p{1,2cm} | p{2,5cm} | p{1,5cm} | p{1,2cm} | p{1,2cm} |} \hline
 		Element & Kategorie & Trans\-for\-mation & Sensing of Inter\-action & Konfig\-urierbar\-keit & Lebens\-dauer & Auto\-nomie \\ \hline \hline
-		Modell\-ierungs\-token  & Proxy & lit. & X-Y-Position und Rotation, Öffnungsstatus & konfig. & temp. & abh. \\ \hline
-		einbett\-bares Token & Identifier & transf. & Präsenz, Container & konfig. & temp. & unabh. \\ \hline
+		Modell\-ierungs\-token  & Proxy & lit. & X-Y-Position und Rotation, Öffnungsstatus & fixiert & temp. & abh. \\ \hline
+		einbett\-bares Token & Identifier & transf. & Präsenz, Container & fixiert & temp. & unabh. \\ \hline
 		Mark\-ierungs\-token & Specialized Tool & transf. & X-Y-Position & fixiert & temp. & unabh. \\ \hline
 		Löschtoken & Projection & transf. & Präsenz & fixiert & perm. & unabh. \\ \hline
 		Snapshot\-token & Specialized Tool & transf. & Präsenz & fixiert & perm. & unabh. \\ \hline
 		Historien\-navigations\-token & Specialized Tool & transf. & Rotation & fixiert & perm. & unabh. \\ \hline
 		Wieder\-herstellungs\-token & Specialized Tool & transf. & Präsenz & fixiert & perm. & unabh. \\ \hline
 	\end{tabular}
-	\caption{Beurteilung des Werkzeugs hinsichtlich des Degree of Coherence}
 	\footnotesize lit. \ldots literally, transf. \ldots transformed, konfig. \ldots konfigurierbar, temp. \ldots temporär,\\ perm. \ldots permanent, abh. \ldots abhängig, unabh. \ldots unabhängig
 	\label{tab:degree_of_coherence}
 \end{table}
 
-Die Kardinalität und die Quelle des Links wurden hier nicht gesondert betrachtet, die die Kardinalität immer 1:1 ist, also eine eindeutige Zuordnung zwischen realem Objekt und digitaler Repräsentation gegeben ist und die Quelle des Links immer das reale Objekt ist. Im Übrigen verzichten auch \citet{Koleva03} auf die Einordnung in diese beiden Kategorien, da sie generell nur geringen Unterscheidungswert haben.
+Die Kardinalität wurde hier nicht gesondert betrachtet, die die Kardinalität immer 1:1 ist, also eine eindeutige Zuordnung zwischen realem Objekt und digitaler Repräsentation gegeben ist. Im Übrigen verzichten auch \citet{Koleva03} auf die Einordnung in diese Kategorie, da sie generell nur geringen Unterscheidungswert hat. Hinsichtlich der Source of Link, die in der Tabelle ebenfalls nicht angegeben ist (und von den Autoren ebenfalls nicht verwendet wird), ist zu erwähnen, das das Werkzeug durchaus einen Aspekt aufweist, bei dem der Source of Link die digitale Welt ist. Im Rahmen der Wiederherstellungsunterstützung gibt das System Anweisungen zur Manipulation der realen Welt, wodurch sich der Informationsfluss umkehrt. Da jedoch kein physisches Element direkt manipuliert wird, ist eine Einordnung in das oben angeführte Schema nicht möglich (der Link ist lediglich indirekt vorhanden).
 
 % subsection abbildung (end)
 
@@ -93,23 +93,70 @@ Die Kardinalität und die Quelle des Links wurden hier nicht gesondert betrachte
 
 Das von \citep{Koleva03} vorgeschlagene Framework ermöglicht die Klassifikation eines Tangible Interfaces über den Aspekt der Stärke der Bindung zwischen digitaler und realer Welt. Die Autoren nehmen damit eine zu diesem Zeitpunkt neue Perspektive ein, der noch keine große Aufmerksamkeit geschenkt wurde. Durch die Vernachlässigung der Interaktion am Tangible User Interface stellt eine Analyse unter Einsatz der im Framework vorgeschlagenen Kategorien und Merkmalen nur einen Teilaspekt des Gesamtsystems dar. Trotz dieser Einschränkung stellt das Framework ob seiner detaillieren Betrachtung der Eigenschaften der Verknüpfung von physischen Objekten mit digitaler Information einen potentiellen Mehrwert dar beim Design oder der Analyse von \glspl{TUI} dar. 
 
-Insbesondere hilft das Framework, nicht ausgeschöpftes Kohärenz-Potential zu identifizieren. Im konkreten Fall des hier vorgestellten Werkzeugs lässt sich das am Beispiel des Löschtokens zeigen. Dieses physisch durch einen Radiergummi repräsentierte Token wird im Moment lediglich als Schalter verwendet. Das System wird in den Löschmodus versetzt, sobald das Token auf der Oberfläche erkannt wird. Das Token ist als \emph{Projection} einzuordnen, die das Token mit der Information des aktivierten oder deaktivierten Löschmodus verbindet. Obwohl hoch kohärent, ist das Token trotzdem suboptimal eingesetzt, da es in der Praxis als Werkzeug wahrgenommen wird, das zum Löschen einer spezifischen Verbindung verwendet werden kann (\emph{Specialized Tool}). An diesem Beispiel lassen sich zwei Aspekte zeigen, die bei der Verwendung des Frameworks beachtet werden müssen. Zum einen ist hohe Kohärenz nicht für jeden Anwendungsfall anstrebenswert, da bei Werkzeugen im Allgemeinen eine nicht permanente Bindung verwendet wird. Zum anderen zeigt sich die Unvollständigkeit der Analyse mittels dem Framework, da die Metaphorik des physischen Elements, also seine Bedeutung in der Interaktion, nicht berücksichtigt wird. Beide Aspekte -- Kohärenz und Metaphorik -- berücksichtigt erst \citep{Fishkin04} in der von ihm vorgeschlagenen Taxonomie (siehe Abschnitt \ref{sub:taxonomie_fishkin} und \ref{sec:einordnung_in_die_taxonomie_von_fishkin}).
+Insbesondere ermöglicht das Framework, nicht ausgeschöpftes Kohärenz-Potential zu identifizieren. Im konkreten Fall des hier vorgestellten Werkzeugs lässt sich das am Beispiel des Löschtokens zeigen. Dieses physisch durch einen Radiergummi repräsentierte Token wird im Moment lediglich als Schalter verwendet. Das System wird in den Löschmodus versetzt, sobald das Token auf der Oberfläche erkannt wird. Das Token ist als \emph{Projection} einzuordnen, die das Token mit der Information des aktivierten oder deaktivierten Löschmodus verbindet. Obwohl hoch kohärent, ist das Token trotzdem suboptimal eingesetzt, da es in der Praxis als Werkzeug wahrgenommen wird, das zum Löschen einer spezifischen Verbindung verwendet werden kann (\emph{Specialized Tool}). An diesem Beispiel lassen sich zwei Aspekte zeigen, die bei der Verwendung des Frameworks beachtet werden müssen. Zum einen ist hohe Kohärenz nicht für jeden Anwendungsfall anstrebenswert, da bei Werkzeugen im Allgemeinen eine nicht permanente Bindung verwendet wird. Zum anderen zeigt sich die Unvollständigkeit der Analyse mittels dem Framework, da die Metaphorik des physischen Elements, also seine Bedeutung in der Interaktion, nicht berücksichtigt wird. Beide Aspekte -- Kohärenz und Metaphorik -- berücksichtigt erst \citep{Fishkin04} in der von ihm vorgeschlagenen Taxonomie (siehe Abschnitt \ref{sub:taxonomie_fishkin} und \ref{sec:einordnung_in_die_taxonomie_von_fishkin}).
 
 % subsection bewertung (end)
 % section einordnung_in_das_framework_nach_koleva_et_al_ (end)
 
+\section{Spezifikation des TAC-Schemas nach Shaer et al.} % (fold)
+\label{sec:spezifikation_des_tac_schemas_nach_shaer_et_al_}
+
+Grundlage der Einordnung in diesem Abschnitt ist der Ansatzes von \citet{Shaer04}, der in Abschnitt \ref{sub:tokens_und_constraints_nach_shaer_et_al_} beschrieben wurde.
+
+\subsection{Abbildung} % (fold)
+
+Das „Token and Constraints“-Schema (TAC) erlaubt es, ein Tangible Interface sowohl hinsichtliche dessen Struktur als auch dessen Verwendung zu beschreiben. In Tabelle \ref{tab:tac} wird das Schema auf das hier vorgestellte Werkzeug angewandt. 
+
+	\begin{longtable}{| p{0,8cm} || p{2,2cm} | p{2cm} || p{2cm} | p{2cm} | p{3cm} |} \caption{Spezifikation des Werkzeug mittels TAC-Schema}\label{tab:tac} \\ \hline	 
+		TAC & \multicolumn{2}{|c||}{Struktur} & \multicolumn{3}{c|}{Verhalten} \\ 
+		& Token & Constraint & Variable & Aktion & Feedback \\ \hline \hline
+		\endfirsthead 
+		\caption[]{(Fortsetzung)}\\ 
+		\hline
+			TAC & \multicolumn{2}{|c||}{Struktur} & \multicolumn{3}{c|}{Verhalten} \\ \hline 
+			& Token & Constraint & Variable & Aktion & Feedback \\ \hline \hline
+		\endhead
+		\multirow{3}{*}{1} & Modell\-ierungs-  & Oberfläche & Modell\-element  & Auflegen & Modell\-element anzeigen \\ \cline{5-6} 
+						   & token &			   &  & Bewegen & Modell\-element bewegen \\ \cline{5-6} 
+						   & 	  &			   &		  & Entfernen & Modell\-element entfernen \\ \hline
+		\multirow{2}{*}{2} & einbett\-bares Token & Modell\-ierungs-    & Modell\-element		  & Hinein\-legen & Daten einbetten \\ \cline{5-6}
+						   &  & token   &  & Heraus\-nehmen & Container-Kopplung aufheben \\ \hline
+		3 & einbett\-bares Token & Regist\-rierungs\-kamera & einbett\-bares Modell\-element & Vor die Kamera halten & ungebunden: Datenbindung auslösen; gebunden: Gebundene Daten anzeigen \\ \hline
+		4 & Markierungs\-token & Modell\-ierungs\-token & Modell\-element & Neben Modell\-ierungs\-token platzieren	& Markierung anzeigen \\ \hline
+		5 & Markierungs\-token & Modell\-ierungs\-token, markiertes Modell\-ierungs\-token & Verbindung & Neben unmarkiertem Modell\-ierungs\-token platzieren	& Verbindung herstellen und anzeigen \\ \hline  
+		6 & Tastatur & markiertes Modell\-ierungs\-token & Modell\-element & Tastatur\-eingabe & Benennung des markierten Modellelements \\ \hline
+		7 & Tastatur & Verbind\-ungen, kein markiertes Modell\-ierungs\-token & zuletzt hergestellte Verbindung & Tastatur\-eingabe & Benennung der zuletzt hergestellten Verbindung \\ \hline
+		\multirow{2}{*}{8} & Lösch\-token & Oberfläche & Modell\-element & Auflegen & Löschmodus aktivieren \\ \cline{5-6}
+		 				   &    	& 			 &  & Entfernen & Löschmodus deaktivieren \\ \hline
+		9 & Snapshot\-token & Oberfläche & Modell\-ierungs\-historie & Auflegen & Aktuellen Modellzustand sichern, Blitz anzeigen \\ \hline
+		\multirow{3}{*}{10} & Historien\-kontroll\-token & Oberfläche & Modell\-ierungs\-historie  & Auflegen & Letzten gespeicherten Snapshot anzeigen \\ \cline{5-6}
+						   &   &			 &  & Drehen & Durch die gespeicherten Snapshots navigieren \\ \cline{5-6}
+						   &   &			 &  & Entfernen & Aktuelles Modell anzeigen \\ \hline
+		11 & Wieder\-herstellungs\-token & Oberfläche, vorhandenes Historien\-kontroll\-token & Modell\-zustand & Auflegen & Aktuell angezeigten Snapshot wiederherstellen \\ \hline
+
+	\end{longtable}
+
+Jene Interaktionsabläufe, bei denen das System die Aktionen der Benutzer anleitet (z.B. bei der Unterstützung der Wiederherstellung) können in diesem Schema nicht abgebildet werden, da die Constraints keine keine physischen Objekte sondern lediglich projizierte Information sind.
+
+\subsection{Bewertung} % (fold)
+
+Das TAC-Schema eignet sich für eine umfassende Spezifikation des Struktur und des Verhaltens eines Tangible User Interfaces. Das vorgeschlagene Schema geht jedoch (wie die meisten anderen Ansätze auch) davon aus, dass das \gls{TUI} vor allem zur Informationseingabe verwendet wird und das sich der Systemzustand und dessen Manifestierung am Interface in Abhängigkeit dieser Eingaben ändern. Nicht abbildbar sind Interaktionen, die vom System ausgelöst bzw. kontrolliert werden, bei denen also die \emph{Variable} das aktive und nicht das manipulierte Element ist (im Gegensatz zum zuvor vorgestellten \emph{Degree of Coherence}-Ansatz der mit der \emph{Source of Link}-Eigenschaft explizit auf diesen Aspekt eingeht -- siehe Abschnitt \ref{sub:degree_of_coherence}).
+
+Entsprechend dieser Einschränkung eignet sich das TAC-Schema weitgehend für die Spezifikation des hier vorgeschlagenen Werkzeuges. Lediglich die Wiederherstellungsunterstützung kann nicht abgebildet werden, da sie vom System gesteuert wird. Beim Einsatz zur Spezifikation eines \gls{TUI} oder bei der Untersuchung desselben hinsichtlich möglichem Verbesserungspotential ist vor allem auf die möglichen Constraints eines Tokens zu achten. Dabei ist es hilfreich, unterschiedliche Constraints bezüglich der von ihnen vorgegebenen oder durch sie ermöglichten Aktionen zu betrachten. Als Beispiel im konkreten System kann wiederum das Löschtoken verwendet werden. Diese wird in der aktuellen Implementierung mit dem Constraint „Oberfläche“ verwendet, um den Löschmodus zu aktivieren (wenn es aufgelegt wird) bzw. zu deaktivieren (wenn es entfernt wird). Setzt man das Löschtoken nun in ein TAC mit dem Constraint „Verbindung“, ergeben sich neue Möglichkeiten der Interaktion. Ein Aufsetzen des Löschtokens auf eine Verbindung könnte diese unmittelbar löschen und würde so den notwendigen Interaktionsablauf massiv vereinfachen. Das mit diesem Constraint auch die Metapher des verwendeten Radiergummis sinnbringend verwendet wird, ist ein Nebeneffekt, der jedoch im TAC-Schema nicht repräsentiert wird. Vielmehr ist die Metaphorik Ausgangspunkt für eine sinnvolle und verständliche Auswahl möglicher Constraints für ein Token.
+
+
+% section spezifikation_des_tac_schemas_nach_shaer_et_al_ (end)
+
 \section{Einordnung in die Taxonomie von Fishkin} % (fold)
 \label{sec:einordnung_in_die_taxonomie_von_fishkin}
-
 
 Grundlage der Einordnung in diesem Abschnitt ist der Ansatzes von \citep{Fishkin04}, der in Abschnitt \ref{sub:taxonomie_fishkin} beschrieben wurde.
 
 \subsection{Abbildung}
 Das in dieser Arbeit entwickelte Werkzeug überspannt aufgrund seiner komplexen Struktur in beiden von \citeauthor{Fishkin04} vorgeschlagenen Dimensionen zur Klassifikation von Tangible Interfaces mehrere Ausprägungen. Um eine umfassende und ins Detail gehende Einordnung vornehmen zu können, werden im Folgenden Einzelaspekte des Systems betrachtet und eingeordnet. Während die Dimension "Embodiment" bereits in Kapitel \ref{cha:visualisierung} betrachtet wurde, um eine strukturierte Zuordnung der Ausgabekanäle vornehmen zu können, werden hier die einzelnen Funktionalitäten des Systems (siehe Abschnitt \ref{sec:benutzerinteraktion_mit_dem_werkzeug}) jeweils beiden Dimensionen zugeordnet (siehe Tabelle \ref{tab:einordnungFishkin})
 
-\begin{table}[htbp]
-	\centering
-	\begin{tabular}{| p{6cm} || p{3cm} | p{3cm} |} \hline
+
+	\begin{longtable}{| p{6cm} || p{3cm} | p{3cm} |} \hline
 		 & Embodiment & Metaphor \\ \hline \hline
 		Platzieren und Benennen von Modellelementen & distant, nearby (Tastatur), full (Haftnotiz) & verb (Tastatur), verb + noun (Haftnotiz) \\ \hline
 		Erstellen von Verbindern & nearby & verb bis noun+verb (Werkzeugtokens), verb (räumliche Nähe)\\ \hline
@@ -119,10 +166,10 @@ Das in dieser Arbeit entwickelte Werkzeug überspannt aufgrund seiner komplexen 
 		Erstellen von Snapshots & environmental bis nearby & none \\ \hline
 		Navigation in der Modell-Historie & distant & verb \\ \hline
 		Wiederherstellen eines Modell-Zustandes & nearby & noun + verb\\ \hline
-	\end{tabular}
-	\caption{Einordnung des Systems in die Taxonomie nach Fishkin}
-	\label{tab:einordnungFishkin}
-\end{table}
+			\caption{Einordnung des Systems in die Taxonomie nach Fishkin}
+			\label{tab:einordnungFishkin}
+		
+	\end{longtable}
 
 Beim \emph{Platzieren und Benennen von Modellelementen} ist die Benennung auf zwei Arten möglich, die unterschiedlich in die Taxonomie einzuordnen sind. Bei Benennung mittels Auswahl und Tastatur ist durch die Projektion der Benennung die Embodiment-Ausprägung "nearby" zu wählen. Der Vorgang der Auswahl und Benennung kann als analog zur realen Welt gesehen werden, die eingesetzten Werkzeuge sind aber generischer Natur -- Metaphor ist also als "verb" zu klassifizieren. Bei der Benennung mittels Haftnotitz ist durch die unmittelbar auf den Tokens angebrachten Benennungen Embodiment "full", Der Vorgang des Beschriftens wird analog zur realen Welt durchgeführt, auch die Informationsträger (Haftnotizen) entsprechen jenen der realen Welt, Metaphor ist also "verb + noun", wobei  der notwendige Vorgang der expliziten Erfassung einer Beschriftung durch das System eine Klassifikation "full" verhindert und sogar die Einstufung "noun + verb" etwas abschwächt (keine Analogie des Vorgangs zur realen Welt).
 

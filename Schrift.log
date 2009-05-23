@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  22 MAY 2009 22:36
+This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  24 MAY 2009 00:59
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -253,26 +253,49 @@ Package: natbib 2009/02/02 8.3 (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count100
 )
+(/usr/local/texlive/2008/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen113
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count101
+\LTcapwidth=\dimen114
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks15
+)
+Class scrreprt Info: longtable captions redefined on input line 17.
+
 (/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/boxedminipage.sty)
 (/usr/local/texlive/2008/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count101
-\lst@gtempboxa=\box53
-\lst@token=\toks15
-\lst@length=\count102
-\lst@currlwidth=\dimen113
-\lst@column=\count103
-\lst@pos=\count104
-\lst@lostspace=\dimen114
-\lst@width=\dimen115
-\lst@newlines=\count105
-\lst@lineno=\count106
-\lst@maxwidth=\dimen116
+\lst@mode=\count106
+\lst@gtempboxa=\box57
+\lst@token=\toks16
+\lst@length=\count107
+\lst@currlwidth=\dimen115
+\lst@column=\count108
+\lst@pos=\count109
+\lst@lostspace=\dimen116
+\lst@width=\dimen117
+\lst@newlines=\count110
+\lst@lineno=\count111
+\lst@maxwidth=\dimen118
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count107
-\lst@skipnumbers=\count108
-\lst@framebox=\box54
+\c@lstnumber=\count112
+\lst@skipnumbers=\count113
+\lst@framebox=\box58
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
@@ -288,17 +311,17 @@ Package: mtcmess 2006/03/14
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 60 ***.
 \tf@mtc=\write4
-\mtcindent=\skip51
-\mtcskipamount=\skip52
+\mtcindent=\skip55
+\mtcskipamount=\skip56
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks16
-\mtc@strutbox=\box55
-\mtc@hstrutbox=\box56
+\mtc@toks=\toks17
+\mtc@strutbox=\box59
+\mtc@hstrutbox=\box60
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
 \openout4 = `Schrift.mtc0'.
@@ -316,11 +339,11 @@ Package minitoc Info: I0031
 
 \openout4 = `Schrift.mtc0'.
 
-\c@mtc=\count109
-\c@minitocdepth=\count110
-\c@ptc=\count111
-\c@parttocdepth=\count112
-\ptcindent=\skip53
+\c@mtc=\count114
+\c@minitocdepth=\count115
+\c@ptc=\count116
+\c@parttocdepth=\count117
+\ptcindent=\skip57
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4910.
@@ -337,31 +360,31 @@ Package: fontspec 2008/08/09 v1.18 Advanced font selection for XeLaTeX
 (/usr/local/texlive/2008/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
 )
-\c@zf@newff=\count113
-\c@zf@index=\count114
-\c@zf@script=\count115
-\c@zf@language=\count116
+\c@zf@newff=\count118
+\c@zf@index=\count119
+\c@zf@script=\count120
+\c@zf@language=\count121
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count117
-\calc@Bcount=\count118
-\calc@Adimen=\dimen117
-\calc@Bdimen=\dimen118
-\calc@Askip=\skip54
-\calc@Bskip=\skip55
+\calc@Acount=\count122
+\calc@Bcount=\count123
+\calc@Adimen=\dimen119
+\calc@Bdimen=\dimen120
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count119
-\calc@Cskip=\skip56
+\calc@Ccount=\count124
+\calc@Cskip=\skip60
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
 (/usr/local/texlive/2008/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
-\XKV@depth=\count120
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+\XKV@depth=\count125
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
 (/usr/local/texlive/2008/texmf-dist/tex/latex/base/fontenc.sty
@@ -383,15 +406,15 @@ LaTeX Info: Redefining \upshape on input line 1172.
 
 fontspec.cfg loaded.
 (/Users/oppl/Library/texmf/tex/xelatex/fontspec.cfg))
-\c@zf@famc@Hoefler Text=\count121
+\c@zf@famc@Hoefler Text=\count126
 Package fontspec Info: Defining font family for 'Hoefler Text' with options [Ma
-pping=tex-text,] on input line 26.
-\c@zf@famc@Gill Sans=\count122
+pping=tex-text,] on input line 29.
+\c@zf@famc@Gill Sans=\count127
 Package fontspec Info: Defining font family for 'Gill Sans' with options [Mappi
-ng=tex-text,] on input line 29.
-\c@zf@famc@Courier=\count123
+ng=tex-text,] on input line 32.
+\c@zf@famc@Courier=\count128
 Package fontspec Info: Defining font family for 'Courier' with options [Mapping
-=tex-text,] on input line 31.
+=tex-text,] on input line 34.
 \@indexfile=\write5
 \openout5 = `Schrift.idx'.
 
@@ -419,8 +442,8 @@ Package graphics Info: Driver file: xetex.def on input line 90.
 File: xetex.def 2006/08/10 v0.92 LaTeX color/graphics driver for XeTeX (RRM, mo
 d. JK)
 ))
-\Gin@req@height=\dimen119
-\Gin@req@width=\dimen120
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2008/12/21 v4.2 Page Geometry
@@ -429,14 +452,14 @@ Package: geometry 2008/12/21 v4.2 Page Geometry
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count124
-\Gm@cntv=\count125
-\c@Gm@tempcnt=\count126
-\Gm@bindingoffset=\dimen121
-\Gm@wd@mp=\dimen122
-\Gm@odd@mp=\dimen123
-\Gm@even@mp=\dimen124
-\Gm@dimlist=\toks19
+\Gm@cnth=\count129
+\Gm@cntv=\count130
+\c@Gm@tempcnt=\count131
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+\Gm@dimlist=\toks20
 
 (/usr/local/texlive/2008/texmf-dist/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/local/texlive/2008/texmf-dist/tex/latex/microtype/microtype.sty
@@ -465,9 +488,9 @@ O)
 (/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
 Package: xcolor-patch 2008/09/08 xcolor patch
 ))
-\@linkdim=\dimen125
-\Hy@linkcounter=\count127
-\Hy@pagecounter=\count128
+\@linkdim=\dimen127
+\Hy@linkcounter=\count132
+\Hy@pagecounter=\count133
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/02/22 v6.78p Hyperref: PDFDocEncoding definition (HO)
@@ -526,10 +549,10 @@ Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package: kvsetkeys 2007/09/29 v1.3 Key value parser with default handler suppor
 t (HO)
 )
-\Fld@menulength=\count129
-\Field@Width=\dimen126
-\Fld@charsize=\dimen127
-\Field@toks=\toks20
+\Fld@menulength=\count134
+\Field@Width=\dimen128
+\Fld@charsize=\dimen129
+\Field@toks=\toks21
 Package hyperref Info: Hyper figures OFF on input line 4299.
 Package hyperref Info: Link nesting OFF on input line 4304.
 Package hyperref Info: Hyper index ON on input line 4307.
@@ -541,16 +564,16 @@ Package hyperref Info: PDF/A mode OFF on input line 4329.
 (/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count130
-\c@Item=\count131
-\c@Hfootnote=\count132
+\Hy@abspage=\count135
+\c@Item=\count136
+\c@Hfootnote=\count137
 )
 *hyperref using default driver hdvipdfm*
 (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/hdvipdfm.def
 File: hdvipdfm.def 2009/02/22 v6.78p Hyperref driver for dvipdfm
-\pdfm@box=\box57
-\HyField@AnnotCount=\count133
-\Fld@listcount=\count134
+\pdfm@box=\box61
+\HyField@AnnotCount=\count138
+\Fld@listcount=\count139
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2009/03/02 v1.19 (NLCT)
@@ -570,12 +593,12 @@ Package: translator 2007/03/11 ver 1.00
 (/usr/local/texlive/2008/texmf-dist/tex/latex/translator/translator-language-ma
 ppings.tex)) (/usr/local/texlive/2008/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks21
-\ex@=\dimen128
+\@emptytoks=\toks22
+\ex@=\dimen130
 )
-\gls@level=\count135
-\@gls@tmpb=\toks22
-\gls@tmplen=\skip57
+\gls@level=\count140
+\@gls@tmpb=\toks23
+\gls@tmplen=\skip61
 \istfile=\write6
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
@@ -585,30 +608,11 @@ Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
 (/usr/local/texlive/2008/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
 Package: glossary-list 2009/01/14 v1.05 (NLCT)
-\glslistdottedwidth=\skip58
+\glslistdottedwidth=\skip62
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
 Package: glossary-long 2009/01/14 v1.03 (NLCT)
- (/usr/local/texlive/2008/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip59
-\LTright=\skip60
-\LTpre=\skip61
-\LTpost=\skip62
-\LTchunksize=\count136
-\LTcapwidth=\dimen129
-\LT@head=\box58
-\LT@firsthead=\box59
-\LT@foot=\box60
-\LT@lastfoot=\box61
-\LT@cols=\count137
-\LT@rows=\count138
-\c@LT@tables=\count139
-\c@LT@chunks=\count140
-\LT@p@ftn=\toks23
-)
-Class scrreprt Info: longtable captions redefined on input line 43.
 \glsdescwidth=\skip63
 \glspagelistwidth=\skip64
 )
@@ -618,20 +622,20 @@ Package: glossary-super 2009/01/14 v1.03 (NLCT)
  (/usr/local/texlive/2008/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count141
-\ST@wd=\dimen130
+\ST@wd=\dimen131
 \ST@rightskip=\skip65
 \ST@leftskip=\skip66
 \ST@parfillskip=\skip67
-\ST@pageleft=\dimen131
-\ST@headht=\dimen132
-\ST@tailht=\dimen133
-\ST@pagesofar=\dimen134
-\ST@pboxht=\dimen135
-\ST@lineht=\dimen136
-\ST@stretchht=\dimen137
-\ST@prevht=\dimen138
-\ST@toadd=\dimen139
-\ST@dimen=\dimen140
+\ST@pageleft=\dimen132
+\ST@headht=\dimen133
+\ST@tailht=\dimen134
+\ST@pagesofar=\dimen135
+\ST@pboxht=\dimen136
+\ST@lineht=\dimen137
+\ST@stretchht=\dimen138
+\ST@prevht=\dimen139
+\ST@toadd=\dimen140
+\ST@dimen=\dimen141
 \ST@pbox=\box62
 ))
 (/usr/local/texlive/2008/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
@@ -642,32 +646,32 @@ Package: glossary-tree 2009/01/14 v1.01 (NLCT)
 \glo@main@file=\write7
 \openout7 = `Schrift.glo'.
 
-Package glossaries Info: Writing glossary file Schrift.glo on input line 59.
+Package glossaries Info: Writing glossary file Schrift.glo on input line 62.
 \glo@acronym@file=\write8
 \openout8 = `Schrift.acn'.
 
-Package glossaries Info: Writing glossary file Schrift.acn on input line 59.
+Package glossaries Info: Writing glossary file Schrift.acn on input line 62.
  (./Acronyme.tex) (./Schrift.aux (./Einführung.aux) (./Grundlagen.aux)
 (./Werkzeug.aux) (./Evaluierung.aux) (./Schlussbetrachtungen.aux)
 (./Bildquellen.aux))
 \openout1 = `Schrift.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 **** pdfsync.sty: Synchronization is enabled.
 \openout3 = `Schrift.pdfsync'.
 
@@ -705,74 +709,77 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                of loading the ``hyperref'' package.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid this).
- on input line 98.
+ on input line 101.
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 98.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 98.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 98.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 98.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 98.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 98.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 98.
-LaTeX Font Info:    Redeclaring math accent \check on input line 98.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 98.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 98.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 98.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 98.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 101.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 101.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 101.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 101.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 101.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 101.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 101.
+LaTeX Font Info:    Redeclaring math accent \check on input line 101.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 101.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 101.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 101.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 101.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 98.
+(Font)              `operators' in the math version `normal' on input line 101.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/HoeflerText(0)/m/n on input line 98
-.
+(Font)                  OT1/cmr/m/n --> EU1/HoeflerText(0)/m/n on input line 10
+1.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 98.
+(Font)              `operators' in the math version `bold' on input line 101.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/HoeflerText(0)/m/n on input line 9
-8.
+(Font)                  OT1/cmr/bx/n --> EU1/HoeflerText(0)/m/n on input line 1
+01.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/HoeflerText(0)/m/n --> EU1/HoeflerText(0)/m/n on in
-put line 98.
+put line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/HoeflerText(0)/m/n --> EU1/HoeflerText(0)/m/n on in
-put line 98.
+put line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/HoeflerText(0)/m/it on input line 
-98.
+101.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/HoeflerText(0)/bx/n on input line 
-98.
+101.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/GillSans(0)/m/n on input line 98.
+(Font)                  OT1/cmss/m/n --> EU1/GillSans(0)/m/n on input line 101.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/Courier(0)/m/n on input line 98.
+(Font)                  OT1/cmtt/m/n --> EU1/Courier(0)/m/n on input line 101.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/HoeflerText(0)/m/n --> EU1/HoeflerText(0)/bx/n on i
-nput line 98.
+nput line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/HoeflerText(0)/m/n --> EU1/HoeflerText(0)/bx/n on i
-nput line 98.
+nput line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/HoeflerText(0)/bx/it on input lin
-e 98.
+e 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/GillSans(0)/bx/n on input line 98
-.
+(Font)                  OT1/cmss/bx/n --> EU1/GillSans(0)/bx/n on input line 10
+1.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/Courier(0)/bx/n on input line 98.
+(Font)                  OT1/cmtt/m/n --> EU1/Courier(0)/bx/n on input line 101.
+
 *geometry detected driver: pdftex*
 -------------------- Geometry parameters
 paper: a4paper
@@ -813,7 +820,7 @@ driver: pdftex
 \@twosidetrue \@mparswitchtrue 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring OFF on input line 98.
+Package hyperref Info: Link coloring OFF on input line 101.
 (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -822,14 +829,14 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 98.
-LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
 
 (./Schrift.out) (./Schrift.out)
 \@outlinefile=\write9
 \openout9 = `Schrift.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 98.
+Package backref Info: ** backref set up for natbib ** on input line 101.
 \AtBeginShipoutBox=\box63
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/glossaries/dict/glossaries-dictio
@@ -837,9 +844,9 @@ nary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 103.
+(Font)              <17.28> on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 103.
+(Font)              <12> on input line 106.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
@@ -872,11 +879,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' in size <12> not avail
 able
 (Font)              Font shape `EU1/HoeflerText(0)/m/it' tried instead on input
- line 114.
+ line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 114.
+(Font)              <8> on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 114.
+(Font)              <6> on input line 117.
  [1
 
 
@@ -924,46 +931,52 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)            on input line 46.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 89.
+(scrreprt)            on input line 84.
  [4]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 151.
+(scrreprt)            on input line 146.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 189.
+(scrreprt)            on input line 184.
  [5]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 218.
+(scrreprt)            on input line 213.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 220.
+(scrreprt)            on input line 215.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 237.
+(scrreprt)            on input line 235.
  [6]
-Overfull \hbox (1.06784pt too wide) detected at line 258
+Overfull \hbox (1.06784pt too wide) detected at line 241
 [][] []\EU1/HoeflerText(0)/m/n/12 200
  []
 
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 269.
 
-Overfull \hbox (0.22794pt too wide) detected at line 272
+Overfull \hbox (0.22794pt too wide) detected at line 256
 [][] []\EU1/HoeflerText(0)/m/n/12 206
  []
 
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 273.
+(scrreprt)            on input line 267.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 271.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 272.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 274.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 276.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 277.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 278.
@@ -979,12 +992,6 @@ Class scrreprt Info: You've told me to use the font selection of the element
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 282.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 283.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 284.
 )
 \tf@toc=\write10
 \openout10 = `Schrift.toc'.
@@ -1276,106 +1283,102 @@ Overfull \hbox (10.17116pt too wide) in paragraph at lines 26--27
 s gegenüber anderen Forschungs-
  []
 
-[30] [31]
+[30] [31] [32]
 LaTeX Font Info:    Try loading font information for OMS+HoeflerText(0) on inpu
-t line 63.
-LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 63.
+t line 90.
+LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 90.
 LaTeX Font Info:    Font shape `OMS/HoeflerText(0)/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 63.
- [32]
-Overfull \hbox (11.85373pt too wide) in paragraph at lines 66--67
+(Font)              for symbol `textbullet' on input line 90.
+
+Overfull \hbox (11.85373pt too wide) in paragraph at lines 93--94
 []\EU1/HoeflerText(0)/m/n/12 Handles (Elemente zur Manipulation von GUI-Objekte
 n) werden durch „Phand-
  []
 
-[33] [34] [35]
+
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+ [33]
+[34] [35] [36]
 File: img/ImplementierungUeberblick/MCRpd.jpg Graphic file (type QTm)
  <use  "img/ImplementierungUeberblick/MCRpd.jpg" >
-Overfull \hbox (0.39291pt too wide) in paragraph at lines 131--132
+Overfull \hbox (0.39291pt too wide) in paragraph at lines 190--191
 \EU1/HoeflerText(0)/m/n/12 durch digitale Kontroll-Elemente an diesen angepasst
 . Die Ausgabe erfolgt durch die
  []
 
-[36]
-Overfull \hbox (4.92157pt too wide) in paragraph at lines 136--137
+[37]
+Overfull \hbox (4.92157pt too wide) in paragraph at lines 195--196
 []\EU1/HoeflerText(0)/m/n/12 Physikalische Repräsentationen enthalten Mechanis
 men zur Kontrolle des Sys-
  []
 
 
-Overfull \hbox (2.88841pt too wide) in paragraph at lines 141--142
+Overfull \hbox (2.88841pt too wide) in paragraph at lines 200--201
 \EU1/HoeflerText(0)/m/n/12 und „constructive“ (konstruierende) Ansätze unt
 erschieden. Räumliche Ansätze nut-
  []
 
 
-Overfull \hbox (0.13727pt too wide) in paragraph at lines 141--142
+Overfull \hbox (0.13727pt too wide) in paragraph at lines 200--201
 \EU1/HoeflerText(0)/m/n/12 Elementen codieren den Systemzustand. Konstruierende
  Ansätze sind zwischen den
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
-Underfull \vbox (badness 2261) has occurred while \output is active []
+Underfull \vbox (badness 2790) has occurred while \output is active []
 
  [38]
-Overfull \hbox (0.97423pt too wide) in paragraph at lines 158--159
+Underfull \hbox (badness 2409) in paragraph at lines 209--209
+[]\EU1/HoeflerText(0)/m/n/12 Informationsrepräsentation immer an ein physische
+s
+ []
+
+[39]
+Overfull \hbox (0.97423pt too wide) in paragraph at lines 225--226
 []\EU1/HoeflerText(0)/m/n/12 Ein Werkzeug, das eine bestimmte Operation auslös
 t, diese aber
  []
 
-
-Overfull \hbox (0.12903pt too wide) in paragraph at lines 169--170
+[40]
+Overfull \hbox (0.12903pt too wide) in paragraph at lines 236--237
 []\EU1/HoeflerText(0)/m/n/12 Beschreibt auf welche Parameter eines Objektes der
  rea-
  []
 
 
-Overfull \hbox (7.2502pt too wide) in paragraph at lines 170--171
-[]\EU1/HoeflerText(0)/m/n/12 Gibt an, ob die Assoziation zwischen phy-
+Underfull \hbox (badness 5147) in paragraph at lines 250--250
+[]\EU1/HoeflerText(0)/m/it/12 PD-Brücke\EU1/HoeflerText(0)/m/n/12 : Transforma
+tion, Sensing of Interaction,
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [41]
+Overfull \hbox (0.11575pt too wide) in paragraph at lines 266--267
+\EU1/HoeflerText(0)/m/n/12 schränkt. Die physischen Eigenschaften des Constrai
+nts weisen auf die Art der
+ []
 
- [40]
-[41]
-Overfull \hbox (11.90475pt too wide) in paragraph at lines 223--224
+[42]
+Underfull \vbox (badness 4492) has occurred while \output is active []
+
+ [43]
+Overfull \hbox (11.90475pt too wide) in paragraph at lines 319--320
 \EU1/HoeflerText(0)/m/n/12 nehmbarkeit des Systemzustandes und der Systemaktivi
 tät. Je kohärenter die Ausgabe-
  []
 
-[42]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
+[44] [45] [46]
 LaTeX Font Info:    Try loading font information for OT1+HoeflerText(0) on inpu
-t line 295.
-LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 295.
+t line 407.
+LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 407.
 LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/bx/n' undefined
 (Font)              using `OT1/cmr/m/n' instead
-(Font)              for symbol `textendash' on input line 295.
-
-[44]) (./ImplementierungInput.tex [45]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-[46
-
-
-]
+(Font)              for symbol `textendash' on input line 407.
+ [47]) (./ImplementierungInput.tex [48]
 Kapitel 8.
 
 Overfull \hbox (0.1946pt too wide) in paragraph at lines 12--13
@@ -1383,13 +1386,16 @@ Overfull \hbox (0.1946pt too wide) in paragraph at lines 12--13
 �ten (wie Tastatur oder Maus)
  []
 
-[47]
+[49
+
+
+]
 Overfull \hbox (21.5557pt too wide) in paragraph at lines 23--24
 \EU1/HoeflerText(0)/m/n/12 Technologien, die eine Erfassung dieser Parameter mi
 t einer Genauigkeit im Zentimeter-
  []
 
-[48] [49]
+[50] [51]
 Overfull \hbox (1.31554pt too wide) in paragraph at lines 46--47
 []\EU1/HoeflerText(0)/m/n/12 Kapazitive Systeme eignen sich also zur Positionsb
 estimmung, nicht aber zur Iden-
@@ -1401,13 +1407,13 @@ Overfull \hbox (5.57098pt too wide) in paragraph at lines 59--60
 edingt zur Feststellung von Raum-
  []
 
-[50]
+[52]
 Overfull \hbox (0.11327pt too wide) in paragraph at lines 70--71
 \EU1/HoeflerText(0)/m/n/12 tisch) verdeckte Tokens. Eine Anfälligkeit gegenüb
 er anderen Störeinflüssen besteht
  []
 
-[51]
+[53]
 Overfull \hbox (3.1033pt too wide) in paragraph at lines 90--91
 \EU1/HoeflerText(0)/m/n/12 Hinsichtlich des Tokenzustands sind im Kontext des h
 ier vorgestellten Anwendungs-
@@ -1419,23 +1425,23 @@ Overfull \hbox (0.1168pt too wide) in paragraph at lines 100--101
 mit ist es grundsätzlich möglich,
  []
 
-[52]
+[54]
 Overfull \hbox (0.66061pt too wide) in paragraph at lines 112--113
 \EU1/HoeflerText(0)/m/n/12 ansonsten eventuell zu verwendende Kabel zu vermeide
 n. Eine Stromversorung über
  []
 
-[53]
+[55]
 Overfull \hbox (0.33691pt too wide) in paragraph at lines 119--120
 \EU1/HoeflerText(0)/m/n/12 gleichzeitig verwendbaren Geräte (max. 7) für den 
 hier vorgestellten Anwendungsfall
  []
 
-[54] [55]
+[56] [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
-[57]
+ [58]
+[59]
 LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/m/n' undefined
 (Font)              using `OT1/cmr/m/n' instead on input line 183.
 
@@ -1450,7 +1456,7 @@ Overfull \hbox (10.02057pt too wide) in paragraph at lines 185--186
 toren“ (siehe Abbildung []8.1[]). „Sensor“-
  []
 
-[58]
+[60]
 File: img/ImplementierungInput/TUIpistArchitecture.jpg Graphic file (type QTm)
  <use  "img/ImplementierungInput/TUIpistArchitecture.jpg" >
 Overfull \hbox (21.91104pt too wide) in paragraph at lines 194--195
@@ -1458,7 +1464,7 @@ Overfull \hbox (21.91104pt too wide) in paragraph at lines 194--195
 t mittels einem datenzentrierten
  []
 
-[59]
+[61]
 File: img/ImplementierungInput/TUIpistOperation.jpg Graphic file (type QTm)
  <use  "img/ImplementierungInput/TUIpistOperation.jpg" >
 Underfull \hbox (badness 1527) in paragraph at lines 199--199
@@ -1466,143 +1472,138 @@ Underfull \hbox (badness 1527) in paragraph at lines 199--199
 rtm[]uller und
  []
 
-[60]
+[62]
 File: img/ImplementierungInput/artoolkit.jpg Graphic file (type QTm)
- <use  "img/ImplementierungInput/artoolkit.jpg" > [61]
+ <use  "img/ImplementierungInput/artoolkit.jpg" > [63]
 File: img/ImplementierungInput/visualcodes.png Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/visualcodes.png" > [62]
+<use  "img/ImplementierungInput/visualcodes.png" > [64]
 File: img/ImplementierungInput/ReactivisionCode.png Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/ReactivisionCode.png" > [63]
+<use  "img/ImplementierungInput/ReactivisionCode.png" > [65]
 Overfull \hbox (2.32306pt too wide) in paragraph at lines 293--294
 []\EU1/HoeflerText(0)/m/n/12 ReacTIVision bietet die umfassendste Unterstützun
 g zur Einbindung unterschied-
  []
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 []\EU1/HoeflerText(0)/m/n/12 Kamera-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 []\EU1/HoeflerText(0)/m/n/12 nativ auf allen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 \EU1/HoeflerText(0)/m/n/12 unterstützten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 \EU1/HoeflerText(0)/m/n/12 Plattformen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 \EU1/HoeflerText(0)/m/n/12 (Interfaces &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 []\EU1/HoeflerText(0)/m/n/12 nativ auf allen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 \EU1/HoeflerText(0)/m/n/12 unterstützten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []\EU1/HoeflerText(0)/m/n/12 Windows, Li-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 \EU1/HoeflerText(0)/m/n/12 nux, Mac OS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []\EU1/HoeflerText(0)/m/n/12 Java-basiert auf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 \EU1/HoeflerText(0)/m/n/12 allen Plattfor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []\EU1/HoeflerText(0)/m/n/12 Windows, Li-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 \EU1/HoeflerText(0)/m/n/12 nux, Mac OS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []\EU1/HoeflerText(0)/m/n/12 Schnittstelle zu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []\EU1/HoeflerText(0)/m/n/12 via Dritt-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--314
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
 []\EU1/HoeflerText(0)/m/n/12 abhängig von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 []\EU1/HoeflerText(0)/m/n/12 Kompensations-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 \EU1/HoeflerText(0)/m/n/12 möglichkeit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 \EU1/HoeflerText(0)/m/n/12 bei schlechten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 \EU1/HoeflerText(0)/m/n/12 Lichtbedingun-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 \EU1/HoeflerText(0)/m/n/12 der Bilderken-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 []\EU1/HoeflerText(0)/m/n/12 Anzahl von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 \EU1/HoeflerText(0)/m/n/12 gleichzeitig
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-\EU1/HoeflerText(0)/m/n/12 erkennbaren
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 318--318
-[]\EU1/HoeflerText(0)/m/n/12 Erkennung von
+\EU1/HoeflerText(0)/m/n/12 erkennbaren
  []
 
 
@@ -1612,28 +1613,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--319
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 320--320
-[]\EU1/HoeflerText(0)/m/n/12 Kopplung von
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 320--320
-\EU1/HoeflerText(0)/m/n/12 Framework und
+[]\EU1/HoeflerText(0)/m/n/12 Erkennung von
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[]\EU1/HoeflerText(0)/m/n/12 Source-Code
+[]\EU1/HoeflerText(0)/m/n/12 Kopplung von
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 321--321
+\EU1/HoeflerText(0)/m/n/12 Framework und
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]\EU1/HoeflerText(0)/m/n/12 Source-Code
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
 []\EU1/HoeflerText(0)/m/n/12 GPL, alternativ
  []
 
 
 Underfull \vbox (badness 2689) has occurred while \output is active []
 
- [65]
+ [67]
 Overfull \hbox (7.8738pt too wide) in paragraph at lines 328--329
 \EU1/HoeflerText(0)/m/n/12 scheint. Betrachtet man die funktionalen Anforderung
 en, erscheinen zwar alle Frame-
@@ -1642,8 +1648,8 @@ en, erscheinen zwar alle Frame-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
-[67]
+ [68]
+[69]
 Overfull \hbox (0.67482pt too wide) in paragraph at lines 351--352
 []\EU1/HoeflerText(0)/m/n/12 Hinsichtlich der Skalierbarkeit der Frameworks kö
 nnen aufgrund mangelnder Ver-
@@ -1670,96 +1676,96 @@ Overfull \hbox (0.44081pt too wide) in paragraph at lines 353--354
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+ [70]
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []\EU1/HoeflerText(0)/m/n/12 Context
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []\EU1/HoeflerText(0)/m/n/12 SiLiCon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 \EU1/HoeflerText(0)/m/n/12 Context
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 \EU1/HoeflerText(0)/m/n/12 Frame-
  []
 
 
-Overfull \hbox (8.67456pt too wide) in paragraph at lines 358--358
+Overfull \hbox (8.67456pt too wide) in paragraph at lines 359--359
 []\EU1/HoeflerText(0)/m/n/12 Papiermaché| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 []\EU1/HoeflerText(0)/m/n/12 Erweiterbarkeit
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 361--361
+Underfull \hbox (badness 4416) in paragraph at lines 362--362
 []\EU1/HoeflerText(0)/m/n/12 dynamisch kon-
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 361--361
+Underfull \hbox (badness 6173) in paragraph at lines 362--362
 \EU1/HoeflerText(0)/m/n/12 figurierbare Or-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--363
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 \EU1/HoeflerText(0)/m/n/12 Weiterleitung
  []
 
 
-Overfull \hbox (3.6346pt too wide) in paragraph at lines 363--363
+Overfull \hbox (3.6346pt too wide) in paragraph at lines 364--364
 []\EU1/HoeflerText(0)/m/n/12 ausreichend| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 []\EU1/HoeflerText(0)/m/n/12 Open-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 \EU1/HoeflerText(0)/m/n/12 Source
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 \EU1/HoeflerText(0)/m/n/12 (nicht
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 \EU1/HoeflerText(0)/m/n/12 näher
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 []\EU1/HoeflerText(0)/m/n/12 Eigen-
  []
 
 
-Overfull \hbox (5.18274pt too wide) in paragraph at lines 364--364
+Overfull \hbox (5.18274pt too wide) in paragraph at lines 365--365
 \EU1/HoeflerText(0)/m/n/12 entwicklung| 
  []
 
-[69]
+[71]
 Overfull \hbox (0.65845pt too wide) in paragraph at lines 374--375
 []\EU1/HoeflerText(0)/m/n/12 Hinsichtlich der Effizienz der Kommunikation biete
 t das SiLiCon Context Frame-
  []
 
-[70]
+[72]
 File: img/ImplementierungInput/TischSeitenansichtInput.png Graphic file (type Q
 Tm)
- <use  "img/ImplementierungInput/TischSeitenansichtInput.png" > [71]
+ <use  "img/ImplementierungInput/TischSeitenansichtInput.png" > [73]
 Overfull \hbox (10.67116pt too wide) in paragraph at lines 407--408
 \EU1/HoeflerText(0)/m/n/12 In diesem Abschnitt werden die einzelnen durch die B
 enutzer manipulierbaren Token-
@@ -1769,46 +1775,46 @@ File: img/ImplementierungInput/TokensCodes.jpg Graphic file (type QTm)
 <use  "img/ImplementierungInput/TokensCodes.jpg" >
 File: img/ImplementierungInput/TokenTypes.jpg Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/TokenTypes.jpg" > [72] [73]
+<use  "img/ImplementierungInput/TokenTypes.jpg" > [74] [75]
 File: img/ImplementierungInput/ContainerRueckseite.jpg Graphic file (type QTm)
 
 <use  "img/ImplementierungInput/ContainerRueckseite.jpg" >
 File: img/ImplementierungInput/ContainerToken.jpg Graphic file (type QTm)
 
-<use  "img/ImplementierungInput/ContainerToken.jpg" > [74]
+<use  "img/ImplementierungInput/ContainerToken.jpg" > [76]
 File: img/ImplementierungInput/ElementTaxonomie.png Graphic file (type QTm)
 
 <use  "img/ImplementierungInput/ElementTaxonomie.png" >
 Underfull \vbox (badness 1616) has occurred while \output is active []
 
- [75]
+ [77]
 File: img/SystemNeu/EinbettbareTokens.jpg Graphic file (type QTm)
 
 <use  "img/SystemNeu/EinbettbareTokens.jpg" >
 Underfull \vbox (badness 4048) has occurred while \output is active []
 
- [76]
+ [78]
 Overfull \hbox (8.28828pt too wide) in paragraph at lines 494--495
 \EU1/HoeflerText(0)/m/n/12 der einfachste ReacTIVision-Code verwendet werden, d
 er lediglich aus einem schwar-
  []
 
 File: img/SystemNeu/Markierungstoken_alle.jpg Graphic file (type QTm)
-<use  "img/SystemNeu/Markierungstoken_alle.jpg" > [77]
+<use  "img/SystemNeu/Markierungstoken_alle.jpg" > [79]
 Overfull \hbox (23.73668pt too wide) in paragraph at lines 506--507
 \EU1/HoeflerText(0)/m/n/12 zudem das Token auf der Oberfläche aufgesetzt und e
 rkannt wird. Wird ein Markierungs-
  []
 
 File: img/SystemNeu/Loeschtoken.jpg Graphic file (type QTm)
-<use  "img/SystemNeu/Loeschtoken.jpg" > [78]
+<use  "img/SystemNeu/Loeschtoken.jpg" > [80]
 Overfull \hbox (0.22076pt too wide) in paragraph at lines 518--519
 \EU1/HoeflerText(0)/m/n/12 dung das Löschen derselben auslösen. Der detaillie
 rte zugehörige Interaktionsablauf
  []
 
 File: img/SystemNeu/Benennungstoken.jpg Graphic file (type QTm)
-<use  "img/SystemNeu/Benennungstoken.jpg" > [79]
+<use  "img/SystemNeu/Benennungstoken.jpg" > [81]
 File: img/SystemNeu/Snapshottoken.jpg Graphic file (type QTm)
 
 <use  "img/SystemNeu/Snapshottoken.jpg" >
@@ -1817,12 +1823,12 @@ Overfull \hbox (7.57686pt too wide) in paragraph at lines 546--547
 en. Zur Aktivierung des Historien-
  []
 
-[80]
+[82]
 File: img/SystemNeu/Historytoken.jpg Graphic file (type QTm)
- <use  "img/SystemNeu/Historytoken.jpg" > [81]
+ <use  "img/SystemNeu/Historytoken.jpg" > [83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
+ [84]
 Overfull \hbox (3.68416pt too wide) in paragraph at lines 577--578
 \EU1/HoeflerText(0)/m/n/12 wenn starke Sonneneinstrahlung vorhanden ist, da die
 se einen hohen Anteil an Lichts
@@ -1831,7 +1837,7 @@ se einen hohen Anteil an Lichts
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
+ [85]
 Overfull \hbox (1.004pt too wide) in paragraph at lines 579--580
 []\EU1/HoeflerText(0)/m/n/12 Bei Umgebungslicht-Bedingungen, die sich über die
  Zeit verändern (z.B. bei Tages-
@@ -1843,13 +1849,13 @@ Overfull \hbox (14.24683pt too wide) in paragraph at lines 579--580
 iven Erkennungs-Algorithmus
  []
 
-[84]
+[86]
 Overfull \hbox (4.42336pt too wide) in paragraph at lines 595--596
 \EU1/HoeflerText(0)/m/n/12 Modellierungsproblematik, nicht aber durch technisch
 e Einschränkungen, vor-
  []
 
-[85] [86]
+[87] [88]
 Overfull \hbox (0.11328pt too wide) in paragraph at lines 628--629
 \EU1/HoeflerText(0)/m/n/12 stellt und dann über die Outputkanäle visuell darg
 estellt. Die Entscheidung gegen ei-
@@ -1858,16 +1864,16 @@ estellt. Die Entscheidung gegen ei-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
+ [89]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88]
+ [90]
 Overfull \hbox (0.4668pt too wide) in paragraph at lines 644--645
 []\EU1/HoeflerText(0)/m/n/12 Das Löschen von Verbindern ist durch den Einsatz 
 der Radierer-Werkzeug-Tokens
  []
 
-[89]
+[91]
 Overfull \hbox (8.4318pt too wide) in paragraph at lines 653--654
 \EU1/HoeflerText(0)/m/n/12 einbettbaren Tokens, dessen Form die Art der einzube
 ttenden Information bestimmt.
@@ -1876,13 +1882,13 @@ ttenden Information bestimmt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
+ [92]
 Overfull \hbox (29.32906pt too wide) in paragraph at lines 657--658
 \EU1/HoeflerText(0)/m/n/12 teraktionsablauf definiert. Dieser beginnt mit dem �
 �ffnen des entsprechenden Container-
  []
 
-[91]
+[93]
 Overfull \hbox (32.77051pt too wide) in paragraph at lines 668--669
 []\EU1/HoeflerText(0)/m/n/12 Die Navigation durch die Modellierungshistorie erf
 olgt mittels einem runden Werkzeug-
@@ -1891,7 +1897,7 @@ olgt mittels einem runden Werkzeug-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
+ [94]
 Overfull \hbox (1.36345pt too wide) in paragraph at lines 682--683
 []\EU1/HoeflerText(0)/m/n/12 die Komponente, die für die Stabilisierung der Er
 kennungsleistung sorgt, wenn
@@ -1915,16 +1921,16 @@ Overfull \hbox (0.76773pt too wide) in paragraph at lines 701--702
 objektorientierter Software als
  []
 
-[93] [94]
+[95] [96]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
+ [97]
 Overfull \hbox (1.97589pt too wide) in paragraph at lines 714--715
 \EU1/HoeflerText(0)/m/n/12 leuchtungsbedingungen zu Erkennungsproblemen oder Fe
 hlerkennungen neigt, wur-
  []
 
-[96]
+[98]
 Overfull \hbox (11.22667pt too wide) in paragraph at lines 723--724
 []\EU1/HoeflerText(0)/m/n/12 Um das „Cursorflackern“ zu verhindern kann ein
 erseits auf Seiten des ReacTIVision-
@@ -1933,10 +1939,10 @@ erseits auf Seiten des ReacTIVision-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
+ [99]
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [98]
+ [100]
 Overfull \hbox (0.50478pt too wide) in paragraph at lines 736--737
 \EU1/HoeflerText(0)/m/n/12 che (und demnach gesperrte) Position getroffen wird.
  „Spotlights“ sind demhingegen
@@ -1954,11 +1960,11 @@ Overfull \hbox (0.10405pt too wide) in paragraph at lines 744--745
 externe Lichtquellen direkt über
  []
 
-[99] [100] [101]
+[101] [102] [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102]
-[103]
+ [104]
+[105]
 Overfull \hbox (12.89091pt too wide) in paragraph at lines 785--786
 \EU1/HoeflerText(0)/m/n/12 Grundsätzlich könnte eine Zuordnung zwischen Öffn
 ungs-Marker und Modellierungs-
@@ -1976,7 +1982,7 @@ Overfull \hbox (0.50908pt too wide) in paragraph at lines 790--791
 chrieben werden. Diese wurde
  []
 
-[104]
+[106]
 Overfull \hbox (16.59247pt too wide) in paragraph at lines 800--801
 \EU1/HoeflerText(0)/m/n/12 werten muss. Das Signal der Registrierungskamera wir
 d von einer zweite ReacTIVision-
@@ -1985,36 +1991,36 @@ d von einer zweite ReacTIVision-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105]
+ [107]
 Underfull \vbox (badness 2165) has occurred while \output is active []
 
- [106]
+ [108]
 Overfull \hbox (1.20894pt too wide) in paragraph at lines 817--818
 \EU1/HoeflerText(0)/m/n/12 die Verwendung derselben benötigt. Um die Eingabe t
 rotz des „Medienbruchs“ mög-
  []
 
-[107]
+[109]
 Overfull \hbox (0.79309pt too wide) in paragraph at lines 843--844
 \EU1/HoeflerText(0)/m/n/12 der Verfolgung des Zeitpunkts der letzten Änderung 
 im Modell. Dazu wird ein Zeits-
  []
 
-[108] [109] [110] [111]
+[110] [111] [112] [113]
 Overfull \hbox (1.77809pt too wide) in paragraph at lines 889--890
 \EU1/HoeflerText(0)/m/n/12 kens auf der Modellierungsoberfläche. Zweiteres ist
  notwendig, weil optische Frame-
  []
 
-) (./ImplementierungOutput.tex [112]
+) (./ImplementierungOutput.tex [114]
 Kapitel 9.
-[113
+[115
 
 
 ]
 Underfull \vbox (badness 2221) has occurred while \output is active []
 
- [114]
+ [116]
 Overfull \hbox (14.21489pt too wide) in paragraph at lines 47--48
 \EU1/HoeflerText(0)/m/n/12 derartig ausgestaltetes Interface ist hinsichtlich s
 einer Ausprägung in der Embodiment-
@@ -2026,7 +2032,7 @@ Overfull \hbox (2.50359pt too wide) in paragraph at lines 47--48
 , auf die projiziert werden kann,
  []
 
-[115]
+[117]
 Overfull \hbox (11.24474pt too wide) in paragraph at lines 60--61
 \EU1/HoeflerText(0)/m/n/12 dung von Displays notwendig. Bei der Verwendung von 
 herkömmlichen []LCD[][]-Displays
@@ -2044,7 +2050,7 @@ Overfull \hbox (0.74829pt too wide) in paragraph at lines 60--61
 D[][][][]- ([][]Shinar[], []2004[]) oder eInk-
  []
 
-[116] [117]
+[118] [119]
 Overfull \hbox (0.41104pt too wide) in paragraph at lines 75--76
 []\EU1/HoeflerText(0)/m/n/12 Im Bereich der Tabletop Interfaces ist die Verwend
 ung von Aktuatoren eher selten
@@ -2056,7 +2062,7 @@ Overfull \hbox (4.53581pt too wide) in paragraph at lines 87--88
 e, in denen die Eingabekanäle räum-
  []
 
-[118] [119]
+[120] [121]
 Overfull \hbox (24.88068pt too wide) in paragraph at lines 110--111
 \EU1/HoeflerText(0)/m/n/12 die in die Kategorie „environmental Embodiment“ 
 eingeordnet werden. Audio-Interfaces
@@ -2068,7 +2074,7 @@ Overfull \hbox (1.97165pt too wide) in paragraph at lines 112--113
  oder natürlichsprachlich sein.
  []
 
-[120]
+[122]
 Overfull \hbox (0.54608pt too wide) in paragraph at lines 127--128
 \EU1/HoeflerText(0)/m/n/12 gen, an denen sie sich im aktuelleń Modellzustand b
 efinden. Eine kohärente Ausgabe
@@ -2079,13 +2085,13 @@ QTm)
 <use  "img/ImplementierungInput/TischSeitenansichtOutput.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121]
+ [123]
 Overfull \hbox (37.34392pt too wide) in paragraph at lines 145--146
 \EU1/HoeflerText(0)/m/n/12 bekanäle erhoben wurde, visuell ausgeben und zusät
 zlich den Modellierungsunterstützungs-
  []
 
-[122] [123]
+[124] [125]
 Overfull \hbox (35.81992pt too wide) in paragraph at lines 180--181
 \EU1/HoeflerText(0)/m/n/12 Teil des JRE[][][][] ist. JHotDraw-basierte Applikat
 ionen können so ohne weiteren Installations-
@@ -2097,22 +2103,22 @@ Overfull \hbox (1.23093pt too wide) in paragraph at lines 187--188
 en grundsätzlich beide Frame-
  []
 
-[124]
+[126]
 Overfull \hbox (12.06306pt too wide) in paragraph at lines 204--205
 \EU1/HoeflerText(0)/m/n/12 In diesem Abschnitt wird nun auf Basis der eben getr
 offenen Framework-Entscheidung
  []
 
-[125]
+[127]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [128]
 Overfull \hbox (1.05902pt too wide) in paragraph at lines 226--227
 \EU1/HoeflerText(0)/m/n/12 teilnehmenden Benutzer (bessere Verfolgbarkeit des M
 odellierungsvorgangs bei syn-
  []
 
-[127]
+[129]
 File: img/ImplementierungOutput/OutputArchitecture.png Graphic file (type QTm)
  <use  "img/ImplementierungOutput/OutputArchitecture.png" >
 Overfull \hbox (8.53766pt too wide) in paragraph at lines 239--240
@@ -2123,7 +2129,7 @@ File: img/SystemNeu/TokenTisch.jpg Graphic file (type QTm)
 <use  "img/SystemNeu/TokenTisch.jpg" >
 File: img/SystemNeu/TokenScreen.png Graphic file (type QTm)
  <use  "img/SystemNeu/TokenScreen.png" >
-[128] [129]
+[130] [131]
 File: img/SystemNeu/VerbindungTisch.jpg Graphic file (type QTm)
  <use  "img/SystemNeu/VerbindungTisch.jpg" >
 File: img/SystemNeu/VerbindungScreen.png Graphic file (type QTm)
@@ -2131,7 +2137,7 @@ File: img/SystemNeu/VerbindungScreen.png Graphic file (type QTm)
 <use  "img/SystemNeu/VerbindungScreen.png" >
 File: img/SystemNeu/VerbindungGerichtetTisch.jpg Graphic file (type QTm)
 
-<use  "img/SystemNeu/VerbindungGerichtetTisch.jpg" > [130] [131]
+<use  "img/SystemNeu/VerbindungGerichtetTisch.jpg" > [132] [133]
 File: img/SystemNeu/Container3EinbettungenTisch.jpg Graphic file (type QTm)
 
 <use  "img/SystemNeu/Container3EinbettungenTisch.jpg" >
@@ -2152,19 +2158,19 @@ andardapplikation geöffnet wer-
 
 Underfull \vbox (badness 4120) has occurred while \output is active []
 
- [132]
+ [134]
 File: img/SystemNeu/MarkierungTisch.jpg Graphic file (type QTm)
 
-<use  "img/SystemNeu/MarkierungTisch.jpg" > [133] [134]
+<use  "img/SystemNeu/MarkierungTisch.jpg" > [135] [136]
 File: img/SystemNeu/HistoryScreen.png Graphic file (type QTm)
 
-<use  "img/SystemNeu/HistoryScreen.png" > [135]
+<use  "img/SystemNeu/HistoryScreen.png" > [137]
 Overfull \hbox (1.52452pt too wide) in paragraph at lines 381--382
 \EU1/HoeflerText(0)/m/n/12 derherstellungsunterstützung aktiviert werden. Im R
 ahmen der Wiederherstellungs-
  []
 
-[136]
+[138]
 File: img/SystemNeu/WiederherstellungTisch.jpg Graphic file (type QTm)
  <use  "img/SystemNeu/WiederherstellungTisch.jpg" >
 Overfull \hbox (0.54454pt too wide) in paragraph at lines 396--397
@@ -2172,22 +2178,22 @@ Overfull \hbox (0.54454pt too wide) in paragraph at lines 396--397
 stellung entfernte, hinzugefügte
  []
 
-[137]
+[139]
 File: img/ImplementierungOutput/OutputClasses.png Graphic file (type QTm)
- <use  "img/ImplementierungOutput/OutputClasses.png" > [138] [139]
-[140]
+ <use  "img/ImplementierungOutput/OutputClasses.png" > [140] [141]
+[142]
 Overfull \hbox (8.78438pt too wide) in paragraph at lines 430--431
 []\EU1/HoeflerText(0)/m/n/12 Assoziationen sind von der durch JHotDraw zur Verf
 ügung gestellten Klasse \EU1/Courier(0)/m/n/12 Line-
  []
 
-[141]
+[143]
 Overfull \hbox (0.13837pt too wide) in paragraph at lines 455--456
 \EU1/HoeflerText(0)/m/n/12 derherzustellenden Zustand fehlt. Ist dies der Fall,
  wird dieses Element markiert und
  []
 
-[142]
+[144]
 Overfull \hbox (0.63792pt too wide) in paragraph at lines 459--460
 \EU1/HoeflerText(0)/m/n/12 sind, im Ausgangszustand aber fehlen. Die Zielpositi
 on des hinzuzufügenden Tokens
@@ -2202,8 +2208,8 @@ Overfull \hbox (0.82661pt too wide) in paragraph at lines 461--462
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143]
-[144]) (./ImplementierungPersistence.tex [145]
+ [145]
+[146]) (./ImplementierungPersistence.tex [147]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
@@ -2213,36 +2219,36 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[146
+[148
 
 
 ]
 Kapitel 10.
-[147]
+[149]
 File: img/Persistenz/TMBasic.png Graphic file (type QTm)
- <use  "img/Persistenz/TMBasic.png" > [148]
+ <use  "img/Persistenz/TMBasic.png" > [150]
 File: img/Persistenz/TMFull.png Graphic file (type QTm)
 
 <use  "img/Persistenz/TMFull.png" >
 File: img/Persistenz/SubjectVsOccurrence.png Graphic file (type QTm)
 
-<use  "img/Persistenz/SubjectVsOccurrence.png" > [149] [150]
+<use  "img/Persistenz/SubjectVsOccurrence.png" > [151] [152]
 File: img/Persistenz/TopicNaming.png Graphic file (type QTm)
 
-<use  "img/Persistenz/TopicNaming.png" > [151] [152] [153]
+<use  "img/Persistenz/TopicNaming.png" > [153] [154] [155]
 File: img/Persistenz/MetaModelExample.png Graphic file (type QTm)
 
-<use  "img/Persistenz/MetaModelExample.png" > [154] [155] [156]
+<use  "img/Persistenz/MetaModelExample.png" > [156] [157] [158]
 File: img/Persistenz/Scope.png Graphic file (type QTm)
 
 <use  "img/Persistenz/Scope.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [157]
+ [159]
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [158]
-[159]
+ [160]
+[161]
 File: img/Persistenz/AssociationReification.png Graphic file (type QTm)
  <use  "img/Persistenz/AssociationReification.png" >
 Overfull \hbox (1.56714pt too wide) in paragraph at lines 178--180
@@ -2250,7 +2256,7 @@ Overfull \hbox (1.56714pt too wide) in paragraph at lines 178--180
  im Kontext einer bestimm-
  []
 
-[160] [161]
+[162] [163]
 Overfull \hbox (0.79103pt too wide) in paragraph at lines 197--198
 \EU1/HoeflerText(0)/m/n/12 Endpunkten einer Kantenkategorie und den Knotenkateg
 orien, die diese End-
@@ -2266,13 +2272,13 @@ File: img/Persistenz/MetaModelDef.png Graphic file (type QTm)
 <use  "img/Persistenz/MetaModelDef.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [162]
-[163]
+ [164]
+[165]
 File: img/Persistenz/MetaMetaModelDef.png Graphic file (type QTm)
- <use  "img/Persistenz/MetaMetaModelDef.png" > [164] [165]
+ <use  "img/Persistenz/MetaMetaModelDef.png" > [166] [167]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [166]
+ [168]
 Overfull \hbox (0.641pt too wide) in paragraph at lines 256--257
 \EU1/HoeflerText(0)/m/n/12 plementiert. Der dort verfolgte Ansatz ist Thema des
  letzten Teils dieses Abschnitts. 
@@ -2284,20 +2290,20 @@ Overfull \hbox (16.43137pt too wide) in paragraph at lines 260--261
 p Standard ([][]ISO JTC1/SC34/WG3[],
  []
 
-[167]
+[169]
 File: img/Persistenz/GraphVizExample.jpg Graphic file (type QTm)
  <use  "img/Persistenz/GraphVizExample.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [168]
-[169]
+ [170]
+[171]
 File: img/Persistenz/ExportHistorie.png Graphic file (type QTm)
  <use  "img/Persistenz/ExportHistorie.png" >
 Overfull \hbox (8.53766pt too wide) in paragraph at lines 315--316
  [][] 
  []
 
-[170] [171]
+[172] [173]
 File: img/Persistenz/ExportHierarchie.png Graphic file (type QTm)
  <use  "img/Persistenz/ExportHierarchie.png" >
 Overfull \hbox (8.53766pt too wide) in paragraph at lines 324--325
@@ -2307,11 +2313,11 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 324--325
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [172]
-[173])) [174]
+ [174]
+[175])) [176]
 \openout2 = `Evaluierung.aux'.
 
- (./Evaluierung.tex [175
+ (./Evaluierung.tex [177
 
 
 
@@ -2326,7 +2332,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[176] (./KonzeptuelleEvaluierung.tex
+[178] (./KonzeptuelleEvaluierung.tex
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
@@ -2336,7 +2342,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[177]
+[179]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
@@ -2346,234 +2352,734 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[178
+[180
 
 
 ]
 Kapitel 11.
-[179]
+[181]
 Overfull \hbox (1.39325pt too wide) in paragraph at lines 29--30
 \EU1/HoeflerText(0)/m/n/12 einbettbaren Tokens entsprechen im Wesentlichen [][]
 \EU1/HoeflerText(0)/m/it/12 Tokens\EU1/HoeflerText(0)/m/n/12 . Dies ist dadurch
  begründ-
  []
 
-[180] [181] [182]
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[182] [183] [184]
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []\EU1/HoeflerText(0)/m/n/12 Trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \EU1/HoeflerText(0)/m/n/12 for-
  []
 
 
-Overfull \hbox (1.9287pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.9287pt too wide) in paragraph at lines 74--74
 \EU1/HoeflerText(0)/m/n/12 mation| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []\EU1/HoeflerText(0)/m/n/12 Sensing of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []\EU1/HoeflerText(0)/m/n/12 Konfig-
  []
 
 
-Overfull \hbox (1.07266pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.07266pt too wide) in paragraph at lines 74--74
 \EU1/HoeflerText(0)/m/n/12 urierbar-
  []
 
 
-Overfull \hbox (6.36893pt too wide) in paragraph at lines 73--73
+Overfull \hbox (6.36893pt too wide) in paragraph at lines 74--74
 []\EU1/HoeflerText(0)/m/n/12 Lebens-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []\EU1/HoeflerText(0)/m/n/12 Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 []\EU1/HoeflerText(0)/m/n/12 Modell-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \EU1/HoeflerText(0)/m/n/12 ierungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 []\EU1/HoeflerText(0)/m/n/12 X-Y-Position
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \EU1/HoeflerText(0)/m/n/12 Öffnungssta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []\EU1/HoeflerText(0)/m/n/12 einbett-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \EU1/HoeflerText(0)/m/n/12 bares
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []\EU1/HoeflerText(0)/m/n/12 Mark-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 \EU1/HoeflerText(0)/m/n/12 ierungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []\EU1/HoeflerText(0)/m/n/12 Specialized
  []
 
 
-Overfull \hbox (2.73459pt too wide) in paragraph at lines 77--77
+Overfull \hbox (2.73459pt too wide) in paragraph at lines 78--78
 []\EU1/HoeflerText(0)/m/n/12 Löschtoken| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 []\EU1/HoeflerText(0)/m/n/12 Snapshot-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 []\EU1/HoeflerText(0)/m/n/12 Specialized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []\EU1/HoeflerText(0)/m/n/12 Historien-
  []
 
 
-Overfull \hbox (4.54654pt too wide) in paragraph at lines 79--79
+Overfull \hbox (4.54654pt too wide) in paragraph at lines 80--80
 \EU1/HoeflerText(0)/m/n/12 navigations-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []\EU1/HoeflerText(0)/m/n/12 Specialized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []\EU1/HoeflerText(0)/m/n/12 Wieder-
  []
 
 
-Overfull \hbox (7.83464pt too wide) in paragraph at lines 80--80
+Overfull \hbox (7.83464pt too wide) in paragraph at lines 81--81
 \EU1/HoeflerText(0)/m/n/12 herstellungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []\EU1/HoeflerText(0)/m/n/12 Specialized
  []
 
-[183] [184]
-Overfull \hbox (0.28658pt too wide) in paragraph at lines 105--106
+[185] [186]
+Overfull \hbox (5.7479pt too wide) in paragraph at lines 96--97
+[]\EU1/HoeflerText(0)/m/n/12 Insbesondere ermöglicht das Framework, nicht ausg
+eschöpftes Kohärenz-Potential
+ []
+
+[187]
+Overfull \hbox (2.31755pt too wide) in paragraph at lines 111--111
+[]|\EU1/HoeflerText(0)/m/n/12 TAC| 
+ []
+
+
+Overfull \hbox (2.31755pt too wide) in paragraph at lines 116--116
+[]|\EU1/HoeflerText(0)/m/n/12 TAC| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\EU1/HoeflerText(0)/m/n/12 Modellelement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\EU1/HoeflerText(0)/m/n/12 Modellelement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\EU1/HoeflerText(0)/m/n/12 Modellelement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\EU1/HoeflerText(0)/m/n/12 einbett-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\EU1/HoeflerText(0)/m/n/12 Hinein-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\EU1/HoeflerText(0)/m/n/12 Heraus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\EU1/HoeflerText(0)/m/n/12 Container-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\EU1/HoeflerText(0)/m/n/12 Kopplung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\EU1/HoeflerText(0)/m/n/12 einbett-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\EU1/HoeflerText(0)/m/n/12 Regist-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\EU1/HoeflerText(0)/m/n/12 rierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\EU1/HoeflerText(0)/m/n/12 einbett-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\EU1/HoeflerText(0)/m/n/12 bares
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\EU1/HoeflerText(0)/m/n/12 Vor die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\EU1/HoeflerText(0)/m/n/12 Kamera
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\EU1/HoeflerText(0)/m/n/12 ungebunden:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\EU1/HoeflerText(0)/m/n/12 Datenbindung
+ []
+
+
+Overfull \hbox (5.89998pt too wide) in paragraph at lines 125--125
+[]|\EU1/HoeflerText(0)/m/n/12 Markierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\EU1/HoeflerText(0)/m/n/12 Neben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\EU1/HoeflerText(0)/m/n/12 token
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\EU1/HoeflerText(0)/m/n/12 Markierung
+ []
+
+
+Overfull \hbox (5.89998pt too wide) in paragraph at lines 126--126
+[]|\EU1/HoeflerText(0)/m/n/12 Markierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 token,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 markiertes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Overfull \hbox (2.0386pt too wide) in paragraph at lines 126--126
+[]|\EU1/HoeflerText(0)/m/n/12 Verbindung| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\EU1/HoeflerText(0)/m/n/12 Neben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 unmar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 kiertem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 token
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 126--126
+[]|\EU1/HoeflerText(0)/m/n/12 Verbindung her-
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 126--126
+\EU1/HoeflerText(0)/m/n/12 stellen und an-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\EU1/HoeflerText(0)/m/n/12 markiertes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\EU1/HoeflerText(0)/m/n/12 Tastatur-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\EU1/HoeflerText(0)/m/n/12 Benennung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\EU1/HoeflerText(0)/m/n/12 des markierten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\EU1/HoeflerText(0)/m/n/12 Verbind-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 ungen,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 kein mar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 kiertes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\EU1/HoeflerText(0)/m/n/12 zuletzt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 herge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 stellte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 Verbin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\EU1/HoeflerText(0)/m/n/12 Tastatur-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\EU1/HoeflerText(0)/m/n/12 Benennung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 der zuletzt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\EU1/HoeflerText(0)/m/n/12 hergestellten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 129--129
+[]|\EU1/HoeflerText(0)/m/n/12 Löschmodus ak-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\EU1/HoeflerText(0)/m/n/12 Snapshot-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\EU1/HoeflerText(0)/m/n/12 Aktuellen Mo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\EU1/HoeflerText(0)/m/n/12 dellzustand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\EU1/HoeflerText(0)/m/n/12 sichern, Blitz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\EU1/HoeflerText(0)/m/n/12 Historien-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\EU1/HoeflerText(0)/m/n/12 kontroll-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\EU1/HoeflerText(0)/m/n/12 ierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\EU1/HoeflerText(0)/m/n/12 Letzten ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\EU1/HoeflerText(0)/m/n/12 speicherten
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 132--132
+\EU1/HoeflerText(0)/m/n/12 Snapshot anzei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\EU1/HoeflerText(0)/m/n/12 Durch die ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\EU1/HoeflerText(0)/m/n/12 speicherten
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 133--133
+\EU1/HoeflerText(0)/m/n/12 Snapshots navi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\EU1/HoeflerText(0)/m/n/12 Aktuelles Mo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\EU1/HoeflerText(0)/m/n/12 Wieder-
+ []
+
+
+Overfull \hbox (2.14418pt too wide) in paragraph at lines 135--135
+\EU1/HoeflerText(0)/m/n/12 herstellungs-
+ []
+
+
+Overfull \hbox (2.81851pt too wide) in paragraph at lines 135--135
+[]|\EU1/HoeflerText(0)/m/n/12 Oberfläche,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\EU1/HoeflerText(0)/m/n/12 vorhan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\EU1/HoeflerText(0)/m/n/12 denes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\EU1/HoeflerText(0)/m/n/12 Historien-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\EU1/HoeflerText(0)/m/n/12 kontroll-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\EU1/HoeflerText(0)/m/n/12 Modell-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\EU1/HoeflerText(0)/m/n/12 Aktuell ange-
+ []
+
+[188] [189]
+Overfull \hbox (0.28658pt too wide) in paragraph at lines 153--154
 \EU1/HoeflerText(0)/m/n/12 Grundlage der Einordnung in diesem Abschnitt ist der
  Ansatzes von ([][]Fishkin[], []2004[]),
  []
 
 
-Overfull \hbox (0.15074pt too wide) in paragraph at lines 108--109
+Overfull \hbox (0.15074pt too wide) in paragraph at lines 156--157
 \EU1/HoeflerText(0)/m/n/12 Struktur in beiden von [][]Fishkin[] vorgeschlagenen
  Dimensionen zur Klassifikation von
  []
 
-[185]
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
-[]\EU1/HoeflerText(0)/m/n/12 distant, nearby
+[190]
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\EU1/HoeflerText(0)/m/n/12 distant, nearby
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \EU1/HoeflerText(0)/m/n/12 (Tastatur), full
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
-[]\EU1/HoeflerText(0)/m/n/12 verb (Tastatur),
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\EU1/HoeflerText(0)/m/n/12 verb (Tastatur),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \EU1/HoeflerText(0)/m/n/12 verb + noun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[]\EU1/HoeflerText(0)/m/n/12 verb bis
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|\EU1/HoeflerText(0)/m/n/12 verb bis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \EU1/HoeflerText(0)/m/n/12 noun+verb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \EU1/HoeflerText(0)/m/n/12 (Werkzeug-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \EU1/HoeflerText(0)/m/n/12 tokens), verb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \EU1/HoeflerText(0)/m/n/12 (räumliche
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[]\EU1/HoeflerText(0)/m/n/12 environmental
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|\EU1/HoeflerText(0)/m/n/12 environmental
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-[]\EU1/HoeflerText(0)/m/n/12 environmental
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\EU1/HoeflerText(0)/m/n/12 environmental
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 121--121
-[]\EU1/HoeflerText(0)/m/n/12 Wiederherstellen eines Modell-
+Underfull \hbox (badness 5637) in paragraph at lines 168--168
+[]|\EU1/HoeflerText(0)/m/n/12 Wiederherstellen eines Modell-
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 127--128
+Underfull \vbox (badness 10000) detected at line 172
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 174--175
 []\EU1/HoeflerText(0)/m/n/12 Beim [][]\EU1/HoeflerText(0)/m/it/12 Platzieren un
 d Benennen von Modellelementen \EU1/HoeflerText(0)/m/n/12 ist die Benennung auf
 
  []
 
-[186]
+[191]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [187])
-(./EvalUeberblick.tex [188]
+ [192]
+[193]) (./EvalUeberblick.tex [194]
 Kapitel 12.
-[189
+[195
 
 
 ]
@@ -2582,20 +3088,20 @@ Overfull \hbox (1.95271pt too wide) in paragraph at lines 17--18
 rk? (Aspekt: Werkzeug) 
  []
 
-[190] [191]
+[196] [197]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [192]
+ [198]
 Underfull \vbox (badness 2529) has occurred while \output is active []
 
- [193]
-[194] [195] [196] [197]
+ [199]
+[200] [201] [202] [203]
 Overfull \hbox (4.21355pt too wide) in paragraph at lines 156--157
 \EU1/HoeflerText(0)/m/n/12 mittels JPass REF und EPK[][][][]s aus dem ARIS-Konz
 ept ([][]Scheer und Nuettgens[], []2000[]))
  []
 
-[198]
+[204]
 Overfull \hbox (3.70122pt too wide) in paragraph at lines 182--183
 \EU1/HoeflerText(0)/m/n/12 kenntnisse hinsichtlich der Verwendung des Werkzeugs
  gewonnen werden. Aufgrund
@@ -2604,31 +3110,31 @@ Overfull \hbox (3.70122pt too wide) in paragraph at lines 182--183
 
 Underfull \vbox (badness 6825) has occurred while \output is active []
 
- [199]
-[200] [201]
+ [205]
+[206] [207]
 Overfull \hbox (0.24884pt too wide) in paragraph at lines 273--274
 \EU1/HoeflerText(0)/m/n/12 geführten Untersuchungen angeführt. Diese Untersuc
 hungen fokussieren jeweils auf
  []
 
-[202]
-Overfull \hbox (5.35033pt too wide) in paragraph at lines 280--280
+[208]
+Overfull \hbox (5.35033pt too wide) in paragraph at lines 281--281
 []\EU1/HoeflerText(0)/m/n/12 Articulation
  []
 
 
-Overfull \hbox (5.35033pt too wide) in paragraph at lines 296--296
+Overfull \hbox (5.35033pt too wide) in paragraph at lines 297--297
 []\EU1/HoeflerText(0)/m/n/12 Articulation
  []
 
-[203]) (./EvalTUI.tex [204]
+[209]) (./EvalTUI.tex [210]
 Kapitel 13.
-[205
+[211
 
 
-]) (./EvalModell.tex [206]
+]) (./EvalModell.tex [212]
 Kapitel 14.
-) (./EvalAW.tex [207
+) (./EvalAW.tex [213
 
 
 ]
@@ -2641,12 +3147,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[208
+[214
 
 
 ]
 Kapitel 15.
-)) [209]
+)) [215]
 \openout2 = `Schlussbetrachtungen.aux'.
 
  (./Schlussbetrachtungen.tex
@@ -2659,12 +3165,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[210
+[216
 
 
 
 
-] [211]
+] [217]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
@@ -2674,9 +3180,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[212]
+[218]
 Kapitel 16.
-) [213
+) [219
 
 
 ] [1
@@ -2696,7 +3202,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 137.
+(hyperref)                be the same. Added a new anchor on input line 140.
 
 (./Schrift.lof [3
 
@@ -2710,7 +3216,17 @@ Overfull \hbox (1.12756pt too wide) detected at line 63
 \tf@lof=\write11
 \openout11 = `Schrift.lof'.
 
- [4] (./Schrift.lot)
+ [4] (./Schrift.lot
+Overfull \hbox (0.22794pt too wide) detected at line 33
+[][] []\EU1/HoeflerText(0)/m/n/12 209
+ []
+
+
+Overfull \hbox (0.22794pt too wide) detected at line 34
+[][] []\EU1/HoeflerText(0)/m/n/12 209
+ []
+
+)
 \tf@lot=\write12
 \openout12 = `Schrift.lot'.
 
@@ -2891,12 +3407,12 @@ Package minitoc(hints) Warning: W0024
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
- 14507 strings out of 494701
- 235644 string characters out of 1164829
- 414479 words of memory out of 3000000
- 17049 multiletter control sequences out of 10000+50000
+ 14526 strings out of 494701
+ 236080 string characters out of 1164829
+ 437268 words of memory out of 3000000
+ 17064 multiletter control sequences out of 10000+50000
  7554 words of font info for 59 fonts, out of 3000000 for 5000
  669 hyphenation exceptions out of 8191
  40i,11n,56p,2572b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Schrift.pdf (244 pages).
+Output written on Schrift.pdf (250 pages).

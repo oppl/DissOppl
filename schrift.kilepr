@@ -3,7 +3,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1
-lastDocument=Grundlagen.tex
+lastDocument=ImplementierungUeberblick.tex
 masterDocument=Schrift.tex
 name=Schrift
 pkg_extIsRegExp=false
@@ -161,21 +161,21 @@ order=3
 
 [item:ImplementierungUeberblick.tex]
 archive=true
-column=54
+column=486
 encoding=UTF-8
 highlight=LaTeX
-line=5
-open=false
-order=2
+line=285
+open=true
+order=3
 
 [item:KonzeptuelleEvaluierung.tex]
 archive=true
-column=0
+column=76
 encoding=UTF-8
 highlight=LaTeX
-line=16
-open=false
-order=1
+line=74
+open=true
+order=4
 
 [item:MentaleModelle.tex]
 archive=true
@@ -206,10 +206,10 @@ order=-1
 
 [item:Schrift.tex]
 archive=true
-column=14
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=161
+line=0
 open=true
 order=0
 
