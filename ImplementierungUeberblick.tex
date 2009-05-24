@@ -12,7 +12,7 @@ In den folgenden Abschnitten wird die historische Entwicklung von Tabletop Inter
 
 Der Begriff der Tangible bzw. Graspable Interfaces – also der "berührbaren" oder "begreifbaren" Benutzungsschnittstellen — stammt aus der Mitte der neunziger Jahre des zwanzigsten Jahrhunderts. \citet{Fitzmaurice95} werden im Allgemeinen als die ersten betrachtet, die den Begriff des "Graspable User Interfaces" prägen und damit die Manipulierbarkeit digitaler Information durch physische Mittel beschreiben. \citet{Fitzmaurice96} präzisiert später den Begriff durch die Abgrenzung zwischen (herkömmlichen, maus-, tastatur- und bildschirmbasierenden) zeitlich gemultiplexten Schnittstellen, bei denen der Informationsaustausch zwischen Benutzer und System über einen Kanal zeitlich hintereinander erfolgt und den (neuartigen, berührbaren) räumlich gemultiplexten Schnittstellen, bei denen mehrere Kanäle gleichzeitig zur Interaktion zwischen Benutzer und System verwendet werden können. 
 
-Der Begriff des "Tangible User Interfaces" wurde kurz danach bzw. parallel dazu von \citet{Ishii97} eingeführt. \citeauthor{Ishii97} verfolgen dabei bei der Definition den umgekehrten Weg und sprechen von einer "Augmentation der realen Welt durch eine Kopplung von digitaler Information and physische Objekte"\footnote{\emph{“augment the real physical world by coupling digital information to everyday physical objects and environments”}\citep{Ishii97}}. 
+Der Begriff des "Tangible User Interfaces" (TUI) wurde kurz danach bzw. parallel dazu von \citet{Ishii97} eingeführt. \citeauthor{Ishii97} verfolgen dabei bei der Definition den umgekehrten Weg und sprechen von einer "Augmentation der realen Welt durch eine Kopplung von digitaler Information and physische Objekte"\footnote{\emph{“augment the real physical world by coupling digital information to everyday physical objects and environments”}\citep{Ishii97}}. 
 
 \subsection{Ubiquitous Computing}
 
@@ -39,29 +39,30 @@ Am Ende jeder Beschreibung sind in einer tabellarischen Zusammenfassung jeweils 
 
 Wird in einem Beitrag keine Aussage zu einem oder mehreren dieser Themen gemacht, so ist dies expizit durch "---" angeführt.
 
--- evtl. Kurzüberblick (definition list) über die Ansätze, die jetzt kommen --
+Die Ansätze, die in dieser Betrachtung berücksichtigt wurden, sind in der Reihenfolge der zeitlichen Entstehung angeordnet. Eine Beschreibung und Visualisierung der kausalen Zusammenhänge und Bezugnahmen erfolgt in der Zusammenfassung der Ergebnisse in Abschnitt \ref{sub:tui_konzepte_zusammenfassung}. Bei der Beschreibung der Arbeiten wird nicht auf sämtliche vorgestellten Aspekte eingegangen, sondern fokussiert jene Teile vorgestellt, die sich mit der Konzeptualisierung oder Klassifikation von Tangible User Interfaces beschäftigen. Die vorgestellten Ansätze sind im Einzelnen:
 
+%\begin{multicols} {2}
+    \begin{itemize}
+    	\item Bricks \citep{Fitzmaurice95}
+    	\item Graspable User Interfaces \citep{Fitzmaurice96}
+    	\item Tangible Bits \citep{Ishii97}
+    	\item Containers, Tokens und Tools \citep{Holmquist99}
+    	\item Embodied User Interfaces \citep{Fishkin98}
+    	\item Das MCRpd Interaktions-Modell \citep{Ullmer00}
+    	\item Tokens and Constraints \citep{Ullmer05}
+    	\item Degree of Coherence \citep{Koleva03}
+    	\item Tokens and Constraints zur Spezifikation \citep{Shaer04}
+    	\item Kategorien von \gls{TUI}-Anwendungen \citep{Klemmer04}
+    	\item Tangible User Interfaces Taxonomy \citep{Fishkin04}
+    	\item Tangible Bits: Beyond Pixels \citep{Ishii08}
+    \end{itemize}
+%\end{multicols}
 
-\subsection{Graspable User Interfaces}
-
-\citeauthor{Fitzmaurice96} legt in jener Arbeit, in der es den Begriff des "Graspable User Inferfaces" prägt \citep{Fitzmaurice96}, auch Eigenschaften fest, anhand deren sich die "Graspability" einer Benutzungsschnittstelle zeigt und beurteilen lässt. Diese Beurteilung erfolgt auf einer generischen Skala mit Ausprägungen von "niedrig" bis "hoch", wobei "hohe" Werte in mehreren Eigenschaften auf eher hohe "Graspability" hinweist.
-
-\subsubsection{Space Mulitplexing}
-\subsubsection{Concurrency}
-\subsubsection{Physical Form}
-\subsubsection{Spartially aware}
-\subsubsection{Spatial recofigurability}
-
-\begin{tabular}{| p{3cm} | p{10cm} |}
-  \hline
-  Kategorien & --- \\ \hline
-  Konzepte & --- \\ \hline
-  Eigenschaften & --- \\ \hline
-  PD-Brücke & --- \\ \hline
-\end{tabular} 
 
 \subsection{Bricks} % (fold)
 \label{sub:bricks}
+
+\citep{Fitzmaurice95}
 
 \begin{tabular}{| p{3cm} | p{10cm} |}
   \hline
@@ -72,6 +73,31 @@ Wird in einem Beitrag keine Aussage zu einem oder mehreren dieser Themen gemacht
 \end{tabular} 
 
 % subsection bricks (end)
+
+\subsection{Graspable User Interfaces} % (fold)
+\label{sub:graspable_user_interfaces}
+
+\citeauthor{Fitzmaurice96} legt in jener Arbeit, in der der Begriff des "Graspable User Inferfaces" erstmals ausführlich eingeführt wird \citep{Fitzmaurice96}, auch Eigenschaften fest, anhand deren sich die "Graspability" einer Benutzungsschnittstelle zeigt und beurteilen lässt. Diese Beurteilung erfolgt auf einer generischen Skala mit Ausprägungen von "niedrig" bis "hoch", wobei "hohe" Werte in mehreren Eigenschaften auf eher hohe "Graspability" hinweist. Die Eigenschaften beziehen sich auf Tangible User Interfaces, die lediglich Werkzeuge zur Manipulation von digitalen Daten besitzen, jedoch keine physische Repräsentation von Information aufweisen. Diese Einschränkung ist der historischen Entwicklung des Gebiets und den ersten Versuchen, GUI-Paradigmen in den physischen Raum zu übersetzten, geschuldet.
+
+\begin{description}
+	\item[Space-multiplexing] Ändern sich die Zuordnungen zwischen physischen Elementen und digitalen Funktionen über die Zeit oder exisitiert eine permanente Zuordnung? (Mögliche Ausprägungen: kontinuierlich von „transient, always reassign“ -- „permanent, never reassign“)
+	\item[Concurrency] Ist die gleichzeitige Ausführung mehrere Operationen mit mehreren physischen Elementen (abhängig oder unabhängig voneinander) möglich und vorgesehen? (Mögliche Ausprägungen: „1“ -- „occasionally 2“ -- „2“ -- „3“ -- „more than 3“)
+	\item[Physical form] Lässt sich aus der physischen Form auf die ausgeführte Funktion schließen oder sind die Werkzeuge generisch für unterschiedliche Funktionen verwendbar? (Mögliche Ausprägungen: „generic“ -- „specific“) 
+	\item[Spatially aware] Erfasst und berücksichtigt das System die Positionen, Orientierung und/oder Nähe der physischen Objekte bei der Interpretation der Interaktion? (Mögliche Ausprägungen: „unaware“ -- „aware“)
+	\item[Spatial reconfigurability] Kann das System in unterschiedlichen physischen Kontexten betrieben werden oder kann es ausschließlich ortsgebunden eingesetzt werden? (Mögliche Ausprägungen (bezogen auf \glspl{TUI} aus einzelnen, handhabbaren Objekten): „permanent location“ -- „stationary“ -- „track“ -- „tethered“ -- „free-ranging (rapid layout)“)
+\end{description}
+
+\citeauthor{Fitzmaurice96} stellt mit diesen Eigenschaften eine Framework für die Einordnung eines gesamten \gls{TUI} zur Verfügung und geht nicht auf die einzelnen Komponenten ein. Die Eigenschaften beziehen sich auf das Design des Systems und gehen nicht auf dessen Verhalten ein. Die ersten beiden und die letzte Eigenschaft sind mit einer kontinuierlichen Skala hinterlegt, \emph{physical form} und \emph{spatially aware} sind binäre Eigenschaften, die entweder gegeben sein können oder nicht.
+
+\begin{tabular}{| p{3cm} | p{10cm} |}
+  \hline
+  Kategorien & --- \\ \hline
+  Konzepte & --- \\ \hline
+  Eigenschaften & \emph{Gesamtsystem}: Space-multiplexing (transient -- permanent), Concurrency (1 -- mehr als 3), Physical form (generic, specific), Spatially aware (unaware, aware), Spatial reconfigurability (permanent location -- free-ranging) \\ \hline
+  PD-Brücke & --- \\ \hline
+\end{tabular} 
+
+% subsection graspable_user_interfaces (end)
 
 \subsection{Tangible Bits}
 \label{sub:tangible_bits}
@@ -377,11 +403,15 @@ Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf 
   PD-Brücke & --- \\ \hline
 \end{tabular} 
 
-\subsection{Zusammenfassung}
+\subsection{Zusammenfassung} % (fold)
+\label{sub:tui_konzepte_zusammenfassung}
 
 -- Grafik mit den Zusammenhängen und Bezugnahmen zwischen den einzelnen Arbeiten --
 
 Ansätze, die in der Folge zur Beurteilung des konkreten Systems herangezogen werden.
+
+% subsection tui_konzepte_zusammenfassung (end)
+
 % section konzeptualisierungen_von_tangible_interfaces (end)
 
 \section{Tangible Interfaces in kooperativer Verwendung} % (fold)

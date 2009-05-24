@@ -34,8 +34,8 @@
 \BOOKMARK [2][-]{subsection.7.1.1}{Ubiquitous Computing}{section.7.1}
 \BOOKMARK [2][-]{subsection.7.1.2}{Augmented Reality}{section.7.1}
 \BOOKMARK [1][-]{section.7.2}{Konzeptualisierung und Klassifikation von Tangible Interfaces}{chapter.7}
-\BOOKMARK [2][-]{subsection.7.2.1}{Graspable User Interfaces}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.2}{Bricks}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.1}{Bricks}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.2}{Graspable User Interfaces}{section.7.2}
 \BOOKMARK [2][-]{subsection.7.2.3}{Tangible Bits}{section.7.2}
 \BOOKMARK [2][-]{subsection.7.2.4}{Containers, Tokens und Tools}{section.7.2}
 \BOOKMARK [2][-]{subsection.7.2.5}{Embodied User Interfaces}{section.7.2}
@@ -121,28 +121,31 @@
 \BOOKMARK [1][-]{section.10.6}{Zusammenfassung}{chapter.10}
 \BOOKMARK [-1][-]{part.3}{Evaluierung}{}
 \BOOKMARK [0][-]{chapter.11}{Konzeptuelle Evaluierung}{part.3}
-\BOOKMARK [1][-]{section.11.1}{Betrachtung im Lichte des Tangible Bits Ansatzes}{chapter.11}
+\BOOKMARK [1][-]{section.11.1}{Bestimmung der Eigenschaften des Graspable User Interfaces Ansatz}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.1.1}{Abbildung}{section.11.1}
 \BOOKMARK [2][-]{subsection.11.1.2}{Bewertung}{section.11.1}
-\BOOKMARK [1][-]{section.11.2}{Einordnung in das Ordnungssystem von Holmquist et al.}{chapter.11}
+\BOOKMARK [1][-]{section.11.2}{Betrachtung im Lichte des Tangible Bits Ansatzes}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.2.1}{Abbildung}{section.11.2}
 \BOOKMARK [2][-]{subsection.11.2.2}{Bewertung}{section.11.2}
-\BOOKMARK [1][-]{section.11.3}{Einordnung in das Object-Meaning-Kontinuum}{chapter.11}
+\BOOKMARK [1][-]{section.11.3}{Einordnung in das Ordnungssystem von Holmquist et al.}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.3.1}{Abbildung}{section.11.3}
 \BOOKMARK [2][-]{subsection.11.3.2}{Bewertung}{section.11.3}
-\BOOKMARK [1][-]{section.11.4}{Betrachtung im Lichte des MCRpd-Modells}{chapter.11}
+\BOOKMARK [1][-]{section.11.4}{Einordnung in das Object-Meaning-Kontinuum}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.4.1}{Abbildung}{section.11.4}
 \BOOKMARK [2][-]{subsection.11.4.2}{Bewertung}{section.11.4}
-\BOOKMARK [1][-]{section.11.5}{Einordnung in das Framework nach Koleva et al.}{chapter.11}
+\BOOKMARK [1][-]{section.11.5}{Betrachtung im Lichte des MCRpd-Modells}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.5.1}{Abbildung}{section.11.5}
 \BOOKMARK [2][-]{subsection.11.5.2}{Bewertung}{section.11.5}
-\BOOKMARK [1][-]{section.11.6}{Spezifikation des TAC-Schemas nach Shaer et al.}{chapter.11}
+\BOOKMARK [1][-]{section.11.6}{Einordnung in das Framework nach Koleva et al.}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.6.1}{Abbildung}{section.11.6}
 \BOOKMARK [2][-]{subsection.11.6.2}{Bewertung}{section.11.6}
-\BOOKMARK [1][-]{section.11.7}{Einordnung in die Taxonomie von Fishkin}{chapter.11}
+\BOOKMARK [1][-]{section.11.7}{Spezifikation des TAC-Schemas nach Shaer et al.}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.7.1}{Abbildung}{section.11.7}
 \BOOKMARK [2][-]{subsection.11.7.2}{Bewertung}{section.11.7}
-\BOOKMARK [1][-]{section.11.8}{Zusammenfassung}{chapter.11}
+\BOOKMARK [1][-]{section.11.8}{Einordnung in die Taxonomie von Fishkin}{chapter.11}
+\BOOKMARK [2][-]{subsection.11.8.1}{Abbildung}{section.11.8}
+\BOOKMARK [2][-]{subsection.11.8.2}{Bewertung}{section.11.8}
+\BOOKMARK [1][-]{section.11.9}{Zusammenfassung}{chapter.11}
 \BOOKMARK [0][-]{chapter.12}{Überblick über die empirische Untersuchung}{part.3}
 \BOOKMARK [1][-]{section.12.1}{Untersuchungsaspekte}{chapter.12}
 \BOOKMARK [2][-]{subsection.12.1.1}{Evaluierung des Werkzeugs}{section.12.1}
@@ -162,10 +165,10 @@
 \BOOKMARK [0][-]{chapter.14}{Evaluierung der erstellten Modelle}{part.3}
 \BOOKMARK [0][-]{chapter.15}{Evaluierung der durchgeführten Articulation Work}{part.3}
 \BOOKMARK [0][-]{chapter.16}{Schlussbetrachtungen}{part.3}
-\BOOKMARK [-1][-]{part*.116}{Verzeichnisse}{}
-\BOOKMARK [0][-]{section*.117}{Abbildungsverzeichnis}{part*.116}
-\BOOKMARK [0][-]{appendix*.118}{Tabellenverzeichnis}{part*.116}
-\BOOKMARK [0][-]{appendix*.119}{Stichwortverzeichnis}{part*.116}
-\BOOKMARK [0][-]{appendix*.120}{Abkürzungsverzeichnis}{part*.116}
-\BOOKMARK [0][-]{table..1}{Bildquellen}{part*.116}
-\BOOKMARK [0][-]{appendix*.124}{Literaturverzeichnis}{part*.116}
+\BOOKMARK [-1][-]{part*.111}{Verzeichnisse}{}
+\BOOKMARK [0][-]{section*.112}{Abbildungsverzeichnis}{part*.111}
+\BOOKMARK [0][-]{appendix*.113}{Tabellenverzeichnis}{part*.111}
+\BOOKMARK [0][-]{appendix*.114}{Stichwortverzeichnis}{part*.111}
+\BOOKMARK [0][-]{appendix*.115}{Abkürzungsverzeichnis}{part*.111}
+\BOOKMARK [0][-]{table..1}{Bildquellen}{part*.111}
+\BOOKMARK [0][-]{appendix*.119}{Literaturverzeichnis}{part*.111}

@@ -1,6 +1,33 @@
 \chapter{Konzeptuelle Evaluierung} % (fold)
 \label{cha:konzeptuelle_evaluierung}
 
+\section{Bestimmung der Eigenschaften des Graspable User Interfaces Ansatz} % (fold)
+\label{sec:bestimmung_der_eigenschaften_des_graspable_user_interfaces_ansatz}
+
+Grundlage der Betrachtungen in diesem Abschnitt ist das Konzept der Tangible Bits \citep{Fitzmaurice96}, der in Abschnitt \ref{sub:graspable_user_interfaces} beschrieben wird.
+
+\subsection{Abbildung} % (fold)
+
+\citet{Fitzmaurice96} definiert fünf Eigenschaften, die ein „Graspable User Interface“ ausmachen und legt mögliche Ausprägungen fest, deren Werte für ein konkretes System eine Aussage über dessen „Graspabiltity“ zulässt. Für das hier vorgestellte Werkzeug sind folgende Einstufungen argumentierbar:
+
+In der Kategorie \emph{Space-multiplexing} ist die höchste Ausprägung „permanent, never reassign“ auszuwählen. Dies ist der Fall, weil sämtlichen Werkzeugtokens des Systems eine vorgegebene Funktion zugewiesen ist, die sich während der Laufzeit nicht ändert.
+
+In der Kategorie \emph{Concurrency} ist hinsichtlich der Verwendung von Werkzeugen die Ausprägung „occasionally 2“ zu wählen. Die Eigenschaften beziehen sich ausschließlich auf Werkzeuge zur Manipulation digitaler Information, so dass die Modellierungstokens, die den Systemzustand repräsentieren, außer acht gelassen werden. „Occasionally 2“ trifft dann deswegen zu, weil sowohl bei der Verbindungsherstellung als auch zum Auslösen der Wiederherstellungsunterstützung jeweils zwei Werkzeug-Token gleichzeitig eingesetzt werden müssen, in allen anderen Fällen aber nur ein Werkzeug zum Einsatz kommt. Berücksichtigt man die Modellierungstokens (als Werkezeuge zur Manipulation des Systemzustandes), wäre die höchste Ausprägung „more than 3“ zu wählen.
+
+In der Kategorie \emph{Physical form} ist die höhere Ausprägung „specific“ auszuwählen, da für jede Funktionalität ein spezifisches Werkzeug-Token existiert.
+
+In der Kategorie \emph{Spatially aware} ist hinsichtlich der Werkzeugtokens eine Mischform zwischen „unaware“ und „aware“ zu wählen. Bei einem Teil der Werkzeugtokens ist die konkret ausgeführte Funktion von dessen Position bzw. Nähe zu Modellierungstokens abhängig (bei Markierungstokens) oder wird durch dessen Orientierung beeinflusst (beim Historien-Kontroll-Token). Die übrigen Werkzeug-Tokens sind jedoch insofern „spatially unaware“, als das ihre Positionierung auf der Oberfläche keinen Einfluss auf deren Funktionalität hat. Die Modellierungstokens und die einbettbaren Tokens wären bei Berücksichtigung als „spatially aware“ zu klassifizieren.
+
+In der Kategorie \emph{Spatial reconfiguarability} ist das System in die Ausprägung „track“ einzuordnen, da die einzelnen Werkzeuge nicht unabhängig von der Oberfläche und der in ihr integrierten optischen Tracking-Funktion verwendet werden können.
+
+\subsection{Bewertung} % (fold)
+
+Die Eigenschaften von Graspable User Interfaces erlauben eine allgemeine Bewertung eines \gls{TUI}. Sie sind nicht geeignet, um eine detailliert Analyse oder Spezifikation durchzuführen. Dieser Aspekt -- die Eigenschaften des Gesamtsystems -- wird jedoch bei den meisten anderen Frameworks außer acht gelassen, so dass eine Einordung in das vorgeschlagene Schema durchaus sinnvoll sein kann.
+
+Für das hier vorgestellte Werkzeug wurden durchwegs Ausprägungen identifiziert, die auf eher hohe „Graspability“ hinweisen. Ein Nachteil des Ansatzes liegt in der Fokussierung auf reine „Steuerungs-“\glspl{TUI}, die zur Kontrolle oder Manipulation digitaler Information verwendet werden. Würde der Repräsentations-Aspekt eines \gls{TUI} (stärker) berücksichtigt, würden sich wie oben beschrieben zum Teil höhere Ausprägungen in einzelnen Kategorien ergeben. Verbesserungspotential kann ob der allgemeinen und relativ abstrakten Beschreibung des Werkzeugs mit diesem Ansatz nicht abgeleitet werden.
+
+% section bestimmung_der_eigenschaften_des_graspable_user_interfaces_ansatz (end)
+
 \section{Betrachtung im Lichte des Tangible Bits Ansatzes} % (fold)
 \label{sec:betrachtung_tangible_bits}
 
