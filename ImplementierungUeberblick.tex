@@ -161,16 +161,35 @@ Die Anbindung von Information an ein Token oder einen Container kann ebenfalls e
 
 % subsection embodied_user_interfaces (end)
 
-\subsection{Tangible Objects Meaning}
-\citep{Underkoffler99}
+\subsection{Tangible Objects Meaning} % (fold)
+\label{sub:tangible_objects_meaning}
+
+Im Rahmen der Entwicklung einer „Interactive Surface“ zur Stadtplanung („Urp“) stellen \citet{Underkoffler99} ein Kontinuum von möglichen Bedeutungen bzw. Verwendungszwecken der physischen Objekte eines \gls{TUI} vor. Die Ausprägungen auf der Achse unterscheiden sich in der Stärke der Abstraktion der verwendeten Objekte von ihren Gegenstücken in der realen Welt. Im Zentrum der Achse stehen nicht abstrahierte Objekte, die in Struktur und Verhalten ihren realen Entsprechungen ähneln.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=12cm]{img/ImplementierungUeberblick/ObjectMeaning.png}
+	\caption[Bedeutung von Objekten in TUIs]{Bedeutung von Objekten in TUIs (adaptiert übernommen aus \citet{Underkoffler99})}
+	\label{fig:img_ImplementierungUeberblick_ObjectMeaning}
+\end{figure}
+
+\begin{description}
+	\item[Object as noun] Derartige Objekte sind Platzhalter für Objekte der realen Welt, denen sie in Form und Verhalten weitgehend entsprechen. Sie stehen für das reale Objekt und werden in dessen Sinne verwendet.
+	\item[Object as verb] Die Bedeutung betreffender Objekte reduziert sich auf deren Funktionalität, die Objekte sind nicht mehr Teil der Repräsentation des Systemzustandes sondern werden dazu verwendet, diesen (entsprechend ihrer Funktion) zu verändern.
+	\item[Object as reconfigurable tool] Das Objekt wird funktional vollständig von seiner eigentlichen Natur abstrahiert verwendet. Die physischen Eigenschafen stehen nicht mehr in Beziehung zu seiner Verwendung zur Manipulation des Systemzustandes. Die Funktionalität ist dynamisch zuweis- bzw. auswählbar.
+	\item[Object as attribute] Objekte werden auf eine ihrer Eigenschaften reduziert. Nur diese wird verwendet, um den Systemzustand abzubilden. Mögliche Eigenschaften sind z.B. Form, Farbe oder Gewicht des Objekts.
+	\item[Object as pure Object] Das Objekt wird zum reinen Informationsträger, bei dem die Information nicht in Bezug zur physischen Form oder den Eigenschaften des Objekts steht.
+\end{description}
+
+Die Achse beschreibt dabei einen konzeptuelle Ring, der sich an den beiden abstahierten Enden wieder schließt. Einem Objekt, dessen physischen Eigenenschaften keine Rolle im \gls{TUI} mehr spielen, kann beliebig Inhalt oder Funktionalität zugewiesen werden, wodurch die Grenze zwischen linkem und rechtem Ende der Achse verschwimmt.
 
 \begin{tabular}{| p{3cm} | p{10cm} |}
   \hline
   Kategorien & --- \\ \hline
-  Konzepte & --- \\ \hline
+  Konzepte & Object as pure object, Object as attribute, Object as noun, Object as verb, Object as reconfigurable tool  \\ \hline
   Eigenschaften & --- \\ \hline
-  PD-Brücke & --- \\ \hline
+  PD-Brücke & abhängig von der Art der Tokens  \\ \hline
 \end{tabular} 
+% subsection tangible_objects_meaning (end)
 
 \subsection{Das MCRpd Interaktions-Modell}
 \label{sub:mcrpd}
@@ -270,7 +289,7 @@ Die grundlegenden Konzepte des Ansatzes orientieren sich an der Annahme, das die
    \item Das Constraint wirkt als Referenzrahmen für das Token und erlaubt dessen Interpretation
   \end{itemize}
  \item[Variable] Digitale Information oder eine Funktion zur Veränderung von Information. Können für sich existieren oder an ein Pyfo gekoppelt sein und dadurch ein Token erzeugen
- \item[TAC] Ein "Token And Constraint" repräsenteirt die Beziehung zwischen einem Token, dessen zugeordneter Variable und einem oder mehreren Constraints. TACs legen fest, wie Benutzer mit dem System interagieren können
+ \item[TAC] Ein "Token And Constraint" repräsentiert die Beziehung zwischen einem Token, dessen zugeordneter Variable und einem oder mehreren Constraints. \glspl{TAC} legen fest, wie Benutzer mit dem System interagieren können
 \end{description}
 
 Basierend auf diesen Konzepten werden fünf Kerneigenschaften, die ein Tangible User Interface bzw. dessen Elemente aufweisen können. Diese Kerneigenschaften sind:
@@ -278,19 +297,19 @@ Basierend auf diesen Konzepten werden fünf Kerneigenschaften, die ein Tangible 
 \begin{description}
 	\item[Couple] Ein Pyfo muss an eine Variable gekoppelt sein, um als Token zu gelten
 	\item[Relative Definition] Jedes Pyfo muss ein Token, ein Constraint oder beides sein
-	\item[Association] Ein TAC bildet sich aus der physischen Zuordnung eines Tokens zu einem Constraint. Dem TAC können weitere Constraints zugeordnet werden
+	\item[Association] Ein \gls{TAC} bildet sich aus der physischen Zuordnung eines Tokens zu einem Constraint. Dem \gls{TAC} können weitere Constraints zugeordnet werden
 	\item[Computational Interpretation] Physische Manipulation eines Tokens hat eine eindeutig interpretierbare Auswirkung auf die digitale Welt
-	\item[Manipulation] Jedes TAC kann in der physischen Welt diskret, kontinuierlich oder auf beide Arten manipuliert werden. Das Constraint legt die möglichen Arten der Manipulation fest.  
+	\item[Manipulation] Jedes \gls{TAC} kann in der physischen Welt diskret, kontinuierlich oder auf beide Arten manipuliert werden. Das Constraint legt die möglichen Arten der Manipulation fest.  
 \end{description}
 
-Zur Spezifikation eines Tangible User Interfaces werden nun diese Konzepte zur Anwendung gebracht um sowohl Struktur als auch Verhalten des \gls{TUI} festzulegen. Bei der Spezififikation werden die TACs definiert, indem auf Seiten der Struktur das betroffene Token und die zugehörigen Constraints angeführt werden. Zur Spezifikation des Verhaltens wird die betroffene Variable, die Aktion, die in der physischen Welt ausgeführt wird und die zu erwartende Reaktion des Systems angeführt.
+Zur Spezifikation eines Tangible User Interfaces werden nun diese Konzepte zur Anwendung gebracht um sowohl Struktur als auch Verhalten des \gls{TUI} festzulegen. Bei der Spezifikation werden die \glspl{TAC} definiert, indem auf Seiten der Struktur das betroffene Token und die zugehörigen Constraints angeführt werden. Zur Spezifikation des Verhaltens wird die betroffene Variable, die Aktion, die in der physischen Welt ausgeführt wird und die zu erwartende Reaktion des Systems angeführt.
 
 \begin{tabular}{| p{3cm} | p{10cm} |}
   \hline
   Kategorien & --- \\ \hline
-  Konzepte & --- \\ \hline
-  Eigenschaften & --- \\ \hline
-  PD-Brücke & --- \\ \hline
+  Konzepte & Pyfo, Token, Constraint, Variable, \gls{TAC} \\ \hline
+  Eigenschaften & Couple, Relative Definition, Association, Computational Interpretation, Manipulation \\ \hline
+  PD-Brücke & Variables (Elemente der digitalen Welt) machen ein Pyfo (Objekt der realen Welt) zu einem Token \\ \hline
 \end{tabular} 
 
 % subsection tokens_und_constraints_nach_shaer_et_al_ (end)
