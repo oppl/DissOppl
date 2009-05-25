@@ -10,7 +10,9 @@ In den folgenden Abschnitten wird die historische Entwicklung von Tabletop Inter
 \section{Historische Entwicklung von Tangible Interfaces} % (fold)
 \label{sec:entwicklung_tangible_interfaces}
 
-Erste Arbeiten: \citep{Wellner93a} \citep{Suzuki95}
+Erste Arbeiten: \citep{Wellner93a}, \citep{Suzuki95}
+
+Vision für Bildung: \citep{Resnick98}, Manifestation: \citep{Zuckerman05}
 
 Der Begriff der Tangible bzw. Graspable Interfaces – also der "berührbaren" oder "begreifbaren" Benutzungsschnittstellen — stammt aus der Mitte der neunziger Jahre des zwanzigsten Jahrhunderts. \citet{Fitzmaurice95} werden im Allgemeinen als die ersten betrachtet, die den Begriff des "Graspable User Interfaces" prägen und damit die Manipulierbarkeit digitaler Information durch physische Mittel beschreiben. \citet{Fitzmaurice96} präzisiert später den Begriff durch die Abgrenzung zwischen (herkömmlichen, maus-, tastatur- und bildschirmbasierenden) zeitlich gemultiplexten Schnittstellen, bei denen der Informationsaustausch zwischen Benutzer und System über einen Kanal zeitlich hintereinander erfolgt und den (neuartigen, berührbaren) räumlich gemultiplexten Schnittstellen, bei denen mehrere Kanäle gleichzeitig zur Interaktion zwischen Benutzer und System verwendet werden können. 
 
@@ -90,7 +92,7 @@ Betrachtungsgegenstand ist bei diesem Ansatz das gesamte \gls{TUI}, auf die einz
   \hline
   Kategorien & --- \\ \hline
   Konzepte & --- \\ \hline
-  Eigenschaften & --- \\ \hline
+  Eigenschaften & \emph{Gesamtsystem}: Brick's internal ability, Input \& Output, Spatially aware, Communication, Interaction time span, Bricks in use at same time, Function assignment, Interaction representations, Physical \& virtual layers, Bond between physical \& virtual layers, Operating granularity, Operating surface type, Operating surface texture \\ \hline
   PD-Brücke & --- \\ \hline
 \end{tabular} 
 
@@ -261,10 +263,61 @@ Als zusätzliche Gestaltungsdimension führen die Autoren die Konzeption der phy
   PD-Brücke & Informationsrepräsentation immer an ein physisches Objekt gebunden. Manipulation der Information erfolgt mittels dem gleichen Objekt \\ \hline
 \end{tabular} 
 
-\subsection{Tokens und Constraints nach Ullmer}
-\citep{Ullmer02}
-\citep{Ullmer05}
+\subsection{Tokens und Constraints nach Ullmer} % (fold)
+\label{sub:tokens_und_constraints_nach_ullmer}
 
+Der Token+Constraint-Ansatz wurde von \citet{Ullmer02} erstmals vorgestellt und \citet{Ullmer05} aktualisiert veröffentlicht. \citeauthor{Ullmer05} gehen dabei erstmals von dem Grundsatz aus, das ein \gls{TUI} zwei grundlegende Arten von physischen Komponenten enthält: Objekte, die digitale Information repräsentieren, und Objekte, die die Interaktion mit Computersystemen bzw. die Manipulation des Systemzustands ermöglichen.
+
+In ihren weiteren Ausführungen identifizieren die Autoren zwei grundlegende Arten von \glspl{TUI}, die sich historisch herausgebildet hätten. Einerseits existieren „interactive surfaces“, bei denen physische Objekte benutzt werden, um Information auf einer aktiven Oberfläche (zumeist projiziert oder durch einen Bildschirm realisiert) zu manipulieren. Andererseits werden „constructive assemblies“ genannt, deren physische Objekte ohne umgebende Infrastruktur ausschließlich durch reale oder logische Verbindungen zwischen ihnen den Systemzustand ausdrücken. Die Autoren definieren nun eine dritte Art von Systemen und platzieren diese konzeptuell zwischen den beiden zuvor genannten Kategorien. Mit „tokens and constraints“ werden Systeme mit zwei unterschiedlichen Arten von physischen Elementen eingeführt. „Tokens“ stehen für Objekte, die digitale Information repräsentieren. „Constraints“ werden verwendet, um (digitale) Funktionalität auf diese Tokens anzuwenden (siehe Abbildung \ref{fig:img_ImplementierungUeberblick_is_tac_ca}).
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=10cm]{img/ImplementierungUeberblick/is_tac_ca.png}
+	\caption[Arten von Tangible User Interfaces]{Arten von Tangible User Interfaces -- von links nach rechts: interactive surfaces, tokens+constraints, constructive assemblies (übernommen aus \citet{Ullmer05})}
+	\label{fig:img_ImplementierungUeberblick_is_tac_ca}
+\end{figure}
+
+In der Folge beschreiben \citeauthor{Ullmer05} die Details des Tokens+Constraints-Ansatzes. Sie gehen dabei zuerst die Benutzer-Interaktion in einem Tokens+Constrains-basieren System. Die ist immer zweigeteilt, wobei in der ersten Phase „associate“ Tokens einem oder mehreren Constraints zugeordnet werden. In der zweiten Phase „manipulate“ werden die Tokens im Kontext der Constraints manipuliert, wodurch die digitalen Daten, die an das Token gebunden sind, geändert werden.
+
+Danach widmen sich die Autoren der Abbildung digitaler Information bzw. deren Manipulation auf physische Elemente und definieren vier grundlegende Arten von Beziehungen, die informationstragend sein können:
+\begin{itemize}
+	\item die absolute Position eines Tokens in Bezug zu einem Constraint
+	\item die relative Position eines Tokens in Bezug zu einem Constraint
+	\item die absolute Position eines Tokens in Bezug zu anderen Tokens
+	\item die relative Position eines Tokens in Bezug zu anderen Tokens
+\end{itemize}
+Unter „Position“ sind dabei auch andere spatiale Parameter eines Tokens (wie die Orientierung) zu verstehen.
+
+Nach einer Reihe von Betrachtungen der konzeptuellen Hintergründe und Beispielen kommen die Autoren zu einem weiteren konzeptuell relevanten Punkt, in dem Sie ausführen, wie bzw. warum Tangible Interfaces für Benutzer leichter verständlich sein können als traditionelle \gls{GUI}-basierte Systeme. Bezugnehmend auf \citet{Bellotti02} versuchen Sie Antworten auf fünf von diesen Autoren gestellten Fragen zu finden, die für jede Benutzungsschnittstelle geklärt werden müssen. An dieser Stelle stehen nun nicht die Antworten von \citeauthor{Ullmer05} im Mittelpunkt des Interesses, sondern die Fragen, die einen konzeptuellen Rahmen für das Design einer Benutzungsschnittstelle liefern. Die Fragen stammen aus der Arbeit von \citet{Bellotti02}:
+\begin{description}
+	\item[Address] Wie weiß das System, dass Benutzer mit ihm und nicht mit anderen (Systemen oder Personen) interagiert?
+	\item[Attention] Wie bemerken Benutzer, wenn das System auf eine Interaktionsanforderung reagiert? 
+	\item[Action] Wie weiß das System, welchem Objekt der Befehl der Benutzer gilt?
+	\item[Alignment] Wie wissen Benutzer, das das System ihren Befehl korrekt verstanden und ausgeführt hat?
+	\item[Accident] Wie werden Missverständnisse zwischen den Benutzern und dem System aufgelöst?
+\end{description}
+\citeauthor{Ullmer05} beantworten diese Fragen für den Tokens+Constraints-Ansatz jeweils aus konzeptueller und technologischer Sicht. 
+
+Am Ende des Artikels geben die Autoren Varianten des Token+Constraints-Ansatzes an. Durch die Festlegung auf die notwendige Physikalität von Tokens und Constraints ist der Design-Raum eingeschränkt, obwohl die konzeptuellen Überlegungen auch breitere Anwendung finden können. Aus diesem Grund variieren die Autoren ihren Ansatz und geben Alternativen an, die den Grundüberlegungen entsprechen aber unter Umständen nicht alle Vorteile des Kernansatzes aufweisen:
+\begin{itemize}
+	\item Verwendung von visuellen, graphischen Constraints und physischen Tokens
+	\item Verwendung von physischen Constraints für graphische Token
+	\item Verwendung von physischen Constraints für nicht-massive Tokens (z.B. Flüssigkeiten)
+	\item Verwendung von Tokens und Constraints in durch die Benutzer anpassbaren Größen
+	\item Alternative Semantik bei der Abbildung zwischen physischer und digitaler Welt
+\end{itemize}
+
+Abschließend wird betont, das reife \glspl{TUI} selten in „Reinform“ auftreten, d.h. exakt einer Kategorie wie „interactive surface“ oder „tokens+constraints“ zuzuweisen sind. 
+
+\begin{tabular}{| p{3cm} | p{10cm} |}
+  \hline
+  Kategorien & interactive surfaces, tokens+constraints, constructive assemblies \\ \hline
+  Konzepte & Tokens, Constraints \\ \hline
+  Eigenschaften & \emph{Token}: Form, absolute und relative Position in Bezug zu Constraints oder anderen Tokens \\ \hline
+  PD-Brücke & Codiert in Tokens und in den Beziehungen zwischen Tokens und Constraints \\ \hline
+\end{tabular} 
+
+% subsection tokens_und_constraints_nach_ullmer (end)
 
 \subsection{Degree of Coherence} % (fold)
 \label{sub:degree_of_coherence}
@@ -412,14 +465,54 @@ Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf 
 \end{tabular} 
 
 \subsection{Tangible Bits: Beyond Pixels}
-\citep{Ishii08}
+
+\citeauthor{Ishii08} fasst in \citep{Ishii08} die bisherige Entwicklung des Forschungsgebiets der Tangible User Interfaces zusammen und schlägt konzeptuell die Brücke von den wegweisenden \emph{Tangible Bits}-Arbeiten über das MCRpd-Interaktions-Modell bis hin zu heute aktuellen Kategorien von Tangible User Interfaces.
+
+Die Grundlage der Betrachtungen ist das in \citep{Ullmer00} MCRpd-Interaktions-Modell, das hier (und bereits in \citep{Ullmer05}) als MCRit-Modell bezeichnet wird. („it“ für „intangible“ und „tangible“ anstatt „physical“ und „digital“). Basierend auf der Trennung zwischen Input und Output eines interaktiven Systems (oder \emph{Control} und \emph{Representation}) und der auf dieser Trennung aufbauenden Abgrenzung zur \glspl{GUI}, wird die Struktur eine \gls{TUI} so konzeptualisiert, das eben diese Trennung nicht mehr vorhanden ist. Die grundlegenden Komponenten des MCRit-Modells sind (angelehnt an das MCRpd-Modell) die \emph{digitale Information}, die repräsentiert und manipuliert werden muss, sowie die \emph{tangible Repräsentation} des Systemzustandes (siehe Abbildung \ref{fig:img_ImplementierungUeberblick_MCRit}). An die tangible Repräsentation sind die Eingabekanäle des Systems -- die \emph{Control} -- gekoppelt. Die tangible Repräsentation wird durch die intangible Repräsentation ergänzt, mittels der zusätzliche, dynamisch veränderliche Information abhängig vom Systemzustand ausgegeben werden kann.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=3in]{img/ImplementierungUeberblick/MCRit.png}
+	\caption{caption}
+	\label{fig:img_ImplementierungUeberblick_MCRit}
+\end{figure}
+
+Basierend auf der konzeptuellen Grundlage gibt \citeauthor{Ishii08} die grundlegenden Eigenschaften von \glspl{TUI} an:
+\begin{description}
+	\item[Computational Coupling] \emph{of tangible representations to underlying digital information and computation}.
+	\item[Embodiment of mechanisms for interactive control] \emph{with tangible representations}. 
+	\item[Perceptual Coupling] \emph{of tangible representations to dynamic intangible representations}
+\end{description}
+
+Je nach Ausprägung dieser Eigenschaften können sich \glspl{TUI} in unterschiedliche Kategorien von Systemen manifestieren. Basierend auf den bereits in \citep{Ullmer05} angegebenen Kategorien erweitert \citeauthor{Ishii08} das Schema und identifiziert acht Kategorien von \glspl{TUI}:
+\begin{description}
+	\item[Tangible Telepresence] 
+	\item[Tangibles with kinetic memory] description
+	\item[Constructive Assembly] description
+	\item[Tokens and Constraints] description
+	\item[Interactive Surfaces -- Tabletop UI] description
+	\item[Continuous Plastic TUI] description
+	\item[Augmented Everyday Objects] description
+	\item[Ambient Media] description
+\end{description}
+
+Grundlegend gemein sind jedoch allen Arten von Systemen ein Satz von Merkmalen, die sie in ihrer Eigenschaft als \glspl{TUI} mitbringen und die sich dem Autor zufolge durchwegs vorteilhaft auf die Interaktion mit den Benutzern auswirken können:
+\begin{description}
+	\item[Double Interaction Loop -- Immediate Tactile Feedback]
+	\item[Persistency of Tangibles] description 
+	\item[Coincidence of Input and Output Spaces] description
+	\item[Special Purpose vs. General Purpose] description
+	\item[Space-Multiplexed Input] description
+\end{description}
+
+Im seinen Schlussbetrachtungen führt \citeauthor{Ishii08} die größten Mängel des noch jungen Forschungsgebiets der Tangible User Interfaces aus: es fehle an „Killer Applications“, an skalierbaren Toolkits und an verlässlichen und validierten Design Prinzipien.
 
 \begin{tabular}{| p{3cm} | p{10cm} |}
   \hline
-  Kategorien & --- \\ \hline
-  Konzepte & --- \\ \hline
-  Eigenschaften & --- \\ \hline
-  PD-Brücke & --- \\ \hline
+  Kategorien & Tangible Telepresence, Tangibles with kinetic memory, Constructive Assembly, Tokens and Constraints, Interactive Surfaces -- Tabletop UI, Continuous Plastic TUI, Augmented Everyday Objects, Ambient Media \\ \hline
+  Konzepte & Digital Information, Tangible Representation, Control, Intangible Representation \\ \hline
+  Eigenschaften & \emph{Gesamtsystem}: Double Interaction Loop, Persistency of Tangibles, Coincidence of Input and Output Spaces, Special Purpose vs. General Purpose, Space-Multiplexed Input \\ \hline
+  PD-Brücke & Abhängig von der Art des Systems, grundsätzlich aber immer Kopplung zwischen tangibler Repräsentation und Control \\ \hline
 \end{tabular} 
 
 \subsection{Zusammenfassung} % (fold)

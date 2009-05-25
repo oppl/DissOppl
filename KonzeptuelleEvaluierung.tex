@@ -156,6 +156,35 @@ Das Werkzeug konnte in die Logik des Modells eingeordnet werden, wobei bei der B
 
 % section betrachtung_im_lichte_des_mcrpd_modells (end)
 
+\section{Einordnung in den Tokens+Constraints Kontext} % (fold)
+\label{sec:einordnung_in_den_tokens_constraints_kontext}
+
+Grundlage der Einordnung in diesem Abschnitt ist der Ansatzes von \citep{Ullmer05}, der in Abschnitt \ref{sub:tokens_und_constraints_nach_ullmer} beschrieben wurde.
+
+\subsection{Einordnung}
+
+Eine unmittelbare Einordnung des hier vorgestellten Werkzeugs in den Tokens+Constraints-Ansatz ist nicht möglich, da einerseits kein allgemeines Schema zur Betrachtung vorgeschlagen wird und das Werkzeug seiner Konzeption nach nicht dem Verständnis eines Tokens+Constraints-System nach \citep{Ullmer05} entspricht. Dazu müsste es physische Constraints aufweisen, die den Interaktionsraum der informationstragenden Tokens physisch einschränken. Das einzige nach dieser Definition identifizierbare Constraint des Werkzeugs ist der aktive Bereich der Tischoberfläche, die den Modellierungsraum beschränkt. Diese Einschränkung ist aber im Vergleich zu den Beispielen für Constraints, die die Autoren angeben, eher wenig strikt und lässt viel Interaktionsraum.
+
+Am ehesten ist das vorliegende System als eine „interactive surface“ mit Aspekten einer „constructive assembly“ zu klassifizieren. Die Qualifikation als „interactive surface“ erscheint ob der Interaktion mit physischen Blöcken auf einer digital augmentierten Oberfläche naheliegend. „Constructive assembly“-Aspekte sind im Bereich der Einbettung von informationstragenden Tokens in Modellierungs-Tokens zu finden. Die Zuordnung wird dabei durch das Hineinlegen eines Tokens in ein anderes ausgedrückt, wodurch die konkrete Semantik in der Beziehung zwischen den beiden Tokens abgebildet ist. Generell wird die Semantik des abzubildenden Modells in der räumlichen und logischen Konfiguration der Modellierungs-Tokens zueinander abgebildet, was ebenfalls einem „constructive assembly“-Aspekt entspricht.
+
+Nicht unmittelbar in in Zusammenhang mit dem Tokens+Constraints-Ansatz stehen die fünf Fragen von \citep{Bellotti02}, die beim Design einer Benutzungsschnittstelle berücksichtigt werden sollten. In \citet{Ullmer05} werden diese Fragen für den dort vorgestellten Ansatz beantwortet, an dieser Stelle sollen sie im Lichte des hier vorgestellten Systems betrachtet werden.
+
+\begin{description}
+	\item[Address] Das System interpretiert alle Interaktionen, die mit Modellierungs- oder Werkzeugtokens unmittelbar auf der Tischoberfläche ausgeführt werden, als an es gerichtet. Andere Interaktionen werden ignoriert und können auch technisch nicht erfasst werden.
+	\item[Attention] Der Einsatz jedes Tokens löst unmittelbar eine Reaktion auf den Ausgabekanälen des Systems aus. Benutzer erhalten also direktes Feedback auf erkannte Interaktionen. Eine Verzögerung zwischen Ein- und Ausgabe tritt lediglich bei der Markierung von Elementen auf, die zur Robustheit gegen Fehlerkennungen erst erfasst wird, wenn das  Eingabe-Token länger als 500 ms vorhanden ist.
+	\item[Action] Befehle an das System können generell an einem beliebigen Punkt der Oberfläche abgesetzt werden, sofern es sich um allgemeine Kommandos handelt, die das Gesamtsystem betreffen. Befehle, die einem bestimmten Objekt zuzuordnen sind (z.B. Auswahl oder Verbindungsherstellung) werden durch räumliche Nähe zugeordnet.
+	\item[Alignment] Nach Ausführung einer Aktion befindet sich das System immer in einem stabilen Zustand, anhand dessen Visualisierung die Benutzer erkennen können, ob die intendierte Aktion korrekt erkannt und ausgeführt wurde.
+	\item[Accident] Missverständnisse zwischen System und Benutzern können auf unterschiedliche Arten aufgelöst werden. Bei Benutzeraktionen, die mit einem Timeout belegt sind (z.B. Auswahl) ist es ausreichend, dieses Timeout abzuwarten, wodurch das System wieder in den Ausgangszustand wechselt. Missverständnisse, die zu permanenten Zustandsänderungen führen, können entweder explizit durch die gegenteilige Interaktion rückgängig gemacht werden (z.B. Löschen einer versehentlich hergestellten Verbindung) oder mittels der Wiederherstellung eines gespeicherten Systemzustandes korrigiert werden, in dem das Missverständnis noch keine Auswirkung hatte bzw. nicht aufgetreten war.
+\end{description}
+
+\subsection{Bewertung}
+
+Der Tokens+Constraints-Ansatz ermöglicht in der vorliegenden Form keine direkte Abbildung des Werkzeugs auf seine Konzepte. Wertvoller für die Betrachtung sind an dieser Stelle die Ordnungsschemata und Fragestellungen, die von \citet{Ullmer05} im Kontext des Ansatzes erarbeitet bzw. beantwortet werden. 
+
+Von Interesse sind insbesondere die fünf Fragen für das Design von Benutzungsschnittstellen, die von  \citep{Bellotti02} gestellt werden. Bei der Beantwortung dieser Fragen für das vorliegende System ist durchaus Verbesserungspotential zu identifizieren. Am offensichtlichsten zeigt sich das am Beispiel des Feedbacks des Systems an Benutzer über einen erkannten Interaktionswunsch. Hier kommt es beim Einsatz des Markierungstokens technisch bedingt zu Verzögerungen, die -- ob der ansonsten unmittelbaren Reaktion des Systems -- Unsicherheit bei den Benutzern erzeugen kann. Auch die Auflösung von Missverständnissen ist im Moment sub-optimal gelöst, da in jedem Fall entweder Zeitverlust auftritt oder mindestens zwei Interaktionsschritte zur Korrektur einer Fehlinterpretation notwendig sind. Hier wäre unter Umständen die Einführung einer expliziten „Undo“-Funktionalität sinnvoll.
+
+% section einordnung_in_den_tokens_constraints_kontext (end)
+
 \section{Einordnung in das Framework nach Koleva et al.} % (fold)
 \label{sec:einordnung_in_das_framework_nach_koleva_et_al_}
 
@@ -269,7 +298,9 @@ Grundlage der Einordnung in diesem Abschnitt ist der Ansatzes von \citep{Fishkin
 Das in dieser Arbeit entwickelte Werkzeug überspannt aufgrund seiner komplexen Struktur in beiden von \citeauthor{Fishkin04} vorgeschlagenen Dimensionen zur Klassifikation von Tangible Interfaces mehrere Ausprägungen. Um eine umfassende und ins Detail gehende Einordnung vornehmen zu können, werden im Folgenden Einzelaspekte des Systems betrachtet und eingeordnet. Während die Dimension "Embodiment" bereits in Kapitel \ref{cha:visualisierung} betrachtet wurde, um eine strukturierte Zuordnung der Ausgabekanäle vornehmen zu können, werden hier die einzelnen Funktionalitäten des Systems (siehe Abschnitt \ref{sec:benutzerinteraktion_mit_dem_werkzeug}) jeweils beiden Dimensionen zugeordnet (siehe Tabelle \ref{tab:einordnungFishkin})
 
 
-	\begin{longtable}{| p{6cm} || p{3cm} | p{3cm} |} \hline
+	\begin{longtable}{| p{6cm} || p{3cm} | p{3cm} |} \caption{Einordnung des Systems in die Taxonomie nach Fishkin}
+	\label{tab:einordnungFishkin}
+	\\ \hline
 		 & Embodiment & Metaphor \\ \hline \hline
 		Platzieren und Benennen von Modellelementen & distant, nearby (Tastatur), full (Haftnotiz) & verb (Tastatur), verb + noun (Haftnotiz) \\ \hline
 		Erstellen von Verbindern & nearby & verb bis noun+verb (Werkzeugtokens), verb (räumliche Nähe)\\ \hline
@@ -278,10 +309,7 @@ Das in dieser Arbeit entwickelte Werkzeug überspannt aufgrund seiner komplexen 
 		Abrufen von Information & distant & verb \\ \hline
 		Erstellen von Snapshots & environmental bis nearby & none \\ \hline
 		Navigation in der Modell-Historie & distant & verb \\ \hline
-		Wiederherstellen eines Modell-Zustandes & nearby & noun + verb\\ \hline
-			\caption{Einordnung des Systems in die Taxonomie nach Fishkin}
-			\label{tab:einordnungFishkin}
-		
+		Wiederherstellen eines Modell-Zustandes & nearby & noun + verb\\ \hline		
 	\end{longtable}
 
 Beim \emph{Platzieren und Benennen von Modellelementen} ist die Benennung auf zwei Arten möglich, die unterschiedlich in die Taxonomie einzuordnen sind. Bei Benennung mittels Auswahl und Tastatur ist durch die Projektion der Benennung die Embodiment-Ausprägung "nearby" zu wählen. Der Vorgang der Auswahl und Benennung kann als analog zur realen Welt gesehen werden, die eingesetzten Werkzeuge sind aber generischer Natur -- Metaphor ist also als "verb" zu klassifizieren. Bei der Benennung mittels Haftnotitz ist durch die unmittelbar auf den Tokens angebrachten Benennungen Embodiment "full", Der Vorgang des Beschriftens wird analog zur realen Welt durchgeführt, auch die Informationsträger (Haftnotizen) entsprechen jenen der realen Welt, Metaphor ist also "verb + noun", wobei  der notwendige Vorgang der expliziten Erfassung einer Beschriftung durch das System eine Klassifikation "full" verhindert und sogar die Einstufung "noun + verb" etwas abschwächt (keine Analogie des Vorgangs zur realen Welt).
