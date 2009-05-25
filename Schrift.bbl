@@ -116,22 +116,10 @@ Ferscha, A., Vogl, S., Emsenhuber, B., und Wally, B. (2008).
   ICST (Institute for Computer Sciences, Social-Informatics and
   Telecommunications Engineering) ICST, Brussels, Belgium, Belgium.
 
-\bibitem[Fishkin et~al., 1998]{Fishkin98}
-Fishkin, K., Moran, T., und Harrison, B. (1998).
-\newblock {Embodied User Interfaces: Towards Invisible User Interfaces}.
-\newblock In {\em Proceedings of the IFIP TC2/TC13 WG2. 7/WG13. 4 Seventh
-  Working Conference on Engineering for Human-Computer Interaction}, Seiten
-  1--18. Kluwer.
-
 \bibitem[Fishkin, 2004]{Fishkin04}
 Fishkin, K.~P. (2004).
 \newblock A taxonomy for and analysis of tangible interfaces.
 \newblock {\em Personal and Ubiquitous Computing}, 8(5):347--358.
-
-\bibitem[Fishkin et~al., 2000]{Fishkin00}
-Fishkin, K.~P., Gujar, A., Harrison, B.~L., Moran, T.~P., und Want, R. (2000).
-\newblock Embodied user interfaces for really direct manipulation.
-\newblock {\em Communications of the ACM}, 43(9):74--80.
 
 \bibitem[Fitzmaurice, 1996]{Fitzmaurice96}
 Fitzmaurice, G. (1996).
@@ -506,6 +494,14 @@ Strauss, A. (1993).
 \newblock {\em {Continual Permutations of Action}}.
 \newblock Aldine de Gruyter, New York.
 
+\bibitem[Suzuki und Kato, 1995]{Suzuki95}
+Suzuki, H. und Kato, H. (1995).
+\newblock {Interaction-level support for collaborative learning: AlgoBlock---an
+  open programming language}.
+\newblock In {\em Proceedings of the first international conference on Computer
+  support for collaborative learning table of contents}, Seiten 349--355,
+  Hillsdale, NJ, USA. L. Erlbaum Associates Inc.
+
 \bibitem[Ullmer, 2002]{Ullmer02}
 Ullmer, B. (2002).
 \newblock {\em Tangible interfaces for manipulating aggregates of digital
@@ -558,6 +554,11 @@ Wagner, D. und Schmalstieg, D. (2003).
 Weiser, M. (1991).
 \newblock The computer for the 21st century.
 \newblock {\em Scientific American}, 265.
+
+\bibitem[Wellner, 1993]{Wellner93a}
+Wellner, P. (1993).
+\newblock {Interacting with paper on the DigitalDesk}.
+\newblock {\em Communications of the ACM}, 36:87--96.
 
 \bibitem[{ZigBee Alliance}, 2007]{ZigBee07}
 {ZigBee Alliance} (2007).

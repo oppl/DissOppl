@@ -38,16 +38,15 @@
 \BOOKMARK [2][-]{subsection.7.2.2}{Graspable User Interfaces}{section.7.2}
 \BOOKMARK [2][-]{subsection.7.2.3}{Tangible Bits}{section.7.2}
 \BOOKMARK [2][-]{subsection.7.2.4}{Containers, Tokens und Tools}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.5}{Embodied User Interfaces}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.6}{Tangible Objects Meaning}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.7}{Das MCRpd Interaktions-Modell}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.8}{Tokens und Constraints nach Ullmer}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.9}{Degree of Coherence}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.10}{Tokens und Constraints nach Shaer et al.}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.11}{Einteilung nach Klemmer, Li, Lin und Landay}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.12}{Taxonomie nach Fishkin}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.13}{Tangible Bits: Beyond Pixels}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.14}{Zusammenfassung}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.5}{Tangible Objects Meaning}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.6}{Das MCRpd Interaktions-Modell}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.7}{Tokens und Constraints nach Ullmer}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.8}{Degree of Coherence}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.9}{Tokens und Constraints nach Shaer et al.}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.10}{Kategorien von TUI-Anwendungen}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.11}{Taxonomie nach Fishkin}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.12}{Tangible Bits: Beyond Pixels}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.13}{Zusammenfassung}{section.7.2}
 \BOOKMARK [1][-]{section.7.3}{Tangible Interfaces in kooperativer Verwendung}{chapter.7}
 \BOOKMARK [1][-]{section.7.4}{Tabletop Interfaces}{chapter.7}
 \BOOKMARK [2][-]{subsection.7.4.1}{Historische Entwicklung}{section.7.4}
@@ -120,32 +119,38 @@
 \BOOKMARK [2][-]{subsection.10.5.2}{Technische Umsetzung des graphischen Exports}{section.10.5}
 \BOOKMARK [1][-]{section.10.6}{Zusammenfassung}{chapter.10}
 \BOOKMARK [-1][-]{part.3}{Evaluierung}{}
-\BOOKMARK [0][-]{chapter.11}{Konzeptuelle Evaluierung}{part.3}
-\BOOKMARK [1][-]{section.11.1}{Bestimmung der Eigenschaften des Graspable User Interfaces Ansatz}{chapter.11}
+\BOOKMARK [0][-]{chapter.11}{Konzeptuelle Einordnung}{part.3}
+\BOOKMARK [1][-]{section.11.1}{Einordnung in den Bricks-Designraum}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.1.1}{Abbildung}{section.11.1}
 \BOOKMARK [2][-]{subsection.11.1.2}{Bewertung}{section.11.1}
-\BOOKMARK [1][-]{section.11.2}{Betrachtung im Lichte des Tangible Bits Ansatzes}{chapter.11}
+\BOOKMARK [1][-]{section.11.2}{Bestimmung der Eigenschaften des Graspable User Interfaces Ansatz}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.2.1}{Abbildung}{section.11.2}
 \BOOKMARK [2][-]{subsection.11.2.2}{Bewertung}{section.11.2}
-\BOOKMARK [1][-]{section.11.3}{Einordnung in das Ordnungssystem von Holmquist et al.}{chapter.11}
+\BOOKMARK [1][-]{section.11.3}{Betrachtung im Lichte des Tangible Bits Ansatzes}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.3.1}{Abbildung}{section.11.3}
 \BOOKMARK [2][-]{subsection.11.3.2}{Bewertung}{section.11.3}
-\BOOKMARK [1][-]{section.11.4}{Einordnung in das Object-Meaning-Kontinuum}{chapter.11}
+\BOOKMARK [1][-]{section.11.4}{Einordnung in das Ordnungssystem von Holmquist et al.}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.4.1}{Abbildung}{section.11.4}
 \BOOKMARK [2][-]{subsection.11.4.2}{Bewertung}{section.11.4}
-\BOOKMARK [1][-]{section.11.5}{Betrachtung im Lichte des MCRpd-Modells}{chapter.11}
+\BOOKMARK [1][-]{section.11.5}{Einordnung in das Object-Meaning-Kontinuum}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.5.1}{Abbildung}{section.11.5}
 \BOOKMARK [2][-]{subsection.11.5.2}{Bewertung}{section.11.5}
-\BOOKMARK [1][-]{section.11.6}{Einordnung in das Framework nach Koleva et al.}{chapter.11}
+\BOOKMARK [1][-]{section.11.6}{Betrachtung im Lichte des MCRpd-Modells}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.6.1}{Abbildung}{section.11.6}
 \BOOKMARK [2][-]{subsection.11.6.2}{Bewertung}{section.11.6}
-\BOOKMARK [1][-]{section.11.7}{Spezifikation des TAC-Schemas nach Shaer et al.}{chapter.11}
+\BOOKMARK [1][-]{section.11.7}{Einordnung in das Framework nach Koleva et al.}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.7.1}{Abbildung}{section.11.7}
 \BOOKMARK [2][-]{subsection.11.7.2}{Bewertung}{section.11.7}
-\BOOKMARK [1][-]{section.11.8}{Einordnung in die Taxonomie von Fishkin}{chapter.11}
+\BOOKMARK [1][-]{section.11.8}{Spezifikation des TAC-Schemas nach Shaer et al.}{chapter.11}
 \BOOKMARK [2][-]{subsection.11.8.1}{Abbildung}{section.11.8}
 \BOOKMARK [2][-]{subsection.11.8.2}{Bewertung}{section.11.8}
-\BOOKMARK [1][-]{section.11.9}{Zusammenfassung}{chapter.11}
+\BOOKMARK [1][-]{section.11.9}{Einordnung in die Kategorien von TUI-Anwendungen}{chapter.11}
+\BOOKMARK [2][-]{subsection.11.9.1}{Abbildung}{section.11.9}
+\BOOKMARK [2][-]{subsection.11.9.2}{Bewertung}{section.11.9}
+\BOOKMARK [1][-]{section.11.10}{Einordnung in die Taxonomie von Fishkin}{chapter.11}
+\BOOKMARK [2][-]{subsection.11.10.1}{Abbildung}{section.11.10}
+\BOOKMARK [2][-]{subsection.11.10.2}{Bewertung}{section.11.10}
+\BOOKMARK [1][-]{section.11.11}{Zusammenfassung}{chapter.11}
 \BOOKMARK [0][-]{chapter.12}{Überblick über die empirische Untersuchung}{part.3}
 \BOOKMARK [1][-]{section.12.1}{Untersuchungsaspekte}{chapter.12}
 \BOOKMARK [2][-]{subsection.12.1.1}{Evaluierung des Werkzeugs}{section.12.1}

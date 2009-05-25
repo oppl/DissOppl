@@ -1,49 +1,49 @@
 \begin{theindex}
 
-  \item AR Toolkit, \hyperpage{59}
+  \item AR Toolkit, \hyperpage{67}
 
   \indexspace
 
-  \item Barcode, \hyperpage{46}
-  \item Bluetooth, \hyperpage{52}
+  \item Barcode, \hyperpage{54}
+  \item Bluetooth, \hyperpage{60}
 
   \indexspace
 
-  \item Context Toolkit, \hyperpage{54}
+  \item Context Toolkit, \hyperpage{62}
 
   \indexspace
 
-  \item Positionsbestimmung, \hyperpage{46}
-    \subitem akustisch, \hyperpage{49}
-    \subitem elektromagnetisch, \hyperpage{48}
-    \subitem kapazitiv, \hyperpage{47}
-    \subitem optisch, \hyperpage{46}
+  \item Positionsbestimmung, \hyperpage{54}
+    \subitem akustisch, \hyperpage{57}
+    \subitem elektromagnetisch, \hyperpage{56}
+    \subitem kapazitiv, \hyperpage{55}
+    \subitem optisch, \hyperpage{54}
 
   \indexspace
 
-  \item ReacTIVision, \hyperpage{60}
-  \item RFID, \hyperpage{48}
+  \item ReacTIVision, \hyperpage{68}
+  \item RFID, \hyperpage{56}
 
   \indexspace
 
-  \item SmartIT, \hyperpage{51}
+  \item SmartIT, \hyperpage{59}
 
   \indexspace
 
   \item Token
-    \subitem aktive, \hyperpage{51}
-    \subitem passive, \hyperpage{50}
+    \subitem aktive, \hyperpage{59}
+    \subitem passive, \hyperpage{58}
 
   \indexspace
 
-  \item Ultraschall, \hyperpage{49}
+  \item Ultraschall, \hyperpage{57}
 
   \indexspace
 
-  \item Visual Codes, \hyperpage{59}
+  \item Visual Codes, \hyperpage{67}
 
   \indexspace
 
-  \item ZigBee, \hyperpage{52}
+  \item ZigBee, \hyperpage{60}
 
 \end{theindex}

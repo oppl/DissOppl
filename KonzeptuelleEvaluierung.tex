@@ -1,12 +1,55 @@
-\chapter{Konzeptuelle Evaluierung} % (fold)
+\chapter{Konzeptuelle Einordnung} % (fold)
 \label{cha:konzeptuelle_evaluierung}
+
+\section{Einordnung in den Bricks-Designraum} % (fold)
+\label{sec:einordnung_in_den_bricks_designraum}
+
+Grundlage der Betrachtungen in diesem Abschnitt ist das Konzept der Tangible Bits \citep{Fitzmaurice95}, der in Abschnitt \ref{sub:bricks} beschrieben wird.
+
+\subsection{Abbildung} 
+
+Aus den Erfahrungen mit der Erstellung des „Bricks“-Systems leiten \citet{Fitzmaurice95} einen  „Design Space“ ab, der 13 Merkmale definiert, die bei der Konzeption eines \gls{TUI} beachtet werden sollten bzw. die sich zur gegenüberstellenden Bewertung von \glspl{TUI} eignen. Neben den Merkmalen geben die Autoren auch mögliche Ausprägungen an, die gemeinsam den Design Raum abstecken. Für das hier vorgestellte Werkzeug ergibt sich folgende Zuordnung:
+
+In der Kategorie \emph{Brick's internal ability} ist das System bzw. die eingesetzten Tokens als „inert“ zu klassifizieren, da die physischen Objekte keine Elektronik aufweisen und somit kein aktives Verhalten zeigen können. Bezieht man die unmittelbare Umgebung der Elemente, auf die Information projiziert werden kann, in die Beurteilung mit ein, so ist die Einstufung „simple expressions“ zu rechtfertigen. 
+
+In der Kategorie \emph{Input \& Output} werden eingabeseitig in unterschiedlichen Interaktionen folgende Parameter kontinuierlich oder ereignisgesteuert erfasst: X-Y-Position (kont.) , Rotation (kont.) , Tastatureingabe (ereignisgest.) und Kamerabild (ereignisgest.). Ausgabeseitig werden folgende Parameter eingesetzt: Zustand auf der physischen Oberfläche, Projektion und Bildschirm.
+
+In der Kategorie \emph{Spatially aware} ist (bezogen auf die Tokens) die Ausprägung „unaware“ zu wählen, da die physischen Elemente selbst keine Möglichkeit zur Feststellung der Konfiguration ihrer Umgebung haben. Bezogen auf das Gesamtsystem ist die Ausprägung „mutual awareness“ zu wählen, da den softwareseitigen Repräsentationen der Elemente durch das im Hintergrund arbeitende Lokalisierungssystem durchaus bekannt ist, wo sie sich befinden und welche Elemente sich in ihrer Nähe befinden.
+
+In der Kategorie \emph{Communication} ist keine Einordnung möglich, da die physischen Elemente des Systems nicht untereinander kommunizieren.
+
+In der Kategorie \emph{Interaction time span} sind die Ausprägungen „quick“ und „interaction cache“ zu wählen. Die meisten Interaktionen laufen ereignisbasiert ab und sind mit der Auslösung wieder abgeschlossen („quick“). Manche Interaktionen (z.B. Herstellung einer Verbindung, Kontrolle der Modellierungshistorie, \ldots) benötigen jedoch längere Zeit bzw. die Manipulation mehrerer Tokens („interaction cache“).
+
+In der Kategorie \emph{Bricks in use at same time} ist bei Betrachtung des gesamten Systems die Ausprägung (Größenordnung) „5-10“ zu wählen, da potentiell so viele Modellierungselemente gleichzeitig (auch durch mehrere Personen) benutzt werden. Bezogen auf die Werkzeug-Tokens (also die unmittelbar funktionsauslösenden physischen Elemente, die eigentlich von diesem Ansatz eigentlich betrachtet werden) sind die Ausprägungen „1“ oder „2“ (je nach Interaktion) zu wählen.  
+
+In der Kategorie \emph{Function assignment} ist bezogen auf die Werkzeug-Tokens die Ausprägung „permanent“ zu wählen, da diesen die durch sie ausgelöste Funktion fix zugeordnet ist.
+
+In der Kategorie \emph{Interaction representations} ist die Ausprägung „balanced“ insofern für das vorliegende Werkzeug passend, als dass die physischen und digitalen Elemente einander in der Repräsentation des Systemzustandes gleichberechtigt ergänzen.
+
+In der Kategorie \emph{Physical \& virtual layers} erfüllt das System durch die beiden Ausgabekanäle beide Ausprägungen („direct“ für die Tischoberfläche, „indirect“ für den sekundären Ausgabekanal).
+
+In der Kategorie \emph{Bond between physical \& virtual layers} sind physische und virtuelle Ebene im hier vorgestellten System „tightly coupled“, da die Repräsentationen auf beiden Ebenen stets synchron sind.
+
+In der Kategorie \emph{Operating granularity} ist aufgrund der physischen Natur des Systems (Tisch) die Ausprägung „Desktop“ zu wählen, wobei dies auch mit der vorgesehenen Auflösung des Tracking („fraction of inches accuracy“) korreliert.
+
+In der Kategorie \emph{Operating surface type} erfüllt das System die Anforderungen der Ausprägung „dynamic“, da sich die Oberfläche durch die Projektion von Information zur Laufzeit ändert.
+
+In der Kategorie \emph{Operating surface texture} ist die Ausprägung „continuous“ auszuwählen, da die Elemente frei auf der Oberfläche platziert werden können.
+
+\subsection{Bewertung}
+
+Der von \citet{Fitzmaurice95} aufgespannte Design Raum für Graspable User Interfaces ist aus dem von den Autoren entwickelten System abgeleitet und weist mangels zum Zeitpunkt der Erstellung vorhandenen Alternativen starke Spezifika auf, die den Ansatz zur Einordnung anderer Systeme nur bedingt geeignet machen. Insbesondere die Ableitung mehrerer Eigenschaften aus der Tatsache, dass die physischen Elemente des System (die „Bricks“) aktive Bausteine sind und auf eine Oberfläche bewegt werden, schränkt die Verwendbarkeit einiger Kategorien im Allgemeinen ein (z.B. \emph{Communication} oder \emph{Spatially aware}). Außerdem ist der Design Raum auf Systeme ausrichtet, die physische Elemente als Eingabewerkzeuge verwenden und berücksichtigt keine Elemente, die ausschließlich zur Informationsrepräsentation verwendet werden.
+
+Das hier vorgestellte Werkzeug konnte weitgehend in den Design Raum eingeordnet werden, wenn auch die Verwendung passiver Tokens nicht vorgesehen ist und damit einige Kategorien nicht sinnvoll belegt werden können. Ansätze zur Verbesserung des Werkzeugs können nicht abgeleitet werden, das der Designraum für Detailbetrachtungen zu unspezifisch bleibt und seine generelle Ausrichtung nicht vollständig auf die Eigenschaften des Werkzeugs abgebildet werden können.
+
+% section einordnung_in_den_bricks_designraum (end)
 
 \section{Bestimmung der Eigenschaften des Graspable User Interfaces Ansatz} % (fold)
 \label{sec:bestimmung_der_eigenschaften_des_graspable_user_interfaces_ansatz}
 
 Grundlage der Betrachtungen in diesem Abschnitt ist das Konzept der Tangible Bits \citep{Fitzmaurice96}, der in Abschnitt \ref{sub:graspable_user_interfaces} beschrieben wird.
 
-\subsection{Abbildung} % (fold)
+\subsection{Abbildung}
 
 \citet{Fitzmaurice96} definiert fünf Eigenschaften, die ein „Graspable User Interface“ ausmachen und legt mögliche Ausprägungen fest, deren Werte für ein konkretes System eine Aussage über dessen „Graspabiltity“ zulässt. Für das hier vorgestellte Werkzeug sind folgende Einstufungen argumentierbar:
 
@@ -20,7 +63,7 @@ In der Kategorie \emph{Spatially aware} ist hinsichtlich der Werkzeugtokens eine
 
 In der Kategorie \emph{Spatial reconfiguarability} ist das System in die Ausprägung „track“ einzuordnen, da die einzelnen Werkzeuge nicht unabhängig von der Oberfläche und der in ihr integrierten optischen Tracking-Funktion verwendet werden können.
 
-\subsection{Bewertung} % (fold)
+\subsection{Bewertung}
 
 Die Eigenschaften von Graspable User Interfaces erlauben eine allgemeine Bewertung eines \gls{TUI}. Sie sind nicht geeignet, um eine detailliert Analyse oder Spezifikation durchzuführen. Dieser Aspekt -- die Eigenschaften des Gesamtsystems -- wird jedoch bei den meisten anderen Frameworks außer acht gelassen, so dass eine Einordung in das vorgeschlagene Schema durchaus sinnvoll sein kann.
 
@@ -33,7 +76,7 @@ Für das hier vorgestellte Werkzeug wurden durchwegs Ausprägungen identifiziert
 
 Grundlage der Betrachtungen in diesem Abschnitt ist das Konzept der Tangible Bits \citep{Ishii97}, der in Abschnitt \ref{sub:tangible_bits} beschrieben wird.
 
-\subsection{Abbildung} % (fold)
+\subsection{Abbildung} 
 
 Das hier vorgestellte Werkzeug kann hinsichtlich seiner Funktion als eine Instanz des Konzepts „Interactive Surface“ betrachtet werden. Die „Surface“ ist hierbei eine Tischoberfläche, auf der interagiert wird. Die im Rahmen der Beschreibung des „metaDESK“ \citep{Ullmer97} als Beispiel für eine „Interactive Surface“ eingeführten \gls{TUI}-Elemente finden zum Teil auch im hier vorgestellten Werkzeug Anwendung.
 
@@ -68,7 +111,7 @@ Durch die Flexibilisierung nicht nur der Bindung zwischen physischen Elementen u
 \section{Einordnung in das Object-Meaning-Kontinuum} % (fold)
 \label{sec:einordnung_in_das_object_meaning_kontinuum}
 
-Grundlage der Einordnung in diesem Abschnitt ist der Ansatz von \citet{Underkoffler99}, der in Abschnitt \ref{sub:embodied_user_interfaces} beschrieben wurde.
+Grundlage der Einordnung in diesem Abschnitt ist der Ansatz von \citet{Underkoffler99}, der in Abschnitt \ref{sub:tangible_objects_meaning} beschrieben wurde.
 
 \subsection{Abbildung} 
 
@@ -200,8 +243,22 @@ Das \gls{TAC}-Schema eignet sich für eine umfassende Spezifikation des Struktur
 
 Entsprechend dieser Einschränkung eignet sich das \gls{TAC}-Schema weitgehend für die Spezifikation des hier vorgeschlagenen Werkzeuges. Lediglich die Wiederherstellungsunterstützung kann nicht abgebildet werden, da sie vom System gesteuert wird. Beim Einsatz zur Spezifikation eines \gls{TUI} oder bei der Untersuchung desselben hinsichtlich möglichem Verbesserungspotential ist vor allem auf die möglichen Constraints eines Tokens zu achten. Dabei ist es hilfreich, unterschiedliche Constraints bezüglich der von ihnen vorgegebenen oder durch sie ermöglichten Aktionen zu betrachten. Als Beispiel im konkreten System kann wiederum das Löschtoken verwendet werden. Diese wird in der aktuellen Implementierung mit dem Constraint „Oberfläche“ verwendet, um den Löschmodus zu aktivieren (wenn es aufgelegt wird) bzw. zu deaktivieren (wenn es entfernt wird). Setzt man das Löschtoken nun in ein \gls{TAC} mit dem Constraint „Verbindung“, ergeben sich neue Möglichkeiten der Interaktion. Ein Aufsetzen des Löschtokens auf eine Verbindung könnte diese unmittelbar löschen und würde so den notwendigen Interaktionsablauf massiv vereinfachen. Das mit diesem Constraint auch die Metapher des verwendeten Radiergummis sinnbringend verwendet wird, ist ein Nebeneffekt, der jedoch im \gls{TAC}-Schema nicht repräsentiert wird. Vielmehr ist die Metaphorik Ausgangspunkt für eine sinnvolle und verständliche Auswahl möglicher Constraints für ein Token.
 
-
 % section spezifikation_des_tac_schemas_nach_shaer_et_al_ (end)
+
+\section{Einordnung in die Kategorien von TUI-Anwendungen} % (fold)
+\label{sec:einordnung_in_die_kategorien_von_tui_anwendungen}
+
+Grundlage der Einordnung in diesem Abschnitt ist der Ansatzes von \citep{Klemmer04}, der in Abschnitt \ref{sub:kategorien_von_tui_anwendungen} beschrieben wurde.
+
+\subsection{Abbildung}
+
+Das Werkzeug weist Aspekte einer \emph{spatial application} auf, da es die Platzierung von physischen Elementen auf einer Oberfläche als Grundlage der Interaktion mit dem System heranzieht. Da aber die Beziehung zwischen den Elementen sowohl für die Informationsrepräsentation als auch für die Steuerung des Systems wesentlich ist, ist auch eine Einordnung in die Kategorie \emph{topological application} argumentierbar. Letzendlich referenzieren manche physische Elemente auch auf digitale Information, was das Kriterium für die Einordnung in die Kategorie \emph{associative application} ist. Lediglich die Kategorie \emph{Forms} trifft nicht auf das hier vorgestellte Werkzeug zu. 
+
+\subsection{Bewertung}
+
+Das hier vorgestellte Werkzeug lässt sich nicht eindeutig einer der von \citet{Klemmer04} identifizierten Applikations-Kategorien zuordnen. Die (von den Autoren als solche bezeichnete) „Taxonomie“ eignet sich demnach nicht, um komplexere Systeme zu klassifizieren, die sowohl Informationsrepräsentation als auch Systemsteuerung durch physische Elemente abwickeln.
+
+% section einordnung_in_die_kategorien_von_tui_anwendungen (end)
 
 \section{Einordnung in die Taxonomie von Fishkin} % (fold)
 \label{sec:einordnung_in_die_taxonomie_von_fishkin}

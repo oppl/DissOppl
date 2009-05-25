@@ -10,6 +10,8 @@ In den folgenden Abschnitten wird die historische Entwicklung von Tabletop Inter
 \section{Historische Entwicklung von Tangible Interfaces} % (fold)
 \label{sec:entwicklung_tangible_interfaces}
 
+Erste Arbeiten: \citep{Wellner93a} \citep{Suzuki95}
+
 Der Begriff der Tangible bzw. Graspable Interfaces – also der "berührbaren" oder "begreifbaren" Benutzungsschnittstellen — stammt aus der Mitte der neunziger Jahre des zwanzigsten Jahrhunderts. \citet{Fitzmaurice95} werden im Allgemeinen als die ersten betrachtet, die den Begriff des "Graspable User Interfaces" prägen und damit die Manipulierbarkeit digitaler Information durch physische Mittel beschreiben. \citet{Fitzmaurice96} präzisiert später den Begriff durch die Abgrenzung zwischen (herkömmlichen, maus-, tastatur- und bildschirmbasierenden) zeitlich gemultiplexten Schnittstellen, bei denen der Informationsaustausch zwischen Benutzer und System über einen Kanal zeitlich hintereinander erfolgt und den (neuartigen, berührbaren) räumlich gemultiplexten Schnittstellen, bei denen mehrere Kanäle gleichzeitig zur Interaktion zwischen Benutzer und System verwendet werden können. 
 
 Der Begriff des "Tangible User Interfaces" (TUI) wurde kurz danach bzw. parallel dazu von \citet{Ishii97} eingeführt. \citeauthor{Ishii97} verfolgen dabei bei der Definition den umgekehrten Weg und sprechen von einer "Augmentation der realen Welt durch eine Kopplung von digitaler Information and physische Objekte"\footnote{\emph{“augment the real physical world by coupling digital information to everyday physical objects and environments”}\citep{Ishii97}}. 
@@ -37,9 +39,9 @@ Am Ende jeder Beschreibung sind in einer tabellarischen Zusammenfassung jeweils 
  \item[PD-Brücke] Aussagen, die der Beitrag zur Natur oder Ausgestaltung der Brücke zwischen physische und digitaler Welt macht
 \end{description}
 
-Wird in einem Beitrag keine Aussage zu einem oder mehreren dieser Themen gemacht, so ist dies expizit durch "---" angeführt.
+Wird in einem Beitrag keine Aussage zu einem oder mehreren dieser Themen gemacht, so ist dies explizit durch "---" angeführt.
 
-Die Ansätze, die in dieser Betrachtung berücksichtigt wurden, sind in der Reihenfolge der zeitlichen Entstehung angeordnet. Eine Beschreibung und Visualisierung der kausalen Zusammenhänge und Bezugnahmen erfolgt in der Zusammenfassung der Ergebnisse in Abschnitt \ref{sub:tui_konzepte_zusammenfassung}. Bei der Beschreibung der Arbeiten wird nicht auf sämtliche vorgestellten Aspekte eingegangen, sondern fokussiert jene Teile vorgestellt, die sich mit der Konzeptualisierung oder Klassifikation von Tangible User Interfaces beschäftigen. Die vorgestellten Ansätze sind im Einzelnen:
+Die Ansätze, die in dieser Betrachtung berücksichtigt wurden, sind in der Reihenfolge der zeitlichen Entstehung angeordnet. Eine Beschreibung und Visualisierung der kausalen Zusammenhänge und Bezugnahmen erfolgt in der Zusammenfassung der Ergebnisse in Abschnitt \ref{sub:tui_konzepte_zusammenfassung}. Bei der Beschreibung der Arbeiten wird nicht auf sämtliche vorgestellten Aspekte eingegangen, sondern fokussiert jene Teile vorgestellt, die sich mit der Konzeptualisierung oder Klassifikation von Tangible User Interfaces beschäftigen. Die berücksichtigten Ansätze sind im Einzelnen:
 
 %\begin{multicols} {2}
     \begin{itemize}
@@ -47,9 +49,9 @@ Die Ansätze, die in dieser Betrachtung berücksichtigt wurden, sind in der Reih
     	\item Graspable User Interfaces \citep{Fitzmaurice96}
     	\item Tangible Bits \citep{Ishii97}
     	\item Containers, Tokens und Tools \citep{Holmquist99}
-    	\item Embodied User Interfaces \citep{Fishkin98}
+		\item Tangible Object Meaning \citep{Underkoffler99}
     	\item Das MCRpd Interaktions-Modell \citep{Ullmer00}
-    	\item Tokens and Constraints \citep{Ullmer05}
+    	\item Tokens and Constraints \citep{Ullmer02}
     	\item Degree of Coherence \citep{Koleva03}
     	\item Tokens and Constraints zur Spezifikation \citep{Shaer04}
     	\item Kategorien von \gls{TUI}-Anwendungen \citep{Klemmer04}
@@ -62,7 +64,27 @@ Die Ansätze, die in dieser Betrachtung berücksichtigt wurden, sind in der Reih
 \subsection{Bricks} % (fold)
 \label{sub:bricks}
 
-\citep{Fitzmaurice95}
+Mit dem Bricks-System stellen \citet{Fitzmaurice95} das erste als „Graspable User Interface“ bezeichnete System vor. Das in dieser Arbeit vorgestellte System bildet die Grundlage für weitere Arbeiten der Autoren (z.B. \citep{Fitzmaurice96}), die in der Folge noch behandelt werden (siehe Abschnitt \ref{sub:graspable_user_interfaces}). 
+
+Konzeptuell spannen die Autoren am Ende der Arbeit einen „Design Space“ auf, der mögliche Eigenschaften und Parameter eines Tangible User Interfaces definiert und auch deren möglichen Ausprägungen festlegt. Dabei werden einerseits technische Aspekte des Interfaces abgedeckt, aber auch den Aufbau und der Verwendung des \gls{TUI} berücksichtigt. Die Ausprägungen sind dabei rein beschreibender Natur und werden nicht für eine wie auch immer geartete Bewertung oder Klassifikation genutzt. Das Klassifikationsschema ist stark auf auf Interfaces mit aktiv untereinander kommunizierenden Komponenten abgestellt, die zur Manipulation einer digitalen Anwendung verwendet werden und auf einer physischen Oberfläche bedient werden. Dies liegt in der Natur der von den Autoren entwickelten Anwendung und dem zum Zeitpunkt der Erstellung herrschenden Mangel an alternativen Systemen begründet.
+
+\begin{description}
+	\item[Brick's internal ability] Haben die physischen Elemente Mechanismen, die zur Darstellung oder Manipulation von Information benutzt werden können? Diese Mechanismen können physischer oder elektronischer Natur sein. (Mögliche Ausprägungen: „inert“ -- „simple expressions“ -- „smart“) 
+	\item[Input \& Output] Welche Eigenschafen der physischen Objekte werden zur Eingabe von Information erfasst bzw. zu Ausgabe verwendet? (Keine Ausprägungen, Aufzählung der Eigenschaften für Input und Output)
+	\item[Spatially aware] Kann ein Brick seine Umgebung und/oder andere Bricks wahrnehmen? (Mögliche Ausprägungen: „unaware“ -- „mutually aware“ -- „aware of surroundings“) 
+	\item[Communication] Wie kommunizieren Bricks untereinander bzw. ggf. mit einer Hintergrund-Infrastruktur (Mögliche Ausprägungen: „Wireless“ -- „Tethered“ -- „Grid board“)
+	\item[Interaction time span] Wie lange dauert eine Interaktion der Benutzer mit dem System bei der Erfüllung einer vorgegebenen Aufgabe? (Mögliche Ausprägungen: „quick (within seconds)“ -- „interaction cache (seconds - minutes)“ -- „long-term (days, months, years)“)
+	\item[Bricks in use at same time] Wieviele physische Elemente werden simultan verwendet? (Mögliche Ausprägungen (höhere Werte stehen für Größenordnung): „1“ -- „2“ -- „5-10“ -- „50-100“)
+	\item[Function assignment] Wie oft und mittels welchem Vorgehen wird Bricks Funktionalität zugeordnet? (Mögliche Ausprägungen: „permanent“ -- „programmable“ -- „transient“) 
+	\item[Interaction representations] Werden physische und virtuelle Objekte gleichzeitig verwendet um den Systemzustand darzustellen bzw. zu manipulieren? (Mögliche Ausprägungen: „all physical“ -- „mix, physical dominates“ -- „balanced mix“ -- „mix, virtual dominates“ -- „all virtual“)
+	\item[Physical \& Virtual layers] Werden physische und virtuelle Interaktions-Schichten separat oder kohärent dargestellt? (Mögliche Ausprägungen: „direct (superimposed)“ -- „indirect (separated)“)
+	\item[Bond between physical \& virtual layers] Wie stark sind die physischen mit den virtuellen Objekten gekoppelt? (Mögliche Ausprägungen: „tightly coupled (real time sync)“ -- „loosely coupled (batch sync)“)
+	\item[Operating granularity] Wie groß ist der Refenzrahmen für die Interaktion mit den physischen Elementen und wie genau werden die Positionen der Elemente aufgelöst? (Mögliche Ausprägungen: „Desktop (fractions of inches accuracy)“ -- „Room (inch accuracy)“ -- „Building (room accuracy)“)
+	\item[Operating surface type] Werden die physischen Elemente auf einer fix vorgegebenen, unveränderlichen Oberfläche verwendet oder kann sich die Oberfläche dynamisch verändern (z.B. Information anzeigen)? (Mögliche Ausprägungen: „static (e.g. paper)“ -- „dynamic (e.g. screen)“)
+	\item[Operating surface texture] Welche Auflösung oder Textur besitzt die Arbeitsoberfläche, auf der die physischen Elemente bewegt werden? (Mögliche Ausprägungen: „discrete (e.g. grid board)“ -- „continuous, smooth movement“)
+\end{description}
+
+Betrachtungsgegenstand ist bei diesem Ansatz das gesamte \gls{TUI}, auf die einzelnen Komponenten wird nicht separat eingegangen. Die physischen Elemente (hier „Bricks“) werden nicht im Detail betrachtet, sondern nur hinsichtlich ihrer Verwendung im Gesamtsystem und ihrer technischen Einbindung berücksichtigt.
 
 \begin{tabular}{| p{3cm} | p{10cm} |}
   \hline
@@ -77,7 +99,7 @@ Die Ansätze, die in dieser Betrachtung berücksichtigt wurden, sind in der Reih
 \subsection{Graspable User Interfaces} % (fold)
 \label{sub:graspable_user_interfaces}
 
-\citeauthor{Fitzmaurice96} legt in jener Arbeit, in der der Begriff des "Graspable User Inferfaces" erstmals ausführlich eingeführt wird \citep{Fitzmaurice96}, auch Eigenschaften fest, anhand deren sich die "Graspability" einer Benutzungsschnittstelle zeigt und beurteilen lässt. Diese Beurteilung erfolgt auf einer generischen Skala mit Ausprägungen von "niedrig" bis "hoch", wobei "hohe" Werte in mehreren Eigenschaften auf eher hohe "Graspability" hinweist. Die Eigenschaften beziehen sich auf Tangible User Interfaces, die lediglich Werkzeuge zur Manipulation von digitalen Daten besitzen, jedoch keine physische Repräsentation von Information aufweisen. Diese Einschränkung ist der historischen Entwicklung des Gebiets und den ersten Versuchen, GUI-Paradigmen in den physischen Raum zu übersetzten, geschuldet.
+\citeauthor{Fitzmaurice96} legt in jener Arbeit, in der der Begriff des "Graspable User Inferfaces" erstmals ausführlich eingeführt wird \citep{Fitzmaurice96}, auch Eigenschaften fest, anhand deren sich die "Graspability" einer Benutzungsschnittstelle zeigt und beurteilen lässt. Im wesentlichen handelt es sich bei diese Eigenschaften um einen auf die für die Beurteilung der „Graspability“ relevanten reduzierten Eigenschaften, die bereits in \citep{Fitzmaurice95} angeführt wurden (siehe Abschnitt \ref{sub:bricks}). Die Beurteilung erfolgt auf einer generischen Skala mit Ausprägungen von "niedrig" bis "hoch", wobei "hohe" Werte in mehreren Eigenschaften auf eher hohe "Graspability" hinweist. Die Eigenschaften beziehen sich auf Tangible User Interfaces, die lediglich Werkzeuge zur Manipulation von digitalen Daten besitzen, jedoch keine physische Repräsentation von Information aufweisen. Diese Einschränkung ist wiederum der historischen Entwicklung des Gebiets und den ersten Versuchen, GUI-Paradigmen in den physischen Raum zu übersetzten, geschuldet.
 
 \begin{description}
 	\item[Space-multiplexing] Ändern sich die Zuordnungen zwischen physischen Elementen und digitalen Funktionen über die Zeit oder exisitiert eine permanente Zuordnung? (Mögliche Ausprägungen: kontinuierlich von „transient, always reassign“ -- „permanent, never reassign“)
@@ -172,21 +194,6 @@ Die Anbindung von Information an ein Token oder einen Container kann ebenfalls e
   PD-Brücke & Zugriff auf an physische Elemente gebundene Information nur via Faucets, kein direkter Zugriff vorgesehen \\ \hline
 \end{tabular} 
 
-\subsection{Embodied User Interfaces} % (fold)
-\label{sub:embodied_user_interfaces}
-
-\citep{Fishkin98}\citep{Fishkin00}
-
-\begin{tabular}{| p{3cm} | p{10cm} |}
-  \hline
-  Kategorien & --- \\ \hline
-  Konzepte & --- \\ \hline
-  Eigenschaften & --- \\ \hline
-  PD-Brücke & --- \\ \hline
-\end{tabular} 
-
-% subsection embodied_user_interfaces (end)
-
 \subsection{Tangible Objects Meaning} % (fold)
 \label{sub:tangible_objects_meaning}
 
@@ -194,7 +201,7 @@ Im Rahmen der Entwicklung einer „Interactive Surface“ zur Stadtplanung („U
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=12cm]{img/ImplementierungUeberblick/ObjectMeaning.png}
-	\caption[Bedeutung von Objekten in TUIs]{Bedeutung von Objekten in TUIs (adaptiert übernommen aus \citet{Underkoffler99})}
+	\caption[Bedeutung von Objekten in TUIs]{Bedeutung von Objekten in TUIs (adaptiert übernommen aus \citep{Underkoffler99})}
 	\label{fig:img_ImplementierungUeberblick_ObjectMeaning}
 \end{figure}
 
@@ -340,16 +347,29 @@ Zur Spezifikation eines Tangible User Interfaces werden nun diese Konzepte zur A
 
 % subsection tokens_und_constraints_nach_shaer_et_al_ (end)
 
-\subsection{Einteilung nach Klemmer, Li, Lin und Landay}
-\citep{Klemmer04}
+\subsection{Kategorien von TUI-Anwendungen} % (fold)
+\label{sub:kategorien_von_tui_anwendungen}
+
+Auf Basis einer umfassenden Literaturrecherche im Bereich von interaktiven Systemen, bei denen physische Objekte zur Interaktion und Informationseingabe benutzt werden, identifizieren \citet{Klemmer04} vier Kategorien von Ansätzen, die bei der Umsetzung eines \gls{TUI} verfolgt werden können. 
+
+\begin{description}
+	\item[Spatial Applications] Applikationen, bei denen die Interaktion auf einer beliebigen Oberfläche (Wände, Tische, Whiteboard, \ldots) abgewickelt wird und Information über diese Oberfläche dargestellt und manipuliert werden kann. Dazu gehören auch Systeme, die ohne physische Elemente (neben der Oberfläche) arbeiten.
+	\item[Topological Applications] Applikationen, bei denen die Kontrolle des Systems über die Herstellung von Beziehungen zwischen physischen Objekten durchgeführt wird.
+	\item[Associative Applications] Applikationen, bei denen physische Objekte als Referenz auf digitale Information fungieren und diese durch Interaktion mit einer Hintergrund-Infrastruktur abgerufen werden kann.
+	\item[Forms] Applikationen, bei denen papierbasierte Interaktionen zu einem bestimmten Zeitpunkt (nicht kontinuierlich) in die digitale Welt übernommen werden (z.B. durch Scannen und \gls{OCR}-Verarbeitung).
+\end{description}
+
+Die Autoren gehen nicht weiter ins Detail und verzichten auf eine Betrachtung der unterschiedlichen Eigenschaften des Systems. Sie geben lediglich an, dass die meisten der betrachteten Applikationen Gemeinsamkeiten über die Grenzen der Applikationskategorien hinweg. Dies umfasst die Tatsache, dass das vorherrschende Systemdesign die Verbindung zwischen physikalischer (tangibler) Eingabe und graphischer Ausgabe ist. Die graphische Ausgabe erfolgt dabei entweder kohärent mit der Eingabe (auf der gleichen Oberfläche), auf einem separaten Bildschirm, der sich aber nahe dem Eingabemedium befindet oder entfernt auf von den eingebenden Benutzern nicht unmittelbar zugreifbaren Ausgabemedien. Interfaces, die die Ausgabe auf andere Arten (z.B. haptisch) gestalten, werden von den Autoren explizit vernachlässigt, da sie für die eigene Forschung keine Relevanz haben.
 
 \begin{tabular}{| p{3cm} | p{10cm} |}
   \hline
-  Kategorien & --- \\ \hline
+  Kategorien & Spatial, Topological, Associative, Forms \\ \hline
   Konzepte & --- \\ \hline
   Eigenschaften & --- \\ \hline
   PD-Brücke & --- \\ \hline
 \end{tabular} 
+
+% subsection kategorien_von_tui_anwendungen (end)
 
 \subsection{Taxonomie nach Fishkin}
 \label{sub:taxonomie_fishkin}
@@ -378,8 +398,7 @@ Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf 
  \item[Verb] Eine Zuordung zu dieser Kategorie erfolgt, wenn die Interaktion mit einem Objekt eine reale Entsprechung hat, dieses jedoch selbst keine Analogie zur realen Welt bildet. Diese Ausprägung tritt bei \glspl{TUI} unter anderem bei Gestensteuerung von Systemen auf.
  \item[Noun and Verb] Hier hat das betreffende Objekt selbst eine Entsprechung in der realen Welt und auch dessen Verwendung ist analog zu jener der realen Entsprechung. Die Objekte sind dennoch nach wie vor unterschiedlich, das reale Objekt kann nicht im Tangible Interface eingesetzt werden, umgekehrt bietet das \gls{TUI}-Objekt nicht die reale Funktionalität des realen Objektes. 
  \item[Full] In der höchsten Ausprägung existiert kein Unterschied zwischen \gls{TUI}-Objekt und realem Objekt - es gibt keine Analogie mehr, weil die Objekte identisch sind. Dieser Zustand ist erreicht, wenn Benutzer das TUI-Objekt manipulieren und sich die reale Welt entsprechend verändert. Beispiele für Systeme auf dieser Stufe sind zum Beispiel digital augmentierte Whiteboards, wo mit elektronischen Markern auf eine Oberfläche "geschrieben" wird, wobei die hinterlassene "Tinte" simultan projiziert wird.
- 
- \end{description}
+\end{description}
 
 \subsubsection{Anwendung der Taxonomie}
 \citeauthor{Fishkin04} wendet seine Taxonomie auf die oben bereits beschriebenen Ansätze von \citep{Holmquist99} und \citep{Underkoffler99} an und zeigt, dass sich diese einordnen lassen. Er ordnet nach einer umfassenden Literaturstudie außerdem über 60 konkrete Tangible Interfaces in seine Taxonomie ein und stellt diese anhand deren Ausprägungen gegenüber. Ein offener Punkt ist die Verbindung zum \gls{MCRpd}-Framework \citep{Ullmer00}, dass \citeauthor{Fishkin04} als komplementär bezeichnet und das auf einer anderen Abstraktionsstufe operiere. 
@@ -409,6 +428,17 @@ Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf 
 -- Grafik mit den Zusammenhängen und Bezugnahmen zwischen den einzelnen Arbeiten --
 
 Ansätze, die in der Folge zur Beurteilung des konkreten Systems herangezogen werden.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Gegenüberstellung der Nomenklatur zur Beschreibung der Elemente eines TUI}
+	\begin{tabular}{| p{3cm} || p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |} \hline
+		Ansatz & physisches Objekt & physisches Objekt zur Daten\-repräsentation & physisches Werkzeug & physische Beschränkung des Interaktionsraums & digitale Objekte \\ \hline \hline
+		Bricks & --- & --- & Brick & --- \\ \hline
+		Token
+	\end{tabular}
+	\label{tab:tui_nomenklatur}
+\end{table}
 
 % subsection tui_konzepte_zusammenfassung (end)
 
