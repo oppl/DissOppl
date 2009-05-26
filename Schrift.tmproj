@@ -70,7 +70,9 @@
 					<key>filename</key>
 					<string>ImplementierungUeberblick.tex</string>
 					<key>lastUsed</key>
-					<date>2009-05-25T22:39:56Z</date>
+					<date>2009-05-26T16:24:57Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -115,7 +117,7 @@
 					<key>filename</key>
 					<string>KonzeptuelleEvaluierung.tex</string>
 					<key>lastUsed</key>
-					<date>2009-05-25T21:45:06Z</date>
+					<date>2009-05-26T16:24:57Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -150,7 +152,7 @@
 					<key>filename</key>
 					<string>Acronyme.tex</string>
 					<key>lastUsed</key>
-					<date>2009-05-25T13:41:04Z</date>
+					<date>2009-05-26T14:39:35Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -186,14 +188,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>30</integer>
+				<integer>54</integer>
 				<key>line</key>
-				<integer>138</integer>
+				<integer>126</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>98</integer>
+			<integer>97</integer>
 		</dict>
 		<key>Bildquellen.tex</key>
 		<dict>
@@ -256,28 +258,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>26</integer>
 				<key>line</key>
-				<integer>511</integer>
+				<integer>535</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>481</integer>
+			<integer>528</integer>
 		</dict>
 		<key>KonzeptuelleEvaluierung.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>3</integer>
+				<integer>66</integer>
 				<key>line</key>
-				<integer>302</integer>
+				<integer>233</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>287</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Schrift.tex</key>
 		<dict>
@@ -335,6 +337,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{419, 105}, {888, 773}}</string>
+	<string>{{210, 67}, {1070, 935}}</string>
 </dict>
 </plist>

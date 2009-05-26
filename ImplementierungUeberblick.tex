@@ -90,7 +90,7 @@ Betrachtungsgegenstand ist bei diesem Ansatz das gesamte \gls{TUI}, auf die einz
 \begin{tabular}{| p{3cm} | p{10cm} |}
   \hline
   Kategorien & --- \\ \hline
-  Konzepte & --- \\ \hline
+  Konzepte & Brick \\ \hline
   Eigenschaften & \emph{Gesamtsystem}: Brick's internal ability, Input \& Output, Spatially aware, Communication, Interaction time span, Bricks in use at same time, Function assignment, Interaction representations, Physical \& virtual layers, Bond between physical \& virtual layers, Operating granularity, Operating surface type, Operating surface texture \\ \hline
   PD-Brücke & --- \\ \hline
 \end{tabular} 
@@ -103,7 +103,7 @@ Betrachtungsgegenstand ist bei diesem Ansatz das gesamte \gls{TUI}, auf die einz
 \citeauthor{Fitzmaurice96} legt in jener Arbeit, in der der Begriff des "Graspable User Inferfaces" erstmals ausführlich eingeführt wird \citep{Fitzmaurice96}, auch Eigenschaften fest, anhand deren sich die "Graspability" einer Benutzungsschnittstelle zeigt und beurteilen lässt. Im wesentlichen handelt es sich bei diese Eigenschaften um einen auf die für die Beurteilung der „Graspability“ relevanten reduzierten Eigenschaften, die bereits in \citep{Fitzmaurice95} angeführt wurden (siehe Abschnitt \ref{sub:bricks}). Die Beurteilung erfolgt auf einer generischen Skala mit Ausprägungen von "niedrig" bis "hoch", wobei "hohe" Werte in mehreren Eigenschaften auf eher hohe "Graspability" hinweist. Die Eigenschaften beziehen sich auf Tangible User Interfaces, die lediglich Werkzeuge zur Manipulation von digitalen Daten besitzen, jedoch keine physische Repräsentation von Information aufweisen. Diese Einschränkung ist wiederum der historischen Entwicklung des Gebiets und den ersten Versuchen, GUI-Paradigmen in den physischen Raum zu übersetzten, geschuldet.
 
 \begin{description}
-	\item[Space-multiplexing] Ändern sich die Zuordnungen zwischen physischen Elementen und digitalen Funktionen über die Zeit oder exisitiert eine permanente Zuordnung? (Mögliche Ausprägungen: kontinuierlich von „transient, always reassign“ -- „permanent, never reassign“)
+	\item[Space-multiplexing] Ändern sich die Zuordnungen zwischen physischen Elementen und digitalen Funktionen über die Zeit oder existiert eine permanente Zuordnung? (Mögliche Ausprägungen: kontinuierlich von „transient, always reassign“ -- „permanent, never reassign“)
 	\item[Concurrency] Ist die gleichzeitige Ausführung mehrere Operationen mit mehreren physischen Elementen (abhängig oder unabhängig voneinander) möglich und vorgesehen? (Mögliche Ausprägungen: „1“ -- „occasionally 2“ -- „2“ -- „3“ -- „more than 3“)
 	\item[Physical form] Lässt sich aus der physischen Form auf die ausgeführte Funktion schließen oder sind die Werkzeuge generisch für unterschiedliche Funktionen verwendbar? (Mögliche Ausprägungen: „generic“ -- „specific“) 
 	\item[Spatially aware] Erfasst und berücksichtigt das System die Positionen, Orientierung und/oder Nähe der physischen Objekte bei der Interpretation der Interaktion? (Mögliche Ausprägungen: „unaware“ -- „aware“)
@@ -466,7 +466,7 @@ Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf 
   Kategorien & --- \\ \hline
   Konzepte & --- \\ \hline
   Eigenschaften & \emph{Embodiment}: full, nearby, environmental, distant, \emph{Metaphor}: none, noun, verb, noun and verb, full\\ \hline
-  PD-Brücke & wird in Struktur und Verhalten durch die Ausprägungen auf den beiden Dimensionen der Taxonomie charakterisiert (kann für die einzelenen Teile eines Systems unterschiedlich sein)  \\ \hline
+  PD-Brücke & wird in Struktur und Verhalten durch die Ausprägungen auf den beiden Dimensionen der Taxonomie charakterisiert (kann für die einzelnen Teile eines Systems unterschiedlich sein)  \\ \hline
 \end{tabular} 
 
 % subsection taxonomie_fishkin (end)
@@ -528,20 +528,51 @@ Im seinen Schlussbetrachtungen führt \citeauthor{Ishii08} die größten Mängel
 \subsection{Zusammenfassung} % (fold)
 \label{sub:tui_konzepte_zusammenfassung}
 
--- Grafik mit den Zusammenhängen und Bezugnahmen zwischen den einzelnen Arbeiten --
+Die in den vorhergehenden Abschnitten betrachteten Arbeiten sind in Ansatz, Ausgangspunkt und Vorgehensweise höchst unterschiedlich, ihnen ist jedoch gemein, dass sie sich mit der Konzeptualisierung von Tangible User Interfaces beschäftigen. Die Arbeit können dabei entlang zweier Dimensionen nach Ziel und Betrachtungsgegenstand klassifiziert werden. Hinsichtlich der Zielsetzung sind Arbeiten, die auf die Spezifikation eines \gls{TUI} ausgerichtet sind von solchen zu unterscheiden, die auf die Analyse existierender Systeme ausgelegt wurden (im Sinne von detailliert angegebenen Merkmalen, die ein System aufweisen muss, um eine bestimmte Eigenschaft zu haben). Als dritte Ausprägung sind noch Ansätze zu identifzieren, die eine Einordnung in einen Referenzrahmen ermöglich sollen ohne die Eigenschaften des Hinsichtlich des \gls{TUI} im Detail zu betrachten. Betrachtungsgegenstandes sind unterschiedliche Detaillierungsgrade zu erkennen, wobei hier die beiden Ausprägungen "Gesamtsystem" und "einzelne physische Elemente" als Extremwerte zur Klassifikation herangezogen werden. Hinsichtlich des Betrachtungsgegenstandes ist noch zu unterscheiden, ob sich die Arbeit auf die Struktur des \gls{TUI} konzentriert oder sich darüber hinaus auch explizit mit dessen Verwendung beschäftigt. Ansätze der zweiten Art werden in der Tabelle kursiv gesetzt. Jeder Ansatz verfolgt über diese Einordnung hinaus noch spezifische Zielsetzungen, die der Übersicht wegen in dieser ersten Einordnung nicht angegeben werden. 
 
-Ansätze, die in der Folge zur Beurteilung des konkreten Systems herangezogen werden.
+Die Einordnung in die Kategorien (siehe Tabelle \ref{tab:tui_konzeptkategorien}) erfolgt aufgrund der von den jeweiligen Autoren in den Artikeln explizit genannten Zielsetzungen oder -- wenn diese nicht vorhanden oder aussagekräftig sind -- aufgrund der von Autoren gewählten Schwerpunktsetzungen und unter Berücksichtiung des jeweiligen Gesamtzusammenhangs (übergeordnetes Forschungsvorhaben). Ansätze, die zu mehreren Kategorien Beiträge liefern, werden in allen betreffenden Feldern angeführt.
 
 \begin{table}[htbp]
 	\centering
-	\caption{Gegenüberstellung der Nomenklatur zur Beschreibung der Elemente eines TUI}
-	\begin{tabular}{| p{3cm} || p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |} \hline
-		Ansatz & physisches Objekt & physisches Objekt zur Daten\-repräsentation & physisches Werkzeug & physische Beschränkung des Interaktionsraums & digitale Objekte \\ \hline \hline
-		Bricks & --- & --- & Brick & --- \\ \hline
-		Token
+	\caption{Kategorien von konzeptuellen Arbeiten im Gebiet Tangible User Interfaces}
+	\begin{tabular}{| p{3cm} || p{7cm} | p{7cm} |} \hline
+		 & Gesamtsystem & einzelne physische Elemente \\ \hline \hline
+		Spezifikation & Bricks; MCRpd-Interaktions-Modell; Tangible Bits: Beyond Pixels & Containers, Tokens und Tools, Tokens+Constraints, \emph{Tokens and Constraints nach Shaer et al.}\\ \hline
+		Analyse & Graspable User Interfaces & \emph{Taxonomie nach Fishkin} \\ \hline
+		Einordnung & Tangible Bits; Tokens+Constraints; Kategorien von TUI Anwendungen; Tangible Bits: Beyond Pixels & Tangible Objects Meaning; Degree of Coherence \\ \hline
 	\end{tabular}
-	\label{tab:tui_nomenklatur}
+	\label{tab:tui_konzeptkategorien}
 \end{table}
+
+In dieser Aufstellung ist zu erkennen, dass eine Großteil der Ansätze nicht auf den  Interaktionsaspekt des Anwendungsfalls eingeht, für den das betrachtete \gls{TUI} konzipiert ist, sondern sich auf die sturkturellen Aspekte des Systems beschränkt.  
+
+Den umfassendsten Ansatz zur Spezifikation bietet die Arbeit "Tokens and Constraints" von \citep{Shaer04}, der aufbauend auf der Arbeit von \citet{Ullmer02} einen modifizierten Token+Constraints-Ansatz vorstellt, der sich durch ein breiteres Verständnis des Constraint-Begriffs für die allgemeine Spezifikation der Struktur eines TUI eignet und zusätzlich ein Schema zur Verfügung stellt, in dem basierend auf der Struktur das Verhalten des Systems spezifiziert werden kann.
+
+Zur detaillierten Analyse eines \gls{TUI} bietet sich die Taxonomie von \citet{Fishkin04} an, der in seiner Arbeit in zwei Dimensionen sowohl die Betrachtung der Struktur als auch der Verwendung der Objekte eines \gls{TUI} in den spezifizierten Interaktionsabläufen erlaubt.
+
+Hinsichtlich der Bezeichnung der Elemente eines \gls{TUI} existiert keine einheitliche Nomenklatur, die konsistent über mehrere Arbeiten hinweg verwendet werden würde. Tabelle \label{tab:tui_nomenklatur} gibt eine Übersicht über die für die einzelnen konzeptuellen Elemente verwendeten Begriffe.
+
+\begin{longtable}{| p{1,9cm} || p{1,8cm} | p{2,4cm} | p{2,4cm} | p{1,8cm} | p{1,8cm} |} 
+	\caption{Gegenüberstellung der Nomenklatur zur Beschreibung der Elemente eines TUI} 	\label{tab:tui_nomenklatur} \\
+	\hline
+	Ansatz & physisches Objekt & physisches Objekt zur Informations\-repräsentation & physisches Werkzeug zur Informations\-manipulation & physische Beschränkung des Interaktionsraums & digitale Objekte \\ \hline \hline
+	Bricks & --- & --- & Brick & --- & --- \\ \hline
+	Graspable User Interfaces & --- & --- & --- & --- & --- \\ \hline
+	Tangible Bits & --- & Phicon & Phandle (Informationsmanipulation), Instrument (Systemsteuerung) & Tray & --- \\ \hline
+	Containers, Tokens und Tools & --- & Container (unspezifische Form), Token (spezifische Form) & Tool & --- & --- \\ \hline
+	Tangible Objects Meaning & Object & Object as pure object (unspezifische Form), Object as attribute (teilspezifisch), Object as noun (spezifische Form) & Object as verb (fix gebundene Funktionalität), Object as reconfigurable tool (konfigurierbare Funktionalität) & --- & --- \\ \hline
+	MCRpd Interaktions-Modell & Representation & Rep-P & Control & --- & Model, Rep-D (Manifestation)\\ \hline
+	Tokens+Constraints & --- & Tokens & Tokens+Constraints & Constraints & --- \\ \hline
+	Degree of Coherence & --- & Identifier (unspezifische Form), Proxy (von hier an: spezifische Form, Enge der Bindung ansteigend), Projection, Illusion of same objects & General purpose tools (konfigurierbare Funktionalität), Specialized tools (fix gebundene Funktionalität) & --- & --- \\ \hline
+	TAC & Pyfo & Token & Token & Constraint & Variable \\ \hline
+	Kategorien von TUI-Anwendungen & --- & --- & --- & --- & --- \\ \hline
+	Taxonomie nach Fishkin & --- & --- & --- & --- & --- & --- \\ \hline
+	Tangible Bits: Beyond Pixels & Representation & tangible Representation & Control & --- & digital information, intangible representation (Manifestation) \\ \hline
+\end{longtable}
+
+Diese Arbeit folgt in der Bezeichnung der physischen Elemente dem TAC-Ansatz von \citep{Shaer04} und verwendet generell der Begriff des \emph{"Tokens"}. Zur Abgrenzung wird, wo nötig, von Modellierungstokens (jene Tokens, die Information repräsentieren) und Werkzeugtokens (jene Tokens, die Funktionlität auslösen) unterschieden. Der digitale Aspekt eines \gls{TUI} wird selten explizit benannt, der von \citep{Shaer04} gewählte Begriff der "Variable" erscheint im Kontext der Repräsentation von Modellen aber als zu spezifisch bzw. unpassend. Deshalb wird im Allgemeinen nach \citep{Ishii08} von \emph{"digitaler Information"} gesprochen, wenn explizit auf die digitale Repräsentation des Modells Bezug genommen wird, wird der Begriff \emph{"Modell-Elemente"} verwendet. Eine weitere Ausdifferenzierung der Nomenklatur zur Bezeichnung von anwendungsspezifischen Eigenschaften des hier vorgestellten Werkzeugs erfolgt im Rahmen der folgenden Kapitel.
+
+Die hier vorgestellten Ansätze werden nach der Beschreibung des Werkzeugs in Kapitel \ref{cha:konzeptuelle_evaluierung} wieder aufgegriffen und auf das hier entwickelte System angewandt. Damit werden zwei Ziele verfolgt. Einerseits soll die praktische Anwendbarkeit der Ansätze und deren Verwendbarkeit für ein konkretes, im Vergleich zu den in den Artikeln vorgestellten Beispielen komplexes und flexibles System überprüft werden. Andererseits soll versucht werden, aus der theoretisch-konzeptuellen Betrachtung des Werkzeugs Inkonsistenzen im Design zu erkennen und potentiell verbesserungswürdige Aspekte des Werkzeugs zu identifizieren. Eine Gegenüberstellung mit den Ergebnissen der praktischen Evaluierung erlaubt in der Folge auch die Überprüfung des Aussagekraft derartiger auf theoretischen Konzepten basierenden Betrachtungen bzw. Spezifikationen.
 
 % subsection tui_konzepte_zusammenfassung (end)
 

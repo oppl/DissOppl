@@ -106,3 +106,6 @@ mktextfm
 mktextfm 
 mktextfm 
 mktextfm 
+mktextfm Courier/B
+mktextfm Courier/I
+mktextfm Courier/BI

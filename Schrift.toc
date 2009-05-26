@@ -68,11 +68,11 @@
 \contentsline {subsubsection}{Anwendung der Taxonomie}{53}{section*.23}
 \contentsline {subsection}{\numberline {7.2.12}Tangible Bits: Beyond Pixels}{53}{subsection.7.2.12}
 \contentsline {subsection}{\numberline {7.2.13}Zusammenfassung}{57}{subsection.7.2.13}
-\contentsline {section}{\numberline {7.3}Tangible Interfaces in kooperativer Verwendung}{58}{section.7.3}
-\contentsline {section}{\numberline {7.4}Tabletop Interfaces}{58}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Historische Entwicklung}{58}{subsection.7.4.1}
-\contentsline {subsubsection}{Sensetable}{58}{section*.24}
-\contentsline {subsubsection}{BUILD-IT}{58}{section*.25}
+\contentsline {section}{\numberline {7.3}Tangible Interfaces in kooperativer Verwendung}{59}{section.7.3}
+\contentsline {section}{\numberline {7.4}Tabletop Interfaces}{59}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Historische Entwicklung}{59}{subsection.7.4.1}
+\contentsline {subsubsection}{Sensetable}{59}{section*.24}
+\contentsline {subsubsection}{BUILD-IT}{59}{section*.25}
 \contentsline {section}{\numberline {7.5}Tangible Interfaces zur Modellbildung}{59}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}Aktuelle verwandte Ansätze}{59}{subsection.7.5.1}
 \contentsline {chapter}{\numberline {8}Eingabe und Interpretation}{61}{chapter.8}
