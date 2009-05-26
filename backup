@@ -1,2 +1,2 @@
-tar -cz * --exclude=.bzr --exclude=Drafts | gpg -e -r oppl -o Schrift-`date +%d-%m-%y`.tar.gz.gpg
+tar --exclude=".*" -czv *.tex img | gpg -e -v -r oppl -o ../../Dropbox/DissBackup/Schrift-`date +%d-%m-%y`.tar.gz.gpg
 
