@@ -70,7 +70,7 @@
 					<key>filename</key>
 					<string>ImplementierungUeberblick.tex</string>
 					<key>lastUsed</key>
-					<date>2009-05-26T16:24:57Z</date>
+					<date>2009-05-27T11:48:25Z</date>
 					<key>selected</key>
 					<true/>
 				</dict>
@@ -117,7 +117,7 @@
 					<key>filename</key>
 					<string>KonzeptuelleEvaluierung.tex</string>
 					<key>lastUsed</key>
-					<date>2009-05-26T16:24:57Z</date>
+					<date>2009-05-27T11:48:25Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -258,28 +258,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>35</integer>
 				<key>line</key>
-				<integer>535</integer>
+				<integer>539</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>528</integer>
+			<integer>520</integer>
 		</dict>
 		<key>KonzeptuelleEvaluierung.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>66</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>233</integer>
+				<integer>371</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>94</integer>
 			<key>firstVisibleLine</key>
-			<integer>2</integer>
+			<integer>361</integer>
 		</dict>
 		<key>Schrift.tex</key>
 		<dict>
@@ -337,6 +337,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{210, 67}, {1070, 935}}</string>
+	<string>{{209, 67}, {1070, 811}}</string>
 </dict>
 </plist>

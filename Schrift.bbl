@@ -25,6 +25,15 @@ Beer, W., Christian, V., Ferscha, A., und Mehrmann, L. (2003).
   Distributed Computing (EUROPAR '03)}, volume 2790 of {\em LNCS}, Seiten
   1064--1073. Springer.
 
+\bibitem[Bellotti et~al., 2002]{Bellotti02}
+Bellotti, V., Back, M., Edwards, W., Grinter, R., Henderson, A., und Lopes, C.
+  (2002).
+\newblock {Making sense of sensing systems: five questions for designers and
+  researchers}.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems: Changing our world, changing ourselves}, Seiten 415--422.
+  ACM New York, NY, USA.
+
 \bibitem[Bloks, 1996]{Bloks96}
 Bloks, R. H.~J. (1996).
 \newblock {The IEEE-1394 high speed serial bus}.
@@ -394,6 +403,13 @@ Rath, H. (2003).
 {Red Hat Middleware} (2007).
 \newblock {Hibernate Reference Documentation}.
 \newblock Reference documentation, {Red Hat Middleware}.
+
+\bibitem[Resnick et~al., 1998]{Resnick98}
+Resnick, M., Martin, F., Berg, R., Borovoy, R., Colella, V., Kramer, K., und
+  Silverman, B. (1998).
+\newblock {Digital manipulatives: new toys to think with}.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, Seiten 281--287, New York, NY, USA. ACM Press.
 
 \bibitem[Rohs, 2005]{Rohs05}
 Rohs, M. (2005).

@@ -8,44 +8,44 @@ A level-1 auxiliary file: Evaluierung.aux
 A level-1 auxiliary file: Schlussbetrachtungen.aux
 A level-1 auxiliary file: Bildquellen.aux
 Database file #1: /Users/oppl/Documents/Dokumente/Literatur/Archiv.bib
-You've used 98 entries,
+You've used 100 entries,
             1935 wiz_defined-function locations,
-            1097 strings with 18732 characters,
-and the built_in function-call counts, 37037 in all, are:
-= -- 3683
-> -- 1311
-< -- 104
-+ -- 441
-- -- 421
-* -- 2794
-:= -- 6417
-add.period$ -- 317
-call.type$ -- 98
-change.case$ -- 678
-chr.to.int$ -- 98
-cite$ -- 98
-duplicate$ -- 1621
-empty$ -- 2702
-format.name$ -- 565
-if$ -- 7488
+            1109 strings with 19297 characters,
+and the built_in function-call counts, 38372 in all, are:
+= -- 3818
+> -- 1382
+< -- 106
++ -- 467
+- -- 447
+* -- 2903
+:= -- 6626
+add.period$ -- 325
+call.type$ -- 100
+change.case$ -- 701
+chr.to.int$ -- 100
+cite$ -- 100
+duplicate$ -- 1675
+empty$ -- 2786
+format.name$ -- 593
+if$ -- 7770
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 89
-newline$ -- 493
-num.names$ -- 304
-pop$ -- 694
+missing$ -- 91
+newline$ -- 503
+num.names$ -- 310
+pop$ -- 722
 preamble$ -- 1
-purify$ -- 695
+purify$ -- 718
 quote$ -- 0
-skip$ -- 1217
+skip$ -- 1259
 stack$ -- 0
-substring$ -- 2257
-swap$ -- 287
-text.length$ -- 33
+substring$ -- 2345
+swap$ -- 307
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 552
+type$ -- 564
 warning$ -- 0
-while$ -- 288
+while$ -- 298
 width$ -- 0
-write$ -- 1290
+write$ -- 1319

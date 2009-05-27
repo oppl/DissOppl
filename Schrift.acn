@@ -34,7 +34,7 @@
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{43}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{44}
 \glossaryentry{GUI?\glossaryentryfield{GUI}{\glsnamefont{\acronymfont {GUI}}}{Graphical User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{45}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{45}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{46}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{46}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{48}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{48}
@@ -75,109 +75,118 @@
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{57}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{57}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{57}
-\glossaryentry{RFID?\glossaryentryfield{RFID}{\glsnamefont{\acronymfont {RFID}}}{Radio Frequency Identification}{\relax }|setentrycounter{page}\glsnumberformat}{64}
-\glossaryentry{RFID?\glossaryentryfield{RFID}{\glsnamefont{\acronymfont {RFID}}}{Radio Frequency Identification}{\relax }|setentrycounter{page}\glsnumberformat}{64}
-\glossaryentry{RFID?\glossaryentryfield{RFID}{\glsnamefont{\acronymfont {RFID}}}{Radio Frequency Identification}{\relax }|setentrycounter{page}\glsnumberformat}{68}
-\glossaryentry{GPS?\glossaryentryfield{GPS}{\glsnamefont{\acronymfont {GPS}}}{Global Positioning System}{\relax }|setentrycounter{page}\glsnumberformat}{73}
-\glossaryentry{GPS?\glossaryentryfield{GPS}{\glsnamefont{\acronymfont {GPS}}}{Global Positioning System}{\relax }|setentrycounter{page}\glsnumberformat}{73}
-\glossaryentry{RMI?\glossaryentryfield{RMI}{\glsnamefont{\acronymfont {RMI}}}{Remote Methode Invocation}{\relax }|setentrycounter{page}\glsnumberformat}{82}
-\glossaryentry{RMI?\glossaryentryfield{RMI}{\glsnamefont{\acronymfont {RMI}}}{Remote Methode Invocation}{\relax }|setentrycounter{page}\glsnumberformat}{82}
-\glossaryentry{LCD?\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }|setentrycounter{page}\glsnumberformat}{129}
-\glossaryentry{LCD?\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }|setentrycounter{page}\glsnumberformat}{129}
-\glossaryentry{LCD?\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }|setentrycounter{page}\glsnumberformat}{130}
-\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{131}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{58}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{58}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{58}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{58}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{59}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{59}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{59}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{61}
+\glossaryentry{RFID?\glossaryentryfield{RFID}{\glsnamefont{\acronymfont {RFID}}}{Radio Frequency Identification}{\relax }|setentrycounter{page}\glsnumberformat}{66}
+\glossaryentry{RFID?\glossaryentryfield{RFID}{\glsnamefont{\acronymfont {RFID}}}{Radio Frequency Identification}{\relax }|setentrycounter{page}\glsnumberformat}{66}
+\glossaryentry{RFID?\glossaryentryfield{RFID}{\glsnamefont{\acronymfont {RFID}}}{Radio Frequency Identification}{\relax }|setentrycounter{page}\glsnumberformat}{70}
+\glossaryentry{GPS?\glossaryentryfield{GPS}{\glsnamefont{\acronymfont {GPS}}}{Global Positioning System}{\relax }|setentrycounter{page}\glsnumberformat}{75}
+\glossaryentry{GPS?\glossaryentryfield{GPS}{\glsnamefont{\acronymfont {GPS}}}{Global Positioning System}{\relax }|setentrycounter{page}\glsnumberformat}{75}
+\glossaryentry{RMI?\glossaryentryfield{RMI}{\glsnamefont{\acronymfont {RMI}}}{Remote Methode Invocation}{\relax }|setentrycounter{page}\glsnumberformat}{84}
+\glossaryentry{RMI?\glossaryentryfield{RMI}{\glsnamefont{\acronymfont {RMI}}}{Remote Methode Invocation}{\relax }|setentrycounter{page}\glsnumberformat}{84}
 \glossaryentry{LCD?\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{131}
-\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{131}
+\glossaryentry{LCD?\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }|setentrycounter{page}\glsnumberformat}{131}
+\glossaryentry{LCD?\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }|setentrycounter{page}\glsnumberformat}{132}
+\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{133}
 \glossaryentry{LCD?\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }|setentrycounter{page}\glsnumberformat}{133}
-\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{EMF?\glossaryentryfield{EMF}{\glsnamefont{\acronymfont {EMF}}}{Eclipse Modeling Framework}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{GMF?\glossaryentryfield{GMF}{\glsnamefont{\acronymfont {GMF}}}{Graphical Modeling Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{MVC?\glossaryentryfield{MVC}{\glsnamefont{\acronymfont {MVC}}}{Model-View-Controller}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{EMF?\glossaryentryfield{EMF}{\glsnamefont{\acronymfont {EMF}}}{Eclipse Modeling Framework}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{GMF?\glossaryentryfield{GMF}{\glsnamefont{\acronymfont {GMF}}}{Graphical Modeling Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{137}
-\glossaryentry{JRE?\glossaryentryfield{JRE}{\glsnamefont{\acronymfont {JRE}}}{Java Runtime Environment}{\relax }|setentrycounter{page}\glsnumberformat}{138}
-\glossaryentry{JRE?\glossaryentryfield{JRE}{\glsnamefont{\acronymfont {JRE}}}{Java Runtime Environment}{\relax }|setentrycounter{page}\glsnumberformat}{138}
-\glossaryentry{HTTP?\glossaryentryfield{HTTP}{\glsnamefont{\acronymfont {HTTP}}}{Hypertext Transfer Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{138}
-\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{138}
-\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{138}
-\glossaryentry{JRE?\glossaryentryfield{JRE}{\glsnamefont{\acronymfont {JRE}}}{Java Runtime Environment}{\relax }|setentrycounter{page}\glsnumberformat}{138}
-\glossaryentry{HTTP?\glossaryentryfield{HTTP}{\glsnamefont{\acronymfont {HTTP}}}{Hypertext Transfer Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{138}
-\glossaryentry{TCP?\glossaryentryfield{TCP}{\glsnamefont{\acronymfont {TCP}}}{Transport Control Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{142}
-\glossaryentry{IP?\glossaryentryfield{IP}{\glsnamefont{\acronymfont {IP}}}{Internet Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{142}
-\glossaryentry{TCP?\glossaryentryfield{TCP}{\glsnamefont{\acronymfont {TCP}}}{Transport Control Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{142}
-\glossaryentry{IP?\glossaryentryfield{IP}{\glsnamefont{\acronymfont {IP}}}{Internet Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{142}
-\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{159}
-\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{159}
-\glossaryentry{XML?\glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }|setentrycounter{page}\glsnumberformat}{161}
-\glossaryentry{XML?\glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }|setentrycounter{page}\glsnumberformat}{161}
-\glossaryentry{UML?\glossaryentryfield{UML}{\glsnamefont{\acronymfont {UML}}}{Unified Modelling Language}{\relax }|setentrycounter{page}\glsnumberformat}{174}
-\glossaryentry{UML?\glossaryentryfield{UML}{\glsnamefont{\acronymfont {UML}}}{Unified Modelling Language}{\relax }|setentrycounter{page}\glsnumberformat}{174}
-\glossaryentry{UML?\glossaryentryfield{UML}{\glsnamefont{\acronymfont {UML}}}{Unified Modelling Language}{\relax }|setentrycounter{page}\glsnumberformat}{180}
-\glossaryentry{API?\glossaryentryfield{API}{\glsnamefont{\acronymfont {API}}}{Application Interface}{\relax }|setentrycounter{page}\glsnumberformat}{181}
-\glossaryentry{API?\glossaryentryfield{API}{\glsnamefont{\acronymfont {API}}}{Application Interface}{\relax }|setentrycounter{page}\glsnumberformat}{181}
-\glossaryentry{XTM?\glossaryentryfield{XTM}{\glsnamefont{\acronymfont {XTM}}}{XML Topic Map}{\relax }|setentrycounter{page}\glsnumberformat}{182}
-\glossaryentry{XML?\glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }|setentrycounter{page}\glsnumberformat}{182}
-\glossaryentry{RDBMS?\glossaryentryfield{RDBMS}{\glsnamefont{\acronymfont {RDBMS}}}{Relationales Datenbank Management System}{\relax }|setentrycounter{page}\glsnumberformat}{182}
-\glossaryentry{XTM?\glossaryentryfield{XTM}{\glsnamefont{\acronymfont {XTM}}}{XML Topic Map}{\relax }|setentrycounter{page}\glsnumberformat}{182}
-\glossaryentry{RDBMS?\glossaryentryfield{RDBMS}{\glsnamefont{\acronymfont {RDBMS}}}{Relationales Datenbank Management System}{\relax }|setentrycounter{page}\glsnumberformat}{182}
-\glossaryentry{JPEG?\glossaryentryfield{JPEG}{\glsnamefont{\acronymfont {JPEG}}}{Joint Photographic Experts Group (File Interchange Format)}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{GIF?\glossaryentryfield{GIF}{\glsnamefont{\acronymfont {GIF}}}{Graphics Interchange Format}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{PNG?\glossaryentryfield{PNG}{\glsnamefont{\acronymfont {PNG}}}{Portable Network Graphics}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{JPEG?\glossaryentryfield{JPEG}{\glsnamefont{\acronymfont {JPEG}}}{Joint Photographic Experts Group (File Interchange Format)}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{AWT?\glossaryentryfield{AWT}{\glsnamefont{\acronymfont {AWT}}}{Abstract Window Toolkit}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{JPEG?\glossaryentryfield{JPEG}{\glsnamefont{\acronymfont {JPEG}}}{Joint Photographic Experts Group (File Interchange Format)}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{GIF?\glossaryentryfield{GIF}{\glsnamefont{\acronymfont {GIF}}}{Graphics Interchange Format}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{PNG?\glossaryentryfield{PNG}{\glsnamefont{\acronymfont {PNG}}}{Portable Network Graphics}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{AWT?\glossaryentryfield{AWT}{\glsnamefont{\acronymfont {AWT}}}{Abstract Window Toolkit}{\relax }|setentrycounter{page}\glsnumberformat}{188}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{193}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{193}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{OLED?\glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LED?\glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }|setentrycounter{page}\glsnumberformat}{133}
+\glossaryentry{LCD?\glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }|setentrycounter{page}\glsnumberformat}{135}
+\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{EMF?\glossaryentryfield{EMF}{\glsnamefont{\acronymfont {EMF}}}{Eclipse Modeling Framework}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{GMF?\glossaryentryfield{GMF}{\glsnamefont{\acronymfont {GMF}}}{Graphical Modeling Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{MVC?\glossaryentryfield{MVC}{\glsnamefont{\acronymfont {MVC}}}{Model-View-Controller}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{EMF?\glossaryentryfield{EMF}{\glsnamefont{\acronymfont {EMF}}}{Eclipse Modeling Framework}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{GMF?\glossaryentryfield{GMF}{\glsnamefont{\acronymfont {GMF}}}{Graphical Modeling Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{139}
+\glossaryentry{JRE?\glossaryentryfield{JRE}{\glsnamefont{\acronymfont {JRE}}}{Java Runtime Environment}{\relax }|setentrycounter{page}\glsnumberformat}{140}
+\glossaryentry{JRE?\glossaryentryfield{JRE}{\glsnamefont{\acronymfont {JRE}}}{Java Runtime Environment}{\relax }|setentrycounter{page}\glsnumberformat}{140}
+\glossaryentry{HTTP?\glossaryentryfield{HTTP}{\glsnamefont{\acronymfont {HTTP}}}{Hypertext Transfer Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{140}
+\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{140}
+\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{140}
+\glossaryentry{JRE?\glossaryentryfield{JRE}{\glsnamefont{\acronymfont {JRE}}}{Java Runtime Environment}{\relax }|setentrycounter{page}\glsnumberformat}{140}
+\glossaryentry{HTTP?\glossaryentryfield{HTTP}{\glsnamefont{\acronymfont {HTTP}}}{Hypertext Transfer Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{140}
+\glossaryentry{TCP?\glossaryentryfield{TCP}{\glsnamefont{\acronymfont {TCP}}}{Transport Control Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{144}
+\glossaryentry{IP?\glossaryentryfield{IP}{\glsnamefont{\acronymfont {IP}}}{Internet Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{144}
+\glossaryentry{TCP?\glossaryentryfield{TCP}{\glsnamefont{\acronymfont {TCP}}}{Transport Control Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{144}
+\glossaryentry{IP?\glossaryentryfield{IP}{\glsnamefont{\acronymfont {IP}}}{Internet Protocol}{\relax }|setentrycounter{page}\glsnumberformat}{144}
+\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{161}
+\glossaryentry{GEF?\glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }|setentrycounter{page}\glsnumberformat}{161}
+\glossaryentry{XML?\glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }|setentrycounter{page}\glsnumberformat}{163}
+\glossaryentry{XML?\glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }|setentrycounter{page}\glsnumberformat}{163}
+\glossaryentry{UML?\glossaryentryfield{UML}{\glsnamefont{\acronymfont {UML}}}{Unified Modelling Language}{\relax }|setentrycounter{page}\glsnumberformat}{176}
+\glossaryentry{UML?\glossaryentryfield{UML}{\glsnamefont{\acronymfont {UML}}}{Unified Modelling Language}{\relax }|setentrycounter{page}\glsnumberformat}{176}
+\glossaryentry{UML?\glossaryentryfield{UML}{\glsnamefont{\acronymfont {UML}}}{Unified Modelling Language}{\relax }|setentrycounter{page}\glsnumberformat}{182}
+\glossaryentry{API?\glossaryentryfield{API}{\glsnamefont{\acronymfont {API}}}{Application Interface}{\relax }|setentrycounter{page}\glsnumberformat}{183}
+\glossaryentry{API?\glossaryentryfield{API}{\glsnamefont{\acronymfont {API}}}{Application Interface}{\relax }|setentrycounter{page}\glsnumberformat}{183}
+\glossaryentry{XTM?\glossaryentryfield{XTM}{\glsnamefont{\acronymfont {XTM}}}{XML Topic Map}{\relax }|setentrycounter{page}\glsnumberformat}{184}
+\glossaryentry{XML?\glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }|setentrycounter{page}\glsnumberformat}{184}
+\glossaryentry{RDBMS?\glossaryentryfield{RDBMS}{\glsnamefont{\acronymfont {RDBMS}}}{Relationales Datenbank Management System}{\relax }|setentrycounter{page}\glsnumberformat}{184}
+\glossaryentry{XTM?\glossaryentryfield{XTM}{\glsnamefont{\acronymfont {XTM}}}{XML Topic Map}{\relax }|setentrycounter{page}\glsnumberformat}{184}
+\glossaryentry{RDBMS?\glossaryentryfield{RDBMS}{\glsnamefont{\acronymfont {RDBMS}}}{Relationales Datenbank Management System}{\relax }|setentrycounter{page}\glsnumberformat}{184}
+\glossaryentry{JPEG?\glossaryentryfield{JPEG}{\glsnamefont{\acronymfont {JPEG}}}{Joint Photographic Experts Group (File Interchange Format)}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{GIF?\glossaryentryfield{GIF}{\glsnamefont{\acronymfont {GIF}}}{Graphics Interchange Format}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{PNG?\glossaryentryfield{PNG}{\glsnamefont{\acronymfont {PNG}}}{Portable Network Graphics}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{JPEG?\glossaryentryfield{JPEG}{\glsnamefont{\acronymfont {JPEG}}}{Joint Photographic Experts Group (File Interchange Format)}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{AWT?\glossaryentryfield{AWT}{\glsnamefont{\acronymfont {AWT}}}{Abstract Window Toolkit}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{JPEG?\glossaryentryfield{JPEG}{\glsnamefont{\acronymfont {JPEG}}}{Joint Photographic Experts Group (File Interchange Format)}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{GIF?\glossaryentryfield{GIF}{\glsnamefont{\acronymfont {GIF}}}{Graphics Interchange Format}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{PNG?\glossaryentryfield{PNG}{\glsnamefont{\acronymfont {PNG}}}{Portable Network Graphics}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{AWT?\glossaryentryfield{AWT}{\glsnamefont{\acronymfont {AWT}}}{Abstract Window Toolkit}{\relax }|setentrycounter{page}\glsnumberformat}{190}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{195}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{196}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{196}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{196}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{197}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{199}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{200}
-\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{201}
-\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{201}
-\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{201}
-\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{201}
-\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{201}
-\glossaryentry{GUI?\glossaryentryfield{GUI}{\glsnamefont{\acronymfont {GUI}}}{Graphical User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{201}
-\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{201}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{201}
-\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{202}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{199}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{199}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{199}
 \glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{202}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{202}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{207}
-\glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{207}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{203}
+\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{GUI?\glossaryentryfield{GUI}{\glsnamefont{\acronymfont {GUI}}}{Graphical User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{204}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{205}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{209}
 \glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{210}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{210}
-\glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{210}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{210}
-\glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{210}
-\glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{210}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{214}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{215}
-\glossaryentry{MCRit?\glossaryentryfield{MCRit}{\glsnamefont{\acronymfont {MCRit}}}{Model-Control-Representation (intangible and tangible)}{\relax }|setentrycounter{page}\glsnumberformat}{215}
-\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{215}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{215}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{215}
-\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{215}
-\glossaryentry{CSCW?\glossaryentryfield{CSCW}{\glsnamefont{\acronymfont {CSCW}}}{Computer Supported Cooperative Work}{\relax }|setentrycounter{page}\glsnumberformat}{224}
-\glossaryentry{EPK?\glossaryentryfield{EPK}{\glsnamefont{\acronymfont {EPK}}}{Ereignisgesteuerte Prozesskette}{\relax }|setentrycounter{page}\glsnumberformat}{226}
-\glossaryentry{EPK?\glossaryentryfield{EPK}{\glsnamefont{\acronymfont {EPK}}}{Ereignisgesteuerte Prozesskette}{\relax }|setentrycounter{page}\glsnumberformat}{226}
+\glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{212}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{212}
+\glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{212}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{212}
+\glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{212}
+\glossaryentry{TAC?\glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }|setentrycounter{page}\glsnumberformat}{212}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{216}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{217}
+\glossaryentry{MCRit?\glossaryentryfield{MCRit}{\glsnamefont{\acronymfont {MCRit}}}{Model-Control-Representation (intangible and tangible)}{\relax }|setentrycounter{page}\glsnumberformat}{217}
+\glossaryentry{MCRpd?\glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }|setentrycounter{page}\glsnumberformat}{217}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{217}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{217}
+\glossaryentry{TUI?\glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }|setentrycounter{page}\glsnumberformat}{217}
+\glossaryentry{CSCW?\glossaryentryfield{CSCW}{\glsnamefont{\acronymfont {CSCW}}}{Computer Supported Cooperative Work}{\relax }|setentrycounter{page}\glsnumberformat}{226}
+\glossaryentry{EPK?\glossaryentryfield{EPK}{\glsnamefont{\acronymfont {EPK}}}{Ereignisgesteuerte Prozesskette}{\relax }|setentrycounter{page}\glsnumberformat}{228}
+\glossaryentry{EPK?\glossaryentryfield{EPK}{\glsnamefont{\acronymfont {EPK}}}{Ereignisgesteuerte Prozesskette}{\relax }|setentrycounter{page}\glsnumberformat}{228}
