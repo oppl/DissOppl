@@ -22,7 +22,19 @@ Der Begriff des "Tangible User Interfaces" (TUI) wurde kurz danach bzw. parallel
 
 \subsection{Augmented Reality} 
 
-% subsection tangibles_historischer_hintergrund (end)
+\subsection{Metaphern} % (fold)
+\label{ssub:metaphern}
+
+% subsubsection metaphern (end)
+
+\subsection{Tangible Output} % (fold)
+\label{ssub:tangible_output}
+
+Aktuatoren \citep{Patten07}
+
+% subsubsection tangible_output (end)
+
+% section entwicklung_tangible_interfaces(end)
 
 \section{Konzeptualisierung und Klassifikation von Tangible Interfaces} % (fold)
 \label{sec:konzeptualisierungen_von_tangible_interfaces}
@@ -58,6 +70,7 @@ Die Ansätze, die in dieser Betrachtung berücksichtigt wurden, sind in der Reih
     	\item Tokens and Constraints zur Spezifikation \citep{Shaer04}
     	\item Kategorien von \gls{TUI}-Anwendungen \citep{Klemmer04}
     	\item Tangible User Interfaces Taxonomy \citep{Fishkin04}
+    	\item Mixed Reality \citep{Coutrix06}
     	\item Tangible Bits: Beyond Pixels \citep{Ishii08}
     \end{itemize}
 %\end{multicols}
@@ -471,6 +484,11 @@ Die Dimension "Metaphor" bildet die Eigenschaft von Tangible Interfaces ab, auf 
 
 % subsection taxonomie_fishkin (end)
 
+\subsection{Mixed Reality} % (fold)
+\label{sub:mixed_reality}
+
+% subsection mixed_reality (end)
+
 \subsection{Tangible Bits: Beyond Pixels} % (fold)
 \label{sub:tangible_bits_beyond_pixels}
 
@@ -530,12 +548,12 @@ Im seinen Schlussbetrachtungen führt \citeauthor{Ishii08} die größten Mängel
 
 Die in den vorhergehenden Abschnitten betrachteten Arbeiten sind in Ansatz, Ausgangspunkt und Vorgehensweise höchst unterschiedlich, ihnen ist jedoch gemein, dass sie sich mit der Konzeptualisierung von Tangible User Interfaces beschäftigen. Die Arbeit können dabei entlang zweier Dimensionen nach Ziel und Betrachtungsgegenstand klassifiziert werden. Hinsichtlich der Zielsetzung sind Arbeiten, die auf die Spezifikation eines \gls{TUI} ausgerichtet sind von solchen zu unterscheiden, die auf die Evaluation existierender Systeme ausgelegt wurden (im Sinne von detailliert angegebenen Merkmalen, die ein System aufweisen muss, um eine bestimmte Eigenschaft zu haben). Als dritte Ausprägung sind noch Ansätze zu identifzieren, die eine Einordnung in einen Referenzrahmen ermöglich sollen ohne die Eigenschaften des Hinsichtlich des \gls{TUI} im Detail zu betrachten. Betrachtungsgegenstandes sind unterschiedliche Detaillierungsgrade zu erkennen, wobei hier die beiden Ausprägungen "Gesamtsystem" und "einzelne physische Elemente" als Extremwerte zur Klassifikation herangezogen werden. Hinsichtlich des Betrachtungsgegenstandes ist noch zu unterscheiden, ob sich die Arbeit auf die Struktur des \gls{TUI} konzentriert oder sich darüber hinaus auch explizit mit dessen Verwendung beschäftigt. Ansätze der zweiten Art werden in der Tabelle kursiv gesetzt. Jeder Ansatz verfolgt über diese Einordnung hinaus noch spezifische Zielsetzungen, die der Übersicht wegen in dieser ersten Einordnung nicht angegeben werden. 
 
-Die Einordnung in die Kategorien (siehe Tabelle \ref{tab:tui_konzeptkategorien}) erfolgt aufgrund der von den jeweiligen Autoren in den Artikeln explizit genannten Zielsetzungen oder -- wenn diese nicht vorhanden oder aussagekräftig sind -- aufgrund der von Autoren gewählten Schwerpunktsetzungen und unter Berücksichtiung des jeweiligen Gesamtzusammenhangs (übergeordnetes Forschungsvorhaben). Ansätze, die zu mehreren Kategorien Beiträge liefern, werden in allen betreffenden Feldern angeführt.
+Die Einordnung in die Kategorien (siehe Tabelle \ref{tab:tui_konzeptkategorien}) erfolgt aufgrund der von den jeweiligen Autoren in den Artikeln explizit genannten Zielsetzungen oder -- wenn diese nicht vorhanden oder aussagekräftig sind -- aufgrund der von Autoren gewählten Schwerpunktsetzungen und unter Berücksichtigung des jeweiligen Gesamtzusammenhangs (übergeordnetes Forschungsvorhaben). Ansätze, die zu mehreren Kategorien Beiträge liefern, werden in allen betreffenden Feldern angeführt.
 
 \begin{table}[htbp]
 	\centering
 	\caption{Kategorien von konzeptuellen Arbeiten im Gebiet Tangible User Interfaces}
-	\begin{tabular}{| p{3cm} || p{5cm} | p{5cm} |} \hline
+	\begin{tabular}{| p{2,5cm} || p{5,5cm} | p{5,5cm} |} \hline
 		 & Gesamtsystem & einzelne physische Elemente \\ \hline \hline
 		Spezifikation & Bricks\linebreak MCRpd-Interaktions-Modell\linebreak Tangible Bits: Beyond Pixels & Containers, Tokens und Tools\linebreak Tokens+\-Constraints\linebreak \emph{Tokens and Constraints nach Shaer et al.}\\ \hline
 		Evaluation & Graspable User Interfaces & \emph{Taxonomie nach Fishkin} \\ \hline
@@ -553,13 +571,13 @@ Zur detaillierten Evaluation eines \gls{TUI} bietet sich die Taxonomie von \cite
 \subsubsection{Ausdrucksstärke der konzeptuellen Ansätze} % (fold)
 \label{ssub:ausdrucksstärke_der_konzeptuellen_ansätze}
 
-Grundsätzlich sind jene Ansätze, die sich mit der detaillierten Beschreibung eine \gls{TUI} befassen, ausdrucksstärker als jene Ansätze, die ein System lediglich global betrachten. Dies bezieht sich jedoch in erster Linie auf die Quantität der generierten Daten, qualitativ gesehen ergänzen beide Sichtweisen einander und sind sowohl bei Spezifikation als auch Evaluation komplementär anzuwenden. Der Fokus der Betrachtung der jeweiligen Ansätze ist in Tabelle \label{tab:tui_konzeptkategorien} angeführt und wird hier nicht separat unterschieden.
+Grundsätzlich sind jene Ansätze, die sich mit der detaillierten Beschreibung eine \gls{TUI} befassen, ausdrucksstärker als jene Ansätze, die ein System lediglich global betrachten. Dies bezieht sich jedoch in erster Linie auf die Quantität der generierten Daten, qualitativ gesehen ergänzen beide Sichtweisen einander und sind sowohl bei Spezifikation als auch Evaluation komplementär anzuwenden. Der Fokus der Betrachtung der jeweiligen Ansätze ist in Tabelle \ref{tab:tui_konzeptkategorien} angeführt und wird hier nicht separat unterschieden.
 
 Einige der vorgestellten Ansätze sind inhaltich insofern als überholt anzusehen, als dass sie heute gängige Techniken und Interaktionsparadimen nicht adäquat abbilden können. Dies gilt sowohl in struktureller Hinsicht als auch in Bezug auf das Verhalten eines Systems. Die strukturellen Konzepte haben sich konzeptuell von "werkzeug-zentrierten" auf "informations-zentrierte" Sichtweise weiter entwickelt. Ältere, "werkzeug-zentrierte" Ansätze betrachten die physischen Elemente ausschließlich als Werkezeuge zur Manipulation digitaler Information, die nach wie vor herkömmlich visuell ausgegeben wird und keine physische Manifestation besitzt. Typische Vertreter dieser Sichtweise sind \citep{Fitzmaurice95} und \citep{Fitzmaurice96}. Ab der Arbeit von \citet{Ishii97} wird der Aspekt der physischen Repräsentation von Information berücksichtigt, womit erstmals eine umfassende Beschreibung von Systemen ermöglicht wird, die heute als \gls{TUI} bezeichnet werden.
 
-In der Folge wurden unterschiedliche Ansätze vorgestellt, die auf unterschiedliche Aspekte in der Beschreibung der Struktur eingehen. Ein grundlegendes Unterscheidungsmerkmal der Ansätze ist ihre Herangehensweise an die Unterscheidung zwischen physischen Objekten, die Information repräsentieren und solchen, die Information manipulieren (in wenigen Fällen werden auch Werkzeuge zur Systemsteuerung separat betrachtet). Eine Herangehensweise ist die strikte konzeptuelle Trennung zwischen physischen Objekten, die zur Informationsrepräsentation verwendet werden und sochen, die als Werkzeug zur Manipulation eingesetzt werden. Typische Verterter sind hier \citep{Ishii1997} und \citep{Holmquist99}. Dem hingegen steht die Herangehensweise, die Bedeutung eines physischen Objekts für eine bestimmte Anwendung auf einem Kontinuum einzuordnen und Objekte damit als eher "werkzeug-artig" oder eher "repräsentations-artig" (oder beides integrierend) einzuordnen. Typische Vertreter für diese Herangehensweise sind \citep{Underkoffler99}, \citep{Koleva03} und \citep{Fishkin04}. Einen dritten Weg gehen die Ansätze von \citep{Ullmer00} und darauf aufbauend \citep{Ishii08}, die physische Elemente immer als Kombination eines Repräsentations- und Kontroll-Anteils sehen und diese konzeptuell separat behanden. Implzit in dieser Tradition stehen auch die Ansätze von \citep{Ullmer02} und \citep{Shaer04}, die mit dem "Tokens und Constraints"-Konzept einerseits eine dritte Art von physischen Objekten -- die Constraints, die den Interaktionsraum beschränken -- einführen, andererseits aber bei den eigentlich zur Interaktion verwendeten physischen Elementen nicht zwischen Repräsentationen und Werkzeugen unterscheiden. Funktionalität wird vielmehr durch die Manipulation eines (informationstragenden) Tokens im Kontext von Constraints ausgelöst -- Tokens haben somit einen Kontroll-Aspekt im Sinne von \citep{Ullmer00}.
+In der Folge wurden unterschiedliche Ansätze vorgestellt, die auf unterschiedliche Aspekte in der Beschreibung der Struktur eingehen. Ein grundlegendes Unterscheidungsmerkmal der Ansätze ist ihre Herangehensweise an die Unterscheidung zwischen physischen Objekten, die Information repräsentieren und solchen, die Information manipulieren (in wenigen Fällen werden auch Werkzeuge zur Systemsteuerung separat betrachtet). Eine Herangehensweise ist die strikte konzeptuelle Trennung zwischen physischen Objekten, die zur Informationsrepräsentation verwendet werden und sochen, die als Werkzeug zur Manipulation eingesetzt werden. Typische Verterter sind hier \citep{Ishii97} und \citep{Holmquist99}. Dem hingegen steht die Herangehensweise, die Bedeutung eines physischen Objekts für eine bestimmte Anwendung auf einem Kontinuum einzuordnen und Objekte damit als eher "werkzeug-artig" oder eher "repräsentations-artig" (oder beides integrierend) einzuordnen. Typische Vertreter für diese Herangehensweise sind \citep{Underkoffler99}, \citep{Koleva03} und \citep{Fishkin04}. Einen dritten Weg gehen die Ansätze von \citep{Ullmer00} und darauf aufbauend \citep{Ishii08}, die physische Elemente immer als Kombination eines Repräsentations- und Kontroll-Anteils sehen und diese konzeptuell separat behanden. Implzit in dieser Tradition stehen auch die Ansätze von \citep{Ullmer02} und \citep{Shaer04}, die mit dem "Tokens und Constraints"-Konzept einerseits eine dritte Art von physischen Objekten -- die Constraints, die den Interaktionsraum beschränken -- einführen, andererseits aber bei den eigentlich zur Interaktion verwendeten physischen Elementen nicht zwischen Repräsentationen und Werkzeugen unterscheiden. Funktionalität wird vielmehr durch die Manipulation eines (informationstragenden) Tokens im Kontext von Constraints ausgelöst -- Tokens haben somit einen Kontroll-Aspekt im Sinne von \citep{Ullmer00}.
 
-Dünner gesäht sind die Ansätze, die explizit auf die Beschreibung oder Evaluation der Interaktionsabläufe eines \gls{TUI} eingehen.
+Weniger häufig anzutreffen sind Arbeiten, die explizit auf die Beschreibung oder Evaluation der Interaktionsabläufe eines \gls{TUI} eingehen. TODO
 
 % subsubsection ausdrucksstärke_der_konzeptuellen_ansätze (end)
 
@@ -576,8 +594,8 @@ Hinsichtlich der Bezeichnung der Elemente eines \gls{TUI} existiert keine einhei
 	Tangible Bits & --- & Phicon & Phandle (Informationsmanipulation), Instrument (Systemsteuerung) & Tray & --- \\ \hline
 	Containers, Tokens und Tools & --- & Container (unspezifische Form), Token (spezifische Form) & Tool & --- & --- \\ \hline
 	Tangible Objects Meaning & Object & Object as pure object (unspezifische Form), Object as attribute (teilspezifisch), Object as noun (spezifische Form) & Object as verb (fix gebundene Funktionalität), Object as reconfigurable tool (konfigurierbare Funktionalität) & --- & --- \\ \hline
-	MCRpd Interaktions-Modell & Representation & Rep-P & Control & --- & Model, Rep-D (Manifestation)\\ \hline
-	Tokens+\-Constraints & --- & Tokens & Tokens+Constraints & Constraints & --- \\ \hline
+	MCRpd Inter\-aktions-Modell & Represen\-tation & Rep-P & Control & --- & Model, Rep-D (Manifestation)\\ \hline
+	Tokens+\-Constraints & --- & Tokens & Tokens+\-Constraints & Constraints & --- \\ \hline
 	Degree of Coherence & --- & Identifier (unspezifische Form), Proxy (von hier an: spezifische Form, Enge der Bindung ansteigend), Projection, Illusion of same objects & General purpose tools (konfigurierbare Funktionalität), Specialized tools (fix gebundene Funktionalität) & --- & --- \\ \hline
 	TAC & Pyfo & Token & Token & Constraint & Variable \\ \hline
 	Kategorien von TUI-Anwendungen & --- & --- & --- & --- & --- \\ \hline
@@ -622,7 +640,7 @@ Der Sensetable \citep{Patten01}
 
 \section{Tangible Interfaces zur Erstellung diagrammatische Modelle} % (fold)
 \label{sub:tangible_interfaces_zur_modellbildung}
-
+\citep{Blackwell07}
 % subsection tangible_interfaces_zur_modellbildung (end)
 
 \subsection{Aktuelle verwandte Ansätze} % (fold)
