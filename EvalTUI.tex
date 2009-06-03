@@ -1,27 +1,301 @@
 \chapter{Evaluierung der Verwendbarkeit des Werkzeugs} % (fold)
 \label{cha:eval_werkzeug}
 
-Im ersten empirischen Teil der Evaluierung wurde die grundlegende Verständlichkeit und Verwendbarkeit des Werkzeug geprüft. Ziel war es hier, konzeptuelle und technische Eigenschaften bzw. Verhaltensweisen des Werkzeugs zu identifizieren, die den Modellierungsprozess behindern oder unterbrechen. Darunter fällt grundsätzlich jede Eigenschaft und jede Verhaltensweise, die die Benutzer zwingt, sich mit dem technischen System an sich zu beschäftigen und von der Erfüllung der eigentlichen Aufgabe ablenkt bzw. diese unterbricht. Die Hypothesen die dabei geprüft wurden, können grundsätzlich in zwei Kategorien eingeteilt werden:
-\begin{itemize}
- \item Hypothesen, die jene Designentscheidungen abbilden, die im Zuge der Erstellung des Werkzeugs getroffen wurden und auf die Verständlichkeit der notwendigen Interaktionen abzielen.
- \item Hypothesen, die die grundsätzliche Verwendbarkeit des Werkzeugs abdecken.
-\end{itemize}
+Im ersten empirischen Teil der Evaluierung wurde die grundlegende Verständlichkeit und Verwendbarkeit des Werkzeug geprüft. Ziel war es hier, konzeptuelle und technische Eigenschaften bzw. Verhaltensweisen des Werkzeugs zu identifizieren, die den Modellierungsprozess behindern oder unterbrechen. Darunter fällt grundsätzlich jede Eigenschaft und jede Verhaltensweise, die die Benutzer zwingt, sich mit dem technischen System an sich zu beschäftigen und von der Erfüllung der eigentlichen Aufgabe ablenkt bzw. diese unterbricht.
 
 Die Untersuchung wurde daneben auch genutzt, um explorativ die inhaltliche Verwendung des Systems zu untersuchen (d.h. wie es für seinen eigentlichen Verwendungszweck, die Modellierung, eingesetzt wurde) und Hypothesen abzuleiten, die in weiteren Schritten getestet werden konnten.
 
-\section{Untersuchungsdesign}
+\section{Hypothesen} % (fold)
+\label{sec:hypothesen}
 
-Störvariable: technische Vorkenntnisse 
+In diesem Abschnitt werden die Hypothesen angeführt und begründet, die in diesem Teil der empirischen Untersuchung geprüft werden. Die hier angegebenen Hypothesen gehen auf die Eigenschaften des Werkzeugs in der Verwendung durch die Benutzer ein. Bei der Hypothesenbildung wird auf den Verwendungszweck des Werkzeugs, die Unterstützung der Bildung diagrammatischer Modelle, Rücksicht genommen -- die Modelle selbst sind jedoch nicht Gegenstand der Betrachtung, sondern werden erst im nächsten Kapitel behandelt. Nicht berücksichtigt wird außerdem die Verwendung zur Unterstützung von Articulation Work -- die Implikationen des Werkzeugs auf diese sind Gegenstand von Kapitel \ref{cha:eval_aw}.
 
-\section{Durchführung}
+\subsection{Konzeptuell begründete Hypothesen} % (fold)
+\label{sub:konzeptuell_begründete_hypothesen}
 
-In die Durchführung dieses Teils flossen Ergebnisse aus in mehreren Blöcken durchgeführte und zeitlich insgesamt über ein Jahr verteilte Modellierungssessions ein. Als eine Modellierungssession wird hier jeweils eine Anwendung des Werkzeugs mit einer spezifischen Aufgabenstellung bezeichnet. Zwischen den Blöcken wurden im Sinne eines iterativen Entwicklungsprozesses auf dem jeweiligen Feedback der vorhergehenden Sessions Überarbeitungen am und Erweiterungen des Werkzeugs vorgenommen. Auf jene Hypothesen, auf deren Erfüllung derartige Maßnahmen Einfluss hatten, werden im nächsten Abschnitt gekennzeichnet und entsprechend beschrieben.
+Die folgenden Hypothesen wurden aus den Anforderungen an das Werkzeug (siehe Kapitel XY) abgeleitet. Neben der Formulierung der Hypothese ist jeweils 
 
-Der erste Block der Sessions wurde in einem inhaltlich offenen Setting durchgeführt.
+\begin{hyp}
+	\label{hyp:diagmodelle}
+	Das Werkzeug ermöglicht die Repräsentation diagrammatische Modelle.
+\end{hyp}
 
-Der zweite Block wurde im Rahmen 
+\begin{hyp}
+	\label{hyp:kollaborativ}
+	Das Werkzeug ermöglicht kollaboratives Arbeiten an einer Aufgabe.
+\end{hyp}
 
-\section{Ergebnisse}
+Abhängige Variable: Zeitverteilung der Beteiligung der Benutzer (quant), gleichzeitige Manipulation (qual)
 
+\begin{hyp}
+	\label{hyp:historie}
+	Die Möglichkeit zur Rekapitulation der Modellierungshistorie verbessert das Modellverständnis.
+\end{hyp}
+
+\begin{hyp}
+	\label{hyp:behinderung}
+	Das Werkzeug behindert die Modellbildung nicht.
+\end{hyp}
+Abhängige Variable: Notwendige Korrekturen von Fehlfunktionen des Tisches, Systemabstürze (quant.), Empfinden der Benutzer (qual).
+
+\begin{hyp}
+	\label{hyp:stabilität}
+	Das Werkzeug ist von unterschiedlichen Benutzergruppen bedienbar.
+\end{hyp}
+
+Abhängige Variable: Modellgröße in Abhängigkeit der Modellierungdauer (quant), Aussagen der Benutzer (qual)
+Idee: Wenn die Modellgröße mit der Modellierungsdauer positiv korreliert, ist der Zeitanteil, der zur Beschäftigung mit dem Werkzeug notwendig ist, immer gleich groß, d.h. verändert sich nicht zwischen den Anwendungen. 
+
+Unabh. Var.: Tisch, Modellierungsaufgabe
+
+\begin{hyp}
+	\label{hyp:gewöhnung}
+	Wiederholte Verwendung des Werkzeugs führt zu schnellerer Modellbildung und weniger Fehlbedienungen.
+\end{hyp}
+
+Abhängige Variable: Fehlbedienungen in Abhängigkeit des Durchgangs, Modellierungsdauer in Abhängigkeit des Durchgangs
+
+Störvariablen: Modellgröße (Korrelation mit Dauer), Veränderte Funktionalität des Werkzeugs
+
+% subsection konzeptuell_begründete_hypothesen (end)
+
+\subsection{Explorativ gebildete Hypothesen} % (fold)
+\label{sub:explorativ_gebildete_hypothesen}
+
+\begin{hyp}
+	\label{hyp:verbinder}
+	Die Einführung der alternativen Möglichkeit zur Verbindungsherstellung erhöht die Nutzung von Verbindern bei der Modellerstellung.
+\end{hyp}
+
+Unabh. Variable: Modellierungs-Tisch
+Abhängige Variable: Connectedness (quant)
+Störvariable: Modellierungsaufgabe
+
+Störvariable ausgeschaltet, indem die Signifikanz der Änderung der Connectedness zwischen zwei Blöcken mit gleicher Grundgesamtheit und gleicher Aufgabenstellung gemessen wird.
+
+\begin{hyp}
+	\label{hyp:radierer}
+	Das Löschtoken ermöglicht intuitives Löschen von Modellelementen.
+\end{hyp}
+
+Abhängige Variablen: Anzahl der Fehlbedienungen im Verh. zu allen Anwendungen (quant), Art des Missverständnisses (qual) 
+% subsection explorativ_gebildete_hypothesen (end)
+% section hypothesen (end)
+
+\section{Untersuchungsdesign und Durchführung} % (fold)
+\label{sec:untersuchungsdesign}
+
+\subsection{Operationalisierung} % (fold)
+\label{sub:operationalisierung}
+
+\subsubsection{Repräsentation} % (fold)
+\label{ssub:repräsentation}
+
+% subsubsection repräsentation (end)
+
+\subsubsection{Kollaboratives Arbeiten} % (fold)
+\label{ssub:kollaboratives_arbeiten}
+
+% subsubsection kollaboratives_arbeiten (end)
+
+\subsubsection{Nicht-Behinderung} % (fold)
+\label{ssub:nicht_behinderung}
+
+% subsubsection nicht_behinderung (end)
+
+% subsection operationalisierung (end)
+
+\subsection{Datenbasis} % (fold)
+\label{sub:datenbasis}
+
+Als Grundlage der Überprüfung der Hypothesen werden hier die Evaluierungs-Blöcke 1 bis 5 verwendet. Dabei wurden für die quantitativ zu prüfenden Variablen die Blöcke 2 und 3 herangezogen. In die qualitative Auswertung der Ergebnisse wurden hingegen alle Blöcke (1-5) mit einbezogen.
+
+% subsection datenbasis (end)
+
+\subsection{Durchführung} % (fold)
+\label{sub:durchführung}
+
+In diesem Abschnitt werden die für diesen Evaluierungs-Teil relevanten deskriptiven Parameter der berücksichtigten Anwendungs-Blöcke angeführt.
+
+\subsubsection{Stichprobe} % (fold)
+
+\begin{tabular}{| p{2cm} || p{2,5cm} | p{2,5cm} | p{2,5cm} || p{2cm} |}
+  \hline
+   & Aushandlung (1. Durchgang) & Aushandlung (2. Durchgang) & Concept Mapping & Gesamt \\ \hline
+   $n_{Anwendungen}$ & 9 & 9 & 17 & 35 \\ 
+   $n_{Teilnehmer}$ & 19 & 18 & 47 & 84 \\ \hline
+\end{tabular} 
+
+\subsubsection{Dauer der Werkzeugverwendung} % (fold)
+
+Die Dauer der Werkzeug-Verwendung wurde den Blöcken 2 („Aushandlung“) und 3 („Concept Mapping“) erhoben. Die Bearbeitungszeit ist wie folgt verteilt (siehe auch Abbildung \ref{fig:img_Evaluierung_usageTimeOverview}\footnote{In allen Boxplots gilt folgende Notation: 
+\begin{itemize}
+	\item breite horizontale Linie: Bereich zwischen 25\%- und 75\%-Quantil
+	\item breite vertikale Linie: Median
+	\item linke schmale Linie: Bereich zwischen 2,5\%- und 25\%-Quantil
+	\item rechte schmale Linie: Bereich zwischen 75\%- und 97,5\%-Quantil
+	\item Kreuze: Ausreißer (außerhalb 2,5\%- und 97,5\%-Quantil)
+\end{itemize}
+}):
+
+\begin{tabular}{| p{1cm} || p{3cm} | p{3cm} | p{3cm} |}
+  \hline
+   & Aushandlung (1. Durchgang) & Aushandlung (2. Durchgang) & Concept Mapping \\ \hline
+   $t_{min}$ & 11m 54s & 2m 5s & 14m 1s \\ 
+   $\overline{t}$ & 20m 53s & 9m 49s & 32m 32s \\ 
+   $s(t)$ & 4m 18s & 5m 20s & 10m 7s \\
+   $t_{max}$ & 27m 30s & 19m 29s & 45m 0s \\ \hline
+\end{tabular} 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=15cm]{img/Evaluierung/usageTimeOverview.png}
+	\caption{Dauer der Werkzeugverwendung -- Überblick}
+	\label{fig:img_Evaluierung_usageTimeOverview}
+\end{figure}
+
+Die erhobene Dauer der Werkzeug-Verwendung teilt sich ein einen Anteil, an dem tatsächlich mit dem Werkzeug interagiert wird und einen Anteil, der anderen Tätigkeiten (wie inhaltlicher Diskussion, Bedeutungsaushandlung, \ldots) gewidmet ist. Diese beiden Anteile sind in den einzelnen Blöcken wie folgt verteilt (siehe auch die Abbildungen \ref{fig:img_Evaluierung_usageTimeConceptMapping} und \ref{fig:img_Evaluierung_usageTimeNegotiation}):
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=15cm]{img/Evaluierung/usageTimeConceptMapping.png}
+	\caption{Dauer der Werkzeugverwendung -- Concept Mapping}
+	\label{fig:img_Evaluierung_usageTimeConceptMapping}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=15cm]{img/Evaluierung/usageTimeNegotiation.png}
+	\caption{Dauer der Werkzeugverwendung -- Aushandlung}
+	\label{fig:img_Evaluierung_usageTimeNegotiation}
+\end{figure}
+
+% subsection durchführung (end)
+% section untersuchungsdesign (end)
+
+\section{Ergebnisse} % (fold)
+\label{sec:ergebnisse}
+
+\subsection{Repräsentation diagrammatischer Modelle} % (fold)
+\label{sub:repräsentation_diagrammatischer_modelle}
+
+\subsubsection{Auswertung} % (fold)
+
+\subsection{Diskussion} % (fold)
+
+% subsection repräsentation_diagrammatischer_modelle (end)
+
+\subsection{Kollaboratives Arbeiten} % (fold)
+\label{sub:kollaboratives_arbeiten}
+
+\subsubsection{Auswertung} % (fold)
+
+\subsection{Diskussion} % (fold)
+
+% subsection kollaboratives_arbeiten (end)
+
+\subsection{Erstellen von Verbindungen} % (fold)
+\label{sub:erstellen_von_verbindungen}
+
+\subsubsection{Auswertung} % (fold)
+
+\subsection{Diskussion} % (fold)
+
+% subsection erstellen_von_verbindungen (end)
+
+\subsection{Verwendung des Löschtokens} % (fold)
+\label{sub:verwendung_des_löschtokens}
+
+In diesem Abschnitt werden die Ergebnisse der Überprüfung der Hypothese \ref{hyp:radierer} („Das Löschtoken ermöglicht intuitives Löschen von Modellelementen.“) vorgestellt.
+
+\subsubsection{Auswertung} % (fold)
+
+\begin{transkript}
+	\emph{Die Teilnehmer möchten einen Block umbenennen.}\\
+	\textbf{A:} Wie haben wir jetzt gesagt \emph{(markiert den roten Baustein)} keine Modellierungsvorgabe \emph{(gibt Bezeichnung ein)}\\
+	\emph{System übernimmt die neue Beschriftung für den Baustein nicht.}\\
+	\textbf{A:} Wo wurde das hingeschrieben? \emph{(Pause)} Radiergummi? Glaubst du kann man das wegradieren?\\
+	\textbf{B:} Probiere es aus.\\
+	\textbf{\emph{A legt Radiergummi zum Block mit der Absicht die Beschriftung zu löschen}}\\
+	\textbf{B:} Nein! Du löscht alles. Hör auf! \\
+	\textbf{A:} Ok wie war das zuerst? Lassen wir das mal weg. \emph{(legt Baustein zur Seite)}\\
+	\emph{A legt den Block zur Seite.} 
+\end{transkript}
+
+Ein ähnliches Missverständnis zeigt sich auch in folgender Situation:
+
+\begin{transkript}
+	\emph{TLN A und B stellen jeweils ihren Marker zu den Blöcken, die verbunden werden sollen. Dabei wird eine gerichtete Verbindung erstellt.}\\
+	\textbf{C:} Jetzt haben wir aber einen Pfeil gebastelt.\\
+	\textbf{B:} Ja stimmt. Interessant.\\
+	\textbf{A:} Wie war das mit dem Radiergummi. \emph{(nimmt Radiergummi und legt ihn auf die Verbindung)}\\
+	\textbf{B:} Nein\\
+	\textbf{C:} Nein, mit dem Glas! Du löscht alles!\\
+	\textbf{A:} Nein nur die Verbindung. \textbf{\emph{(Macht Radierbewegungen auf der Verbindung)}}\\
+	\textbf{C:} Ich glaube dass wir das Glas nehmen müssen.\\
+	\emph{A schiebt die Blöcke zwischen denen die Verbindung gelöscht werden soll zusammen.}\\
+	\textbf{A:} Da es funktioniert. \emph{(schiebt die Blöcke weiter auseinander und bemerkt dass die Verbindung nicht gelöscht wurde)} Nein.\\
+	\textbf{B:} Ich glaube der Radiergummi vernichtet alles.\\
+	\textbf{A:} Nein der Radiergummi vernichtet nur Verbindungen. Nur welche? \emph{(schiebt beide Blöcke wieder zusammen – nimmt Radiergummi weg und schiebt Blöcke in die Ausgangsposition)}
+\end{transkript}
+
+\begin{transkript}
+	\emph{Es wird eine falsche Beschriftung eingefügt. Die Teilnehmer wollen diese löschen, verwenden den Radiergummi allerdings falsch.}\\
+	\textbf{B:} Aber irgendwie steht jetzt Ereignisse nicht bei dem Ding \emph{(zeigt auf gelben Block)} sondern dort \emph{(zeigt auf beschriftete Verbindung)}.\\
+	\emph{A verrückt den gelben Block ein wenig.}\\
+	\textbf{B:} Normal ist das nicht oder?\\
+	\textbf{C:} Nein.\\
+	\emph{A nimmt den Radiergummi.}\\
+	\textbf{A:} Ich glaube das. \emph{(setzt den Radiergummi auf die Arbeitsfläche)}\\
+	\textbf{C:} Aber nicht alles!\\
+	\emph{A nimmt Radiergummi wieder weg. System erstellt eine Verbindung zwischen zwei roten Blöcken. Teilnehmer lachen. \textbf{A legt Radiergummi auf die erstellte Verbindung, und nimmt ihn wieder weg.} A nimmt die beiden verbundenen Blöcke und verschiebt sie.}\\
+	\textbf{A:} Vielleicht so. \emph{(führt die Blöcke zusammen)}
+\end{transkript}
+
+\begin{transkript}
+	\emph{In der Szene erstellt das System einen ungewollten Verbinder, die Teilnehmer versuchen auf verschiedene Arten den Verbinder zu löschen.}\\
+	\textbf{B:} Und wie kann ich die Verbindungen löschen?\\
+	\textbf{B:} Warte einmal, da gibt es irgendwo das mit dem Radiergummi.\\
+	\textbf{A:} murmelt zustimmend \\
+	\emph{\textbf{B nimmt den Radiergummi und platziert ihn direkt auf dem Verbinder}}\\
+	\emph{Das System färbt den Tisch rot}\\
+	\textbf{A:} Nein, warte. Da löscht du Alles!\\
+	\emph{\textbf{B verschiebt den Radiergummi auf dem Tisch, hebt ihn an und platziert ihn direkt auf einem Block.}}\\
+	\emph{Sobald der Radiergummi von der Oberfläche auf den Block gelegt wurde, entfernt das System die rote Färbung.}\\
+	\textbf{A:} Ich glaube da löscht du Alles.\\
+	\emph{B legt den Radiergummi an mehreren Stellen trotz der Warnung von TN A auf die Oberfläche}\\
+	\textbf{B:} Nein, es will eh nicht.\\
+\end{transkript}
+
+\begin{transkript}
+	\emph{C versucht die Benennung eines Verbinders mittels Radiergummi zu entfernen.}\\
+	\textbf{B:} Aber irgendwie steht jetzt Ereignisse nicht bei dem Ding \emph{(deutet auf einen Block)} sondern dort \emph{(deutet auf einen Verbinder)}. Das wollen wir nicht oder?\\
+	\textbf{A:} Nein.\\
+	\textbf{C:} Ich glaube das. \emph{\textbf{(nimmt den Radiergummi und legt ihn auf den Verbinder den die Teilnehmer entfernen wollen.)}}\\
+	\textbf{A:} Aber nicht alles.\\
+	\emph{C entfernt den Radiergummi wieder von der Modellierungsoberfläche. In diesem Moment erstellt das System automatisch einen neuen Verbinder. C versucht den neuen Verbinder mittels Radiergummi zu entfernen.}\\
+	\textbf{A:} Oh Gott.\\
+	\textbf{C:} Vielleicht so \emph{(schiebt die beiden betroffenen Blöcke zusammen)}, nein.\\
+	\textbf{B:} Nein.\\
+	\textbf{A:} Oh Gott oh Gott oh Gott.\\
+	\textbf{B:} Gehen wir einen Prozessschritt zurück.\\
+	\textbf{C:} Genau.\\
+\end{transkript}
+
+\begin{transkript}
+	\emph{Teilnehmer versuchen mit dem Radiergummi und nur einem anderen Marker einen Verbinder zu entfernen.}\\
+	\textbf{B:} Können wir die nicht so auch einfach löschen?\\
+	\textbf{C:} Ja mit dem Radiergummi.\\
+	\textbf{B:} Muss ich den jetzt zuerst so \emph{(Hält den Radiergummi zur Kamera)} hinhalten?\\
+	\textbf{A:} Nein, ich glaube, \textbf{den musst du einfach da \emph{(zeigt auf den Verbinder)} drauf legen.}\\
+	\emph{B legt den Radiergummi auf den vom System automatisch erstellten Verbinder.}\\
+	\textbf{A:} Und jetzt muss man \emph{(legt ein Markierungtoken auf den Verbinder)} Nein.\\
+	\emph{Der Verbinder lässt sich auf diese Art nicht löschen und die Teilnehmer entscheiden sich den Fehler mittels der Wiederherstellungsfunktion zu beseitigen.}
+\end{transkript}
+
+\subsection{Diskussion} % (fold)
+
+% subsection verwendung_des_löschtokens (end)
+% section ergebnisse (end)
 
 % chapter eval_tui (end) 

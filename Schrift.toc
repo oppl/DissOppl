@@ -47,36 +47,39 @@
 \contentsline {section}{\numberline {7.1}Historische Entwicklung von Tangible Interfaces}{30}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Ubiquitous Computing}{30}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.2}Augmented Reality}{30}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Metaphern}{30}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Tangible Output}{30}{subsection.7.1.4}
 \contentsline {section}{\numberline {7.2}Konzeptualisierung und Klassifikation von Tangible Interfaces}{30}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Bricks}{32}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}Graspable User Interfaces}{34}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Tangible Bits}{35}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Containers, Tokens und Tools}{37}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.3}Tangible Bits}{36}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Containers, Tokens und Tools}{38}{subsection.7.2.4}
 \contentsline {subsubsection}{Containers}{38}{section*.17}
 \contentsline {subsubsection}{Tokens}{38}{section*.18}
 \contentsline {subsubsection}{Tools}{39}{section*.19}
 \contentsline {subsubsection}{Zugriff auf und Interaktion mit Tokens und Containern}{39}{section*.20}
-\contentsline {subsection}{\numberline {7.2.5}Tangible Objects Meaning}{39}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.5}Tangible Objects Meaning}{40}{subsection.7.2.5}
 \contentsline {subsection}{\numberline {7.2.6}Das MCRpd Interaktions-Modell}{41}{subsection.7.2.6}
-\contentsline {subsection}{\numberline {7.2.7}Tokens und Constraints nach Ullmer}{43}{subsection.7.2.7}
+\contentsline {subsection}{\numberline {7.2.7}Tokens und Constraints nach Ullmer}{44}{subsection.7.2.7}
 \contentsline {subsection}{\numberline {7.2.8}Degree of Coherence}{46}{subsection.7.2.8}
-\contentsline {subsection}{\numberline {7.2.9}Tokens und Constraints nach Shaer et al.}{48}{subsection.7.2.9}
+\contentsline {subsection}{\numberline {7.2.9}Tokens und Constraints nach Shaer et al.}{49}{subsection.7.2.9}
 \contentsline {subsection}{\numberline {7.2.10}Kategorien von TUI-Anwendungen}{50}{subsection.7.2.10}
 \contentsline {subsection}{\numberline {7.2.11}Taxonomie nach Fishkin}{51}{subsection.7.2.11}
-\contentsline {subsubsection}{Embodiment}{51}{section*.21}
+\contentsline {subsubsection}{Embodiment}{52}{section*.21}
 \contentsline {subsubsection}{Metaphor}{52}{section*.22}
 \contentsline {subsubsection}{Anwendung der Taxonomie}{53}{section*.23}
-\contentsline {subsection}{\numberline {7.2.12}Tangible Bits: Beyond Pixels}{53}{subsection.7.2.12}
-\contentsline {subsection}{\numberline {7.2.13}Zusammenfassung}{57}{subsection.7.2.13}
+\contentsline {subsection}{\numberline {7.2.12}Mixed Reality}{54}{subsection.7.2.12}
+\contentsline {subsection}{\numberline {7.2.13}Tangible Bits: Beyond Pixels}{54}{subsection.7.2.13}
+\contentsline {subsection}{\numberline {7.2.14}Zusammenfassung}{58}{subsection.7.2.14}
 \contentsline {subsubsection}{Ausdrucksstärke der konzeptuellen Ansätze}{59}{section*.24}
-\contentsline {subsubsection}{Nomenklatur}{60}{section*.25}
+\contentsline {subsubsection}{Nomenklatur}{61}{section*.25}
 \contentsline {section}{\numberline {7.3}Tangible Interfaces in kooperativer Verwendung}{63}{section.7.3}
-\contentsline {section}{\numberline {7.4}Tabletop Interfaces}{63}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Historische Entwicklung}{63}{subsection.7.4.1}
-\contentsline {subsubsection}{Sensetable}{63}{section*.26}
-\contentsline {subsubsection}{BUILD-IT}{63}{section*.27}
-\contentsline {section}{\numberline {7.5}Tangible Interfaces zur Erstellung diagrammatische Modelle}{63}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Aktuelle verwandte Ansätze}{63}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.4}Tabletop Interfaces}{64}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Historische Entwicklung}{64}{subsection.7.4.1}
+\contentsline {subsubsection}{Sensetable}{64}{section*.26}
+\contentsline {subsubsection}{BUILD-IT}{64}{section*.27}
+\contentsline {section}{\numberline {7.5}Tangible Interfaces zur Erstellung diagrammatische Modelle}{64}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Aktuelle verwandte Ansätze}{64}{subsection.7.5.1}
 \contentsline {chapter}{\numberline {8}Eingabe und Interpretation}{65}{chapter.8}
 \contentsline {section}{\numberline {8.1}Möglichkeiten zur Erfassung von Benutzerinteraktion}{65}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}In Frage kommende technologische Ansätze}{66}{subsection.8.1.1}
@@ -279,20 +282,57 @@
 \contentsline {subsubsection}{Aufgabenstellung und Ablauf}{233}{section*.109}
 \contentsline {subsubsection}{Anwendungen und Teilnehmer}{234}{section*.110}
 \contentsline {subsubsection}{Verwendung der Ergebnisse}{234}{section*.111}
-\contentsline {section}{\numberline {12.3}Zusammenfassung}{234}{section.12.3}
+\contentsline {section}{\numberline {12.3}Eingesetzte Werkzeuge und Verfahren}{234}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}Werkzeuge}{234}{subsection.12.3.1}
+\contentsline {subsection}{\numberline {12.3.2}Korrelationstests}{234}{subsection.12.3.2}
+\contentsline {subsection}{\numberline {12.3.3}Signifikanztests}{234}{subsection.12.3.3}
+\contentsline {section}{\numberline {12.4}Zusammenfassung}{234}{section.12.4}
 \contentsline {chapter}{\numberline {13}Evaluierung der Verwendbarkeit des Werkzeugs}{237}{chapter.13}
-\contentsline {section}{\numberline {13.1}Untersuchungsdesign}{237}{section.13.1}
-\contentsline {section}{\numberline {13.2}Durchführung}{237}{section.13.2}
-\contentsline {section}{\numberline {13.3}Ergebnisse}{238}{section.13.3}
-\contentsline {chapter}{\numberline {14}Evaluierung der erstellten Modelle}{239}{chapter.14}
-\contentsline {chapter}{\numberline {15}Evaluierung der durchgeführten Articulation Work}{241}{chapter.15}
+\contentsline {section}{\numberline {13.1}Hypothesen}{237}{section.13.1}
+\contentsline {subsection}{\numberline {13.1.1}Konzeptuell begründete Hypothesen}{237}{subsection.13.1.1}
+\contentsline {subsection}{\numberline {13.1.2}Explorativ gebildete Hypothesen}{238}{subsection.13.1.2}
+\contentsline {section}{\numberline {13.2}Untersuchungsdesign und Durchführung}{239}{section.13.2}
+\contentsline {subsection}{\numberline {13.2.1}Operationalisierung}{239}{subsection.13.2.1}
+\contentsline {subsubsection}{Repräsentation}{239}{section*.112}
+\contentsline {subsubsection}{Kollaboratives Arbeiten}{239}{section*.113}
+\contentsline {subsubsection}{Nicht-Behinderung}{239}{section*.114}
+\contentsline {subsection}{\numberline {13.2.2}Datenbasis}{239}{subsection.13.2.2}
+\contentsline {subsection}{\numberline {13.2.3}Durchführung}{239}{subsection.13.2.3}
+\contentsline {subsubsection}{Stichprobe}{239}{section*.115}
+\contentsline {subsubsection}{Dauer der Werkzeugverwendung}{240}{section*.116}
+\contentsline {section}{\numberline {13.3}Ergebnisse}{242}{section.13.3}
+\contentsline {subsection}{\numberline {13.3.1}Repräsentation diagrammatischer Modelle}{242}{subsection.13.3.1}
+\contentsline {subsubsection}{Auswertung}{242}{section*.117}
+\contentsline {subsection}{\numberline {13.3.2}Diskussion}{242}{subsection.13.3.2}
+\contentsline {subsection}{\numberline {13.3.3}Kollaboratives Arbeiten}{242}{subsection.13.3.3}
+\contentsline {subsubsection}{Auswertung}{242}{section*.118}
+\contentsline {subsection}{\numberline {13.3.4}Diskussion}{242}{subsection.13.3.4}
+\contentsline {subsection}{\numberline {13.3.5}Erstellen von Verbindungen}{242}{subsection.13.3.5}
+\contentsline {subsubsection}{Auswertung}{242}{section*.119}
+\contentsline {subsection}{\numberline {13.3.6}Diskussion}{242}{subsection.13.3.6}
+\contentsline {subsection}{\numberline {13.3.7}Verwendung des Löschtokens}{242}{subsection.13.3.7}
+\contentsline {subsubsection}{Auswertung}{242}{section*.120}
+\contentsline {subsection}{\numberline {13.3.8}Diskussion}{245}{subsection.13.3.8}
+\contentsline {chapter}{\numberline {14}Evaluierung der erstellten Modelle}{247}{chapter.14}
+\contentsline {section}{\numberline {14.1}Hypothesen}{247}{section.14.1}
+\contentsline {subsection}{\numberline {14.1.1}Konzeptuell begründete Hypothesen}{247}{subsection.14.1.1}
+\contentsline {subsection}{\numberline {14.1.2}Explorativ gebildete Hypothesen}{247}{subsection.14.1.2}
+\contentsline {section}{\numberline {14.2}Untersuchungsdesign und Durchführung}{247}{section.14.2}
+\contentsline {section}{\numberline {14.3}Ergebnisse}{247}{section.14.3}
+\contentsline {subsection}{\numberline {14.3.1}Connectedness}{247}{subsection.14.3.1}
+\contentsline {chapter}{\numberline {15}Evaluierung der durchgeführten Articulation Work}{249}{chapter.15}
+\contentsline {section}{\numberline {15.1}Hypothesen}{249}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}Konzeptuell begründete Hypothesen}{249}{subsection.15.1.1}
+\contentsline {subsection}{\numberline {15.1.2}Explorativ gebildete Hypothesen}{249}{subsection.15.1.2}
+\contentsline {section}{\numberline {15.2}Untersuchungsdesign und Durchführung}{249}{section.15.2}
+\contentsline {section}{\numberline {15.3}Ergebnisse}{249}{section.15.3}
 \partbegin 
-\contentsline {chapter}{\numberline {16}Schlussbetrachtungen}{245}{chapter.16}
+\contentsline {chapter}{\numberline {16}Schlussbetrachtungen}{253}{chapter.16}
 \partbegin 
-\contentsline {part}{Verzeichnisse}{III}{part*.113}
-\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.114}
-\contentsline {chapter}{Tabellenverzeichnis}{IV}{appendix*.115}
-\contentsline {chapter}{Stichwortverzeichnis}{V}{appendix*.116}
-\contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{appendix*.117}
+\contentsline {part}{Verzeichnisse}{III}{part*.122}
+\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.123}
+\contentsline {chapter}{Tabellenverzeichnis}{IV}{appendix*.124}
+\contentsline {chapter}{Stichwortverzeichnis}{V}{appendix*.125}
+\contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{appendix*.126}
 \contentsline {chapter}{Bildquellen}{X}{table..1}
-\contentsline {chapter}{Literaturverzeichnis}{XIII}{appendix*.121}
+\contentsline {chapter}{Literaturverzeichnis}{XIII}{appendix*.130}

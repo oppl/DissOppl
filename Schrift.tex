@@ -3,6 +3,8 @@
 
 \documentclass[12pt,a4paper,twoside, openright, cleardoubleempty, headsepline, footnosepline, nochapterprefix, appendixprefix, bibtotoc, abstracton]{scrreprt}
 
+%\includeonly{Evaluierung}
+
 \usepackage{pdfsync}
 \usepackage{ngerman}
 \usepackage[ngerman]{babel}
@@ -89,6 +91,11 @@ footnote]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 
 \renewcommand*{\dictumwidth}{.5\textwidth} 
 \renewcommand{\baselinestretch}{1.0}
+
+\usepackage[framed, hyperref]{ntheorem}
+\newtheorem{hyp}{Hypothese}
+
+\newenvironment{transkript}{\small \tt \begin{quote}}{\end{quote} \rm \normalsize}
 
 %\usepackage[numbers]{natbib}
 %\bibliographystyle{dinat}
