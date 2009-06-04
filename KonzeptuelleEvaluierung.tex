@@ -1,7 +1,7 @@
-\chapter{Konzeptuelle Einordnung} % (fold)
-\label{cha:konzeptuelle_evaluierung}
+\chapter{Konzeptionelle Einordnung} % (fold)
+\label{cha:konzeptionelle_evaluierung}
 
-An dieser Stelle erfolgt ein Rückgriff auf die in Abschnitt \ref{sec:konzeptualisierungen_von_tangible_interfaces} beschriebenen konzeptuellen Beschreibungs-Ansätze für Tangible User Interfaces. Das in den letzten drei Kapiteln beschriebene Werkzeug wird hier im Lichte eben dieser Ansätze betrachtet bzw. wo möglich mittels der vorgeschlagenen Schemata beschrieben. Damit werden zwei Ziele verfolgt. Einerseits soll die Praxistauglichkeit der konzeptuellen Ansätze überprüft werden, indem sie auf ein aktuelles, im Vergleich zu den beispielhaft in den Artikeln angegebenen Systemen komplexes und flexibles System angewandt werden. Andererseits soll durch die konzeptuelle Betrachtung des Werkzeugs das Design und die Umsetzung auf Inkonsistenzen geprüft werden und Potential für Verbesserungen des Werkzeugs identifiziert werden. Die hier abgeleiteten Potentiale werden in einem weiteren Schritt den Erkenntnissen aus der praktischen Evaluierung des Systems gegenübergestellt. So wird es möglich, auch die potentiellen Auswirkungen der Anwendung eines der hier vorgestellten konzeptuellen Ansätze bei der Konzeption und Umsetzung eines \gls{TUI} betrachtet werden.
+An dieser Stelle erfolgt ein Rückgriff auf die in Abschnitt \ref{sec:konzeptualisierungen_von_tangible_interfaces} beschriebenen konzeptionellen Beschreibungs-Ansätze für Tangible User Interfaces. Das in den letzten drei Kapiteln beschriebene Werkzeug wird hier im Lichte eben dieser Ansätze betrachtet bzw. wo möglich mittels der vorgeschlagenen Schemata beschrieben. Damit werden zwei Ziele verfolgt. Einerseits soll die Praxistauglichkeit der konzeptionellen Ansätze überprüft werden, indem sie auf ein aktuelles, im Vergleich zu den beispielhaft in den Artikeln angegebenen Systemen komplexes und flexibles System angewandt werden. Andererseits soll durch die konzeptionelle Betrachtung des Werkzeugs das Design und die Umsetzung auf Inkonsistenzen geprüft werden und Potential für Verbesserungen des Werkzeugs identifiziert werden. Die hier abgeleiteten Potentiale werden in einem weiteren Schritt den Erkenntnissen aus der praktischen Evaluierung des Systems gegenübergestellt. So wird es möglich, auch die potentiellen Auswirkungen der Anwendung eines der hier vorgestellten konzeptionellen Ansätze bei der Konzeption und Umsetzung eines \gls{TUI} betrachtet werden.
 
 Dieses Kapitel folgt im Aufbau der Struktur des Abschnitts \ref{sec:konzeptualisierungen_von_tangible_interfaces} und betrachtet in der Folge jeden der vorgestellten Ansätze in einem separaten Abschnitt. Dabei werden jeweils die Konzepte des Ansatzes auf das Werkzeug angewandt (Unterabschnitt "Abbildung") und in der Folge die Erkenntnisse über die Eignung des Ansatzes und mögliches Verbesserungpotential des Werkzeugs angeführt (Unterabschnitt "Bewertung"). Abschließend erfolgt eine zusammenfassende Betrachtung der Ergebnisse hinsichtlich der beiden oben formulierten Ziele.
 
@@ -111,7 +111,7 @@ Die Werkzeugtokens des hier vorgestellten Systems entsprechen in ihrer Konzeptio
 
 \subsection{Bewertung}
 
-Die konzeptuellen Elemente des hier vorgestellten Systems sind also auf das Ordnungsstem von \citet{Holmquist99} abbildbar. Die Problematik der nicht eindeutigen Zuordnung von Modellierungstokens zur Kategorie \emph{Tokens} oder \emph{Constraints} ist einerseits auf eine der grundlegenden Design-Paradigmen des hier entwickelten Werkzeugs -- der Flexibiltät der Abbildung -- zurückzuführen, weist aber andererseits auch auf mögliches Verbesserungspotential hin.
+Die konzeptionellen Elemente des hier vorgestellten Systems sind also auf das Ordnungsstem von \citet{Holmquist99} abbildbar. Die Problematik der nicht eindeutigen Zuordnung von Modellierungstokens zur Kategorie \emph{Tokens} oder \emph{Constraints} ist einerseits auf eine der grundlegenden Design-Paradigmen des hier entwickelten Werkzeugs -- der Flexibiltät der Abbildung -- zurückzuführen, weist aber andererseits auch auf mögliches Verbesserungspotential hin.
 
 Durch die Flexibilisierung nicht nur der Bindung zwischen physischen Elementen und digitaler Repräsentation sondern auch der Verwendung von unterschiedlichen physischen Elementen selbst könnten Modellierungstokens eher \emph{Token}-artiger werden. Indem Modellierende eigenen physische Elemente (auf ihrem Arbeitskontext) einbringen können, könnte die Erfassbarkeit der Bedeutung der physischen Repräsentation unter Umständen verbessert werden können.
 
@@ -159,7 +159,7 @@ Hinsichtlich der Kategorien von \glspl{TUI}, die von den Autoren festgelegt werd
 
 \subsection{Bewertung}
 
-Das \emph{MCRpd}-Modell ist ein im Vergleich zu anderen Ansätzen eher abstraktes, konzeptuelles Modell zur Beschreibung eines Tangible User Interfaces. Trotzdem -- oder auch deswegen -- eignet es sich gut zur Reflexion der Eigenschaften eines \glspl{TUI} bzw. zur Prüfung der Konsistenz der vorgesehenen Benutzerinteraktionen.
+Das \emph{MCRpd}-Modell ist ein im Vergleich zu anderen Ansätzen eher abstraktes, konzeptionelles Modell zur Beschreibung eines Tangible User Interfaces. Trotzdem -- oder auch deswegen -- eignet es sich gut zur Reflexion der Eigenschaften eines \glspl{TUI} bzw. zur Prüfung der Konsistenz der vorgesehenen Benutzerinteraktionen.
 
 Das Werkzeug konnte in die Logik des Modells eingeordnet werden, wobei bei der Beschreibung der Interaktion zur Steuerung der Modellierungshistorie verstärkter Argumentationsbedarf herrschte. Dies kann auf eine möglicherweise zu schwache Kopplung zwischen \emph{REP-P} und \emph{REP-D} hinweisen. Tatsächlich wird bei der Kontrolle der Modellierungshistorie auf der Tischoberfläche kein Feedback ausgegeben, ob das Steuerungs-Token erkannt wurde und in welchem Zustand es sich aktuell befindet. Die Kopplung könnte etwa in Form einer Darstellung des aktuell dargestellten Zeitpunkts in der Modellierungshistorie rund um das Kontroll-Token angezeigt werden, was die Kopplung zwischen den beiden Komponenten der Repräsentation verstärken würde.
 
@@ -365,7 +365,7 @@ Die von \citeauthor{Ishii08} angeführten grundlegenden Eigenschaften und Merkma
 
 \subsection{Bewertung}
 
-Die umfassende Retrospektive der Entwicklung des Forschungsgebiets der „Tangible User Interfaces“, die von \citep{Ishii08} vorgenommen wird, ermöglicht einen breiten Blick auf das aktuelle Feld und identifiziert außerdem nach wie vor offene Forschungs-Punkte. Für die Beurteilung eines \gls{TUI} ist die Arbeit so wie die Ansätze, auf denen sie aufbaut und die sie integriert, nur bedingt geeignet. Dies liegt in der abstrakt-konzeptuell bleibenden Beschreibung der einzelnen Aspekte begründet, die nur bedingt eine argumentierbare Einordnung ermöglichen. Detailaspekte eines Systems bleiben unberücksichtigt, Ziel das Artikels ist es nicht, eine Analyse- oder Spezifikationsframework einzuführen (tatsächlich wird dies als eine der offenen Forschungspunkte genannt).
+Die umfassende Retrospektive der Entwicklung des Forschungsgebiets der „Tangible User Interfaces“, die von \citep{Ishii08} vorgenommen wird, ermöglicht einen breiten Blick auf das aktuelle Feld und identifiziert außerdem nach wie vor offene Forschungs-Punkte. Für die Beurteilung eines \gls{TUI} ist die Arbeit so wie die Ansätze, auf denen sie aufbaut und die sie integriert, nur bedingt geeignet. Dies liegt in der abstrakt-konzeptionell bleibenden Beschreibung der einzelnen Aspekte begründet, die nur bedingt eine argumentierbare Einordnung ermöglichen. Detailaspekte eines Systems bleiben unberücksichtigt, Ziel das Artikels ist es nicht, eine Analyse- oder Spezifikationsframework einzuführen (tatsächlich wird dies als eine der offenen Forschungspunkte genannt).
 
 Für das Werkzeug können aus oben genannten Gründen aus der Betrachtung im Lichte dieses Ansatzes keinerlei Potentiale für 
 Verbesserung abgeleitet werden. Die mögliche globale Einordnung des Gesamtsystems wurde bereits in anderen Abschnitten auf Basis der diesem Ansatz zugrunde liegenden Arbeiten vorgenommen und bringt an dieser Stelle keine neuen Erkenntnisse.
@@ -375,12 +375,12 @@ Verbesserung abgeleitet werden. Die mögliche globale Einordnung des Gesamtsyste
 \section{Zusammenfassung} % (fold)
 \label{sec:konz_eval_zusammenfassung}
 
-In diesem Kapitel wurde das hier vorgestellte Werkzeug in die in Abschnitt \ref{sec:konzeptualisierungen_von_tangible_interfaces} beschriebenen Ansätze zur konzeptuellen Betrachtung eines Tangible User Interface eingeordnet. Damit wurden zwei Zielsetzungen verfolgt. Einerseits sollten die vorgestellten Ansätze hinsichtlich ihrer grundsätzlichen Eignung zur und Ausdrucksstärke bei der Beschreibung eines Tangible User Interfaces überprüft werden. Andererseits sollte aus der strukturierten konzeptuellen Betrachtung des Werkzeugs mögliche Inkonsistenzen in Design und Implementierung identifiziert werden und ggf. daraus Maßnahmen zur Verbesserung des Werkzeugs abgeleitet werden. Diese beiden Aspekte werden in den folgenden beiden Abschnitten getrennt betrachtet.
+In diesem Kapitel wurde das hier vorgestellte Werkzeug in die in Abschnitt \ref{sec:konzeptualisierungen_von_tangible_interfaces} beschriebenen Ansätze zur konzeptionellen Betrachtung eines Tangible User Interface eingeordnet. Damit wurden zwei Zielsetzungen verfolgt. Einerseits sollten die vorgestellten Ansätze hinsichtlich ihrer grundsätzlichen Eignung zur und Ausdrucksstärke bei der Beschreibung eines Tangible User Interfaces überprüft werden. Andererseits sollte aus der strukturierten konzeptionellen Betrachtung des Werkzeugs mögliche Inkonsistenzen in Design und Implementierung identifiziert werden und ggf. daraus Maßnahmen zur Verbesserung des Werkzeugs abgeleitet werden. Diese beiden Aspekte werden in den folgenden beiden Abschnitten getrennt betrachtet.
 
-\subsection{Eignung der konzeptuellen Ansätze zur Beschreibung} % (fold)
-\label{sub:eignung_der_konzeptuellen_ansätze}
+\subsection{Eignung der konzeptionellen Ansätze zur Beschreibung} % (fold)
+\label{sub:eignung_der_konzeptionellen_ansätze}
 
-% subsection eignung_der_konzeptuellen_ansätze (end)
+% subsection eignung_der_konzeptionellen_ansätze (end)
 
 \subsection{Verbesserungspotential für das Werkzeug} % (fold)
 \label{sub:verbesserungspotential_für_das_werkzeug}
@@ -391,4 +391,4 @@ In diesem Kapitel wurde das hier vorgestellte Werkzeug in die in Abschnitt \ref{
 
 % section konz_eval_zusammenfassung (end)
 
-% chapter konzeptuelle_evaluierung (end)
+% chapter konzeptionelle_evaluierung (end)

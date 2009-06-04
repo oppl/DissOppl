@@ -1,7 +1,7 @@
 \chapter{Evaluierung der Verwendbarkeit des Werkzeugs} % (fold)
 \label{cha:eval_werkzeug}
 
-Im ersten empirischen Teil der Evaluierung wurde die grundlegende Verständlichkeit und Verwendbarkeit des Werkzeug geprüft. Ziel war es hier, konzeptuelle und technische Eigenschaften bzw. Verhaltensweisen des Werkzeugs zu identifizieren, die den Modellierungsprozess behindern oder unterbrechen. Darunter fällt grundsätzlich jede Eigenschaft und jede Verhaltensweise, die die Benutzer zwingt, sich mit dem technischen System an sich zu beschäftigen und von der Erfüllung der eigentlichen Aufgabe ablenkt bzw. diese unterbricht.
+Im ersten empirischen Teil der Evaluierung wurde die grundlegende Verständlichkeit und Verwendbarkeit des Werkzeug geprüft. Ziel war es hier, konzeptionelle und technische Eigenschaften bzw. Verhaltensweisen des Werkzeugs zu identifizieren, die den Modellierungsprozess behindern oder unterbrechen. Darunter fällt grundsätzlich jede Eigenschaft und jede Verhaltensweise, die die Benutzer zwingt, sich mit dem technischen System an sich zu beschäftigen und von der Erfüllung der eigentlichen Aufgabe ablenkt bzw. diese unterbricht.
 
 Die Untersuchung wurde daneben auch genutzt, um explorativ die inhaltliche Verwendung des Systems zu untersuchen (d.h. wie es für seinen eigentlichen Verwendungszweck, die Modellierung, eingesetzt wurde) und Hypothesen abzuleiten, die in weiteren Schritten getestet werden konnten.
 
@@ -10,75 +10,79 @@ Die Untersuchung wurde daneben auch genutzt, um explorativ die inhaltliche Verwe
 
 In diesem Abschnitt werden die Hypothesen angeführt und begründet, die in diesem Teil der empirischen Untersuchung geprüft werden. Die hier angegebenen Hypothesen gehen auf die Eigenschaften des Werkzeugs in der Verwendung durch die Benutzer ein. Bei der Hypothesenbildung wird auf den Verwendungszweck des Werkzeugs, die Unterstützung der Bildung diagrammatischer Modelle, Rücksicht genommen -- die Modelle selbst sind jedoch nicht Gegenstand der Betrachtung, sondern werden erst im nächsten Kapitel behandelt. Nicht berücksichtigt wird außerdem die Verwendung zur Unterstützung von Articulation Work -- die Implikationen des Werkzeugs auf diese sind Gegenstand von Kapitel \ref{cha:eval_aw}.
 
-\subsection{Konzeptuell begründete Hypothesen} % (fold)
-\label{sub:konzeptuell_begründete_hypothesen}
+\subsection{Konzeptionell begründete Hypothesen} % (fold)
+\label{sub:konzeptionell_begründete_hypothesen}
 
-Die folgenden Hypothesen wurden aus den Anforderungen an das Werkzeug (siehe Kapitel XY) abgeleitet. Neben der Formulierung der Hypothese ist jeweils 
+Die folgenden Hypothesen wurden aus der Aufgabenstellung (siehe Kapitel XY) sowie den Anforderungen an das Werkzeug (siehe Kapitel XY) abgeleitet. Neben der Formulierung der Hypothese ist jeweils die Begründung aus der Konzeption des Werkzeugs angeführt.
+
+Der grundlegende Anspruch des Werkzeugs ist es, explizite Articulation Work zu unterstützen. Wie in Teil \ref{prt:grundlagen} dieser Arbeit beschrieben, wird dies hier über die Externalisierung und Aushandlung von mentalen Modellen realisiert. Ein gängiges Mittel, um mentale Modelle zu repräsentieren, sind diagrammatische Modelle, worunter die Ergebnisse der vorgeschlagenen Methoden zur Externalisierung -- Concept Mapping und Strukturlegetechniken -- fallen. Das Werkzeug muss also die Repräsentation diagrammatischer Modelle unterstützen. 
 
 \begin{hyp}
 	\label{hyp:diagmodelle}
 	Das Werkzeug ermöglicht die Repräsentation diagrammatische Modelle.
 \end{hyp}
 
+Articulation Work ist immer in einen kollaborativen Arbeitszusammenhang eingebettet. Die Kollaboration findet dabei nicht nur im produktiven Teil der Arbeit statt, sondern hat immer auch Auswirkungen auf die Articulation Work. Jede Unterstützung von Articulation Work muss damit auch in kollaborativen Szenarien einsetzbar sein. Dies gilt auch für das hier vorgestellte Werkzeug, das die kollaborative Bearbeitung einer Aufgaben (hier: der Externalisierung und Abstimmung mentaler Modelle) ermöglichen muss. 
+
 \begin{hyp}
 	\label{hyp:kollaborativ}
 	Das Werkzeug ermöglicht kollaboratives Arbeiten an einer Aufgabe.
 \end{hyp}
 
-Abhängige Variable: Zeitverteilung der Beteiligung der Benutzer (quant), gleichzeitige Manipulation (qual)
+\begin{hyp}
+	\label{hyp:kontexte}
+	Das Werkzeug ist gleichwertig für Modellierungsaufgaben in unterschiedlichen Kontexten einsetzbar.
+\end{hyp}
+
+Die ersten drei hier formulierten Hypothesen sind unmittelbar aus der globalen Zielsetzung abgeleitet und bilden die grundlegenden Anforderungen an das Werkzeug bei der Unterstützung von Articulation Work ab. Die nun folgenden Hypothesen sind konzeptionell nicht mehr direkt auf die globale Zielsetzung ausgerichtet sondern stellen auf Funktionalität des Werkzeugs ab, die den Modellbildungsprozess unterstützen soll. 
+
+Die erste dieser Hypothesen bildet eine wesentliche Funktionalität des Werkzeugs, nämlich die Möglichkeit durch die Entstehungsgeschichte des erstellten Modells zu navigieren, ab. In der dieser Funktionalität zugrundeliegenden Literatur (\citep{Shipman00}, \citep{Klemmer02}) wird diese als wesentlich bezeichnet, wenn Externalisierungsprozesse unterbrochen werden, kollaborativ durchgeführt werden oder Dritten die Möglichkeit gegeben werden soll, die Entstehung des Modells nachzuvollziehen. Allen drei Aspekten liegt die Annahme zugrunde, dass in der Historie des Externalisierungsprozesses die dem Ergebnis zugrundeliegenden Ideen und Annahmen zu erkennen sind. Im Kontext dieser Arbeit bedeutet dies, dass aus der Nachverfolgung der Historie des externalisierten Modells die diesem zugrundeliegenden mentalen Modelle verständlich und nachvollziehbar werden. 
 
 \begin{hyp}
 	\label{hyp:historie}
-	Die Möglichkeit zur Rekapitulation der Modellierungshistorie verbessert das Modellverständnis.
+	Die Reflexion des Modellierungsverlaufs ermöglicht das Verständnis der dem Modell zugrundeliegenden mentalen Modelle.
 \end{hyp}
+
+\begin{hyp}
+	\label{hyp:wiederherstellung}
+	Die Möglichkeit der Wiederherstellung vergangener Modellzustände fördert die Bereitschaft alternative Repräsentationen auszuprobieren.
+\end{hyp}
+
+Die letzten beiden Hypothesen dieses Abschnitts sind ausschließlich auf die Verwendung des Werkzeugs an sich ausgerichtet und stehen nicht im Kontext von Articulation Work oder der Unterstützung der Externalisierung mentaler Modelle. Hypothese \ref{hyp:behinderung} deckt TODO
 
 \begin{hyp}
 	\label{hyp:behinderung}
 	Das Werkzeug behindert die Modellbildung nicht.
 \end{hyp}
-Abhängige Variable: Notwendige Korrekturen von Fehlfunktionen des Tisches, Systemabstürze (quant.), Empfinden der Benutzer (qual).
 
-\begin{hyp}
-	\label{hyp:stabilität}
-	Das Werkzeug ist von unterschiedlichen Benutzergruppen bedienbar.
-\end{hyp}
-
-Abhängige Variable: Modellgröße in Abhängigkeit der Modellierungdauer (quant), Aussagen der Benutzer (qual)
-Idee: Wenn die Modellgröße mit der Modellierungsdauer positiv korreliert, ist der Zeitanteil, der zur Beschäftigung mit dem Werkzeug notwendig ist, immer gleich groß, d.h. verändert sich nicht zwischen den Anwendungen. 
-
-Unabh. Var.: Tisch, Modellierungsaufgabe
+Hypothese \ref{hyp:gewöhnung} wurde formuliert, um eventuell auftretende, das Werkzeug betreffende, Lern- und Gewöhnungseffekte bei wiederholter Verwendung zu beurteilen. TODO
 
 \begin{hyp}
 	\label{hyp:gewöhnung}
 	Wiederholte Verwendung des Werkzeugs führt zu schnellerer Modellbildung und weniger Fehlbedienungen.
 \end{hyp}
 
-Abhängige Variable: Fehlbedienungen in Abhängigkeit des Durchgangs, Modellierungsdauer in Abhängigkeit des Durchgangs
-
-Störvariablen: Modellgröße (Korrelation mit Dauer), Veränderte Funktionalität des Werkzeugs
-
-% subsection konzeptuell_begründete_hypothesen (end)
+% subsection konzeptionell_begründete_hypothesen (end)
 
 \subsection{Explorativ gebildete Hypothesen} % (fold)
 \label{sub:explorativ_gebildete_hypothesen}
+
+Neben den aus der Aufgabenstellung abgeleiteten Hypothesen wurden einige Hypothesen auch während der Durchführung der einzelnen Evaluierungs-Blöcke gebildet. Diese Hypothesen sind spezifischer auf einzelne Aspekte des Werkzeugs abgestellt und decken beobachtete Auffälligkeiten und Missverständnisse in der Verwendung des Werkzeugs ab. 
+
+Die erste in diesem Zusammenhang beobachtete Auffälligkeit betrifft die Herstellung von Verbindern zwischen einzelnen Modellelementen. Wie in Abschnitt \ref{sub:verbinden_von_modellelementen} beschrieben, existieren zwei Möglichkeiten, diese Funktion auszuführen. Einerseits können die beiden Modellelemente, die verbunden werden sollen, mit Markierungs-Tokens ausgewählt werden, worauf hin eine Verbindung hergestellt werden. Andererseits können Verbinder auch durch das Zusammenführen der zu verbindenden Blöcke (bis sich deren Breitseiten berühren) hergestellt werden. In der ersten Implementierung des Werkzeugs, die im Evaluierungs-Block 1 und im ersten Teil des zweiten Blocks verwendet wurde, war lediglich die erste Variante verfügbar. Die Möglichkeit zur Herstellung von Verbindern wurde in den in diesen Blöcken durchgeführten Anwendungen kaum eingesetzt. Dies führte einerseits zur Bildung der Hypothese \ref{hyp:keineverbinder} (siehe Abschnitt \ref{sub:m_explorativ_gebildete_hypothesen}), andererseits wurde bei ersten Auswertungen der Beobachtungen der im Verhältnis zum übrigen Modellierungs-Prozess hohe Zeit-Aufwand bei der Herstellung von Verbindern offensichtlich. Dieser Aufwand ist den Maßnahmen zur Stabilisierung der Erkennungsleistung des Werkzeugs geschuldet und kann mit den eingesetzten Interaktionsablauf nicht reduziert werden. Aufgrund einer Anregung eines Untersuchungsteilnehmers wurde deshalb die oben beschriebene zusätzliche Möglichkeit zur Herstellung von Verbindungen implementiert. Zu untersuchen ist nun, ob diese Maßnahme die Nutzung von Verbindern bei der Modellbildung tatsächlich erhöht.
 
 \begin{hyp}
 	\label{hyp:verbinder}
 	Die Einführung der alternativen Möglichkeit zur Verbindungsherstellung erhöht die Nutzung von Verbindern bei der Modellerstellung.
 \end{hyp}
 
-Unabh. Variable: Modellierungs-Tisch
-Abhängige Variable: Connectedness (quant)
-Störvariable: Modellierungsaufgabe
-
-Störvariable ausgeschaltet, indem die Signifikanz der Änderung der Connectedness zwischen zwei Blöcken mit gleicher Grundgesamtheit und gleicher Aufgabenstellung gemessen wird.
+Die zweite hier aufgestellte Hypothese betrifft eine Auffälligkeit bei der Verwendung des Löschtokens. Das Löschtoken wird verwendet, um das Werkzeug in einen Modus zu versetzen, in dem Verbinder gelöscht werden können. Schon die konzeptionelle Einordnung des Werkzeugs in Kapitel \ref{cha:konzeptionelle_evaluierung} zeigte Potential für Missverständnisse in der Verwendung dieses Tokens (siehe z.B. die Abschnitte \ref{sec:spezifikation_des_tac_schemas_nach_shaer_et_al_} und \ref{sec:einordnung_in_die_taxonomie_von_fishkin}). Zusammengefasst liegt die aus der Theorie ableitbare Problematik darin, dass durch die äußere Form des Tokens -- einem Radiergummi -- eine Metapher für dessen Verwendung („ausradieren“ von Elementen) suggeriert wird, die in dieser Form im Werkzeug nicht umgesetzt ist, da das Token lediglich als Schalter fungiert. Erste Beobachtungen deuteten darauf hin, dass die Verwendung des Löschtoken tatsächlich unverständlich oder missverständlich zu sein scheint. Die zugehörige Hypothese ist positiv formuliert, zu erwarten wäre demnach, dass sie verworfen werden muss.
 
 \begin{hyp}
 	\label{hyp:radierer}
 	Das Löschtoken ermöglicht intuitives Löschen von Modellelementen.
 \end{hyp}
 
-Abhängige Variablen: Anzahl der Fehlbedienungen im Verh. zu allen Anwendungen (quant), Art des Missverständnisses (qual) 
 % subsection explorativ_gebildete_hypothesen (end)
 % section hypothesen (end)
 
@@ -96,12 +100,53 @@ Abhängige Variablen: Anzahl der Fehlbedienungen im Verh. zu allen Anwendungen (
 \subsubsection{Kollaboratives Arbeiten} % (fold)
 \label{ssub:kollaboratives_arbeiten}
 
+Abhängige Variable: Zeitverteilung der Beteiligung der Benutzer (quant), gleichzeitige Manipulation (qual)
+
 % subsubsection kollaboratives_arbeiten (end)
+
+\subsubsection{Einsetzbarkeit in unterschiedlichen Kontexten} % (fold)
+\label{ssub:einsetzbarkeit_in_unterschiedlichen_kontexten}
+
+Abhängige Variable: Modellgröße in Abhängigkeit der Modellierungdauer (quant), Aussagen der Benutzer (qual)
+Idee: Wenn die Modellgröße mit der Modellierungsdauer positiv korreliert, ist der Zeitanteil, der zur Beschäftigung mit dem Werkzeug notwendig ist, immer gleich groß, d.h. verändert sich nicht zwischen den Anwendungen. 
+
+Unabh. Var.: Tisch, Modellierungsaufgabe
+
+% subsubsection einsetzbarkeit_in_unterschiedlichen_kontexten (end)
 
 \subsubsection{Nicht-Behinderung} % (fold)
 \label{ssub:nicht_behinderung}
 
+Abhängige Variable: Notwendige Korrekturen von Fehlfunktionen des Tisches, Systemabstürze (quant.), Empfinden der Benutzer (qual).
+
 % subsubsection nicht_behinderung (end)
+
+\subsubsection{Gewöhnnung an das Werkzeug} % (fold)
+\label{ssub:gewöhnnung_an_das_werkzeug}
+
+Abhängige Variable: Fehlbedienungen in Abhängigkeit des Durchgangs, Modellierungsdauer in Abhängigkeit des Durchgangs
+
+Störvariablen: Modellgröße (Korrelation mit Dauer), Veränderte Funktionalität des Werkzeugs
+
+% subsubsection gewöhnnung_an_das_werkzeug (end)
+
+\subsubsection{Herstellung von Verbindern} % (fold)
+\label{ssub:herstellung_von_verbindern}
+
+Unabh. Variable: Modellierungs-Tisch
+Abhängige Variable: Connectedness (quant)
+Störvariable: Modellierungsaufgabe
+
+Störvariable ausgeschaltet, indem die Signifikanz der Änderung der Connectedness zwischen zwei Blöcken mit gleicher Grundgesamtheit und gleicher Aufgabenstellung gemessen wird.
+
+% subsubsection herstellung_von_verbindern (end)
+
+\subsubsection{Löschtoken} % (fold)
+\label{ssub:löschtoken}
+
+Abhängige Variablen: Anzahl der Fehlbedienungen im Verh. zu allen Anwendungen (quant), Art des Missverständnisses (qual) 
+
+% subsubsection löschtoken (end)
 
 % subsection operationalisierung (end)
 

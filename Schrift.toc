@@ -211,9 +211,9 @@
 \contentsline {section}{\numberline {10.6}Zusammenfassung}{192}{section.10.6}
 \contentsline {part}{\numberline {III}Evaluierung}{193}{part.3}
 \contentsline {xpart}{Evaluierung}{195}{part.3}
-\contentsline {chapter}{\numberline {11}Konzeptuelle Einordnung}{197}{chapter.11}
+\contentsline {chapter}{\numberline {11}Konzeptionelle Einordnung}{197}{chapter.11}
 \contentsline {section}{\numberline {11.1}Einordnung in den Bricks-Designraum}{197}{section.11.1}
-\contentsline {subsection}{\numberline {11.1.1}Abbildung}{197}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.1}Abbildung}{198}{subsection.11.1.1}
 \contentsline {subsection}{\numberline {11.1.2}Bewertung}{199}{subsection.11.1.2}
 \contentsline {section}{\numberline {11.2}Bestimmung der Eigenschaften des Graspable User Interfaces Ansatz}{200}{section.11.2}
 \contentsline {subsection}{\numberline {11.2.1}Abbildung}{200}{subsection.11.2.1}
@@ -222,7 +222,7 @@
 \contentsline {subsection}{\numberline {11.3.1}Abbildung}{201}{subsection.11.3.1}
 \contentsline {subsection}{\numberline {11.3.2}Bewertung}{202}{subsection.11.3.2}
 \contentsline {section}{\numberline {11.4}Einordnung in das Ordnungssystem von Holmquist et al.}{202}{section.11.4}
-\contentsline {subsection}{\numberline {11.4.1}Abbildung}{202}{subsection.11.4.1}
+\contentsline {subsection}{\numberline {11.4.1}Abbildung}{203}{subsection.11.4.1}
 \contentsline {subsection}{\numberline {11.4.2}Bewertung}{203}{subsection.11.4.2}
 \contentsline {section}{\numberline {11.5}Einordnung in das Object-Meaning-Kontinuum}{204}{section.11.5}
 \contentsline {subsection}{\numberline {11.5.1}Abbildung}{204}{subsection.11.5.1}
@@ -236,20 +236,20 @@
 \contentsline {section}{\numberline {11.8}Einordnung in das Framework nach Koleva et al.}{209}{section.11.8}
 \contentsline {subsection}{\numberline {11.8.1}Abbildung}{209}{subsection.11.8.1}
 \contentsline {subsection}{\numberline {11.8.2}Bewertung}{211}{subsection.11.8.2}
-\contentsline {section}{\numberline {11.9}Spezifikation des TAC-Schemas nach Shaer et al.}{211}{section.11.9}
+\contentsline {section}{\numberline {11.9}Spezifikation des TAC-Schemas nach Shaer et al.}{212}{section.11.9}
 \contentsline {subsection}{\numberline {11.9.1}Abbildung}{212}{subsection.11.9.1}
 \contentsline {subsection}{\numberline {11.9.2}Bewertung}{214}{subsection.11.9.2}
-\contentsline {section}{\numberline {11.10}Einordnung in die Kategorien von TUI-Anwendungen}{214}{section.11.10}
+\contentsline {section}{\numberline {11.10}Einordnung in die Kategorien von TUI-Anwendungen}{215}{section.11.10}
 \contentsline {subsection}{\numberline {11.10.1}Abbildung}{215}{subsection.11.10.1}
 \contentsline {subsection}{\numberline {11.10.2}Bewertung}{215}{subsection.11.10.2}
 \contentsline {section}{\numberline {11.11}Einordnung in die Taxonomie von Fishkin}{215}{section.11.11}
-\contentsline {subsection}{\numberline {11.11.1}Abbildung}{215}{subsection.11.11.1}
+\contentsline {subsection}{\numberline {11.11.1}Abbildung}{216}{subsection.11.11.1}
 \contentsline {subsection}{\numberline {11.11.2}Bewertung}{218}{subsection.11.11.2}
-\contentsline {section}{\numberline {11.12}Betrachtung im Lichte der Retrospektive von Ishii}{218}{section.11.12}
+\contentsline {section}{\numberline {11.12}Betrachtung im Lichte der Retrospektive von Ishii}{219}{section.11.12}
 \contentsline {subsection}{\numberline {11.12.1}Einordnung}{219}{subsection.11.12.1}
-\contentsline {subsection}{\numberline {11.12.2}Bewertung}{219}{subsection.11.12.2}
+\contentsline {subsection}{\numberline {11.12.2}Bewertung}{220}{subsection.11.12.2}
 \contentsline {section}{\numberline {11.13}Zusammenfassung}{220}{section.11.13}
-\contentsline {subsection}{\numberline {11.13.1}Eignung der konzeptuellen Ansätze zur Beschreibung}{220}{subsection.11.13.1}
+\contentsline {subsection}{\numberline {11.13.1}Eignung der konzeptionellen Ansätze zur Beschreibung}{220}{subsection.11.13.1}
 \contentsline {subsection}{\numberline {11.13.2}Verbesserungspotential für das Werkzeug}{220}{subsection.11.13.2}
 \contentsline {chapter}{\numberline {12}Überblick über die empirische Untersuchung}{221}{chapter.12}
 \contentsline {section}{\numberline {12.1}Untersuchungsaspekte}{221}{section.12.1}
@@ -258,81 +258,85 @@
 \contentsline {subsection}{\numberline {12.1.3}Evaluierung der Articulation Work}{224}{subsection.12.1.3}
 \contentsline {section}{\numberline {12.2}Globales Untersuchungsdesign}{225}{section.12.2}
 \contentsline {subsection}{\numberline {12.2.1}Block 1: Technische Evaluierung}{226}{subsection.12.2.1}
-\contentsline {subsubsection}{Kontext}{226}{section*.92}
-\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{226}{section*.93}
-\contentsline {subsubsection}{Anwendungen und Teilnehmer}{226}{section*.94}
-\contentsline {subsubsection}{Verwendung der Ergebnisse}{227}{section*.95}
+\contentsline {subsubsection}{Kontext}{226}{section*.4}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{226}{section*.5}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{226}{section*.6}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{227}{section*.7}
 \contentsline {subsection}{\numberline {12.2.2}Block 2: Aushandlung von Zusammenarbeit 1}{227}{subsection.12.2.2}
-\contentsline {subsubsection}{Kontext}{227}{section*.96}
-\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{228}{section*.97}
-\contentsline {subsubsection}{Anwendungen und Teilnehmer}{228}{section*.98}
-\contentsline {subsubsection}{Verwendung der Ergebnisse}{229}{section*.99}
+\contentsline {subsubsection}{Kontext}{227}{section*.8}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{228}{section*.9}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{228}{section*.10}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{229}{section*.11}
 \contentsline {subsection}{\numberline {12.2.3}Block 3: Concept Mapping 1}{229}{subsection.12.2.3}
-\contentsline {subsubsection}{Kontext}{230}{section*.100}
-\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{230}{section*.101}
-\contentsline {subsubsection}{Anwendungen und Teilnehmer}{231}{section*.102}
-\contentsline {subsubsection}{Verwendung der Ergebnisse}{231}{section*.103}
+\contentsline {subsubsection}{Kontext}{230}{section*.12}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{230}{section*.13}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{231}{section*.14}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{231}{section*.15}
 \contentsline {subsection}{\numberline {12.2.4}Block 4: Aushandlung von Zusammenarbeit 2}{232}{subsection.12.2.4}
-\contentsline {subsubsection}{Kontext}{232}{section*.104}
-\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{232}{section*.105}
-\contentsline {subsubsection}{Anwendungen und Teilnehmer}{232}{section*.106}
-\contentsline {subsubsection}{Verwendung der Ergebnisse}{232}{section*.107}
+\contentsline {subsubsection}{Kontext}{232}{section*.16}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{232}{section*.17}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{232}{section*.18}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{232}{section*.19}
 \contentsline {subsection}{\numberline {12.2.5}Block 5: Concept Mapping 2}{233}{subsection.12.2.5}
-\contentsline {subsubsection}{Kontext}{233}{section*.108}
-\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{233}{section*.109}
-\contentsline {subsubsection}{Anwendungen und Teilnehmer}{234}{section*.110}
-\contentsline {subsubsection}{Verwendung der Ergebnisse}{234}{section*.111}
-\contentsline {section}{\numberline {12.3}Eingesetzte Werkzeuge und Verfahren}{234}{section.12.3}
-\contentsline {subsection}{\numberline {12.3.1}Werkzeuge}{234}{subsection.12.3.1}
-\contentsline {subsection}{\numberline {12.3.2}Korrelationstests}{234}{subsection.12.3.2}
-\contentsline {subsection}{\numberline {12.3.3}Signifikanztests}{234}{subsection.12.3.3}
-\contentsline {section}{\numberline {12.4}Zusammenfassung}{234}{section.12.4}
+\contentsline {subsubsection}{Kontext}{233}{section*.20}
+\contentsline {subsubsection}{Aufgabenstellung und Ablauf}{233}{section*.21}
+\contentsline {subsubsection}{Anwendungen und Teilnehmer}{234}{section*.22}
+\contentsline {subsubsection}{Verwendung der Ergebnisse}{234}{section*.23}
+\contentsline {section}{\numberline {12.3}Eingesetzte Werkzeuge und Verfahren}{235}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}Werkzeuge}{235}{subsection.12.3.1}
+\contentsline {subsection}{\numberline {12.3.2}Korrelationstests}{235}{subsection.12.3.2}
+\contentsline {subsection}{\numberline {12.3.3}Signifikanztests}{235}{subsection.12.3.3}
+\contentsline {section}{\numberline {12.4}Zusammenfassung}{235}{section.12.4}
 \contentsline {chapter}{\numberline {13}Evaluierung der Verwendbarkeit des Werkzeugs}{237}{chapter.13}
 \contentsline {section}{\numberline {13.1}Hypothesen}{237}{section.13.1}
-\contentsline {subsection}{\numberline {13.1.1}Konzeptuell begründete Hypothesen}{237}{subsection.13.1.1}
-\contentsline {subsection}{\numberline {13.1.2}Explorativ gebildete Hypothesen}{238}{subsection.13.1.2}
-\contentsline {section}{\numberline {13.2}Untersuchungsdesign und Durchführung}{239}{section.13.2}
-\contentsline {subsection}{\numberline {13.2.1}Operationalisierung}{239}{subsection.13.2.1}
-\contentsline {subsubsection}{Repräsentation}{239}{section*.112}
-\contentsline {subsubsection}{Kollaboratives Arbeiten}{239}{section*.113}
-\contentsline {subsubsection}{Nicht-Behinderung}{239}{section*.114}
-\contentsline {subsection}{\numberline {13.2.2}Datenbasis}{239}{subsection.13.2.2}
-\contentsline {subsection}{\numberline {13.2.3}Durchführung}{239}{subsection.13.2.3}
-\contentsline {subsubsection}{Stichprobe}{239}{section*.115}
-\contentsline {subsubsection}{Dauer der Werkzeugverwendung}{240}{section*.116}
-\contentsline {section}{\numberline {13.3}Ergebnisse}{242}{section.13.3}
-\contentsline {subsection}{\numberline {13.3.1}Repräsentation diagrammatischer Modelle}{242}{subsection.13.3.1}
-\contentsline {subsubsection}{Auswertung}{242}{section*.117}
-\contentsline {subsection}{\numberline {13.3.2}Diskussion}{242}{subsection.13.3.2}
-\contentsline {subsection}{\numberline {13.3.3}Kollaboratives Arbeiten}{242}{subsection.13.3.3}
-\contentsline {subsubsection}{Auswertung}{242}{section*.118}
-\contentsline {subsection}{\numberline {13.3.4}Diskussion}{242}{subsection.13.3.4}
-\contentsline {subsection}{\numberline {13.3.5}Erstellen von Verbindungen}{242}{subsection.13.3.5}
-\contentsline {subsubsection}{Auswertung}{242}{section*.119}
-\contentsline {subsection}{\numberline {13.3.6}Diskussion}{242}{subsection.13.3.6}
-\contentsline {subsection}{\numberline {13.3.7}Verwendung des Löschtokens}{242}{subsection.13.3.7}
-\contentsline {subsubsection}{Auswertung}{242}{section*.120}
-\contentsline {subsection}{\numberline {13.3.8}Diskussion}{245}{subsection.13.3.8}
-\contentsline {chapter}{\numberline {14}Evaluierung der erstellten Modelle}{247}{chapter.14}
-\contentsline {section}{\numberline {14.1}Hypothesen}{247}{section.14.1}
-\contentsline {subsection}{\numberline {14.1.1}Konzeptuell begründete Hypothesen}{247}{subsection.14.1.1}
-\contentsline {subsection}{\numberline {14.1.2}Explorativ gebildete Hypothesen}{247}{subsection.14.1.2}
-\contentsline {section}{\numberline {14.2}Untersuchungsdesign und Durchführung}{247}{section.14.2}
-\contentsline {section}{\numberline {14.3}Ergebnisse}{247}{section.14.3}
-\contentsline {subsection}{\numberline {14.3.1}Connectedness}{247}{subsection.14.3.1}
-\contentsline {chapter}{\numberline {15}Evaluierung der durchgeführten Articulation Work}{249}{chapter.15}
-\contentsline {section}{\numberline {15.1}Hypothesen}{249}{section.15.1}
-\contentsline {subsection}{\numberline {15.1.1}Konzeptuell begründete Hypothesen}{249}{subsection.15.1.1}
-\contentsline {subsection}{\numberline {15.1.2}Explorativ gebildete Hypothesen}{249}{subsection.15.1.2}
-\contentsline {section}{\numberline {15.2}Untersuchungsdesign und Durchführung}{249}{section.15.2}
-\contentsline {section}{\numberline {15.3}Ergebnisse}{249}{section.15.3}
+\contentsline {subsection}{\numberline {13.1.1}Konzeptionell begründete Hypothesen}{237}{subsection.13.1.1}
+\contentsline {subsection}{\numberline {13.1.2}Explorativ gebildete Hypothesen}{239}{subsection.13.1.2}
+\contentsline {section}{\numberline {13.2}Untersuchungsdesign und Durchführung}{240}{section.13.2}
+\contentsline {subsection}{\numberline {13.2.1}Operationalisierung}{240}{subsection.13.2.1}
+\contentsline {subsubsection}{Repräsentation}{240}{section*.24}
+\contentsline {subsubsection}{Kollaboratives Arbeiten}{240}{section*.25}
+\contentsline {subsubsection}{Einsetzbarkeit in unterschiedlichen Kontexten}{241}{section*.26}
+\contentsline {subsubsection}{Nicht-Behinderung}{241}{section*.27}
+\contentsline {subsubsection}{Gewöhnnung an das Werkzeug}{241}{section*.28}
+\contentsline {subsubsection}{Herstellung von Verbindern}{241}{section*.29}
+\contentsline {subsubsection}{Löschtoken}{241}{section*.30}
+\contentsline {subsection}{\numberline {13.2.2}Datenbasis}{242}{subsection.13.2.2}
+\contentsline {subsection}{\numberline {13.2.3}Durchführung}{242}{subsection.13.2.3}
+\contentsline {subsubsection}{Stichprobe}{242}{section*.31}
+\contentsline {subsubsection}{Dauer der Werkzeugverwendung}{242}{section*.32}
+\contentsline {section}{\numberline {13.3}Ergebnisse}{245}{section.13.3}
+\contentsline {subsection}{\numberline {13.3.1}Repräsentation diagrammatischer Modelle}{245}{subsection.13.3.1}
+\contentsline {subsubsection}{Auswertung}{245}{section*.33}
+\contentsline {subsection}{\numberline {13.3.2}Diskussion}{245}{subsection.13.3.2}
+\contentsline {subsection}{\numberline {13.3.3}Kollaboratives Arbeiten}{245}{subsection.13.3.3}
+\contentsline {subsubsection}{Auswertung}{245}{section*.34}
+\contentsline {subsection}{\numberline {13.3.4}Diskussion}{245}{subsection.13.3.4}
+\contentsline {subsection}{\numberline {13.3.5}Erstellen von Verbindungen}{245}{subsection.13.3.5}
+\contentsline {subsubsection}{Auswertung}{245}{section*.35}
+\contentsline {subsection}{\numberline {13.3.6}Diskussion}{245}{subsection.13.3.6}
+\contentsline {subsection}{\numberline {13.3.7}Verwendung des Löschtokens}{245}{subsection.13.3.7}
+\contentsline {subsubsection}{Auswertung}{245}{section*.36}
+\contentsline {subsection}{\numberline {13.3.8}Diskussion}{248}{subsection.13.3.8}
+\contentsline {chapter}{\numberline {14}Evaluierung der erstellten Modelle}{249}{chapter.14}
+\contentsline {section}{\numberline {14.1}Hypothesen}{249}{section.14.1}
+\contentsline {subsection}{\numberline {14.1.1}Konzeptuell begründete Hypothesen}{249}{subsection.14.1.1}
+\contentsline {subsection}{\numberline {14.1.2}Explorativ gebildete Hypothesen}{249}{subsection.14.1.2}
+\contentsline {section}{\numberline {14.2}Untersuchungsdesign und Durchführung}{250}{section.14.2}
+\contentsline {section}{\numberline {14.3}Ergebnisse}{250}{section.14.3}
+\contentsline {subsection}{\numberline {14.3.1}Connectedness}{250}{subsection.14.3.1}
+\contentsline {chapter}{\numberline {15}Evaluierung der durchgeführten Articulation Work}{253}{chapter.15}
+\contentsline {section}{\numberline {15.1}Hypothesen}{253}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}Konzeptuell begründete Hypothesen}{253}{subsection.15.1.1}
+\contentsline {subsection}{\numberline {15.1.2}Explorativ gebildete Hypothesen}{253}{subsection.15.1.2}
+\contentsline {section}{\numberline {15.2}Untersuchungsdesign und Durchführung}{253}{section.15.2}
+\contentsline {section}{\numberline {15.3}Ergebnisse}{253}{section.15.3}
 \partbegin 
-\contentsline {chapter}{\numberline {16}Schlussbetrachtungen}{253}{chapter.16}
+\contentsline {chapter}{\numberline {16}Schlussbetrachtungen}{255}{chapter.16}
 \partbegin 
-\contentsline {part}{Verzeichnisse}{III}{part*.122}
-\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.123}
-\contentsline {chapter}{Tabellenverzeichnis}{IV}{appendix*.124}
-\contentsline {chapter}{Stichwortverzeichnis}{V}{appendix*.125}
-\contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{appendix*.126}
+\contentsline {part}{Verzeichnisse}{III}{part*.37}
+\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.38}
+\contentsline {chapter}{Tabellenverzeichnis}{IV}{appendix*.39}
+\contentsline {chapter}{Stichwortverzeichnis}{V}{appendix*.40}
+\contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{appendix*.41}
 \contentsline {chapter}{Bildquellen}{X}{table..1}
-\contentsline {chapter}{Literaturverzeichnis}{XIII}{appendix*.130}
+\contentsline {chapter}{Literaturverzeichnis}{XIII}{appendix*.44}
