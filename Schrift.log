@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  5 JUN 2009 01:28
+This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  6 JUN 2009 00:31
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -1021,40 +1021,44 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 290.
 [7]
+Overfull \hbox (0.34787pt too wide) detected at line 293
+[][] []\EU1/HoeflerText(0)/m/n/12 240
+ []
+
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 318.
+(scrreprt)            on input line 320.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 325.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 332.
+(scrreprt)            on input line 327.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 334.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 335.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 336.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 337.
-
-Underfull \vbox (badness 1112) has occurred while \output is active []
-
- [8]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 338.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 339.
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+ [8]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 340.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 341.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 342.
 )
 \tf@toc=\write10
 \openout10 = `Schrift.toc'.
@@ -1988,135 +1992,142 @@ Overfull \hbox (0.26413pt too wide) in paragraph at lines 11--12
 ]
 Package hyperref Info: bookmark level for unknown hyp defaults to 0 on input li
 ne 21.
-
-Overfull \hbox (0.99265pt too wide) in paragraph at lines 39--40
+ [238]
+Overfull \hbox (0.99265pt too wide) in paragraph at lines 41--42
 \EU1/HoeflerText(0)/m/n/12 zeichnet, wenn Externalisierungsprozesse unterbroche
 n werden, kollaborativ durch-
  []
 
-[238]
-Underfull \hbox (badness 3568) in paragraph at lines 48--49
+
+Underfull \hbox (badness 3568) in paragraph at lines 52--53
 []\EU1/HoeflerText(0)/m/it/12 Die Möglichkeit der Wiederherstellung vergangene
 r Modellzustände
  []
 
-
-Overfull \hbox (0.61095pt too wide) in paragraph at lines 70--71
+[239]
+Overfull \hbox (0.61095pt too wide) in paragraph at lines 74--75
 \EU1/HoeflerText(0)/m/n/12 thesen auch während der Durchführung der einzelnen
  Evaluierungs-Blöcke gebildet.
  []
 
 
-Overfull \hbox (0.11401pt too wide) in paragraph at lines 72--73
+Overfull \hbox (0.11401pt too wide) in paragraph at lines 76--77
 \EU1/HoeflerText(0)/m/n/12 ten Blocks verwendet wurde, war lediglich die erste 
 Variante verfügbar. Die Möglich-
  []
 
-[239] [240]
-Overfull \hbox (7.29074pt too wide) in paragraph at lines 156--157
+[240] [241] [242]
+Overfull \hbox (7.29074pt too wide) in paragraph at lines 164--165
 \EU1/HoeflerText(0)/m/n/12 Als Grundlage der Überprüfung der Hypothesen werde
 n hier die Evaluierungs-Blöcke
  []
 
-[241]
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 []\EU1/HoeflerText(0)/m/n/12 Aushandlung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 \EU1/HoeflerText(0)/m/n/12 (1. Durch-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 []\EU1/HoeflerText(0)/m/n/12 Aushandlung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 \EU1/HoeflerText(0)/m/n/12 (2. Durch-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 []\EU1/HoeflerText(0)/m/n/12 Concept
  []
 
 
-Overfull \hbox (5.43309pt too wide) in paragraph at lines 170--170
+Overfull \hbox (5.43309pt too wide) in paragraph at lines 178--178
 []$[][]\OML/cmm/m/it/12 n[]$| 
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 188--188
+Underfull \hbox (badness 5008) in paragraph at lines 196--196
 []\EU1/HoeflerText(0)/m/n/12 Aushandlung (1.
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 188--188
+Underfull \hbox (badness 3108) in paragraph at lines 196--196
 []\EU1/HoeflerText(0)/m/n/12 Aushandlung (2.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 []\EU1/HoeflerText(0)/m/n/12 Concept Map-
  []
 
 File: img/Evaluierung/usageTimeOverview.png Graphic file (type QTm)
 <use  "img/Evaluierung/usageTimeOverview.png" >
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 197--198
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-[242]
+[243]
 File: img/Evaluierung/usageTimeConceptMapping.png Graphic file (type QTm)
  <use  "img/Evaluierung/usageTimeConceptMapping.png" >
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 206--207
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 214--215
  [][] 
  []
 
 File: img/Evaluierung/usageTimeNegotiation.png Graphic file (type QTm)
 <use  "img/Evaluierung/usageTimeNegotiation.png" >
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 213--214
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 221--222
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [243]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1540) has occurred while \output is active []
 
  [244]
-[245]
-Underfull \hbox (badness 10000) in paragraph at lines 301--313
+[245] [246]
+Underfull \hbox (badness 10000) in paragraph at lines 309--321
 
  []
 
-[246]
-Underfull \hbox (badness 10000) in paragraph at lines 316--328
+[247]
+Underfull \hbox (badness 10000) in paragraph at lines 324--336
 
  []
 
 
 Underfull \vbox (badness 1394) has occurred while \output is active []
 
- [247])
-(./EvalModell.tex [248]
-Kapitel 14.
-File: img/Evaluierung/connectednessConceptMapping.png Graphic file (type QTm)
-<use  "img/Evaluierung/connectednessConceptMapping.png" > [249
+ [248])
+(./EvalModell.tex [249]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[250
 
 
 ]
+Kapitel 14.
+File: img/Evaluierung/connectednessConceptMapping.png Graphic file (type QTm)
+<use  "img/Evaluierung/connectednessConceptMapping.png" > [251]
 File: img/Evaluierung/connectednessAushandlung1.png Graphic file (type QTm)
 
 <use  "img/Evaluierung/connectednessAushandlung1.png" >
 File: img/Evaluierung/connectednessAushandlung2.png Graphic file (type QTm)
 
-<use  "img/Evaluierung/connectednessAushandlung2.png" >) (./EvalAW.tex [250]
-[251]
+<use  "img/Evaluierung/connectednessAushandlung2.png" >) (./EvalAW.tex [252]
+[253]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
@@ -2126,12 +2137,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[252
+[254
 
 
 ]
 Kapitel 15.
-)) [253] [1
+)) [255] [1
 
 
 
@@ -2320,12 +2331,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 14783 strings out of 494701
- 239137 string characters out of 1164829
- 439893 words of memory out of 3000000
- 17396 multiletter control sequences out of 10000+50000
+ 14782 strings out of 494701
+ 239121 string characters out of 1164829
+ 440030 words of memory out of 3000000
+ 17395 multiletter control sequences out of 10000+50000
  7578 words of font info for 62 fonts, out of 3000000 for 5000
  669 hyphenation exceptions out of 8191
  40i,11n,56p,2534b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Schrift.pdf (94 pages).
+Output written on Schrift.pdf (96 pages).
