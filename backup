@@ -1,2 +1,3 @@
+cd /Users/oppl/Desktop/Schrift/
 tar --exclude=".*" -czv *.tex img | gpg -e -v -r oppl -o ../../Dropbox/DissBackup/Schrift-`date +%d-%m-%y`.tar.gz.gpg
 
