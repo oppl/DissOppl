@@ -315,16 +315,61 @@ Als Grundlage dieser Untersuchung dienen die Ergebnisse der ersten drei Evaluier
 
 % subsection kollaboratives_arbeiten (end)
 
-\subsection{Erstellen von Verbindungen} % (fold)
-\label{sub:erstellen_von_verbindungen}
+\subsection{Herstellung von Verbindern} % (fold)
+\label{sub:herstellung_von_verbindern}
+
+Gegenstand der hier beschriebenen Untersuchung ist Hypothese \ref{hyp:verbinder} („Die Einführung der alternativen Möglichkeit zur Verbindungsherstellung erhöht die Nutzung von Verbindern bei der Modellerstellung.“). Zur Untersuchung herangezogen wurden die Werkzeuganwendungen aus Evaluierungsblock 2 ($n=9$). Dieser wurde gewählt, da in diesem Block alle Teilnehmer das Werkzeug zweimal mit der gleichen Aufgabenstellung anwandten, wobei in der ersten Anwendungsrunde lediglich die ursprüngliche Funktionalität zur Herstellung von Verbindern verfügbar war, in der zweiten Runde aber bereits der alternative Funktionalität implementiert war. Zur weiteren Überprüfung der Ergebnisse werden außerdem die Ergebnisse aus Block 3 ($n=17$) herangezogen, bei dessen Durchführung ebenfalls bereits die alternative Funktionalität verfügbar war.
 
 \subsubsection{Auswertung} % (fold)
 
+Grundlage der Auswertung ist das Modellmerkmal „Connectedness“, worunter hier das Verhältnis zwischen der Anzahl der in einem Modell verwendeten Verbindern und den verwendeten Modellelementen verstanden wird. In den einzelnen Evaluierungsblöcken verteilt sich die Connectedness wie in den Abbildungen \ref{fig:img_Evaluierung_connectednessAushandlung1}, \ref{fig:img_Evaluierung_connectednessAushandlung2} und \ref{fig:img_Evaluierung_connectednessConceptMapping} dargestellt.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/Evaluierung/connectednessAushandlung1.png}
+	\caption{Connectedness in Evaluierungsblock 2 - Durchgang 1}
+	\label{fig:img_Evaluierung_connectednessAushandlung1}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/Evaluierung/connectednessAushandlung2.png}
+	\caption{Connectedness in Evaluierungsblock 2 - Durchgang 2}
+	\label{fig:img_Evaluierung_connectednessAushandlung2}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=2in]{img/Evaluierung/connectednessConceptMapping.png}
+	\caption{Connctedness in Evaluierungsblock 3}
+	\label{fig:img_Evaluierung_connectednessConceptMapping}
+\end{figure}
+
+Zu prüfen ist, ob die Connectedness in jenem Evaluierungs-Blöcken bzw. -Durchgängen, in denen die alternative Funktionalität zur Verbindungs-Herstellung verfügbar war, signifikant höher ist, als in jenen, in denen dies nicht der Fall war. Berechnet wird die Signifikanz zwischen den Ergebnissen der beiden Durchgänge von Block 2 ($conn_{B21}$ und $conn_{B22}$) sowie zwischen den Ergebnissen ersten Durchgang von Block 2 und den Ergebnissen von Block 3 ($conn_{B3}$). Im zweiten Fall ist zu beachten, dass die Aufgabenstellung nicht identisch war und somit eine potentielle Störvariable wirksam wird. Aufgrund der geringen Stichprobengröße kommt zur Prüfung der Signifikanz der t-Test nicht in Frage, es wird der \emph{Wilcoxon-Test} herangezogen. Der t-Test setzt außerdem Normalverteilung der Prüfgrößen voraus, was zumindest bei der Verteilungen nicht der Fall ist (Sharpiro-Wilk-Test für $conn_{B22}$: $p=6.29e^{-5}$, damit ist die von Nicht-Normalverteilung auszugehen)
+
+Die Null-Hypothese des Wilcoxon-Tests ist, das die beiden Verteilungen identisch verteilt sind. Entsprechend dem erwarteten Ergebnis (dass die mit der alternativen Funktionalität durchgeführten Anwendungen höhere Connectedness aufweisen) wurde die Alternativ-Hypothese so festgelegt, dass sie angenommen wird, wenn die Verteilung des zweiten Blocks gegenüber dem ersten Block nach rechts verschoben (also wertemäßig höher) ist.
+
+Der Wilcoxon-Test für ungepaarte Stichproben ergibt für $conn_{B21}$ und $conn_{B22}$ und der eben beschriebenen Alternativ-Hypothese $p=0.9854$ -- die Alternativ-Hypothese ist damit anzunehmen, die zweite Verteilung (jene mit Einsatz der alternativen Funktionalität der Verbindungsherstellung) weist eine signifikant höhere Connectedness auf als die erste Verteilung (ohne diese Funktionalität). 
+
+Für $conn_{B21}$ und $conn_{B3}$ ergibt der Wilcoxon-Test für ungepaarte Stichproben mit der gleichen Alternativ-Hypothese $p=0.98$ -- auch hier ist die Alternativ-Hypothese anzunehmen.
+
+Für $conn_{B22}$ und $conn_{B3}$ ergibt der Wilcoxon-Test für ungepaarte Stichproben mit der gleichen Alternativ-Hypothese $p=0.7586$ -- auch hier ist die Alternativ-Hypothese anzunehmen.
+
 \subsubsection{Diskussion} % (fold)
+
+Aufgrund der Ergebnisse der berechneten Signifikanztests ist die Hypothese anzunehmen. Mit der Einführung der alternativen Möglichkeit zur Herstellung von Verbindungen war in den einzelnen Anwendungen des Werkzeugs eine Zunahme der Verwendung von Verbindern zu beobachten. Während die Benutzer bei der ursprünglichen Funktion zur Herstellung von Verbindungen zum Großteil auf diese verzichteten (auch bereits in Evaluierungsblock 1), wurden Verbinder unabhängig von der Aufgabenstellung mit der Einführung der alternativen Funktionalität verstärkt eingesetzt.
+
+Die Connectedness eignet sich als Parameter zur vergleichenden Beurteilung des Ausmaßes der Verwendung von Verbindern, da durch die Einbeziehung der Größe des Modells (repräsentiert durch die Anzahl der verwendeten Modellelemente) in die Berechnung den Wert für unterschiedliche Modelle vergleichbar macht. 
+
+Einfluss auf die Höhe der Connectedness hat aber die Aufgabenstellung, die zur Bildung des Modells führt. Unterschiedliche Modellierungsaufgaben führen zu unterschiedlichen Modell-Topologien, die sich wiederum in der Anzahl der verwendeten Verbinder auswirkt. Dies zeigt sich am Ergebnis des Wilcoxon-Tests für $conn_{B22}$ und $conn_{B3}$ -- in beiden Fällen stand die alternative Möglichkeit zur Verbindungsherstellung zur Verfügung $conn_{B3}$ ist trotzdem signifikant höher als $conn_{B22}$. Die kann darin begründet liegen, dass die Concept-Mapping-Aufgabe aus $conn_{B3}$ eher zu stärker verbundenen Modellen führt als eher zur ablauforientierten Modellen führende Arbeitsabstimmungs-Aufgabe aus $conn_{B22}$. Während bei Concept Mapping beliebige Konzepte in Beziehung stehen können, stehen Elemente bei ablauf-orientierten Modellen vor allem mit ihren kausalen Vorgängern und Nachfolgern in Beziehung, was die Anzahl der Verbinder einschränkt.
+
+Aufgrund der großen Rolle der Aufgabenstellung ist bei der Überprüfung der Hypothese wichtig, diese Störvariable möglichst auszuschalten. Zur Beurteilung wird deswegen ausschließlich der Wilcoxon-Test zwischen $conn_{B21}$ und $conn_{B22}$ herangezogen, da in diese beiden Verteilungen mit der gleichen Aufgabenstellung und identischer Stichprobe (jedoch in zeitlichem Abstand von ca. einem Monat) zustande gekommen sind (da die Messungen unabhängig voneinander entstanden, wird ein Wilcoxon-Test für ungepaarte Variablen verwendet). Das Resultat des Wilcoxon-Tests spricht stark für die Annahme der Alternativhypothese des Tests und damit für die Annahme von Hypothese \ref{hyp:verbinder}. Zu berücksichtigen ist hier jedoch die geringe Stichprobengröße, die die Aussagekraft des Ergebnisses wieder in Frage stellt.
 
 \subsubsection{Ergebnis} % (fold)
 
-% subsection erstellen_von_verbindungen (end)
+Die Auswertung zeigt eine signifikant höhere Verwendung von Verbindern bei Verfügbarkeit der alternativen Funktionalität zur Verbindungs-Herstellung. Auch die Natur der Aufgabenstellung scheint hohen Einfluss auf die Verwendung von Verbindern zu haben (siehe dazu auch die Diskussion von Hypothese \ref{hyp:keineverbinder} in Abschnitt XY). \textbf{Hypothese \ref{hyp:verbinder} kann auf Basis der vorliegenden Daten angenommen werden.}
+
+% subsection herstellung_von_verbindern (end)
 
 \subsection{Verwendung des Löschtokens} % (fold)
 \label{sub:verwendung_des_löschtokens}
