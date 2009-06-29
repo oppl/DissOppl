@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  12 JUN 2009 23:55
+This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  14 JUN 2009 23:39
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -2096,34 +2096,46 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 281--282
  []
 
 [251] [252]
+File: img/Evaluierung/timeDistSE1.png Graphic file (type QTm)
+ <use  "img/Evaluierung/timeDistSE1.png" >
+File: img/Evaluierung/timeDistSE2.png Graphic file (type QTm)
+
+<use  "img/Evaluierung/timeDistSE2.png" >
+File: img/Evaluierung/timeDistUE.png Graphic file (type QTm)
+
+<use  "img/Evaluierung/timeDistUE.png" > [253] [254]
 File: img/Evaluierung/connectednessAushandlung1.png Graphic file (type QTm)
- <use  "img/Evaluierung/connectednessAushandlung1.png" >
+
+<use  "img/Evaluierung/connectednessAushandlung1.png" >
 File: img/Evaluierung/connectednessAushandlung2.png Graphic file (type QTm)
 
 <use  "img/Evaluierung/connectednessAushandlung2.png" >
 File: img/Evaluierung/connectednessConceptMapping.png Graphic file (type QTm)
 
 <use  "img/Evaluierung/connectednessConceptMapping.png" >
-Overfull \hbox (28.22583pt too wide) in paragraph at lines 348--349
+Overfull \hbox (28.22583pt too wide) in paragraph at lines 360--361
 []\EU1/HoeflerText(0)/m/n/12 Zu prüfen ist, ob die Connectedness in jenem Eval
 uierungs-Blöcken bzw. -Durchgängen,
  []
 
-[253] [254]
-Underfull \vbox (badness 4846) has occurred while \output is active []
+[255]
+Underfull \vbox (badness 3646) has occurred while \output is active []
 
- [255]
-[256] [257]
-Underfull \hbox (badness 10000) in paragraph at lines 424--436
+ [256]
+Underfull \vbox (badness 1147) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 439--451
+ [257]
+[258]
+Underfull \hbox (badness 10000) in paragraph at lines 436--448
 
  []
 
-[258]) (./EvalModell.tex [259]
+[259]
+Underfull \hbox (badness 10000) in paragraph at lines 451--463
+
+ []
+
+[260]) (./EvalModell.tex [261]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
@@ -2133,14 +2145,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
 
-[260
+[262
 
 
 ]
 Kapitel 14.
-) (./EvalAW.tex [261] [262]
+) (./EvalAW.tex [263] [264]
 Kapitel 15.
-)) [263
+)) [265
 
 
 ] [1
@@ -2333,14 +2345,18 @@ Package minitoc(hints) Warning: W0024
 [21] (./Schrift.aux (./Einfuehrung.aux) (./Grundlagen.aux) (./Werkzeug.aux)
 (./Evaluierung.aux) (./Schlussbetrachtungen.aux) (./Bildquellen.aux))
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 14804 strings out of 494701
- 239510 string characters out of 1164829
- 440149 words of memory out of 3000000
- 17417 multiletter control sequences out of 10000+50000
+ 14813 strings out of 494701
+ 239744 string characters out of 1164829
+ 440381 words of memory out of 3000000
+ 17423 multiletter control sequences out of 10000+50000
  7578 words of font info for 62 fonts, out of 3000000 for 5000
  669 hyphenation exceptions out of 8191
  40i,11n,56p,2534b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Schrift.pdf (101 pages).
+Output written on Schrift.pdf (103 pages).
