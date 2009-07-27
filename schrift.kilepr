@@ -3,7 +3,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1
-lastDocument=MentaleModelle.tex
+lastDocument=Schlussbetrachtungen.tex
 masterDocument=Schrift.tex
 name=Schrift
 pkg_extIsRegExp=false
@@ -39,7 +39,7 @@ column=175
 encoding=UTF-8
 highlight=LaTeX
 line=135
-open=true
+open=false
 order=0
 
 [item:Bildquellen.tex]
@@ -75,7 +75,7 @@ column=0
 encoding=UTF-8
 highlight=LaTeX
 line=46
-open=true
+open=false
 order=5
 
 [item:EvalTUI.tex]
@@ -84,17 +84,17 @@ column=0
 encoding=UTF-8
 highlight=LaTeX
 line=150
-open=true
+open=false
 order=6
 
 [item:EvalUeberblick.tex]
 archive=true
-column=23
+column=322
 encoding=UTF-8
 highlight=LaTeX
-line=192
+line=197
 open=true
-order=4
+order=2
 
 [item:Evaluierung.tex]
 archive=true
@@ -103,7 +103,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=21
 open=true
-order=3
+order=1
 
 [item:Externalisierung.tex]
 archive=true
@@ -111,7 +111,7 @@ column=52
 encoding=UTF-8
 highlight=LaTeX
 line=0
-open=true
+open=false
 order=2
 
 [item:Grundlagen.tex]
@@ -184,7 +184,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=44
 open=true
-order=1
+order=0
 
 [item:Methodik.tex]
 archive=true
@@ -197,12 +197,12 @@ order=-1
 
 [item:Schlussbetrachtungen.tex]
 archive=true
-column=8
+column=170
 encoding=UTF-8
 highlight=LaTeX
-line=0
-open=false
-order=-1
+line=36
+open=true
+order=3
 
 [item:Schrift.tex]
 archive=true
