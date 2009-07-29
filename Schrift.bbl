@@ -6,6 +6,11 @@
 \newblock Technical Manual V6.2.0, Allied Vision Technologies GmbH, Stadtroda,
   Germany.
 
+\bibitem[Argyris und Sch{\"o}n, 1978]{Argyris78}
+Argyris, C. und Sch{\"o}n, D. (1978).
+\newblock {\em Organizational Learning: A Theory Of Action Perspective}.
+\newblock Addison-Wesley.
+
 \bibitem[Arnold et~al., 1999]{Arnold99}
 Arnold, K., Scheifler, R., Waldo, J., O'Sullivan, B., und Wollrath, A. (1999).
 \newblock {\em {Jini Specification}}.
@@ -93,6 +98,12 @@ Curbera, F., Duftler, M., Khalaf, R., Nagy, W., Mukhi, N., und Weerawarana, S.
   UDDI}.
 \newblock {\em IEEE Internet Computing}, 6(2):86--93.
 
+\bibitem[Dahme und Raeithel, 1997]{Dahme97}
+Dahme, C. und Raeithel, A. (1997).
+\newblock {Ein t{\"a}tigkeitstheoretischer Ansatz zur Entwicklung von
+  brauchbarer Software}.
+\newblock {\em Informatik-Spektrum}, 20:5--12.
+
 \bibitem[Dann, 1992]{Dann92}
 Dann, H.-D. (1992).
 \newblock Variation von {L}ege-{S}trukturen zur {W}issensrepr{\"a}sentation.
@@ -122,6 +133,11 @@ Ellson, J., Gansner, E., Koutsofios, L., North, S., und Woodhull, G. (2002).
 Emery, F. und Trist, E. (1960).
 \newblock {Socio-technical systems}.
 \newblock {\em Management science, models and techniques}, 2:83--97.
+
+\bibitem[Engestr{\"o}m, 1987]{Engestrom87}
+Engestr{\"o}m, Y. (1987).
+\newblock {\em Learning by expanding}.
+\newblock Orienta-konsultit, Helsinki.
 
 \bibitem[Feiner, 2008]{Feiner08}
 Feiner, T. (2008).
@@ -351,6 +367,11 @@ Larkin, J. und Simon, H. (1987).
 \newblock {Why a diagram is (sometimes) worth ten thousand words}.
 \newblock {\em Cognitive science}, 11(1):65--100.
 
+\bibitem[Leont'ev, 1972]{Leontev72}
+Leont'ev, A. (1972).
+\newblock {The Problem of Activity in Psychology}.
+\newblock {\em Voprosy filosofii (english translation)}, (9):95--108.
+
 \bibitem[Leont'ev, 1978]{Leontev78}
 Leont'ev, A. (1978).
 \newblock {\em Activity, Consciousness, and Personality}.
@@ -361,6 +382,12 @@ McAffer, J. und Lemieux, J. (2005).
 \newblock {\em {Eclipse Rich Client Platform: Designing, Coding, and Packaging
   Java (TM) Applications}}.
 \newblock Addison-Wesley Professional.
+
+\bibitem[Nardi und Kaptelinin, 2006]{Nardi06}
+Nardi, B. und Kaptelinin, V. (2006).
+\newblock {\em {Acting with Technology - Activity Theory and Interaction
+  Design}}.
+\newblock MIT Press.
 
 \bibitem[Neubauer, 2008]{Neubauer08}
 Neubauer, M. (2008).
@@ -373,11 +400,11 @@ Nonaka, I. und Takeuchi, H. (1995).
   the Dynamics of Innovation}.
 \newblock Oxford University Press.
 
-\bibitem[Norman, 1983]{Norman83a}
-Norman, D. (1983).
-\newblock {Some observations on mental models}.
-\newblock In Gentner, D. und Stevens, A., editors, {\em Mental models}, Seiten
-  7--14. Lawrence Erlbaum Associates.
+\bibitem[Norman, 1983]{Norman83}
+Norman, D.~A. (1983).
+\newblock Design principles for human-computer interfaces.
+\newblock In {\em CHI '83: Proceedings of the SIGCHI conference on Human
+  Factors in Computing Systems}, Seiten 1--10, New York, NY, USA. ACM.
 
 \bibitem[Novak und Ca{\~n}as, 2006]{Novak06}
 Novak, J. und Ca{\~n}as, A.~J. (2006).
@@ -471,6 +498,11 @@ Rumelhart, D. und Norman, D. (1978).
 \newblock In Cotton, J. und Klatzky, R., editors, {\em Semantic factors in
   cognition}, Seiten 37--53. Erlbaum, Hillsdale, N.J.
 
+\bibitem[Sachs, 1995]{Sachs95}
+Sachs, P. (1995).
+\newblock Transforming work: collaboration, learning, and design.
+\newblock {\em Communications of the ACM}, 38(9):36--44.
+
 \bibitem[Scheer und Nuettgens, 2000]{Scheer00}
 Scheer, A. und Nuettgens, M. (2000).
 \newblock Aris architecture and reference models for business process
@@ -510,6 +542,11 @@ Shaer, O., Leland, N., Calvillo-Gamez, E., und Jacob, R. (2004).
 \newblock {The TAC paradigm: specifying tangible user interfaces}.
 \newblock {\em Personal and Ubiquitous Computing}, 8(5):359--369.
 
+\bibitem[Shapiro und Wilk, 1965]{Shapiro65}
+Shapiro, S. und Wilk, M. (1965).
+\newblock An analysis of variance test for normality.
+\newblock {\em Biometrika}, 52(3):591--599.
+
 \bibitem[Shinar, 2004]{Shinar04}
 Shinar, J. (2004).
 \newblock {\em {Organic light-emitting devices: a survey}}.
@@ -529,6 +566,13 @@ Siegrist, J. (2005).
 Stachowiak, H. (1973).
 \newblock {\em {Allgemeine Modelltheorie}}.
 \newblock Springer Wien.
+
+\bibitem[Star und Strauss, 1999]{Star99}
+Star, S.~L. und Strauss, A. (1999).
+\newblock Layers of silence, arenas of voice: The ecology of visible and
+  invisible work.
+\newblock {\em Computer Supported Cooperative Work: The Journal of
+  Collaborative Computing}, 8(1/2):9 -- 30.
 
 \bibitem[Stary, 1994]{Stary94}
 Stary, C. (1994).

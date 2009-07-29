@@ -10,7 +10,7 @@
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-06-16T05:57:40Z</date>
+			<date>2009-07-28T20:40:50Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -31,7 +31,7 @@
 					<key>filename</key>
 					<string>ArticulationWork.tex</string>
 					<key>lastUsed</key>
-					<date>2009-07-27T14:13:07Z</date>
+					<date>2009-07-29T14:33:38Z</date>
 					<key>selected</key>
 					<true/>
 				</dict>
@@ -39,7 +39,7 @@
 					<key>filename</key>
 					<string>MentaleModelle.tex</string>
 					<key>lastUsed</key>
-					<date>2009-07-27T07:32:23Z</date>
+					<date>2009-07-29T14:33:38Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -196,14 +196,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>683</integer>
+				<integer>1471</integer>
 				<key>line</key>
-				<integer>83</integer>
+				<integer>140</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>404</integer>
 			<key>firstVisibleLine</key>
-			<integer>72</integer>
+			<integer>142</integer>
 		</dict>
 		<key>Einfuehrung.tex</key>
 		<dict>
@@ -282,7 +282,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>426</integer>
+				<integer>43</integer>
 				<key>line</key>
 				<integer>315</integer>
 			</dict>
@@ -384,12 +384,12 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>131</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>22</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>1290</integer>
+			<integer>1321</integer>
 			<key>firstVisibleLine</key>
 			<integer>8</integer>
 		</dict>
@@ -398,36 +398,21 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>98</integer>
+				<integer>5</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>121</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>97</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>98</integer>
-			</dict>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>MentaleModelle.tex</string>
 		<string>ArticulationWork.tex</string>
+		<string>Schrift.tex</string>
 		<string>EvalTUI.tex</string>
 	</array>
 	<key>shellVariables</key>
@@ -460,6 +445,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{0, 67}, {1068, 811}}</string>
+	<string>{{0, 67}, {789, 811}}</string>
 </dict>
 </plist>

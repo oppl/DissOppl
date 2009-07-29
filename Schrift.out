@@ -1,91 +1,37 @@
-\BOOKMARK [-1][-]{part.3}{Evaluierung}{}
-\BOOKMARK [0][-]{chapter.11}{Konzeptionelle Einordnung}{part.3}
-\BOOKMARK [1][-]{section.11.1}{Einordnung in den Bricks-Designraum}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.1.1}{Abbildung}{section.11.1}
-\BOOKMARK [2][-]{subsection.11.1.2}{Bewertung}{section.11.1}
-\BOOKMARK [1][-]{section.11.2}{Bestimmung der Eigenschaften des Graspable User Interfaces Ansatz}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.2.1}{Abbildung}{section.11.2}
-\BOOKMARK [2][-]{subsection.11.2.2}{Bewertung}{section.11.2}
-\BOOKMARK [1][-]{section.11.3}{Betrachtung im Lichte des Tangible Bits Ansatzes}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.3.1}{Abbildung}{section.11.3}
-\BOOKMARK [2][-]{subsection.11.3.2}{Bewertung}{section.11.3}
-\BOOKMARK [1][-]{section.11.4}{Einordnung in das Ordnungssystem von Holmquist et al.}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.4.1}{Abbildung}{section.11.4}
-\BOOKMARK [2][-]{subsection.11.4.2}{Bewertung}{section.11.4}
-\BOOKMARK [1][-]{section.11.5}{Einordnung in das Object-Meaning-Kontinuum}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.5.1}{Abbildung}{section.11.5}
-\BOOKMARK [2][-]{subsection.11.5.2}{Bewertung}{section.11.5}
-\BOOKMARK [1][-]{section.11.6}{Betrachtung im Lichte des MCRpd-Modells}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.6.1}{Abbildung}{section.11.6}
-\BOOKMARK [2][-]{subsection.11.6.2}{Bewertung}{section.11.6}
-\BOOKMARK [1][-]{section.11.7}{Einordnung in den Tokens+Constraints Kontext}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.7.1}{Einordnung}{section.11.7}
-\BOOKMARK [2][-]{subsection.11.7.2}{Bewertung}{section.11.7}
-\BOOKMARK [1][-]{section.11.8}{Einordnung in das Framework nach Koleva et al.}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.8.1}{Abbildung}{section.11.8}
-\BOOKMARK [2][-]{subsection.11.8.2}{Bewertung}{section.11.8}
-\BOOKMARK [1][-]{section.11.9}{Spezifikation des TAC-Schemas nach Shaer et al.}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.9.1}{Abbildung}{section.11.9}
-\BOOKMARK [2][-]{subsection.11.9.2}{Bewertung}{section.11.9}
-\BOOKMARK [1][-]{section.11.10}{Einordnung in die Kategorien von TUI-Anwendungen}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.10.1}{Abbildung}{section.11.10}
-\BOOKMARK [2][-]{subsection.11.10.2}{Bewertung}{section.11.10}
-\BOOKMARK [1][-]{section.11.11}{Einordnung in die Taxonomie von Fishkin}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.11.1}{Abbildung}{section.11.11}
-\BOOKMARK [2][-]{subsection.11.11.2}{Bewertung}{section.11.11}
-\BOOKMARK [1][-]{section.11.12}{Betrachtung im Lichte der Retrospektive von Ishii}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.12.1}{Einordnung}{section.11.12}
-\BOOKMARK [2][-]{subsection.11.12.2}{Bewertung}{section.11.12}
-\BOOKMARK [1][-]{section.11.13}{Zusammenfassung}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.13.1}{Eignung der konzeptionellen Ansätze zur Beschreibung}{section.11.13}
-\BOOKMARK [2][-]{subsection.11.13.2}{Verbesserungspotential für das Werkzeug}{section.11.13}
-\BOOKMARK [0][-]{chapter.12}{Überblick über die empirische Untersuchung}{part.3}
-\BOOKMARK [1][-]{section.12.1}{Untersuchungsaspekte}{chapter.12}
-\BOOKMARK [2][-]{subsection.12.1.1}{Evaluierung des Werkzeugs}{section.12.1}
-\BOOKMARK [2][-]{subsection.12.1.2}{Evaluierung der Modellrepräsentationen}{section.12.1}
-\BOOKMARK [2][-]{subsection.12.1.3}{Evaluierung der Articulation Work}{section.12.1}
-\BOOKMARK [1][-]{section.12.2}{Globales Untersuchungsdesign}{chapter.12}
-\BOOKMARK [2][-]{subsection.12.2.1}{Block 1: Technische Evaluierung}{section.12.2}
-\BOOKMARK [2][-]{subsection.12.2.2}{Block 2: Aushandlung von Zusammenarbeit 1}{section.12.2}
-\BOOKMARK [2][-]{subsection.12.2.3}{Block 3: Concept Mapping 1}{section.12.2}
-\BOOKMARK [2][-]{subsection.12.2.4}{Block 4: Aushandlung von Zusammenarbeit 2}{section.12.2}
-\BOOKMARK [2][-]{subsection.12.2.5}{Block 5: Concept Mapping 2}{section.12.2}
-\BOOKMARK [1][-]{section.12.3}{Eingesetzte Werkzeuge und Verfahren}{chapter.12}
-\BOOKMARK [2][-]{subsection.12.3.1}{Werkzeuge}{section.12.3}
-\BOOKMARK [2][-]{subsection.12.3.2}{Korrelationstests}{section.12.3}
-\BOOKMARK [2][-]{subsection.12.3.3}{Signifikanztests}{section.12.3}
-\BOOKMARK [1][-]{section.12.4}{Zusammenfassung}{chapter.12}
-\BOOKMARK [0][-]{chapter.13}{Evaluierung der Verwendbarkeit des Werkzeugs}{part.3}
-\BOOKMARK [1][-]{section.13.1}{Hypothesen}{chapter.13}
-\BOOKMARK [2][-]{subsection.13.1.1}{Konzeptionell begründete Hypothesen}{section.13.1}
-\BOOKMARK [2][-]{subsection.13.1.2}{Explorativ gebildete Hypothesen}{section.13.1}
-\BOOKMARK [1][-]{section.13.2}{Untersuchungsdesign und Durchführung}{chapter.13}
-\BOOKMARK [2][-]{subsection.13.2.1}{Operationalisierung}{section.13.2}
-\BOOKMARK [2][-]{subsection.13.2.2}{Datenbasis}{section.13.2}
-\BOOKMARK [2][-]{subsection.13.2.3}{Durchführung}{section.13.2}
-\BOOKMARK [1][-]{section.13.3}{Ergebnisse}{chapter.13}
-\BOOKMARK [2][-]{subsection.13.3.1}{Repräsentation diagrammatischer Modelle}{section.13.3}
-\BOOKMARK [2][-]{subsection.13.3.2}{Kollaboratives Arbeiten}{section.13.3}
-\BOOKMARK [2][-]{subsection.13.3.3}{Herstellung von Verbindern}{section.13.3}
-\BOOKMARK [2][-]{subsection.13.3.4}{Verwendung des Löschtokens}{section.13.3}
-\BOOKMARK [0][-]{chapter.14}{Evaluierung der erstellten Modelle}{part.3}
-\BOOKMARK [1][-]{section.14.1}{Hypothesen}{chapter.14}
-\BOOKMARK [2][-]{subsection.14.1.1}{Konzeptuell begründete Hypothesen}{section.14.1}
-\BOOKMARK [2][-]{subsection.14.1.2}{Explorativ gebildete Hypothesen}{section.14.1}
-\BOOKMARK [1][-]{section.14.2}{Untersuchungsdesign und Durchführung}{chapter.14}
-\BOOKMARK [2][-]{subsection.14.2.1}{Grundlagen}{section.14.2}
-\BOOKMARK [1][-]{section.14.3}{Ergebnisse}{chapter.14}
-\BOOKMARK [2][-]{subsection.14.3.1}{Connectedness}{section.14.3}
-\BOOKMARK [0][-]{chapter.15}{Evaluierung der durchgeführten Articulation Work}{part.3}
-\BOOKMARK [1][-]{section.15.1}{Hypothesen}{chapter.15}
-\BOOKMARK [2][-]{subsection.15.1.1}{Konzeptuell begründete Hypothesen}{section.15.1}
-\BOOKMARK [2][-]{subsection.15.1.2}{Explorativ gebildete Hypothesen}{section.15.1}
-\BOOKMARK [1][-]{section.15.2}{Untersuchungsdesign und Durchführung}{chapter.15}
-\BOOKMARK [1][-]{section.15.3}{Ergebnisse}{chapter.15}
-\BOOKMARK [-1][-]{part*.51}{Verzeichnisse}{}
-\BOOKMARK [0][-]{section*.52}{Abbildungsverzeichnis}{part*.51}
-\BOOKMARK [0][-]{appendix*.53}{Tabellenverzeichnis}{part*.51}
-\BOOKMARK [0][-]{appendix*.54}{Stichwortverzeichnis}{part*.51}
-\BOOKMARK [0][-]{appendix*.55}{Abkürzungsverzeichnis}{part*.51}
-\BOOKMARK [0][-]{table..1}{Bildquellen}{part*.51}
-\BOOKMARK [0][-]{appendix*.58}{Literaturverzeichnis}{part*.51}
+\BOOKMARK [-1][-]{part.1}{Grundlagen}{}
+\BOOKMARK [0][-]{chapter.2}{Articulation Work}{part.1}
+\BOOKMARK [1][-]{section.2.1}{Begriffsbestimmung}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Kontext}{chapter.2}
+\BOOKMARK [1][-]{section.2.3}{Ausprägungen von Articulation Work}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.3.1}{Unterscheidung nach Fjuk, Smørdal und Nurminen}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.2}{Unterscheidung nach Hampson und Junor}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.3}{Zusammenfassung}{section.2.3}
+\BOOKMARK [1][-]{section.2.4}{Unterstützung von Articulation Work}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.4.1}{Papertitel / Titel des Forschungsprojekts}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.2}{Work and the Division of Labor}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.3}{Gegenüberstellung und Zusammenfassung}{section.2.4}
+\BOOKMARK [1][-]{section.2.5}{Fazit}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{Mentale Modelle}{part.1}
+\BOOKMARK [1][-]{section.3.1}{Articulation Work und mentale Modelle}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.1.1}{Mentale Modelle nach Johnson-Laird}{section.3.1}
+\BOOKMARK [1][-]{section.3.2}{Mentale Modelle im Gesamtzusammenhang}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{Realität}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.2}{Theorien}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.3}{Experten- vs. Alltags-Modelle}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.4}{Schemata}{section.3.2}
+\BOOKMARK [1][-]{section.3.3}{Bildung mentaler Modelle}{chapter.3}
+\BOOKMARK [1][-]{section.3.4}{Externalisierung mentaler Modelle}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{Externalisierung mentaler Modelle}{part.1}
+\BOOKMARK [1][-]{section.4.1}{Concept Mapping}{chapter.4}
+\BOOKMARK [1][-]{section.4.2}{Strukturlegetechniken}{chapter.4}
+\BOOKMARK [1][-]{section.4.3}{Herausforderungen bei der Anwendung}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.3.1}{Kollaborative Anwendbarkeit}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.2}{Nachhaltige Verwendung der Information}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.3}{Zusammenführung}{section.4.3}
+\BOOKMARK [-1][-]{part*.17}{Verzeichnisse}{}
+\BOOKMARK [0][-]{section*.18}{Abbildungsverzeichnis}{part*.17}
+\BOOKMARK [0][-]{appendix*.19}{Tabellenverzeichnis}{part*.17}
+\BOOKMARK [0][-]{appendix*.20}{Stichwortverzeichnis}{part*.17}
+\BOOKMARK [0][-]{appendix*.21}{Abkürzungsverzeichnis}{part*.17}
+\BOOKMARK [0][-]{table..1}{Bildquellen}{part*.17}
+\BOOKMARK [0][-]{appendix*.24}{Literaturverzeichnis}{part*.17}
