@@ -4,41 +4,24 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Articulation Work}{7}{chapter.2}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Mentale Modelle}{25}{chapter.3}
+\contentsline {xchapter}{Mentale Modelle}{29}{chapter.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Externalisierung mentaler Modelle}{29}{chapter.4}
-\contentsline {xpart}{Unterstützung}{25}{part.2}
+\contentsline {xchapter}{Externalisierung mentaler Modelle}{33}{chapter.4}
+\contentsline {xpart}{Evaluierung}{207}{part.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Methodik}{27}{chapter.5}
+\contentsline {xchapter}{Konzeptionelle Einordnung}{209}{chapter.11}
+\contentsline {table}{\numberline {11.1}{\ignorespaces Beurteilung des Werkzeugs hinsichtlich des Degree of Coherence}}{222}{table.11.1}
+\contentsline {table}{\numberline {11.2}{Spezifikation des Werkzeug mittels TAC-Schema}}{224}{table.11.2}
+\contentsline {table}{\numberline {11.3}{Einordnung des Systems in die Taxonomie nach Fishkin}}{228}{table.11.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Anforderungen an ein Werkzeug}{29}{chapter.6}
+\contentsline {xchapter}{Überblick über die empirische Untersuchung}{233}{chapter.12}
+\contentsline {table}{\numberline {12.1}{\ignorespaces Ursprüngliches globales Untersuchungsdesign}}{248}{table.12.1}
+\contentsline {table}{\numberline {12.2}{\ignorespaces Einfluss der Untersuchungen auf die zu evaluierenden Aspekte}}{248}{table.12.2}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Grundlagen der Implementierung}{31}{chapter.7}
-\contentsline {table}{\numberline {7.1}{\ignorespaces Kategorien von konzeptionellen Arbeiten im Gebiet Tangible User Interfaces}}{61}{table.7.1}
-\contentsline {table}{\numberline {7.2}{Gegenüberstellung der Nomenklatur zur Beschreibung der Elemente eines TUI}}{63}{table.7.2}
+\contentsline {xchapter}{Evaluierung der Verwendbarkeit des Werkzeugs}{251}{chapter.13}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Eingabe und Interpretation}{67}{chapter.8}
-\contentsline {table}{\numberline {8.1}{\ignorespaces Gegenüberstellung der Frameworks für video-basierten Input}}{87}{table.8.1}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Gegenüberstellung der generischen Frameworks}}{89}{table.8.2}
+\contentsline {xchapter}{Evaluierung der erstellten Modelle}{275}{chapter.14}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Ausgabe}{133}{chapter.9}
+\contentsline {xchapter}{Evaluierung der durchgeführten Articulation Work}{277}{chapter.15}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Persistierung}{167}{chapter.10}
-\contentsline {xpart}{Evaluierung}{197}{part.3}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Konzeptionelle Einordnung}{199}{chapter.11}
-\contentsline {table}{\numberline {11.1}{\ignorespaces Beurteilung des Werkzeugs hinsichtlich des Degree of Coherence}}{212}{table.11.1}
-\contentsline {table}{\numberline {11.2}{Spezifikation des Werkzeug mittels TAC-Schema}}{214}{table.11.2}
-\contentsline {table}{\numberline {11.3}{Einordnung des Systems in die Taxonomie nach Fishkin}}{216}{table.11.3}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Überblick über die empirische Untersuchung}{223}{chapter.12}
-\contentsline {table}{\numberline {12.1}{\ignorespaces Ursprüngliches globales Untersuchungsdesign}}{238}{table.12.1}
-\contentsline {table}{\numberline {12.2}{\ignorespaces Einfluss der Untersuchungen auf die zu evaluierenden Aspekte}}{239}{table.12.2}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Evaluierung der Verwendbarkeit des Werkzeugs}{241}{chapter.13}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Evaluierung der erstellten Modelle}{265}{chapter.14}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Evaluierung der durchgeführten Articulation Work}{267}{chapter.15}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Schlussbetrachtungen}{265}{chapter.16}
+\contentsline {xchapter}{Schlussbetrachtungen}{281}{chapter.16}

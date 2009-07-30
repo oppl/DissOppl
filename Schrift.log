@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.5.25)  29 JUL 2009 16:33
+This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  30 JUL 2009 23:50
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -169,8 +169,11 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) (/usr/local/texlive/2008/texmf-dist/tex/latex/pdfsync/pdfsync.sty
-Package: pdfsync 2008/01/26 v1.1
+) (/Users/oppl/Library/texmf/tex/latex/pdfsync.sty
+Package: pdfsync 2004/01/31 v0.6
+\PDFPOS=\write3
+\PDFSYNC@folio=\count89
+\PDFSYNC@rder=\count90
 )
 (/usr/local/texlive/2008/texmf-dist/tex/generic/german/ngerman.sty
 v2.5e 1998-07-08
@@ -186,19 +189,19 @@ Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
 (/usr/local/texlive/2008/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
-\babel@savecnt=\count89
+\babel@savecnt=\count91
 \U@D=\dimen104
 )))
 (/usr/local/texlive/2008/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
-\c@tracingmulticols=\count90
+\c@tracingmulticols=\count92
 \mult@box=\box27
 \multicol@leftmargin=\dimen105
-\c@unbalance=\count91
-\c@collectmore=\count92
-\doublecol@number=\count93
-\multicoltolerance=\count94
-\multicolpretolerance=\count95
+\c@unbalance=\count93
+\c@collectmore=\count94
+\doublecol@number=\count95
+\multicoltolerance=\count96
+\multicolpretolerance=\count97
 \full@width=\dimen106
 \page@free=\dimen107
 \premulticols=\dimen108
@@ -228,8 +231,8 @@ Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
 \@tempa=\box48
 \@tempa=\box49
 \@tempa=\box50
-\c@columnbadness=\count96
-\c@finalcolumnbadness=\count97
+\c@columnbadness=\count98
+\c@finalcolumnbadness=\count99
 \last@try=\dimen110
 \multicolovershoot=\dimen111
 \multicolundershoot=\dimen112
@@ -248,7 +251,7 @@ Package: natbib 2009/02/02 8.3 (PWD, AO)
 \bibhang=\skip49
 \bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count98
+\c@NAT@ctr=\count100
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen113
@@ -259,39 +262,39 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip52
 \LTpre=\skip53
 \LTpost=\skip54
-\LTchunksize=\count99
+\LTchunksize=\count101
 \LTcapwidth=\dimen114
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
 \LT@lastfoot=\box56
-\LT@cols=\count100
-\LT@rows=\count101
-\c@LT@tables=\count102
-\c@LT@chunks=\count103
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
 \LT@p@ftn=\toks15
 )
 Class scrreprt Info: longtable captions redefined on input line 19.
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/boxedminipage.sty)
 (/usr/local/texlive/2008/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count104
+\lst@mode=\count106
 \lst@gtempboxa=\box57
 \lst@token=\toks16
-\lst@length=\count105
+\lst@length=\count107
 \lst@currlwidth=\dimen115
-\lst@column=\count106
-\lst@pos=\count107
+\lst@column=\count108
+\lst@pos=\count109
 \lst@lostspace=\dimen116
 \lst@width=\dimen117
-\lst@newlines=\count108
-\lst@lineno=\count109
+\lst@newlines=\count110
+\lst@lineno=\count111
 \lst@maxwidth=\dimen118
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count110
-\lst@skipnumbers=\count111
+\c@lstnumber=\count112
+\lst@skipnumbers=\count113
 \lst@framebox=\box58
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/listings/listings.cfg
@@ -307,7 +310,7 @@ Package: mtcmess 2006/03/14
 )
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 60 ***.
-\tf@mtc=\write3
+\tf@mtc=\write4
 \mtcindent=\skip55
 \mtcskipamount=\skip56
 Package minitoc Info: I0005
@@ -321,9 +324,9 @@ Package minitoc Info: I0003
 \mtc@hstrutbox=\box60
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
-\openout3 = `Schrift.mtc0'.
+\openout4 = `Schrift.mtc0'.
 
-\openout3 = `Schrift.mtc'.
+\openout4 = `Schrift.mtc'.
 
 
 (./Schrift.mtc0)
@@ -332,14 +335,14 @@ Package minitoc Info: I0012
 Package minitoc Info: I0031
 (minitoc)             ==> this version is configured for UNIX-like 
 (minitoc)                 (long extensions) file names.
-\openout3 = `Schrift.mtc'.
+\openout4 = `Schrift.mtc'.
 
-\openout3 = `Schrift.mtc0'.
+\openout4 = `Schrift.mtc0'.
 
-\c@mtc=\count112
-\c@minitocdepth=\count113
-\c@ptc=\count114
-\c@parttocdepth=\count115
+\c@mtc=\count114
+\c@minitocdepth=\count115
+\c@ptc=\count116
+\c@parttocdepth=\count117
 \ptcindent=\skip57
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
@@ -357,22 +360,22 @@ Package: fontspec 2008/08/09 v1.18 Advanced font selection for XeLaTeX
 (/usr/local/texlive/2008/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
 )
-\c@zf@newff=\count116
-\c@zf@index=\count117
-\c@zf@script=\count118
-\c@zf@language=\count119
+\c@zf@newff=\count118
+\c@zf@index=\count119
+\c@zf@script=\count120
+\c@zf@language=\count121
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count120
-\calc@Bcount=\count121
+\calc@Acount=\count122
+\calc@Bcount=\count123
 \calc@Adimen=\dimen119
 \calc@Bdimen=\dimen120
 \calc@Askip=\skip58
 \calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count122
+\calc@Ccount=\count124
 \calc@Cskip=\skip60
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -381,7 +384,7 @@ Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 (/usr/local/texlive/2008/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
-\XKV@depth=\count123
+\XKV@depth=\count125
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
 (/usr/local/texlive/2008/texmf-dist/tex/latex/base/fontenc.sty
@@ -402,18 +405,18 @@ LaTeX Info: Redefining \scshape on input line 1169.
 LaTeX Info: Redefining \upshape on input line 1172.
 
 fontspec.cfg loaded.
-(/usr/local/texlive/2008/texmf-dist/tex/xelatex/fontspec/fontspec.cfg))
-\c@zf@famc@Hoefler Text=\count124
+(/Users/oppl/Library/texmf/tex/xelatex/fontspec.cfg))
+\c@zf@famc@Hoefler Text=\count126
 Package fontspec Info: Defining font family for 'Hoefler Text' with options [Ma
 pping=tex-text,] on input line 31.
-\c@zf@famc@Gill Sans=\count125
+\c@zf@famc@Gill Sans=\count127
 Package fontspec Info: Defining font family for 'Gill Sans' with options [Mappi
 ng=tex-text,] on input line 34.
-\c@zf@famc@Courier=\count126
+\c@zf@famc@Courier=\count128
 Package fontspec Info: Defining font family for 'Courier' with options [Mapping
 =tex-text,] on input line 36.
-\@indexfile=\write4
-\openout4 = `Schrift.idx'.
+\@indexfile=\write5
+\openout5 = `Schrift.idx'.
 
 
 Writing index file Schrift.idx
@@ -449,9 +452,9 @@ Package: geometry 2008/12/21 v4.2 Page Geometry
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count127
-\Gm@cntv=\count128
-\c@Gm@tempcnt=\count129
+\Gm@cnth=\count129
+\Gm@cntv=\count130
+\c@Gm@tempcnt=\count131
 \Gm@bindingoffset=\dimen123
 \Gm@wd@mp=\dimen124
 \Gm@odd@mp=\dimen125
@@ -486,8 +489,8 @@ O)
 Package: xcolor-patch 2008/09/08 xcolor patch
 ))
 \@linkdim=\dimen127
-\Hy@linkcounter=\count130
-\Hy@pagecounter=\count131
+\Hy@linkcounter=\count132
+\Hy@pagecounter=\count133
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/02/22 v6.78p Hyperref: PDFDocEncoding definition (HO)
@@ -546,7 +549,7 @@ Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package: kvsetkeys 2007/09/29 v1.3 Key value parser with default handler suppor
 t (HO)
 )
-\Fld@menulength=\count132
+\Fld@menulength=\count134
 \Field@Width=\dimen128
 \Fld@charsize=\dimen129
 \Field@toks=\toks21
@@ -561,16 +564,16 @@ Package hyperref Info: PDF/A mode OFF on input line 4329.
 (/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count133
-\c@Item=\count134
-\c@Hfootnote=\count135
+\Hy@abspage=\count135
+\c@Item=\count136
+\c@Hfootnote=\count137
 )
 *hyperref using default driver hdvipdfm*
 (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/hdvipdfm.def
 File: hdvipdfm.def 2009/02/22 v6.78p Hyperref driver for dvipdfm
 \pdfm@box=\box61
-\HyField@AnnotCount=\count136
-\Fld@listcount=\count137
+\HyField@AnnotCount=\count138
+\Fld@listcount=\count139
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2009/03/02 v1.19 (NLCT)
@@ -593,10 +596,10 @@ File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks22
 \ex@=\dimen130
 )
-\gls@level=\count138
+\gls@level=\count140
 \@gls@tmpb=\toks23
 \gls@tmplen=\skip61
-\istfile=\write5
+\istfile=\write6
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -618,7 +621,7 @@ sty
 Package: glossary-super 2009/01/14 v1.03 (NLCT)
  (/usr/local/texlive/2008/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count139
+\c@tracingst=\count141
 \ST@wd=\dimen131
 \ST@rightskip=\skip65
 \ST@leftskip=\skip66
@@ -640,12 +643,12 @@ ty
 Package: glossary-tree 2009/01/14 v1.01 (NLCT)
 \glstreeindent=\skip68
 ))
-\glo@main@file=\write6
-\openout6 = `Schrift.glo'.
+\glo@main@file=\write7
+\openout7 = `Schrift.glo'.
 
 Package glossaries Info: Writing glossary file Schrift.glo on input line 64.
-\glo@acronym@file=\write7
-\openout7 = `Schrift.acn'.
+\glo@acronym@file=\write8
+\openout8 = `Schrift.acn'.
 
 Package glossaries Info: Writing glossary file Schrift.acn on input line 64.
  (./Acronyme.tex)
@@ -671,7 +674,7 @@ Package: ntheorem 2005/07/07 1.25
 \thm@topsepadd=\skip71
 \shadecolor=\toks36
 )
-\c@hyp=\count140
+\c@hyp=\count142
  (./Schrift.aux (./Einfuehrung.aux) (./Grundlagen.aux) (./Werkzeug.aux)
 (./Evaluierung.aux) (./Schlussbetrachtungen.aux) (./Bildquellen.aux))
 \openout1 = `Schrift.aux'.
@@ -692,21 +695,13 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
-Configuring pdfsync
-\PDFSYNC@ut=\write8
-\openout8 = `Schrift.pdfsync'.
+**** pdfsync.sty: Synchronization is enabled.
+\openout3 = `Schrift.pdfsync'.
 
-\PDFSYNCf@li@=\count141
-\PDFSYNC@rder=\count142
-**** pdfsync.sty: Synchronizing at \everypar
-\PDFSYNCeveryp@r=\toks37
-**** pdfsync.sty: Synchronizing at \everymath
-\PDFSYNCeverym@th=\toks38
-**** pdfsync.sty: Synchronizing at \everyhbox
-\PDFSYNCeveryhb@x=\toks39
-**** pdfsync.sty: Synchronizing at \everyvbox
-\PDFSYNCeveryvb@x=\toks40
-**** pdfsync.sty: started
+**** pdfsync.sty: Synchronizing par
+**** pdfsync.sty: Synchronizing math
+**** pdfsync.sty: Synchronizing hbox
+**** pdfsync.sty: Synchronizing extra
 \c@lstlisting=\count143
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
@@ -875,13 +870,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 113.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 113.
- [1
 
-\openout5 = `Schrift.ist'.
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[1
+
+\openout6 = `Schrift.ist'.
 
 
 
-] [2
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[2
 
 ]
 LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' in size <12> not avail
@@ -895,7 +910,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 
-] [2
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[2
 
 
 ] (./Schrift.toc
@@ -910,135 +935,120 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)            on input line 4.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 28.
+(scrreprt)            on input line 29.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 38.
+(scrreprt)            on input line 39.
  [3]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 45.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 47.
+(scrreprt)            on input line 46.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 48.
+
+Overfull \hbox (0.22794pt too wide) detected at line 49
+[][] []\EU1/HoeflerText(0)/m/n/12 209
+ []
+
+
+Overfull \hbox (0.22794pt too wide) detected at line 50
+[][] []\EU1/HoeflerText(0)/m/n/12 209
+ []
+
+[4]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 49.
+(scrreprt)            on input line 88.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 86.
- [4]
+(scrreprt)            on input line 128.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 148.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 186.
+(scrreprt)            on input line 164.
  [5]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 215.
+(scrreprt)            on input line 172.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 217.
-
-Overfull \hbox (1.06784pt too wide) detected at line 219
-[][] []\EU1/HoeflerText(0)/m/n/12 200
- []
-
-
-Overfull \hbox (0.34787pt too wide) detected at line 226
-[][] []\EU1/HoeflerText(0)/m/n/12 204
- []
-
-
-Overfull \hbox (0.34787pt too wide) detected at line 227
-[][] []\EU1/HoeflerText(0)/m/n/12 204
- []
-
-
-Overfull \hbox (0.22794pt too wide) detected at line 230
-[][] []\EU1/HoeflerText(0)/m/n/12 206
- []
-
-
-Overfull \hbox (0.22794pt too wide) detected at line 231
-[][] []\EU1/HoeflerText(0)/m/n/12 206
- []
-
-[6]
-Overfull \hbox (0.22794pt too wide) detected at line 235
-[][] []\EU1/HoeflerText(0)/m/n/12 209
- []
-
-
-Overfull \hbox (0.22794pt too wide) detected at line 236
-[][] []\EU1/HoeflerText(0)/m/n/12 209
- []
-
-
-Overfull \hbox (0.22794pt too wide) detected at line 237
-[][] []\EU1/HoeflerText(0)/m/n/12 209
- []
-
+(scrreprt)            on input line 179.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 257.
-[7]
+(scrreprt)            on input line 185.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 297.
+(scrreprt)            on input line 186.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 333.
+(scrreprt)            on input line 187.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 341.
+(scrreprt)            on input line 188.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 348.
+(scrreprt)            on input line 189.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 350.
+(scrreprt)            on input line 190.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 351.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 352.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 353.
- [8]
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 354.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 355.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 356.
+(scrreprt)            on input line 191.
 )
 \tf@toc=\write10
 \openout10 = `Schrift.toc'.
 
- [9] [10
-
-
-]
+ [6]
 \openout2 = `Grundlagen.aux'.
 
- (./Grundlagen.tex [2
+ (./Grundlagen.tex
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[2
 
 
 
 
-] [3] [4] (./ArticulationWork.tex
-[5] [6
+
+
+] [3]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[4] (./ArticulationWork.tex
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[5]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[6
 
 
 ]
@@ -1052,14 +1062,14 @@ Class scrreprt Warning: \float@addtolists detected!
 
 
 Overfull \hbox (0.54674pt too wide) in paragraph at lines 4--5
-[][]\EU1/HoeflerText(0)/m/n/12 In diesem Kapitel wird das Konzept „Articulati
-on Work“ dargestellt und in den Kon-
+\EU1/HoeflerText(0)/m/n/12 In diesem Kapitel wird das Konzept „Articulation W
+ork“ dargestellt und in den Kon-
  []
 
 
 Overfull \hbox (1.1781pt too wide) in paragraph at lines 9--10
-[][]\EU1/HoeflerText(0)/m/n/12 Das Konzept der ”Articulation Work” wurde al
-s Erklärungsmodell für eine bestimm-
+\EU1/HoeflerText(0)/m/n/12 Das Konzept der ”Articulation Work” wurde als Er
+klärungsmodell für eine bestimm-
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1093,148 +1103,143 @@ geben werden. Diese Aufgaben
 [7]
 File: img/ArticulationWork/ArbeitInteraktion.png Graphic file (type QTm)
  <use  "img/ArticulationWork/ArbeitInteraktion.png" >
-Underfull \vbox (badness 2057) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-File: img/ArticulationWork/ArtikulationProduktion.png Graphic file (type QTm)
+[9]
+Overfull \hbox (2.14906pt too wide) in paragraph at lines 32--33
+[]\EU1/HoeflerText(0)/m/n/12 Entwicklung von Strategien zur Vermeidung des Auft
+retens von
+ []
 
+File: img/ArticulationWork/ArtikulationProduktion.png Graphic file (type QTm)
 <use  "img/ArticulationWork/ArtikulationProduktion.png" >
-Overfull \hbox (0.8959pt too wide) in paragraph at lines 37--39
+Overfull \hbox (0.8959pt too wide) in paragraph at lines 44--46
 \EU1/HoeflerText(0)/m/n/12 geschätzt werden muss ([][]Fujimura[], []1987[]). �
 ��Articulation Work“ ist kein klar abgegrenz-
  []
 
-
-Underfull \vbox (badness 1430) has occurred while \output is active []
-
- [9]
-Underfull \hbox (badness 2318) in paragraph at lines 48--49
+[10]
+Underfull \hbox (badness 2318) in paragraph at lines 50--51
 \EU1/HoeflerText(0)/m/it/12 useful fundamental distinction between classes of i
 nteraction is between the routi-
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 48--49
+Underfull \hbox (badness 2229) in paragraph at lines 50--51
 \EU1/HoeflerText(0)/m/it/12 ne and the problematic. Problematic interactions in
 volve ’thought’, or when more
  []
 
-[10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-Overfull \hbox (2.78247pt too wide) in paragraph at lines 56--57
-[][][]\EU1/HoeflerText(0)/m/n/12 In der Literatur existieren zwei Ansätze zur 
-Differenzierung zwischen unterschied-
+[11]
+Overfull \hbox (2.78247pt too wide) in paragraph at lines 58--59
+[]\EU1/HoeflerText(0)/m/n/12 In der Literatur existieren zwei Ansätze zur Diff
+erenzierung zwischen unterschied-
  []
 
+[12]
 LaTeX Font Info:    Try loading font information for OMS+HoeflerText(0) on inpu
-t line 67.
-LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 67.
+t line 69.
+LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 69.
 LaTeX Font Info:    Font shape `OMS/HoeflerText(0)/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 67.
-[12]
+(Font)              for symbol `textbullet' on input line 69.
 LaTeX Font Info:    Try loading font information for OT1+HoeflerText(0) on inpu
-t line 74.
-LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 74.
+t line 76.
+LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 76.
 LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 74.
+(Font)              using `OT1/cmr/m/n' instead on input line 76.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [13]
-Overfull \hbox (4.15596pt too wide) in paragraph at lines 82--83
-[][][]\EU1/HoeflerText(0)/m/n/12 Die Aus-
+Overfull \hbox (4.15596pt too wide) in paragraph at lines 84--85
+[]\EU1/HoeflerText(0)/m/n/12 Die Aus-
  []
 
 
-Overfull \hbox (2.25562pt too wide) in paragraph at lines 82--83
+Overfull \hbox (2.25562pt too wide) in paragraph at lines 84--85
 \EU1/HoeflerText(0)/m/n/12 meist nicht bewusst basierend auf Erfahrungswissen. 
 Tatsächlich kann die Aus-
  []
 
 
-Overfull \hbox (0.86732pt too wide) in paragraph at lines 83--84
-[][][]\EU1/HoeflerText(0)/m/n/12 Die Artikula-
+Overfull \hbox (0.86732pt too wide) in paragraph at lines 85--86
+[]\EU1/HoeflerText(0)/m/n/12 Die Artikula-
  []
 
 
-Overfull \hbox (11.73405pt too wide) in paragraph at lines 84--85
-[][][]
+Overfull \hbox (11.73405pt too wide) in paragraph at lines 86--87
+[]
  []
 
-
-Overfull \hbox (3.12671pt too wide) in paragraph at lines 85--86
+[14]
+Overfull \hbox (3.12671pt too wide) in paragraph at lines 87--88
 \EU1/HoeflerText(0)/m/n/12 lektiven Aktionen müssen alle beteiligten Individue
 n ihre Perspektive, ihr Wis-
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-Overfull \hbox (21.98215pt too wide) in paragraph at lines 86--87
-[][][]
+Overfull \hbox (21.98215pt too wide) in paragraph at lines 88--89
+[]
  []
 
 
-Overfull \hbox (7.01878pt too wide) in paragraph at lines 86--87
+Overfull \hbox (7.01878pt too wide) in paragraph at lines 88--89
 \EU1/HoeflerText(0)/m/n/12 lem, wenn die individuellen Vorstellungen des Arbeit
 sablaufs divergieren („weak
  []
 
-
-Underfull \vbox (badness 1509) has occurred while \output is active []
-
- [15]
-Overfull \hbox (34.96342pt too wide) in paragraph at lines 99--100
-[][][]\EU1/HoeflerText(0)/m/n/12 beschreibt jene Arbeitsabläufe, die von klass
-ischen Management-
+[15]
+Overfull \hbox (34.96342pt too wide) in paragraph at lines 101--102
+[]\EU1/HoeflerText(0)/m/n/12 beschreibt jene Arbeitsabläufe, die von klassisch
+en Management-
  []
 
 
-Overfull \hbox (2.03311pt too wide) in paragraph at lines 100--101
-[][][]\EU1/HoeflerText(0)/m/n/12 beschreibt Arbeitsabläufe in Umgebungen, die 
-so dy-
+Overfull \hbox (2.03311pt too wide) in paragraph at lines 102--103
+[]\EU1/HoeflerText(0)/m/n/12 beschreibt Arbeitsabläufe in Umgebungen, die so d
+y-
  []
 
 
-Overfull \hbox (4.01695pt too wide) in paragraph at lines 101--102
-[][][]\EU1/HoeflerText(0)/m/n/12 umfasst all jene Arbeitsabläufe in Unternehme
-n, die zwar
+Overfull \hbox (4.01695pt too wide) in paragraph at lines 103--104
+[]\EU1/HoeflerText(0)/m/n/12 umfasst all jene Arbeitsabläufe in Unternehmen, d
+ie zwar
  []
 
 
-Overfull \hbox (0.42038pt too wide) in paragraph at lines 105--106
+Underfull \vbox (badness 7740) has occurred while \output is active []
+
+ [16]
+Overfull \hbox (0.42038pt too wide) in paragraph at lines 107--108
 \EU1/HoeflerText(0)/m/n/12 biniert auftreten. Auch hier können manche Arbeitsa
 bläufe durch erfolgreich durch-
  []
 
-[16]
 LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/bx/n' undefined
 (Font)              using `OT1/HoeflerText(0)/m/n' instead
-(Font)              for symbol `textendash' on input line 117.
- [17]
-Overfull \hbox (8.55797pt too wide) in paragraph at lines 139--140
+(Font)              for symbol `textendash' on input line 119.
+[17]
+Overfull \hbox (8.55797pt too wide) in paragraph at lines 141--142
 \EU1/HoeflerText(0)/m/n/12 entsprechend impliziert „problematic interaction�
 � eine explizite „Articulation Work“,
  []
 
 
-Overfull \hbox (0.93341pt too wide) in paragraph at lines 141--142
+Overfull \hbox (0.93341pt too wide) in paragraph at lines 143--144
 \EU1/HoeflerText(0)/m/n/12 durch andere, vor allem auch übergeordnete Instanze
 n. Während „visible work“ defi-
  []
 
 
-Overfull \hbox (0.25668pt too wide) in paragraph at lines 141--142
+Overfull \hbox (0.25668pt too wide) in paragraph at lines 143--144
 \EU1/HoeflerText(0)/m/n/12 wie er in der Praxis ausgeführt wird, durchzuführe
 n. „Articulation Work“ kann damit
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-Overfull \hbox (1.05258pt too wide) in paragraph at lines 145--146
+[18]
+Overfull \hbox (1.05258pt too wide) in paragraph at lines 147--148
 \EU1/HoeflerText(0)/m/n/12 hinsichtlich des Abstraktionsgrades der „Articulat
 ion Work“ notwendig. Beschäftigt
  []
@@ -1243,45 +1248,100 @@ ion Work“ notwendig. Beschäftigt
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-Underfull \vbox (badness 4779) has occurred while \output is active []
+Overfull \hbox (0.16013pt too wide) in paragraph at lines 157--159
+\EU1/HoeflerText(0)/m/n/12 dem „Wie?“ relevant sein. Geplante explizite „
+Articulation Work“ ist auch das Mittel
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Overfull \hbox (7.5969pt too wide) in paragraph at lines 159--160
+Overfull \hbox (0.1189pt too wide) in paragraph at lines 166--168
+\EU1/HoeflerText(0)/m/n/12 Jahrtausends werden im Folgenden Maßnahmen zur Unte
+rstützung beschrieben und
+ []
+
+
+Overfull \hbox (0.63391pt too wide) in paragraph at lines 166--168
+\EU1/HoeflerText(0)/m/n/12 Die übrigen Arbeiten verwenden „Articulation Work
+“ als Erklärungs-Framework für
+ []
+
+
+Overfull \hbox (7.5969pt too wide) in paragraph at lines 173--174
 \EU1/HoeflerText(0)/m/n/12 Unterstützung von „Articulation Work“ vorgeschl
 agen und/oder umgesetzt wer-
  []
 
-[21] [22]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])
-(./MentaleModelle.tex [24]
+ [21]
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+ [22]
+Overfull \hbox (4.42303pt too wide) in paragraph at lines 214--215
+\EU1/HoeflerText(0)/m/n/12 Erstellung) verfügbaren Software-Engineering-Prozes
+s-Modellierungs-Techniken die
+ []
+
+File: img/ArticulationWork/mi91-awprocess.png Graphic file (type QTm)
+<use  "img/ArticulationWork/mi91-awprocess.png" > [23] [24]
+Overfull \hbox (7.89816pt too wide) in paragraph at lines 241--242
+[]\EU1/HoeflerText(0)/m/n/12 Die Angabe von (exemplarischen) Heuristiken zur Du
+rchführung des Artikulations-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+[]\EU1/HoeflerText(0)/m/it/12 organisational \EU1/HoeflerText(0)/m/n/12 durch F
+ormalisierung und a-priori-
+ []
+
+[25] [26]
+Overfull \hbox (14.55223pt too wide) in paragraph at lines 294--295
+[]\EU1/HoeflerText(0)/m/n/12 zeigen die konkrete Manifestation von Articulation
+ Work
+ []
+
+
+Overfull \hbox (18.19711pt too wide) in paragraph at lines 296--297
+\EU1/HoeflerText(0)/m/n/12 Work“ und „Articulation Work“ anhand einer Fal
+lstudie aus dem wissenschaftlich-
+ []
+
+
+Underfull \vbox (badness 1609) has occurred while \output is active []
+
+ [27])
+(./MentaleModelle.tex [28]
 Kapitel 3.
 
 Underfull \hbox (badness 1400) in paragraph at lines 9--10
-\EU1/HoeflerText(0)/m/n/12 kretisiert \EU1/HoeflerText(0)/m/it/12 „the specif
-ic questions about tasks of course include: what, where, when,
+\EU1/HoeflerText(0)/m/n/12 kretisiert [][]\EU1/HoeflerText(0)/m/it/12 „the sp
+ecific questions about tasks of course include: what, where, when,
  []
 
-[25
+[29
 
 
 ]
 
-Package natbib Warning: Citation `de-Kleer81' on page 26 undefined on input lin
+Package natbib Warning: Citation `de-Kleer81' on page 30 undefined on input lin
 e 23.
 
 
 Underfull \vbox (badness 1122) has occurred while \output is active []
 
- [26]
-[27]
+ [30]
+[31]
 Underfull \hbox (badness 1275) in paragraph at lines 45--46
 \EU1/HoeflerText(0)/m/it/12 akzeptieren und sodann den eigenen gedanklichen Kon
 struktionen zugrunde zu le-
  []
 
-) (./Externalisierung.tex [28]
+) (./Externalisierung.tex [32]
 Kapitel 4.
 
 Underfull \hbox (badness 1424) in paragraph at lines 14--15
@@ -1289,46 +1349,66 @@ Underfull \hbox (badness 1424) in paragraph at lines 14--15
 icht der handelnden Person, des
  []
 
-)) [29
+)) [33
 
 
-] [30] [1
-
-
-
+] [34] [1
 
 
 
-] [2]
+
+
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 147.
 
-(./Schrift.lof
-Overfull \hbox (0.25174pt too wide) detected at line 39
-[][] []\EU1/HoeflerText(0)/m/n/12 100
- []
-
-[3
-
-
-]
-Overfull \hbox (1.12756pt too wide) detected at line 66
-[][]\EU1/HoeflerText(0)/m/n/12 10.10. 
- []
-
-)
+(./Schrift.lof)
 \tf@lof=\write11
 \openout11 = `Schrift.lof'.
 
- [4] (./Schrift.lot)
+ [3
+
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[4
+
+
+] (./Schrift.lot)
 \tf@lot=\write12
 \openout12 = `Schrift.lot'.
 
- (./Schrift.ind [5
+ (./Schrift.ind [5]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
 
 
-] [6
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[6
 
 
 ] [7
@@ -1336,112 +1416,76 @@ Overfull \hbox (1.12756pt too wide) detected at line 66
 
 
 
-]) (./Schrift.acr [8
+]) (./Schrift.acr
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[8
+
+
+
+]) [9
+
+
+] (./Schrift.bbl (./Schrift.brf)
+\tf@brf=\write13
+\openout13 = `Schrift.brf'.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[12
 
 
 
 ]
-Overfull \hbox (68.23206pt too wide) in alignment at lines 2--44
- [] [] 
- []
-
-
-Overfull \hbox (68.23206pt too wide) in alignment at lines 44--100
- [] [] 
- []
-
-
-Overfull \hbox (68.23206pt too wide) in alignment at lines 100--111
- [] [] 
- []
-
-[9
-
-
-]) [10] (./Schrift.bbl (./Schrift.brf)
-\tf@brf=\write13
-\openout13 = `Schrift.brf'.
-
- [12
-
-
-
-] [13]
 LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/m/it' undefined
-(Font)              using `OT1/HoeflerText(0)/m/n' instead on input line 75.
+(Font)              using `OT1/HoeflerText(0)/m/n' instead on input line 36.
 
-Underfull \hbox (badness 1590) in paragraph at lines 75--75
+Underfull \hbox (badness 1590) in paragraph at lines 36--36
 \EU1/HoeflerText(0)/m/it/12 1st International Conference on Concept Mapping. Pa
 mplona, Spain: Universidad
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 114--114
+Underfull \hbox (badness 1442) in paragraph at lines 56--56
 \EU1/HoeflerText(0)/m/it/12 schenfazit zur Forschungsentwicklung bei der rekons
 truktiven Erhebung subjektiver
  []
 
-[14] [15]
-Underfull \hbox (badness 1924) in paragraph at lines 276--276
-[][][]\EU1/HoeflerText(0)/m/n/12 Ifenthaler, D. (2006).  \EU1/HoeflerText(0)/m/
-it/12 Diagnose lernabh[]angiger Ver[]anderung mentaler Modelle -
+[13] [14]
+Underfull \hbox (badness 1924) in paragraph at lines 142--142
+[]\EU1/HoeflerText(0)/m/n/12 Ifenthaler, D. (2006).  \EU1/HoeflerText(0)/m/it/1
+2 Diagnose lernabh[]angiger Ver[]anderung mentaler Modelle -
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 276--276
+Underfull \hbox (badness 1184) in paragraph at lines 142--142
 \EU1/HoeflerText(0)/m/it/12 Entwicklung der SMD-Technologie als methodologische
 s Verfahren zur relationalen,
  []
 
-[16] [17] [18]
-./Schrift.bbl:454: Undefined control sequence.
-<write> ...AT@ctr }{2009}{{Pedersen und Hornb\aek 
-                                                  }}{{}}}
-l.454 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Schrift.bbl:454: Undefined control sequence.
-<argument>  Pedersen, E.~W. und Hornb\aek 
-                                          , K. (2009). \newblock mixitui: a ...
-l.454 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 482--482
-\EU1/HoeflerText(0)/m/it/12 International Conference on Distributed Computing S
-ystems Workshops, 2005\EU1/HoeflerText(0)/m/n/12 , Sei-
- []
-
-[19] [20]
-Underfull \hbox (badness 2961) in paragraph at lines 582--582
-[][][]\EU1/HoeflerText(0)/m/n/12 Stary, C. (1994).  \EU1/HoeflerText(0)/m/it/12
- Interaktive Systeme: Softwareentwicklung und Softwareergono-
- []
-
-[21]
-Overfull \hbox (0.56754pt too wide) in paragraph at lines 642--642
-[][][]\EU1/HoeflerText(0)/m/n/12 Van Laerhoven, K., Villar, N., Schmidt, A., Ge
-llersen, H., Hakansson, M., und Holm-
- []
-
-)
+[15] [16] [17])
 
 Package natbib Warning: There were undefined citations.
 
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Schrift.maf file.
-\openout3 = `Schrift.maf'.
+\openout4 = `Schrift.maf'.
 
 
 Package minitoc(hints) Warning: W0024
@@ -1451,17 +1495,17 @@ Package minitoc(hints) Warning: W0024
 \tf@thm=\write14
 \openout14 = `Schrift.thm'.
 
-[22] (./Schrift.aux (./Einfuehrung.aux) (./Grundlagen.aux) (./Werkzeug.aux)
+[18] (./Schrift.aux (./Einfuehrung.aux) (./Grundlagen.aux) (./Werkzeug.aux)
 (./Evaluierung.aux) (./Schlussbetrachtungen.aux) (./Bildquellen.aux))
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
- 14821 strings out of 494701
- 239615 string characters out of 1164829
- 409418 words of memory out of 3000000
- 17449 multiletter control sequences out of 10000+50000
+ 14239 strings out of 494701
+ 227765 string characters out of 1164829
+ 397491 words of memory out of 3000000
+ 16865 multiletter control sequences out of 10000+50000
  7546 words of font info for 58 fonts, out of 3000000 for 5000
  669 hyphenation exceptions out of 8191
- 40i,29n,56p,2060b,791s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,56p,2163b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Schrift.pdf (62 pages).
+Output written on Schrift.pdf (57 pages).

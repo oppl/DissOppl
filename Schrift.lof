@@ -5,84 +5,28 @@
 \contentsline {xchapter}{Articulation Work}{7}{chapter.2}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Struktur von Arbeitsabläufen}}{9}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Konzeptualisierung von „Arbeit“ nach \citep {Strauss85} und \citep {Fujimura87}}}{10}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Artikulations-Prozess}}{24}{figure.2.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Mentale Modelle}{25}{chapter.3}
+\contentsline {xchapter}{Mentale Modelle}{29}{chapter.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Externalisierung mentaler Modelle}{29}{chapter.4}
-\contentsline {xpart}{Unterstützung}{25}{part.2}
+\contentsline {xchapter}{Externalisierung mentaler Modelle}{33}{chapter.4}
+\contentsline {xpart}{Evaluierung}{207}{part.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Methodik}{27}{chapter.5}
+\contentsline {xchapter}{Konzeptionelle Einordnung}{209}{chapter.11}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Anforderungen an ein Werkzeug}{29}{chapter.6}
+\contentsline {xchapter}{Überblick über die empirische Untersuchung}{233}{chapter.12}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Grundlagen der Implementierung}{31}{chapter.7}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Bedeutung von Objekten in TUIs}}{42}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Interaktionsmodelle für GUI und TUI}}{44}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Arten von Tangible User Interfaces}}{46}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces caption}}{57}{figure.7.4}
+\contentsline {xchapter}{Evaluierung der Verwendbarkeit des Werkzeugs}{251}{chapter.13}
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Dauer der Werkzeugverwendung -- Überblick}}{263}{figure.13.1}
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Dauer der Werkzeugverwendung -- Concept Mapping}}{264}{figure.13.2}
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Dauer der Werkzeugverwendung -- Aushandlung}}{264}{figure.13.3}
+\contentsline {figure}{\numberline {13.4}{\ignorespaces Zeitverteilung zwischen den Teilnehmern}}{266}{figure.13.4}
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Connectedness in Evaluierungsblock 2 - Durchgang 1}}{267}{figure.13.5}
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Connectedness in Evaluierungsblock 2 - Durchgang 2}}{268}{figure.13.6}
+\contentsline {figure}{\numberline {13.7}{\ignorespaces Connctedness in Evaluierungsblock 3}}{268}{figure.13.7}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Eingabe und Interpretation}{67}{chapter.8}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Architektur des TUIpist-Framework}}{79}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Zusammenspiel der Komponenten in TUIpist}}{80}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces AR Toolkit Marker}}{81}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Visual Codes -- Aufbau und Features}}{82}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces ReacTIVision Code}}{83}{figure.8.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Eingabekomponenten}}{91}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces An Tokens angebrachte ReacTIVision-Codes zur Identifikation}}{93}{figure.8.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Arten von Modellierungstokens}}{93}{figure.8.8}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Rückwand von Container Tokens}}{94}{figure.8.9}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Geöffnetes Container Token}}{95}{figure.8.10}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Modellelemente -- Taxonomie}}{96}{figure.8.11}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Einbettbare Tokens}}{97}{figure.8.12}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Markierung-Token}}{98}{figure.8.13}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Lösch-Token}}{99}{figure.8.14}
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Registrierungstoken}}{100}{figure.8.15}
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Snapshot-Token}}{101}{figure.8.16}
-\contentsline {figure}{\numberline {8.17}{\ignorespaces History-Token}}{101}{figure.8.17}
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Softwarearchitektur zur Erkennung von Benutzerinteraktion}}{114}{figure.8.18}
+\contentsline {xchapter}{Evaluierung der erstellten Modelle}{275}{chapter.14}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Ausgabe}{133}{chapter.9}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Überblick über den Aufbau des Werkzeugs -- Ausgabekomponenten}}{142}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Softwarearchitektur zur Verwaltung der Ausgabekanäle}}{149}{figure.9.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Darstellung von Modellelementen}}{150}{figure.9.3}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Darstellung von Verbindern}}{151}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Darstellung gerichteter Verbinder}}{151}{figure.9.5}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Darstellung von Containern und eingebetteten Elementen}}{152}{figure.9.6}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Markierung von Modellelementen}}{154}{figure.9.7}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Darstellung der Modellierungshistorie}}{156}{figure.9.8}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Unterstützung der Wiederherstellung von Modellzuständen}}{157}{figure.9.9}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Zusammenhänge der Klassen zur Ausgabebehandlung}}{159}{figure.9.10}
+\contentsline {xchapter}{Evaluierung der durchgeführten Articulation Work}{277}{chapter.15}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Persistierung}{167}{chapter.10}
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Grundlegende Elemente einer Topic Map}}{168}{figure.10.1}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Umfassende Darstellung der Elemente einer Topic Map}}{170}{figure.10.2}
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Abgrenzung zwischen Subject und Occurrence in Topic Maps}}{171}{figure.10.3}
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Benennung von Topics}}{172}{figure.10.4}
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Beziehungen in der Metamodellbildung in Topic Maps}}{175}{figure.10.5}
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Abbildung von Gültigkeitsbereichen durch Scopes}}{178}{figure.10.6}
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Abbildung von Modellinformation in Topic Maps}}{180}{figure.10.7}
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Definition des Meta-Models (ohne Kardinalitäten)}}{183}{figure.10.8}
-\contentsline {figure}{\numberline {10.9}{\ignorespaces Einbindung des Meta-Meta-Modells}}{185}{figure.10.9}
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Ausschitt einer mittels GraphViz visualisierten Topic Map}}{189}{figure.10.10}
-\contentsline {figure}{\numberline {10.11}{\ignorespaces Modellierungshistorie als exportierte Grafik}}{191}{figure.10.11}
-\contentsline {figure}{\numberline {10.12}{\ignorespaces Modell-Hierarchie als exportierte Grafik}}{193}{figure.10.12}
-\contentsline {xpart}{Evaluierung}{197}{part.3}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Konzeptionelle Einordnung}{199}{chapter.11}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Überblick über die empirische Untersuchung}{223}{chapter.12}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Evaluierung der Verwendbarkeit des Werkzeugs}{241}{chapter.13}
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Dauer der Werkzeugverwendung -- Überblick}}{253}{figure.13.1}
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Dauer der Werkzeugverwendung -- Concept Mapping}}{254}{figure.13.2}
-\contentsline {figure}{\numberline {13.3}{\ignorespaces Dauer der Werkzeugverwendung -- Aushandlung}}{254}{figure.13.3}
-\contentsline {figure}{\numberline {13.4}{\ignorespaces Zeitverteilung zwischen den Teilnehmern}}{256}{figure.13.4}
-\contentsline {figure}{\numberline {13.5}{\ignorespaces Connectedness in Evaluierungsblock 2 - Durchgang 1}}{257}{figure.13.5}
-\contentsline {figure}{\numberline {13.6}{\ignorespaces Connectedness in Evaluierungsblock 2 - Durchgang 2}}{258}{figure.13.6}
-\contentsline {figure}{\numberline {13.7}{\ignorespaces Connctedness in Evaluierungsblock 3}}{258}{figure.13.7}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Evaluierung der erstellten Modelle}{265}{chapter.14}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Evaluierung der durchgeführten Articulation Work}{267}{chapter.15}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Schlussbetrachtungen}{265}{chapter.16}
+\contentsline {xchapter}{Schlussbetrachtungen}{281}{chapter.16}
