@@ -3,8 +3,8 @@ Scanning style file ./Schrift.ist.............
 ** Input style error (file = ./Schrift.ist, line = 16):
    -- Unknown specifier item_02.
 ..............done (27 attributes redefined, 1 ignored).
-Scanning input file ./Schrift.acn....done (6 entries accepted, 0 rejected).
-Sorting entries....done (15 comparisons).
-Generating output file ./Schrift.acr....done (9 lines written, 0 warnings).
-Output written in ./Schrift.acr.
-Transcript written in ./Schrift.alg.
+Scanning input file Schrift.acn....done (206 entries accepted, 0 rejected).
+Sorting entries.....done (1790 comparisons).
+Generating output file Schrift.acr....done (115 lines written, 0 warnings).
+Output written in Schrift.acr.
+Transcript written in Schrift.alg.

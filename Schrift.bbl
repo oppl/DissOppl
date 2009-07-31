@@ -1,9 +1,20 @@
 \begin{thebibliography}{}
 
+\bibitem[{Allied Vision Technologies GmbH}, 2008]{AVT08}
+{Allied Vision Technologies GmbH} (2008).
+\newblock {AVT Guppy}.
+\newblock Technical Manual V6.2.0, Allied Vision Technologies GmbH, Stadtroda,
+  Germany.
+
 \bibitem[Argyris und Sch{\"o}n, 1978]{Argyris78}
 Argyris, C. und Sch{\"o}n, D. (1978).
 \newblock {\em Organizational Learning: A Theory Of Action Perspective}.
 \newblock Addison-Wesley.
+
+\bibitem[Arnold et~al., 1999]{Arnold99}
+Arnold, K., Scheifler, R., Waldo, J., O'Sullivan, B., und Wollrath, A. (1999).
+\newblock {\em {Jini Specification}}.
+\newblock Addison-Wesley Longman Publishing, Boston, MA, USA.
 
 \bibitem[Becker et~al., 2000]{Becker00}
 Becker, J., Rosemann, M., und von Uthmann, C. (2000).
@@ -11,6 +22,13 @@ Becker, J., Rosemann, M., und von Uthmann, C. (2000).
 \newblock In van~der Aalst, W., Sedel, J., und Oberweis, A., editors, {\em
   Business Process Management: Models, Techniques, and Empirical Studies},
   number 1806 in LNCS, Seiten 241--262. Springer.
+
+\bibitem[Beer et~al., 2003]{Beer03}
+Beer, W., Christian, V., Ferscha, A., und Mehrmann, L. (2003).
+\newblock {Modeling Context-aware Behavior by Interpreted ECA Rules}.
+\newblock In {\em Proceedings of the International Conference on Parallel and
+  Distributed Computing (EUROPAR '03)}, volume 2790 of {\em LNCS}, Seiten
+  1064--1073. Springer.
 
 \bibitem[Bellotti et~al., 2002]{Bellotti02}
 Bellotti, V., Back, M., Edwards, W., Grinter, R., Henderson, A., und Lopes, C.
@@ -26,6 +44,32 @@ Bendifallah, S. und Scacchi, W. (1987).
 \newblock {Understanding software maintenance work}.
 \newblock {\em IEEE Transactions on Software Engineering}, 13(3):311--323.
 
+\bibitem[Blackwell et~al., 2007]{Blackwell07}
+Blackwell, A., Morrison, C., und Edge, D. (2007).
+\newblock {A solid diagram metaphor for tangible interaction}.
+\newblock In {\em CHI '07 extended abstracts on Human factors in computing
+  systems}, New York, NY, USA. ACM.
+
+\bibitem[Bloks, 1996]{Bloks96}
+Bloks, R. H.~J. (1996).
+\newblock {The IEEE-1394 high speed serial bus}.
+\newblock {\em Philips Journal of Research}, 50(1-2):209--216.
+
+\bibitem[{Bluetooth SIG}, 2007]{Bluetooth-SIG07}
+{Bluetooth SIG} (2007).
+\newblock {Bluetooth Specification Version 2.1 + EDR}.
+\newblock Specification, Bluetooth SIG.
+
+\bibitem[Brant, 1995]{Brant95}
+Brant, J.~M. (1995).
+\newblock {HotDraw}.
+\newblock Master's thesis, University of Illinois at Urbana Champaign.
+
+\bibitem[Budinsky et~al., 2003]{Budinsky03}
+Budinsky, F., Brodsky, S., und Merks, E. (2003).
+\newblock {\em {Eclipse modeling framework}}.
+\newblock Pearson Education.
+
 \bibitem[Ca{\~n}as et~al., 2004]{Canas04}
 Ca{\~n}as, A., Hill, G., Carff, R., Suri, N., Lott, J., Eskridge, T.,
   G{\'o}mez, G., Arroyo, M., und Carvajal, R. (2004).
@@ -34,11 +78,35 @@ Ca{\~n}as, A., Hill, G., Carff, R., Suri, N., Lott, J., Eskridge, T.,
   the 1st International Conference on Concept Mapping. Pamplona, Spain:
   Universidad P{\'u}blica de Navarra}.
 
+\bibitem[Carriero und Gelernter, 1989]{Carriero89}
+Carriero, N. und Gelernter, D. (1989).
+\newblock Linda in context.
+\newblock {\em Communications of the ACM}, 32(4):444--458.
+
+\bibitem[Comiskey et~al., 1998]{Comiskey98}
+Comiskey, B., Albert, J., Yoshizawa, H., Jacobson, J., by~Michaels, C., et~al.
+  (1998).
+\newblock {An electrophoretic ink for all-printed reflective electronic
+  displays}.
+\newblock {\em Nature}, 394:253--255.
+
+\bibitem[Corbin und Strauss, 1993]{Corbin93}
+Corbin, J. und Strauss, A. (1993).
+\newblock {The Articulation of Work through Interaction}.
+\newblock {\em The Sociological Quarterly}, 34(1):71--83.
+
 \bibitem[Coutrix und Nigay, 2006]{Coutrix06}
 Coutrix, C. und Nigay, L. (2006).
 \newblock {Mixed reality: a model of mixed interaction}.
 \newblock In {\em Proceedings of the working conference on Advanced visual
   interfaces}, Seiten 43--50, New York, NY, USA. ACM Press.
+
+\bibitem[Curbera et~al., 2002]{Curbera02}
+Curbera, F., Duftler, M., Khalaf, R., Nagy, W., Mukhi, N., und Weerawarana, S.
+  (2002).
+\newblock {Unraveling the Web services web: an introduction to SOAP, WSDL, and
+  UDDI}.
+\newblock {\em IEEE Internet Computing}, 6(2):86--93.
 
 \bibitem[Dahme und Raeithel, 1997]{Dahme97}
 Dahme, C. und Raeithel, A. (1997).
@@ -54,6 +122,23 @@ Dann, H.-D. (1992).
   rekonstruktiven Erhebung subjektiver Theorien}, volume~25 of {\em Arbeiten
   zur sozialwissenschaftlichen Psychologie}, Seiten 2--41. Aschendorff.
 
+\bibitem[Dey et~al., 2001]{Dey01}
+Dey, A.~K., Salber, D., und Abowd, G.~D. (2001).
+\newblock A conceptual framework and a toolkit for supporting the rapid
+  prototyping of context-aware applications.
+\newblock {\em Human-Computer Interaction (HCI) Journal}, 16(2-4):97--166.
+
+\bibitem[Downing, 1998]{Downing98}
+Downing, T. (1998).
+\newblock {\em {Java RMI: remote method invocation}}.
+\newblock IDG Books Worldwide, Inc., Foster City, CA, USA.
+
+\bibitem[Ellson et~al., 2002]{Ellson02}
+Ellson, J., Gansner, E., Koutsofios, L., North, S., und Woodhull, G. (2002).
+\newblock {Graphviz-open source graph drawing tools}.
+\newblock In {\em Graph Drawing}, Lecture Notes in Computer Science, Seiten
+  483--484. Springer.
+
 \bibitem[Emery und Trist, 1960]{Emery60}
 Emery, F. und Trist, E. (1960).
 \newblock {Socio-technical systems}.
@@ -63,6 +148,20 @@ Emery, F. und Trist, E. (1960).
 Engestr{\"o}m, Y. (1987).
 \newblock {\em Learning by expanding}.
 \newblock Orienta-konsultit, Helsinki.
+
+\bibitem[Feiner, 2008]{Feiner08}
+Feiner, T. (2008).
+\newblock {Modelleditor auf Basis dynamischer Metamodelle zur Unterst{\"u}tzung
+  partizipativer Modellerfassung und -reflexion}.
+\newblock Master's thesis, University of Linz.
+
+\bibitem[Ferscha et~al., 2008]{Ferscha08}
+Ferscha, A., Vogl, S., Emsenhuber, B., und Wally, B. (2008).
+\newblock {Physical shortcuts for media remote controls}.
+\newblock In {\em Proceedings of the 2nd international conference on
+  INtelligent TEchnologies for interactive enterTAINment table of contents}.
+  ICST (Institute for Computer Sciences, Social-Informatics and
+  Telecommunications Engineering) ICST, Brussels, Belgium, Belgium.
 
 \bibitem[Fishkin, 2004]{Fishkin04}
 Fishkin, K.~P. (2004).
@@ -81,6 +180,11 @@ Fitzmaurice, G., Ishii, H., und Buxton, W. (1995).
   computing systems (CHI)}, Seiten 442--449. ACM Press/Addison-Wesley
   Publishing Co. New York, NY, USA.
 
+\bibitem[Fjeld, 2001]{Fjeld01}
+Fjeld, M. (2001).
+\newblock {\em Designing for tangible interaction}.
+\newblock PhD thesis, Swiss Federal Institute of Technology.
+
 \bibitem[Fjuk et~al., 1997]{Fjuk97}
 Fjuk, A., Nurminen, M., und Sm{\o}rdal, O. (1997).
 \newblock {Taking Articulation Work Seriously: An Activity Theoretical
@@ -93,15 +197,61 @@ Fujimura, J. (1987).
   Alignment}.
 \newblock {\em Social Studies of Science}, 17(2):257--293.
 
+\bibitem[Furtm{\"u}ller, 2007]{Furtmuller07}
+Furtm{\"u}ller, F. (2007).
+\newblock {Implementierung eines Frameworks f{\"u}r ber{\"u}hrbare
+  Benutzungsschnittstellen}.
+\newblock Master's thesis, University of Linz.
+
+\bibitem[Furtm{\"u}ller und Oppl, 2007]{Furtmuller07a}
+Furtm{\"u}ller, F. und Oppl, S. (2007).
+\newblock {A Tuple-Space based Middleware for Collaborative Tangible User
+  Interfaces}.
+\newblock In {\em Proceedings of WETICE '07}. IEEE Press.
+
+\bibitem[Gamma und Eggenschwiler, 1996]{Gamma96}
+Gamma, E. und Eggenschwiler, T. (1996).
+\newblock {The JHotDraw-Framework}.
+\newblock online http://www.jhotdraw.org/.
+
+\bibitem[Gamma et~al., 1995]{Gamma95}
+Gamma, E., Helm, R., Johnson, R., und Vlissides, J. (1995).
+\newblock {\em {Design patterns: elements of reusable object-oriented
+  software}}.
+\newblock Addison-wesley Reading, MA.
+
 \bibitem[Gasser, 1986]{Gasser86}
 Gasser, L. (1986).
 \newblock {The integration of computing and routine work.}
 \newblock {\em ACM Transactions on Office Information Systems}, 4(3):205--225.
 
+\bibitem[Gellersen et~al., 2004]{Gellersen04}
+Gellersen, H., Kortuem, G., Schmidt, A., und Beigl, M. (2004).
+\newblock {Physical prototyping with smart-its}.
+\newblock {\em IEEE Pervasive Computing}, 3(3):74--82.
+
 \bibitem[Gerson und Star, 1986]{Gerson86}
 Gerson, E. und Star, S. (1986).
 \newblock {Analyzing due process in the workplace}.
 \newblock {\em ACM Transactions on Information Systems (TOIS)}, 4(3):257--270.
+
+\bibitem[Grinter, 1995]{Grinter95}
+Grinter, R. (1995).
+\newblock {Using a configuration management tool to coordinate software
+  development}.
+\newblock In {\em Proceedings of conference on Organizational computing
+  systems}, Seiten 168--177. ACM Press.
+
+\bibitem[Grinter, 1996]{Grinter96}
+Grinter, R. (1996).
+\newblock {Supporting articulation work using software configuration management
+  systems}.
+\newblock {\em Computer Supported Cooperative Work (CSCW)}, 5(4):447--465.
+
+\bibitem[{GS1}, 2008]{GS108}
+{GS1} (2008).
+\newblock {Introduction to GS1 DataMatrix}.
+\newblock Guideline, {GS1}.
 
 \bibitem[Hampson und Junor, 2005]{Hampson05}
 Hampson, I. und Junor, A. (2005).
@@ -126,6 +276,12 @@ Holmquist, L., Redstr{\"o}m, J., und Ljungstrand, P. (1999).
 \newblock {Token-Based Acces to Digital Information}.
 \newblock In {\em Proceedings of the 1st international Symposium on Handheld
   and Ubiquitous Computing}, Seiten 234--245. Springer-Verlag London, UK.
+
+\bibitem[Hornecker, 2004]{Hornecker04}
+Hornecker, E. (2004).
+\newblock {\em Tangible User Interfaces als kooperationsunterst{\"u}tzendes
+  Medium}.
+\newblock Phd-{T}hesis, University of Bremen. Dept. of Computing.
 
 \bibitem[Hughes, 1971]{Hughes71}
 Hughes, F. (1971).
@@ -153,6 +309,32 @@ Ishii, H. und Ullmer, B. (1997).
 \newblock In {\em Proceedings of the SIGCHI conference on Human factors in
   computing systems (CHI)}, Seiten 234--241. ACM Press New York, NY, USA.
 
+\bibitem[{ISO JTC1/SC31}, 2006]{QR2008}
+{ISO JTC1/SC31} (2006).
+\newblock Information technology -- automatic identification and data capture
+  techniques -- qr code 2005 bar code symbology specification.
+\newblock International Standard 18004:2006, ISO/IEC.
+
+\bibitem[{ISO JTC1/SC34}, 2008]{TMCL08}
+{ISO JTC1/SC34} (2008).
+\newblock {Topic Maps Constraint Language}.
+\newblock draft standard, ISO/IEC.
+
+\bibitem[{ISO JTC1/SC34/WG3}, 2006]{XTM06}
+{ISO JTC1/SC34/WG3} (2006).
+\newblock {Information Technology - Topic Maps - Part 3: XML Syntax}.
+\newblock International standard, ISO.
+
+\bibitem[{ISO JTC1/SC34/WG3}, 2008]{TMDM08}
+{ISO JTC1/SC34/WG3} (2008).
+\newblock {Information Technology - Topic Maps - Part 2: Data Model}.
+\newblock International Standard 13250-2, ISO/IEC.
+
+\bibitem[James, 1997]{James97}
+James, M. (1997).
+\newblock {\em {Microcontroller Cookbook - PIC \& 8051}}.
+\newblock Butterworth-Heinemann.
+
 \bibitem[Johnson-Laird, 1981]{Johnson-Laird81}
 Johnson-Laird, P.~N. (1981).
 \newblock {Mental models in cognitive science}.
@@ -163,6 +345,26 @@ J{\o}rgensen, H. (2004).
 \newblock {\em {Interactive Process Models}}.
 \newblock PhD thesis, Department of Computer and Information Sciences,
   Norwegian University of Science and Technology Trondheim.
+
+\bibitem[Kaltenbrunner und Bencina, 2007]{Kaltenbrunner07}
+Kaltenbrunner, M. und Bencina, R. (2007).
+\newblock reactivision: a computer-vision framework for table-based tangible
+  interaction.
+\newblock In {\em TEI '07: Proceedings of the 1st international conference on
+  Tangible and embedded interaction}, Seiten 69--74, New York, NY, USA. ACM
+  Press.
+
+\bibitem[Kaltenbrunner et~al., 2006]{Kaltenbrunner06}
+Kaltenbrunner, M., Jorda, S., Alonso, M., und Geiger, G. (2006).
+\newblock The reactable*: A collaborative musical instrument.
+\newblock In {\em Proceedings of WETICE '06}. IEEE Press.
+
+\bibitem[Kato et~al., 2000]{Kato00}
+Kato, H., Billinghurst, M., Poupyrev, I., Imamoto, K., und Tachibana, K.
+  (2000).
+\newblock {Virtual object manipulation on a table-top AR environment}.
+\newblock In {\em IEEE and ACM International Symposium on Augmented Reality,
+  2000.(ISAR 2000). Proceedings}, Seiten 111--119.
 
 \bibitem[Klemmer et~al., 2004]{Klemmer04}
 Klemmer, S., Li, J., Lin, J., und Landay, J. (2004).
@@ -187,6 +389,12 @@ Larkin, J. und Simon, H. (1987).
 \newblock {Why a diagram is (sometimes) worth ten thousand words}.
 \newblock {\em Cognitive science}, 11(1):65--100.
 
+\bibitem[Lenoir, 1994]{Lenoir94}
+Lenoir, T. (1994).
+\newblock Was the last turn the right turn? the semiotic turn and a. j.
+  greimas.
+\newblock {\em Configurations}, 2(1):119--136.
+
 \bibitem[Leont'ev, 1972]{Leontev72}
 Leont'ev, A. (1972).
 \newblock {The Problem of Activity in Psychology}.
@@ -196,6 +404,12 @@ Leont'ev, A. (1972).
 Leont'ev, A. (1978).
 \newblock {\em Activity, Consciousness, and Personality}.
 \newblock Prentice-Hall.
+
+\bibitem[McAffer und Lemieux, 2005]{McAffer05}
+McAffer, J. und Lemieux, J. (2005).
+\newblock {\em {Eclipse Rich Client Platform: Designing, Coding, and Packaging
+  Java (TM) Applications}}.
+\newblock Addison-Wesley Professional.
 
 \bibitem[Mi und Scacchi, 1991]{Mi91}
 Mi, P. und Scacchi, W. (1991).
@@ -208,6 +422,11 @@ Nardi, B. und Kaptelinin, V. (2006).
 \newblock {\em {Acting with Technology - Activity Theory and Interaction
   Design}}.
 \newblock MIT Press.
+
+\bibitem[Neubauer, 2008]{Neubauer08}
+Neubauer, M. (2008).
+\newblock {Abbildung generischer Modelle auf Topic Maps}.
+\newblock Master's thesis, University of Linz.
 
 \bibitem[Nonaka und Takeuchi, 1995]{Nonaka95}
 Nonaka, I. und Takeuchi, H. (1995).
@@ -227,12 +446,60 @@ Novak, J. und Ca{\~n}as, A.~J. (2006).
 \newblock Technical Report IHMC CmapTools 2006-01, Florida Institute for Human
   and Machine Cognition.
 
+\bibitem[Oppl, 2004]{Oppl04}
+Oppl, S. (2004).
+\newblock {Context-aware Group-Interaction}.
+\newblock Master's thesis, University of Linz, Department for Pervasive
+  Computing.
+
+\bibitem[Oppl, 2007]{Oppl07}
+Oppl, S. (2007).
+\newblock {Flexibility of Content for Organisational Learning - A Topic Map
+  Approach}.
+\newblock Master's thesis, University of Linz.
+
+\bibitem[Oppl und Stary, 2005]{Oppl05a}
+Oppl, S. und Stary, C. (2005).
+\newblock {Towards Human-Centered Design of Diagrammatic Representation
+  Schemes}.
+\newblock In Dix, A. und Dittmar, A., editors, {\em Proceedings of the 4th
+  International Workshop on Task Models and Diagrams for User Interface Design
+  (TAMODIA 2005)}, Seiten 55--62. ACM Press New York, NY, USA.
+
 \bibitem[Patten und Ishii, 2007]{Patten07}
 Patten, J. und Ishii, H. (2007).
 \newblock Mechanical constraints as computational constraints in tabletop
   tangible interfaces.
 \newblock In {\em Proceedings of the SIGCHI conference on Human factors in
   computing systems (CHI '07)}, Seiten 809--818, New York, NY, USA. ACM.
+
+\bibitem[Patten et~al., 2001]{Patten01}
+Patten, J., Ishii, H., Hines, J., und Pangaro, G. (2001).
+\newblock Sensetable: a wireless object tracking platform for tangible
+  interfaces.
+\newblock In {\em Proceedings of the ACM Conference on Human Factors in
+  Computing Systems 2001 (CHI '01)}.
+
+\bibitem[Pedersen und Hornb\aek, 2009]{Pedersen09}
+Pedersen, E.~W. und Hornb\aek, K. (2009).
+\newblock mixitui: a tangible sequencer for electronic live performances.
+\newblock In {\em TEI '09: Proceedings of the 3rd International Conference on
+  Tangible and Embedded Interaction}, Seiten 223--230, New York, NY, USA. ACM.
+
+\bibitem[Pepper, 2000]{Pepper00}
+Pepper, S. (2000).
+\newblock The tao of topic maps.
+\newblock In {\em Proceedings of XML Europe}.
+
+\bibitem[Rath, 2003]{Rath03}
+Rath, H. (2003).
+\newblock {\em The Topic Maps Handbook}.
+\newblock empolis GmbH.
+
+\bibitem[{Red Hat Middleware}, 2007]{Hibernate07}
+{Red Hat Middleware} (2007).
+\newblock {Hibernate Reference Documentation}.
+\newblock Reference documentation, {Red Hat Middleware}.
 
 \bibitem[Resnick et~al., 1998]{Resnick98}
 Resnick, M., Martin, F., Berg, R., Borovoy, R., Colella, V., Kramer, K., und
@@ -241,12 +508,23 @@ Resnick, M., Martin, F., Berg, R., Borovoy, R., Colella, V., Kramer, K., und
 \newblock In {\em Proceedings of the SIGCHI conference on Human factors in
   computing systems}, Seiten 281--287, New York, NY, USA. ACM Press.
 
+\bibitem[Rohs, 2005]{Rohs05}
+Rohs, M. (2005).
+\newblock {Visual code widgets for marker-based interaction}.
+\newblock In {\em 25th IEEE International Conference on Distributed Computing
+  Systems Workshops, 2005}, Seiten 506--513. IEEE Press.
+
 \bibitem[Rohs und Gfeller, 2004]{Rohs04}
 Rohs, M. und Gfeller, B. (2004).
 \newblock {Using camera-equipped mobile phones for interacting with real-world
   objects}.
 \newblock In {\em Advances in Pervasive Computing}, Seiten 265--271. Austrian
   Computer Society (OCG).
+
+\bibitem[Rumbaugh et~al., 2004]{Rumbaugh04}
+Rumbaugh, J., Jacobson, I., und Booch, G. (2004).
+\newblock {\em {Unified Modeling Language Reference Manual, The}}.
+\newblock Pearson Higher Education.
 
 \bibitem[Rumelhart und Norman, 1978]{Rumelhart78}
 Rumelhart, D. und Norman, D. (1978).
@@ -266,15 +544,37 @@ Scheer, A. und Nuettgens, M. (2000).
 \newblock {\em Business Process Management: Models, Techniques, and Empirical
   Studies}, Seiten 376--389.
 
+\bibitem[Scheer, 2003]{Scheer03}
+Scheer, A.-W. (2003).
+\newblock {\em ARIS -- Business Process Modeling}.
+\newblock Springer, 3 edition.
+
+\bibitem[Schilit et~al., 1994]{Schilit94}
+Schilit, B., Adams, N., und Want, R. (1994).
+\newblock {Context-aware computing applications}.
+\newblock In {\em Proceedings of the Workshop on Mobile Computing Systems and
+  Applications}, Seiten 85--90.
+
 \bibitem[Schmidt, 1990]{Schmidt90}
 Schmidt, K. (1990).
 \newblock {Analysis of Cooperative Work. A Conceptual Framework}.
 \newblock Technical Report Ris{\o}-M-2890, Ris{\o} National Laboratory.
 
+\bibitem[Schmidt, 1994]{Schmidt94}
+Schmidt, K. (1994).
+\newblock {Cooperative Work and its Articulation}.
+\newblock {\em Travail Humain}, 57(4):345--366.
+
 \bibitem[Schmidt und Bannon, 1992]{Schmidt92}
 Schmidt, K. und Bannon, L. (1992).
 \newblock {Taking CSCW seriously: Supporting Articulation Work}.
 \newblock {\em Computer Supported Cooperative Work (CSCW)}, 1(1):7--40.
+
+\bibitem[Schmidt und Simone, 1996]{Schmidt96}
+Schmidt, K. und Simone, C. (1996).
+\newblock Coordination mechanisms: Towards a conceptual foundation of {CSCW}
+  systems design.
+\newblock {\em Computer Supported Cooperative Work}, 5(2/3):155--200.
 
 \bibitem[Seel, 1991]{Seel91}
 Seel, N.~M. (1991).
@@ -297,10 +597,20 @@ Shapiro, S. und Wilk, M. (1965).
 \newblock An analysis of variance test for normality.
 \newblock {\em Biometrika}, 52(3):591--599.
 
+\bibitem[Shinar, 2004]{Shinar04}
+Shinar, J. (2004).
+\newblock {\em {Organic light-emitting devices: a survey}}.
+\newblock Springer.
+
 \bibitem[Shipman und Hsieh, 2000]{Shipman00}
 Shipman, F. und Hsieh, H. (2000).
 \newblock {Navigable history: a reader's view of writer's time}.
 \newblock {\em New review of hypermedia and multimedia}, 6(1):147--167.
+
+\bibitem[Stachowiak, 1973]{Stachowiak73}
+Stachowiak, H. (1973).
+\newblock {\em {Allgemeine Modelltheorie}}.
+\newblock Springer Wien.
 
 \bibitem[Star und Strauss, 1999]{Star99}
 Star, S.~L. und Strauss, A. (1999).
@@ -308,6 +618,12 @@ Star, S.~L. und Strauss, A. (1999).
   invisible work.
 \newblock {\em Computer Supported Cooperative Work: The Journal of
   Collaborative Computing}, 8(1/2):9 -- 30.
+
+\bibitem[Stary, 1994]{Stary94}
+Stary, C. (1994).
+\newblock {\em {Interaktive Systeme: Softwareentwicklung und
+  Softwareergonomie}}.
+\newblock Vieweg.
 
 \bibitem[Strauss, 1985]{Strauss85}
 Strauss, A. (1985).
@@ -363,6 +679,23 @@ Underkoffler, J. und Ishii, H. (1999).
   computing systems: the CHI is the limit}, Seiten 386--393. ACM New York, NY,
   USA.
 
+\bibitem[Van~Laerhoven et~al., 2003]{Van-Laerhoven03}
+Van~Laerhoven, K., Villar, N., Schmidt, A., Gellersen, H., Hakansson, M., und
+  Holmquist, L. (2003).
+\newblock {Pin\&Play: the surface as network medium}.
+\newblock {\em IEEE Communications Magazine}, 41(4):90--95.
+
+\bibitem[Vatant, 2004]{Vatant04}
+Vatant, B. (2004).
+\newblock {Ontology-driven Topic Maps}.
+\newblock In {\em Proceedings of XML Europe 2004}, Amsterdam.
+
+\bibitem[Wagner und Schmalstieg, 2003]{Wagner03}
+Wagner, D. und Schmalstieg, D. (2003).
+\newblock {ARToolKit on the PocketPC platform}.
+\newblock In {\em IEEE International Augmented Reality Toolkit Workshop, 2003},
+  Seiten 14--15. IEEE Press.
+
 \bibitem[Weiser, 1991]{Weiser91}
 Weiser, M. (1991).
 \newblock The computer for the 21st century.
@@ -372,6 +705,11 @@ Weiser, M. (1991).
 Wellner, P. (1993).
 \newblock {Interacting with paper on the DigitalDesk}.
 \newblock {\em Communications of the ACM}, 36:87--96.
+
+\bibitem[{ZigBee Alliance}, 2007]{ZigBee07}
+{ZigBee Alliance} (2007).
+\newblock {Zigbee Specification}.
+\newblock Specification r17, ZigBee Alliance.
 
 \bibitem[Zuckerman et~al., 2005]{Zuckerman05}
 Zuckerman, O., Arida, S., und Resnick, M. (2005).
