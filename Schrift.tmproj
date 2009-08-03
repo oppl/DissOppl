@@ -10,7 +10,7 @@
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-07-31T22:14:41Z</date>
+			<date>2009-08-03T10:17:45Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -31,7 +31,7 @@
 					<key>filename</key>
 					<string>ArticulationWork.tex</string>
 					<key>lastUsed</key>
-					<date>2009-07-31T22:30:38Z</date>
+					<date>2009-08-03T18:27:38Z</date>
 					<key>selected</key>
 					<true/>
 				</dict>
@@ -76,7 +76,7 @@
 					<key>filename</key>
 					<string>ImplementierungUeberblick.tex</string>
 					<key>lastUsed</key>
-					<date>2009-07-30T21:25:07Z</date>
+					<date>2009-08-03T11:02:32Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -160,7 +160,7 @@
 					<key>filename</key>
 					<string>Acronyme.tex</string>
 					<key>lastUsed</key>
-					<date>2009-07-30T21:36:02Z</date>
+					<date>2009-08-02T13:07:06Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -196,44 +196,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>43</integer>
 				<key>line</key>
-				<integer>92</integer>
+				<integer>154</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>75</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>12</integer>
-				<key>line</key>
-				<integer>92</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>16</integer>
-				<key>line</key>
-				<integer>92</integer>
-			</dict>
+			<integer>112</integer>
 		</dict>
 		<key>ArticulationWork.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>380</integer>
 				<key>line</key>
-				<integer>384</integer>
+				<integer>542</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>797</integer>
 			<key>firstVisibleLine</key>
-			<integer>362</integer>
+			<integer>538</integer>
 		</dict>
 		<key>Einfuehrung.tex</key>
 		<dict>
@@ -453,20 +437,6 @@
 			<key>firstVisibleLine</key>
 			<integer>8</integer>
 		</dict>
-		<key>Schrift.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
@@ -474,7 +444,6 @@
 		<string>ArticulationWork.tex</string>
 		<string>Acronyme.tex</string>
 		<string>ImplementierungUeberblick.tex</string>
-		<string>Schrift.tex</string>
 		<string>EvalTUI.tex</string>
 	</array>
 	<key>shellVariables</key>
@@ -507,6 +476,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{424, 67}, {789, 811}}</string>
+	<string>{{14, 67}, {789, 811}}</string>
 </dict>
 </plist>

@@ -44,6 +44,12 @@ Bendifallah, S. und Scacchi, W. (1987).
 \newblock {Understanding software maintenance work}.
 \newblock {\em IEEE Transactions on Software Engineering}, 13(3):311--323.
 
+\bibitem[Berg und Timmermans, 2000]{Berg00}
+Berg, M. und Timmermans, S. (2000).
+\newblock Order and their others: On the constitution of universalities in
+  medical work.
+\newblock {\em Configurations}, 8(1):31--61.
+
 \bibitem[Blackwell et~al., 2007]{Blackwell07}
 Blackwell, A., Morrison, C., und Edge, D. (2007).
 \newblock {A solid diagram metaphor for tangible interaction}.
@@ -82,6 +88,13 @@ Ca{\~n}as, A., Hill, G., Carff, R., Suri, N., Lott, J., Eskridge, T.,
 Carriero, N. und Gelernter, D. (1989).
 \newblock Linda in context.
 \newblock {\em Communications of the ACM}, 32(4):444--458.
+
+\bibitem[Carstensen und Schmidt, 1999]{Carstensen99}
+Carstensen, P. und Schmidt, K. (1999).
+\newblock {Computer supported cooperative work: new challenges to systems
+  design}.
+\newblock preprint, to appear in: Itoh, k. (ed.): Handbook of human factors,
+  Center for Tele-Information, Danmarks Tekniske Universite.
 
 \bibitem[Comiskey et~al., 1998]{Comiskey98}
 Comiskey, B., Albert, J., Yoshizawa, H., Jacobson, J., by~Michaels, C., et~al.
@@ -149,6 +162,11 @@ Engestr{\"o}m, Y. (1987).
 \newblock {\em Learning by expanding}.
 \newblock Orienta-konsultit, Helsinki.
 
+\bibitem[Engestr{\"o}m, 2000]{Engestrom00}
+Engestr{\"o}m, Y. (2000).
+\newblock Activity theory as a framework for analyzing and redesigning work.
+\newblock {\em Ergonomics}, 43(7):940--974.
+
 \bibitem[Feiner, 2008]{Feiner08}
 Feiner, T. (2008).
 \newblock {Modelleditor auf Basis dynamischer Metamodelle zur Unterst{\"u}tzung
@@ -184,6 +202,11 @@ Fitzmaurice, G., Ishii, H., und Buxton, W. (1995).
 Fjeld, M. (2001).
 \newblock {\em Designing for tangible interaction}.
 \newblock PhD thesis, Swiss Federal Institute of Technology.
+
+\bibitem[Fjuk und Dirckinck-Holmfeld, 1997]{Fjuk97a}
+Fjuk, A. und Dirckinck-Holmfeld, L. (1997).
+\newblock {Articulation of Actions in Distributed Collaborative Learning}.
+\newblock {\em Scandinavian Journal of Information Systems}, 9(2):3--24.
 
 \bibitem[Fjuk et~al., 1997]{Fjuk97}
 Fjuk, A., Nurminen, M., und Sm{\o}rdal, O. (1997).
@@ -378,6 +401,12 @@ Klemmer, S., Thomsen, M., Phelps-Goodman, E., Lee, R., und Landay, J. (2002).
   history. chi 2002.
 \newblock {\em Human Factors in Computing Systems, CHI Letters}, 4(1).
 
+\bibitem[Kling und Star, 1998]{Kling98}
+Kling, R. und Star, S. (1998).
+\newblock {Human centered systems in the perspective of organizational and
+  social informatics}.
+\newblock {\em ACM SIGCAS Computers and Society}, 28(1):22--29.
+
 \bibitem[Koleva et~al., 2003]{Koleva03}
 Koleva, B., Benford, S., Ng, K., und Rodden, T. (2003).
 \newblock {A Framework for Tangible User Interfaces}.
@@ -537,6 +566,12 @@ Sachs, P. (1995).
 \newblock Transforming work: collaboration, learning, and design.
 \newblock {\em Communications of the ACM}, 38(9):36--44.
 
+\bibitem[Sarini, 2003]{Sarini03}
+Sarini, M. (2003).
+\newblock {\em Alignment of meanings and of protocols as a form of articulation
+  work in cooperation}.
+\newblock PhD thesis, University of Torino.
+
 \bibitem[Scheer und Nuettgens, 2000]{Scheer00}
 Scheer, A. und Nuettgens, M. (2000).
 \newblock Aris architecture and reference models for business process
@@ -607,6 +642,11 @@ Shipman, F. und Hsieh, H. (2000).
 \newblock {Navigable history: a reader's view of writer's time}.
 \newblock {\em New review of hypermedia and multimedia}, 6(1):147--167.
 
+\bibitem[Simone et~al., 1999]{Simone99}
+Simone, C., Mark, G., und Giubbilei, D. (1999).
+\newblock {Interoperability as a means of articulation work}.
+\newblock {\em ACM SIGSOFT Software Engineering Notes}, 24(2):39--48.
+
 \bibitem[Stachowiak, 1973]{Stachowiak73}
 Stachowiak, H. (1973).
 \newblock {\em {Allgemeine Modelltheorie}}.
@@ -639,6 +679,25 @@ Strauss, A. (1988).
 Strauss, A. (1993).
 \newblock {\em {Continual Permutations of Action}}.
 \newblock Aldine de Gruyter, New York.
+
+\bibitem[Suchman, 1987]{Suchman87}
+Suchman, L. (1987).
+\newblock {\em Plans and Situated Actions: The Problem of Human-Machine
+  Communication}.
+\newblock Cambridge University Press.
+
+\bibitem[Suchman, 1995]{Suchman95}
+Suchman, L. (1995).
+\newblock Making work visible.
+\newblock {\em Communications of the ACM}, 38(9):56--64.
+
+\bibitem[Suchman, 1999]{Suchman99}
+Suchman, L. (1999).
+\newblock {Supporting articulation work: Aspects of a feminist practice of
+  office technology production}.
+\newblock In Kling, R., editor, {\em Computerization and Controversy - value
+  conflicts and social choices}, Seiten 407--423. Academic Press, Inc. Orlando,
+  FL, USA.
 
 \bibitem[Suzuki und Kato, 1995]{Suzuki95}
 Suzuki, H. und Kato, H. (1995).
