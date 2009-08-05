@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  5 AUG 2009 16:43
+This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  5 AUG 2009 22:59
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -1269,49 +1269,56 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: img/ArticulationWork/ArbeitInteraktion.png Graphic file (type QTm)
 
 <use  "img/ArticulationWork/ArbeitInteraktion.png" > [9]
-File: img/ArticulationWork/ArtikulationProduktion.png Graphic file (type QTm)
+Underfull \hbox (badness 2865) in paragraph at lines 30--30
+[][][][][]\EU1/HoeflerText(0)/m/it/10 „The articulation work involves the pre
+-articulation of the tasks, their management and post-
+ []
 
+File: img/ArticulationWork/ArtikulationProduktion.png Graphic file (type QTm)
 <use  "img/ArticulationWork/ArtikulationProduktion.png" > [10]
-Underfull \hbox (badness 1107) in paragraph at lines 46--47
+Underfull \hbox (badness 1107) in paragraph at lines 45--46
 \EU1/HoeflerText(0)/m/it/12 tine and the problematic. Problematic interactions 
 involve ’thought’, or when more
  []
 
 [11]
-Overfull \hbox (0.71883pt too wide) in paragraph at lines 52--53
+Overfull \hbox (0.71883pt too wide) in paragraph at lines 51--52
 []\EU1/HoeflerText(0)/m/n/12 Diese Abstimmungs-Aktivitäten können konkret wie
 derum unterschiedliche Aus-
  []
 
 
-Overfull \hbox (2.14906pt too wide) in paragraph at lines 56--57
+Overfull \hbox (2.14906pt too wide) in paragraph at lines 55--56
 []\EU1/HoeflerText(0)/m/n/12 Entwicklung von Strategien zur Vermeidung des Auft
 retens von
  []
 
-[12]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 1953) has occurred while \output is active []
 
  [13]
 LaTeX Font Info:    Try loading font information for OMS+HoeflerText(0) on inpu
-t line 83.
-LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 83.
+t line 82.
+LaTeX Font Info:    No file OMSHoeflerText(0).fd. on input line 82.
 LaTeX Font Info:    Font shape `OMS/HoeflerText(0)/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 83.
+(Font)              for symbol `textbullet' on input line 82.
 LaTeX Font Info:    Try loading font information for OT1+HoeflerText(0) on inpu
-t line 90.
-LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 90.
+t line 89.
+LaTeX Font Info:    No file OT1HoeflerText(0).fd. on input line 89.
 LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 90.
+(Font)              using `OT1/cmr/m/n' instead on input line 89.
 
 [14]
-Overfull \hbox (4.15596pt too wide) in paragraph at lines 98--99
+Overfull \hbox (4.15596pt too wide) in paragraph at lines 97--98
 []\EU1/HoeflerText(0)/m/n/12 Die Aus-
  []
 
 
-Overfull \hbox (2.25562pt too wide) in paragraph at lines 98--99
+Overfull \hbox (2.25562pt too wide) in paragraph at lines 97--98
 \EU1/HoeflerText(0)/m/n/12 meist nicht bewusst basierend auf Erfahrungswissen. 
 Tatsächlich kann die Aus-
  []
@@ -1320,28 +1327,28 @@ Tatsächlich kann die Aus-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-Overfull \hbox (0.86732pt too wide) in paragraph at lines 99--100
+Overfull \hbox (0.86732pt too wide) in paragraph at lines 98--99
 []\EU1/HoeflerText(0)/m/n/12 Die Artikula-
  []
 
 
-Overfull \hbox (11.73405pt too wide) in paragraph at lines 100--101
+Overfull \hbox (11.73405pt too wide) in paragraph at lines 99--100
 []
  []
 
 
-Overfull \hbox (3.12671pt too wide) in paragraph at lines 101--102
+Overfull \hbox (3.12671pt too wide) in paragraph at lines 100--101
 \EU1/HoeflerText(0)/m/n/12 lektiven Aktionen müssen alle beteiligten Individue
 n ihre Perspektive, ihr Wis-
  []
 
 
-Overfull \hbox (21.98215pt too wide) in paragraph at lines 102--103
+Overfull \hbox (21.98215pt too wide) in paragraph at lines 101--102
 []
  []
 
 
-Overfull \hbox (7.01878pt too wide) in paragraph at lines 102--103
+Overfull \hbox (7.01878pt too wide) in paragraph at lines 101--102
 \EU1/HoeflerText(0)/m/n/12 lem, wenn die individuellen Vorstellungen des Arbeit
 sablaufs divergieren („weak
  []
@@ -1350,25 +1357,25 @@ sablaufs divergieren („weak
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Overfull \hbox (34.96342pt too wide) in paragraph at lines 115--116
+Overfull \hbox (34.96342pt too wide) in paragraph at lines 114--115
 []\EU1/HoeflerText(0)/m/n/12 beschreibt jene Arbeitsabläufe, die von klassisch
 en Management-
  []
 
 [17]
-Overfull \hbox (2.03311pt too wide) in paragraph at lines 116--117
+Overfull \hbox (2.03311pt too wide) in paragraph at lines 115--116
 []\EU1/HoeflerText(0)/m/n/12 beschreibt Arbeitsabläufe in Umgebungen, die so d
 y-
  []
 
 
-Overfull \hbox (4.01695pt too wide) in paragraph at lines 117--118
+Overfull \hbox (4.01695pt too wide) in paragraph at lines 116--117
 []\EU1/HoeflerText(0)/m/n/12 umfasst all jene Arbeitsabläufe in Unternehmen, d
 ie zwar
  []
 
 
-Overfull \hbox (0.42038pt too wide) in paragraph at lines 121--122
+Overfull \hbox (0.42038pt too wide) in paragraph at lines 120--121
 \EU1/HoeflerText(0)/m/n/12 biniert auftreten. Auch hier können manche Arbeitsa
 bläufe durch erfolgreich durch-
  []
@@ -1379,13 +1386,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [18]
 LaTeX Font Info:    Font shape `OT1/HoeflerText(0)/bx/n' undefined
 (Font)              using `OT1/HoeflerText(0)/m/n' instead
-(Font)              for symbol `textendash' on input line 133.
+(Font)              for symbol `textendash' on input line 132.
 
 [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Overfull \hbox (2.32054pt too wide) in paragraph at lines 165--166
+Overfull \hbox (2.32054pt too wide) in paragraph at lines 164--165
 \EU1/HoeflerText(0)/m/n/12 dementsprechend auch organisational nicht unterstüt
 zt und wertgeschätzt). Für „Ar-
  []
@@ -1394,7 +1401,7 @@ zt und wertgeschätzt). Für „Ar-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-Overfull \hbox (1.05258pt too wide) in paragraph at lines 169--170
+Overfull \hbox (1.05258pt too wide) in paragraph at lines 168--169
 \EU1/HoeflerText(0)/m/n/12 hinsichtlich des Abstraktionsgrades der „Articulat
 ion Work“ notwendig. Beschäftigt
  []
@@ -1406,18 +1413,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: img/ArticulationWork/aw_conceptual_structure.png Graphic file (type QTm)
 
 <use  "img/ArticulationWork/aw_conceptual_structure.png" >
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 175--176
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 174--175
  [][] 
  []
 
 [23]
-Overfull \hbox (0.4951pt too wide) in paragraph at lines 188--189
+Overfull \hbox (0.4951pt too wide) in paragraph at lines 187--188
 \EU1/HoeflerText(0)/m/n/12 Unterscheidung keine strikte, präskriptive Kategori
 sierung von „Articulation Work“
  []
 
 
-Overfull \hbox (4.71829pt too wide) in paragraph at lines 188--189
+Overfull \hbox (4.71829pt too wide) in paragraph at lines 187--188
 \EU1/HoeflerText(0)/m/n/12 sind dynamisch und können sich während der Durchf�
 �hrung der „Articulation Work“
  []
@@ -1426,19 +1433,19 @@ Overfull \hbox (4.71829pt too wide) in paragraph at lines 188--189
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-Overfull \hbox (1.43251pt too wide) in paragraph at lines 190--191
+Overfull \hbox (1.43251pt too wide) in paragraph at lines 189--190
 []\EU1/HoeflerText(0)/m/n/12 1997[]) auf die „Activity Theory“ zurückzufü
 hren sind. Es sind dies die Unterscheidung
  []
 
 
-Overfull \hbox (9.71028pt too wide) in paragraph at lines 192--193
+Overfull \hbox (9.71028pt too wide) in paragraph at lines 191--192
 \EU1/HoeflerText(0)/m/n/12 beitsaspekte in unterschiedlichen Ausprägungen von 
 „Articulation Work“ abgestimmt
  []
 
 
-Overfull \hbox (13.26643pt too wide) in paragraph at lines 202--203
+Overfull \hbox (13.26643pt too wide) in paragraph at lines 201--202
 \EU1/HoeflerText(0)/m/n/12 von „Articulation Work“ abzustimmen sind („Wer
 ?“, „Was?“, „Wann/Wo?“ und „Wie?“).
  []
@@ -1448,80 +1455,80 @@ File: img/ArticulationWork/schmidt96-articulation-categories.png Graphic file (
 type QTm)
  <use  "img/ArticulationWork/schmidt96-articulation-categories.png" >
 [26] [27]
-Overfull \hbox (7.5969pt too wide) in paragraph at lines 230--231
+Overfull \hbox (7.5969pt too wide) in paragraph at lines 229--230
 \EU1/HoeflerText(0)/m/n/12 Unterstützung von „Articulation Work“ vorgeschl
 agen und/oder umgesetzt wer-
  []
 
 [28]
-Overfull \hbox (4.42303pt too wide) in paragraph at lines 250--251
+Overfull \hbox (4.42303pt too wide) in paragraph at lines 249--250
 \EU1/HoeflerText(0)/m/n/12 Erstellung) verfügbaren Software-Engineering-Prozes
 s-Modellierungs-Techniken die
  []
 
 File: img/ArticulationWork/mi91-awprocess.png Graphic file (type QTm)
 <use  "img/ArticulationWork/mi91-awprocess.png" > [29] [30]
-Overfull \hbox (7.89816pt too wide) in paragraph at lines 277--278
+Overfull \hbox (7.89816pt too wide) in paragraph at lines 276--277
 []\EU1/HoeflerText(0)/m/n/12 Die Angabe von (exemplarischen) Heuristiken zur Du
 rchführung des Artikulations-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
 []\EU1/HoeflerText(0)/m/it/12 organisational \EU1/HoeflerText(0)/m/n/12 durch F
 ormalisierung und a-priori-
  []
 
 [31] [32]
-Overfull \hbox (21.94891pt too wide) in paragraph at lines 318--319
+Overfull \hbox (21.94891pt too wide) in paragraph at lines 317--318
 []\EU1/HoeflerText(0)/m/n/12 Offenlegung der Kontexts der Information (im Sinne
  einer Relation zur Ursprungs-
  []
 
 [33]
-Overfull \hbox (54.45087pt too wide) in paragraph at lines 331--340
+Overfull \hbox (54.45087pt too wide) in paragraph at lines 330--339
 []\EU1/HoeflerText(0)/m/n/12 Auf Anforderungsebene wird jedoch umfassend hinsic
 htlich unterschiedlicher Artikulations-
  []
 
 [34]
-Overfull \hbox (16.37975pt too wide) in paragraph at lines 349--350
+Overfull \hbox (16.37975pt too wide) in paragraph at lines 348--349
 []\EU1/HoeflerText(0)/m/n/12 Grinter[] beschäftigt sich mit zwei Arten von Auf
 gaben, die im Rahmen eines Software-
  []
 
 
-Overfull \hbox (1.65625pt too wide) in paragraph at lines 349--350
+Overfull \hbox (1.65625pt too wide) in paragraph at lines 348--349
 \EU1/HoeflerText(0)/m/n/12 Entwicklungs-Prozesses im Rahmen von „Articulation
  Work“ zu bewältigen sind. Ei-
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
 []\EU1/HoeflerText(0)/m/it/12 resolving contingencies implizit\EU1/HoeflerText(
 0)/m/n/12 : Visualisierung aktuell
  []
 
 
-Underfull \hbox (badness 6125) in paragraph at lines 371--371
+Underfull \hbox (badness 6125) in paragraph at lines 370--370
 \EU1/HoeflerText(0)/m/n/12 beitsgegenstände; [][]\EU1/HoeflerText(0)/m/it/12 r
 esolving contingenciesv explizit\EU1/HoeflerText(0)/m/n/12 : ad-
  []
 
 [36]
-Underfull \hbox (badness 1655) in paragraph at lines 387--387
+Underfull \hbox (badness 1655) in paragraph at lines 386--386
 \EU1/HoeflerText(0)/m/it/10 of the particular ensemble, can apply without furth
 er contemplation and deliberation unless he
  []
 
 [37] [38] [39] [40]
-Overfull \hbox (8.8391pt too wide) in paragraph at lines 465--466
+Overfull \hbox (8.8391pt too wide) in paragraph at lines 464--465
 \EU1/HoeflerText(0)/m/n/12 zur Planung und Durchführung von virtuellen Meeting
 s (inkl. Audio- und Video-
  []
 
 [41]
-Underfull \hbox (badness 4686) in paragraph at lines 478--478
+Underfull \hbox (badness 4686) in paragraph at lines 477--477
 []\EU1/HoeflerText(0)/m/n/12 implizite und explizite „coordination of predefi
 ned
  []
@@ -4663,7 +4670,46 @@ sertation zusammen. Er führt
  []
 
 
-Overfull \hbox (14.3203pt too wide) in paragraph at lines 83--84
+Overfull \hbox (4.66846pt too wide) in paragraph at lines 66--67
+[]\EU1/HoeflerText(0)/m/n/12 (III) beschreibt die Verwendung von „Reconciliat
+ion Mechanisms“
+ []
+
+
+Overfull \hbox (2.39386pt too wide) in paragraph at lines 66--67
+\EU1/HoeflerText(0)/m/n/12 ressource pools“ oder „participant review“), o
+hne jedoch deren detaillierte Aus-
+ []
+
+
+Overfull \hbox (12.98143pt too wide) in paragraph at lines 68--69
+\EU1/HoeflerText(0)/m/n/12 treten kann, ab („pre-articulation“, „coordina
+tion“, „post-articulation“). Sie schla-
+ []
+
+
+Overfull \hbox (29.76929pt too wide) in paragraph at lines 68--69
+\EU1/HoeflerText(0)/m/n/12 in der „pre-articulation“-Phase definiert werden
+ und während der „post-articulation“
+ []
+
+
+Overfull \hbox (8.9026pt too wide) in paragraph at lines 68--69
+\EU1/HoeflerText(0)/m/n/12 evaluiert werden. Damit decken die Autoren auch „r
+ecursive Articulation Work“
+ []
+
+
+Overfull \hbox (5.78087pt too wide) in paragraph at lines 75--76
+\EU1/HoeflerText(0)/m/n/12 print [][]Kaghan und Lounsbury[] ([]2004[])) zeigen 
+mit kulturwissenschaftlichem Hin-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Overfull \hbox (14.3203pt too wide) in paragraph at lines 81--82
 \EU1/HoeflerText(0)/m/n/12 dung derselben. Vor allem wird ein starker Bezug zur
  Konzeption von []CSCW[][]-Systemen
  []
@@ -4671,28 +4717,24 @@ Overfull \hbox (14.3203pt too wide) in paragraph at lines 83--84
 File: img/ArticulationWork/ArticulationWorkLiteratur.png Graphic file (type QTm
 )
 <use  "img/ArticulationWork/ArticulationWorkLiteratur.png" >
-Overfull \hbox (8.74391pt too wide) in paragraph at lines 87--88
+Overfull \hbox (23.75685pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 28.85004pt on input line 90.
+LaTeX Warning: Float too large for page by 28.85004pt on input line 88.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-[12]
-Overfull \hbox (0.29605pt too wide) in paragraph at lines 100--101
+ [12]
+[13]
+Overfull \hbox (0.29605pt too wide) in paragraph at lines 98--99
 \EU1/HoeflerText(0)/m/n/12 finden sich Publikationen die vor philosophischem, o
 rgansationswissenschaftlichem
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13])
-[14] [15
+) [14] [15
 
 
 
@@ -4740,8 +4782,8 @@ Overfull \hbox (0.22794pt too wide) detected at line 85
  []
 
 
-Overfull \hbox (1.4879pt too wide) detected at line 94
-[][] []\EU1/HoeflerText(0)/m/n/12 XII
+Overfull \hbox (6.79192pt too wide) detected at line 94
+[][] []\EU1/HoeflerText(0)/m/n/12 XIII
  []
 
 )
@@ -4965,12 +5007,12 @@ ne:
  []
 
 
-Overfull \hbox (271.01779pt too wide) in paragraph at lines 802--802
+Overfull \hbox (268.2275pt too wide) in paragraph at lines 802--802
 \EU1/HoeflerText(0)/m/n/12 http://www.comp.lancs.ac.uk/computing/research/soft$
 [][][]\OML/cmm/m/it/12 ng\OT1/HoeflerText(0)/m/it/12 /\OML/cmm/m/it/12 comic\OT
 1/HoeflerText(0)/m/it/12 /\OML/cmm/m/it/12 ; ESPRITBasicresearchProject\OT1/Hoe
-flerText(0)/m/it/12 622\OML/cmm/m/it/12 S: ReferenziertaufS: []V[];[] XIII[][]$
- 
+flerText(0)/m/it/12 622\OML/cmm/m/it/12 S: ReferenziertaufS: []V[];[] XIV[][]$ 
+
  []
 
 ./Schrift.bbl:802: Extra }, or forgotten \endgroup.
@@ -5022,10 +5064,10 @@ LaTeX Font Info:    Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  15799 strings out of 494701
  256450 string characters out of 1164829
- 460670 words of memory out of 3000000
+ 460671 words of memory out of 3000000
  18284 multiletter control sequences out of 10000+50000
  7594 words of font info for 64 fonts, out of 3000000 for 5000
  669 hyphenation exceptions out of 8191
- 40i,11n,56p,2572b,970s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,56p,2572b,965s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Schrift.pdf (358 pages).
