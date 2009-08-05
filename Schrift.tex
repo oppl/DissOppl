@@ -3,7 +3,7 @@
 
 \documentclass[12pt,a4paper,twoside, openright, cleardoubleempty, headsepline, footnosepline, nochapterprefix, appendixprefix, bibtotoc, abstracton]{scrreprt}
 
-\includeonly{Grundlagen}
+%\includeonly{Grundlagen, ArticulationWorkLiteratur}
 
 \usepackage{pdfsync}
 \usepackage{ngerman}
@@ -83,7 +83,7 @@ footnote]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \begingroup
 \value{tocdepth}\shorttocdepth\relax % uebler Hack!
 \makeatletter
-%\input{\jobname.toc}%
+\input{\jobname.toc}
 \makeatother
 \endgroup
 }
@@ -141,6 +141,12 @@ footnote]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \appendix
 \pagenumbering{Roman}
 
+\part*{Anhänge}
+\addcontentsline{toc}{part}{Anhänge}
+
+\include{ArticulationWorkLiteratur}
+
+
 \part*{Verzeichnisse}
 \addcontentsline{toc}{part}{Verzeichnisse}
 
@@ -158,6 +164,9 @@ footnote]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 
 \addcontentsline{toc}{chapter}{Bildquellen}
 \include{Bildquellen}
+
+\addcontentsline{toc}{chapter}{Publikationen im Kontext dieser Arbeit}
+\include{Publikationen}
 
 %\bibliography{/home/oppl/Dokumente/Literatur/Archiv}
 \bibliography{/Users/oppl/Documents/Dokumente/Literatur/Archiv}
