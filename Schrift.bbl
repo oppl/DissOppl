@@ -108,6 +108,13 @@ Budinsky, F., Brodsky, S., und Merks, E. (2003).
 \newblock {\em {Eclipse modeling framework}}.
 \newblock Pearson Education.
 
+\bibitem[Cabitza und Sarini, 2007]{Cabitza07}
+Cabitza, F. und Sarini, M. (2007).
+\newblock {On the pathway towards ICT-support for a better and sustainable
+  healthcare}.
+\newblock In {\em Proceedings of the second European Conference on eHealth
+  (ECEH07)}, Seiten 89--100. Springer.
+
 \bibitem[Cabitza et~al., 2006]{Cabitza06}
 Cabitza, F., Sarini, M., Simone, C., und Telaro, M. (2006).
 \newblock {Torres, a Conceptual Framework for Articulation Work across
@@ -117,6 +124,35 @@ Cabitza, F., Sarini, M., Simone, C., und Telaro, M. (2006).
   Conversations: Enhanced Concepts of Infrastructure for Communication}, volume
   137 of {\em Frontiers in Artificial Intelligence and Applications}, Seiten
   102--119. IOS Press.
+
+\bibitem[Cabitza und Simone, 2009a]{Cabitza09}
+Cabitza, F. und Simone, C. (2009a).
+\newblock Active artifacts as bridges between context and community knowledge
+  sources.
+\newblock In {\em C\&\#38;T '09: Proceedings of the fourth international
+  conference on Communities and technologies}, Seiten 115--124, New York, NY,
+  USA. ACM.
+
+\bibitem[Cabitza und Simone, 2009b]{Cabitza09a}
+Cabitza, F. und Simone, C. (2009b).
+\newblock {LWOAD: A Specification Language to Enable the End-User Develoment of
+  Coordinative Functionalities}.
+\newblock In {\em Proceedings of End User Development: 2nd International
+  Symposium, IS-EUD 2009, Siegen, Germany, March 2-4, 2009. Proceedings}, Seite
+  146. Springer.
+
+\bibitem[Cabitza et~al., 2008]{Cabitza08}
+Cabitza, F., Simone, C., und Sarini, M. (2008).
+\newblock {Knowledge Artifacts as Bridges between Theory and Practice: The
+  Clinical Pathway Case}.
+\newblock In {\em Proceedings of IFIP 20th World Computer Congress, Conference
+  on Knowledge Management in Action}, Seite~37. Springer.
+
+\bibitem[Cabitza et~al., 2009]{Cabitza09b}
+Cabitza, F., Simone, C., und Sarini, M. (2009).
+\newblock {Leveraging Coordinative Conventions to Promote Collaboration
+  Awareness}.
+\newblock {\em Computer Supported Cooperative Work (CSCW)}, 18(4):301--330.
 
 \bibitem[Ca{\~n}as et~al., 2004]{Canas04}
 Ca{\~n}as, A., Hill, G., Carff, R., Suri, N., Lott, J., Eskridge, T.,
@@ -382,13 +418,6 @@ Grinter, R. (1996).
 \newblock {Introduction to GS1 DataMatrix}.
 \newblock Guideline, {GS1}.
 
-\bibitem[Gulick, 2007]{Gulick06}
-Gulick, W.~B. (2006-2007).
-\newblock Signals, schemas, subsidiaries, and skills: Articulating the
-  inarticulate.
-\newblock {\em Tradition \& Discovery - The Polanyi Society Periodical},
-  33(3):44 -- 62.
-
 \bibitem[Hampson und Junor, 2005]{Hampson05}
 Hampson, I. und Junor, A. (2005).
 \newblock Invisible work, invisible skills: interactive customer service as
@@ -495,11 +524,12 @@ Kaghan, W. und Lounsbury, M. (2004).
 \newblock preprint, to appear in: Rafaeli, a. \& pratt, m.: Artifacts and
   organizations, Cornell University.
 
-\bibitem[Kaghan et~al., 2006]{Kaghan06}
-Kaghan, W.~N., Lounsbury, M., Rafaeli, A., und Pratt, M.~G. (2006).
+\bibitem[Kaghan und Lounsbury, 2006]{Kaghan06}
+Kaghan, W.~N. und Lounsbury, M. (2006).
 \newblock Artifacts, articulation work, and institutional residue.
-\newblock In {\em Artifacts and organizations: Beyond mere symbolism.}, Seiten
-  259 -- 275. Lawrence Erlbaum Associates Publishers.
+\newblock In Rafaeli, A. und Pratt, M.~G., editors, {\em Artifacts and
+  organizations: Beyond mere symbolism.}, Seiten 259 -- 275. Lawrence Erlbaum
+  Associates Publishers.
 
 \bibitem[Kaltenbrunner und Bencina, 2007]{Kaltenbrunner07}
 Kaltenbrunner, M. und Bencina, R. (2007).
@@ -557,6 +587,11 @@ Larsen, S.~B. und Bardram, J.~E. (2008).
 \newblock In {\em CHI '08: Proceeding of the twenty-sixth annual SIGCHI
   conference on Human factors in computing systems}, Seiten 553--562, New York,
   NY, USA. ACM.
+
+\bibitem[Lave und Wenger, 1991]{Lave91}
+Lave, J. und Wenger, E. (1991).
+\newblock {\em {Situated learning: Legitimate peripheral participation}}.
+\newblock Cambridge University Press.
 
 \bibitem[Lenoir, 1994]{Lenoir94}
 Lenoir, T. (1994).
@@ -1107,13 +1142,10 @@ Wenger, E. (1998).
 \newblock Communities of practice - learning as a social system.
 \newblock {\em The Systems Thinker}, 9(5).
 
-\bibitem[Wideroos und Pekkola, 2006]{Wideroos06}
-Wideroos, K. und Pekkola, S. (2006).
-\newblock Presenting the past: A framework for facilitating the externalization
-  and articulation of user activities in desktop environment.
-\newblock In {\em Proceedings of the Hawaii International Conference on System
-  Sciences}, volume~7, Seite 148a, Los Alamitos, CA, USA. IEEE Computer
-  Society.
+\bibitem[Wenger, 1999]{Wenger99}
+Wenger, E. (1999).
+\newblock {\em {Communities of Practice: Learning, Meaning, and Identity}}.
+\newblock Cambridge University Press.
 
 \bibitem[{ZigBee Alliance}, 2007]{ZigBee07}
 {ZigBee Alliance} (2007).

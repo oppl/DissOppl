@@ -12,45 +12,45 @@ A level-1 auxiliary file: Publikationen.aux
 Database file #1: /Users/oppl/Documents/Dokumente/Literatur/Archiv.bib
 Warning--I didn't find a database entry for "de-Kleer81"
 Warning--there's a number but no volume in Leontev72
-You've used 186 entries,
+You've used 191 entries,
             1935 wiz_defined-function locations,
-            1616 strings with 34207 characters,
-and the built_in function-call counts, 72968 in all, are:
-= -- 7297
-> -- 2503
-< -- 208
-+ -- 838
-- -- 799
-* -- 5539
-:= -- 12401
-add.period$ -- 617
-call.type$ -- 186
-change.case$ -- 1300
-chr.to.int$ -- 179
-cite$ -- 187
-duplicate$ -- 3243
-empty$ -- 5453
-format.name$ -- 1101
-if$ -- 14973
-int.to.chr$ -- 8
+            1640 strings with 35047 characters,
+and the built_in function-call counts, 75053 in all, are:
+= -- 7507
+> -- 2576
+< -- 214
++ -- 861
+- -- 821
+* -- 5686
+:= -- 12741
+add.period$ -- 635
+call.type$ -- 191
+change.case$ -- 1333
+chr.to.int$ -- 183
+cite$ -- 192
+duplicate$ -- 3344
+empty$ -- 5613
+format.name$ -- 1136
+if$ -- 15417
+int.to.chr$ -- 9
 int.to.str$ -- 0
-missing$ -- 169
-newline$ -- 933
-num.names$ -- 580
-pop$ -- 1322
+missing$ -- 176
+newline$ -- 958
+num.names$ -- 597
+pop$ -- 1370
 preamble$ -- 1
-purify$ -- 1316
+purify$ -- 1351
 quote$ -- 0
-skip$ -- 2403
+skip$ -- 2474
 stack$ -- 0
-substring$ -- 4619
-swap$ -- 615
-text.length$ -- 67
+substring$ -- 4740
+swap$ -- 638
+text.length$ -- 69
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1076
+type$ -- 1102
 warning$ -- 1
-while$ -- 568
+while$ -- 586
 width$ -- 0
-write$ -- 2466
+write$ -- 2531
 (There were 2 warnings)
