@@ -10,11 +10,12 @@ A level-1 auxiliary file: ArticulationWorkLiteratur.aux
 A level-1 auxiliary file: Bildquellen.aux
 A level-1 auxiliary file: Publikationen.aux
 Database file #1: /Users/oppl/Documents/Dokumente/Literatur/Archiv.bib
+Warning--I didn't find a database entry for "Faegermann05"
 Warning--I didn't find a database entry for "de-Kleer81"
 Warning--there's a number but no volume in Leontev72
 You've used 191 entries,
             1935 wiz_defined-function locations,
-            1640 strings with 35047 characters,
+            1642 strings with 35071 characters,
 and the built_in function-call counts, 75053 in all, are:
 = -- 7507
 > -- 2576
@@ -53,4 +54,4 @@ warning$ -- 1
 while$ -- 586
 width$ -- 0
 write$ -- 2531
-(There were 2 warnings)
+(There were 3 warnings)

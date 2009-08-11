@@ -10,7 +10,7 @@
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-08-10T22:50:34Z</date>
+			<date>2009-08-11T21:20:30Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -33,13 +33,13 @@
 					<key>filename</key>
 					<string>ArticulationWork.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-10T22:50:34Z</date>
+					<date>2009-08-11T21:20:30Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>MentaleModelle.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-05T20:57:39Z</date>
+					<date>2009-08-11T12:13:31Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -158,7 +158,7 @@
 					<key>filename</key>
 					<string>ArticulationWorkLiteratur.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-10T22:08:39Z</date>
+					<date>2009-08-11T19:54:11Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -173,7 +173,7 @@
 					<key>filename</key>
 					<string>Bildquellen.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-05T13:27:06Z</date>
+					<date>2009-08-11T19:03:55Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -231,44 +231,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>411</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>594</integer>
+				<integer>738</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>250</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>585</integer>
+			<integer>636</integer>
 		</dict>
 		<key>ArticulationWorkLiteratur.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>320</integer>
+				<integer>52</integer>
 				<key>line</key>
-				<integer>58</integer>
+				<integer>12</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>177</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>54</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>31</integer>
-				<key>line</key>
-				<integer>58</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>320</integer>
-				<key>line</key>
-				<integer>58</integer>
-			</dict>
+			<integer>17</integer>
 		</dict>
 		<key>Bildquellen.tex</key>
 		<dict>
@@ -521,7 +505,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>line</key>
 				<integer>5</integer>
 			</dict>
@@ -572,6 +556,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{568, 67}, {789, 811}}</string>
+	<string>{{54, 67}, {789, 811}}</string>
 </dict>
 </plist>
