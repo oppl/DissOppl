@@ -10,7 +10,7 @@
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2009-08-11T21:20:30Z</date>
+			<date>2009-08-16T21:56:25Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -33,19 +33,19 @@
 					<key>filename</key>
 					<string>ArticulationWork.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-11T21:20:30Z</date>
+					<date>2009-08-16T20:27:04Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>MentaleModelle.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-11T12:13:31Z</date>
+					<date>2009-08-16T21:56:25Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Externalisierung.tex</string>
 					<key>lastUsed</key>
-					<date>2009-05-22T12:22:53Z</date>
+					<date>2009-08-14T10:09:12Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -158,7 +158,7 @@
 					<key>filename</key>
 					<string>ArticulationWorkLiteratur.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-11T19:54:11Z</date>
+					<date>2009-08-14T12:41:41Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -173,7 +173,7 @@
 					<key>filename</key>
 					<string>Bildquellen.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-11T19:03:55Z</date>
+					<date>2009-08-14T19:51:20Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -185,7 +185,7 @@
 					<key>filename</key>
 					<string>Publikationen.tex</string>
 					<key>lastUsed</key>
-					<date>2009-08-05T13:36:01Z</date>
+					<date>2009-08-16T19:54:05Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -209,7 +209,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>199</integer>
+	<integer>205</integer>
 	<key>metaData</key>
 	<dict>
 		<key>Acronyme.tex</key>
@@ -231,28 +231,60 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>738</integer>
+				<integer>769</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>311</integer>
 			<key>firstVisibleLine</key>
-			<integer>636</integer>
+			<integer>765</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>769</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>12</integer>
+				<key>line</key>
+				<integer>769</integer>
+			</dict>
 		</dict>
 		<key>ArticulationWorkLiteratur.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>52</integer>
+				<integer>37</integer>
 				<key>line</key>
-				<integer>12</integer>
+				<integer>94</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>590</integer>
 			<key>firstVisibleLine</key>
-			<integer>17</integer>
+			<integer>90</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>197</integer>
+				<key>line</key>
+				<integer>94</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>37</integer>
+				<key>line</key>
+				<integer>94</integer>
+			</dict>
 		</dict>
 		<key>Bildquellen.tex</key>
 		<dict>
@@ -353,6 +385,36 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>293</integer>
+		</dict>
+		<key>Externalisierung.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
 		</dict>
 		<key>Grundlagen.tex</key>
 		<dict>
@@ -477,14 +539,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
+				<integer>42</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>92</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>111</integer>
 		</dict>
 		<key>Publikationen.tex</key>
 		<dict>
@@ -518,7 +580,9 @@
 	<key>openDocuments</key>
 	<array>
 		<string>MentaleModelle.tex</string>
+		<string>Publikationen.tex</string>
 		<string>ArticulationWork.tex</string>
+		<string>Externalisierung.tex</string>
 		<string>Schrift.tex</string>
 		<string>ArticulationWorkLiteratur.tex</string>
 		<string>Bildquellen.tex</string>
@@ -554,8 +618,8 @@
 		</dict>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<true/>
+	<false/>
 	<key>windowFrame</key>
-	<string>{{54, 67}, {789, 811}}</string>
+	<string>{{186, 67}, {789, 811}}</string>
 </dict>
 </plist>

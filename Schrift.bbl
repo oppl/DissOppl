@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Abecker et~al., 1998]{Abecker98}
+Abecker, A., Bernardi, A., Hinkelmann, K., K{\"u}hn, O., und Sintek, M. (1998).
+\newblock {Toward a Technology for Organizational Memories}.
+\newblock {\em IEEE Intelligent Systems}, 13(3):40--48.
+
 \bibitem[{Allied Vision Technologies GmbH}, 2008]{AVT08}
 {Allied Vision Technologies GmbH} (2008).
 \newblock {AVT Guppy}.
@@ -242,11 +247,25 @@ Davenport, E. (2002).
 \newblock {\em Journal of the American Society for Information Science and
   Technology}, 53(12):1038--1046.
 
+\bibitem[de~Kleer und Brown, 1981]{Kleer81}
+de~Kleer, J. und Brown, J. (1981).
+\newblock Mental models of physical mechanisms and their acquisition.
+\newblock In Anderson, J., editor, {\em Cognitive skills and their
+  acquisition}, Seiten 285--309. Erlbaum.
+
 \bibitem[Dey et~al., 2001]{Dey01}
 Dey, A.~K., Salber, D., und Abowd, G.~D. (2001).
 \newblock A conceptual framework and a toolkit for supporting the rapid
   prototyping of context-aware applications.
 \newblock {\em Human-Computer Interaction (HCI) Journal}, 16(2-4):97--166.
+
+\bibitem[Diefenbruch et~al., 2002]{Diefenbruch02}
+Diefenbruch, M., Goesmann, T., Herrmann, T., und Hoffmann, M. (2002).
+\newblock {KontextNavigator und ExperKnowledge - Zwei Wege zur
+  Unterst{\"u}tzung des Prozesswissens in Unternehmen}.
+\newblock In Abecker, A., Hinkelmann, K., Maus, H., und M{\"u}ller, H.,
+  editors, {\em Gesch{\"a}ftsprozessorientiertes Wissensmanagement}, Seiten
+  275--292. Springer.
 
 \bibitem[Divitini und Simone, 2000]{Divitini00}
 Divitini, M. und Simone, C. (2000).
@@ -436,11 +455,33 @@ Hasu, M. (2005).
   handoffs from technology developers to users.
 \newblock {\em Mind, Culture, and Activity}, 12(2):90 -- 112.
 
-\bibitem[Herrmann et~al., 2004]{Herrmann04a}
-Herrmann, T., Hoffmann, M., Kunau, G., und Loser, K. (2004).
+\bibitem[Herrmann et~al., 2002]{Herrmann02}
+Herrmann, T., Hoffmann, M., Kunau, G., und Loser, K. (2002).
+\newblock Modelling cooperative work: Chances and risks of structuring.
+\newblock In {\em Cooperative Systems Design, A Challenge of the Mobility Age.
+  Proceedings of COOP 2002}, Seiten 53--70. IOS press.
+
+\bibitem[Herrmann et~al., 2004a]{Herrmann04a}
+Herrmann, T., Hoffmann, M., Kunau, G., und Loser, K. (2004a).
 \newblock A modelling method for the development of groupware applications as
   socio-technical systems.
 \newblock {\em Behaviour \& Information Technology}, 23(2):119--135.
+
+\bibitem[Herrmann et~al., 2000]{Herrmann00}
+Herrmann, T., Hoffmann, M., Loser, K., und Moysich, K. (2000).
+\newblock Semistructured models are surprisingly useful for user-centered
+  design.
+\newblock In Dieng, R., Giboin, A., Karsenty, L., und De~Michelis, G., editors,
+  {\em Designing Cooperative Systems. Proceedings of COOP 2000}, Seiten
+  159--174, Amsterdam. IOS press.
+
+\bibitem[Herrmann et~al., 2004b]{Herrmann04}
+Herrmann, T., Kunau, G., Loser, K., und Menold, N. (2004b).
+\newblock Socio-technical walkthrough: designing technology along work
+  processes.
+\newblock In {\em Artful integration: interweaving media, materials and
+  practices. Proceedings of the eighth Conference on Participatory design.},
+  Seiten 132--141. ACM Press New York, NY, USA.
 
 \bibitem[Holmquist et~al., 1999]{Holmquist99}
 Holmquist, L., Redstr{\"o}m, J., und Ljungstrand, P. (1999).
@@ -657,8 +698,14 @@ Nonaka, I. und Takeuchi, H. (1995).
   the Dynamics of Innovation}.
 \newblock Oxford University Press.
 
-\bibitem[Norman, 1983]{Norman83}
-Norman, D.~A. (1983).
+\bibitem[Norman, 1983a]{Norman83a}
+Norman, D. (1983a).
+\newblock {Some observations on mental models}.
+\newblock In Gentner, D. und Stevens, A., editors, {\em Mental models}, Seiten
+  7--14. Lawrence Erlbaum Associates.
+
+\bibitem[Norman, 1983b]{Norman83}
+Norman, D.~A. (1983b).
 \newblock Design principles for human-computer interfaces.
 \newblock In {\em CHI '83: Proceedings of the SIGCHI conference on Human
   Factors in Computing Systems}, Seiten 1--10, New York, NY, USA. ACM.
@@ -789,6 +836,16 @@ Pedersen, E.~W. und Hornb\aek, K. (2009).
 Pepper, S. (2000).
 \newblock The tao of topic maps.
 \newblock In {\em Proceedings of XML Europe}.
+
+\bibitem[Piaget, 1976]{Piaget76}
+Piaget, J. (1976).
+\newblock {\em Die {\"A}quilibration der kognitiven Strukturen}.
+\newblock Klett-Cotta.
+
+\bibitem[Pirnay-Dummer, 2006]{Pirnay-Dummer06}
+Pirnay-Dummer, P.~N. (2006).
+\newblock {\em {Expertise und Modellbildung - MITOCAR}}.
+\newblock PhD thesis, University of Freiburg.
 
 \bibitem[Raposo et~al., 2004]{Raposo04}
 Raposo, A., Gerosa, M., und Fuks, H. (2004).
@@ -942,6 +999,11 @@ Schmidt, K., Simone, C., Divitini, M., Carstensen, P., und S{\o}rensen, C.
   (1995).
 \newblock A `contrat sociale' for cscw systems.
 \newblock Working paper, Roskilde University.
+
+\bibitem[Seel, 2003]{Seel03a}
+Seel, N. (2003).
+\newblock {\em {Psychologie des Lernens}}.
+\newblock Ernst Reinhardt Verlag, M{\"u}nchen Basel, 2nd edition.
 
 \bibitem[Seel, 1991]{Seel91}
 Seel, N.~M. (1991).
