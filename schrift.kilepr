@@ -3,7 +3,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1
-lastDocument=Schlussbetrachtungen.tex
+lastDocument=MentaleModelle.tex
 masterDocument=Schrift.tex
 name=Schrift
 pkg_extIsRegExp=false
@@ -93,7 +93,7 @@ column=322
 encoding=UTF-8
 highlight=LaTeX
 line=197
-open=true
+open=false
 order=2
 
 [item:Evaluierung.tex]
@@ -102,7 +102,7 @@ column=0
 encoding=UTF-8
 highlight=LaTeX
 line=21
-open=true
+open=false
 order=1
 
 [item:Externalisierung.tex]
@@ -179,10 +179,10 @@ order=1
 
 [item:MentaleModelle.tex]
 archive=true
-column=696
+column=226
 encoding=UTF-8
 highlight=LaTeX
-line=44
+line=202
 open=true
 order=0
 
@@ -201,7 +201,7 @@ column=170
 encoding=UTF-8
 highlight=LaTeX
 line=36
-open=true
+open=false
 order=3
 
 [item:Schrift.tex]

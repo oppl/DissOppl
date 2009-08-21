@@ -1,4 +1,4 @@
-This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  16 AUG 2009 23:59
+This is XeTeXk, Version 3.1415926-2.2-0.999.6 (Web2C 7.5.7) (format=xelatex 2009.4.23)  21 AUG 2009 23:31
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -679,8 +679,14 @@ Package: ntheorem 2005/07/07 1.25
 \shadecolor=\toks37
 )
 \c@hyp=\count142
- (./Schrift.aux (./Einfuehrung.aux) (./Grundlagen.aux) (./Werkzeug.aux)
-(./Evaluierung.aux) (./Schlussbetrachtungen.aux)
+ (./Schrift.aux (./Einfuehrung.aux) (./Grundlagen.aux
+
+LaTeX Warning: Label `sub:concept_mapping' multiply defined.
+
+
+LaTeX Warning: Label `sec:fazit' multiply defined.
+
+) (./Werkzeug.aux) (./Evaluierung.aux) (./Schlussbetrachtungen.aux)
 (./ArticulationWorkLiteratur.aux) (./Bildquellen.aux) (./Publikationen.aux))
 \openout1 = `Schrift.aux'.
 
@@ -918,91 +924,85 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)            on input line 81.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 89.
+(scrreprt)            on input line 105.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 96.
+(scrreprt)            on input line 107.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 98.
+(scrreprt)            on input line 108.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 99.
+(scrreprt)            on input line 145.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 100.
+(scrreprt)            on input line 207.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 137.
+(scrreprt)            on input line 245.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 199.
+(scrreprt)            on input line 274.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 237.
+(scrreprt)            on input line 276.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 266.
+(scrreprt)            on input line 316.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 268.
+(scrreprt)            on input line 356.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 308.
+(scrreprt)            on input line 392.
 LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' in size <12> not avail
 able
 (Font)              Font shape `EU1/HoeflerText(0)/m/it' tried instead on input
- line 308.
+ line 392.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 308.
+(Font)              <8> on input line 392.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 308.
+(Font)              <6> on input line 392.
  [1
 
 
 ]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 348.
+(scrreprt)            on input line 400.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 384.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 392.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 399.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 405.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 408.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 410.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 411.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 412.
+(scrreprt)            on input line 407.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 413.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 414.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 415.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 416.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 417.
+(scrreprt)            on input line 418.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 419.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 420.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 421.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 422.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 423.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 424.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 425.
 ) [2] (./Schrift.toc
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
@@ -1033,114 +1033,110 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)            on input line 81.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 89.
+(scrreprt)            on input line 105.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 96.
+(scrreprt)            on input line 107.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 98.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 99.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 100.
-[4]
-Overfull \hbox (0.25174pt too wide) detected at line 118
+(scrreprt)            on input line 108.
+
+Overfull \hbox (0.25174pt too wide) detected at line 123
 [][] []\EU1/HoeflerText(0)/m/n/12 100
  []
 
+[4]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 137.
-[5]
+(scrreprt)            on input line 145.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 199.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 237.
+(scrreprt)            on input line 207.
+ [5]
+Overfull \hbox (1.06784pt too wide) detected at line 218
+[][] []\EU1/HoeflerText(0)/m/n/12 200
+ []
 
-Overfull \hbox (0.34787pt too wide) detected at line 254
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 245.
+
+Overfull \hbox (0.34787pt too wide) detected at line 259
 [][] []\EU1/HoeflerText(0)/m/n/12 240
  []
 
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 274.
 [6]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 266.
+(scrreprt)            on input line 276.
+ [7]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 268.
-
-Overfull \hbox (0.22794pt too wide) detected at line 281
-[][] []\EU1/HoeflerText(0)/m/n/12 260
- []
-
-
-Overfull \hbox (0.22794pt too wide) detected at line 282
-[][] []\EU1/HoeflerText(0)/m/n/12 260
- []
-
-[7]
+(scrreprt)            on input line 316.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 308.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 348.
-
-Overfull \hbox (0.56375pt too wide) detected at line 353
-[][] []\EU1/HoeflerText(0)/m/n/12 300
- []
-
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 384.
-[8]
+(scrreprt)            on input line 356.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 392.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 399.
+(scrreprt)            on input line 400.
+ [8]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 405.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 408.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 410.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 411.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 412.
+(scrreprt)            on input line 407.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 413.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 414.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 415.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 416.
- [9]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 417.
+(scrreprt)            on input line 418.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 419.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 420.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 421.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 422.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 423.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 424.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 425.
 )
 \tf@toc=\write10
 \openout10 = `Schrift.toc'.
 
- [10]
+ [9]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+[10
+
+
+]
 \openout2 = `Grundlagen.aux'.
 
  (./Grundlagen.tex
@@ -1154,8 +1150,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [2
-
-
 
 
 
@@ -1795,43 +1789,92 @@ File: img/MentaleModelle/iffenthaler_externalisierung.png Graphic file (type QT
 m)
 
 <use  "img/MentaleModelle/iffenthaler_externalisierung.png" >
-Underfull \hbox (badness 1107) in paragraph at lines 82--82
+Underfull \hbox (badness 1107) in paragraph at lines 83--83
 [][]\EU1/HoeflerText(0)/m/n/12 Externalisierung mentaler Modelle (entnommen aus
  ([][]Ifenthaler[],
  []
 
 [69]
-Overfull \hbox (4.65532pt too wide) in paragraph at lines 112--113
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Overfull \hbox (4.65532pt too wide) in paragraph at lines 113--114
 []\EU1/HoeflerText(0)/m/n/12 beschreibt, welche (technischen) Unterstützungsma
 ßnahmen vor-
+ []
+
+[71]
+Overfull \hbox (0.51338pt too wide) in paragraph at lines 134--135
+\EU1/HoeflerText(0)/m/n/12 te in einer möglichst ungestörten, ruhigen Umgebun
+g erfolgen. Das Individuum wird
+ []
+
+
+Underfull \vbox (badness 4846) has occurred while \output is active []
+
+ [72]
+Overfull \hbox (1.12059pt too wide) in paragraph at lines 144--145
+\EU1/HoeflerText(0)/m/n/12 wicklern der Methode ([][]Van Someren et al.[], []19
+94[]) grundsätzlich nicht vorgesehen. Le-
+ []
+
+[73]
+Underfull \hbox (badness 1424) in paragraph at lines 159--160
+\EU1/HoeflerText(0)/m/it/12 ve eines außenstehenden Beobachters, sondern aus S
+icht der handelnden Person, des
+ []
+
+[74] [75] [76]
+Overfull \hbox (0.3552pt too wide) in paragraph at lines 186--187
+\EU1/HoeflerText(0)/m/n/12 lich ist dies aber nicht notwendig und wird auch nic
+ht in allen Strukturlege-Varianten
+ []
+
+
+Overfull \hbox (24.91493pt too wide) in paragraph at lines 188--189
+[]\EU1/HoeflerText(0)/m/n/12 Hinsichtlich der Auftrennung des Externalisierungs
+prozesses in zwei Phasen (Konzept-
+ []
+
+
+Underfull \vbox (badness 1895) has occurred while \output is active []
+
+ [77]
+Overfull \hbox (26.34654pt too wide) in paragraph at lines 192--194
+[]\EU1/HoeflerText(0)/m/n/12 Kritisch betrachtet wird die lange Durchführungsd
+auer der Externalisierungs-Prozesse,
+ []
+
+
+Overfull \hbox (0.88795pt too wide) in paragraph at lines 204--205
+[]\EU1/HoeflerText(0)/m/n/12 Die Konzepte werden untereinander mit Beziehungen 
+verbunden, wobei die Kom-
+ []
+
+[78]
+File: img/MentaleModelle/novak_concept_maps.png Graphic file (type QTm)
+ <use  "img/MentaleModelle/novak_concept_maps.png" > [79]
+Overfull \hbox (2.16098pt too wide) in paragraph at lines 219--220
+[]\EU1/HoeflerText(0)/m/n/12 Im nächsten Schritt werden die relevanten Konzept
+e gesammelt. [][]Novak und Ca[]nas[]
+ []
+
+[80]
+Overfull \hbox (1.5436pt too wide) in paragraph at lines 233--234
+\EU1/HoeflerText(0)/m/n/12 quenzen zu manipulieren, da Änderungen jederzeit r�
+�ckgängig gemacht werden kön-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70])
-(./Externalisierung.tex [71]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
+ [81]
+Overfull \hbox (0.14131pt too wide) in paragraph at lines 250--251
+\EU1/HoeflerText(0)/m/n/12 2 Phasen sinnvoll bei der Beschreibung von konzeptio
+nellen Modellen. Bei Modellen
  []
 
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][]
- []
-
-[72
-
-
-]
-Kapitel 4.
-
-Underfull \hbox (badness 1424) in paragraph at lines 14--15
-\EU1/HoeflerText(0)/m/it/12 ve eines außenstehenden Beobachters, sondern aus S
-icht der handelnden Person, des
- []
-
-)) [73] [74] [1
+)) [82] [1
 
 
 
@@ -2103,26 +2146,26 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 157.
 
-(./Schrift.lof [21
+(./Schrift.lof
+Overfull \hbox (0.25174pt too wide) detected at line 23
+[][] []\EU1/HoeflerText(0)/m/n/12 100
+ []
+
+[21
 
 
 ]
-Overfull \hbox (0.34787pt too wide) detected at line 54
-[][] []\EU1/HoeflerText(0)/m/n/12 204
+Overfull \hbox (0.22794pt too wide) detected at line 50
+[][] []\EU1/HoeflerText(0)/m/n/12 209
  []
 
 
-Overfull \hbox (0.22794pt too wide) detected at line 57
-[][] []\EU1/HoeflerText(0)/m/n/12 206
+Overfull \hbox (0.34787pt too wide) detected at line 67
+[][] []\EU1/HoeflerText(0)/m/n/12 240
  []
 
 
-Overfull \hbox (1.12756pt too wide) detected at line 73
-[][]\EU1/HoeflerText(0)/m/n/12 10.10. 
- []
-
-
-Overfull \hbox (10.72795pt too wide) detected at line 98
+Overfull \hbox (10.72795pt too wide) detected at line 95
 [][] []\EU1/HoeflerText(0)/m/n/12 XVII
  []
 
@@ -2200,35 +2243,47 @@ Underfull \hbox (badness 1442) in paragraph at lines 242--242
 truktiven Erhebung subjektiver
  []
 
-[34] [35] [36] [37]
-Underfull \hbox (badness 1924) in paragraph at lines 510--510
+[34]
+Underfull \hbox (badness 1389) in paragraph at lines 293--293
+[]\EU1/HoeflerText(0)/m/n/12 Eckert, A. (1998).  \EU1/HoeflerText(0)/m/it/12 Ko
+gnition und Wissensdiagnose. Die Entwicklung und empiri-
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 293--293
+\EU1/HoeflerText(0)/m/it/12 sche []Uberpr[]ufung des computerunterst[]utzten wi
+ssensdiagnostischen Instrumentari-
+ []
+
+[35] [36] [37] [38]
+Underfull \hbox (badness 1924) in paragraph at lines 537--537
 []\EU1/HoeflerText(0)/m/n/12 Ifenthaler, D. (2006).  \EU1/HoeflerText(0)/m/it/1
 2 Diagnose lernabh[]angiger Ver[]anderung mentaler Modelle -
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 510--510
+Underfull \hbox (badness 1184) in paragraph at lines 537--537
 \EU1/HoeflerText(0)/m/it/12 Entwicklung der SMD-Technologie als methodologische
 s Verfahren zur relationalen,
  []
 
-[38] [39] [40] [41]
-Underfull \hbox (badness 1127) in paragraph at lines 772--772
+[39] [40] [41] [42]
+Underfull \hbox (badness 1127) in paragraph at lines 819--819
 []\EU1/HoeflerText(0)/m/n/12 Oppl, S. (2009b).  Konsistente Verwendung von Meta
 phern als Erfolgskrite-
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 794--794
+Underfull \hbox (badness 1038) in paragraph at lines 841--841
 \EU1/HoeflerText(0)/m/n/12 Process Development.  In \EU1/HoeflerText(0)/m/it/12
  Proceedings of the 4th International Conference on
  []
 
-[42]
-./Schrift.bbl:834: Undefined control sequence.
+[43]
+./Schrift.bbl:881: Undefined control sequence.
 <write> ...AT@ctr }{2009}{{Pedersen und Hornb\aek 
                                                   }}{{}}}
-l.834 
+l.881 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2236,10 +2291,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Schrift.bbl:834: Undefined control sequence.
+./Schrift.bbl:881: Undefined control sequence.
 <argument>  Pedersen, E.~W. und Hornb\aek 
                                           , K. (2009). \newblock mixitui: a ...
-l.834 
+l.881 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2248,40 +2303,39 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (0.52972pt too wide) in paragraph at lines 856--856
+Overfull \hbox (0.52972pt too wide) in paragraph at lines 903--903
 []\EU1/HoeflerText(0)/m/n/12 Raposo, A., Gerosa, M., und Fuks, H. (2004).  Comb
 ining Communication and Coor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--856
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
 \EU1/HoeflerText(0)/m/it/12 ware: Design, Implementation, and Use: 10th Interna
 tional Workshop, CRIWG
  []
 
-[43]
-./Schrift.bbl:894: Missing $ inserted.
+./Schrift.bbl:941: Missing $ inserted.
 <inserted text> 
                 $
-l.894 
+l.941 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-LaTeX Font Info:    Command \footnotesize invalid in math mode on input line 89
-4.
-./Schrift.bbl:894: Missing $ inserted.
+LaTeX Font Info:    Command \footnotesize invalid in math mode on input line 94
+1.
+./Schrift.bbl:941: Missing $ inserted.
 <inserted text> 
                 $
-l.894 
+l.941 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Schrift.bbl:894: Missing } inserted.
+./Schrift.bbl:941: Missing } inserted.
 <inserted text> 
                 }
-l.894 
+l.941 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2290,19 +2344,19 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 894--894
+Underfull \hbox (badness 10000) in paragraph at lines 941--941
 []\EU1/HoeflerText(0)/m/n/12 Rodden, T. (1995).  The COMIC Project - Computer-b
 ased
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 894--894
+Underfull \hbox (badness 10000) in paragraph at lines 941--941
 \EU1/HoeflerText(0)/m/n/12 Mechanisms of Interaction in Cooperative Work.  onli
 ne:
  []
 
 
-Overfull \hbox (274.35315pt too wide) in paragraph at lines 894--894
+Overfull \hbox (274.35315pt too wide) in paragraph at lines 941--941
 \EU1/HoeflerText(0)/m/n/12 http://www.comp.lancs.ac.uk/computing/research/soft$
 [][][]\OML/cmm/m/it/12 ng\OT1/HoeflerText(0)/m/it/12 /\OML/cmm/m/it/12 comic\OT
 1/HoeflerText(0)/m/it/12 /\OML/cmm/m/it/12 ; ESPRITBasicresearchProject\OT1/Hoe
@@ -2310,10 +2364,11 @@ flerText(0)/m/it/12 622\OML/cmm/m/it/12 S: ReferenziertaufS: []VI[];[] XVI[][]$
  
  []
 
-./Schrift.bbl:894: Extra }, or forgotten \endgroup.
+[44]
+./Schrift.bbl:941: Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.894 
+l.941 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2322,19 +2377,19 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 900--900
+Underfull \hbox (badness 1147) in paragraph at lines 947--947
 \EU1/HoeflerText(0)/m/it/12 International Conference on Distributed Computing S
 ystems Workshops, 2005\EU1/HoeflerText(0)/m/n/12 , Seiten
  []
 
-[44] [45] [46]
-Underfull \hbox (badness 1681) in paragraph at lines 1101--1101
+[45] [46] [47]
+Underfull \hbox (badness 1681) in paragraph at lines 1168--1168
 []\EU1/HoeflerText(0)/m/n/12 Stary, C. (1994).  \EU1/HoeflerText(0)/m/it/12 Int
 eraktive Systeme: Softwareentwicklung und Softwareergonomie\EU1/HoeflerText(0)/
 m/n/12 .
  []
 
-[47] [48])
+[48] [49])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Schrift.maf file.
@@ -2349,18 +2404,22 @@ Package minitoc(hints) Warning: W0024
 \tf@thm=\write14
 \openout14 = `Schrift.thm'.
 
-[49] (./Schrift.aux (./Einfuehrung.aux) (./Grundlagen.aux) (./Werkzeug.aux)
+[50] (./Schrift.aux (./Einfuehrung.aux) (./Grundlagen.aux) (./Werkzeug.aux)
 (./Evaluierung.aux) (./Schlussbetrachtungen.aux)
 (./ArticulationWorkLiteratur.aux) (./Bildquellen.aux) (./Publikationen.aux))
 LaTeX Font Info:    Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 15728 strings out of 494701
- 253425 string characters out of 1164829
- 441396 words of memory out of 3000000
- 18322 multiletter control sequences out of 10000+50000
- 7546 words of font info for 58 fonts, out of 3000000 for 5000
+ 15850 strings out of 494701
+ 255248 string characters out of 1164829
+ 445324 words of memory out of 3000000
+ 18451 multiletter control sequences out of 10000+50000
+ 7554 words of font info for 59 fonts, out of 3000000 for 5000
  669 hyphenation exceptions out of 8191
- 40i,11n,56p,2462b,1045s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,56p,2462b,1105s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Schrift.pdf (131 pages).
+Output written on Schrift.pdf (140 pages).

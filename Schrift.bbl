@@ -273,10 +273,23 @@ Divitini, M. und Simone, C. (2000).
   modeling}.
 \newblock {\em Computer Supported Cooperative Work (CSCW)}, 9(3):365--397.
 
+\bibitem[Do-Lenh et~al., 2009]{Do-Lenh09}
+Do-Lenh, S., Kaplan, F., Sharma, A., und Dillenbourg, P. (2009).
+\newblock Multi-finger interactions with papers on augmented tabletops.
+\newblock In {\em TEI '09: Proceedings of the 3rd International Conference on
+  Tangible and Embedded Interaction}, Seiten 267--274, New York, NY, USA. ACM.
+
 \bibitem[Downing, 1998]{Downing98}
 Downing, T. (1998).
 \newblock {\em {Java RMI: remote method invocation}}.
 \newblock IDG Books Worldwide, Inc., Foster City, CA, USA.
+
+\bibitem[Eckert, 1998]{Eckert98}
+Eckert, A. (1998).
+\newblock {\em Kognition und Wissensdiagnose. Die Entwicklung und empirische
+  {\"U}berpr{\"u}fung des computerunterst{\"u}tzten wissensdiagnostischen
+  Instrumentariums Netzwerk-Elaborierungs-Technik (NET)}.
+\newblock Pabst Science Publishers.
 
 \bibitem[Ellson et~al., 2002]{Ellson02}
 Ellson, J., Gansner, E., Koutsofios, L., North, S., und Woodhull, G. (2002).
@@ -419,6 +432,14 @@ Gerson, E. und Star, S. (1986).
 \newblock {Analyzing due process in the workplace}.
 \newblock {\em ACM Transactions on Information Systems (TOIS)}, 4(3):257--270.
 
+\bibitem[Goguen, 1993]{Goguen93}
+Goguen, J. (1993).
+\newblock {On Notation}.
+\newblock {Revised version of a paper in TOOLS 10: Technology of
+  Object-Oriented Languages and Systems, edited by Boris Magnusson, Bertrand
+  Meyer and Jean-Francois Perrot (Prentice-Hall, 1993)}, Department of Computer
+  Science and Engineering, University of California at San Diego.
+
 \bibitem[Grinter, 1995]{Grinter95}
 Grinter, R. (1995).
 \newblock {Using a configuration management tool to coordinate software
@@ -500,6 +521,12 @@ Hughes, F. (1971).
 \newblock {\em The Sociological Eye}.
 \newblock Aldine de Gruyter.
 
+\bibitem[Huss, 2003]{Huss03}
+Huss, J. (2003).
+\newblock {Diagnose und Unterst{\"u}tzung mentaler Wissensrepr{\"a}sentationen
+  in Projektteams - Eine Fallstudie}.
+\newblock Master's thesis, Technical University of Berlin.
+
 \bibitem[Ifenthaler, 2006]{Ifenthaler06}
 Ifenthaler, D. (2006).
 \newblock {\em {Diagnose lernabh{\"a}ngiger Ver{\"a}nderung mentaler Modelle -
@@ -574,8 +601,8 @@ Kaghan, W.~N. und Lounsbury, M. (2006).
 
 \bibitem[Kaltenbrunner und Bencina, 2007]{Kaltenbrunner07}
 Kaltenbrunner, M. und Bencina, R. (2007).
-\newblock reactivision: a computer-vision framework for table-based tangible
-  interaction.
+\newblock {reacTIVision: a computer-vision framework for table-based tangible
+  interaction}.
 \newblock In {\em TEI '07: Proceedings of the 1st international conference on
   Tangible and embedded interaction}, Seiten 69--74, New York, NY, USA. ACM
   Press.
@@ -591,6 +618,13 @@ Kato, H., Billinghurst, M., Poupyrev, I., Imamoto, K., und Tachibana, K.
 \newblock {Virtual object manipulation on a table-top AR environment}.
 \newblock In {\em IEEE and ACM International Symposium on Augmented Reality,
   2000.(ISAR 2000). Proceedings}, Seiten 111--119.
+
+\bibitem[Kim, 1993]{Kim93}
+Kim, D. (1993).
+\newblock {\em A Framework and Methodology for Linked Individual and
+  Organisational Learning: Applications in TQM and Product Development}.
+\newblock PhD thesis, Sloan School of Managment, Massachusetts Institute of
+  Technology.
 
 \bibitem[Klemmer et~al., 2004]{Klemmer04}
 Klemmer, S., Li, J., Lin, J., und Landay, J. (2004).
@@ -609,6 +643,12 @@ Kling, R. und Star, S. (1998).
 \newblock {Human centered systems in the perspective of organizational and
   social informatics}.
 \newblock {\em ACM SIGCAS Computers and Society}, 28(1):22--29.
+
+\bibitem[Kluwe, 1990]{Kluwe90}
+Kluwe, R.~H. (1990).
+\newblock {Wissen}.
+\newblock In Sarges, W., editor, {\em Management-Diagnostik}, Seiten 174--181.
+  Hogrefe, G{\"o}ttingen.
 
 \bibitem[Koleva et~al., 2003]{Koleva03}
 Koleva, B., Benford, S., Ng, K., und Rodden, T. (2003).
@@ -654,6 +694,13 @@ Leont'ev, A. (1978).
 Maier, M. (2008).
 \newblock {Organizational Memories - Konzepte und Realisierungen}.
 \newblock Master's thesis, University of Linz.
+
+\bibitem[Mandl und Fischer, 2000]{Mandl00}
+Mandl, H. und Fischer, F. (2000).
+\newblock {Mapping-Techniken und Begriffsnetze in Lern-und
+  Kooperationsprozessen}.
+\newblock In Mandl, H. und Fischer, F., editors, {\em Wissen sichbar machen}.
+  Hogrefe.
 
 \bibitem[Mark et~al., 2002a]{Mark02a}
 Mark, G., Gonzalez, V.~M., Sarini, M., und Simone, C. (2002a).
@@ -938,6 +985,14 @@ Sarini, M. und Simone, C. (2002b).
 \newblock In {\em Proceedings of the Workshop on Meaning Negotiation (MeaN-02)
   at AAAI-02}.
 
+\bibitem[Scheele und Groeben, 1988]{Scheele88}
+Scheele, B. und Groeben, N. (1988).
+\newblock {\em Dialog-Konsens-Methoden zur Rekonstruktion Subjektiver Theorien
+  Die Heidelberger Struktur-Lege-Technik (SLT), konsensuale
+  Ziel-Mittel-Argumentation und kommunikative Flussdiagramm-Beschreibung von
+  Handlungen}.
+\newblock Francke, Tuebingen.
+
 \bibitem[Scheer und Nuettgens, 2000]{Scheer00}
 Scheer, A. und Nuettgens, M. (2000).
 \newblock Aris architecture and reference models for business process
@@ -1015,6 +1070,18 @@ Semmer, N. und Udris, I. (2004).
 \newblock {Bedeutung und Wirkung von Arbeit}.
 \newblock In Schuler, H., editor, {\em {Lehrbuch Organisationspsychologie}},
   Seiten 157--195. Huber, Bern, 3rd edition.
+
+\bibitem[Senge, 1990]{Senge90}
+Senge, P. (1990).
+\newblock {\em {The Fifth Discipline: The Art and Practice of the Learning
+  Organization}}.
+\newblock Doubleday/Currency.
+
+\bibitem[Senge et~al., 1994]{Senge94}
+Senge, P., Kleiner, A., Roberts, C., und Smith, B. (1994).
+\newblock {\em {The fifth discipline fieldbook: Strategies and tools for
+  building a learning organization}}.
+\newblock Broadway Business.
 
 \bibitem[Shaer et~al., 2004]{Shaer04}
 Shaer, O., Leland, N., Calvillo-Gamez, E., und Jacob, R. (2004).
@@ -1141,6 +1208,13 @@ Suzuki, H. und Kato, H. (1995).
   support for collaborative learning table of contents}, Seiten 349--355,
   Hillsdale, NJ, USA. L. Erlbaum Associates Inc.
 
+\bibitem[Tanenbaum und Antle, 2009]{Tanenbaum09}
+Tanenbaum, K. und Antle, A.~N. (2009).
+\newblock A tangible approach to concept mapping.
+\newblock In Ao, S.-I., editor, {\em IAENG TRANSACTIONS ON ENGINEERING
+  TECHNOLOGIES VOLUME 2: Special Edition of the World Congress on Engineering
+  and Computer Science}, volume 1127, Seiten 121--132. AIP.
+
 \bibitem[Ullmer, 2002]{Ullmer02}
 Ullmer, B. (2002).
 \newblock {\em Tangible interfaces for manipulating aggregates of digital
@@ -1177,6 +1251,12 @@ Van~Laerhoven, K., Villar, N., Schmidt, A., Gellersen, H., Hakansson, M., und
   Holmquist, L. (2003).
 \newblock {Pin\&Play: the surface as network medium}.
 \newblock {\em IEEE Communications Magazine}, 41(4):90--95.
+
+\bibitem[Van~Someren et~al., 1994]{Van-Someren94}
+Van~Someren, M., Barnard, Y., und Sandberg, J. (1994).
+\newblock {\em {The think aloud method: A practical guide to modelling
+  cognitive processes}}.
+\newblock Academic Press.
 
 \bibitem[Vatant, 2004]{Vatant04}
 Vatant, B. (2004).
