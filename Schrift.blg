@@ -12,45 +12,45 @@ A level-1 auxiliary file: Publikationen.aux
 Database file #1: /Users/oppl/Documents/Dokumente/Literatur/Archiv.bib
 Warning--there's a number but no volume in Leontev72
 Warning--can't use both volume and number fields in Tanenbaum09
-You've used 213 entries,
+You've used 227 entries,
             1935 wiz_defined-function locations,
-            1772 strings with 39155 characters,
-and the built_in function-call counts, 84236 in all, are:
-= -- 8401
-> -- 2938
-< -- 238
-+ -- 982
-- -- 936
-* -- 6367
-:= -- 14302
-add.period$ -- 711
-call.type$ -- 213
-change.case$ -- 1486
-chr.to.int$ -- 203
-cite$ -- 215
-duplicate$ -- 3757
-empty$ -- 6287
-format.name$ -- 1281
-if$ -- 17324
+            1845 strings with 40953 characters,
+and the built_in function-call counts, 88707 in all, are:
+= -- 8837
+> -- 3096
+< -- 249
++ -- 1034
+- -- 986
+* -- 6696
+:= -- 15132
+add.period$ -- 753
+call.type$ -- 227
+change.case$ -- 1582
+chr.to.int$ -- 217
+cite$ -- 229
+duplicate$ -- 3942
+empty$ -- 6602
+format.name$ -- 1347
+if$ -- 18184
 int.to.chr$ -- 11
 int.to.str$ -- 0
-missing$ -- 201
-newline$ -- 1068
-num.names$ -- 677
-pop$ -- 1554
+missing$ -- 213
+newline$ -- 1138
+num.names$ -- 719
+pop$ -- 1641
 preamble$ -- 1
-purify$ -- 1511
+purify$ -- 1606
 quote$ -- 0
-skip$ -- 2785
+skip$ -- 2928
 stack$ -- 0
-substring$ -- 5266
-swap$ -- 735
-text.length$ -- 79
+substring$ -- 5513
+swap$ -- 750
+text.length$ -- 80
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1220
+type$ -- 1296
 warning$ -- 2
-while$ -- 659
+while$ -- 693
 width$ -- 0
-write$ -- 2826
+write$ -- 3003
 (There were 2 warnings)

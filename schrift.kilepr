@@ -179,10 +179,10 @@ order=1
 
 [item:MentaleModelle.tex]
 archive=true
-column=226
+column=110
 encoding=UTF-8
 highlight=LaTeX
-line=202
+line=127
 open=true
 order=0
 
