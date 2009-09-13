@@ -1,3 +1,6 @@
+% final draft
+% todo: Interkapitel-Referenzen, Kontextgrafik
+
 \chapter{Grundlagen der Implementierung} % (fold)
 \label{cha:implementierung_Überblick}
 
@@ -7,10 +10,10 @@ Tabletop Interfaces wurden Mitte der 1990er-Jahren in den Arbeiten von Ishii \& 
 
 In den folgenden Abschnitten wird die historische Entwicklung von Tabletop Interfaces sowie der aktuelle Stand der Entwicklung im Anwendungsbereich dieser Arbeit betrachtet. Es werden dabei die grundlegenden Konzepte und Eigenschaften der jeweiligen Arbeiten betrachtet und das Potential hinsichtlich der Umsetzung von in Kapitel XY identifizierten Anforderungen an das hier entwickelte Werkzeug betrachtet. 
 
-\section{Historische Entwicklung von Tangible Interfaces} % (fold)
+\section{Historischer Überblick} % (fold)
 \label{sec:entwicklung_tangible_interfaces}
 
-\citet{Wellner93a} und \citet{Suzuki95} werden als jene Arbeiten angesehen, die die Vision von alternativen Benutzungsschnittstellen für Computer maßgeblich geprägt haben. „Alternativ“ bedeutet in diesem Zusammenhang die Verwendung von Ein- und Ausgabekanälen, die sich von den herkömmlichen Werkzeugen wie Tastatur und Maus bzw. Bildschirmen insofern unterscheiden, als dass sie eine unmittelbare Interaktion mit der digital repräsentierten Information ermöglichen und deren Zustand in der realen Welt wiederspiegeln.
+\citet{Wellner93a} und \citet{Suzuki95} werden als jene Arbeiten angesehen, die die Vision von alternativen Benutzungsschnittstellen für Computer maßgeblich geprägt haben. „Alternativ“ bedeutet in diesem Zusammenhang die Verwendung von Ein- und Ausgabekanälen, die sich von den herkömmlichen Werkzeugen wie Tastatur und Maus bzw. Bildschirmen insofern unterscheiden, als dass sie eine unmittelbare Interaktion mit der digital repräsentierten Information ermöglichen und deren Zustand in der realen Welt widerspiegeln.
 
 Der Begriff der „Tangible“ bzw. „Graspable Interfaces“ – also der „berührbaren“ oder „begreifbaren“ Benutzungsschnittstellen — stammt ebenfalls aus der Mitte der neunziger Jahre des zwanzigsten Jahrhunderts. \citet{Fitzmaurice95} werden im Allgemeinen als die ersten betrachtet, die den Begriff des „Graspable User Interfaces“ prägen und damit die Manipulierbarkeit digitaler Information durch physische Mittel beschreiben. \citet{Fitzmaurice96} präzisiert später den Begriff durch die Abgrenzung zwischen (herkömmlichen, maus-, tastatur- und bildschirmbasierenden) zeitlich gemultiplexten Schnittstellen, bei denen der Informationsaustausch zwischen Benutzer und System über einen Kanal zeitlich hintereinander erfolgt und den (neuartigen, berührbaren) räumlich gemultiplexten Schnittstellen, bei denen mehrere Kanäle gleichzeitig zur Interaktion zwischen Benutzer und System verwendet werden können. 
 
@@ -20,9 +23,119 @@ Die erwähnte Kopplung wurde von Beginn an bidirektional verstanden. Dies bedeut
 
 Technologisch gründet sich das Gebiet der Tangible Interfaces auf den Entwicklungen im Bereich des Ubiquitous Computing \citep{Weiser91} und der Augmented Reality \citep{Azuma97}. Auch heute ist die Abgrenzung noch eher konzeptionell zu sehen. Die technischen Mittel der Umsetzung sind vor allem hardwareseitig nach wie vor nicht spezifisch den einzelnen Gebieten zuzuordnen, lediglich softwareseitig ist eine Spezialisierung durch die Entwicklung dedizierter Software-Frameworks zu erkennen.
 
-Die Anwendungsbereiche von Tangible Interfaces sind historisch breit gestreut, lassen jedoch eine Fokussierung auf die Unterstützung von kreativen und planenden Prozessen erkennen. Ein wichtiger Anwendungsbereich war schon in den ersten Jahren aktiver Forschung im Bereich der Tangible Interfaces das Gebiet der Unterstützung von Lernprozessen \citep{Resnick98}. Zurückgreifend auf die Ideen Pestalozzis, Montessoris \citep{Montessori05} und Piagets \citep{Piaget76} schlagen \citet{Resnick98} physische Objekte mit Mitteln der IT anzureichern um Spielzeuge (\emph{„digital manipulatives“}) zu schaffen, mit denen Kinder interagieren können und sich so physikalische bzw. sytemtheoretische Konzepte spielerisch zu erschließen. Die Objekte fungieren dabei einerseits als Baumaterialien und „Eingabekanal“ für den Rechner, andererseits gleichzeitig auch als „Ausgabe“- bzw. Feedbackkanal über die Wirkung die in der digitalen Welt (etwa in einer Simulation) mit der Eingabekonstellation erzielt wurde. Die Erkenntnisse der Entwicklungen und empirischen Untersuchungen in diesem Bereich wurden sowohl in der frühkindlichen Bildung \citep{Zuckerman05} als auch in organisationalen Lernprozessen zur Erhebung und Abstimmung von Strukturen und Abläufen in Unternehmen \citep{Lego02} eingesetzt.
+\section{Lernprozesse und Tangible Interface} % (fold)
+\label{sec:lernprozesse_und_tangible_interface}
 
-% section entwicklung_tangible_interfaces(end)
+Die Anwendungsbereiche von Tangible Interfaces sind historisch breit gestreut, lassen jedoch eine Fokussierung auf die Unterstützung von kreativen und planenden Prozessen erkennen. Ein wichtiger Anwendungsbereich war schon in den ersten Jahren aktiver Forschung das Gebiet der Unterstützung von Lernprozessen \citep{Resnick98}. Zurückgreifend auf die Ideen Pestalozzis, Montessoris \citep{Montessori05} und Piagets \citep{Piaget76} bzw. Papert \citep{Papert00} schlagen \citet{Resnick98} physische Objekte mit Mitteln der IT anzureichern um Spielzeuge (\emph{„digital manipulatives“}) zu schaffen, mit denen Kinder interagieren können und sich so physikalische bzw. systemtheoretische Konzepte spielerisch zu erschließen. Die Objekte fungieren dabei einerseits als Baumaterialien und „Eingabekanal“ für den Rechner, andererseits gleichzeitig auch als „Ausgabe“- bzw. Feedbackkanal über die Wirkung die in der digitalen Welt (etwa in einer Simulation) mit der Eingabekonstellation erzielt wurde. In einer empirischen Studie untersuchen \citet{Price03} die Verwendung von \emph{„Tangibles“} in spielerischen Lernsituationen. Sie identifizieren mehrere positive Effekte, darunter hohe Motivation bei der Interaktion mit dem System und umfassende kooperative Aktivitäten, die durch das System ermöglicht bzw. unterstützt werden. Als prominentes Ergebnis stellen die Autoren die stark ausgeprägte Tendenz zur Reflexion des Spielprozesses und der Erklärung der eigenen Tätigkeiten heraus. Sie setzen dieses Verhalten mit dem von \citet{Schon84} im Kontext von organisationalem Lernen beschriebene Phänomen der \emph{„reflection in action“} gleich. 
+
+Die Erkenntnisse der Entwicklungen und empirischen Untersuchungen in diesem Bereich wurden sowohl in der frühkindlichen Bildung \citep{Zuckerman05} als auch in organisationalen Lernprozessen zur Erhebung und Abstimmung von Strukturen und Abläufen in Unternehmen \citep{Lego02} eingesetzt. Die dort verfolgten Konzepte sind für diese Arbeit insofern von Interesse, als dass Tangible Interfaces dabei zur Modellbildung im engeren Sinne und -- im Falle der organisationalen Anwendung -- auch für „Articulation Work“ im Allgemeinen eingesetzt wurden.
+
+\citet{Marshall07} versucht, die möglichen Einflussfaktoren und Wirkungen von Tangible Interfaces auf Lernprozesse zu strukturieren und in einem analytischen Framework zu beschreiben. Er identifiziert sechs Perspektiven und exemplarisch mögliche Ausprägungen, die es erlauben, die Verwendung eines Tangible Interfaces in Lernprozessen strukturiert zu betrachten (siehe Abbildung \ref{fig:img_ImplementierungUeberblick_marshall_tui_learning}). 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=6cm]{img/ImplementierungUeberblick/marshall_tui_learning.png}
+	\caption[Tangible Interfaces in Lernprozessen]{Tangible Interfaces in Lernprozessen (entnommen aus \citet{Marshall07})}
+	\label{fig:img_ImplementierungUeberblick_marshall_tui_learning}
+\end{figure}
+
+Die Perspektive „Learning Domains“ bezieht sich hier auf den Anwendungsbereich des \gls{TUI}. Im konkreten Fall ist diese mit der Arbeits-Domäne, in der die „Articulation Work“ durchgeführt wird, gleichzusetzen und ändert sich deshalb je nach Anwendungsfall.
+
+In der Perspektive „Possible Learning Benefits“ betonen die Autoren mit Bezugnahme auf Arbeiten aus den Kognitionswissenschaften die potentiell positiven Aspekte von physischen Repräsentationen, die durch die haptische Wahrnehmbarkeit verständlicher als rein visuelle Repräsentationen wären. In diesem Zusammenhang erwähnen die Autoren auch die Eignung von Tangible Interfaces in kooperativen Lernsituationen, in denen das Interface durch seine physische Präsenz einen „shared space“ erzeugen würde, in dem Kommunikation und Interaktion erleichtert werden.
+
+Relevant im Kontext von „Articulation Work“ bzw. der Externalisierung und Abstimmung von Mentalen Modellen sind die beiden Lernformen, die in der Perspektive „Learning Activity“ identifiziert wurden. Demnach ermöglichen Tangible Interfaces besonders explorative und expressive Aktivitäten. Erstere beziehen sich auf eine Erforschung einer existierenden physischen Repräsentation, die experimentell verändert werden kann und die Entwicklung eines tiefergehenden Verständnisses für das repräsentierte Phänomen ermöglichen würde. Zweitere beziehen sich auf Erzeugung von Repräsentationen mit dem Tangible Interface. Dabei kann die Abbildung direkt erfolgen, alternativ kann aus der Interaktion mit dem Interface eine Repräsentation (etwa eines Arbeitsablaufs) vom System automatisiert abgeleitet werden.
+
+Die übrigen Perspektiven sind für den hier betrachteten Anwendungsfall nur bedingt relevant („Concretness and sensori-directness“) oder werden in späteren Abschnitten noch detaillierter behandelt („Integration of representations“ bzw. „Effects of physicality“). Auf sie wird hier deshalb nicht näher eingegangen.
+
+% section lernprozesse_und_tangible_interface (end)
+
+\section{Kooperation und Tangible Interfaces} % (fold)
+\label{sec:kooperation_und_tangible_interfaces}
+
+„Articulation Work“ wird in einem Großteil der Anwendungen kooperativ durchgeführt. Die hier zu unterstützende „explizite Articulation Work“ zur Abstimmung mentaler Modelle mittels Externalisierung findet immer unter Beteiligung mehrerer Individuen statt, die simultan versuchen, ihre individuellen Sichtweisen auf einen Arbeitsablauf abzustimmen. In Kapitel \ref{cha:mentale_modelle} wurde auf die Nützlichkeit von physischen Repräsentationen bei der Externalisierung mentaler Modelle verwiesen. Auch in der Domäne der Tangible Interfaces wurde die Wirkung der dedizierten, physischen Schnittstelle auf die Kooperation der beteiligten Individuen untersucht (erstmals in \citep{Hornecker01}). Die dort gezogenen Schlüsse sind Gegenstand dieses Abschnitts. 
+
+Tangible Interfaces bieten durch die physische Ausgestaltung der Benutzungsschnittstelle oft die Möglichkeit, nicht exklusiven Zugriff auf die Funktionen des Systems und so eine kooperative Verwendung zu ermöglichen. \citet{Hornecker04} geht über die rein simultane Zugreifbarkeit auf das System hinaus und attestiert Tangible Interfaces eine inhärent kooperationsunterstützende Wirkung. Sie identifiziert im Kern vier sozial Effekte von Tangible Interfaces:
+\begin{itemize}
+	\item Intuitive und simultane Manipulierbarkeit
+	\item Fokus-stärkende Wirkung
+	\item Awareness, Gestik und perfomative Bedeutung der Handlungen
+	\item Externalisierungsfunktion und Rolle als Boundary Object
+\end{itemize}
+
+Diese Effekte werden in den folgenden Abschnitten kurz auf Basis der Ausführungen der Autorin zusammengefasst und in den Kontext der Unterstützung von „Articulation Work“ gesetzt. Für eine detaillierte Beschreibung sei hier auf \citep[][S. 147-212]{Hornecker04} verwiesen. Auch die Referenzen zu den einzelnen hier wiedergegebenen Hypothesen sind dort zu finden -- in dieser Arbeit wurde auf deren Angabe verzichtet. 
+
+\subsection{Intuitive und simultane Manipulierbarkeit} % (fold)
+\label{sub:intuitive_und_simultane_manipulierbarkeit}
+
+Tangible Interfaces wird eine intuitive Manipulierbarkeit zugeschrieben. Dies bedeutet in diesem Zusammenhang, das der Zugang zum System spielerisch und erfahrungsorientiert erfolgen kann und keine Übersetzung der intendierten Handlungen auf am Rechner ausführbare Aktivitäten erfolgen muss. Dies ist vor allem für Personen eine Erleichterung, denen der abstahierender Zugang schwerfällt. Konkret zeigt sich das unter Anderem bei der Externalisierung von Handlungswissen, dass an bestimmte Situationen gebunden ist und von den handelnden Personen nur schwer bzw. nicht generalisiert werden kann. Kann während der Externalisierung in der realen, physischen Welt verblieben werden, erleichtert dies den Zugang zum System und führt im Allgemeinen zu vollständigeren bzw. stimmigeren Externalisierungen.
+
+Zudem ermöglicht ein einfacher Zugang zum System eine Konzentration auf die eigentliche Arbeitsaufgabe -- das Werkzeug tritt in den Hintergrund. Wichtig erscheint in diesem Zusammenhang die Anforderung, Änderung einfach rückgängig machen zu können, so dass inhaltliche Experimente einfach und ohne Aufwand korrigiert werden können, wenn sie sich als nicht zielführend erweisen.
+
+Die simultane Manipulierbarkeit vieler Tangible Interfaces fördert ebenfalls die Kooperation bei der Benutzung des Systems. Der nicht-exklusive Zugang zur Benutzungsschnittstelle ermöglicht erst eine unmittelbare Zusammenarbeit am Arbeitsgegenstand. In Kombination mit der intuitiven Manipulierbarkeit wird der Kooperations-Aspekt noch weiter gestärkt, da Spezialkompetenzen zur Bedienung des Systems nicht notwendig sind. Der Zugang zur Schnittstelle wird damit auch egalitärer und schließt nicht einzelne Benutzergruppen von der Bedienung des Werkzeugs aus. Dies wird vor allem in partizipartiven Planungs- und Entwurfsprozessen (wie „expliziter Articulation Work“) deutlich, in denen Personen unterschiedlicher Fach- und Medienkompetenz zusammenarbeiten müssen. 
+
+Der physische Interaktionsraum führt neben der simultanen Manipulierbarkeit auch zu natürlicheren Interaktionsabläufen zwischen der beteiligten Individuen. Im Gegensatz zu Systemen, bei denen im virtuellen Raum interagiert wird, müssen keine expliziten Synchronisationsmechanismen eingeführt werden, die etwa Bearbeitungskonflikte vermeiden. Die Abstimmung erfolgt durch die unmittelbare Manipulation direkt und muss nicht weiter technisch unterstützt werden. Auch ist im Allgemeineren eine feingranularere Interaktion als bei bildschirmbasierter Zusammenarbeit zu beobachten. „Feingranular“ bedeutet hier, dass der Aktivitätsfokus („Turn-taking“) öfter wechselt und somit zu gleichmäßigeren Einzelbeiträgen im Gesamtergebnis führt.
+
+% subsection intuitive_und_simultane_manipulierbarkeit (end)
+
+\subsection{Fokus-stärkende Wirkung} % (fold)
+\label{sub:fokus_stärkende_wirkung}
+
+Physische Modelle, die mittel Tangible Interfaces erstellt werden oder Gegenstand desselben sind, wirken nicht nur räumlich fokussierend, sondern konkretisieren auch die inhaltliche Interaktion und fördern lösungsorientierte Diskussionen.
+
+Die inhaltlich fokussierende Wirkung ist auf mehrere Aspekte zurückzuführen, die bei unterschiedlichen Ausprägungen von Tangible Interfaces unterschiedlich stark auftreten. Die folgenden Ausführungen sind im Kontext von (den in dieser Arbeit relevanten) tisch-basierten Systemen zu sehen, auf die sich auch \citet{Hornecker04} vorrangig bezieht.
+
+Der erste erwähnenswerte Einflussfaktor ist die fokussierende Wirkung einer physisch im Zentrum stehenden Repräsentation, die von den beteiligten Individuen „umringt“ wird. Diese Konstellation schafft einen gemeinsamen „Transaktionsraum“ und wirkt als „soziales Signal“ für die Kommunikationsaufnahme. Entfernte (etwa auf eine Wand projizierte) Repräsentationen führen nicht zu derartigen Konstellationen.
+
+Die physische Repräsentation wird zu einem gemeinsamen Bezugspunkt und erzeugt sozialen Druck sich bei der Diskussion aus sie zu beziehen. Zudem erleichtert sie die Durchsetzung der Forderung nach Konkretisierung von artikulierten Gedanken und visualisiert gleichzeitig die Auswirkungen möglicher Entscheidungen.
+
+Die „Öffentlichkeit“ physischer Repräsentationen, deren Veränderung für alle beteiligten Individuen einsehbar ist, fördert die individuelle Reflexion von eingebrachten Ideen und Gedanken und erleichtert gleichzeitig die Konsensfindung und pragmatische Konfliktlösung.
+
+Wesentliche Faktoren für die fokussierende Wirkung von physischen Repräsentationen sind deren Größe, die Sichtbarkeit und Öffentlichkeit sowie deren Materialiät. Hinsichtlich der Größe existiert sowohl eine Unter- als auch eine Obergrenze für das Auftreten der fokusfördernden Wirkung. Ist die Repräsentation zu klein, ist sie unter Umständen nur für eine Teil der beteiligten Individuen zu erkennen und verhindert eine nicht-exklusive Manipulation. Ist sie zu groß, kann die Repräsentation unter Umständen nicht in ihrer Gesamtheit erfasst werden. 
+
+Neben der Fokuswirkung der Repräsentation ist auch jene der verwendeten Werkzeuge zur Manipulation des Systemzustandes relevant. Im Gegensatz zu generischen Werkzeugen wie Tastatur und Maus schränken physisch für eine bestimmte Aufgabe ausgelegte Werkzeuge den Interaktionsraum auf natürliche Art und Weise ein. Konzeptionell durchdachtes Interaktionsdesign führt so zu einer Fokussierung auf die möglichen Aktionen und lenken die Aufmerksamkeit der Individuen auf jene Strukturen, die durch diese manipuliert werden.
+
+% subsection fokus_stärkende_wirkung (end)
+
+\subsection{Awareness, Gestik und performative Bedeutung der Handlungen} % (fold)
+\label{sub:awareness_gestik_und_performative_bedeutung_der_handlungen}
+
+Die physische Präsenz einer Benutzungsschnittstelle im realen Raum erlauben, im Gegensatz zu bildschirmbasierten Schnittstellen, die Aufmerksamkeit nicht ausschließlich auf die Interaktion mit dem System zu konzentrieren. Vielmehr ist es möglich, durch die periphäre Wahrnehmung der Umgebung die „Awareness“ \citep{Dourish92} -- also das Bewusstsein über das, was räumlichen und inhaltlichen Kontext der eigentlichen Aufgabe passiert -- zu erhöhen. 
+
+Die „Awareness“ umfasst auch bzw. vor allem die Tätigkeiten anderer Individuen, die an der Interaktion beteiligt sind \footnote{\emph{„awareness is an understanding of the activities of others, which provides a context for your own activity.“}\citep[][S. 1]{Dourish92}}. Durch die räumliche Nähe sind die Handlungen diese Individuen nicht nur in ihrer Konsequenz (also der Wirkung auf die Repräsentation) erkennbar, sondern umfassender wahrnehmbar. Handlungen werden schon durch die beginnende Bewegung vor ihrer Durchführung wahrgenommen auch die eigentliche Handlung erzeugt wahrnehmbare Effekte. Dadurch kommt es zu einer impliziten Abstimmung der Handlungen der einzelnen Personen (gleichzusetzen mit der Durchführung von „implicit Articulation Work“), eine explizite Aushandlung der kooperativen Handhabung der Schnittstelle ist im Normalfall nicht mehr notwendig. Dies korreliert mit der im letzten Abschnitt dargestellten Hypothese, dass physische Benutzungsschnittstellen gegenüber der eigentliche Arbeitsaufgabe in den Hintergrund treten und eine stärke Fokussierung auf diese erlauben.
+
+Das physisch vorhandene Modell fungiert außerdem als Referenzrahmen für non-verbale Kommunikation etwa mittels Gesten. Durch Zeigen auf oder Antippen von Elementen eines \gls{TUI} wird nicht nur der Fokus der Interaktion auf den durch dieses Element repräsentierten Aspekt gelenkt. Je nach Stärke und Ausprägung der referenzierenden Handlung kann damit auch eine performative Bedeutung verbunden sein. So kann zum Beispiel das Weiterreichen eines Elements die Übergabe der Kontroll ausdrücken oder starkes Antippen eines Elements mit der Aufforderung verknüpft sein, dieses in der Diskussion zu berücksichtigen.
+
+% subsection awareness_gestik_und_performative_bedeutung_der_handlungen (end)
+
+\subsection{Externalisierungsfunktion und Rolle als Boundary Object} % (fold)
+\label{sub:externalisierungsfunktion_und_rolle_als_boundary_object}
+
+Die Unterstützung von Externalisierung mittels physischer Modelle wurde bereits im Kapitel \ref{cha:mentale_modelle} beschrieben. Tangible Interfaces sind als eben solche Modelle zu verstehen, die eine Schnittstelle zur Manipulation von beliebigen realen oder virtuellen Phänomenen bieten. Wie bereits in Kapitel \ref{cha:mentale_modelle} angeführt, wirken physische Modelle als „Ankerpunkte“ sowohl für individuelle kognitive Vorgänge als auch in der Kommunikation zwischen Individuen.
+
+Die Unterstützung von kognitiven Vorgängen, also der Wirkung von Tangible Interfaces als „Denkhilfe“ ist insofern gegeben, als dass die physische Repräsentation Eingaben dauerhaft abbildet und so verhindert, dass diese im Verlauf der Externalisierung untergehen. Die Repräsentation wirkt so außerdem kummulativ und führt Aspekte zusammen, die in keinem offensichtlichen Zusammenhang stehen. Sie bildet in weiterer Folge auch eine Basis um unter Berücksichtigung aller externalisierten Aspekte Varianten der ursprünglichen Repräsentation zu bilden.  
+
+Externalisierte Repräsentationen wirken auch bei der Kommunikation unterstützend, fungieren in diesem Zusammenhang also als „Sprechhilfe“. Eng in Zusammenhang mit dieser Wirkung steht der Begriff der „Boundary Objects“ \citep{Star89}. „Boundary Objects“ sind Objekte, die der Entwicklung eines gemeinsamen Verständnisses zwischen Individuen aus unterschiedlichen Domänen dienen. Sie bieten im Kern eine fixe, für alle Beteiligten einheitlich verständliche Repräsentation eines beliebigen Phänomens und sind gleichzeitig so flexibel, dass sie in den jeweiligen Domänen mit spezifischer Bedeutung angereichert werden können. Tangible Interfaces wirken -- wenn deren Design offen genug angelegt ist -- als „Boundary Objects“ und erleichtern so die Herausbildung gegenseitigen Verständnisses. In diesem Zusammenhang ist auch die Entstehungshistorie einer physischen Repräsentation von Interesse. Durch die Nachverfolgbarkeit der Entstehung kann das Verständnis der Repräsentation erleichtert werden, da die Herausbildung der im Ergebnis enthaltenen Strukturen nachvollziehbar wird.
+
+% subsection externalisierungsfunktion_und_rolle_als_boundary_object (end)
+
+\subsection{Implikationen} % (fold)
+\label{sub:tui_koop_fazit}
+
+Die hier vorgestellten kooperationsfördernden Aspekte von Tangible User Interfaces wurden von \citet{Hornecker04} im Rahmen ihrer Dissertation aus der Literatur identifiziert und empirisch überprüft. Bereits aus der obigen Zusammenfassung wird erkennbar, das ein Großteil der identifizierten Aspekte für „Articulation Work“ im Allgemeinen und die Externalisierung und Abstimmung von mentalen Modellen im Speziellen relevant ist.
+
+Obwohl \citet{Hornecker04} keine Anforderungen an das Design von Tangible Interfaces identifiziert, deren Beachtung zu einer kooperationsfördernden Wirkung führt, können jedoch aus den theoretischen Ausführungen Hinwiese abgeleitet werden, wie ein \gls{TUI} konzipiert werden muss:
+\begin{itemize}
+	\item Die physische Repräsentation muss räumlich und technisch egalitär zugänglich sein. Das Werkzeug darf die Interaktion zwischen den Benutzern nicht einschränken oder behindern.
+	\item Die Größe der Benutzungsschnittstelle muss so ausgelegt sein, dass sowohl eine simultane Manipulierbarkeit der gesamten Repräsentation als auch deren individuelle Erfassbarkeit für alle beteiligten Individuen gegeben ist.
+	\item Die Elemente des Tangible Interfaces müssen so konkret sein, dass die Benutzer ihnen eindeutig Bedeutung zuweisen können, gleichzeitig aber offen, dass sie als „Boundary Objects“ zwischen Benutzern aus unterschiedlichen Fachdomänen fungieren können.
+	\item Änderungen müssen ohne bleibende Konsequenzen durchgeführt werden können bzw. leicht rückgängig gemacht werden können.
+	\item Eine Nachverfolgbarkeit der Entstehungshistorie (ggf. mit Identifikation der individuellen Beiträge) kann zur Verständnisbildung beitragen.	
+	
+\end{itemize}
+
+% subsection zusammenfassung (end)
+
+% section kooperation_und_tangible_interfaces (end)
 
 \section{Konzeptualisierung und Klassifikation von Tangible Interfaces} % (fold)
 \label{sec:konzeptualisierungen_von_tangible_interfaces}
@@ -544,7 +657,7 @@ Die Einordnung in die Kategorien (siehe Tabelle \ref{tab:tui_konzeptkategorien})
 	\label{tab:tui_konzeptkategorien}
 \end{table}
 
-In dieser Aufstellung ist zu erkennen, dass eine Großteil der Ansätze nicht auf den Interaktionsaspekt des Anwendungsfalls eingeht, für den das betrachtete \gls{TUI} konzipiert ist, sondern sich auf die sturkturellen Aspekte des Systems beschränkt.  
+In dieser Aufstellung ist zu erkennen, dass eine Großteil der Ansätze nicht auf den Interaktionsaspekt des Anwendungsfalls eingeht, für den das betrachtete \gls{TUI} konzipiert ist, sondern sich auf die strukturellen Aspekte des Systems beschränkt.  
 
 Den umfassendsten Ansatz zur Spezifikation bietet die Arbeit „Tokens and Constraints“ von \citep{Shaer04}, der aufbauend auf der Arbeit von \citet{Ullmer02} einen modifizierten Token+Constraints-Ansatz vorstellt. Dieser eignet sich durch ein breiteres Verständnis des Constraint-Begriffs für die allgemeine Spezifikation der Struktur eines TUI. Zusätzlich stellt er ein Schema zur Verfügung stellt, in dem -- basierend auf der Struktur -- auch das Verhalten des Systems spezifiziert werden kann.
 
@@ -555,12 +668,12 @@ Zur detaillierten Evaluation eines \gls{TUI} bietet sich die Taxonomie von \cite
 
 Grundsätzlich sind jene Ansätze, die sich mit der detaillierten Beschreibung eine \gls{TUI} befassen, ausdrucksstärker als jene Ansätze, die ein System lediglich global betrachten. Dies bezieht sich jedoch in erster Linie auf die Quantität der generierten Daten, qualitativ gesehen ergänzen beide Sichtweisen einander und sind sowohl bei Spezifikation als auch Evaluation komplementär anzuwenden. Der Fokus der Betrachtung der jeweiligen Ansätze ist in Tabelle \ref{tab:tui_konzeptkategorien} angeführt und wird hier nicht separat unterschieden.
 
-Einige der vorgestellten Ansätze sind inhaltich insofern als überholt anzusehen, als dass sie heute gängige Techniken und Interaktionsparadimen nicht adäquat abbilden können. Dies gilt sowohl in struktureller Hinsicht als auch in Bezug auf das Verhalten eines Systems. Die strukturellen Konzepte haben sich konzeptionell von „werkzeug-zentrierten“ auf „informations-zentrierte“ Sichtweise weiter entwickelt. Ältere, „werkzeug-zentrierte“ Ansätze betrachten die physischen Elemente ausschließlich als Werkezeuge zur Manipulation digitaler Information, die nach wie vor herkömmlich visuell ausgegeben wird und keine physische Manifestation besitzt. Typische Vertreter dieser Sichtweise sind \citep{Fitzmaurice95} und \citep{Fitzmaurice96}. Ab der Arbeit von \citet{Ishii97} wird der Aspekt der physischen Repräsentation von Information berücksichtigt, womit erstmals eine umfassende Beschreibung von Systemen ermöglicht wird, die heute als \gls{TUI} bezeichnet werden.
+Einige der vorgestellten Ansätze sind inhaltlich insofern als überholt anzusehen, als dass sie heute gängige Techniken und Interaktionsparadigmen nicht adäquat abbilden können. Dies gilt sowohl in struktureller Hinsicht als auch in Bezug auf das Verhalten eines Systems. Die strukturellen Konzepte haben sich konzeptionell von „werkzeug-zentrierten“ auf „informations-zentrierte“ Sichtweise weiter entwickelt. Ältere, „werkzeug-zentrierte“ Ansätze betrachten die physischen Elemente ausschließlich als Werkzeuge zur Manipulation digitaler Information, die nach wie vor herkömmlich visuell ausgegeben wird und keine physische Manifestation besitzt. Typische Vertreter dieser Sichtweise sind \citep{Fitzmaurice95} und \citep{Fitzmaurice96}. Ab der Arbeit von \citet{Ishii97} wird der Aspekt der physischen Repräsentation von Information berücksichtigt, womit erstmals eine umfassende Beschreibung von Systemen ermöglicht wird, die heute als \gls{TUI} bezeichnet werden.
 
-In der Folge wurden unterschiedliche Ansätze vorgestellt, die auf verschiede Aspekte in der Beschreibung der Struktur eingehen. Ein grundlegendes Unterscheidungsmerkmal der Ansätze ist ihre Herangehensweise an die Unterscheidung zwischen physischen Objekten, die Information repräsentieren und solchen, die Information manipulieren (in wenigen Fällen werden auch Werkzeuge zur Systemsteuerung separat betrachtet). Eine Herangehensweise ist die strikte konzeptionelle Trennung zwischen physischen Objekten, die zur Informationsrepräsentation verwendet werden und sochen, die als Werkzeug zur Manipulation eingesetzt werden. Typische Verterter sind hier \citep{Ishii97} und \citep{Holmquist99}. Dem hingegen steht die Herangehensweise, die Bedeutung eines physischen Objekts für eine bestimmte Anwendung auf einem Kontinuum einzuordnen und Objekte damit als eher „werkzeug-artig“ oder eher „repräsentations-artig“ (oder beides integrierend) einzuordnen. Typische Vertreter für diese Herangehensweise sind \citep{Underkoffler99}, \citep{Koleva03} und \citep{Fishkin04}. Einen dritten Weg gehen die Ansätze von \citep{Ullmer00} und darauf aufbauend \citep{Ishii08}, die physische Elemente immer als Kombination eines Repräsentations- und Kontroll-Anteils sehen und diese konzeptionell separat behanden. Implzit in dieser Tradition stehen auch die Ansätze von \citep{Ullmer02} und \citep{Shaer04}, die mit dem „Tokens und Constraints“-Konzept einerseits eine dritte Art von physischen Objekten -- die Constraints, die den Interaktionsraum beschränken -- einführen, andererseits aber bei den eigentlich zur Interaktion verwendeten physischen Elementen nicht zwischen Repräsentationen und Werkzeugen unterscheiden. Funktionalität wird vielmehr durch die Manipulation eines (informationstragenden) Tokens im Kontext von Constraints ausgelöst -- Tokens haben somit einen Kontroll-Aspekt im Sinne von \citep{Ullmer00}.
+In der Folge wurden unterschiedliche Ansätze vorgestellt, die auf verschiede Aspekte in der Beschreibung der Struktur eingehen. Ein grundlegendes Unterscheidungsmerkmal der Ansätze ist ihre Herangehensweise an die Unterscheidung zwischen physischen Objekten, die Information repräsentieren und solchen, die Information manipulieren (in wenigen Fällen werden auch Werkzeuge zur Systemsteuerung separat betrachtet). Eine Herangehensweise ist die strikte konzeptionelle Trennung zwischen physischen Objekten, die zur Informationsrepräsentation verwendet werden und solchen, die als Werkzeug zur Manipulation eingesetzt werden. Typische Vertreter sind hier \citep{Ishii97} und \citep{Holmquist99}. Dem hingegen steht die Herangehensweise, die Bedeutung eines physischen Objekts für eine bestimmte Anwendung auf einem Kontinuum einzuordnen und Objekte damit als eher „werkzeug-artig“ oder eher „repräsentations-artig“ (oder beides integrierend) einzuordnen. Typische Vertreter für diese Herangehensweise sind \citep{Underkoffler99}, \citep{Koleva03} und \citep{Fishkin04}. Einen dritten Weg gehen die Ansätze von \citep{Ullmer00} und darauf aufbauend \citep{Ishii08}, die physische Elemente immer als Kombination eines Repräsentations- und Kontroll-Anteils sehen und diese konzeptionell separat behandeln. Implizit in dieser Tradition stehen auch die Ansätze von \citep{Ullmer02} und \citep{Shaer04}, die mit dem „Tokens und Constraints“-Konzept einerseits eine dritte Art von physischen Objekten -- die Constraints, die den Interaktionsraum beschränken -- einführen, andererseits aber bei den eigentlich zur Interaktion verwendeten physischen Elementen nicht zwischen Repräsentationen und Werkzeugen unterscheiden. Funktionalität wird vielmehr durch die Manipulation eines (informationstragenden) Tokens im Kontext von Constraints ausgelöst -- Tokens haben somit einen Kontroll-Aspekt im Sinne von \citep{Ullmer00}.
 
-Weniger häufig anzutreffen sind Arbeiten, die explizit auf die Beschreibung oder Evaluation der Interaktionsabläufe eines \gls{TUI} eingehen. TODO
-
+Seltener anzutreffen sind Arbeiten, die explizit auf die Beschreibung oder Evaluation der Interaktionsabläufe eines \gls{TUI} eingehen. \citet{Fishkin04} behandelt diesen Aspekt im Rahmen der „Metaphor“-Dimension seiner Taxonomie. Er unterscheidet dort zwischen \glspl{TUI} oder \gls{TUI}-Komponenten, deren Interaktionsmetaphern eher aus Objekten der realen Welt und / oder aus Tätigkeiten der realen Welt angelehnt sind. Werden alle Komponenten eines \gls{TUI} in diese Dimension eingeordnet, so ermöglicht dies die Prüfung, ob die Metaphern konsistent gewählt wurden  
+\citep{Oppl09d}. Die Interaktionsabläufe im Detail sind jedoch bei \citet{Fishkin04} nicht Gegenstand der Betrachtung. Auf detaillierter Ebene gehen lediglich \citet{Shaer04} auf Interaktionsabläufe im Allgemeinen und der Spezifikation im Speziellen ein. Die Autoren erweitern dazu den Token+Constraints-Ansatzes \citep{Ullmer02} um einen Interaktionsaspekt, der auf Basis der strukturellen Eigenschaften eines \gls{TUI} deren dynamisches Zusammenspiel untereinander und mit den Benutzern festlegt. Damit wird es möglich, ein \gls{TUI} sowohl in Struktur als auch Verhalten umfassend zu spezifizieren.
 % subsubsection ausdrucksstärke_der_konzeptionellen_ansätze (end)
 
 \subsubsection{Nomenklatur}
@@ -593,17 +706,12 @@ Die hier vorgestellten Ansätze werden nach der Beschreibung des Werkzeugs in Ka
 
 % section konzeptualisierungen_von_tangible_interfaces (end)
 
-\section{Tangible Interfaces in kooperativer Verwendung} % (fold)
-\label{sub:tangible_interfaces_in_kooperativer_verwendung}
-\citep{Hornecker04}
-% subsection tangible_interfaces_in_kooperativer_verwendung (end)
-
-% section tangible_interfaces (end)
-
 \section{Tabletop Interfaces} % (fold)
 \label{sec:tabletop_interfaces}
 
-Grundlagen
+Tabletop Interfaces sind Benutzungsschnittstellen, bei denen die Interaktion mit einem Computersystem über eine (im Allgemeinen horizontal angebrachte) Tischplatte durchgeführt wird. Tabletop Interfaces sind nicht als echte Untermenge von Tangible Interfaces zu sehen. Systeme, bei denen die Interaktion mittels direkter Berührung der Oberfläche mit den Händen („Touch-“ bzw. „Multitouch“-Systeme) durchgeführt wird, werden ebenfalls zu den Tabletop Interfaces gezählt, sind aber aufgrund der fehlenden physischen Repräsentationsaspekt des Systemzustandes nicht als unbedingt als Tangible Interface zu klassifizieren.
+
+
 
 \subsection{Historische Entwicklung} % (fold)
 \label{sub:historische_entwicklung_von_tabletop_interfaces}
@@ -617,43 +725,50 @@ Der Sensetable \citep{Patten01}
 \label{par:build_it}
 \citep{Fjeld01}
 % subsubsection build_it (end)
+
+\subsubsection{ReacTable} % (fold)
+\label{ssub:reactable}
+ReacTable \citep{Kaltenbrunner06}
+
+% subsubsection reactable (end)
+
+\subsubsection{Microsoft Surface} % (fold)
+\label{ssub:microsoft_surface}
+
+% subsubsection microsoft_surface (end)
+
 % subsection historische_entwicklung_von_tabletop_interfaces (end)
 % section tabletop_interface (end)
 
-\section{Tangible Interfaces zur Erstellung diagrammatische Modelle} % (fold)
+\section{Tangible Interfaces zur Erstellung diagrammatischer Modelle} % (fold)
 \label{sub:tangible_interfaces_zur_modellbildung}
 \citep{Blackwell07}
-% subsection tangible_interfaces_zur_modellbildung (end)
+
+\subsection{Historische Entwicklung} % (fold)
+\label{sub:historische_entwicklung}
+
+\begin{itemize}
+	\item Sensetable Modeling Application
+	\item Designer's Outpost (Klemmer)
+\end{itemize}
+
+% subsection historische_entwicklung (end)
 
 \subsection{Aktuelle verwandte Ansätze} % (fold)
 \label{sub:aktuelle_verwandte_ansätze}
 
-% subsection aktuelle_verwandte_ansätze (end)
 \begin{itemize}
-	\item Historische Entwicklung von Tabletop Interfaces
-	\begin{itemize}
-		\item Build IT \citep{Fjeld97}
-		\item Sensetable \citep{Patten01}
-		\item Eva Hornecker \citep{Hornecker04}
-		\item ReacTable \citep{Kaltenbrunner06}
-	\end{itemize}
-	\item Historische Entwicklung von Tangible Interfaces zur Modellbildung
-	\begin{itemize}
-		\item Sensetable Modeling Application
-		\item Designer's Outpost (Klemmer)
-	\end{itemize}
-	\item Aktuelle verwandte Ansätze
-	\begin{itemize}
-		\item \citep{Tanenbaum09}
-		\item \citep{Do-Lenh09}
-	\end{itemize}
+	\item \citep{Tanenbaum09}
+	\item \citep{Do-Lenh09}
 \end{itemize}
 
 
-% section grundlegende_&_verwandte_arbeiten (end)
+% subsection aktuelle_verwandte_ansätze (end)
+
+% section tangible_interfaces_zur_modellbildung (end)
 
 \section{Fazit} % (fold)
-\label{sec:fazit}
+\label{sec:impl_ueberblick_fazit}
 
 % section fazit (end)
 

@@ -283,6 +283,13 @@ Do-Lenh, S., Kaplan, F., Sharma, A., und Dillenbourg, P. (2009).
 \newblock In {\em TEI '09: Proceedings of the 3rd International Conference on
   Tangible and Embedded Interaction}, Seiten 267--274, New York, NY, USA. ACM.
 
+\bibitem[Dourish und Bellotti, 1992]{Dourish92}
+Dourish, P. und Bellotti, V. (1992).
+\newblock Awareness and coordination in shared workspaces.
+\newblock In {\em CSCW '92: Proceedings of the 1992 ACM conference on
+  Computer-supported cooperative work}, Seiten 107--114, New York, NY, USA.
+  ACM.
+
 \bibitem[Downing, 1998]{Downing98}
 Downing, T. (1998).
 \newblock {\em {Java RMI: remote method invocation}}.
@@ -378,14 +385,6 @@ Fitzmaurice, G., Ishii, H., und Buxton, W. (1995).
 Fjeld, M. (2001).
 \newblock {\em Designing for tangible interaction}.
 \newblock PhD thesis, Swiss Federal Institute of Technology.
-
-\bibitem[Fjeld et~al., 1997]{Fjeld97}
-Fjeld, M., Bichsel, M., und Rauterberg, M. (1997).
-\newblock {BUILD-IT: An Intuitive Design Tool Based on Direct Object
-  Manipulation}.
-\newblock In {\em Proceedings of the International Gesture Workshop on Gesture
-  and Sign Language in Human-Computer Interaction}, Seiten 297--308.
-  Springer-Verlag London, UK.
 
 \bibitem[Fjuk und Dirckinck-Holmfeld, 1997]{Fjuk97a}
 Fjuk, A. und Dirckinck-Holmfeld, L. (1997).
@@ -542,6 +541,11 @@ Holmquist, L., Redstr{\"o}m, J., und Ljungstrand, P. (1999).
 Holzner, S. (2004).
 \newblock {\em {Eclipse}}.
 \newblock O'Reilly Germany.
+
+\bibitem[Hornecker, 2001]{Hornecker01}
+Hornecker, E. (2001).
+\newblock Graspable interfaces as tool for cooperative modelling.
+\newblock In {\em Proceedings of IRIS}, volume~24, Seiten 215--228.
 
 \bibitem[Hornecker, 2004]{Hornecker04}
 Hornecker, E. (2004).
@@ -766,6 +770,13 @@ Mark, G., Gonzalez, V.~M., Sarini, M., und Simone, C. (2002b).
 \newblock Supporting articulation with the reconciler.
 \newblock In {\em CHI Extended Abstracts 2002}, Seiten 814--815.
 
+\bibitem[Marshall, 2007]{Marshall07}
+Marshall, P. (2007).
+\newblock Do tangible interfaces enhance learning?
+\newblock In {\em TEI '07: Proceedings of the 1st international conference on
+  Tangible and embedded interaction}, Seiten 163--170, New York, NY, USA. ACM
+  Press.
+
 \bibitem[McAffer und Lemieux, 2005]{McAffer05}
 McAffer, J. und Lemieux, J. (2005).
 \newblock {\em {Eclipse Rich Client Platform: Designing, Coding, and Packaging
@@ -920,6 +931,11 @@ Oppl, S., Stary, C., und Auinger, A. (2006).
 \newblock In {\em Proceedings of Mensch und Computer 2006}, Seiten 400--405.
   Oldenburg Wissenschaftsverlag.
 
+\bibitem[Papert, 2000]{Papert00}
+Papert, S. (2000).
+\newblock {What's the Big Idea: Towards a Pedagogy of Idea Power}.
+\newblock {\em IBM Systems Journal}, 39(3-4):720--729.
+
 \bibitem[Patten und Ishii, 2007]{Patten07}
 Patten, J. und Ishii, H. (2007).
 \newblock Mechanical constraints as computational constraints in tabletop
@@ -954,6 +970,11 @@ Piaget, J. (1976).
 Pirnay-Dummer, P.~N. (2006).
 \newblock {\em {Expertise und Modellbildung - MITOCAR}}.
 \newblock PhD thesis, University of Freiburg.
+
+\bibitem[Price et~al., 2003]{Price03}
+Price, S., Rogers, Y., Scaife, M., Stanton, D., und Neale, H. (2003).
+\newblock Using `tangibles' to promote novel forms of playful learning.
+\newblock {\em Interacting with Computers}, 15(2):169--185.
 
 \bibitem[Raposo et~al., 2004]{Raposo04}
 Raposo, A., Gerosa, M., und Fuks, H. (2004).
@@ -1116,6 +1137,12 @@ Schmidt, K., Simone, C., Divitini, M., Carstensen, P., und S{\o}rensen, C.
 \newblock A `contrat sociale' for cscw systems.
 \newblock Working paper, Roskilde University.
 
+\bibitem[Sch{\"o}n, 1984]{Schon84}
+Sch{\"o}n, D. (1984).
+\newblock {\em {The Reflective Practitioner: How Professionals Think In
+  Action}}.
+\newblock Basic Books.
+
 \bibitem[Seel, 2003]{Seel03a}
 Seel, N. (2003).
 \newblock {\em {Psychologie des Lernens}}.
@@ -1219,6 +1246,12 @@ Simone, C. und Sarini, M. (2001).
 Stachowiak, H. (1973).
 \newblock {\em {Allgemeine Modelltheorie}}.
 \newblock Springer Wien.
+
+\bibitem[Star, 1989]{Star89}
+Star, S.~L. (1989).
+\newblock The structure of ill-structured solutions: boundary objects and
+  heterogeneous distributed problem solving.
+\newblock Seiten 37--54.
 
 \bibitem[Star und Strauss, 1999]{Star99}
 Star, S.~L. und Strauss, A. (1999).

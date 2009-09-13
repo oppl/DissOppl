@@ -2,17 +2,17 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossaryentryfield{API}{\glsnamefont{\acronymfont {API}}}{Application Interface}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{251}}}%
+		\setentrycounter{page}\glsnumberformat{265}}}%
 \glossaryentryfield{AWT}{\glsnamefont{\acronymfont {AWT}}}{Abstract Window Toolkit}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{258}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{272}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossaryentryfield{CORBA}{\glsnamefont{\acronymfont {CORBA}}}{Common Object Request Broker Architecture}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter{page}\glsnumberformat{VIII}}}%
 \glossaryentryfield{CSCL}{\glsnamefont{\acronymfont {CSCL}}}{Computer Supported Cooperative Learning}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter{page}\glsnumberformat{VII}}}%
 \glossaryentryfield{CSCW}{\glsnamefont{\acronymfont {CSCW}}}{Computer Supported Cooperative Work}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{VI\delimR XI}\delimN 
-		\setentrycounter{page}\glsnumberformat{XV\delimN XVI}\delimN 
+		\setentrycounter{page}\glsnumberformat{VI\delimR XII}\delimN 
+		\setentrycounter{page}\glsnumberformat{XVI}\delimN 
 		\setentrycounter{page}\glsnumberformat{16}\delimN 
 		\setentrycounter{page}\glsnumberformat{35\delimR 38}\delimN 
 		\setentrycounter{page}\glsnumberformat{40\delimN 41}\delimN 
@@ -20,122 +20,129 @@
 		\setentrycounter{page}\glsnumberformat{45\delimN 46}\delimN 
 		\setentrycounter{page}\glsnumberformat{48}\delimN 
 		\setentrycounter{page}\glsnumberformat{50}\delimN 
-		\setentrycounter{page}\glsnumberformat{53\delimN 54}\delimN 
-		\setentrycounter{page}\glsnumberformat{56}\delimN 
-		\setentrycounter{page}\glsnumberformat{58\delimN 59}\delimN 
-		\setentrycounter{page}\glsnumberformat{294}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{53\delimR 56}\delimN 
+		\setentrycounter{page}\glsnumberformat{58}\delimN 
+		\setentrycounter{page}\glsnumberformat{60}\delimN 
+		\setentrycounter{page}\glsnumberformat{310}}}\glsgroupskip
 \glsgroupheading{E}\relax \glsresetentrylist %
 \glossaryentryfield{EAN}{\glsnamefont{\acronymfont {EAN}}}{European Article Number}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{133}}}%
+		\setentrycounter{page}\glsnumberformat{145}}}%
 \glossaryentryfield{ECA}{\glsnamefont{\acronymfont {ECA}}}{Event-Condition-Action}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter{page}\glsnumberformat{XV}\delimN 
-		\setentrycounter{page}\glsnumberformat{33\delimR 35}\delimN 
-		\setentrycounter{page}\glsnumberformat{141}}}%
+		\setentrycounter{page}\glsnumberformat{34\delimN 35}\delimN 
+		\setentrycounter{page}\glsnumberformat{153}}}%
 \glossaryentryfield{EMF}{\glsnamefont{\acronymfont {EMF}}}{Eclipse Modeling Framework}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{207\delimN 208}}}%
+		\setentrycounter{page}\glsnumberformat{221\delimN 222}}}%
 \glossaryentryfield{EPK}{\glsnamefont{\acronymfont {EPK}}}{Ereignisgesteuerte Prozesskette}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{296}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{312}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossaryentryfield{GEF}{\glsnamefont{\acronymfont {GEF}}}{Graphical Editing Framework (Eclipse-Komponente)}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{207\delimR 209}\delimN 
-		\setentrycounter{page}\glsnumberformat{229}}}%
+		\setentrycounter{page}\glsnumberformat{221\delimR 223}\delimN 
+		\setentrycounter{page}\glsnumberformat{243}}}%
 \glossaryentryfield{GIF}{\glsnamefont{\acronymfont {GIF}}}{Graphics Interchange Format}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{258}}}%
+		\setentrycounter{page}\glsnumberformat{270}}}%
 \glossaryentryfield{GMF}{\glsnamefont{\acronymfont {GMF}}}{Graphical Modeling Framework (Eclipse-Komponente)}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{207}}}%
+		\setentrycounter{page}\glsnumberformat{221}}}%
 \glossaryentryfield{GPS}{\glsnamefont{\acronymfont {GPS}}}{Global Positioning System}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{143}}}%
+		\setentrycounter{page}\glsnumberformat{155}}}%
 \glossaryentryfield{GUI}{\glsnamefont{\acronymfont {GUI}}}{Graphical User Interface}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{101}\delimN 
-		\setentrycounter{page}\glsnumberformat{106\delimN 107}\delimN 
-		\setentrycounter{page}\glsnumberformat{110}\delimN 
-		\setentrycounter{page}\glsnumberformat{119}\delimN 
-		\setentrycounter{page}\glsnumberformat{122}\delimN 
-		\setentrycounter{page}\glsnumberformat{272}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{112}\delimN 
+		\setentrycounter{page}\glsnumberformat{117\delimN 118}\delimN 
+		\setentrycounter{page}\glsnumberformat{121}\delimN 
+		\setentrycounter{page}\glsnumberformat{130}\delimN 
+		\setentrycounter{page}\glsnumberformat{133}\delimN 
+		\setentrycounter{page}\glsnumberformat{286}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
 \glossaryentryfield{HSLT}{\glsnamefont{\acronymfont {HSLT}}}{Heidelberger Strukturlegetechnik}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter{page}\glsnumberformat{77\delimN 78}\delimN 
 		\setentrycounter{page}\glsnumberformat{80}}}%
 \glossaryentryfield{HTTP}{\glsnamefont{\acronymfont {HTTP}}}{Hypertext Transfer Protocol}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{209}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{223}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossaryentryfield{IP}{\glsnamefont{\acronymfont {IP}}}{Internet Protocol}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{212}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{226}}}\glsgroupskip
 \glsgroupheading{J}\relax \glsresetentrylist %
 \glossaryentryfield{JPEG}{\glsnamefont{\acronymfont {JPEG}}}{Joint Photographic Experts Group (File Interchange Format)}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{258}}}%
+		\setentrycounter{page}\glsnumberformat{270}}}%
 \glossaryentryfield{JRE}{\glsnamefont{\acronymfont {JRE}}}{Java Runtime Environment}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{208}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{223}}}\glsgroupskip
 \glsgroupheading{L}\relax \glsresetentrylist %
 \glossaryentryfield{LCD}{\glsnamefont{\acronymfont {LCD}}}{Liquid Crystal Display (Flüssigkristallanzeige}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{199\delimR 201}\delimN 
-		\setentrycounter{page}\glsnumberformat{203}}}%
+		\setentrycounter{page}\glsnumberformat{213\delimR 215}\delimN 
+		\setentrycounter{page}\glsnumberformat{217}}}%
 \glossaryentryfield{LED}{\glsnamefont{\acronymfont {LED}}}{Light Emitting Diode (Leuchtdiode)}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{201}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{215}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{MaNET}{\glsnamefont{\acronymfont {MaNET}}}{Mannheimer Netzwerk-Elaborations-Technik}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter{page}\glsnumberformat{78}}}%
 \glossaryentryfield{MCRit}{\glsnamefont{\acronymfont {MCRit}}}{Model-Control-Representation (intangible and tangible)}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{119}\delimN 
-		\setentrycounter{page}\glsnumberformat{285}}}%
+		\setentrycounter{page}\glsnumberformat{130}\delimN 
+		\setentrycounter{page}\glsnumberformat{299}}}%
 \glossaryentryfield{MCRpd}{\glsnamefont{\acronymfont {MCRpd}}}{Model-Control-Representation (physical and digital)}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{107}\delimN 
-		\setentrycounter{page}\glsnumberformat{119}\delimN 
-		\setentrycounter{page}\glsnumberformat{272}\delimN 
-		\setentrycounter{page}\glsnumberformat{285}}}%
+		\setentrycounter{page}\glsnumberformat{118}\delimN 
+		\setentrycounter{page}\glsnumberformat{129\delimN 130}\delimN 
+		\setentrycounter{page}\glsnumberformat{286}\delimN 
+		\setentrycounter{page}\glsnumberformat{299}}}%
 \glossaryentryfield{MVC}{\glsnamefont{\acronymfont {MVC}}}{Model-View-Controller}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{106\delimN 107}\delimN 
-		\setentrycounter{page}\glsnumberformat{207}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{118}\delimN 
+		\setentrycounter{page}\glsnumberformat{222}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossaryentryfield{OCR}{\glsnamefont{\acronymfont {OCR}}}{Optical Character Recognition}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{116}}}%
+		\setentrycounter{page}\glsnumberformat{127}}}%
 \glossaryentryfield{OLED}{\glsnamefont{\acronymfont {OLED}}}{Organic Light Emitting Diode}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{201}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{215}}}%
+\glossaryentryfield{OWL}{\glsnamefont{\acronymfont {OWL}}}{Ontology Web Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{245}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{PNG}{\glsnamefont{\acronymfont {PNG}}}{Portable Network Graphics}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{258}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{270}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossaryentryfield{RDBMS}{\glsnamefont{\acronymfont {RDBMS}}}{Relationales Datenbank Management System}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{252}}}%
+		\setentrycounter{page}\glsnumberformat{266}}}%
+\glossaryentryfield{RDF}{\glsnamefont{\acronymfont {RDF}}}{Ressource Description Framework}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{245}}}%
 \glossaryentryfield{RFID}{\glsnamefont{\acronymfont {RFID}}}{Radio Frequency Identification}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{104}\delimN 
-		\setentrycounter{page}\glsnumberformat{134}\delimN 
-		\setentrycounter{page}\glsnumberformat{138}}}%
+		\setentrycounter{page}\glsnumberformat{114}\delimN 
+		\setentrycounter{page}\glsnumberformat{146}\delimN 
+		\setentrycounter{page}\glsnumberformat{150}}}%
 \glossaryentryfield{RMI}{\glsnamefont{\acronymfont {RMI}}}{Remote Methode Invocation}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{152}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{165}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glossaryentryfield{TAC}{\glsnamefont{\acronymfont {TAC}}}{Token and Constraint}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{115}\delimN 
-		\setentrycounter{page}\glsnumberformat{278}\delimN 
-		\setentrycounter{page}\glsnumberformat{280}}}%
+		\setentrycounter{page}\glsnumberformat{125\delimN 126}\delimN 
+		\setentrycounter{page}\glsnumberformat{292}\delimN 
+		\setentrycounter{page}\glsnumberformat{294\delimN 295}}}%
 \glossaryentryfield{TCP}{\glsnamefont{\acronymfont {TCP}}}{Transport Control Protocol}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{212}}}%
+		\setentrycounter{page}\glsnumberformat{226}}}%
 \glossaryentryfield{TUI}{\glsnamefont{\acronymfont {TUI}}}{Tangible User Interface}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{97}\delimN 
-		\setentrycounter{page}\glsnumberformat{99\delimR 101}\delimN 
-		\setentrycounter{page}\glsnumberformat{105\delimR 107}\delimN 
-		\setentrycounter{page}\glsnumberformat{109}\delimN 
-		\setentrycounter{page}\glsnumberformat{111\delimR 116}\delimN 
-		\setentrycounter{page}\glsnumberformat{118\delimR 126}\delimN 
-		\setentrycounter{page}\glsnumberformat{128}\delimN 
-		\setentrycounter{page}\glsnumberformat{263\delimN 264}\delimN 
-		\setentrycounter{page}\glsnumberformat{267}\delimN 
-		\setentrycounter{page}\glsnumberformat{270\delimR 273}\delimN 
-		\setentrycounter{page}\glsnumberformat{277}\delimN 
-		\setentrycounter{page}\glsnumberformat{280}\delimN 
-		\setentrycounter{page}\glsnumberformat{284\delimN 285}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{100}\delimN 
+		\setentrycounter{page}\glsnumberformat{104}\delimN 
+		\setentrycounter{page}\glsnumberformat{106}\delimN 
+		\setentrycounter{page}\glsnumberformat{108\delimN 109}\delimN 
+		\setentrycounter{page}\glsnumberformat{111\delimN 112}\delimN 
+		\setentrycounter{page}\glsnumberformat{116\delimR 118}\delimN 
+		\setentrycounter{page}\glsnumberformat{120}\delimN 
+		\setentrycounter{page}\glsnumberformat{122}\delimN 
+		\setentrycounter{page}\glsnumberformat{124\delimR 126}\delimN 
+		\setentrycounter{page}\glsnumberformat{129\delimR 137}\delimN 
+		\setentrycounter{page}\glsnumberformat{139}\delimN 
+		\setentrycounter{page}\glsnumberformat{277\delimR 279}\delimN 
+		\setentrycounter{page}\glsnumberformat{281\delimN 282}\delimN 
+		\setentrycounter{page}\glsnumberformat{284\delimR 287}\delimN 
+		\setentrycounter{page}\glsnumberformat{291}\delimN 
+		\setentrycounter{page}\glsnumberformat{294}\delimN 
+		\setentrycounter{page}\glsnumberformat{298\delimR 300}}}\glsgroupskip
 \glsgroupheading{U}\relax \glsresetentrylist %
 \glossaryentryfield{UML}{\glsnamefont{\acronymfont {UML}}}{Unified Modelling Language}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{244}\delimN 
-		\setentrycounter{page}\glsnumberformat{250}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{258}\delimN 
+		\setentrycounter{page}\glsnumberformat{264}}}\glsgroupskip
 \glsgroupheading{W}\relax \glsresetentrylist %
 \glossaryentryfield{WfMS}{\glsnamefont{\acronymfont {WfMS}}}{Workflow-Management-System}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter{page}\glsnumberformat{47\delimN 48}\delimN 
-		\setentrycounter{page}\glsnumberformat{57}}}\glsgroupskip
+		\setentrycounter{page}\glsnumberformat{58}}}\glsgroupskip
 \glsgroupheading{X}\relax \glsresetentrylist %
 \glossaryentryfield{XML}{\glsnamefont{\acronymfont {XML}}}{Extensible Markup Language}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{231}\delimN 
-		\setentrycounter{page}\glsnumberformat{252}}}%
+		\setentrycounter{page}\glsnumberformat{266}}}%
 \glossaryentryfield{XTM}{\glsnamefont{\acronymfont {XTM}}}{XML Topic Map}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{252}}}%
+		\setentrycounter{page}\glsnumberformat{266}}}%
 \end{theglossary}\glossarypostamble

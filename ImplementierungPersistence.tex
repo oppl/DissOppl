@@ -1,21 +1,15 @@
+% inhaltlich vollständig
+% todo: Redigieren
+
 \chapter{Persistierung} % (fold)
 \label{cha:persistierung}
 
-In den vorangegangen drei Kapiteln wurde die Umsetzung des eigentlichen Werkzeugs beschrieben. Neben der Unterstützung des Modellierungsvorgangs ist aber auch die persistente Speicherung der erstellten Modelle zum Zwecke der Weiterverarbeitung ein hier zu beleuchtender Aspekt. Auf die Persistierung wirken vor allem zwei der in Kapitel XY identifzierten Anforderungen ein. Zum ersten ist die Nachvollziehbarkeit des Modellierungsvorganges sicherzustellen -- dies gilt nicht nur während des Vorgangs selbst, sondern auch danach. Dementsprechend ist sämtliche Information zu persistieren, die zur Wiederherstellung nicht nur des Modells selbst sondern auch der gesamten Modellierungshistorie notwendig ist. Zum zweiten hat die Forderung nach semantischer Offenheit bei der Modellierung auch unmittelbare Auswirkungen auf die Persistierung. Neben dem Modell selbst muss aufgrund dieser Anforderung auch die Bedeutung der verwendeten Modellierungselemente miterfasst und persistiert werden, so dass diese bei der Weiterverarbeitung der Modelle verwendet werden kann.
+In den vorangegangen drei Kapiteln wurde die Umsetzung des eigentlichen Werkzeugs beschrieben. Neben der Unterstützung des Modellierungsvorgangs ist aber auch die persistente Speicherung der erstellten Modelle zum Zwecke der Weiterverarbeitung ein hier zu beleuchtender Aspekt. Auf die Persistierung wirken vor allem zwei der in Kapitel \ref{cha:anforderungen} identifzierten Anforderungen ein. Zum ersten ist die Nachvollziehbarkeit des Modellierungsvorganges sicherzustellen -- dies gilt nicht nur während des Vorgangs selbst, sondern auch danach. Dementsprechend ist sämtliche Information zu persistieren, die zur Wiederherstellung nicht nur des Modells selbst sondern auch der gesamten Modellierungshistorie notwendig ist. Zum zweiten hat die Forderung nach semantischer Offenheit bei der Modellierung auch unmittelbare Auswirkungen auf die Persistierung. Neben dem Modell selbst muss aufgrund dieser Anforderung auch die Bedeutung der verwendeten Modellierungselemente miterfasst und persistiert werden, so dass diese bei der Weiterverarbeitung der Modelle verwendet werden kann.
 
-In diesem Kapitel werden nun aufgrund der eben genannten Forderungen technologische Ansätze identifiziert, beschrieben und schließlich hinsichtlich ihrer Eignung für den konkreten Einsatz beurteilt. Der ausgewählte Ansatz wird im darauf folgenden Abschnitt konzeptionell beschrieben. Die Abbildung der Modelle und der ebenfalls zu persistierenden zusätzlichen Information in ein geeignetes Datenmodell ist Gegenstand des darauf folgenden Abschnitts. Schließlich wird die konkrete technische Umsetzung der Persistierung dargelegt und die dazu notwendigen Software-Module im Detail beschrieben.
+Die Frage nach einem für diese Anforderungen geeigneten Datenformat kann nicht ausschließlich auf Ebene der syntaktischen Strukturierung der Daten behandelt werden. Vielmehr ist es notwendig, Datenformate zu identifizieren, die explizit eine Flexibilisierung und dynamische Festlegung der Semantik der Repräsentation erlauben. Konkret bedeutet dies, das hier nicht die Codierung der Daten (z.B. in einer relationalen Datenbank, in XML oder anderen, proprietären Datenformaten) von Interesse ist, sondern Technologien betrachtet werden müssen, die konzeptionell einen Umgang mit semantisch angereicherten Daten erlauben. Aktuell dafür verfügbare Ansätze sind \gls{RDF}/\gls{OWL} sowie ISO Topic Maps. Bei \gls{RDF}/\gls{OWL} steht die Angabe von semantischen Metadaten zu einzelnen Informationseinheiten im Zentrum, die Verknüpfung der Information ist implizit in diese Metadaten codiert. Topic Maps stellen behandeln Informationseinheiten und Verknüpfungen gleichrangig und legen stärkeren Fokus auf den Vernetzungsaspekt des gesamten Modells. Sie erscheinen deshalb für die in dieser Arbeit erzeugte Art von Information besser geeignet und werden in der Folge für die Persisitierung herangezogen. Eine umfassende Darstellung sowohl von \gls{RDF}/\gls{OWL} als auch Topic Maps sowie eine tiefergehende Beschreibung der jeweiligen Vor- und Nachteile im Kontext des hier verfolgten Verwendungszwecks ist in \citep{Oppl07} verfügbar.
+
+In diesem Kapitel werden nun zu Beginn Topic Maps auf konzeptioneller Ebene beschrieben. Die Abbildung der Modelle und der ebenfalls zu persistierenden zusätzlichen Information in ein geeignetes Datenmodell ist Gegenstand des darauf folgenden Abschnitts. Schließlich wird die konkrete technische Umsetzung der Persistierung dargelegt und die dazu notwendigen Software-Infrastrukut im Detail beschrieben.
  
-\section{Möglichkeiten der Persistenzsicherung} % (fold)
-\label{sec:möglichkeiten_der_persistenzsicherung}
-
-\begin{itemize}
-	\item Serialisierung von Java-Objekten
-	\item Relationale Datenbanken
-	\item \gls{XML} Topic Maps
-\end{itemize}
-
-% section möglichkeiten_der_persistenzsicherung (end)
-
 \section{Topic Maps} % (fold)
 \label{sec:topic_maps}
 
@@ -240,7 +234,7 @@ Zur Kennzeichnung des Scopes muss zumindest ein Topic verwendet werden. Im Meta-
 \subsection{Flexibilisierung der Abbildung}
 \label{sub:flexibilisierung_der_abbildung}
 
-Wie in Kapitel XY beschrieben, ist das Meta-Modell von Modellen die im vorgestellten Ansatz entstehen, nicht im vorhinein festgelegt. Die Modellierungssprache -- also das Meta-Modell -- wird während der Modellbildung semantisch definiert und ist damit erst zur Modellierungszeit bekannt. Das Metamodell kann außerdem während der Modellierung erweitert werden, es ist auch möglich, dass sich die Bedeutung bereits existierender Meta-Modell-Elemente ändert.
+Wie in Kapitel \ref{cha:anforderungen} beschrieben, ist das Meta-Modell von Modellen die im vorgestellten Ansatz entstehen, nicht im vorhinein festgelegt. Die Modellierungssprache -- also das Meta-Modell -- wird während der Modellbildung semantisch definiert und ist damit erst zur Modellierungszeit bekannt. Das Metamodell kann außerdem während der Modellierung erweitert werden, es ist auch möglich, dass sich die Bedeutung bereits existierender Meta-Modell-Elemente ändert.
 
 Für die Persistierung bedeutet dies, dass das Meta-Modell nicht im Vorhinein sondern erst zum Zeitpunkt der Speicherung festgeschrieben werden kann. Außerdem kann die Prüfung auf semantische Korrektheit des Modells ebenfalls nur durchgeführt werden, sobald das Modell definiert ist. 
 
@@ -259,15 +253,9 @@ Die oben beschriebenen Konzepte zur Persisitierung von Modellen wurden wie die �
 
 Als Topic Map Engine bezeichnet man ein Software-Modul, mit dessen Hilfe Topic Maps verwaltet werden können und das im Normalfall auch Funktionalität zur Persistierung der Topic Map anbietet. Für den Topic Map Standard \citep{TMDM08}, der dieser Arbeit zugrunde liegt, war zum Zeitpunkt der Erstellung der Software nur eine derartige Engine vertrieben, die von Ontopia\footnote{http://www.ontopia.com} kommerziell vertrieben wird und keine offenen Schnittstellen bietet. Zu diesem Zeitpunkt noch nicht für den verwendeten Topic Map Standard verfügbar war die Open-Source-Engine TinyTIM\footnote{http://tinytim.sourceforge.net/}, die auf Basis der ebenfalls erst seit einigen Monaten verfügbaren Topic Map \gls{API} eine offene Schnittstelle zur Verwaltung von Topic Maps in Java anbietet und unterschiedliche Formate zur Persistierung und zum Import unterstützt.
 
-Für diese Arbeit wurde mangels verfübarer Alternativen eine eigene Topic Map Engine erstellt, deren Funktionalität und Aufbau hier nur kurz umrissen werden soll. Die detaillierte Beschreibung der Implementierung und die allgemeine Verwendung der Engine sind in \citep{Oppl07} beschrieben.
+Für diese Arbeit wurde mangels verfügbarer Alternativen eine eigene Topic Map Engine erstellt. Deren Funktionalität hier nur kurz umrissen werden soll. Die detaillierte Beschreibung der Implementierung und die allgemeine Verwendung der Engine sind in \citep{Oppl07} beschrieben.
 
-\subsubsection{Kernkomponenten}
-
-Die Topic Map Engine bildet die Komponenten einer Topic Map direkt auf Java Klassen ab.
-
-\subsubsection{Einführung von Domänenmodellen}
-
-\subsubsection{Schnittstelle zur Persistierung}
+Die Topic Map Engine bildet die Komponenten einer Topic Map direkt auf Java Klassen ab. Zusätzlich zu den Klassen, die Topics und Statements repräsentieren, wird eine Management-Klasse verwendet, deren Instanzen jeweils für die Verwaltung einer abgeschlossenen Topic Map zuständig sind. Diese Management-Klasse ermöglicht das Hinzufügen und Entfernen von Topics und Statements sowie die Suche nach einzelnen Topics oder definierten Teilstrukturen (z.B.: alle Topics die mittels einer bestimmten Assoziation mit einem gegebenen Topic in Beziehung stehen). Um die Suche zu beschleunigen, verwalten Management-Objekte Indizies bestimmter speziell verwendeter Topics, wie etwa Topics, die als Topic Types oder Association Types verwendet wurden.
 
 Die Topic Map Engine bietet zur Persistierung ein einfaches Interface an, über welches Topic Maps auf der Engine exportiert werden können bzw. in die Engine geladen werden. Das Interface abstrahiert dabei von der konkreten Persistierungs-Technologie und erlaubt die Einbindung unterschiedlicher Ansätze zur Speicherung von Topic Maps.
 
@@ -287,9 +275,12 @@ Zusätzlich zur Ausgabe der gesamten Topic Map ist das GraphViz-Export-Modul auc
 \subsection{Dynamische Metamodelle}
 \label{sec:dynamische_metamodelle}
 
-\subsection{Persistierung}
-% section technische_umsetzung_der_persistierung_von_modellen (end)
+Wie oben bereits beschrieben, ermöglichen Topic Maps die Einführung und Erweiterung von Meta-Modellen ohne besonders dafür ausgezeichnete Elemente. Dies ist einerseits hinsichtlich der Flexibilität der Verwendung ein Vorteil, andererseits ist die Handhabbarkeit von Topic Maps mit integrierten Metamodellen bereits auf Ebene der Softwareentwicklung nur bedingt gegeben, auf Ebene der Benutzer ist die Struktur kaum zu vermitteln.
 
+Aus diesem Grund wurde bereits in \citet{Oppl07} eine Abstraktionsschicht eingeführt, in der die Elemente des Metamodells auf Java-Klassen abgebildet wurden. Diese Klassen abstrahieren von der darunter liegenden Topic Map und zeigen zum Benutzer hin eine vom Metamodell abhängige, domänenspezifische Schnittstelle (inkludieren z.B. Methoden, die zur Verknüpfung zweier Konzepte verwendet werden können, die im Metamodell festgelegt wurden). Auch auf dieser Ebene wurde wiederum eine Management-Klasse zur Verwaltung der (nun) domänenspezifischen Modelle eingeführt.
+ 
+In der vorliegenden Arbeit ist jedoch aufgrund der dynamischen Herausbildung des Metamodells während des Modellierungsvorgangs die Verwendung von statischen Meta-Modellen bzw. deren Java-Repräsentationen nicht möglich. In \citet{Neubauer08} wurde das zugrundeliegende System deshalb so erweitert, dass eine Veränderung der Meta-Modelle zur Laufzeit vorgenommen werden kann, wobei die Änderungen direkt und unmittelbar auf die verfügbaren Java-Klassen wirken. Zu diesem Zwecke wurde eine \gls{XML}-basierte Beschreibungssprache definiert, mit der Meta-Modelle spezifiziert werden können. In einer weiteren Ausbaustufe ist angedacht, diese Repräsentation so in eine graphische Benutzungsschnittstelle zu kapseln, dass sie auch von Endanwendern benutzt werden kann. Aus diese \gls{XML}-Repräsentation werden mittels Code-Generierung Java-Klassen erzeugt, die jenen entsprechen, die in der zugrundeliegenden Implementierung die Abstraktion auf Metamodell-Elemente abbilden. Diese Klassen werden wiederum zur Laufzeit mittels einem dafür implementierten Java-Classloader geladen und stehen damit der verwendenden Applikation zur Verfügung. Die Managmentklassen wurden dementsprechend so erweitert und angepasst, dass sie mit dynamischen Metamodellen betrieben werden können und die zur Verwendung notwendige Meta-Information an höher liegende Software-Module weitergeben können.  
+% section technische_umsetzung_der_persistierung_von_modellen (end)
 
 \section{Export graphischer Repräsentationen} % (fold)
 \label{sec:export_graphischer_repräsentationen}
@@ -333,19 +324,25 @@ In der komplexesten Ausprägung der Darstellung eines Modells als graphische Rep
 \subsection{Technische Umsetzung des graphischen Exports} % (fold)
 \label{sub:technische_umsetzung_des_graphischen_exports}
 
-Zur Umsetzung des graphischen Exports wird auf die mit der Java Plattform in der Version 1.4 eingeführten Klassen zu Verarbeitung von Grafikformaen zurückgegriffen. Diese unterstützen standardmäßig gängige Grafikformate wie \gls{JPEG}, \gls{GIF} oder \gls{PNG}. Im konkreten Fall wurde ein verlustfrei komprimierendes Format gewählt, verlustbehaftete Verfahren wie \gls{JPEG} sind für die hier abzubildenden feinen Strukturen nicht geeignet, da es durch Kompressionsartefakte zu Qualitätsminderungen in der Darstellung von Details kommt.
+Zur Umsetzung des graphischen Exports wird auf die mit der Java Plattform in der Version 1.4 eingeführten Klassen zu Verarbeitung von Grafikformaten zurückgegriffen. Diese unterstützen standardmäßig gängige Grafikformate wie \gls{JPEG}, \gls{GIF} oder \gls{PNG}. Im konkreten Fall wurde ein verlustfrei komprimierendes Format gewählt, verlustbehaftete Verfahren wie \gls{JPEG} sind für die hier abzubildenden feinen Strukturen nicht geeignet, da es durch Kompressionsartefakte zu Qualitätsminderungen in der Darstellung von Details kommt.
 
 Die Ausgabe einer Datei im gewählten Grafikformat wird vollständig von der Klasse \texttt{ImageIO} übernommen. Der Schnittstellen-Methode \texttt{write} sind als Parmeter der Dateiname, das Grafikformat sowie ein Objekt der Klasse \texttt{BufferedImage} (allgemeiner: einer Klasse, die das Interface \texttt{RenderedImage} implementiert) zu übergeben, dass die eigentlichen Bilddaten enthält.
 
 Das \texttt{BufferedImage}-Objekt kann durch einen Methoden-Aufruf mit der graphischen Repräsentation einer Klasse, die von der Java \gls{AWT}-Klasse \texttt{Component} abgeleitet ist, befüllt werden. Da alle graphischen Komponenten des JHotDraw-Frameworks Subklassen eben dieser Klasse sind (inklusive der Zeichenoberfläche selbst), können diese durch einen Aufruf ihrer \texttt{paint}-Methode in ein ausreichend großes \texttt{BufferedImage} (bzw. dessen \texttt{Graphics}-Objekt) geschrieben werden.  
 
-In den aus mehr als einem Teilmodell bestehenden Ausgaben (also der Historie, der hierarchischen Darstellung der Teilmodelle oder der Kombination dieser beiden Fälle) muss das Bild aus den graphischen Repräsentationen der einzelnen Teilmodelle zusammengesetzt werden. Dazu werden (im Falle der hierarchischen Teilmodelle rekursiv) die logischen Modelle erzeugt und bereits in der korrekten linearisierten Darstellungsform in einem \texttt{Vektor} gespeichert. Die einzelnen logischen Modelle werden dann in graphische Repräsentationen umgewandelt und in je einem \texttt{BufferedImage} gespeichert. Diese werden in der Folge so zusammengesetzt, dass die horizontale und vertikale Ausdehung der Gesamtfläche minimal ist.
+In den aus mehr als einem Teilmodell bestehenden Ausgaben (also der Historie, der hierarchischen Darstellung der Teilmodelle oder der Kombination dieser beiden Fälle) muss das Bild aus den graphischen Repräsentationen der einzelnen Teilmodelle zusammengesetzt werden. Dazu werden (im Falle der hierarchischen Teilmodelle rekursiv) die logischen Modelle erzeugt und bereits in der korrekten linearisierten Darstellungsform in einem \texttt{Vektor} gespeichert. Die einzelnen logischen Modelle werden dann in graphische Repräsentationen umgewandelt und in je einem \texttt{BufferedImage} gespeichert. Diese werden in der Folge so zusammengesetzt, dass die horizontale und vertikale Ausdehnung der Gesamtfläche minimal ist.
 
 % subsection technische_umsetzung_des_graphischen_exports (end)
 % section export_graphischer_repräsentationen (end)
 
 \section{Zusammenfassung} % (fold)
 \label{sec:persistierung_zusammenfassung}
+
+In diesem Abschnitt wurde auf die Umsetzung der Forderung nach persistenter Ablage der erstellten Modelle eingegangen. Um eine vollständige Abbildung der flexibel strukturierten Information gewährleisten zu können, wurde eine auf ISO Topic Maps basierende Speicherung verwendet. Da sich deren Handhabung bereits bei wenig komplexen Modell-Strukturen als sehr aufwändig erweist, wurden zusätzlich Werkzeuge zur Generierung und Verwaltung implementiert. Diese gehen auch speziell auf die Herausforderung der dynamisch veränderliche Meta-Modelle ein und lösen diese durch den Einsatz von Codegenerierung und -deployment zur Laufzeit der Modellierungsapplikation.
+
+Zusätzlich zur der vollständigen und automatisiert weiterverarbeitbaren Repräsentation durch Topic Maps kann auch eine graphische, für Anwender erfassbare Darstellung des erstellten Modells bzw. wahlweise auch dessen Entstehungsgeschichte erstellt werden. Diese entspricht im Wesentlichen der Darstellung auf der sekundären Oberfläche und wird als Grafikdatei ausgegeben. 
+
+Mittels dieser beiden Werkzeuge ist die weitere Verarbeitbarkeit der erstellten Modelle inklusive der Entstehungsgeschichte und aller zusätzlich festgelegter semantische Information gewährleistet, während gleichzeitig eine unmittelbare Dokumentation des Modellierungsergebnisses und -prozesses für Benutzer erfassbar ausgegeben werden kann.
 
 % section persisitierung_zusammenfassung (end)
 % chapter persistierung (end)
