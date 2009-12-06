@@ -9,50 +9,50 @@ A level-1 auxiliary file: Schlussbetrachtungen.aux
 A level-1 auxiliary file: ArticulationWorkLiteratur.aux
 A level-1 auxiliary file: Bildquellen.aux
 A level-1 auxiliary file: Publikationen.aux
-Reallocated field_info (elt_size=4) to 10126 items from 5000.
+Reallocated field_info (elt_size=4) to 10214 items from 5000.
 Database file #1: /Users/oppl/Documents/Dokumente/Literatur/Archiv.bib
 Warning--there's a number but no volume in Leontev72
 Warning--empty journal in Star89
 Warning--can't use both volume and number fields in Tanenbaum09
-You've used 233 entries,
+You've used 237 entries,
             1935 wiz_defined-function locations,
-            1882 strings with 41683 characters,
-and the built_in function-call counts, 91201 in all, are:
-= -- 9094
-> -- 3154
-< -- 259
-+ -- 1054
-- -- 1004
-* -- 6877
-:= -- 15530
-add.period$ -- 772
-call.type$ -- 233
-change.case$ -- 1620
-chr.to.int$ -- 223
-cite$ -- 236
-duplicate$ -- 4059
-empty$ -- 6801
-format.name$ -- 1373
-if$ -- 18712
+            1910 strings with 42625 characters,
+and the built_in function-call counts, 93435 in all, are:
+= -- 9307
+> -- 3284
+< -- 265
++ -- 1101
+- -- 1051
+* -- 7074
+:= -- 15905
+add.period$ -- 785
+call.type$ -- 237
+change.case$ -- 1663
+chr.to.int$ -- 227
+cite$ -- 240
+duplicate$ -- 4137
+empty$ -- 6928
+format.name$ -- 1426
+if$ -- 19160
 int.to.chr$ -- 11
 int.to.str$ -- 0
-missing$ -- 220
-newline$ -- 1168
-num.names$ -- 737
-pop$ -- 1679
+missing$ -- 223
+newline$ -- 1188
+num.names$ -- 751
+pop$ -- 1718
 preamble$ -- 1
-purify$ -- 1645
+purify$ -- 1688
 quote$ -- 0
-skip$ -- 3025
+skip$ -- 3092
 stack$ -- 0
-substring$ -- 5717
-swap$ -- 781
-text.length$ -- 84
+substring$ -- 5851
+swap$ -- 807
+text.length$ -- 88
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1330
+type$ -- 1354
 warning$ -- 3
-while$ -- 716
+while$ -- 734
 width$ -- 0
-write$ -- 3083
+write$ -- 3136
 (There were 3 warnings)

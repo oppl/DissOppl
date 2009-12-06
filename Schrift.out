@@ -1,219 +1,57 @@
-\BOOKMARK [0][-]{chapter.1}{Einführung}{}
-\BOOKMARK [1][-]{section.1.1}{Forschungsfragen}{chapter.1}
-\BOOKMARK [1][-]{section.1.2}{Aufbau der Arbeit}{chapter.1}
-\BOOKMARK [1][-]{section.1.3}{Anmerkung zur wissenschaftstheoretischen Grundlage}{chapter.1}
 \BOOKMARK [-1][-]{part.1}{Grundlagen}{}
-\BOOKMARK [0][-]{chapter.2}{Articulation Work}{part.1}
-\BOOKMARK [1][-]{section.2.1}{Begriffsbestimmung}{chapter.2}
-\BOOKMARK [1][-]{section.2.2}{Ausprägungen von Articulation Work}{chapter.2}
-\BOOKMARK [2][-]{subsection.2.2.1}{Unterscheidung nach Fjuk, Smørdal und Nurminen}{section.2.2}
-\BOOKMARK [2][-]{subsection.2.2.2}{Unterscheidung nach Hampson und Junor}{section.2.2}
-\BOOKMARK [2][-]{subsection.2.2.3}{Unterscheidung nach Færgemann et al.}{section.2.2}
-\BOOKMARK [2][-]{subsection.2.2.4}{Zusammenfassung}{section.2.2}
-\BOOKMARK [1][-]{section.2.3}{Abzustimmende Arbeitsaspekte}{chapter.2}
-\BOOKMARK [1][-]{section.2.4}{Unterstützung von Articulation Work}{chapter.2}
-\BOOKMARK [2][-]{subsection.2.4.1}{Vorgehen zur detaillierten Betrachtung}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.2}{Modeling Articulation Work in Software Engineering Processes}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.3}{Taking CSCW seriously: Supporting Articulation Work}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.4}{Supporting articulation work using software configuration management systems}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.5}{Coordination Mechanisms: Towards a Conceptual Foundation of CSCW Systems Design}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.6}{Taking Articulation Work Seriously: An Activity Theoretical Approach}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.7}{TeamSpace: an environment for team articulation work and virtual meetings}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.8}{Supporting different dimensions of adaptability in workflow modeling}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.9}{Mundane knowledge management and microlevel organizational learning: An ethological approach}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.10}{Modelling Cooperative Work: Chances and Risks of Structuring}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.11}{Recursive Articulation Work in Ariadne: The Alignment of Meanings}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.12}{Combining Communication and Coordination Toward Articulation of Collaborative Activities}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.13}{Interactive Process Models}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.14}{Torres, a Conceptual Framework for Articulation Work across Boundaries}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.15}{Gegenüberstellung und Zusammenfassung}{section.2.4}
-\BOOKMARK [1][-]{section.2.5}{Thought processes und Articulation Work}{chapter.2}
-\BOOKMARK [0][-]{chapter.3}{Mentale Modelle}{part.1}
-\BOOKMARK [1][-]{section.3.1}{Articulation Work und mentale Modelle}{chapter.3}
-\BOOKMARK [1][-]{section.3.2}{Begriffsbestimmung}{chapter.3}
-\BOOKMARK [1][-]{section.3.3}{Bildung und Veränderung mentaler Modelle}{chapter.3}
-\BOOKMARK [1][-]{section.3.4}{Externalisierung mentaler Modelle}{chapter.3}
-\BOOKMARK [2][-]{subsection.3.4.1}{Methode des lauten Denkens}{section.3.4}
-\BOOKMARK [2][-]{subsection.3.4.2}{Strukturlegetechniken}{section.3.4}
-\BOOKMARK [2][-]{subsection.3.4.3}{Concept Mapping}{section.3.4}
-\BOOKMARK [1][-]{section.3.5}{Fazit}{chapter.3}
-\BOOKMARK [0][-]{chapter.4}{Methodik und Anwendungszenarien}{part.1}
-\BOOKMARK [1][-]{section.4.1}{Durchführungsrahmen}{chapter.4}
-\BOOKMARK [1][-]{section.4.2}{Vorgehen}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.2.1}{Einschulung}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.2}{Konzeptsammlung}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.3}{Konzeptstrukturierung}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.4}{Restrukturierung}{section.4.2}
-\BOOKMARK [1][-]{section.4.3}{Anwendungsszenarien}{chapter.4}
+\BOOKMARK [0][-]{chapter.1}{Mentale Modelle}{part.1}
+\BOOKMARK [1][-]{section.1.1}{Articulation Work und mentale Modelle}{chapter.1}
+\BOOKMARK [1][-]{section.1.2}{Begriffsbestimmung}{chapter.1}
+\BOOKMARK [1][-]{section.1.3}{Bildung und Veränderung mentaler Modelle}{chapter.1}
+\BOOKMARK [1][-]{section.1.4}{Externalisierung mentaler Modelle}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.4.1}{Methode des lauten Denkens}{section.1.4}
+\BOOKMARK [2][-]{subsection.1.4.2}{Strukturlegetechniken}{section.1.4}
+\BOOKMARK [2][-]{subsection.1.4.3}{Concept Mapping}{section.1.4}
+\BOOKMARK [1][-]{section.1.5}{Fazit}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Methodik und Anwendungszenarien}{part.1}
+\BOOKMARK [1][-]{section.2.1}{Durchführungsrahmen}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Vorgehen}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{Einarbeitung}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.2}{Konzeptsammlung}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.3}{Konzeptstrukturierung}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.4}{Restrukturierung}{section.2.2}
+\BOOKMARK [1][-]{section.2.3}{Anwendungsszenarien}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.3.1}{Verfeinerung mentaler Modelle}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.2}{Wissenstransfer}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.3}{Abstimmung mentaler Modelle}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.4}{Aushandlung mentaler Modelle}{section.2.3}
+\BOOKMARK [1][-]{section.2.4}{Zusammenfassung}{chapter.2}
 \BOOKMARK [-1][-]{part.2}{Unterstützung}{}
-\BOOKMARK [0][-]{chapter.5}{Anforderungen an ein Werkzeug}{part.2}
-\BOOKMARK [0][-]{chapter.6}{Grundlagen der Implementierung}{part.2}
-\BOOKMARK [1][-]{section.6.1}{Historischer Überblick}{chapter.6}
-\BOOKMARK [1][-]{section.6.2}{Lernprozesse und Tangible Interface}{chapter.6}
-\BOOKMARK [1][-]{section.6.3}{Kooperation und Tangible Interfaces}{chapter.6}
-\BOOKMARK [2][-]{subsection.6.3.1}{Intuitive und simultane Manipulierbarkeit}{section.6.3}
-\BOOKMARK [2][-]{subsection.6.3.2}{Fokus-stärkende Wirkung}{section.6.3}
-\BOOKMARK [2][-]{subsection.6.3.3}{Awareness, Gestik und performative Bedeutung der Handlungen}{section.6.3}
-\BOOKMARK [2][-]{subsection.6.3.4}{Externalisierungsfunktion und Rolle als Boundary Object}{section.6.3}
-\BOOKMARK [2][-]{subsection.6.3.5}{Implikationen}{section.6.3}
-\BOOKMARK [1][-]{section.6.4}{Konzeptualisierung und Klassifikation von Tangible Interfaces}{chapter.6}
-\BOOKMARK [2][-]{subsection.6.4.1}{Bricks}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.2}{Graspable User Interfaces}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.3}{Tangible Bits}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.4}{Containers, Tokens und Tools}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.5}{Tangible Objects Meaning}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.6}{Das MCRpd Interaktions-Modell}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.7}{Tokens und Constraints nach Ullmer}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.8}{Degree of Coherence}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.9}{Tokens und Constraints nach Shaer et al.}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.10}{Kategorien von TUI-Anwendungen}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.11}{Taxonomie für Tangible User Interfaces}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.12}{Tangible Bits: Beyond Pixels}{section.6.4}
-\BOOKMARK [2][-]{subsection.6.4.13}{Zusammenfassung}{section.6.4}
-\BOOKMARK [1][-]{section.6.5}{Tabletop Interfaces}{chapter.6}
-\BOOKMARK [2][-]{subsection.6.5.1}{Historische Entwicklung}{section.6.5}
-\BOOKMARK [1][-]{section.6.6}{Tangible Interfaces zur Erstellung diagrammatischer Modelle}{chapter.6}
-\BOOKMARK [2][-]{subsection.6.6.1}{Historische Entwicklung}{section.6.6}
-\BOOKMARK [2][-]{subsection.6.6.2}{Aktuelle verwandte Ansätze}{section.6.6}
-\BOOKMARK [1][-]{section.6.7}{Fazit}{chapter.6}
-\BOOKMARK [0][-]{chapter.7}{Eingabe und Interpretation}{part.2}
-\BOOKMARK [1][-]{section.7.1}{Möglichkeiten zur Erfassung von Benutzerinteraktion}{chapter.7}
-\BOOKMARK [2][-]{subsection.7.1.1}{In Frage kommende technologische Ansätze}{section.7.1}
-\BOOKMARK [2][-]{subsection.7.1.2}{In Frage kommende Frameworks}{section.7.1}
-\BOOKMARK [2][-]{subsection.7.1.3}{Technologieentscheidung}{section.7.1}
-\BOOKMARK [1][-]{section.7.2}{Konzeption und Umsetzung der Hardwarekomponenten}{chapter.7}
-\BOOKMARK [2][-]{subsection.7.2.1}{Überblick}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.2}{Tokens und Input-Werkzeuge}{section.7.2}
-\BOOKMARK [2][-]{subsection.7.2.3}{Eingabe auf der Tischoberfläche}{section.7.2}
-\BOOKMARK [1][-]{section.7.3}{Benutzerinteraktion mit dem Werkzeug}{chapter.7}
-\BOOKMARK [2][-]{subsection.7.3.1}{Hinzufügen und Verändern von Modellelementen}{section.7.3}
-\BOOKMARK [2][-]{subsection.7.3.2}{Benennen von Modellelementen}{section.7.3}
-\BOOKMARK [2][-]{subsection.7.3.3}{Verbinden von Modellelementen}{section.7.3}
-\BOOKMARK [2][-]{subsection.7.3.4}{Löschen von Elementen und Verbindungen}{section.7.3}
-\BOOKMARK [2][-]{subsection.7.3.5}{Einbettung von Zusatzinformation}{section.7.3}
-\BOOKMARK [2][-]{subsection.7.3.6}{Kontrolle der Modellierungshistorie}{section.7.3}
-\BOOKMARK [1][-]{section.7.4}{Erfassung der Benutzerinteraktion durch Software}{chapter.7}
-\BOOKMARK [2][-]{subsection.7.4.1}{Interpretation der Rohdaten}{section.7.4}
-\BOOKMARK [2][-]{subsection.7.4.2}{Stabilisierung der Erkennungsleistung}{section.7.4}
-\BOOKMARK [2][-]{subsection.7.4.3}{Erkennung von Markierungen und Verbindungen}{section.7.4}
-\BOOKMARK [2][-]{subsection.7.4.4}{Erkennung von geöffneten Tokens}{section.7.4}
-\BOOKMARK [2][-]{subsection.7.4.5}{Benennung von Modellelementen}{section.7.4}
-\BOOKMARK [2][-]{subsection.7.4.6}{Festlegung der Bedeutung von Modellelementen}{section.7.4}
-\BOOKMARK [2][-]{subsection.7.4.7}{Tracking des Modellzustandes}{section.7.4}
-\BOOKMARK [2][-]{subsection.7.4.8}{Verteilung des Modellzustandes}{section.7.4}
-\BOOKMARK [1][-]{section.7.5}{Zusammenfassung}{chapter.7}
-\BOOKMARK [0][-]{chapter.8}{Ausgabe}{part.2}
-\BOOKMARK [1][-]{section.8.1}{Auszugebende Information}{chapter.8}
-\BOOKMARK [1][-]{section.8.2}{Technologische Grundlage der Ausgabe}{chapter.8}
-\BOOKMARK [2][-]{subsection.8.2.1}{Ansätze zur kohärenten Ausgabe}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.2}{Ansätze zur entkoppelten Ausgabe}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.3}{Technologie-Entscheidung}{section.8.2}
-\BOOKMARK [2][-]{subsection.8.2.4}{Frameworks zur Ausgabe}{section.8.2}
-\BOOKMARK [1][-]{section.8.3}{Ausgabe von Information}{chapter.8}
-\BOOKMARK [2][-]{subsection.8.3.1}{Konzept}{section.8.3}
-\BOOKMARK [2][-]{subsection.8.3.2}{Architektur}{section.8.3}
-\BOOKMARK [2][-]{subsection.8.3.3}{Ausgabe von Information zum Modell}{section.8.3}
-\BOOKMARK [2][-]{subsection.8.3.4}{Ausgabe zur Kontrolle des Systems}{section.8.3}
-\BOOKMARK [1][-]{section.8.4}{Umsetzung der Ausgabe mit Software}{chapter.8}
-\BOOKMARK [2][-]{subsection.8.4.1}{Ausgabe des Modellzustands}{section.8.4}
-\BOOKMARK [2][-]{subsection.8.4.2}{Ausgabe der Modellierungshistorie}{section.8.4}
-\BOOKMARK [2][-]{subsection.8.4.3}{Umsetzung der Wiederherstellungsunterstützung}{section.8.4}
-\BOOKMARK [1][-]{section.8.5}{Zusammenfassung}{chapter.8}
-\BOOKMARK [0][-]{chapter.9}{Persistierung}{part.2}
-\BOOKMARK [1][-]{section.9.1}{Topic Maps}{chapter.9}
-\BOOKMARK [2][-]{subsection.9.1.1}{Topics, Subjects, Topic Names und Variants}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.2}{Associations und Roles}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.3}{Occurrences und Datatypes}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.4}{Metamodellierung in Topic Maps}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.5}{Statements und Scopes}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.6}{Reification}{section.9.1}
-\BOOKMARK [2][-]{subsection.9.1.7}{Merging}{section.9.1}
-\BOOKMARK [1][-]{section.9.2}{Abbildung von Modellen auf Topic Maps}{chapter.9}
-\BOOKMARK [2][-]{subsection.9.2.1}{Grundlegende Abbildung}{section.9.2}
-\BOOKMARK [2][-]{subsection.9.2.2}{Abbildung des Metamodells}{section.9.2}
-\BOOKMARK [2][-]{subsection.9.2.3}{Abgrenzung von Submodellen}{section.9.2}
-\BOOKMARK [2][-]{subsection.9.2.4}{Flexibilisierung der Abbildung}{section.9.2}
-\BOOKMARK [1][-]{section.9.3}{Technische Umsetzung der Persistierung von Modellen}{chapter.9}
-\BOOKMARK [2][-]{subsection.9.3.1}{Topic Map Engine}{section.9.3}
-\BOOKMARK [2][-]{subsection.9.3.2}{Dynamische Metamodelle}{section.9.3}
-\BOOKMARK [1][-]{section.9.4}{Export graphischer Repräsentationen}{chapter.9}
-\BOOKMARK [2][-]{subsection.9.4.1}{Ausgabeformen}{section.9.4}
-\BOOKMARK [2][-]{subsection.9.4.2}{Technische Umsetzung des graphischen Exports}{section.9.4}
-\BOOKMARK [1][-]{section.9.5}{Zusammenfassung}{chapter.9}
-\BOOKMARK [-1][-]{part.3}{Evaluierung}{}
-\BOOKMARK [0][-]{chapter.10}{Konzeptionelle Einordnung}{part.3}
-\BOOKMARK [1][-]{section.10.1}{Einordnung in den Bricks-Designraum}{chapter.10}
-\BOOKMARK [1][-]{section.10.2}{Bestimmung der Eigenschaften des Graspable User Interfaces Ansatz}{chapter.10}
-\BOOKMARK [1][-]{section.10.3}{Betrachtung im Lichte des Tangible Bits Ansatzes}{chapter.10}
-\BOOKMARK [1][-]{section.10.4}{Einordnung in das Ordnungssystem von Holmquist et al.}{chapter.10}
-\BOOKMARK [1][-]{section.10.5}{Einordnung in das Object-Meaning-Kontinuum}{chapter.10}
-\BOOKMARK [1][-]{section.10.6}{Betrachtung im Lichte des MCRpd-Modells}{chapter.10}
-\BOOKMARK [1][-]{section.10.7}{Einordnung in den Tokens+Constraints Kontext}{chapter.10}
-\BOOKMARK [1][-]{section.10.8}{Einordnung in das Framework nach Koleva et al.}{chapter.10}
-\BOOKMARK [1][-]{section.10.9}{Spezifikation des TAC-Schemas nach Shaer et al.}{chapter.10}
-\BOOKMARK [1][-]{section.10.10}{Einordnung in die Kategorien von TUI-Anwendungen}{chapter.10}
-\BOOKMARK [1][-]{section.10.11}{Einordnung in die Taxonomie von Fishkin}{chapter.10}
-\BOOKMARK [1][-]{section.10.12}{Betrachtung im Lichte der Retrospektive von Ishii}{chapter.10}
-\BOOKMARK [1][-]{section.10.13}{Zusammenfassung}{chapter.10}
-\BOOKMARK [2][-]{subsection.10.13.1}{Eignung der konzeptionellen Ansätze zur Beschreibung von TUIs}{section.10.13}
-\BOOKMARK [2][-]{subsection.10.13.2}{Verbesserungspotential für das Werkzeug}{section.10.13}
-\BOOKMARK [0][-]{chapter.11}{Überblick über die empirische Untersuchung}{part.3}
-\BOOKMARK [1][-]{section.11.1}{Untersuchungsaspekte}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.1.1}{Evaluierung des Werkzeugs}{section.11.1}
-\BOOKMARK [2][-]{subsection.11.1.2}{Evaluierung der Modellrepräsentationen}{section.11.1}
-\BOOKMARK [2][-]{subsection.11.1.3}{Evaluierung der Articulation Work}{section.11.1}
-\BOOKMARK [1][-]{section.11.2}{Globales Untersuchungsdesign}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.2.1}{Block 1: Technische Evaluierung}{section.11.2}
-\BOOKMARK [2][-]{subsection.11.2.2}{Block 2: Aushandlung von Zusammenarbeit 1}{section.11.2}
-\BOOKMARK [2][-]{subsection.11.2.3}{Block 3: Concept Mapping 1}{section.11.2}
-\BOOKMARK [2][-]{subsection.11.2.4}{Block 4: Aushandlung von Zusammenarbeit 2}{section.11.2}
-\BOOKMARK [2][-]{subsection.11.2.5}{Block 5: Concept Mapping 2}{section.11.2}
-\BOOKMARK [1][-]{section.11.3}{Eingesetzte Werkzeuge und Verfahren}{chapter.11}
-\BOOKMARK [2][-]{subsection.11.3.1}{Werkzeuge}{section.11.3}
-\BOOKMARK [2][-]{subsection.11.3.2}{Korrelationstests}{section.11.3}
-\BOOKMARK [2][-]{subsection.11.3.3}{Signifikanztests}{section.11.3}
-\BOOKMARK [1][-]{section.11.4}{Zusammenfassung}{chapter.11}
-\BOOKMARK [0][-]{chapter.12}{Evaluierung der Verwendbarkeit des Werkzeugs}{part.3}
-\BOOKMARK [1][-]{section.12.1}{Hypothesen}{chapter.12}
-\BOOKMARK [2][-]{subsection.12.1.1}{Konzeptionell begründete Hypothesen}{section.12.1}
-\BOOKMARK [2][-]{subsection.12.1.2}{Explorativ gebildete Hypothesen}{section.12.1}
-\BOOKMARK [1][-]{section.12.2}{Untersuchungsdesign und Durchführung}{chapter.12}
-\BOOKMARK [2][-]{subsection.12.2.1}{Operationalisierung}{section.12.2}
-\BOOKMARK [2][-]{subsection.12.2.2}{Datenbasis}{section.12.2}
-\BOOKMARK [2][-]{subsection.12.2.3}{Durchführung}{section.12.2}
-\BOOKMARK [1][-]{section.12.3}{Ergebnisse}{chapter.12}
-\BOOKMARK [2][-]{subsection.12.3.1}{Repräsentation diagrammatischer Modelle}{section.12.3}
-\BOOKMARK [2][-]{subsection.12.3.2}{Kollaboratives Arbeiten}{section.12.3}
-\BOOKMARK [2][-]{subsection.12.3.3}{Herstellung von Verbindern}{section.12.3}
-\BOOKMARK [2][-]{subsection.12.3.4}{Verwendung des Löschtokens}{section.12.3}
-\BOOKMARK [0][-]{chapter.13}{Evaluierung der erstellten Modelle}{part.3}
-\BOOKMARK [1][-]{section.13.1}{Hypothesen}{chapter.13}
-\BOOKMARK [2][-]{subsection.13.1.1}{Konzeptuell begründete Hypothesen}{section.13.1}
-\BOOKMARK [2][-]{subsection.13.1.2}{Explorativ gebildete Hypothesen}{section.13.1}
-\BOOKMARK [1][-]{section.13.2}{Untersuchungsdesign und Durchführung}{chapter.13}
-\BOOKMARK [2][-]{subsection.13.2.1}{Grundlagen}{section.13.2}
-\BOOKMARK [1][-]{section.13.3}{Ergebnisse}{chapter.13}
-\BOOKMARK [2][-]{subsection.13.3.1}{Connectedness}{section.13.3}
-\BOOKMARK [0][-]{chapter.14}{Evaluierung der durchgeführten Articulation Work}{part.3}
-\BOOKMARK [1][-]{section.14.1}{Hypothesen}{chapter.14}
-\BOOKMARK [2][-]{subsection.14.1.1}{Konzeptuell begründete Hypothesen}{section.14.1}
-\BOOKMARK [2][-]{subsection.14.1.2}{Explorativ gebildete Hypothesen}{section.14.1}
-\BOOKMARK [1][-]{section.14.2}{Untersuchungsdesign und Durchführung}{chapter.14}
-\BOOKMARK [1][-]{section.14.3}{Ergebnisse}{chapter.14}
-\BOOKMARK [0][-]{chapter.15}{Schlussbetrachtungen}{part.3}
-\BOOKMARK [1][-]{section.15.1}{Anwendungsszenarien}{chapter.15}
-\BOOKMARK [2][-]{subsection.15.1.1}{Problembeschreibung und Arbeitsabstimmung}{section.15.1}
-\BOOKMARK [2][-]{subsection.15.1.2}{Concept Mapping}{section.15.1}
-\BOOKMARK [2][-]{subsection.15.1.3}{Strukturaufstellung und Manipulation}{section.15.1}
-\BOOKMARK [-1][-]{part*.223}{Anhänge}{}
-\BOOKMARK [0][-]{appendix.A}{Literatur zum Themengebiet Articulation Work}{part*.223}
+\BOOKMARK [0][-]{chapter.3}{Persistierung}{part.2}
+\BOOKMARK [1][-]{section.3.1}{Topic Maps}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.1.1}{Topics, Subjects, Topic Names und Variants}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.2}{Associations und Roles}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.3}{Occurrences und Datatypes}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.4}{Metamodellierung in Topic Maps}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.5}{Statements und Scopes}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.6}{Reification}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.7}{Merging}{section.3.1}
+\BOOKMARK [1][-]{section.3.2}{Abbildung von Modellen auf Topic Maps}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{Grundlegende Abbildung}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.2}{Abbildung des Metamodells}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.3}{Abgrenzung von Submodellen}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.4}{Flexibilisierung der Abbildung}{section.3.2}
+\BOOKMARK [1][-]{section.3.3}{Technische Umsetzung der Persistierung von Modellen}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.3.1}{Topic Map Engine}{section.3.3}
+\BOOKMARK [2][-]{subsection.3.3.2}{Dynamische Metamodelle}{section.3.3}
+\BOOKMARK [1][-]{section.3.4}{Export graphischer Repräsentationen}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.4.1}{Ausgabeformen}{section.3.4}
+\BOOKMARK [2][-]{subsection.3.4.2}{Technische Umsetzung des graphischen Exports}{section.3.4}
+\BOOKMARK [1][-]{section.3.5}{Zusammenfassung}{chapter.3}
+\BOOKMARK [-1][-]{part*.20}{Anhänge}{}
+\BOOKMARK [0][-]{appendix.A}{Literatur zum Themengebiet Articulation Work}{part*.20}
 \BOOKMARK [1][-]{section.A.1}{Literaturquellen}{appendix.A}
 \BOOKMARK [1][-]{section.A.2}{Relevante Literatur}{appendix.A}
-\BOOKMARK [-1][-]{part*.224}{Verzeichnisse}{}
-\BOOKMARK [0][-]{section*.225}{Abbildungsverzeichnis}{part*.224}
-\BOOKMARK [0][-]{appendix*.226}{Tabellenverzeichnis}{part*.224}
-\BOOKMARK [0][-]{appendix*.227}{Stichwortverzeichnis}{part*.224}
-\BOOKMARK [0][-]{appendix*.227}{Abkürzungsverzeichnis}{part*.224}
-\BOOKMARK [0][-]{table.A.1}{Bildquellen}{part*.224}
-\BOOKMARK [0][-]{appendix*.230}{Publikationen im Kontext dieser Arbeit}{part*.224}
-\BOOKMARK [0][-]{appendix*.232}{Literaturverzeichnis}{part*.224}
+\BOOKMARK [-1][-]{part*.21}{Verzeichnisse}{}
+\BOOKMARK [0][-]{section*.22}{Abbildungsverzeichnis}{part*.21}
+\BOOKMARK [0][-]{appendix*.23}{Tabellenverzeichnis}{part*.21}
+\BOOKMARK [0][-]{appendix*.24}{Stichwortverzeichnis}{part*.21}
+\BOOKMARK [0][-]{appendix*.24}{Abkürzungsverzeichnis}{part*.21}
+\BOOKMARK [0][-]{table.A.1}{Bildquellen}{part*.21}
+\BOOKMARK [0][-]{appendix*.27}{Publikationen im Kontext dieser Arbeit}{part*.21}
+\BOOKMARK [0][-]{appendix*.29}{Literaturverzeichnis}{part*.21}

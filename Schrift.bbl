@@ -11,6 +11,11 @@ Abecker, A., Bernardi, A., Hinkelmann, K., K{\"u}hn, O., und Sintek, M. (1998).
 \newblock Technical Manual V6.2.0, Allied Vision Technologies GmbH, Stadtroda,
   Germany.
 
+\bibitem[Argyris, 1976]{Argyris76}
+Argyris, C. (1976).
+\newblock {Single-loop and double-loop models in research on decision making}.
+\newblock {\em Administrative Science Quarterly}, Seiten 363--375.
+
 \bibitem[Argyris und Sch{\"o}n, 1978]{Argyris78}
 Argyris, C. und Sch{\"o}n, D. (1978).
 \newblock {\em Organizational Learning: A Theory Of Action Perspective}.
@@ -83,12 +88,6 @@ Berg, M. und Timmermans, S. (2000).
 \newblock Order and their others: On the constitution of universalities in
   medical work.
 \newblock {\em Configurations}, 8(1):31--61.
-
-\bibitem[Blackwell et~al., 2007]{Blackwell07}
-Blackwell, A., Morrison, C., und Edge, D. (2007).
-\newblock {A solid diagram metaphor for tangible interaction}.
-\newblock In {\em CHI '07 extended abstracts on Human factors in computing
-  systems}, New York, NY, USA. ACM.
 
 \bibitem[Bloks, 1996]{Bloks96}
 Bloks, R. H.~J. (1996).
@@ -680,10 +679,18 @@ Klemmer, S., Li, J., Lin, J., und Landay, J. (2004).
 \newblock {\em CHI Letters, Human Factors in Computing Systems: CHI2004.},
   6(1).
 
+\bibitem[Klemmer et~al., 2001]{Klemmer01}
+Klemmer, S., Newman, M., Farrell, R., Bilezikjian, M., und Landay, J. (2001).
+\newblock {The designers' outpost: a tangible interface for collaborative web
+  site}.
+\newblock In {\em Proceedings of the 14th annual ACM symposium on User
+  interface software and technology}, Seiten 1--10. ACM Press New York, NY,
+  USA.
+
 \bibitem[Klemmer et~al., 2002]{Klemmer02}
 Klemmer, S., Thomsen, M., Phelps-Goodman, E., Lee, R., und Landay, J. (2002).
 \newblock Where do web sites come from? capturing and interacting with design
-  history. chi 2002.
+  history.
 \newblock {\em Human Factors in Computing Systems, CHI Letters}, 4(1).
 
 \bibitem[Kling und Star, 1998]{Kling98}
@@ -799,6 +806,13 @@ Moore, B., Dean, D., Gerber, A., Wagenknecht, G., und Vanderheyden, P. (2004).
 \newblock {Eclipse Development using the Graphical Editing Framework and the
   Eclipse Modeling Framework}.
 \newblock Ibm redbooks, IBM.
+
+\bibitem[Mori et~al., 2004]{Mori04}
+Mori, R., Toda, N., Wada, Y., Ogawa, T., Kenmotsu, A., Nakamura, M., Eguchi,
+  M., Yamamoto, T., Kobayashi, K., Narita, A., Hirano, M., Nakanishi, H.,
+  Tanaka, K., Kase, I., und Ishii, H. (2004).
+\newblock Tangible business process analyzer.
+\newblock project description.
 
 \bibitem[Nardi und Kaptelinin, 2006]{Nardi06}
 Nardi, B. und Kaptelinin, V. (2006).
@@ -930,6 +944,13 @@ Oppl, S., Stary, C., und Auinger, A. (2006).
 \newblock {Towards Tangible Work Modeling}.
 \newblock In {\em Proceedings of Mensch und Computer 2006}, Seiten 400--405.
   Oldenburg Wissenschaftsverlag.
+
+\bibitem[Oppl und Weichhart, 2005]{Oppl05}
+Oppl, S. und Weichhart, G. (2005).
+\newblock {Requirements for Collaborative Process Design}.
+\newblock In Auinger, A., editor, {\em Workshop-Proceedings der 5.
+  fachuebergreifenden Konferenz Mensch und Computer 2005}, volume 197 of {\em
+  books@ocg.at}, Seiten 15--22. OCG.
 
 \bibitem[Papert, 2000]{Papert00}
 Papert, S. (2000).
@@ -1389,6 +1410,11 @@ Weiser, M. (1991).
 Wellner, P. (1993).
 \newblock {Interacting with paper on the DigitalDesk}.
 \newblock {\em Communications of the ACM}, 36:87--96.
+
+\bibitem[Wellner et~al., 1993]{Wellner93}
+Wellner, P., Mackay, W., und Gold, R. (1993).
+\newblock Computer-augmented environments. back to the real world.
+\newblock {\em Communications of the ACM}, 36(7):24--26.
 
 \bibitem[Wenger, 1998]{Wenger98}
 Wenger, E. (1998).

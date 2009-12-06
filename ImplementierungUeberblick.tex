@@ -709,59 +709,143 @@ Die hier vorgestellten Ansätze werden nach der Beschreibung des Werkzeugs in Ka
 \section{Tabletop Interfaces} % (fold)
 \label{sec:tabletop_interfaces}
 
-Tabletop Interfaces sind Benutzungsschnittstellen, bei denen die Interaktion mit einem Computersystem über eine (im Allgemeinen horizontal angebrachte) Tischplatte durchgeführt wird. Tabletop Interfaces sind nicht als echte Untermenge von Tangible Interfaces zu sehen. Systeme, bei denen die Interaktion mittels direkter Berührung der Oberfläche mit den Händen („Touch-“ bzw. „Multitouch“-Systeme) durchgeführt wird, werden ebenfalls zu den Tabletop Interfaces gezählt, sind aber aufgrund der fehlenden physischen Repräsentationsaspekt des Systemzustandes nicht als unbedingt als Tangible Interface zu klassifizieren.
+Tabletop Interfaces sind Benutzungsschnittstellen, bei denen die Interaktion mit einem Computersystem über eine (im Allgemeinen horizontal angebrachte) Tischplatte durchgeführt wird. Tabletop Interfaces sind nicht als echte Untermenge von Tangible Interfaces zu sehen. Systeme, bei denen die Interaktion mittels direkter Berührung der Oberfläche mit den Händen („Touch-“ bzw. „Multitouch“-Systeme) durchgeführt wird, werden ebenfalls zu den Tabletop Interfaces gezählt, sind aber aufgrund des fehlenden physischen Repräsentationsaspekts des Systemzustandes nicht als unbedingt als Tangible Interface zu klassifizieren.
 
-
+Im Sinne einer Aufarbeitung der „Related Work“ beschränkt sich diese Arbeit hier auf jene Systeme, die historisch für die Entwicklung des Feldes der „Tangible Tabletop Interfaces“ wichtig waren bzw. sind und jene Arbeiten, in denen inhaltlich ähnliche Zielsetzungen wie in dieser Arbeit verfolgt wurden, auch wenn das zugrunde liegende Tabletop Interface keine „tangiblen“ Aspekte aufweist.
 
 \subsection{Historische Entwicklung} % (fold)
 \label{sub:historische_entwicklung_von_tabletop_interfaces}
 
-\subsubsection{Sensetable} % (fold)
-\label{subs:sensetable}
-Der Sensetable \citep{Patten01}
+Tabletop Interfaces wurden erstmals von \citet{Wellner93a} beschrieben, der damit gemäß der Vision „back to the real world“ \citet{Wellner93} beabsichtigte, die Trennung zwischen der realen Welt und dem digitalen Inforamtionsraum zu beseitigen und eine nahtlose, natürliche Interatkion mit Computersystemen zu ermöglichen. Im Bereich der Tangible Interfaces wurde bereits mit der Einführung des Begriffs von \citet{Ishii97} die Geräteklasse der „Interactive Surfaces“ identifiziert, in die Systeme eingeordnet wurden, die eine mit digitaler Information angereicherte physische Oberfläche als Ausgabemedium verwenden, auf der zur Eingabe physische Objekt manipuliert werden. Diese Klasse von Systemen ist nicht auf Tische eingeschränkt, sondern umfasst z.B. auch digital augmentierte Wände. Das MetaDESK-System, das in der gleichen Arbeit als Beispiel für Interactive Surfaces vorgestellt wird, kann als das erste in der Literatur beschriebene Tangible Tabletop Interface bezeichnet werden. 
+
+Frühere Arbeiten, wie die von \citet{Fitzmaurice96} beschriebenen „Bricks“, setzten zur Interaktion physische Bausteine ein, die lediglich einen Bezug zueinander aufweisen, aber keine gemeinsame Oberfläche als Referenzrahmen benötigen und verwenden ("relational interfaces" im Sinne von \citet{Ullmer00}). Fasst man den Begriff der Interactive Surfaces nach \citet{Ishii97} eng, so fallen derartige Systeme aufgrund des fehlenden gemeinsamen physischen Referenzrahmens nicht in diese Klasse. In jenen Fällen, in denen trotzdem ein räumlich entsprechend begrenztes physisches „Trägermedium“ benötigt wird (also eine klassische, nicht digital augmentierte Tischoberfläche zur Anordnung der Elemente des Interfaces eingesetzt wird), kann trotzdem von einem „Tangible Tabletop Interface“ gesprochen werden.
+
+\subsubsection{Anfänge} % (fold)
+\label{subs:anfaenge}
+
+Das Sensetable-System \citep{Patten01} ist die erste in der Literatur beschriebene „Interactive Surface“ Plattform, die breit in unterschiedlichen Anwendungsszenarien eingesetzt wurde. Es steht inhaltlich in der Tradition des MetaDESK-Systems \citep{Ishii97} und basiert technologisch auf eine Tischoberfläche, auf die von oben projiziert wird und mit der mittels auf die Oberfläche aufgesetzten „Pucks“ interagiert werden kann. Die Feststellung der Position der „Pucks“ erfolgt mittels einem magnetischem Positionierungssystem. Die Positionsbestimmung auch mehrerer Objekte gleichzeitig kann damit quasi verzögerungsfrei und mit einer Genauigkeit im mm-Bereich durchgeführt werden.
+
 % subsubsection sensetable (end)
 
 \subsubsection{BUILD-IT} % (fold)
 \label{par:build_it}
 \citep{Fjeld01}
 % subsubsection build_it (end)
+% subsection historische_entwicklung_von_tabletop_interfaces (end)
+
+\subsection{Aktuelle Plattformen} % (fold)
+\label{sub:aktuelle_plattformen}
+Mit dem stärker werdenden Forschungsinteresse im Bereich der Tabletop Interfaces und dem zunehmenden kommerziellen Interesse ist in den letzten Jahren die zunehmende Verfügbarkeit von Applikationsplattformen für Tabletop Interfaces zu beobachten, die sowohl einen definierten Satz von Hardware-Funktionalität (also dem eigentlichen Tabletop Interface) als auch eine Programmierschnittstelle für die Entwicklung eigener Applikationen mit sich bringt. Mit Stand von Ende 2009 werden in der aktuellen Forschung vor allem drei Lösungen eingesetzt, von denen zwei auch die Hardware kommerziell vertreiben und eine lediglich die Software und Bauanleitungen für das Tabletop Interface anbietet. Absehbar ist hier die weitere Diversifizierung des Angebots, wobei auf die neueren Anbieter an dieser Stelle jedoch nicht weiter eingegangen wird.
 
 \subsubsection{ReacTable} % (fold)
 \label{ssub:reactable}
-ReacTable \citep{Kaltenbrunner06}
+
+Der ReacTable \citep{Kaltenbrunner06} ist ein auf einem Tangible Tabletop Interface beruhendes kooperatives Musikinstrument, dessen Hardwarekomponente und Software-Schnittstelle zur visuellen Identifikation von Objekten auf der Oberfläche generisch einsetzbar sind. Die Hardware des ReacTable besteht aus einem Tisch, dessen Oberfläche semitransparent ausgeführt ist. Die Objekte werden durch auf deren Unterseite angebrachten visuellen Markern identifiziert. Zugleich wird von der Unterseite mittels einem Projektor zusätzliche Information auf die Oberfläche projiziert.
+
+Die zur Objektidentifikation verwendeten Marker sind proprietär und bilden einen eindeutigen Code ab, der softwareseitig das ensprechende Element identifiziert. Die Anzahl der Marker ist erweiterbar, wobei deren Form frei gewählt werden kann. Zusätzlich zu Identifikation von Elementen kann die Software auch Fingerberührungen visuell erkennen, wodurch die Oberfläche multi-touch-fähig wird.
+
+Die Software ist plattformübergreifend für Windows, Mac OS X und Linux als Open Source Software verfügbar. Die Analyse des Kamerabilds erfolgt in Quasi-Echtzeit mit 15 bis 20 Bildern pro Sekunde (abhängig vom eingesetzten Rechner). Die Information für auf der Oberfläche erkannte Elemente oder Finger wird über das proprietäre aber mittlerweile auch von anderen Anbietern eingesetzte TUIO-Protokoll über einen \gls{UDP}-Port ausgegeben und kann so von beliebigen Clients übernommen und verarbeitet werden. In den Softwarepaketen sind vorgefertigte Clients für die Programmiersprachen C und Java enthalten.
 
 % subsubsection reactable (end)
 
 \subsubsection{Microsoft Surface} % (fold)
 \label{ssub:microsoft_surface}
 
+Die Microsoft Surface\footnote{http://www.microsoft.com/surface/} ist ein kommerzielles Produkt, dass als Paket von Hard- und Software von Microsoft vertrieben wird. Die Hardwarekomponente stellt sich als ein in sich abgeschlossenes System ohne vorgesehene Manipulationsmöglichkeit der Benutzer oder Entwickler dar. Sie besteht dabei aus einer Tischoberfläche, die semitransparent ausgeführt ist und von unten projiziert wird. Die Erfassung von Benutzerinteraktion erfolgt visuell mittels unter der Oberfläche installierten Kameras. Der Fokus liegt dabei auf der Identifikation von Berührungen mit einem oder mehreren Fingern bzw. durch eine oder mehrere Personen. Zusätzlich können Objekte durch ihren Umriss oder durch proprietäre visuelle Codes identifiziert werden. Die Identifikation erfolgt dabei in Quasi-Echtzeit mit mehreren Bildern pro Sekunde (exakte Werte unbekannt). Der Tisch selbst ist in Form und Bauhöhe eher als Besprechungs- bzw. Bartisch denn als Arbeitstisch ausgeführt.
+
+Softwareseitig kommt ein modifizierte bzw. erweitere Version von Windows Vista zum Einsatz. Die Microsoft Surface bietet neben einer Reihe von vorinstallierten Anwendungen auch die Möglichkeit, mittels einem \gls{API} auf die Information der Oberfläche identifizierten Objekte und Finger zuzugreifen und diese in eigenen Anwendungen zu verarbeiten. Diese Anwendungen müssen auf Microsoft's .NET-Framework basieren, um an das \gls{API} angebunden werden zu können. 
+
 % subsubsection microsoft_surface (end)
 
-% subsection historische_entwicklung_von_tabletop_interfaces (end)
+\subsubsection{DiamondTouch} % (fold)
+\label{ssub:diamond_touch}
+
+Der DiamondTouch \citep{Dietz01} ist ein Projekt von den Mitsubishi Research Labs\footnote{http://www.merl.com/projects/DiamondTouch/}, dass mittlerweile kommerziell von dem Unternehmen Circle Twelve\footnote{http://www.circletwelve.com/} vertrieben wird. Im Gegensatz zu den anderen beiden vorgestellten Ansätzen setzt der DiamondTouch kein visuelles Identifikationverfahren ein, sondern verwendet ein auf kapazitiver Erkennung basierendes Verfahren, dass durch seine Ausführung nicht nur die Identifikation mehrerer gleichzeitiger Berührungen sondern auch die eindeutige Identifikation von Benutzern (auch über die Zeit bei nicht ununterbrochener Berührung) ermöglicht. Das System unterstützt jedoch keine Identifkation von Objekten, es können lediglich Berührungen identifiziert werden. Die Hardwareausführung ähnelt jener der Microsoft Surface, allerdings wird im Gegensatz zu den anderen beiden Lösungen von oben auf die Oberfläche projiziert. Um eine eindeutige Identifikation der handelnden Personen gewährleisten zu können, müssen diese außerdem auf je einem von bis zu vier an dem System angeschlossenen Stühlen sitzen.
+
+Die Identifikations-Software arbeitet unter Windows oder Linux und liefert über ein \gls{API} die Berührungsinformation an eine vom Entwickler zu erstellende Applikation. Das \gls{API} kann dabei aus unterschiedlichen gängigen Programmiersprachen (wie C++, Java oder Adobe Flash) angesprochen werden.
+
+% subsubsection diamond_touch (end)
+% subsection aktuelle_plattformen (end)
 % section tabletop_interface (end)
 
 \section{Tangible Interfaces zur Erstellung diagrammatischer Modelle} % (fold)
 \label{sub:tangible_interfaces_zur_modellbildung}
-\citep{Blackwell07}
+
+In diesem Abschnitt werden Systeme beschrieben, die sich der Erstellung diagrammatischer Modelle auf tischbasierten Benutzungsschnittstellen widmen, also ein zu dieser Arbeit verwandtes Werkzeug mit verwandter Technologie umsetzen. Die eigentliche Zielsetzung unterscheidet sich im Einzelfall, die Verwandtschaft beschränkt sich auf die Unterstützung im Vorgang der Modellbildung.
+
+Nicht betrachtet werden hier Systeme, die sich zwar mit Modellbindung im weiteren Sinne beschäftigen, deren Betrachtungsgegenstand aber nicht diagrammatische Modelle sind. Derartige Systeme haben oft den Anspruch, die Modellbildung weniger abstrakt zu gestalten und vor allem die Modellverwendung durch Simulationen an das Verhalten des dargestellten Phänomens in der realen Welt anzunähern. Ein klassisches Beispiel ist hier Urp \citep{Underkoffler99}, ein Stadtplanungssystem, bei dem Objekte, die Gebäude repräsentieren, maßstabsgetreu auf einer Oberfläche platziert werden können. Je nach ausgeführter Simulation können in Echtzeit die Lichtverhältnisse bei Sonneneinstrahlung oder die Luftströmungen im arrangierten Gebäude-Ensemble verfolgt werden. Systeme dieser Klasse beschäftigen mit anderen Aspekten von Modellbildung und vernachlässigen explizite Repräsentation der konzeptuellen Beziehungen zwischen Modellelementen. Sie sind deshalb nicht als verwandte Arbeiten zu klassifizieren.
+
+Im ersten Unterabschnitt werden Systeme betrachtet, die sich historisch mit der Thematik der Modellierung mittels Tangible (Tabletop) Interfaces beschäftigen. Der zweiter Unterabschnitt stellt zwei Arbeiten vor, die parallel zur vorliegenden Arbeit entwickelt wurden und sich so wie diese mit den konkreten Modellierungsaufgaben im Rahmen von Concept Mapping beschäftigen, das, wie in Kapitel \ref{cha:methodik} beschrieben, auch eine methodische Grundlage dieser Arbeit darstellt. 
 
 \subsection{Historische Entwicklung} % (fold)
 \label{sub:historische_entwicklung}
 
-\begin{itemize}
-	\item Sensetable Modeling Application
-	\item Designer's Outpost (Klemmer)
-\end{itemize}
+Die Unterstützung der Bildung von diagrammatischen Modellen mittels Tangible Interfaces wird seit der Jahrtausendwende in der Literatur behandelt. Tatsächlich sind jedoch nur drei Arbeiten zu identifizieren, die sich mit der Bildung diagrammatischer Modelle beschäftigen und in der Literatur so ausführlich beschrieben sind, dass eine Berücksichtigung an dieser Stelle möglich ist. Zu diesen Arbeiten existieren jeweils mehrere Publikationen, als Referenz wurde hier jeweils jene Publikation herangezogen, in der das System am ausführlichsten dokumentiert ist.
 
+\subsubsection{Tangible Business Process Analyser} % (fold)
+\label{ssub:tangible_business_process_analyser}
+
+Historisch wurde der Anwendungsfall der Modellbildung mit Tangible Interfaces bereits auf der ersten funktionsfähigen „Interactive Surface“, dem Sensetable \citep{Patten01}, umgesetzt. Der „Tangible Business Process Analyser“ \citep{Mori04} ist eine Anwendung, die auf Basis des Sensetable implementiert wurde und dazu dient, Workflows zu modellieren, deren Parameter einzustellen und in der Folge die Ergebnisse einer Simulation zu visualisieren. Das Modell selbst hat dabei keine physische Ausprägung sondern wird lediglich projiziert. Wie in vielen Systemen aus dieser Generation von Tangible Tabletop Interfaces (z.B. auch \citep{Fitzmaurice95}) werden auch in dieser Arbeit nur die Manipulations-Werkzeuge selbst physisch ausgeführt. Die Repräsentation der Information (hier: das Modell) verbleibt digital und wird z.B. durch Projektion auf die Tischoberfläche dargestellt. Die Manipulation der Modellelemente selbst sowie der zur Simulation notwendigen Parameter wird durch Einsatz der „Pucks“ des Sensetable-Systems durchgeführt.
+% subsubsection tangible_business_process_analyser (end)
+
+\subsubsection{Designer's Outpost} % (fold)
+\label{ssub:designer_s_outpost}
+
+Ein Werkzeug zur kooperativen konzeptionellen Planung von Websites ist der „Designer's Outpost“ \citep{Klemmer01}. Dabei handelt es sich streng genommen nicht um ein Tabletop Interface, da die interaktive Oberfläche vertikal angebracht ist. Die sonstigen technischen und inhaltlichen Eigenschaften sind jedoch jenen des hier vorgestellten Systems so ähnlich, dass eine Betrachtung im Rahmen der verwandten Arbeiten angemessen erscheint. 
+
+Das „Designer's Outpost“-System ermöglicht es, die Seiten einer Website als Knoten eines Modells auf der interaktiven Oberfläche abzubilden. Dazu werden physisch Haftnotizen beschriftet und platziert. Diese können durch eine Erfassung mittels einer Kamera auch „virtualisiert“ werden. Virtualisierte Haftnotizen ermöglichen in der Folge auch das über mehrere Standorte verteilte Modellieren. Links zwischen den Seiten einer Website können als Beziehungen zwischen den Haftnotizen dargestellt werden. Diese Beziehungen werden mit einem stiftartigen Werkzeug auf die Oberfläche „gezeichnet“ und bleiben auch erhalten, wenn die Haftnotizen anders platziert werden. Zum Entfernen einer Beziehung wird ein „Radiergummi“ verwendet, mit dem diese „ausradiert“ werden kann.
+
+Als wesentlich für die Nachvollziehbarkeit der erstellten Website-Struktur bezeichnen \citet{Klemmer02} deren Erstellungsgeschichte. Sie unterstützen mit ihrem Werkzeug also die Verfolgung und den Abruf der Entstehungshistorie eines Modells. Durch die Visualisierbarkeit unterschiedlicher Entwicklungszweige ist auch die Vergleichbarkeit sequentiell entwickelter Modellvarianten möglich. 
+
+% subsubsection designer_s_outpost (end)
+
+\subsubsection{Digital Montessori-inspired Manipulatives} % (fold)
+\label{ssub:digital_montessori_inspired_manipulatives}
+
+Die Entwicklung der „Digital Montessori-inspired Manipulatives“ \citep{Zuckerman05} basiert auf den pädagogischen Ansätzen von Maria Montessori \citep{Montessori05}. Die Autoren beschreiben ein System zur Erschließung physikalischer Zusammenhänge (z.B. Regelkreise) mittels konzeptioneller Modelle, die durch die physische Anordnung und Zusammenschaltung von funktionalen Bausteinen erzeugt werden. Entsprechend der Prinzipien von Montessori wird vor allem die physische Unmittelbarkeit der Modellrepräsentation als nützlich für den angestrebten Lernerfolg gesehen. Ein zweiter wesentlicher Aspekt ist die Möglichkeit zur Selbstkontrolle, d.h. der eigenständigen Überprüfbarkeit der Wirkung der modellierten physikalischen Zusammenhänge. Dazu wird durch das System auf Basis des erstellten Modells eine Simulation durchgeführt und deren Ergebnisse direkt auf den Bausteinen visualisiert. Zum Einsatz kommen dabei Miniatur-Displays bzw. Leuchdioden, die in den Bausteinen integriert sind. Die Struktur des Modells wird aus der Leitfähigkeit der physischen Verbinder zwischen den Bausteinen extrahiert. 
+
+Es ist somit weder externe Infrastruktur zur Erhebung der Modellparameter noch zur Visualisierung von zusätzlicher Information notwendig. Dementsprechend muss die Oberfläche, auf der modelliert wird, keine speziellen Eigenschaften aufweisen oder mit Sensoren und Aktuatoren angereichert werden. Die Klassifikation als „Tabletop Interface“ bezieht sich deshalb hier alleine auf den Nutzungskontext, nicht aber auf die technischen Eigenschaften des Werkzeugs. 
+
+% subsubsection digital_montessori_inspired_manipulatives (end)
 % subsection historische_entwicklung (end)
 
 \subsection{Aktuelle verwandte Ansätze} % (fold)
 \label{sub:aktuelle_verwandte_ansätze}
 
+In der aktuellen Literatur sind zwei Ansätze beschrieben, die so wie das vorliegende System ein Tabletop Interface verwenden, um semantisch offene diagrammatische Modelle in der Form von „Concept Maps“ abzubilden. Diese beiden Arbeiten werden im Folgenden kurz beschrieben und hinsichtlich ihrer technischen Umsetzung betrachtet.
+
+\subsubsection{A Tangible Approach to Concept Mapping} % (fold)
+\label{ssub:a_tangible_approach_to_concept_mapping}
+
+\citet{Tanenbaum09} schlagen ein System vor, mit dem Concept Maps im Lehr- und Lernkontext erstellt werden können. Sie bedienen sich dazu eines Tabletop Interfaces, bei dem die Concept Map vollständig digital von unten auf die Tischoberfläche projiziert wird. „Vollständig digital“ bedeutet hier, dass sowohl die Knoten der Concept Map als auch deren Kanten und sämtliche Beschriftungen digital dargestellt werden und nicht physisch auf der Oberfläche vorhanden sind.
+
+Die Manipulation der Objekte erfolgt mittels „Pucks“ (Auswahlelemente im Sinne des „Sensetable“-Systems), mit Hilfe derer die Elemente der Concept Map erzeugt und verschoben und gelöscht werden können. Technisch kommt dazu das ReacTIVision-System des ReacTable (vgl. Abschnitt \ref{ssub:reactable}) zum Einsatz. Auf der Unterseite der „Pucks“ sind die visuellen Codes des ReacTIVision-Systems angebracht, die von unten mit einer Kamera erfasst werden.
+
+Die Autoren beschreiben eine Reihe von während der Evaluierung aufgetretenen Phänomenen, deren Berücksichtigung bei der Konzeption des hier behandelten Systems sinnvoll erscheint:
 \begin{itemize}
-	\item \citep{Tanenbaum09}
-	\item \citep{Do-Lenh09}
+	\item Die Erkennung der „Pucks“ war instabil (zu kleine Codes), dadurch traten Probleme beim Verschieben von Knoten aus (diese wurden „verloren“).
+	\item Die Oberfläche wurde als zu klein wahrgenommen, um sinnvoll eine Concept Map abbilden zu können (max. 6-7 Knoten auf der Oberfläche möglich).
+	\item Das Herstellen von Verbindern durch Zusammenführen zweier „Pucks“, die jeweils ein Element tragen, erscheint in der Benutzung verständlich und leicht erlernbar zu sein.
+	\item Das vorliegende System unterstützt lediglich ungerichtete Verbindungen. Benutzer benötigen jedoch gerichtete und ungerichtete Verbindungen, um alle sinnvollen Beziehungen in der Concept Map eindeutig darstellen zu können.
+	\item Das vorliegende System arbeitet mit fest vorgegebenen Knoten und Kanten, die jedoch frei angeordnet und assoziiert werden können. Die festen Vorgaben wurden jedoch von den Benutzern als zu einschränkend wahrgenommen.
 \end{itemize}
 
+% subsubsection a_tangible_approach_to_concept_mapping (end)
+
+\subsubsection{Multi-finger interactions with papers on augmented tabletops} % (fold)
+\label{ssub:multi_finger_interactions_with_papers_on_augmented_tabletops}
+
+\citet{Do-Lenh09} setzen ihre Anwendung ebenfalls im Zusammenhang mit der Unterstützung von Lehr- und Lernprozessen ein. Sie verwenden dazu ein portables System, dass die Erstellung von Concept Maps auf beliebigen ebenen Oberfläche ermöglicht. Die Knoten der Concept Map werden dabei durch Kärtchen symbolisiert, die mit zweidimensionalen Barcodes versehen sind, um deren Position erkennen zu können. Die Positionserkennung wird mittels einer auf einem Galgen montierten Kamera vorgenommen. Verbindungen werden ausschließlich projiziert, wozu ein neben der Kamera montierter Projektor verwendet wird. Zur Informationseingabe können die Knoten-Kärtchen bereits beschriftet vorliegen oder während der Modellierung mit einer virtuellen Tastatur mit einer Bezeichnung versehen werden, die dann ebenfalls projiziert werden. Verbindungen werden hergestellt, indem die betreffenden Kärtchen zusammengeführt werden oder mittels einem speziellen Steuerkärtchen verbunden werden. 
+
+Zusätzlich zu den mit der Kamera erfassbaren Elemente, die mit einem 2D-Barcode versehen sind, können auch die Postionen von Fingerberührungen auf der Oberfläche erkannt werden. Dazu wird ein Laserstrahl knapp über der Oberfläche ausgestrahlt, der bei auf der Oberfläche aufgesetzten Fingern nach oben abgelenkt wird und so an der Stelle der Berührung einen klar identifizierbaren Punkt auf dem Kamerabild hinterlässt. Es ist so möglich, auch mehrere Berührungen simultan zu erkennen. Lediglich vertikal hintereinander angeordnete Finger können zu Erkennungsproblemen führen.
+
+In der konkreten Anwendung werden die Fingergesten mit den Postionsinformationen der Kärtchen kombiniert, um etwa Verbindungen durch Markieren mit zwei Fingern löschen zu können oder auf der virtuellen Tastatur (die auf einem ebenfalls mit einem Barcode versehenen größeren Kärtchen aufgedruckt ist) Text eingeben zu können.
+
+Zur Evaluation führten die Autoren eine vergleichende Studie unter Berücksichtigung des vorgestellten Werkzeugs und den rein rechnerbasierten CMapTools \citep{Canas04} durch. Sie beschreiben einen Unterschied in der beobachteten Kooperation der Teilnehmer bei der kollaborativen Erstellung einer Concept Map. Konkret wäre eine Kooperation der Teilnehmer im Falle des Tabletop Interfaces bereits von Beginn der Modellierung an zu beobachten gewesen, während bei Einsatz der CMapTools eine stärkere Unterteilung in individuelle und kooperative Arbeitsphasen zu erkennen gewesen wäre. Weiters wurde auch in diesem Fall die Oberfläche als zu klein für eine sinnvolle Modellierung der gestellten Aufgabe wahrgenommen. Das Löschen von Verbindungen konnte mittels der bereits beschriebenen Finger-Aktion oder mittels einem Kärtchen ausgeführt werden. Diese Redundanz wurde von Benutzern als nützlich und unterstützend wahrgenommen und auch in der konkreten Anwendung komplementär verwendet.
+
+% subsubsection multi_finger_interactions_with_papers_on_augmented_tabletops (end)
+
+% subsection subsection_name (end)
 
 % subsection aktuelle_verwandte_ansätze (end)
 
@@ -769,6 +853,12 @@ ReacTable \citep{Kaltenbrunner06}
 
 \section{Fazit} % (fold)
 \label{sec:impl_ueberblick_fazit}
+
+In diesem Kapitel wurden -- noch unabhängig von der konkreten Implementierung des Werkzeugs -- die Grundlagen des Forschungsgebiet der Tangible (Tabletop) Interfaces beschrieben. Die Entscheidung, das Werkzeug mittels einer „begreifbaren“ Benutzungsschnittstelle umzusetzen, wurde in Kapitel \ref{cha:anforderungen} getroffen und begründet. In den nun folgenden Kapiteln wird auf die Konzeption und Umsetzung des Werkzeugs auf technischer Ebene eingegangen. Dieses Kapitel ist als Brücke zu sehen, die die relevanten Begriffe einführt und den State-of-the-Art zusammenfasst.
+
+Die Schnittstelle zu den Ausführungen im ersten Teil dieser Arbeit werden durch die Abschnitte zu der Wirkung von Tangible Interfaces auf Lernprozesse und Kooperation gebildet. Im Mittelteil des Kapitels wurden konzeptionelle Ansätze beschrieben, die sich mit der Begriffsbildung, Klassifikation und Spezifikation von Tangible Interfaces beschäftigen. Diese dienen in weiterer Folge dazu, die in dieser Arbeit verwendete Nomenklatur festzulegen und mögliche Herangehensweisen zum Design des Werkzeugs zu identifizieren. Auf die hier beschrieben Arbeiten wird auch in Kapitel \ref{cha:konzeptionelle_evaluierung} zurückgegriffen, um das hier entwickelte Werkzeug in das Forschungsfeld einzuordnen und mögliche konzeptionell begründbare Schwachstellen und Verbesserungspotential zu identifizieren.
+
+Die letzten Abschnitte in diesem Kapitel bilden die Brücke zu den nun folgenden technologie-orientierten Kapiteln. Sie fokussieren auf Tabletop Interfaces (also Schnittstellen, deren Referenzrahmen Tischoberflächen sind) und Tangible Interfaces, die zur Modellbildung eingesetzt werden. Die beiden Abschnitte stellen dabei die historische Entwicklung und den State-of-the-Art aus Systemsicht dar und bilden so die technische „related work“ zum im Folgenden beschriebenen Werkzeug. 
 
 % section fazit (end)
 
