@@ -1,77 +1,113 @@
 \chapter{Anforderungen an ein Werkzeug} % (fold)
 \label{cha:anforderungen}
 
-Dieses Kapitel dient der Überleitung von den bislang auf konzeptioneller Ebene beschriebenen Überlegungen hin zur tatsächlichen Umsetzung der Werkzeugunterstützung für "Articulation Work" mittels mentaler Modelle. Basierend auf den Erkenntnissen aus den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} sowie der in Kapitel \ref{cha:methodik} entwicklten Methodik werden hier die funktionalen Anforderungen an das Werkzeug beschrieben.
+Dieses Kapitel dient der Überleitung von den bislang auf konzeptioneller Ebene beschriebenen Überlegungen hin zur tatsächlichen Umsetzung der Werkzeugunterstützung für „Articulation Work“ mittels mentaler Modelle. Basierend auf den Erkenntnissen aus den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} sowie der in Kapitel \ref{cha:methodik} entwickelten Methodik werden hier die funktionalen Anforderungen an das Werkzeug beschrieben.
 
-Die Anforderungen lassen sich jeweils auf einen von drei Aspekten zurückführen, die in den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} beschrieben sind. Größtenteils sind sie direkte Konsequenzen auf den Vorgaben hinsichltlich Strktur und Vorgehen, die von Strukturlegetechniken oder Concept Mapping gemacht werden. Es ist jedoch zusätzlich notwendig, auf die zur Durchführung expliziter "Articulation Work" selbst zurückzugreifen, um die Eignung des Werkzeugs nicht nur für generische Externalisierung von mentalen Modellen selbst sicherzustellen. Vielmehr muss auch die Berücksichtigung der speziellen Anwendungsbedingungen und Betrachtungsgegenstände im Rahmen von "Articulation Work" gewährleistet werden.
+Die Anforderungen lassen sich jeweils auf einen von drei Aspekten zurückführen, die in den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} beschrieben sind. Größtenteils sind sie direkte Konsequenzen auf den Vorgaben hinsichtlich Struktur und Vorgehen, die von Strukturlegetechniken oder Concept Mapping gemacht werden. Es ist jedoch zusätzlich notwendig, auf die zur Durchführung expliziter „Articulation Work“ selbst zurückzugreifen, um die Eignung des Werkzeugs nicht nur für generische Externalisierung von mentalen Modellen selbst sicherzustellen. Vielmehr muss auch die Berücksichtigung der speziellen Anwendungsbedingungen und Betrachtungsgegenstände im Rahmen von „Articulation Work“ gewährleistet werden.
 
+\section{Anforderungen aus Strukturlegetechniken} % (fold)
+\label{sec:anforderungen_aus_strukturlegetechniken}
 
-
-\paragraph{Physische Abbildung beliebiger diagrammatischer Modelle} % (fold)
+\begin{anf}
+	Physische Abbildung beliebiger diagrammatischer Modelle
+\end{anf}
+ % (fold)
 \label{par:physische_abbildung_legen_beliebiger_diagrammatischer_modelle}
 
 Ein Werkzeug zur Unterstützung von Strukturlegetechniken muss das grundlegende Konzept der Methodik vollständig unterstützten. Es muss möglich sein, Konzepte auf einer Modellierungs-Oberfläche zu platzieren und zueinander in Beziehung zu setzen. Der gesamte Modellstatus muss visuell auf der Oberfläche erkennbar sein.
 
 % paragraph physische_abbildung_legen_beliebiger_diagrammatischer_modelle (end)
 
-\paragraph{Kollaborative und unmittelbare Manipulierbarkeit des Modells} % (fold)
-\label{par:kollaborative_und_unmittelbare_manipulierbarkeit_des_modells}
-
-Zur Unterstützung von expliziter „Articulation Work“ muss das Werkzeug kollaborative Strukturlege-Prozesse erlauben. Es muss möglich sein, das gelegte Modell simultan zu erweitern oder zu verändern.
-
-% paragraph kollaborative_und_unmittelbare_manipulierbarkeit_des_modells (end)
-
-\paragraph{Nicht vorgegebene Semantik der Modellierungselemente} % (fold)
-\label{par:nicht_vorgegebene_semantik_der_modellierungselemente}
-
-Wie oben bereits argumentiert, sind zur Unterstützung von expliziter „Articulation Work“ vor allem Varianten von Strukturlegetechniken geeignet die keine Vorgaben hinsichtlich der zu verwendenden Konzepte und Verknüpfungen machen. Das Werkzeug muss dementsprechend die Offenheit bieten, beliebige Klassen von Konzepten und Verknüpfungen zu definieren (z.B. Klasse „organisationale Rolle“) und von diesen beliebige Instanzen zu bilden und zu benennen (z.B. Instanz „Geschäftsführer“). Gleichzeitig muss sichergestellt werden, dass die festgelegte Semantik im Modell mit abgebildet wird und nicht verloren geht.
-
-% paragraph nicht_vorgegebene_semantik_der_modellierungselemente (end)
-
-\paragraph{Unterstützung der iterativen Aushandlung des Modells} % (fold)
+\begin{anf}
+	Unterstützung der iterativen Aushandlung des Modells
+\end{anf}
+ % (fold)
 \label{par:unterstützung_der_iterativen_aushandlung_des_modells}
 
 Im Sinne der Unterstützung der Dialog-Konsens-Methodik sind ist der Austausch über das Modell durch das Werkzeug zu unterstützen. Vor allem muss es möglich sein, Anmerkungen über Konsens oder Dissens über einzelnen Modellteile oder das gesamte Modell explizit mit in die Repräsentation aufzunehmen. 
 
 % paragraph unterstützung_der_iterativen_aushandlung_des_modells (end)
 
-\paragraph{Persistente Ablage des Modells und Möglichkeit zur Rekonstruktion} % (fold)
-\label{par:persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion}
-
-Die persistente Ablage eines Modells (z.B. als digitale Repräsentation) und Werkzeugunterstützung zur Rekonstruktion eines abgelegten Modells erlaubt die Wiederaufnahme eines unterbrochenen Strukturlegeprozesses bzw. die Reflexion und Anpassung bereits erstellter Modelle zu einem späteren Zeitpunkt.
-
-% paragraph persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion (end)
-
-\paragraph{Ermöglichung experimenteller Veränderungen am Modell} % (fold)
+\begin{anf}
+	Ermöglichung experimenteller Veränderungen am Modell
+\end{anf}
+ % (fold)
 \label{par:ermöglichung_experimenteller_veränderungen_am_modell}
 
 Es muss möglich sein, das Modell experimentell zu verändern und ggf. zu einem früheren stabilen Modellzustand zurückzukehren. Dies erlaubt eine konsequenzlose Erkundung von Lösungsräumen und unterstützt damit den Dialog-Konsens-Prozess. Das Werkzeug muss also stabile Modellzustände erfassen und deren Rekonstruktion unterstützen.
+
 % paragraph ermöglichung_experimenteller_veränderungen_am_modell (end)
 
-\paragraph{Verknüpfung mit digitalen Ressourcen} % (fold)
+% section anforderungen_aus_strukturlegetechniken (end)
+
+\section{Anforderungen aus Concept Mapping} % (fold)
+\label{sec:anforderungen_aus_concept_mapping}
+
+\begin{anf}
+	Nicht vorgegebene Semantik der Modellierungselemente
+\end{anf}
+ % (fold)
+\label{par:nicht_vorgegebene_semantik_der_modellierungselemente}
+
+Wie oben bereits argumentiert, sind zur Unterstützung von expliziter „Articulation Work“ vor allem Varianten von Strukturlegetechniken geeignet, die im Sinne von Concept Mapping keine Vorgaben hinsichtlich der zu verwendenden Konzepte und Verknüpfungen machen. Das Werkzeug muss dementsprechend die Offenheit bieten, beliebige Klassen von Konzepten und Verknüpfungen zu definieren (z.B. Klasse „organisationale Rolle“) und von diesen beliebige Instanzen zu bilden und zu benennen (z.B. Instanz „Geschäftsführer“). Gleichzeitig muss sichergestellt werden, dass die festgelegte Semantik im Modell mit abgebildet wird und nicht verloren geht.
+
+% paragraph nicht_vorgegebene_semantik_der_modellierungselemente (end)
+
+\begin{anf}
+	Verknüpfung mit digitalen Ressourcen
+\end{anf}
+ % (fold)
 \label{par:verknüpfung_mit_digitalen_ressourcen}
 
 Die Einbindung von digitalen Ressourcen (Dateien, Hyperlinks,...) ermöglicht die Einbindung des Modells in den organisationalen Kontext und erleichtert so einerseits die Verständnisbildung und ermöglicht andererseits die Verwendung der Repräsentation als unmittelbare Handlungsanleitung mit Verknüpfungen zu den betroffenen Arbeitsgegenständen.
 
 % paragraph verknüpfung_mit_digitalen_ressourcen (end)
 
-\paragraph{Bearbeitung von beliebig komplexen Modellen} % (fold)
+\begin{anf}
+	Bearbeitung von beliebig komplexen Modellen
+\end{anf}
+ % (fold)
 \label{par:bearbeitung_von_beliebig_komplexen_modellen}
 
 Komplexe Modelle enthalten oft eine große Anzahl von Konzepten und viele Verknüpfungen. Das Werkzeug muss das Modell in einer Form darstellen, die dessen Erfassung und Manipulation ermöglicht, ohne die Repräsentierenden kognitiv zu sehr zu belasten.
 % paragraph bearbeitung_von_beliebig_komplexen_modellen (end)
 
-\footnote{By recording and replaying the authoring process, navigable history can re-situate an author after a gap in the authoring process. Similarly, in a collaborative authoring process, an author can play through the events since his/her last authoring session to quickly determine the activity of the other authors. Finally, in many situations, information becomes harder to interpret as its context changes over time. By returning to the state of the information space at the time of authoring, disambiguation of the information may become possible. For the reader who is not also the writer of the hypertext there are additional uses of navigable history. A reader replaying the author’s writing process can gain insight into the motivation of the author and have a greater understanding of the author’s writing style. Such an understanding is important in collaborative work and in other contexts, like education and literary analysis. \citep{Shipman00}}
+% section anforderungen_aus_concept_mapping (end)
 
-\subsection{Zusammenfassung}
+\section{Anforderungen aus Articulation Work} % (fold)
+\label{sec:anforderungen_aus_articulation_work}
+
+\begin{anf}
+	Kollaborative und unmittelbare Manipulierbarkeit des Modells
+\end{anf}
+ % (fold)
+\label{par:kollaborative_und_unmittelbare_manipulierbarkeit_des_modells}
+
+Zur Unterstützung von expliziter „Articulation Work“ muss das Werkzeug kollaborative Strukturlege-Prozesse erlauben. Es muss möglich sein, das gelegte Modell simultan zu erweitern oder zu verändern.
+
+% paragraph kollaborative_und_unmittelbare_manipulierbarkeit_des_modells (end)
+
+\begin{anf}
+	Persistente Ablage des Modells und Möglichkeit zur Rekonstruktion
+\end{anf}
+ % (fold)
+\label{par:persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion}
+
+Die persistente Ablage eines Modells (z.B. als digitale Repräsentation) und Werkzeugunterstützung zur Rekonstruktion eines abgelegten Modells erlaubt die Wiederaufnahme eines unterbrochenen Strukturlegeprozesses bzw. die Reflexion und Anpassung bereits erstellter Modelle zu einem späteren Zeitpunkt\footnote{\emph{„By recording and replaying the authoring process, navigable history can re-situate an author after a gap in the authoring process. Similarly, in a collaborative authoring process, an author can play through the events since his/her last authoring session to quickly determine the activity of the other authors. Finally, in many situations, information becomes harder to interpret as its context changes over time. By returning to the state of the information space at the time of authoring, disambiguation of the information may become possible. For the reader who is not also the writer of the hypertext there are additional uses of navigable history. A reader replaying the author’s writing process can gain insight into the motivation of the author and have a greater understanding of the author’s writing style. Such an understanding is important in collaborative work and in other contexts, like education and literary analysis.“} \citep{Shipman00}}.
+
+% paragraph persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion (end)
+
+% section anforderungen_aus_articulation_work (end)
+
+\section{Zusammenfassung}
 \label{sec:anforderungen_zusammenfassung}
 
-In diesem Kapitel wurden die Anforderungen an das zu entwickelnden Werkzeug aus den Ergebnissen der Kapitel \ref{cha:articulation_work}, \ref{cha:mentale_modelle} und \ref{cha:methodik} abgeleitet. Insgesamt konnten XY Anforderungen identifiziert werden, die hier -- unabhängig von der konkreten Umsetzung -- rein aus Sicht der konzeptionell zu unterstützenden Tätigkeit beschrieben wurden.
+In diesem Kapitel wurden die Anforderungen an das zu entwickelnden Werkzeug aus den Ergebnissen der Kapitel \ref{cha:articulation_work}, \ref{cha:mentale_modelle} und \ref{cha:methodik} abgeleitet. Insgesamt konnten \theanf \ Anforderungen identifiziert werden, die hier -- unabhängig von der konkreten Umsetzung -- rein aus Sicht der konzeptionell zu unterstützenden Tätigkeit beschrieben wurden.
 
-Im letzten Abschnitt dieses Kapitels wurde auf Basis der Ergebnisse der Anforderungserhebung jene Klasse von Systemen identifziert, deren Verwendung die grundlegende Forderung nach physischer Modellbildung und gleichzeitiger Unterstützung durch computerbasierte Werkzeuge erfüllen kann. Der Einsatz von "Tangible Interfaces" mit ihrem Anspruch, konkrete, physische Benutzungsschnittstellen für interaktive Computersysteme zur Verfügung zu stellen, erscheinen hier am erfolgversprechendsten.
+Im letzten Abschnitt dieses Kapitels wurde auf Basis der Ergebnisse der Anforderungserhebung jene Klasse von Systemen identifiziert, deren Verwendung die grundlegende Forderung nach physischer Modellbildung und gleichzeitiger Unterstützung durch computerbasierte Werkzeuge erfüllen kann. Der Einsatz von „Tangible Interfaces“ mit ihrem Anspruch, konkrete, physische Benutzungsschnittstellen für interaktive Computersysteme zur Verfügung zu stellen, erscheinen hier am Erfolg versprechendsten.
 
-In den folgenden Kapiteln wird nun aufbauend auf der Grundsatzentscheidung für die Entwicklung eines "Tangible Interfaces" das Werkzeug in allen in den Anforderungen angesprochenen Aspekten spezifiziert. Zusätzlich sind auch jeweils die konkrete technische Umsetzung sowie allfällige Einschränkungen, die diese Umsetzung mit sich brachte, beschrieben.
+In den folgenden Kapiteln wird nun aufbauend auf der Grundsatzentscheidung für die Entwicklung eines „Tangible Interfaces“ das Werkzeug in allen in den Anforderungen angesprochenen Aspekten spezifiziert. Zusätzlich sind auch jeweils die konkrete technische Umsetzung sowie allfällige Einschränkungen, die diese Umsetzung mit sich brachte, beschrieben.
 
-Kapitel \ref{cha:implementierung_Überblick} geht -- noch unabhängig von dem konkreten hier entwickelten Werkzeug -- auf die Eigenschaften von Tangible Interfaces und deren Spezifikation ein. Daneben wird in diesem Kapitel auch die "related work" aus konzeptioneller und technischer Sicht aufgearbeitet. In den Kapiteln \ref{cha:input_&_interpretation}, \ref{cha:visualisierung} und \ref{cha:persistierung} werden die Implementierungsalternativen und die konkrete Umsetzung des Werkzeugs getrennt für die Eingabe von Information (also die Modellbildung selbst), die Ausgabe von Information sowie die Sicherstellung der Persistierung der Modelle beschrieben. Die Überprüfung der Erfüllung der hier spezifizierten Anforderungen ist Gegenstand der Kapitel \ref{cha:eval_werkzeug} und \ref{cha:eval_modell}, die Teil der Beschreibung der Evaluierung des hier entwickelten Systems sind.
+Kapitel \ref{cha:implementierung_Überblick} geht -- noch unabhängig von dem konkreten hier entwickelten Werkzeug -- auf die Eigenschaften von Tangible Interfaces und deren Spezifikation ein. Daneben wird in diesem Kapitel auch die „related work“ aus konzeptioneller und technischer Sicht aufgearbeitet. In den Kapiteln \ref{cha:input_&_interpretation}, \ref{cha:visualisierung} und \ref{cha:persistierung} werden die Implementierungsalternativen und die konkrete Umsetzung des Werkzeugs getrennt für die Eingabe von Information (also die Modellbildung selbst), die Ausgabe von Information sowie die Sicherstellung der Persistierung der Modelle beschrieben. Die Überprüfung der Erfüllung der hier spezifizierten Anforderungen ist Gegenstand der Kapitel \ref{cha:eval_werkzeug} und \ref{cha:eval_modell}, die Teil der Beschreibung der Evaluierung des hier entwickelten Systems sind.
 
 % chapter anforderungen (end)

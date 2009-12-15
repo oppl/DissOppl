@@ -270,6 +270,12 @@ Diefenbruch, M., Goesmann, T., Herrmann, T., und Hoffmann, M. (2002).
   editors, {\em Gesch{\"a}ftsprozessorientiertes Wissensmanagement}, Seiten
   275--292. Springer.
 
+\bibitem[Dietz und Leigh, 2001]{Dietz01}
+Dietz, P. und Leigh, D. (2001).
+\newblock {DiamondTouch: a multi-user touch technology}.
+\newblock In {\em Proceedings of the 14th annual ACM symposium on User
+  interface software and technology}, Seite 226. ACM.
+
 \bibitem[Divitini und Simone, 2000]{Divitini00}
 Divitini, M. und Simone, C. (2000).
 \newblock {Supporting different dimensions of adaptability in workflow
@@ -384,6 +390,14 @@ Fitzmaurice, G., Ishii, H., und Buxton, W. (1995).
 Fjeld, M. (2001).
 \newblock {\em Designing for tangible interaction}.
 \newblock PhD thesis, Swiss Federal Institute of Technology.
+
+\bibitem[Fjeld et~al., 1997]{Fjeld97}
+Fjeld, M., Bichsel, M., und Rauterberg, M. (1997).
+\newblock {BUILD-IT: An Intuitive Design Tool Based on Direct Object
+  Manipulation}.
+\newblock In {\em Proceedings of the International Gesture Workshop on Gesture
+  and Sign Language in Human-Computer Interaction}, Seiten 297--308.
+  Springer-Verlag London, UK.
 
 \bibitem[Fjuk und Dirckinck-Holmfeld, 1997]{Fjuk97a}
 Fjuk, A. und Dirckinck-Holmfeld, L. (1997).
