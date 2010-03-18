@@ -1,5 +1,5 @@
 % makeindex style file created by the glossaries package
-% for document 'Schrift' on 2009-12-15
+% for document 'Schrift' on 2010-2-28
 actual '?'
 encap '|'
 level '!'
@@ -13,7 +13,6 @@ item_1 "\%\n"
 item_2 "\%\n"
 item_01 "\%\n"
 item_x1 "\\relax \\glsresetentrylist\n"
-item_02 "\%\n"
 item_12 "\%\n"
 item_x2 "\\relax \\glsresetentrylist\n"
 delim_0 "\{\\glossaryentrynumbers\{\\relax "

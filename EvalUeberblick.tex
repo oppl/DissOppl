@@ -275,55 +275,96 @@ Der Aspekt Articulation Work wird hier wie schon in Block 3 und aus den dort ang
 \section{Eingesetzte Werkzeuge und Verfahren} % (fold)
 \label{sec:eingesetzte_werkzeuge_und_verfahren}
 
-Für die Erfassung und Auswertung der erhobenen Daten kamen unterschiedliche Werkzeuge zum Einsatz. Grundsätzlich wurden sämtliche Anwendungen des Tabletop Interface auf Video erfasst, um eine nachträgliche quantitative und qualitative Auswertung zu ermöglichen. In den Evaluierungsblöcken 1, 4 und 5 kamen aufgrund der Fragestellung außerdem Fragebögen zur Erhebung des Vorwissens bzw. der Erfahrungen bei der Benutzung des Werkzeugs zum Einsatz. In allen Anwendungen wurden zudem die Modellierungsergebnisse graphisch festgehalten.
+Für die Erfassung und Auswertung der erhobenen Daten kamen unterschiedliche Werkzeuge zum Einsatz. Grundsätzlich wurden sämtliche Anwendungen des Tabletop Interface auf Video erfasst, um eine nachträgliche quantitative und qualitative Auswertung zu ermöglichen. In den Evaluierungsblöcken 1, 4 und 5 kamen aufgrund der Fragestellung außerdem Fragebögen zur Erhebung des Vorwissens bzw. der Erfahrungen bei der Benutzung des Werkzeugs zum Einsatz. Die Auswahl bzw. das Design dieser Fragebögen ist abhängig von den jeweils zu testenden Hypothesen und wird dementsprechend im Rahmen der Beschreibung des Untersuchungsdesigns in den folgenden Kapiteln beschrieben. In allen Anwendungen wurden zudem die Modellierungsergebnisse graphisch festgehalten.
 
 Sämtliche erfassten Daten wurden vor der Auswertung digital aufbereitet. Videos wurden als Mediendateien im MPEG4-Format abgelegt, Fragebögen wurden gescannt und im PDF-Format abgelegt, die graphischen Repräsentationen der Modellierungsergebnisse liegen als Bilddateien im PNG- bzw. JPEG-Format vor.
 
-Die Rohdaten wurden einer quantitativen sowie qualitativen Betrachtung unterzogen. Die dort eingesetzten technischen Werkzeuge und methodischen Ansätze werden in den folgenden Abschnitten näher betrachtet.
+Die Rohdaten wurden einer quantitativen sowie qualitativen Auswertung unterzogen. Die dazu eingesetzten technischen Werkzeuge und methodischen Ansätze werden in den folgenden Abschnitten näher betrachtet.
 
 \subsection{Werkzeuge} % (fold)
 \label{sub:werkzeuge}
 
-Zur Erfassung der quantitativen Daten wurde Microsoft Excel 2007\footnote{http://office.microsoft.com/excel} verwendet. Die deskriptiven statistischen Parameter wurden ebenfalls mit Microsoft Excel sowie mit dem Statistik-Paket R\footnote{http://www.r-project.org/} in der Version 2.9.0 berechnet. Die Parameter der schließenden Statistik wurden ebenfalls mit R berechnet. Die im Bereich der schließenden Statistik eingesetzten Methoden sind Gegenstand der folgenden Abschnitte.
+Zur Erfassung der quantitativen Daten wurde Microsoft Excel 2007\footnote{http://office.microsoft.com/excel} verwendet. Die deskriptiven statistischen Parameter wurden ebenfalls mit Microsoft Excel sowie mit dem Statistik-Paket R\footnote{http://www.r-project.org/} in der Version 2.9.0 berechnet. Die Parameter der schließenden Statistik wurden ebenfalls mit R berechnet. Die im Bereich der schließenden Statistik eingesetzten Methoden sind Gegenstand der folgenden Abschnitte. Zur Visualisierung der deskriptiven Parameter wurde neben R auch die Software OmniGraphSketcher\footnote{http://www.omnigroup.com/applications/omnigraphsketcher} eingesetzt.
 
-Im Bereich der qualitativen Betrachtung war vor allem die Benutzung des Tabletop Interface und die Interaktion der Modellierenden untereinander von Interesse. Zur Auswertung kam dabei die von \citet{Hornecker04} vorgeschlagene Variante der Interaktionsanalyse nach \citet{Jordan95} zum Einsatz (siehe Abschnitt \ref{sub:interaktionsanalyse}). Die im Zuge der Durchführung zu erstellenden Transkripte der Interkationsabläufe wurden ohne spezifische Werkzeugunterstützung in einem Texteditor erstellt.
+Im Bereich der qualitativen Auswertung war vor allem die Benutzung des Tabletop Interface und die Interaktion der Modellierenden untereinander von Interesse. Zur Auswertung kam dabei einerseits offene Items in den eingesetzten Fragebögen und andererseits die von \citet{Hornecker04} vorgeschlagene Variante der Interaktionsanalyse nach \citet{Jordan95} zum Einsatz (siehe Abschnitt \ref{sub:interaktionsanalyse}). Die im Zuge der Durchführung zu erstellenden Transkripte der Interkationsabläufe wurden ohne spezifische Werkzeugunterstützung in einem Texteditor erstellt.
 % subsection werkzeuge (end)
-
-\subsection{Korrelationstests} % (fold)
-\label{sub:korrelationstests}
-
-% subsection korrelationstests (end)
 
 \subsection{Signifikanztests} % (fold)
 \label{sub:signifikanztests}
 
-\subsubsection{Sharpiro-Wilk-Test} % (fold)
-\label{ssub:sharpiro_wilk_test}
+Signifikanztests werden verwendet, um zu ermitteln, ob die Unterschiede zwischen zwei Stichproben tatsächlich signifikant sind, d.h. ob sich mit einer gegebenen Irrtumswahrscheinlichkeit (etwa $p<0.05$) auch die beiden den Stichproben zugrundeliegenden Grundgesamtheiten unterscheiden \citep[][S. 496]{Bortz03}. Signifikanztests sind deshalb ein zentraler Bestandteil der quantitativen Hypothesenprüfung.
 
-Der Sharpiro-Wilk-Test \citep{Shapiro65} testet eine Verteilung auf „Nicht-Normaliät“ (d.h. die Nullhyothese ist, dass die Verteilung nicht normalverteilt ist). Für eine Wahrscheinlichkeit $p<0.05$ kann daher davon ausgegangen werden, dass die geprüfte Verteilung nicht normalverteilt ist. Dieser Test eignet sich auch für kleine Stichproben (ab $n>3$).
-
-Er wird hier eingesetzt, um zu prüfen, ob der t-Test eingesetzt werden kann oder nicht (da dieser Normalverteilung der Parameter voraussetzt).
-
-% subsubsection sharpiro_wilk_test (end)
-
-\subsubsection{Wilcoxon-Test} % (fold)
-\label{ssub:wilcoxon_text}
-für zwei abhängige oder unabhängige Stichproben
-% subsubsection wilcoxon_text (end)
-
-\subsubsection{Kruskal-Wallis-Test} % (fold)
-\label{ssub:kruskal_wallis_test}
-für drei oder mehr unabhängige Stichproben
-% subsubsection kruskal_wallis_test (end)
+Je nach Eigenschaften der zugrundeliegenden Grundgesamtheiten und Umfang der Stichprobe müssen unterschiedliche Verfahren zur Signifikanzprüfung eingesetzt werden. In den folgenden Unterabschnitten werden die hier verwendeten Tests kurz beschrieben und die Voraussetzungen für deren Einsatz angeführt. Eine umfassende Beschreibung der Methoden würde den Umfang dieser Arbeit sprengen. Als Grundlage für die Auswahl dienten in dieser Arbeit das einführende Werk von \citet{Bortz03} sowie die Website „Using R for statistical analyses“\footnote{http://gardenersown.co.uk/Education/Lectures/R}. Für eine umfassendere Beschreibung der Methoden sei hier auf diese Quellen verwiesen.
 
 \subsubsection{t-Test} % (fold)
 \label{ssub:t_test}
 
+Der t-Test nach Student prüft in der Grundvariante anhand einer Stichprobe, ob der erwartete Mittelwert der entsprechenden Grundgesamtheit gleich, kleiner oder größer einem gegebenen Wert ist. In der -- hier eingesetzten -- Variante für zwei Stichproben prüft der Test, ob der erwartete Mittelwert der der ersten Stichprobe zugrundeliegenden Grundgesamtheit gleich, kleiner oder größer ist als jener der Grundgesamtheit zur zweiten Stichprobe. Für mehr als zwei Stichproben kann der t-Test nicht eingesetzt werden, alternativ kann der Kruskal-Wallis-Test (siehe unten) zur Anwendung gebracht werden.
+
+Der t-Test geht von einer intervallskalierten, normalverteilten Grundgesamtheit aus. Bei Grundgesamtheiten, deren Verteilung unbekannt ist, kann bei ausreichender Stichprobengröße (häufig: $n>30$) auf Grund des zentralen Grenzwertsatzes von einer Normalverteilung ausgegangen werden und der t-Test wiederum eingesetzt werden. Bei kleineren Stichproben kann der t-Test nur dann verwendet werden, wenn eine Normalverteilung der Grundgesamtheit zu erwarten ist. Dies kann auch für kleine Stichproben mit dem Sharpiro-Wilk-Test (siehe unten) überprüft werden. Eine weitere Bedingung für den Einsatz des t-Tests ist, dass die Varianz der Grundgesamtheiten der beiden Stichproben identisch ist. Dies kann mit dem F-Test (siehe unten) festgestellt werden.
+
 % subsubsection t_test (end)
+
+\subsubsection{Wilcoxon-Test} % (fold)
+\label{ssub:wilcoxon_text}
+Der Wilcoxon-Rangsummentest (oder alternativ: Mann-Whitney-U-Test) ist ein Verfahren zur Überprüfung ob zwei Verteilungen signifikant übereinstimmen. Die Verteilungen müssen im Gegensatz zum t-Test nicht normalverteilt sein, sollten aber eine ähnliche Form aufweisen. Der Wilcoxon-Test ist auch für kleine Stichproben geeignet.
+
+Aufgrund der Stichprobengrößen in den vorliegenden Untersuchungen ist der Wilcoxon-Test dem t-Test hier im Allgemeinen vorzuziehen. 
+
+% % subsubsection wilcoxon_text (end)
+
+\subsubsection{Sharpiro-Wilk-Test} % (fold)
+\label{ssub:sharpiro_wilk_test}
+
+Der Sharpiro-Wilk-Test \citep{Shapiro65} testet eine Verteilung auf „Nicht-Normaliät“ (d.h. die Nullhypothese ist, dass die Verteilung nicht normalverteilt ist). Mit einer Irrtumswahrscheinlichkeit von $p<0.05$ kann daher bei Ablehnung der Nullhypothese davon ausgegangen werden, dass die geprüfte Verteilung nicht normalverteilt ist. Dieser Test eignet sich auch für kleine Stichproben (ab $n>3$).
+
+Er wird hier eingesetzt, um zu prüfen, ob der t-Test eingesetzt werden kann oder nicht (da dieser eine Normalverteilung der Parameter voraussetzt).
+
+% subsubsection sharpiro_wilk_test (end)
+
+\subsubsection{F-Test} % (fold)
+\label{ssub:f_test}
+
+Der F-Test (oder: Varianzquotienten-Test) überprüft, ob die Varianzen zweier normalverteilter Grundgesamtheiten signifikant übereinstimmen. Er wird hier eingesetzt, um die entsprechende Voraussetzung für den Einsatz des t-Tests zu überprüfen. Muss die Nullhypothese verworfen werden, so muss anstelle des t-Tests der Welch-Test eingesetzt werden, auf den hier nicht näher eingeangen wird.
+
+% subsubsection f_test (end)
+
+\subsubsection{Kruskal-Wallis-Test} % (fold)
+\label{ssub:kruskal_wallis_test}
+
+Der Kriskal-Wallis-Test ist wie der Wilcoxon-Test ein Verfahren, mit dem die Übereinstimmung von Verteilungen auf Signifikanz überprüft werden kann. Wie dieser setzt er keine Normalverteilung voraus und eignet sich auch für kleine Stichproben. 
+
+Der Kruskal-Wallis-Test kann jedoch  Gegensatz zu den anderen Verfahren auch für die Überprüfung von mehr als zwei Verteilungen gleichzeitig eingesetzt werden. Die Nullhypothese ist dann, dass sich die Verteilungen nicht unterscheiden. Werden detailliertere Hypothesen benötigt, so muss eine paarweise Überprüfung der Verteilungen mit einem der oben beschriebenen Verfahren vorgenommen werden.
+
+Der Kruskal-Wallis-Test kann ab drei Verteilungen mit einer Stichprobengröße von jeweils mindestens 6 sinnvoll eingesetzt werden. In dieser Arbeit kommt er nur selten zum Einsatz, da großteils lediglich die Signifikanz der Übereinstimmung zweier Verteilungen überprüft werden muss.
+
+% subsubsection kruskal_wallis_test (end)
+
 % subsection signifikanztests (end)
+
+\subsection{Korrelationstests} % (fold)
+\label{sub:korrelationstests}
+
+
+
+% subsection korrelationstests (end)
+
 
 \subsection{Interaktionsanalyse} % (fold)
 \label{sub:interaktionsanalyse}
+
+Die Interaktionsanalyse nach \citet{Jordan95} dient der qualitativen Auswertung von Interaktionsabläufen zwischen unterschiedlichen Individuen und den dazu eingesetzten Hilfsmitteln. Grundsätzlich wird die Interaktion aufgezeichnet und transkripiert. Das Transkipt enthält dabei nicht nur die verbale Interaktion sondern auch eine exakte Beschreibung der non-verbalen Aktivitäten der Beteiligten. Insbesondere wurde hier auf die Erfassung der Verwendung der verfügbaren Hilfsmittel geachtet. Die Interaktionsanalyse wurde von \citet{Hornecker04} zur Beschreibung der Wirkung von Tangible Interfaces auf Kooperation zwischen Individuen eingesetzt. Die in diesem Kontext vorgeschlagenen vereinfachte Variation der ursprünglichen Methode (v.a. der Verzicht auf interdiszipliär zusammengesetzte Analysegruppen) wurde in dieser Arbeit übernommen. 
+
+Der Fokus der Analyse lag auf der Nutzung und Wirkung des eingesetzten Werkzeugs, weshalb zur Transkription jene Szenen ausgewählt wurden, in denen diese sichtbar wird. Transkripiert wurde jene Szenen, aus denen im Sinne der festgelegten Auswertungsebenen Schlüsse auf die Verwendung des Werkzeugs, die Wirkung bei der Modellbildung oder den Einfluss auf die Interaktion zwischen den Beteiligten gezogen werden können. Dies umfasst Szenen, in denen
+\begin{itemize}
+  \item das Werkzeug nicht in der in der Beschreibung des Interaktionsdesigns (siehe Kapitel XY) festgelegten Art verwendet wurde,
+  \item die Funktionalität oder Bedienung des Werkzeugs missverstanden wurde,
+  \item das Modell als Referenz verwendet wurde um Sachverhalte individuell zu reflektieren,
+  \item das Modell von einem Teilnehmer als Referenz verwendet wurde um anderen Teilnehmern Sachverhalte zu erklären,
+  \item das Modell als Mittel zur Fokussierung der inhaltlichen Diskussion zwischen den Teilnehmern verwendet wurde.
+\end{itemize}
+
+Bei der Transkription kam das von \citet{Hornecker04} vorgeschlagene Codierungsschema zum Einsatz, das im folgenden wiedergegeben ist: \emph{Zeilenweise Transkription nach einfachem, sequentiellem Schema. Zeitlicher Ablauf wird durch die Nummerierung vorne wiedergegeben. Fehlt eine Zeilennummer, so findet das Beschriebene mehr oder minder parallel mit dem Geschehen der dar üerstehenden Zeile statt. Zusätzlich alle zehn Sekunden Zeitstempel in eigener Zeile. Sprünge in Zeilennummern zeigen Auslassungen in der Transkription an. Nur angedeutet werden Betonung und Zeitverhalten des Sprechens. Die Zeitdauer von Gestik und manueller Handlung ergibt sich aus den Beschreibungen.}
 
 % subsection interaktionsanalyse (end)
 % section eingesetzte_werkzeuge_und_verfahren (end)
