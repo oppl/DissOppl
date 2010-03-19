@@ -20,4 +20,6 @@
 *.pdfsync
 *.thm
 *.toc
+*.ilg
+*.ind
 Schrift.pdf

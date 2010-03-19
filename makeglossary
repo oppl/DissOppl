@@ -1,0 +1,3 @@
+#!/bin/bash
+
+makeindex -s Schrift.ist -t Schrift.glg -o Schrift.gls Schrift.glo
