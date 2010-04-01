@@ -127,7 +127,7 @@
 					<key>filename</key>
 					<string>EvalModell.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-29T14:31:48Z</date>
+					<date>2010-04-01T20:45:06Z</date>
 					<key>selected</key>
 					<true/>
 				</dict>
@@ -135,7 +135,7 @@
 					<key>filename</key>
 					<string>EvalAW.tex</string>
 					<key>lastUsed</key>
-					<date>2010-03-29T14:31:48Z</date>
+					<date>2010-04-01T20:07:30Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -280,7 +280,7 @@
 				<integer>22</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>138</integer>
+			<integer>131</integer>
 			<key>firstVisibleLine</key>
 			<integer>8</integer>
 		</dict>
@@ -289,14 +289,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>458</integer>
+				<integer>245</integer>
 				<key>line</key>
-				<integer>86</integer>
+				<integer>215</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>70</integer>
+			<integer>213</integer>
 		</dict>
 		<key>EvalTUI.tex</key>
 		<dict>
@@ -583,6 +583,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{194, 178}, {1086, 824}}</string>
+	<string>{{203, 49}, {1233, 583}}</string>
 </dict>
 </plist>
