@@ -6,6 +6,13 @@ In den vorangegangen drei Kapiteln wurde die Umsetzung des eigentlichen Werkzeug
 
 Die Frage nach einem für diese Anforderungen geeigneten Datenformat kann nicht ausschließlich auf Ebene der syntaktischen Strukturierung der Daten behandelt werden. Vielmehr ist es notwendig, Datenformate zu identifizieren, die explizit eine Flexibilisierung und dynamische Festlegung der Semantik der Repräsentation erlauben. Konkret bedeutet dies, das hier nicht die Codierung der Daten (z.B. in einer relationalen Datenbank, in XML oder anderen, proprietären Datenformaten) von Interesse ist, sondern Technologien betrachtet werden müssen, die konzeptionell einen Umgang mit semantisch angereicherten Daten erlauben. Aktuell dafür verfügbare Ansätze sind \gls{RDF}/\gls{OWL} sowie ISO Topic Maps. Bei \gls{RDF}/\gls{OWL} steht die Angabe von semantischen Metadaten zu einzelnen Informationseinheiten im Zentrum, die Verknüpfung der Information ist implizit in diese Metadaten codiert. Topic Maps stellen behandeln Informationseinheiten und Verknüpfungen gleichrangig und legen stärkeren Fokus auf den Vernetzungsaspekt des gesamten Modells. Sie erscheinen deshalb für die in dieser Arbeit erzeugte Art von Information besser geeignet und werden in der Folge für die Persisitierung herangezogen. Eine umfassende Darstellung sowohl von \gls{RDF}/\gls{OWL} als auch Topic Maps sowie eine tiefergehende Beschreibung der jeweiligen Vor- und Nachteile im Kontext des hier verfolgten Verwendungszwecks ist in \citep{Oppl07} verfügbar.
 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[scale=0.75]{img/Kontextgrafiken/k9.png}
+	\caption{Kapitel „Persistierung“ im Gesamtzusammenhang}
+	\label{fig:img_Kontextgrafiken_k9}
+\end{figure}
+
 In diesem Kapitel werden nun zu Beginn Topic Maps auf konzeptioneller Ebene beschrieben. Die Abbildung der Modelle und der ebenfalls zu persistierenden zusätzlichen Information in ein geeignetes Datenmodell ist Gegenstand des darauf folgenden Abschnitts. Schließlich wird die konkrete technische Umsetzung der Persistierung dargelegt und die dazu notwendigen Software-Infrastrukut im Detail beschrieben.
  
 \section{Topic Maps} % (fold)

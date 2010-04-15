@@ -6,7 +6,14 @@
 
 In diesem Kapitel wird die konzeptionelle Ausrichtung und technische Umsetzung jenes Teils des Werkzeugs behandelt, der sich mit der Ausgabe von Information an die Benutzer beschäftigt. Bei Tangible Interfaces erfolgt die Ausgabe von Information zumeist kohärent mit dem Eingabemedium, eine physische Trennung zwischen Eingabe- und Ausgabekanälen wie in der herkömmlichen Mensch-Maschine-Interaktion liegt nicht vor \citep{Ullmer00}. \citet{Fishkin04} relativiert die strikte Forderung nach Kohärenz in seiner Taxonomie für Tangible Interfaces (wie in Abschnitt \ref{sub:taxonomie_fishkin} beschrieben und klassifiziert Benutzungsschnittstellen unter anderem nach dem Grad der Kohärenz von Ein- und Ausgabe. Dementsprechend sind nicht nur jene Ausgabekanäle Gegenstand dieses Kapitels, die Information in direkter Verbindung mit den Eingabemedien zurückspiegeln, sondern auch jene, die Information auf anderen, nicht-kohärenten Wegen ausgeben.
 
-Im ersten Abschnitt dieses Kapitels werden auf Basis der in Kapitel XY genannten Anforderung an das Werkzeug die den Benutzern mitzuteilenden Informationen identifiziert, noch ohne konkret auf die technologische Realisierung der Ausgabekanäle einzugehen. Im darauf folgenden Abschnitt werden die technischen Möglichkeiten zur Ausgabe von Information betrachtet. Im Anschluss werden diese Möglichkeiten hinsichtlich ihrer Eignung für die im konkreten Anwendungsfall auszugebende Information bewertet und entsprechend zugeordnet.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[scale=0.75]{img/Kontextgrafiken/k8.png}
+	\caption{Kapitel „Ausgabe“ im Gesamtzusammenhang}
+	\label{fig:img_Kontextgrafiken_k8}
+\end{figure}
+
+Im ersten Abschnitt dieses Kapitels werden auf Basis der in Kapitel \ref{cha:anforderungen} genannten Anforderung an das Werkzeug die den Benutzern mitzuteilenden Informationen identifiziert, noch ohne konkret auf die technologische Realisierung der Ausgabekanäle einzugehen. Im darauf folgenden Abschnitt werden die technischen Möglichkeiten zur Ausgabe von Information betrachtet. Im Anschluss werden diese Möglichkeiten hinsichtlich ihrer Eignung für die im konkreten Anwendungsfall auszugebende Information bewertet und entsprechend zugeordnet.
 
 Auf Basis der grundsätzlichen Technologieentscheidung werden in der Folge Software-Frameworks beschrieben, die die Realisierung der gewählten Ausgabekanäle ermöglichen. Die Entscheidung für ein konkretes Framework wird auf Basis der funktionalen und nicht-funktionalen Anforderungen an die Ausgabe und deren Umsetzung getroffen. Der letzte Abschnitt beschreibt die eigentliche Umsetzung der Ausgabekanäle mittels der gewählten Technologie und geht die spezifischen Eigenschaften und Implementierungsentscheidungen der vorgestellten Lösung ein.
 

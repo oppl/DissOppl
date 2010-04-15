@@ -3,6 +3,13 @@
 
 Dieses Kapitel dient der Überleitung von den bislang auf konzeptioneller Ebene beschriebenen Überlegungen hin zur tatsächlichen Umsetzung der Werkzeugunterstützung für „Articulation Work“ mittels mentaler Modelle. Basierend auf den Erkenntnissen aus den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} sowie der in Kapitel \ref{cha:methodik} entwickelten Methodik werden hier die funktionalen Anforderungen an das Werkzeug beschrieben.
 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[scale=0.75]{img/Kontextgrafiken/k5.png}
+	\caption{Kapitel „Anforderungen an ein Werkzeug“ im Gesamtzusammenhang}
+	\label{fig:img_Kontextgrafiken_k5}
+\end{figure}
+
 Die Anforderungen lassen sich jeweils auf einen von drei Aspekten zurückführen, die in den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} beschrieben sind. Größtenteils sind sie direkte Konsequenzen auf den Vorgaben hinsichtlich Struktur und Vorgehen, die von Strukturlegetechniken oder Concept Mapping gemacht werden. Es ist jedoch zusätzlich notwendig, auf die zur Durchführung expliziter „Articulation Work“ selbst zurückzugreifen, um die Eignung des Werkzeugs nicht nur für generische Externalisierung von mentalen Modellen selbst sicherzustellen. Vielmehr muss auch die Berücksichtigung der speziellen Anwendungsbedingungen und Betrachtungsgegenstände im Rahmen von „Articulation Work“ gewährleistet werden.
 
 \section{Anforderungen aus Strukturlegetechniken} % (fold)
@@ -103,6 +110,21 @@ Die persistente Ablage eines Modells (z.B. als digitale Repräsentation) und Wer
 
 % section anforderungen_aus_articulation_work (end)
 
+\section{Grundlegende Technologieentscheidung} % (fold)
+\label{sec:grundlegende_technologieentscheidung}
+
+Basierend auf den oben identifizierten Anforderungen kann nun eine grundlegende Entscheidung hinsichtlich der Technologie zur Umsetzung der Werkzeugunterstützung getroffen werden. Aufgrund der Anforderungen, die aus dem Bereich der „Strukturlegetechniken“ sowie „Articulation Work“ selbst abgeleitet wurden, ist die Unterstützung durch ein Werkzeug notwendig, das die Erstellung und Repräsentation der Modelle im physischen Raum ermöglicht.
+
+Ein Teil der Anforderungen, die im Bereich des „Concept Mapping“ und ebenfalls wieder der „Articulation Work“ identifiziert werden konnten, können hingegen nur realisiert werden, wenn das Werkzeug mit rechner-unterstützter Funktionalität angereichert wird.
+
+Einerseits ist es nun also notwendig, das Modell physisch abzubilden, was der Verwendung eines Werkzeugs mit  bildschirmbasierter Benutzungsschnittstelle entgegensteht. Andererseits ist zur Umsetzung mancher Anforderungen die Verwendung eines Rechners notwendig, so dass das Modell auch digital erfasst und repräsentiert werden muss.
+
+Ein Ansatz der Mensch-Maschine-Interaktion, der die Verwendung von interaktiven Systemen mit nicht-traditionellen Benutzungsschnittstellen untersucht, ist jener der \emph{„Tangible Interfaces“}. Als „Tangible Interfaces“ werden im Allgemeinen Benutzungsschnittstellen bezeichnet, die ein Computersystem mit auf den jeweiligen Anwendungsfall abgestimmten physischen Artefakten kontrollierbar machen, die gleichzeitig zur Informationsausgabe durch das Computersystem verwendet werden.
+
+Für den hier vorliegenden Anwendungsfall -- der interaktiven kooperativen Erstellung von diagrammatischen Modellen -- bietet sich die Verwendung eines \emph{„Tangible Tabletop Interface“} an. Als Spezialfall eines „Tangible Interface“ wird hier eine Tischoberfläche als Ein- und Ausgabekanal verwendet, auf dem physische Artefakte zur Interaktion mit dem System verwendet werden. Die Ähnlichkeit dieses Ansatzes mit dem Anwendungsszenario im Falle von „Strukturlegetechniken“ lässt eine Verwendung zur Umsetzung der in dieser Arbeit zu entwickelnden Werkzeug als sinnvoll erscheinen. 
+
+% section grundlegende_technologieentscheidung (end)
+
 \section{Zusammenfassung}
 \label{sec:anforderungen_zusammenfassung}
 
@@ -112,6 +134,6 @@ Im letzten Abschnitt dieses Kapitels wurde auf Basis der Ergebnisse der Anforder
 
 In den folgenden Kapiteln wird nun aufbauend auf der Grundsatzentscheidung für die Entwicklung eines „Tangible Interfaces“ das Werkzeug in allen in den Anforderungen angesprochenen Aspekten spezifiziert. Zusätzlich sind auch jeweils die konkrete technische Umsetzung sowie allfällige Einschränkungen, die diese Umsetzung mit sich brachte, beschrieben.
 
-Kapitel \ref{cha:implementierung_Überblick} geht -- noch unabhängig von dem konkreten hier entwickelten Werkzeug -- auf die Eigenschaften von Tangible Interfaces und deren Spezifikation ein. Daneben wird in diesem Kapitel auch die „related work“ aus konzeptioneller und technischer Sicht aufgearbeitet. In den Kapiteln \ref{cha:input_&_interpretation}, \ref{cha:visualisierung} und \ref{cha:persistierung} werden die Implementierungsalternativen und die konkrete Umsetzung des Werkzeugs getrennt für die Eingabe von Information (also die Modellbildung selbst), die Ausgabe von Information sowie die Sicherstellung der Persistierung der Modelle beschrieben. Die Überprüfung der Erfüllung der hier spezifizierten Anforderungen ist Gegenstand der Kapitel \ref{cha:eval_werkzeug} und \ref{cha:eval_modell}, die Teil der Beschreibung der Evaluierung des hier entwickelten Systems sind.
+Kapitel \ref{cha:implementierung_Überblick} geht -- noch unabhängig von dem konkreten hier entwickelten Werkzeug -- auf die Eigenschaften von Tangible Interfaces und deren Spezifikation ein. Daneben wird in diesem Kapitel auch die „Related Qork“ aus konzeptioneller und technischer Sicht aufgearbeitet. In den Kapiteln \ref{cha:input_&_interpretation}, \ref{cha:visualisierung} und \ref{cha:persistierung} werden die Implementierungsalternativen und die konkrete Umsetzung des Werkzeugs getrennt für die Eingabe von Information (also die Modellbildung selbst), die Ausgabe von Information sowie die Sicherstellung der Persistierung der Modelle beschrieben. Die Überprüfung der Erfüllung der hier spezifizierten Anforderungen ist Gegenstand der Kapitel \ref{cha:eval_werkzeug} und \ref{cha:eval_modell}, die Teil der Beschreibung der Evaluierung des hier entwickelten Systems sind.
 
 % chapter anforderungen (end)
