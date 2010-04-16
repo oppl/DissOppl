@@ -1,7 +1,10 @@
+% final draft
+% todo: Interkapitel-Referenzen, Kontextgrafik
+
 \chapter{Anforderungen an ein Werkzeug} % (fold)
 \label{cha:anforderungen}
 
-Dieses Kapitel dient der Überleitung von den bislang auf konzeptioneller Ebene beschriebenen Überlegungen hin zur tatsächlichen Umsetzung der Werkzeugunterstützung für „Articulation Work“ mittels mentaler Modelle. Basierend auf den Erkenntnissen aus den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} sowie der in Kapitel \ref{cha:methodik} entwickelten Methodik werden hier die funktionalen Anforderungen an das Werkzeug beschrieben.
+Dieses Kapitel dient der Überleitung von den bislang auf konzeptueller Ebene beschriebenen Überlegungen hin zur tatsächlichen Umsetzung der Werkzeugunterstützung für „Articulation Work“ mittels der Externalisierung und Abstimmung mentaler Modelle. Basierend auf den Erkenntnissen aus den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} sowie der in Kapitel \ref{cha:methodik} entwickelten Methodik werden hier die funktionalen Anforderungen an das Werkzeug beschrieben.
 
 \begin{figure}[htbp]
 	\centering
@@ -10,7 +13,7 @@ Dieses Kapitel dient der Überleitung von den bislang auf konzeptioneller Ebene 
 	\label{fig:img_Kontextgrafiken_k5}
 \end{figure}
 
-Die Anforderungen lassen sich jeweils auf einen von drei Aspekten zurückführen, die in den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} beschrieben sind. Größtenteils sind sie direkte Konsequenzen auf den Vorgaben hinsichtlich Struktur und Vorgehen, die von Strukturlegetechniken oder Concept Mapping gemacht werden. Es ist jedoch zusätzlich notwendig, auf die zur Durchführung expliziter „Articulation Work“ selbst zurückzugreifen, um die Eignung des Werkzeugs nicht nur für generische Externalisierung von mentalen Modellen selbst sicherzustellen. Vielmehr muss auch die Berücksichtigung der speziellen Anwendungsbedingungen und Betrachtungsgegenstände im Rahmen von „Articulation Work“ gewährleistet werden.
+Die Anforderungen lassen sich jeweils auf einen von drei dieser Arbeit zugrunde liegenden Ansätzen zurückführen, die in den Kapiteln \ref{cha:articulation_work} und \ref{cha:mentale_modelle} beschrieben sind. Größtenteils sind sie direkte Konsequenzen auf den Vorgaben hinsichtlich Struktur und Vorgehen, die von Strukturlegetechniken oder Concept Mapping gemacht werden. Es ist jedoch zusätzlich notwendig, auf die zur Durchführung expliziter „Articulation Work“ selbst zurückzugreifen, um die Eignung des Werkzeugs nicht nur für generische Externalisierung von mentalen Modellen selbst sicherzustellen. Vielmehr muss auch die Berücksichtigung der speziellen Anwendungsbedingungen und Betrachtungsgegenstände im Rahmen von „Articulation Work“ gewährleistet werden.
 
 \section{Anforderungen aus Strukturlegetechniken} % (fold)
 \label{sec:anforderungen_aus_strukturlegetechniken}
@@ -43,7 +46,6 @@ Im Sinne der Unterstützung der Dialog-Konsens-Methodik sind ist der Austausch �
 \end{anf}
  % (fold)
 
-
 Es muss möglich sein, das Modell experimentell zu verändern und ggf. zu einem früheren stabilen Modellzustand zurückzukehren. Dies erlaubt eine konsequenzlose Erkundung von Lösungsräumen und unterstützt damit den Dialog-Konsens-Prozess. Das Werkzeug muss also stabile Modellzustände erfassen und deren Rekonstruktion unterstützen.
 
 % paragraph ermöglichung_experimenteller_veränderungen_am_modell (end)
@@ -59,7 +61,7 @@ Es muss möglich sein, das Modell experimentell zu verändern und ggf. zu einem 
 \end{anf}
  % (fold)
 
-Wie oben bereits argumentiert, sind zur Unterstützung von expliziter „Articulation Work“ vor allem Varianten von Strukturlegetechniken geeignet, die im Sinne von Concept Mapping keine Vorgaben hinsichtlich der zu verwendenden Konzepte und Verknüpfungen machen. Das Werkzeug muss dementsprechend die Offenheit bieten, beliebige Klassen von Konzepten und Verknüpfungen zu definieren (z.B. Klasse „organisationale Rolle“) und von diesen beliebige Instanzen zu bilden und zu benennen (z.B. Instanz „Geschäftsführer“). Gleichzeitig muss sichergestellt werden, dass die festgelegte Semantik im Modell mit abgebildet wird und nicht verloren geht.
+Wie oben bereits argumentiert und auch aus \citet{Seel91}\footnote{siehe Seite \pageref{anforderungen_seel} in dieser Arbeit} abzuleiten, sind zur Unterstützung von expliziter „Articulation Work“ vor allem Varianten von Strukturlegetechniken geeignet, die im Sinne von Concept Mapping keine Vorgaben hinsichtlich der zu verwendenden Konzepte und Verknüpfungen machen. Das Werkzeug muss dementsprechend die Offenheit bieten, beliebige Klassen von Konzepten und Verknüpfungen zu definieren (z.B. Klasse „organisationale Rolle“) und von diesen beliebige Instanzen zu bilden und zu benennen (z.B. Instanz „Geschäftsführer“). Gleichzeitig muss sichergestellt werden, dass die festgelegte Semantik im Modell mit abgebildet wird und nicht verloren geht.
 
 % paragraph nicht_vorgegebene_semantik_der_modellierungselemente (end)
 
@@ -69,8 +71,7 @@ Wie oben bereits argumentiert, sind zur Unterstützung von expliziter „Articul
 \end{anf}
  % (fold)
 
-
-Die Einbindung von digitalen Ressourcen (Dateien, Hyperlinks,...) ermöglicht die Einbindung des Modells in den organisationalen Kontext und erleichtert so einerseits die Verständnisbildung und ermöglicht andererseits die Verwendung der Repräsentation als unmittelbare Handlungsanleitung mit Verknüpfungen zu den betroffenen Arbeitsgegenständen.
+Die Einbindung von digitalen Ressourcen (Dateien, Hyperlinks,...) ermöglicht die Einbindung des Modells in den organisationalen Kontext und erleichtert so einerseits die Verständnisbildung und ermöglicht andererseits die Verwendung der Repräsentation als unmittelbare Handlungsanleitung mit Verknüpfungen zu den betroffenen Arbeitsgegenständen (siehe dazu auch die Beschreibung von \citep{Jorgensen04} auf Seite \pageref{steps:jorgensen} in dieser Arbeit).
 
 % paragraph verknüpfung_mit_digitalen_ressourcen (end)
 
@@ -104,7 +105,7 @@ Zur Unterstützung von expliziter „Articulation Work“ muss das Werkzeug koop
 \end{anf}
  % (fold)
 
-Die persistente Ablage eines Modells (z.B. als digitale Repräsentation) und Werkzeugunterstützung zur Rekonstruktion eines abgelegten Modells erlaubt die Wiederaufnahme eines unterbrochenen Strukturlegeprozesses bzw. die Reflexion und Anpassung bereits erstellter Modelle zu einem späteren Zeitpunkt\footnote{\emph{„By recording and replaying the authoring process, navigable history can re-situate an author after a gap in the authoring process. Similarly, in a collaborative authoring process, an author can play through the events since his/her last authoring session to quickly determine the activity of the other authors. Finally, in many situations, information becomes harder to interpret as its context changes over time. By returning to the state of the information space at the time of authoring, disambiguation of the information may become possible. For the reader who is not also the writer of the hypertext there are additional uses of navigable history. A reader replaying the author’s writing process can gain insight into the motivation of the author and have a greater understanding of the author’s writing style. Such an understanding is important in collaborative work and in other contexts, like education and literary analysis.“} \citep{Shipman00}}.
+Die persistente Ablage eines Modells (z.B. als digitale Repräsentation) und Werkzeugunterstützung zur Rekonstruktion eines abgelegten Modells erlaubt die Wiederaufnahme eines unterbrochenen Strukturlegeprozesses bzw. die Reflexion und Anpassung bereits erstellter Modelle zu einem späteren Zeitpunkt. Diese Forderung wird auch von \citet{Herrmann02} angeführt (siehe Seite \pageref{steps:herrmann} in dieser Arbeit) und unter anderem von \citet{Shipman00} zur Nachvollziehbarkeit bei Erstellung und Konsum von vernetzen Inhalten (dort: Hypertext) vorgeschlagen\footnote{\emph{„By recording and replaying the authoring process, navigable history can re-situate an author after a gap in the authoring process. Similarly, in a collaborative authoring process, an author can play through the events since his/her last authoring session to quickly determine the activity of the other authors. Finally, in many situations, information becomes harder to interpret as its context changes over time. By returning to the state of the information space at the time of authoring, disambiguation of the information may become possible. For the reader who is not also the writer of the hypertext there are additional uses of navigable history. A reader replaying the author’s writing process can gain insight into the motivation of the author and have a greater understanding of the author’s writing style. Such an understanding is important in collaborative work and in other contexts, like education and literary analysis.“} \citep{Shipman00}}.
 
 % paragraph persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion (end)
 
