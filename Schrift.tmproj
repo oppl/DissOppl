@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Grundlagen.tex</string>
+	<string>Methodik.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2010-04-23T13:41:34Z</date>
+			<date>2010-04-23T19:32:56Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -28,7 +28,7 @@
 			<key>filename</key>
 			<string>Einfuehrung.tex</string>
 			<key>lastUsed</key>
-			<date>2010-04-23T12:38:20Z</date>
+			<date>2010-04-23T20:32:18Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -37,27 +37,33 @@
 					<key>filename</key>
 					<string>Grundlagen.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-23T14:23:04Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2010-04-23T20:30:56Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>ArticulationWork.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-23T14:05:17Z</date>
+					<date>2010-04-23T20:27:35Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>MentaleModelle.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-23T14:05:17Z</date>
+					<date>2010-04-23T20:30:54Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Methodik.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-21T20:28:53Z</date>
+					<date>2010-04-23T20:32:18Z</date>
+					<key>selected</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>ExkursMOT.tex</string>
+					<key>lastUsed</key>
+					<date>2010-04-23T20:24:45Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -84,25 +90,25 @@
 					<key>filename</key>
 					<string>ImplementierungUeberblick.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-22T20:47:52Z</date>
+					<date>2010-04-23T19:02:41Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>ImplementierungInput.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-23T14:05:17Z</date>
+					<date>2010-04-23T19:14:21Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>ImplementierungOutput.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-23T14:05:17Z</date>
+					<date>2010-04-23T19:21:01Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>ImplementierungPersistence.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-21T12:35:34Z</date>
+					<date>2010-04-23T19:32:05Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -117,25 +123,25 @@
 					<key>filename</key>
 					<string>Evaluierung.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-23T14:22:58Z</date>
+					<date>2010-04-23T19:33:01Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>KonzeptuelleEvaluierung.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-21T20:30:12Z</date>
+					<date>2010-04-23T19:04:47Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>EvalUeberblick.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-23T14:22:51Z</date>
+					<date>2010-04-23T19:35:53Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>EvalTUI.tex</string>
 					<key>lastUsed</key>
-					<date>2010-04-21T20:32:05Z</date>
+					<date>2010-04-23T19:36:34Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -234,6 +240,34 @@
 	<integer>176</integer>
 	<key>metaData</key>
 	<dict>
+		<key>ArticulationWork.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>655</integer>
+				<key>line</key>
+				<integer>798</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>338</integer>
+			<key>firstVisibleLine</key>
+			<integer>794</integer>
+		</dict>
+		<key>Einfuehrung.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>27</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>72</integer>
+		</dict>
 		<key>EvalModell.tex</key>
 		<dict>
 			<key>caret</key>
@@ -283,7 +317,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
+				<integer>24</integer>
 				<key>line</key>
 				<integer>5</integer>
 			</dict>
@@ -296,14 +330,14 @@
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>7</integer>
 				<key>line</key>
 				<integer>5</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
+				<integer>26</integer>
 				<key>line</key>
 				<integer>5</integer>
 			</dict>
@@ -315,7 +349,37 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>21</integer>
+				<integer>1</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>23</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<key>ExkursMOT.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>43</integer>
+				<key>line</key>
+				<integer>2</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -327,14 +391,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1226</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>15</integer>
+				<integer>1</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
 		</dict>
 		<key>ImplementierungAnforderungen.tex</key>
 		<dict>
@@ -350,6 +430,96 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>ImplementierungInput.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>55</integer>
+				<key>line</key>
+				<integer>708</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>701</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>708</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>55</integer>
+				<key>line</key>
+				<integer>708</integer>
+			</dict>
+		</dict>
+		<key>ImplementierungOutput.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>424</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>216</integer>
+			<key>firstVisibleLine</key>
+			<integer>393</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>52</integer>
+				<key>line</key>
+				<integer>424</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>424</integer>
+			</dict>
+		</dict>
+		<key>ImplementierungPersistence.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>292</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>451</integer>
+			<key>firstVisibleLine</key>
+			<integer>286</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>47</integer>
+				<key>line</key>
+				<integer>292</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>292</integer>
+			</dict>
+		</dict>
 		<key>ImplementierungUeberblick.tex</key>
 		<dict>
 			<key>caret</key>
@@ -357,7 +527,37 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
+				<integer>147</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>96</integer>
+			<key>firstVisibleLine</key>
+			<integer>135</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>56</integer>
+				<key>line</key>
+				<integer>147</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
 				<integer>0</integer>
+				<key>line</key>
+				<integer>147</integer>
+			</dict>
+		</dict>
+		<key>KonzeptuelleEvaluierung.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>38</integer>
+				<key>line</key>
+				<integer>4</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
@@ -370,15 +570,57 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>2</integer>
+				<integer>4</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
+				<integer>38</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+		</dict>
+		<key>MentaleModelle.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1442</integer>
+				<key>line</key>
+				<integer>87</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>1296</integer>
+			<key>firstVisibleLine</key>
+			<integer>87</integer>
+		</dict>
+		<key>Methodik.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>174</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>221</integer>
+			<key>firstVisibleLine</key>
+			<integer>159</integer>
+		</dict>
+		<key>Schrift.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>156</integer>
 			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>126</integer>
 		</dict>
 		<key>Werkzeug.tex</key>
 		<dict>
@@ -398,6 +640,18 @@
 	<key>openDocuments</key>
 	<array>
 		<string>Grundlagen.tex</string>
+		<string>Einfuehrung.tex</string>
+		<string>MentaleModelle.tex</string>
+		<string>Methodik.tex</string>
+		<string>ExkursMOT.tex</string>
+		<string>Schrift.tex</string>
+		<string>ImplementierungPersistence.tex</string>
+		<string>ImplementierungOutput.tex</string>
+		<string>EvalTUI.tex</string>
+		<string>ImplementierungInput.tex</string>
+		<string>KonzeptuelleEvaluierung.tex</string>
+		<string>ArticulationWork.tex</string>
+		<string>ImplementierungUeberblick.tex</string>
 		<string>EvalUeberblick.tex</string>
 		<string>Evaluierung.tex</string>
 		<string>Werkzeug.tex</string>
@@ -441,6 +695,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{268, 20}, {1072, 830}}</string>
+	<string>{{301, 48}, {1072, 830}}</string>
 </dict>
 </plist>
