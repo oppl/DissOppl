@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.0.85
-lastDocument=Einfuehrung.tex
+lastDocument=Schlussbetrachtungen.tex
 masterDocument=Schrift.tex
 name=Schrift
 pkg_extIsRegExp=false
@@ -24,6 +24,14 @@ Indentation Mode=
 Mode=LaTeX
 ReadWrite=true
 
+[document-settings,item:AnhangEmpirie.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=
+Mode=LaTeX
+ReadWrite=true
+
 [document-settings,item:ArticulationWork.tex]
 Bookmarks=
 Encoding=UTF-8
@@ -33,6 +41,14 @@ Mode=LaTeX
 ReadWrite=true
 
 [document-settings,item:Einfuehrung.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=
+Mode=LaTeX
+ReadWrite=true
+
+[document-settings,item:EvalAW.tex]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=LaTeX
@@ -64,7 +80,31 @@ Indentation Mode=
 Mode=LaTeX
 ReadWrite=true
 
-[document-settings,item:Externalisierung.tex]
+[document-settings,item:ImplementierungAnforderungen.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=
+Mode=LaTeX
+ReadWrite=true
+
+[document-settings,item:ImplementierungInput.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=
+Mode=LaTeX
+ReadWrite=true
+
+[document-settings,item:ImplementierungOutput.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=
+Mode=LaTeX
+ReadWrite=true
+
+[document-settings,item:Schlussbetrachtungen.tex]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=LaTeX
@@ -100,14 +140,24 @@ mode=LaTeX
 open=false
 order=3
 
+[item:AnhangEmpirie.tex]
+archive=true
+column=289
+encoding=UTF-8
+highlight=LaTeX
+line=3
+mode=LaTeX
+open=true
+order=4
+
 [item:ArticulationWork.tex]
 archive=true
-column=1210
+column=0
 encoding=UTF-8
 highlight=LaTeX
 line=62
 mode=LaTeX
-open=true
+open=false
 order=3
 
 [item:Bildquellen.tex]
@@ -122,43 +172,43 @@ order=-1
 
 [item:Einfuehrung.tex]
 archive=true
-column=478
+column=355
 encoding=UTF-8
 highlight=LaTeX
-line=103
+line=21
 mode=LaTeX
 open=true
-order=2
+order=6
 
 [item:EvalAW.tex]
 archive=true
-column=0
+column=14
 encoding=UTF-8
 highlight=LaTeX
-line=0
-mode=
-open=false
-order=0
+line=47
+mode=LaTeX
+open=true
+order=5
 
 [item:EvalModell.tex]
 archive=true
-column=10
+column=1304
 encoding=UTF-8
 highlight=LaTeX
-line=319
+line=53
 mode=LaTeX
 open=true
-order=0
+order=3
 
 [item:EvalTUI.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=80
 mode=LaTeX
-open=false
-order=2
+open=true
+order=8
 
 [item:EvalUeberblick.tex]
 archive=true
@@ -180,16 +230,6 @@ mode=
 open=false
 order=1
 
-[item:Externalisierung.tex]
-archive=true
-column=0
-encoding=UTF-8
-highlight=LaTeX
-line=7
-mode=LaTeX
-open=true
-order=1
-
 [item:Grundlagen.tex]
 archive=true
 column=0
@@ -202,33 +242,33 @@ order=2
 
 [item:ImplementierungAnforderungen.tex]
 archive=true
-column=49
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=74
-mode=
-open=false
+line=50
+mode=LaTeX
+open=true
 order=1
 
 [item:ImplementierungInput.tex]
 archive=true
-column=14
+column=177
 encoding=UTF-8
 highlight=LaTeX
-line=323
-mode=
-open=false
-order=2
+line=876
+mode=LaTeX
+open=true
+order=0
 
 [item:ImplementierungOutput.tex]
 archive=true
-column=26
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=1
-mode=
-open=false
-order=5
+line=389
+mode=LaTeX
+open=true
+order=2
 
 [item:ImplementierungPersistence.tex]
 archive=true
@@ -282,13 +322,13 @@ order=-1
 
 [item:Schlussbetrachtungen.tex]
 archive=true
-column=170
+column=3
 encoding=UTF-8
 highlight=LaTeX
-line=36
-mode=
-open=false
-order=3
+line=0
+mode=LaTeX
+open=true
+order=9
 
 [item:Schrift.tex]
 archive=true
@@ -297,27 +337,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=false
-order=0
-
-[item:Untersuchungsdesign.tex]
-archive=true
-column=87
-encoding=UTF-8
-highlight=LaTeX
-line=20
-mode=
-open=false
-order=5
-
-[item:Untersuchungsergebnisse.tex]
-archive=true
-column=42
-encoding=UTF-8
-highlight=LaTeX
-line=0
-mode=
-open=false
+open=true
 order=7
 
 [item:Werkzeug.tex]
@@ -344,29 +364,49 @@ order=-1
 CursorColumn=0
 CursorLine=0
 
+[view-settings,view=0,item:AnhangEmpirie.tex]
+CursorColumn=289
+CursorLine=3
+
 [view-settings,view=0,item:ArticulationWork.tex]
-CursorColumn=1210
+CursorColumn=0
 CursorLine=62
 
 [view-settings,view=0,item:Einfuehrung.tex]
-CursorColumn=478
-CursorLine=103
+CursorColumn=355
+CursorLine=21
+
+[view-settings,view=0,item:EvalAW.tex]
+CursorColumn=14
+CursorLine=47
 
 [view-settings,view=0,item:EvalModell.tex]
-CursorColumn=10
-CursorLine=319
+CursorColumn=1304
+CursorLine=53
 
 [view-settings,view=0,item:EvalTUI.tex]
 CursorColumn=0
-CursorLine=0
+CursorLine=80
 
 [view-settings,view=0,item:EvalUeberblick.tex]
 CursorColumn=0
 CursorLine=0
 
-[view-settings,view=0,item:Externalisierung.tex]
+[view-settings,view=0,item:ImplementierungAnforderungen.tex]
 CursorColumn=0
-CursorLine=7
+CursorLine=50
+
+[view-settings,view=0,item:ImplementierungInput.tex]
+CursorColumn=177
+CursorLine=876
+
+[view-settings,view=0,item:ImplementierungOutput.tex]
+CursorColumn=0
+CursorLine=389
+
+[view-settings,view=0,item:Schlussbetrachtungen.tex]
+CursorColumn=3
+CursorLine=0
 
 [view-settings,view=0,item:Schrift.tex]
 CursorColumn=0
