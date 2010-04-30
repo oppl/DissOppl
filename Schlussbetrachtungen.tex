@@ -5,7 +5,7 @@
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[scale=0.7]{img/Kontextgrafiken/k15.png}
+		\includegraphics[scale=0.6]{img/Kontextgrafiken/k15.png}
 	\caption{Kapitel „Schussbetrachtungen“ im Gesamtzusammenhang}
 	\label{fig:img_Kontextgrafiken_k15}
 \end{figure}
@@ -46,25 +46,27 @@ noch offen
 
 In diesem Abschnitt werden die in Kapitel \ref{cha:anforderungen} formulierten Anforderungen an das Werkzeug hinsichtlich ihrer Erfüllung betrachtet. Die Beurteilung der Erfüllung erfolgt anhand der empirischen Ergebnisse, die in den Kapiteln \ref{cha:eval_werkzeug}, \ref{cha:eval_modell} und \ref{cha:eval_aw} beschrieben wurden.
 
-Anforderung \ref{anf:physische_abbildung_legen_beliebiger_diagrammatischer_modelle} (Physische Abbildung beliebiger diagrammatischer Modelle) wurde in den Hypothesen \ref{hyp:diagmodelle}, \ref{hyp:behinderung} und \ref{hyp:gewöhnung} untersucht.
+Anforderung \ref{anf:physische_abbildung_legen_beliebiger_diagrammatischer_modelle} (Physische Abbildung beliebiger diagrammatischer Modelle) wurde in den Hypothesen \ref{hyp:diagmodelle}, \ref{hyp:behinderung} und \ref{hyp:gewöhnung} untersucht. Die grundlegende Abbildung diagrammatischer Modelle mit dem Werkzeug ist ohne Einschränkung der Anwendungsdomäne möglich. Bei der Untersuchung des Prozesses der physischen Abbildung der Modelle konnten in den ersten durchgeführten Evaluierungsblöcken behindernde Aspekte identifiziert werden. Diese hatten Einfluss auf die Abbildung der Modelle, insbesondere die Möglichkeit des Einsatzes von Verbindern im Modell wurde nur eingeschränkt wahrgenommen. Nach Überarbeitungen des Interaktionsdesigns und der Implementierung meherer Maßnahmen zur Steigerung der Robustheit gegenüber Fehlerkennungen von Benutzereingaben waren jedoch keine behindernde Faktoren mehr zu identifzieren. Bei mehrmaliger Verwendung des Werkzeugs zeigt sich eine Verbesserung des Umgangs mit den zur Verfügung gestellten Ausdrucksmöglichkeiten und eine stärke Fokussierung auf den zu räpresentierenden Sachverhalt. Insgesamt kann diese Anforderung als erfüllt angesehen werden.
 
-Anforderung \ref{anf:unterstützung_der_iterativen_aushandlung_des_modells} (Unterstützung der iterativen Aushandlung des Modells) wurde in der Hypothese \ref{hyp:abstimmung} untersucht.
+\todo Anforderung \ref{anf:unterstützung_der_iterativen_aushandlung_des_modells} (Unterstützung der iterativen Aushandlung des Modells) wurde in der Hypothese \ref{hyp:abstimmung} untersucht.
 
-Anforderung \ref{anf:ermöglichung_experimenteller_veränderungen_am_modell} (Ermöglichung experimenteller Veränderungen am Modell) wurde in der Hypothese \ref{hyp:wiederherstellung} untersucht.
+Anforderung \ref{anf:ermöglichung_experimenteller_veränderungen_am_modell} (Ermöglichung experimenteller Veränderungen am Modell) wurde in der Hypothese \ref{hyp:wiederherstellung} untersucht. Experimentelle Veränderungen am Modell werden durch die Unterstützung der Wiederherstellung von vergangenen Modellzuständen realisiert. Diese Funktion wurde technisch implementiert und hinsichtlich ihrer Funktionsfähigkeit getestet. Diese ist vollständig gegeben. In der empirischen Untersuchung wurde die Funktionalität von den Teilnehmern jedoch nicht genutzt, so dass die Erfüllung der Anforderung empirisch nicht bestätigt werden kann. Aus den Ergebnissen der Untersuchung ist vielmehr zu hinterfragen, ob diese aus der Theorie der Externalisierung mentaler Modelle abgeleitete Anforderung in der Praxis tatsächlich relevant ist.
 
-Anforderung \ref{anf:nicht_vorgegebene_semantik_der_modellierungselemente} (Nicht vorgegebene Semantik der Modellierungselemente) wurde in den Hypothesen \ref{hyp:kontexte} und \ref{hyp:keine_einschränkung} untersucht.
+\todo Anforderung \ref{anf:nicht_vorgegebene_semantik_der_modellierungselemente} (Nicht vorgegebene Semantik der Modellierungselemente) wurde in den Hypothesen \ref{hyp:kontexte} und \ref{hyp:keine_einschränkung} untersucht. 
 
-Anforderung \ref{anf:verknüpfung_mit_digitalen_ressourcen} (Verknüpfung mit digitalen Ressourcen) wurde im Rahmen der empirischen Untersuchung nicht berücksichtigt.
+Anforderung \ref{anf:verknüpfung_mit_digitalen_ressourcen} (Verknüpfung mit digitalen Ressourcen) wurde im Rahmen der empirischen Untersuchung nicht berücksichtigt. Die Verknüpfung mit digitalen Ressourcen wurde analog zur Funktion zur Einbettung von Teilmodellen implementiert. Digitale Dokumente können an einbettbare Tokens gebunden werden und in einem Container durch Hineinlegen zugewiesen werden. Diese Funktionalität wurde technisch implementiert und hinsichtlich ihrer Funktionsfähigkeit getestet. Im Rahmen der Evaluierung wurde das Werkzeug ausschließlich mit einem Rechner betrieben, auf dem keine fallspezifischen bzw. anwendungsrelevanten digitalen Dokumente vorhanden waren. Die Einbindung von Dokumenten in Modelle konnte deswegen nicht vorgenommen werden. Die Anforderung ist also technisch erfüllt, konnte jedoch empirisch nicht überprüft werden. 
 
-Anforderung \ref{anf:bearbeitung_von_beliebig_komplexen_modellen} (Bearbeitung von beliebig umfangreicher Modellen) wurde in der Hypothese \ref{hyp:beliebige_komplexität} untersucht.
+Anforderung \ref{anf:bearbeitung_von_beliebig_komplexen_modellen} (Bearbeitung von beliebig umfangreicher Modellen) wurde in der Hypothese \ref{hyp:beliebige_komplexität} untersucht. Durch die phyisch beschränkte Größe der Modellierungsfläche konnte die Erweiterung der Modellgröße lediglich durch die Erstellung von Teilmodellen erreicht werden, wobei deren Zusammenhang durch die Einbettung der Teilmodelle in Überblicksmodelle ausgedrückt wird. Die Einbettbarkeit von Teilmodellen wurde mittels der Verwendung von Modellierungsblöcken als Container realisiert, in die Tokens als Repräsentaten der Teilmodelle gelegt werden können. Die dazu notwendigen Funktionen wurden technisch implementiert und hinsichtlich ihrer Funktionsfähigkeit erfolgreich getestet. Auch in der empirischen Untersuchen wurde die Erweiterung der Modellgröße durch Einbettung von Teilmodellen erfolgreich eingesetzt. Im Vergleich der erstellten Modelle mit Modellen, die mit einem Werkzeug mit nicht beschränkter Modellierungsfläche erstellt wurden, zeigte sich jedoch eine signifikant geringere Modellgröße bei der Erstellung mit dem hier vorgestellten System. Die Erstellung beliebig großer Modelle ist somit technisch grundsätzlich möglich und auch verwendbar, empirisch konnte die Erfüllung der Anforderung dennoch nicht nachgewiesen werden.
 
-Anforderung \ref{anf:kollaborative_und_unmittelbare_manipulierbarkeit_des_modells} (Kooperative und unmittelbare Manipulierbarkeit des Modells) wurde in den Hypothesen \ref{hyp:kollaborativ} und \ref{hyp:stärkere_kooperation} untersucht.
+Anforderung \ref{anf:kollaborative_und_unmittelbare_manipulierbarkeit_des_modells} (Kooperative und unmittelbare Manipulierbarkeit des Modells) wurde in den Hypothesen \ref{hyp:kollaborativ} und \ref{hyp:stärkere_kooperation} untersucht. Die Möglichkeit, Modelle kooperativ zu erstellen und zu manipulieren, ist grundsätzlich gegeben, die Möglichkeit der Durchführung eines kooperativen Modellierungsprozesses konnte empirisch belegt werden. Im Vergleich zu einem bildschirmbasierten System zeigt sich außerdem ein signifikant höherer Anteil an Interaktion zwischen den Teilnehmern bei der Durchführung der Modellierung mit dem hier vorgestellten System. Die Anforderung kann somit als erfüllt angesehen werden.
 
-Anforderung \ref{anf:persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion} (Persistente Ablage des Modells und Möglichkeit zur Rekonstruktion) wurde in der Hypothese \ref{hyp:historie} untersucht.
+Anforderung \ref{anf:persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion} (Persistente Ablage des Modells und Möglichkeit zur Rekonstruktion) wurde in der Hypothese \ref{hyp:historie} untersucht. Die Persistente Ablage der erstellten Modelle wurde mittels XML-Topic Maps realisiert. Die Funktionsfähigkeit der Persistierung wurde insofern technisch nachgewiesen, als dass die exportierten Modellrepräsentationen valide \gls{XTM}-Dateien waren und sämtliche auf der Modellierungsoberfläche repräsentierte Information in der Datei abgebildet war. Hinsichtlich der Ermöglichung der Rekonstruktion und der Nachvollziehbarkeit des Modellierungsprozesses konnte gezeigt werden, dass die bei der Persistierung inkludierte Entstehungshistorie des Modells die Nachvollziehbarkeit der im Modell repräsentierten Information ermöglichte und die Rekonstruktion mittels der Wiederherstellungsunterstützung möglich ist. Die Anforderung kann damit als erfüllt angesehen werden.
 
-Zusammenfassend ergibt sich hinsichtlich der Erfüllung der Anforderungen folgende Übersicht. In ihr sind die Anforderungen jenen Kapiteln und Abschnitten des Implementierungsteils (\emph{Impl.}) zugewiesen, in denen ihre technische Umsetzung beschrieben wird, sowie den Hypothesen (\emph{Hyp.}) zugeordnet, in denen die tatsächliche Überprüfung der Erfüllung durchgeführt wird.
+Zusammenfassend ergibt sich hinsichtlich der Erfüllung der Anforderungen die in Tabelle \ref{tab:erfuellung_der_anforderungen} dargestellte Übersicht. In ihr sind die Anforderungen jenen Kapiteln und Abschnitten des Implementierungsteils (\emph{Impl.}) zugewiesen, in denen ihre technische Umsetzung beschrieben wird, sowie den Hypothesen (\emph{Hyp.}) zugeordnet, in denen die tatsächliche Überprüfung der Erfüllung durchgeführt wird.
 
-\begin{center}
+\begin{table}[htbp]
+	\centering
+	\caption{Erfüllung der Anforderungen}
 \begin{tabular}{| c | p{5cm} | p{1cm} | c | p{4cm} |} 
   \hline
   & Anforderung & Impl. & Hyp. & Beurteilung \\ \hline \hline
@@ -77,8 +79,8 @@ Zusammenfassend ergibt sich hinsichtlich der Erfüllung der Anforderungen folgen
   \ref{anf:kollaborative_und_unmittelbare_manipulierbarkeit_des_modells} & Kooperative und unmittelbare Manipulierbarkeit des Modells & \ref{sub:verteilung_des_modellzustandes}, \ref{sub:einsatz_von_jhotdraw} & \ref{hyp:kollaborativ}, \ref{hyp:stärkere_kooperation} & technisch möglich, empirisch bestätigt \\ \hline
   \ref{anf:persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion} & Persistente Ablage des Modells und Möglichkeit zur Rekonstruktion & \ref{sub:tracking_des_modellzustandes}, \ref{ssub:abruf_der_modellierungshistorie}, \ref{sub:grundlegende_abbildung} & \ref{hyp:historie} & technisch möglich, empirisch bestätigt \\ \hline 
 \end{tabular}
-
-\end{center}
+	\label{tab:erfuellung_der_anforderungen}
+\end{table}
 
 
 \section{Bewertung hinsichtlich der globalen Zielsetzung}

@@ -9,7 +9,7 @@ An dieser Stelle erfolgt ein Rückgriff auf die in Abschnitt \ref{sec:konzeptual
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[scale=0.75]{img/Kontextgrafiken/k10.png}
+		\includegraphics[scale=0.6]{img/Kontextgrafiken/k10.png}
 	\caption{Kapitel „Konzeptuelle Einordnung“ im Gesamtzusammenhang}
 	\label{fig:img_Kontextgrafiken_k10}
 \end{figure}
@@ -229,7 +229,7 @@ Das Framework eignet sich zur Einordnung einzelner Aspekte eines Tangible User I
 		Snapshot\-token & Specialized Tool & transf. & Präsenz & fixiert & perm. & unabh. \\ \hline
 		Historien\-navigations\-token & Specialized Tool & transf. & Rotation & fixiert & perm. & unabh. \\ \hline
 		Wieder\-herstellungs\-token & Specialized Tool & transf. & Präsenz & fixiert & perm. & unabh. \\ \hline
-	\end{tabular}
+	\end{tabular} \\
 	\footnotesize lit. \ldots literally, transf. \ldots transformed, konfig. \ldots konfigurierbar, temp. \ldots temporär,\\ perm. \ldots permanent, abh. \ldots abhängig, unabh. \ldots unabhängig
 	\label{tab:degree_of_coherence}
 \end{table}
@@ -319,10 +319,11 @@ Grundlage der Einordnung in diesem Abschnitt ist der Ansatzes von \citep{Fishkin
 \subsubsection{Abbildung}
 Das in dieser Arbeit entwickelte Werkzeug überspannt aufgrund seiner vielfältigen Interaktionsmöglichkeiten mehrere Ausprägungen in beiden von \citeauthor{Fishkin04} vorgeschlagenen Dimensionen zur Klassifikation von Tangible Interfaces. Um eine umfassende und ins Detail gehende Einordnung vornehmen zu können, werden deshalb an dieser Stelle die Einzelaspekte des Systems betrachtet und eingeordnet. Während die Dimension „Embodiment“ bereits in Kapitel \ref{cha:visualisierung} betrachtet wurde, um eine strukturierte Zuordnung der Ausgabekanäle vornehmen zu können, werden hier die einzelnen Funktionalitäten des Systems (siehe Abschnitt \ref{sec:benutzerinteraktion_mit_dem_werkzeug}) jeweils beiden Dimensionen zugeordnet (siehe Tabelle \ref{tab:einordnungFishkin})
 
-
-	\begin{longtable}{| p{6cm} || p{3cm} | p{3cm} |} \caption{Einordnung des Systems in die Taxonomie nach Fishkin}
-	\label{tab:einordnungFishkin}
-	\\ \hline
+\begin{table}[htbp]
+	\centering
+	\caption{Einordnung des Systems in die Taxonomie nach Fishkin}
+	\begin{tabular}{| p{6cm} || p{3cm} | p{3cm} |} 
+		\hline
 		 & Embodiment & Metaphor \\ \hline \hline
 		Platzieren und Benennen von Modellelementen & distant, nearby (Tastatur), full (Haftnotiz) & verb (Tastatur), verb + noun (Haftnotiz) \\ \hline
 		Erstellen von Verbindern & nearby & verb bis noun+verb (Werkzeugtokens), verb (räumliche Nähe)\\ \hline
@@ -332,7 +333,9 @@ Das in dieser Arbeit entwickelte Werkzeug überspannt aufgrund seiner vielfälti
 		Erstellen von Snapshots & environmental bis nearby & none \\ \hline
 		Navigation in der Modell-Historie & distant & verb \\ \hline
 		Wiederherstellen eines Modell-Zustandes & nearby & noun + verb\\ \hline		
-	\end{longtable}
+	\end{tabular}
+	\label{tab:einordnungFishkin}
+\end{table}
 
 Beim \emph{Platzieren und Benennen von Modellelementen} ist die Benennung auf zwei Arten möglich, die unterschiedlich in die Taxonomie einzuordnen sind. Bei Benennung mittels Auswahl und Tastatur ist durch die Projektion der Benennung die Embodiment-Ausprägung „nearby“ zu wählen. Der Vorgang der Auswahl und Benennung kann als analog zur realen Welt gesehen werden, die eingesetzten Werkzeuge sind aber generischer Natur -- Metaphor ist also als „verb“ zu klassifizieren. Bei der Benennung mittels Haftnotitz ist durch die unmittelbar auf den Tokens angebrachten Benennungen Embodiment „full“. Der Vorgang des Beschriftens wird analog zur realen Welt durchgeführt, auch die Informationsträger (Haftnotizen) entsprechen jenen der realen Welt, Metaphor ist also „verb + noun“, wobei  der notwendige Vorgang der expliziten Erfassung einer Beschriftung durch das System eine Klassifikation „full“ verhindert und sogar die Einstufung „noun + verb“ etwas abschwächt (keine Analogie des Vorgangs zur realen Welt).
 

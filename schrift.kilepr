@@ -330,7 +330,7 @@ order=-1
 
 [item:Schlussbetrachtungen.tex]
 archive=true
-column=225
+column=185
 encoding=UTF-8
 highlight=LaTeX
 line=77
@@ -417,7 +417,7 @@ CursorColumn=0
 CursorLine=389
 
 [view-settings,view=0,item:Schlussbetrachtungen.tex]
-CursorColumn=225
+CursorColumn=185
 CursorLine=77
 
 [view-settings,view=0,item:Schrift.tex]

@@ -5,7 +5,7 @@ Im ersten empirischen Teil der Evaluierung wurde die grundlegende Verständlichk
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[scale=0.75]{img/Kontextgrafiken/k12.png}
+		\includegraphics[scale=0.6]{img/Kontextgrafiken/k12.png}
 	\caption{Kapitel „Evaluierung der Verwendbarkeit des Werkzeugs“ im Gesamtzusammenhang}
 	\label{fig:img_Kontextgrafiken_k12}
 \end{figure}
@@ -66,9 +66,11 @@ Hypothese \ref{hyp:gewöhnung} geht davon aus, dass bei wiederholten Verwendung 
 	Wiederholte Verwendung des Werkzeugs führt zu schnellerer Modellbildung und weniger Fehlbedienungen.
 \end{hyp}
 
-Hinsichtlich der in Kapitel \ref{cha:anforderungen} formulierten Anforderungen können die hier formulierten Hypothesen zusammenfassend wie folgt eingeordnet werden:
+Hinsichtlich der in Kapitel \ref{cha:anforderungen} formulierten Anforderungen können die hier formulierten Hypothesen zusammenfassend wie in Tabelle \ref{hyp:eval_tui} dargestellt eingeordnet werden:
 
-\begin{center}
+\begin{table}[htbp]
+	\centering
+	\caption{Hypothesen zur Werkzeugbenutzung und deren Bezug zu den Anforderungen an das Werkzeug}
 \begin{tabular}{|c|c|}
   \hline
    Hypothese & Anforderung \\ \hline
@@ -79,7 +81,8 @@ Hinsichtlich der in Kapitel \ref{cha:anforderungen} formulierten Anforderungen k
    \ref{hyp:behinderung} & \ref{anf:physische_abbildung_legen_beliebiger_diagrammatischer_modelle} \\
    \ref{hyp:gewöhnung} & \ref{anf:physische_abbildung_legen_beliebiger_diagrammatischer_modelle} \\ \hline
 \end{tabular} 
-\end{center}
+	\label{hyp:eval_tui}
+\end{table}
 
 % subsection konzeptionell_begründete_hypothesen (end)
 
@@ -219,16 +222,29 @@ Als Grundlage der Überprüfung der Hypothesen werden hier die Evaluierungs-Blö
 
 \subsubsection{Stichprobe} % (fold)
 
-\begin{tabular}{| p{2cm} || p{2,5cm} | p{2,5cm} | p{2,5cm} || p{2cm} |}
-  \hline
-   & Aushandlung (1. Durchgang) & Aushandlung (2. Durchgang) & Concept Mapping & Gesamt \\ \hline
-   $n_{Anwendungen}$ & 9 & 9 & 17 & 35 \\ 
-   $n_{Teilnehmer}$ & 19 & 18 & 47 & 84 \\ \hline
-\end{tabular} 
+Für die Untersuchung der Hypothesen in diesem Kapitel wurden die Evaluierungsblöcke 1 bis 5 herangezogen. Die Stichprobe setzt sich wie in Tabelle \ref{tab:stichprobe_tui} beschrieben zusammen.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Stichproben der Evaluierung zur Werkzeugverwendung}
+
+		\begin{tabular}{| l || c | c |}
+		\hline
+			Evaluierungsblock & $n_{Anwendungen}$ & $n_{Teilnehmende}$ \\ \hline
+			technische Evaluierung		  &  9 & 18 \\
+			Aushandlung 1 (1. Durchgang)  &  9 & 19 \\
+			Aushandlung 1 (2. Durchgang)  &  9 & 18 \\
+			Concept Mapping 1			  & 18 & 54 \\
+			Aushandlung 2				  & 10 & 13 \\
+			Concept Mapping 2 (Tisch)     & 11 & 24 \\  \hline
+			Gesamt						  & 66 & 146 \\ \hline
+	\end{tabular}
+	\label{tab:stichprobe_tui}
+\end{table}
 
 \subsubsection{Dauer der Werkzeugverwendung} % (fold)
 
-Die Dauer der Werkzeug-Verwendung wurde den Blöcken 2 („Aushandlung“) und 3 („Concept Mapping“) erhoben. Die Bearbeitungszeit ist wie folgt verteilt (siehe auch Abbildung \ref{fig:img_Evaluierung_usageTimeOverview}\footnote{In allen Boxplots gilt folgende Notation: 
+Die Dauer der Werkzeug-Verwendung wurde den Blöcken 2 („Aushandlung“) und 3 („Concept Mapping“) erhoben. Die Bearbeitungszeit ist wie in Tabelle \ref{tab:dauer_werkzeugverwendung} dargestellt verteilt (siehe auch Abbildung \ref{fig:img_Evaluierung_usageTimeOverview}\footnote{In allen Boxplots gilt folgende Notation: 
 \begin{itemize}
 	\item breite horizontale Linie: Bereich zwischen 25\%- und 75\%-Quantil
 	\item breite vertikale Linie: Median
@@ -238,6 +254,9 @@ Die Dauer der Werkzeug-Verwendung wurde den Blöcken 2 („Aushandlung“) und 3
 \end{itemize}
 }):
 
+\begin{table}[htbp]
+	\centering
+	\caption{Dauer der Werkzeugverwendung}
 \begin{tabular}{| p{1cm} || p{3cm} | p{3cm} | p{3cm} |}
   \hline
    & Aushandlung (1. Durchgang) & Aushandlung (2. Durchgang) & Concept Mapping \\ \hline
@@ -246,6 +265,8 @@ Die Dauer der Werkzeug-Verwendung wurde den Blöcken 2 („Aushandlung“) und 3
    $s(t)$ & 4m 18s & 5m 20s & 10m 7s \\
    $t_{max}$ & 27m 30s & 19m 29s & 45m 0s \\ \hline
 \end{tabular} 
+	\label{tab:dauer_werkzeugverwendung}
+\end{table}
 
 \begin{figure}[htbp]
 	\centering
@@ -285,24 +306,30 @@ Ausgewertet wird hier, ob die Ergebnisse der Modellierung jeweils als diagrammat
 
 \subsubsection{Auswertung} % (fold)
 
-In allen vorliegenden Modellen wurden Konzepte als Grundelemente des diagrammatischen Modells verwendet. Das Kriterium zur Klassifizierung als diagrammatisches Modell ist im Folgenden also das Vorhandensein von Verbindungen.
+In allen vorliegenden Modellen wurden Konzepte als Grundelemente des diagrammatischen Modells verwendet. Das Kriterium zur Klassifizierung als diagrammatisches Modell ist im Folgenden also das Vorhandensein von Verbindungen. Bei der Auswertung ergab sich die in Tabelle \ref{tab:modelle_mit_verbindern} dargestellte Verteilung.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Anzahl der Modelle mit Verbindern}
 
 \begin{tabular}{| p{3cm} || p{3cm} | p{3cm} |}
   \hline
    Block & Modelle gesamt & Modelle mit Verbindern \\ \hline
    1 & 9 & 0 \\ 
-   2 & 17 & 9 \\ 
+   2 & 18 & 9 \\ 
    3 & 18 & 17 \\ 
-   4 & 9 & 9 \\ 
+   4 & 10 & 10 \\ 
    5 & 11 & 11 \\ \hline
    Gesamt & 64 & 46 \\ \hline
 \end{tabular}
+	\label{tab:modelle_mit_verbindern}
+\end{table}
 
-Insgesamt sind in 64 Modellen, die als Ergebnis vorliegen 46 Modelle zu identifizieren, in denen explizit Verbindungen zur Darstellung von Beziehungen zwischen Konzepten verwendet werden ($71,9\%$). Eine implizite Darstellung von Beziehungen ist jedoch in allen vorliegenden Modellen zu erkennen. Nicht explizit durch Verbindungen abgebildete Beziehungen werden in allen Fällen durch die räumliche Konfiguration der Konzepte zueinander dargestellt.
+Insgesamt sind in 66 Modellen, die als Ergebnis vorliegen 47 Modelle zu identifizieren, in denen explizit Verbindungen zur Darstellung von Beziehungen zwischen Konzepten verwendet werden ($71,2\%$). Eine implizite Darstellung von Beziehungen ist jedoch in allen vorliegenden Modellen zu erkennen. Nicht explizit durch Verbindungen abgebildete Beziehungen werden in allen Fällen durch die räumliche Konfiguration der Konzepte zueinander dargestellt.
 
 \subsubsection{Diskussion} % (fold)
 
-Legt man das Kriterium des Vorhandenseins von Verbindungen zwischen Konzepten an, so sind $71,9\%$ der betrachteten Modelle als diagrammatische Modelle zu klassifizieren. Dies erscheint vordergründig eine geringe Zahl zu sein, die gegen die allgemeine Gültigkeit der Hypothese sprechen würde. Allerdings sind in allen Modelle implizite Verbindungen zwischen Konzepten eindeutig zu identifizieren. Außerdem ist zu erkennen, dass der Anteil an diagramatischen Modellen über die Evaluierungsblöcke (und damit die Weiterentwicklung des Werkzeugs über die Zeit) hinweg stetig ansteigt, bis er in den letzten beiden Blöcken jeweils $100\%$ erreicht. Dies ist durch technische Fehlfunktionen zu erklären, die es in ersten Evaluierungsblöcken schwer bzw. teilweise unmöglich machten, explizite Verbindungen intentional zu erstellen. Unter Anbetracht dieser Erkenntnisse erscheint die Annahme der Hypothese \ref{hyp:diagmodelle} als gerechtfertigt.
+Legt man das Kriterium des Vorhandenseins von Verbindungen zwischen Konzepten an, so sind $71,2\%$ der betrachteten Modelle als diagrammatische Modelle zu klassifizieren. Dies erscheint vordergründig eine geringe Zahl zu sein, die gegen die allgemeine Gültigkeit der Hypothese sprechen würde. Allerdings sind in allen Modelle implizite Verbindungen zwischen Konzepten eindeutig zu identifizieren. Außerdem ist zu erkennen, dass der Anteil an diagramatischen Modellen über die Evaluierungsblöcke (und damit die Weiterentwicklung des Werkzeugs über die Zeit) hinweg stetig ansteigt, bis er in den letzten beiden Blöcken jeweils $100\%$ erreicht. Dies ist durch technische Fehlfunktionen zu erklären, die es in ersten Evaluierungsblöcken schwer bzw. teilweise unmöglich machten, explizite Verbindungen intentional zu erstellen. Unter Anbetracht dieser Erkenntnisse erscheint die Annahme der Hypothese \ref{hyp:diagmodelle} als gerechtfertigt.
 
 Die Abbildung von Verbindungen durch räumliche Konfiguration ist Gegenstand der Prüfung von Hypothese \ref{hyp:keine_verbinder} in Kapitel \ref{cha:eval_modell} und wird dort einer näheren Betrachtung unterzogen.
 

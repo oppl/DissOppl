@@ -10,7 +10,7 @@ Im zweiten Teil der Evaluierung wird nicht der Umgang mit dem Werkzeug betrachte
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[scale=0.75]{img/Kontextgrafiken/k13.png}
+		\includegraphics[scale=0.6]{img/Kontextgrafiken/k13.png}
 	\caption{Kapitel „Evaluierung der erstellten Modelle“ im Gesamtzusammenhang}
 	\label{fig:img_Kontextgrafiken_k13}
 \end{figure}
@@ -58,9 +58,11 @@ Die Externalisierung mentaler Modelle mit Hilfe von computer-gestützten Werkzeu
 	Die Verwendung des Werkzeugs führt zu stärkerer Kooperation bei der Modellerstellung als die Verwendung von bildschirm-basierten Werkzeugen.
 \end{hyp}
 
-Hinsichtlich der in Kapitel \ref{cha:anforderungen} formulierten Anforderungen können die hier formulierten Hypothesen zusammenfassend wie folgt eingeordnet werden:
+Hinsichtlich der in Kapitel \ref{cha:anforderungen} formulierten Anforderungen können die hier formulierten Hypothesen zusammenfassend wie in Tabelle \ref{tab:hyp_modell} dargestellt eingeordnet werden.
 
-\begin{center}
+\begin{table}[htbp]
+	\centering
+	\caption{Hypothesen zur Modellbildung und deren Bezug zu den Anforderungen an das Werkzeug}
 \begin{tabular}{|c|c|}
   \hline
    Hypothese & Anforderung \\ \hline
@@ -69,7 +71,8 @@ Hinsichtlich der in Kapitel \ref{cha:anforderungen} formulierten Anforderungen k
    \ref{hyp:historie} & \ref{anf:persistente_ablage_des_modells_möglichkeit_zur_rekonstruktion} \\
    \ref{hyp:stärkere_kooperation} & \ref{anf:kollaborative_und_unmittelbare_manipulierbarkeit_des_modells} \\ \hline
 \end{tabular} 
-\end{center}
+	\label{tab:hyp_modell}
+\end{table}
 
 % subsection konzeptionell_begründete_hypothesen (end)
 
@@ -132,7 +135,7 @@ Gegenstand dieses Abschnitts ist die Operationalisierung der Hypothese \ref{hyp:
 
 Zur Prüfung dieser Hypothese müssen Modellierungsaufgaben durchgeführt werden, in deren Rahmen die Interpretation eines Modells durch an der Modellbildung nicht beteiligte Personen durchgeführt werden. Wenn diese Interpretation den ursprünglich vom Modellierer repräsentierten Inhalten entspricht, ist die Interpretation als erfolgreich zu bezeichnen. Zu beurteilen ist nun, in wie weit die Möglichkeit zur Wiedergabe des Modellierungsverlaufs bei der Interpretation genutzt wurde und ob diese Nutzung Auswirkungen auf die Interpretation hatte.
 
-Zur Beurteilung wird eine Modellierungssituation geschaffen, in der eine Person für sich individuell das Werkzeug zur Externalisierung eines mentalen Modells benutzt. In einem zweiten Schritt wird eine zweite, zuvor nicht beteiligte Person aufgefordert, den Inhalt der auf der Modellierungsoberfläche vorhandenen Repräsentation zu interpretieren, wobei der Modellierungsverlauf herangezogen werden darf, eine Interaktion mit dem ursprünglichen Modellierer jedoch nicht gestattet ist. Im dritten Schritt beurteilt der ursprüngliche Modellierer die Adäquatheit der Interpretation und trifft so eine Aussage über den Erfolg des Transfers des mentalen Modells. In Kombination lässt sich eine qualitative Aussage über die Effekte der Wiederherstellungsfunktion treffen.    
+Zur Beurteilung wird eine Modellierungssituation geschaffen, in der eine Person für sich individuell das Werkzeug zur Externalisierung eines mentalen Modells benutzt. In einem zweiten Schritt wird eine zweite, zuvor nicht beteiligte Person aufgefordert, den Inhalt der auf der Modellierungsoberfläche vorhandenen Repräsentation zu interpretieren, wobei der Modellierungsverlauf herangezogen werden darf, eine Interaktion mit dem ursprünglichen Modellierer jedoch nicht gestattet ist. Im dritten Schritt beurteilt der ursprüngliche Modellierer die Adäquatheit der Interpretation und trifft so eine Aussage über den Erfolg des Transfers des mentalen Modells. In Kombination lässt sich eine qualitative Aussage über die Effekte der Historienfunktion treffen.    
 
 % subsubsection reflexion_des_modellierungsverlaufs (end)
 
@@ -176,13 +179,26 @@ Als Grundlage der Überprüfung der Hypothesen werden hier die Evaluierungs-Blö
 \subsubsection{Stichprobe} % (fold)
 \label{ssub:stichprobe}
 
-\begin{tabular}{| p{2cm} || p{2cm} | p{2cm} | p{2cm} | p{2cm} || p{2cm} |}
-  \hline
-   & Aushandlung (1. Durchgang) & Aushandlung (2. Durchgang) & Concept Mapping 1 & Concept Mapping 2 & Gesamt \\ \hline
-   $n_{Anwendungen}$ & 9 & 9 & 17 & 11 & 46 \\ 
-   $n_{Teilnehmende}$ & 19 & 18 & 47 & 24 & 108 \\ \hline
-\end{tabular} 
+Für die Untersuchung der Hypothesen in diesem Kapitel wurden die Evaluierungsblöcke 1 bis 5 herangezogen. Die Stichprobe setzt sich wie in Tabelle \ref{tab:stichprobe_modell} beschrieben zusammen.
 
+\begin{table}[htbp]
+	\centering
+	\caption{Stichproben der Evaluierung zur Modellbildung}
+
+	\begin{tabular}{| l || c | c |}
+	\hline
+		Evaluierungsblock & $n_{Anwendungen}$ & $n_{Teilnehmende}$ \\ \hline
+		technische Evaluierung		  &  9 & 18 \\
+		Aushandlung 1 (1. Durchgang)  &  9 & 19 \\
+		Aushandlung 1 (2. Durchgang)  &  9 & 18 \\
+		Concept Mapping 1			  & 18 & 54 \\
+		Aushandlung 2				  & 10 & 13 \\
+		Concept Mapping 2 (Tisch)     & 11 & 24 \\
+		Concept Mapping 2 (CMapTools) & 12 & 25 \\ \hline
+		Gesamt						  & 78 & 171 \\ \hline
+\end{tabular}
+	\label{tab:stichprobe_modell}
+\end{table}
 % subsubsection stichprobe (end)
 
 \subsubsection{Modellgröße} % (fold)
@@ -246,23 +262,28 @@ Die „Nicht-Einschränkung“ der Benutzer bei der Externalisierung kann wie in
 
 Zu beachten ist hier, das die Bedeutungsbelegung immer Ergebnis eines Aushandlungsprozesses zwischen mindestens zwei Beteiligten ist. Aus dieser Teiluntersuchung kann also kein Rückschluss auf die individuell empfundene Einschränkung der Externalisierung getroffen werden. Nachdem der Prozess der Bedeutungsfestlegung aber inhärenter Bestandteil der kooperativen Modellbildung ist und die Zielsetzung derselben die Herstellung eines gemeinsamen Verständnisses ist, ist dies im Falle einer tatsächlich kooperativ vorgenommenen Festlegung der Bedeutung nicht als Einschränkung zu sehen. Eine individuell als einschränkend wahrgenommene Situation kann vielmehr dann auftreten, wenn die Bedeutungsfestlegung nicht kooperativ durchgeführt wurde, sondern die Bedeutungen von einem Teilnehmenden vorgegeben wurde. Diese Fälle sind in der folgenden Tabelle separat ausgeführt. Die individuell empfundene Einschränkung wurde außerdem im zweiten Teil der hier beschriebenen Untersuchung mittels einem auf dem \gls{PMS} basierenden Fragebogen sowie einer Auswertung der offenen Fragen zur Eignung des Werkzeugs zur Modellbildung erhoben. 
 
-In der folgenden Tabelle\footnote{EB \ldots Evaluierungsblock, x E.\ldots x Elemente mit Bedeutung belegt, x V. \ldots x Arten von Verbindungen verwendet} ist für jeden Evaluierungsblock ausgeführt, in wie vielen Fällen eine bestimmte Anzahl von Blöcken mit Bedeutung belegt wurde und wie viele Arten von Verbindern benutzt wurden. Unterschiedliche Bedeutungen auf unterschiedlichen Modellebenen (also in eingebetteten Teilmodellen) wurden ohne separaten Unterscheidung mitgezählt.
+In Tabelle \ref{tab:anzahl_bedeutungstragende_elemente} ist für jeden Evaluierungsblock ausgeführt, in wie vielen Fällen eine bestimmte Anzahl von Blöcken mit Bedeutung belegt wurde und wie viele Arten von Verbindern benutzt wurden. Unterschiedliche Bedeutungen auf unterschiedlichen Modellebenen (also in eingebetteten Teilmodellen) wurden ohne separaten Unterscheidung mitgezählt.
 
-\todo
-\begin{tabular}{| p{1 cm} || p{1cm} | p{1cm} | p{1cm} | p{1.2cm} || p{1cm} | p{1cm} | p{1cm} | p{1.2cm} |}
+\begin{table}[htbp]
+	\centering
+	\caption{Anzahl der bedeutungstragenden Elemente je Modell}
+\begin{tabular}{| c || c | c | c | c || c | c | c | c |}
   \hline
    EB & 1 E. & 2 E. & 3 E. & 4+ E. & 1 V. & 2 V. & 3 V. & 4+ V. \\ \hline
-   2 - 1 & 0 & 2 &  9 & 0 & 4 & 1 & 0 & 0 \\ 
-   2 - 2 & 1 & 0 &  8 & 0 & 6 & 1 & 0 & 1 \\ 
-   3     & 0 & 3 & 14 & 0 & 6 & 4 & 0 & 6 \\ 
-   4     & 0 & 2 &  7 & 2 & 3 & 4 & 2 & 1 \\ 
-   5     & & & & & & & & \\ \hline
-   Ges.  & & & & & & & & \\ \hline
-\end{tabular} 
+   2 - 1 & 0 & 2 &  9 & 0 &  4 &  1 & 0 & 0 \\ 
+   2 - 2 & 1 & 0 &  8 & 0 &  6 &  1 & 0 & 1 \\ 
+   3     & 0 & 3 & 14 & 0 &  6 &  4 & 0 & 6 \\ 
+   4     & 0 & 2 &  7 & 2 &  3 &  4 & 2 & 1 \\ 
+   5     & 0 & 1 &  7 & 3 & 11 &  0 & 0 & 0 \\ \hline
+   Ges.  & 1 & 8 & 45 & 5 & 30 & 10 & 2 & 8 \\ \hline
+\end{tabular} \\
+\footnotesize EB \ldots Evaluierungsblock, x E.\ldots x Elemente mit Bedeutung belegt, x V. \ldots x Arten von Verbindungen verwendet
+	\label{tab:anzahl_bedeutungstragende_elemente}
+\end{table}
  
-In jenen beiden Fällen in Evaluierungsblock 5, in denen 4 oder mehr bedeutungstragende Elemente verwendet wurden, wurden im ersten Fall 6 und im zweiten Fall 7 Elementtypen festgelegt. Beide Modelle enthielten jedoch ineinander verschachtelte Teilmodelle, von denen keines mehr als drei Typen beinhaltete. Jene Fälle, in denen 4 oder mehr verschiedene Arten von Verbindern verwendet wurden, kamen durch den Einsatz benannter Verbinder zustande, mittels derer die Bedeutung der Verbindungen beliebig differenziert werden kann.
+In jenen beiden Fällen in Evaluierungsblock 4 und den drei Fällen in Evaluierungsblock 5, in denen 4 oder mehr bedeutungstragende Elemente verwendet wurden, wurden zweimal 4, und je einmal 6, 7 und 9 Elementtypen festgelegt. Beide Modelle enthielten jedoch ineinander verschachtelte Teilmodelle, von denen keines mehr als drei Typen beinhaltete. Jene Fälle, in denen 4 oder mehr verschiedene Arten von Verbindern verwendet wurden, kamen durch den Einsatz benannter Verbinder zustande, mittels derer die Bedeutung der Verbindungen beliebig differenziert werden kann.
 
-Im zweiten Teil der Untersuchung zu dieser Hypothese wurden qualitativ einerseits die expliziten Aussagen der Teilnehmenden ($n_{ges}=147$) hinsichtlich einer eventuellen einschränkenden Wirkung des Werkzeugs gesammelt, andererseits wurden die Videoaufnahmen der Werkzeuganwendungen diesbezüglich ausgewertet. Folgende Punkte mit einschränkender Wirkung konnten hier identifiziert werden (in Klammern jeweils die Quellen sowie die Anzahl des Auftretens der jeweiligen Aussage):
+Im zweiten Teil der Untersuchung zu dieser Hypothese wurden qualitativ einerseits die expliziten Aussagen der Teilnehmenden ($n_{ges}=139$) hinsichtlich einer eventuellen einschränkenden Wirkung des Werkzeugs gesammelt, andererseits wurden die Videoaufnahmen der Werkzeuganwendungen diesbezüglich ausgewertet. Folgende Punkte mit einschränkender Wirkung konnten hier identifiziert werden (in Klammern jeweils die Quellen sowie die Anzahl des Auftretens der jeweiligen Aussage):
 \begin{itemize}
 	\item Unterschiedliche Farben von Verbindern wären wünschenswert (Befragung in Block 4, $n=2$)
 	\item Drei unterschiedliche Elementtypen sind zu wenig (verbales Feedback von Personen mit praktischen Prozessmodellierungskenntnissen\footnote{Nach diesen Kenntnissen wurde im Rahmen einer Selbsteinschätzung explizit gefragt} in den Blöcken 2 und 4 sowie in nicht formal dokumentieren Modellierungssitzungen mit Prozessmodellierungsexperten\footnote{jeweils nach Eigendeklaration bzw. aus dem professionellen Umfeld der Personen geschlossen} im Rahmen von Demonstrationen auf mehreren Konferenzen, $n=7$)
@@ -272,7 +293,7 @@ Im zweiten Teil der Untersuchung zu dieser Hypothese wurden qualitativ einerseit
 
 Explizite Aussagen zu einer dezidiert „nicht-einschränkenden“ Wirkung bzw. der semantischen Offenheit des Werkzeugs konnten nur in Fällen identifiziert werden, in denen explizit nach diesem Aspekt gefragt wurde. In diesen Fällen wurde der Umfang der Ausdrucksmöglichkeiten durchwegs als ausreichend erachtet. Personen ohne Vorkenntnisse in der Prozessmodellierung empfanden die Anzahl der zur Verfügung stehenden Elemente im Allgemeinen als ausreichend, jene Fälle in denen dies nicht der Fall war, sind oben dokumentiert.
 
-Lediglich in einem\footnote{in Evaluierungsblock 3} der dokumentierten Fälle ($n=65$) waren die Teilnehmenden mit der eigenständigen Wahl der Bedeutung der Elementtypen überfordert und begannen nicht eigenständig zu modellieren. Erst nach einer teilweisen bzw. beispielhaften Vorgabe von 2 Elementtypen durch den Untersuchungsleiter konnten die Teilnehmenden die Modellierung selbständig fortführen. 
+Lediglich in einem\footnote{in Evaluierungsblock 3} der dokumentierten Fälle ($n=66$) waren die Teilnehmenden mit der eigenständigen Wahl der Bedeutung der Elementtypen überfordert und begannen nicht eigenständig zu modellieren. Erst nach einer teilweisen bzw. beispielhaften Vorgabe von 2 Elementtypen durch den Untersuchungsleiter konnten die Teilnehmenden die Modellierung selbständig fortführen. 
 
 Vergleichend ist festzustellen, dass beim Einsatz der Werkzeugs „CMapTools“, das die Anzahl der Elementtypen nicht einschränkt, in Evaluierungsblock 5 ($n=12$) zwischen 1 und 8 Elementtypen verwendet wurden, wobei der Median bei 3 liegt. In je einem Fall wurden 1, 7 und 8 Elementtypen verwendet, in zwei Fällen wurden 3 Elementtypen eingesetzt, in drei Fällen kamen 4 Typen und in vier Fällen 2 Elementtypen zum Einsatz.
 
@@ -322,7 +343,7 @@ Die Betrachtung der Ergebnisse zeigt, dass die Modelle, die mittels der „CMapT
 
 In den Evaluierungsblöcken 3 und 5 wurden insgesamt 30 Modellierungsdurchgänge durchgeführt, deren Ergebnis aufgrund der Aufgabenstellung bei detaillierte Modellierung mehr als 15 Modellierungselement enthalten müsste (siehe vergleichende Ergebnisse aus Block 5). In insgesamt 7 Fällen wurden mehr als 15 Elemente verwendet ($15<x<=20: 1, 20<x<=25: 2, 25<x<=30: 2, x>30: 2$), der Median der Anzahl der Elemente liegt bei 11 ($M=14.68, SD=7.90, N=30$). Die Möglichkeit der Einbettung von Teilmodellen wurde insgesamt in 8 Modellierungsdurchgängen genutzt, davon war in drei Fällen die Gesamtanzahl der Elemente geringer als 15 (womit eine rein semantische Strukturierung vorliegt und keine Steigerung der Modellumfangs vorgenommen wurde).
 
-Neben der vergleichenden Studie wurde in allen Evaluierungsblöcken der subjektive Eindruck der Teilnehmenden nach einer etwaig einschränkenden Wirkung hinsichtlich des Umfangs der Modelle gefragt ($n_{ges}=147$). Insgesamt 43 Teilnehmende empfanden die Modellierungsoberfläche als zu klein um die gewünschten Sachverhalte abzubilden. Von insgesamt 9 Teilnehmenden wurde explizit der Wunsch nach kleineren Elementen geäußert, um umfangreichere Modelle abbilden zu können. Von 23 Teilnehmenden wurde die Visualisierung der Verbindungen kritisiert („unübersichtlich“, „nur eine Verbindung zwischen zwei Blöcken möglich“), was dazu geführt hätte, dass die Modelle nicht wie ursprünglich intendiert aussähen.
+Neben der vergleichenden Studie wurde in allen Evaluierungsblöcken der subjektive Eindruck der Teilnehmenden nach einer etwaig einschränkenden Wirkung hinsichtlich des Umfangs der Modelle gefragt ($n_{ges}=139$). Insgesamt 43 Teilnehmende empfanden die Modellierungsoberfläche als zu klein um die gewünschten Sachverhalte abzubilden. Von insgesamt 9 Teilnehmenden wurde explizit der Wunsch nach kleineren Elementen geäußert, um umfangreichere Modelle abbilden zu können. Von 23 Teilnehmenden wurde die Visualisierung der Verbindungen kritisiert („unübersichtlich“, „nur eine Verbindung zwischen zwei Blöcken möglich“), was dazu geführt hätte, dass die Modelle nicht wie ursprünglich intendiert aussähen.
 
 \subsubsection{Diskussion} % (fold)
 
@@ -345,14 +366,15 @@ Insgesamt kann aufgrund der Ergebnisse der Untersuchung die Hypothese \ref{hyp:b
 \subsection{Reflexion des Modellierungsverlaufs} % (fold)
 \label{sub:reflexion_des_modellierungsverlaufs}
 
-Gegenstand der hier beschriebenen Untersuchung ist Hypothese \ref{hyp:historie} („Die Reflexion des Modellierungsverlaufs ermöglicht das Verständnis der dem Modell zugrundeliegenden mentalen Modelle.“). Als Grundlage dieser Untersuchung dienen die Ergebnisse der Evaluierungsblöcke 2 und 4.
+Gegenstand der hier beschriebenen Untersuchung ist Hypothese \ref{hyp:historie} („Die Reflexion des Modellierungsverlaufs ermöglicht das Verständnis der dem Modell zugrundeliegenden mentalen Modelle.“). Als Grundlage dieser Untersuchung dienen die Ergebnisse des Evaluierungsblocks 1.
 
 \subsubsection{Auswertung} 
-
+  
 \subsubsection{Diskussion} 
 
 \subsubsection{Ergebnis} 
 
+\textbf{Die Hypothese \ref{hyp:historie} kann auf Basis der Untersuchung bestätigt werden.}
 
 \subsection{Wirkung auf die Kooperation bei der Modellerstellung} % (fold)
 \label{sub:wirkung_auf_die_kooperation_bei_der_modellerstellung}
@@ -398,9 +420,9 @@ Gegenstand der hier beschriebenen Untersuchung Hypothese \ref{hyp:keine_verbinde
 
 \subsubsection{Auswertung} % (fold)
 
-In insgesamt 18 von den in allen 5 Evaluierungsblöcken 64 erstellten Modellen (für eine detaillierte Aufstellung siehe Abschnitt \ref{sub:repräsentation_diagrammatischer_modelle}) wurden keine Verbinder zur Darstellung von Zusammenhängen zwischen Elementen verwendet. Von diesen 18 Modellen wurden 9 Modelle (in den Evaluierungsblöcken 2 und 3) während der Modellierung von allen Beteiligten kommunikativ interpretiert. Die Teilnehmenden wurden unmittelbar nach Abschluss der Modellbildung über ihre subjektive Wahrnehmung der Übereinstimmung des Verständnisses über den abgebildeten Sachverhalt befragt. Alle Teilnehmer ($n_{ges}=21$) gaben an, subjektiv ein gemeinsames Verständnis erreicht zu haben. Diese Angaben decken sich mit den Auswertungen der Modellierungsverläufe in diesen Durchgängen, in denen in 3 von 9 Fällen während der Modellierung der Eindruck entstand, dass Teile der Modelle unterschiedlich interpretiert wurden. Diese unterschiedlichen Interpretationen wurden jedoch in allen Fällen im weiteren Verlauf der Modellierung erkannt und so abgestimmt, das ein übereinstimmendes Verständnis hergestellt werden konnte.
+In insgesamt 18 von den in allen 5 Evaluierungsblöcken 66 erstellten Modellen (für eine detaillierte Aufstellung siehe Abschnitt \ref{sub:repräsentation_diagrammatischer_modelle}) wurden keine Verbinder zur Darstellung von Zusammenhängen zwischen Elementen verwendet. Von diesen 18 Modellen wurden 9 Modelle (in den Evaluierungsblöcken 2 und 3) während der Modellierung von allen Beteiligten kommunikativ interpretiert. Die Teilnehmenden wurden unmittelbar nach Abschluss der Modellbildung über ihre subjektive Wahrnehmung der Übereinstimmung des Verständnisses über den abgebildeten Sachverhalt befragt. Alle Teilnehmer ($n_{ges}=21$) gaben an, subjektiv ein gemeinsames Verständnis erreicht zu haben. Diese Angaben decken sich mit den Auswertungen der Modellierungsverläufe in diesen Durchgängen, in denen in 3 von 9 Fällen während der Modellierung der Eindruck entstand, dass Teile der Modelle unterschiedlich interpretiert wurden. Diese unterschiedlichen Interpretationen wurden jedoch in allen Fällen im weiteren Verlauf der Modellierung erkannt und so abgestimmt, das ein übereinstimmendes Verständnis hergestellt werden konnte.
 
-Jene 9 Modelle, die in Evaluierungsblock 1 erstellt wurden, wurden von Dritten interpretiert. Die Interpretation wurde dabei den ursprünglichen Modellerstellern rückgespiegelt, die wiederum zu beurteilen hatten, ob die Interpretation den ursprünglich repräsentierten Sachverhalt korrekt wiedergibt. Dies war in allen 9 Modellierungsdurchgängen der Fall. Die Abbildungen  \ref{fig:img_Evaluierung_modell_verbinder_unwichtig1} und \ref{fig:img_Evaluierung_modell_verbinder_unwichtig2} zeigen Beispiele für Modelle, in denen die korrekte Intepretation auch ohne die Darstellung von Verbindern möglich war.
+Jene 9 Modelle, die in Evaluierungsblock 1 erstellt wurden, wurden von Dritten interpretiert. Die Interpretation wurde dabei den ursprünglichen Modellerstellern rückgespiegelt, die wiederum zu beurteilen hatten, ob die Interpretation den ursprünglich repräsentierten Sachverhalt korrekt wiedergibt. Dies war in allen 9 Modellierungsdurchgängen der Fall. Die Abbildungen  \ref{fig:img_Evaluierung_modell_verbinder_unwichtig1} und \ref{fig:img_Evaluierung_modell_verbinder_unwichtig2} zeigen Beispiele für Modelle, in denen die korrekte Interpretation auch ohne die Darstellung von Verbindern möglich war.
 
 \begin{figure}[htbp]
 	\centering
@@ -451,9 +473,11 @@ Hypothese \ref{hyp:keine_einschränkung} („Semantische Offenheit“) konnte da
 
 Hypothese \ref{hyp:beliebige_komplexität} („Beliebiger Modellumfang“) konnte im Rahmen der Untersuchung nicht bestätigt werden. Die beschränkte Größe der Modellierungsoberfläche scheint einschränkend auf den Modellumfang zu wirken, die Möglichkeit der Einbettung von Teilmodellen ist dabei kein adäquater Ersatz. In einer vergleichenden Studie mit einem die Arbeitsfläche nicht beschränkenden Werkzeug wurden bei identischer Aufgabenstellung im Durchschnitt Modelle mit doppelten Umfang als auf dem hier vorgestellten Werkzeug erstellt. Auch die Rückmeldungen der Teilnehmenden deuten darauf hin, dass die Beschränkung der Modellierungsoberfläche in vielen Fällen als einschränkender Faktor wahrgenommen wird.
 
-\todo Hypothese \ref{hyp:stärkere_kooperation} untersucht, ob die Verwendung des Werkzeugs zu stärkerer Kooperation führt als die Verwendung eines bildschirmbasierten Werkzeugs. Diese Hypothese konnte im Rahmen der Untersuchung bestätigt werden. Die Verwendung des Werkzeugs führt im Vergleich zur Anwendung eines bildschirm-basierten Werkzeugs zu einem signifikant höheren Anteil an Diskussion während der Modellbildung und zu ausgeglichenerer physischer Beteiligung am Modellierungsvorgang zwischen den Teilnehmern. Auch die aus der Befragung der Benutzer erhobenen qualitativen Daten weisen auf eine verstärkte kooperationsfördernde Wirkung des hier entwickelten Werkzeugs hin.
+\todo Hypothese \ref{hyp:historie} („Reflexion des Modellierungsverlaufs“) \ldots
 
-Die letzte in diesem Kapitel untersuchte Hypothese (Hypothese \ref{hyp:keine_verbinder}) betraf die explorativ gebildete Vermutung, dass zur Repräsentation von Zusammenhängen in Modellen die explizite Darstellung von Verbindern nicht notwendig wäre sondern die ausschließliche räumliche Konfiguration der Modellierungselemente zueinander ausreichen würde, um die Zusammenhänge erfassbar zu machen. Während dies im überwiegenden Teil der Anwendungsfälle möglich war, konnten Modelle identifiziert werden, in denen die Verbinder Information codierten, die rein durch die räumliche Anordnung der Modellelemente nicht ableitbar gewesen wäre (in etwa 25\% der Fälle). Hypothese  \ref{hyp:keine_verbinder} konnte im Rahmen der Untersuchung damit nicht bestätigt werden.
+\todo Hypothese \ref{hyp:stärkere_kooperation} („Stärkere Kooperation“) untersucht, ob die Verwendung des Werkzeugs zu stärkerer Kooperation führt als die Verwendung eines bildschirmbasierten Werkzeugs. Diese Hypothese konnte im Rahmen der Untersuchung bestätigt werden. Die Verwendung des Werkzeugs führt im Vergleich zur Anwendung eines bildschirm-basierten Werkzeugs zu einem signifikant höheren Anteil an Diskussion während der Modellbildung und zu ausgeglichenerer physischer Beteiligung am Modellierungsvorgang zwischen den Teilnehmern. Auch die aus der Befragung der Benutzer erhobenen qualitativen Daten weisen auf eine verstärkte kooperationsfördernde Wirkung des hier entwickelten Werkzeugs hin.
+
+Die letzte in diesem Kapitel untersuchte Hypothese (Hypothese \ref{hyp:keine_verbinder}, „Verbinder nicht notwendig“)  betraf die explorativ gebildete Vermutung, dass zur Repräsentation von Zusammenhängen in Modellen die explizite Darstellung von Verbindern nicht notwendig wäre sondern die ausschließliche räumliche Konfiguration der Modellierungselemente zueinander ausreichen würde, um die Zusammenhänge erfassbar zu machen. Während dies im überwiegenden Teil der Anwendungsfälle möglich war, konnten Modelle identifiziert werden, in denen die Verbinder Information codierten, die rein durch die räumliche Anordnung der Modellelemente nicht ableitbar gewesen wäre (in etwa 25\% der Fälle). Hypothese  \ref{hyp:keine_verbinder} konnte im Rahmen der Untersuchung damit nicht bestätigt werden.
 
 Insgesamt zeigt sich damit, dass das Werkzeug nur eingeschränkt zur Abbildung diagrammatische Modelle geeignet ist. Im Sinne der Zielsetzung dieser Arbeit -- der Unterstützung von „Articulation Work“ -- ist dies jedoch nur von eingeschränkter Wichtigkeit. Vielmehr steht die Unterstützung der Kommunikation zwischen den beteiligten Individuen und der Abgleich derer mentaler Modelle im Vordergrund. Die Ergebnisse deuten darauf hin, dass das Werkzeug diesen Ansprüchen gerecht wird. Im nächsten Kapitel wird nun untersucht, inwieweit der Abgleich tatsächlich stattfindet (also „Articulation Work“ erfolgreich durchgeführt werden konnte) und welche Auswirkungen dies auf die Arbeitsrealität hat.
 
