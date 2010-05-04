@@ -182,7 +182,7 @@ Gegenstand dieses Abschnitts ist die Operationalisierung der Hypothese \ref{hyp:
 
 Bei der Prüfung der Hypothese muss eine etwaige veränderte Funktionalität des Werkzeugs zwischen den verglichenen Evaluierungsblöcken berücksichtigt werden, die die Interaktion einerseits erleichtern kann, andererseits aber auch zu Fehlbedienung aufgrund von unbekannten Interaktionsmustern führen kann. Auch unterschiedliche Modellierungsaufgaben, die ein Individuum in den aufeinander folgenden Anwendungen bearbeitet, können die Beurteilung erschweren, weil potentiell andere (noch unbekannte) Funktionen des Werkzeugs zum Einsatz kommen können.
 
-Zur Beurteilung der Qualität der Interaktion sind einerseits die \emph{Anzahl der Fehlbedienungen} des Werkzeugs pro Zeiteinheit und andererseits die \emph{Arbeitsdauer am Werkzeug}\footnote{Die Arbeitsdauer am Werkzeug ist im Gegensatz zur gesamten Modellierungsdauer um jenen Zeitanteil reduziert, in dem die Teilnehmer interagieren, ohne am Werkzeug zu arbeiten.} in Abhängigkeit der Modellgröße heranzuziehen. Die Normierung der abhängigen Variablen ist notwendig, um vergleichbare Werte für unterschiedliche Werkzeug-Anwendungen zu erhalten. Sinken beide Werte zwischen zwei Evaluierungsblöcken, die auf der gleichen Stichprobe aufbauen, signifikant, so kann die Hypothese bestätigt werden. Um den Einfluss der Störvariablen zu reduzieren, ist es sinnvoll, in beiden Blöcken eine identische Modellierungsaufgabe zu stellen und die Funktionalität des Werkzeugs nicht zu verändern. Identische Modellierungsaufgaben können durch die wiederholte inhaltliche Beschäftigung mit der Aufgabe zu schnellerer Arbeit bzw. zu kompakteren Modellen führen. Dies kann wiederum durch die Berücksichtigung der reinen Arbeitszeit am Werkzeug sowie der Normierung derselben in Abhängigkeit der Modellgröße kompensiert werden.
+Zur Beurteilung der Qualität der Interaktion sind einerseits die Anzahl der Fehlbedienungen des Werkzeugs pro Zeiteinheit und andererseits die Arbeitsdauer am Werkzeug\footnote{Die Arbeitsdauer am Werkzeug ist im Gegensatz zur gesamten Modellierungsdauer um jenen Zeitanteil reduziert, in dem die Teilnehmer interagieren, ohne am Werkzeug zu arbeiten.} in Abhängigkeit der Modellgröße heranzuziehen. Die Normierung der Arbeitsdauer ist notwendig, um vergleichbare Werte für unterschiedliche Werkzeug-Anwendungen zu erhalten. Sinken beide Werte zwischen zwei Evaluierungsblöcken, die auf der gleichen Stichprobe aufbauen, signifikant, so kann die Hypothese bestätigt werden. Um eine Vergleichbarkeit zwischen den Anwendungen herzustellen, ist es sinnvoll, in beiden Blöcken eine identische Modellierungsaufgabe zu stellen und die Funktionalität des Werkzeugs nicht zu verändern. Identische Modellierungsaufgaben können durch die wiederholte inhaltliche Beschäftigung mit der Aufgabe zu schnellerer Arbeit bzw. zu kompakteren Modellen führen. Dies kann wiederum durch die Berücksichtigung der reinen Arbeitszeit am Werkzeug sowie der Normierung derselben in Abhängigkeit der Modellgröße kompensiert werden.
 
 % subsubsection gewöhnung_an_das_werkzeug (end)
 
@@ -367,6 +367,7 @@ Im zweiten Teil der Auswertung wurde in einem Fragebogen in 4 Items aggregiert d
 
 \subsubsection{Ergebnis} % (fold)
 
+
 % subsection kollaboratives_arbeiten (end)
 
 \subsection{Einsetzbarkeit in unterschiedlichen Kontexten} % (fold)
@@ -424,13 +425,53 @@ Die Ergebnisse der Auswertung der Untersuchung zu dieser Hypothese zeigt ein ger
 \subsection{Nicht-Behinderung} % (fold)
 \label{sub:nicht_behinderung}
 
-Gegenstand der hier beschriebenen Untersuchung ist Hypothese \ref{hyp:behinderung} („Das Werkzeug behindert die Modellbildung nicht.“). Als Grundlage dieser Untersuchung dienen die Ergebnisse der Evaluierungsblöcke 2 und 4.
+Gegenstand der hier beschriebenen Untersuchung ist Hypothese \ref{hyp:behinderung} („Das Werkzeug behindert die Modellbildung nicht.“). Als Grundlage dieser Untersuchung dienen die Ergebnisse der Evaluierungsblöcke 2 bis 5, da sich das Werkzeug erst in diesen Blöcken hinsichtlich der Funktionalität in vollständigem Zustand befand. Zu berücksichtigen ist bei der Auswertung, dass im Laufe der Evaluierungsblöcken 4 und 5 eine Überarbeitung der Implementierung vorgenommen wurde, mittels der das Auftreten von Fehlerkennungen verringert werden konnte und deren Korrektur weniger aufwändig wurde. Befragungen der Modellierenden hinsichtlich einer etwaigen Behinderung durch das Werkzeug wurden in den Blöcken 1, 4 und 5 durchgeführt, wobei lediglich die Anmerkungen aus den letzen beiden Blöcken für den aktuellen Entwicklungsstand des Werkzeugs relevant sind.
 
 \subsubsection{Auswertung} 
 
+In Tabelle \ref{tab:fehlfunktionen} wird gegliedert nach Evaluierungsblocken dargestellt, wie oft es in einer einzelnen Anwendung zu Fehlfunktionen in der Erkennung kam, die den Modellierungsfluss unterbrachen. Als Fehlerkennungen wurde das Verschwinden von Blöcken oder Fehlzuordnungen von Benennungen sowie die unbeabsichtigte oder von System eigenständig vorgenommene Erstellung oder Entfernung von Verbindern bzw. Richtungspfeilen eingeordnet. Zusätzlich wurden Systemabstürze als massive Unterbrechung, die zum Gesamtverlust des bis zum Zeitpunkt des Absturzes erstellten Modells führten, separat ausgewertet.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Fehlfunktionen und Abstürze des Werkzeugs}
+\begin{tabular}{| c || c || c | c | c | c || c |}
+  \hline
+   EB    & Anw. & 0 Ff. & 1-3 Ff. & 4-6 Ff. & 7+ Ff. & Systemabstürze \\ \hline
+   2     & 18 & 0 &  8 &  5 &  5 &  4 \\ 
+   3     & 18 & 1 & 10 &  4 &  3 &  5 \\ 
+   4     & 10 & 0 &  2 &  2 &  5 &  1 \\ 
+   5     & 11 & 0 &  3 &  3 &  4 &  5 \\ \hline
+   Ges.  & 57 & 1 & 23 & 14 & 17 & 15 \\ \hline
+\end{tabular} \\
+\footnotesize EB \ldots Evaluierungsblock, Anw. \ldots Anzahl der Anwendungen, x Ff.\ldots x Fehlfunktionen
+	\label{tab:fehlfunktionen}
+\end{table}
+
+In der Gesamtheit der betrachteten Anwendungen ($n=57$) ergibt sich folgende Verteilung der Anzahl der Fehlerkennungen je Anwendung, die auch in Abbildung \ref{fig:img_Evaluierung_fehlerkennungen} graphisch dargestellt ist. In $1.75\%$ der Fälle ($n_{0}=1$) trat keine Fehlerkennung während der Anwendung auf. In $40.35\%$ der Fälle ($n_{1-3}=23$) traten zwischen 1 und 3 Fehlerkennungen auf. 4-6 Fehlerkennungen konnten in $24.56\%$ der Fälle ($n_{4-6}=14$) festgestellt werden. 7 oder mehr Fehlerkennungen traten in $29.82\%$ der Fälle ($n_{7+}=17$) auf. In $26.32\%$ der Fälle ($n_{Absturz}=15$) kam es zu Systemabstürzen, wobei diese in 10 Fällen nach Ende des eigentlichen Modellierungsvorgangs auftraten.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=10cm]{img/Evaluierung/fehlerkennungen.png}
+	\caption{Verteilung der Anzahl der Fehlerkennungen je Anwendung -- Übersicht}
+	\label{fig:img_Evaluierung_fehlerkennungen}
+\end{figure}
+
+\todo qualitative Daten
+
 \subsubsection{Diskussion} 
 
+\todo Die Daten der quantitativen Auswertung zeigen, dass es in annähernd allen betrachteten Fällen zu zumindest einer Fehlerkennung kam. Es ist davon auszugehen, dass jede Fehlerkennung den Modellierungsfluss unterbricht, da das dann inkorrekte Modelle korrigiert werden muss. Insofern 
+
+\todo Bestätigung und Relativierung durch die Überarbeitung der Interaktion durch die qualitativen Ergebnisse.
+
+Der hohe Anteil von Systemabstürzen ist insofern zu relativieren, als dass diese in zwei Drittel der Fälle nach Abschluss der eigentlichen Modellierungstätigkeit auftraten und somit die Modellerstellung selbst nicht mehr unterbrachen. Abstürze traten durchgängig vor allem in langen Modellierungsdurchgängen etwa ab Minute 40 auf, da ab diesem Zeitpunkt der Speicherbedarf der Historie tendenziell an die Grenzen des verfügbaren Arbeitsspeichers stößt. Alternativ kam es an Tagen mit starker Modellierungstätigkeit ab etwa 5 Stunden durchgängiger Betriebsdauer zu Überhitzungen des Rechners, auf dem die Software ausgeführt wurde, was zum Gesamtabsturz des Betriebssystems führte. Lediglich in 5 Fällen war der Absturz auf fehlerhaftes Programmverhalten (abgesehen von der Speicherproblematik) zurückzuführen. Diese Fälle traten in den Evaluierungsblöcken 2 und 3 auf. Trotzdem sind auch Systemabstürze in der Endphase der Anwendung nach der Modellierung durch den auftretenden Datenverlust nicht akzeptabel und sprechen somit gegen die Annahme der Hypothese.
+
+Insgesamt kann die hier geprüfte Hypothese aus den angeführten Gründen nicht bestätigt werden.
+
 \subsubsection{Ergebnis} 
+
+\textbf{Hypothese \ref{hyp:behinderung} kann auf Basis der Untersuchung nicht bestätigt werden.}
+
 
 % subsection nicht_behinderung (end)
 
@@ -441,9 +482,65 @@ Gegenstand der hier beschriebenen Untersuchung ist Hypothese \ref{hyp:gewöhnung
 
 \subsubsection{Auswertung} 
 
+Zur Auswertung der Modellierungsgeschwindigkeit (hinsichlich des Hypothesenteils „schnellere Modellbildung“) wurde die reine Modellierungszeit jeder Anwendung (ohne Diskussionszeit) mit der jeweiligen Modellgröße normiert. In Tabelle 	\ref{tab:normierte_zeiten} sind die Anwendungszeiten und Modellgrößen sowie die daraus errechneten normierten Werte für beide Anwendungen der Gruppen in Evaluierungsblock 2 angegeben. 
+
+\begin{table}[htbp]
+	\centering
+	\caption{Modellierungszeiten in Abhängigkeit der Modellgröße in Evaluierungsblock 2}
+\begin{tabular}{| c || c | c | c || c | c | c |}
+  \hline
+   Gruppe    & $t_{1}$ & $n_{1}$ & $t'_{1}$ & $t_{2}$ & $n_{2}$ & $t'_{2}$ \\ \hline
+   1     & 620 & 20 & 31.0 & 300 &  6 & 50.0 \\ 
+   2     & 450 & 13 & 34.6 & 420 &  7 & 60.0 \\ 
+   3     & 240 & 12 & 20.0 & 285 &  6 & 47.5 \\ 
+   4     & 215 & 10 & 21.5 & 420 & 13 & 32.3 \\ 
+   5     & 577 & 12 & 48.1 & 270 &  7 & 38.6 \\ 
+   6     & 339 & 10 & 33.9 & 330 &  8 & 41.3 \\ 
+   7     & 348 &  8 & 43.5 & 110 &  5 & 22.0 \\ 
+   8     & 855 & 16 & 53.4 & 510 & 12 & 42.5 \\ 
+   9     & 735 &  8 & 91.9 & 195 & 12 & 16.3 \\ \hline
+\end{tabular} \\
+\footnotesize $t_{x}$ \ldots Modellierungsdauer in Sekunden, $n_{x}$ \ldots Anzahl der Elemente, $t'_{1}$ \ldots normierte Modellierungdauer in Sekunden
+	\label{tab:normierte_zeiten}
+\end{table}
+
+Zusammenfassend ist zwischen der ersten Anwendung (normierte Modellierungsdauer: $M=42.0, SD=21.8, n=9$) und der zweiten Anwendung (normierte Modellierungsdauer: $M=38.9, SD=13.7, n=9$) keine signifikante Verringerung der normierten Modellierungsdauer zu erkennen (einseitiger Wilcoxon-Test für gepaarte Stichproben: $V=21, p=0.590$\footnote{Aufgrund der beiden kleinen Stichproben und der Nicht-Normalverteilung der beiden Stichproben (Shapiro-Wilk-Test 1. Anwendungsdurchgang: $W=0.853, p=0.081$, 2. Anwendungsdurchgang: $W=0.972, p=0.910$) kann der t-Test ($t=0.286, df=8, p=0.391$) trotz der gleichen Varianz der Stichproben (F-Test: $F=2.53, p=0.211$) nicht angewandt werden.}).
+
+Die Anzahl der Fehlbedienungen ist die Anwendungen in beiden Modellierungsdurchgängen in Evalierungsblock 2 in Tabelle \ref{tab:fehlbedienungen} angegeben. Als Fehlbedienungen wurden all jene Interaktionen mit dem Werkzeug eingestuft, in denen die Bedienung nicht dem intendierten Interaktionsdesign folgte. Fehlfunktionen des Werkzeugs wurden nicht berücksichtigt.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Anzahl der Fehlbedienungen in Evaluierungsblock 2}
+\begin{tabular}{| c || c | c |}
+  \hline
+   Gruppe    & $FB_{1}$ & $FB_{2}$ \\ \hline
+   1     & 1 & 0 \\ 
+   2     & 4 & 1 \\ 
+   3     & 2 & 1 \\ 
+   4     & 0 & 0 \\ 
+   5     & 0 & 0 \\ 
+   6     & 6 & 1 \\ 
+   7     & 3 & 1 \\ 
+   8     & 6 & 1 \\ 
+   9     & 4 & 2 \\ \hline
+\end{tabular} \\
+\footnotesize $FB_{x}$ \ldots Anzahl der Fehlbedienungen
+	\label{tab:fehlbedienungen}
+\end{table}
+
+Zusammenfassend konnte hier gezeigt werden, dass die Anzahl der Fehlbedienungen zwischen Anwendung 1 ($M=2.89, SD=2.32, n=9$) und Anwendung 2 ($M=0.78, SD=0.67, n=9$) signifikant geringer geworden ist (einseitiger Wilcoxon-Test für gepaarte Stichproben: $V=28, p=0.0109$\footnote{Aufgrund der beiden kleinen Stichproben und der Nicht-Normalverteilung der ersten Stichprobe (Shapiro-Wilk-Test 1. Anwendungsdurchgang: $W=0.9144, p=0.348$, 2. Anwendungsdurchgang: $W=0.813, p=0.0284$)   sowie der unterschiedlichen Varianz der Stichproben (F-Test: $F=12.06, p=0.00199$) kann der t-Test ($t=3.333, df=8, p=0.00517$) nicht angewandt werden.}).
+
 \subsubsection{Diskussion} 
 
+Eine signifikante Beschleunigung der Modellierungsgeschwindigkeit konnte in obiger Untersuchung nicht festgestellt werden. Die mit der Modellgröße normierte Modellierungszeit verringerte sich zwischen den beiden Anwendungen im Schnitt nur geringfügig. Dieses Ergebnis kann somit nicht als Indikator für die Bestätigung der Hypothese gesehen werden. In den anderen Evaluierungsblöcken (3, 4 und 5) liegt die durchschnittliche normierte Modellierungsdauer in ähnlichen Bereichen wie in den beiden Durchgängen von Evaluierungsblock 2. Bei Anwendung des Werkzeugs durch den Entwickler selbst ist die normierte Modellierungsdauer hingegen auf ungefähr den halben Wert reduziert. Benutzer ohne tiefgehende und mehrfach wiederholte Anwendungserfahrungen scheinen also keinen signifikant messbaren Beschleunigungseffekt bei der Bedienung des Werkzeugs zu erfahren.
+
+Hingegen ist die Anzahl der Fehlbedienungen in den jeweils zweiten Anwendungen des Werkzeugs im Vergleich zur jeweils ersten Anwendung signifikant gesunken. Dies spricht für die Bestätigung der hier geprüften Hypothese. Betrachtet man die Fehlbedienungen detaillierter, so ist ein Großteil der aufgetretenen Fälle sowohl in der ersten als auch in der zweiten Anwendung auf Verständnisschwierigkeiten bei der Bedienung des Löschtokens (zum Zeitpunkt der Evaluierung noch mit dem zustandsbehafteten Interaktionsdesign implementiert, siehe Abschnitt \ref{sub:verwendung_des_löschtokens}) und der Verwendung der Wiederherstellungsfunktion zurückzuführen. Das Interaktionsdesign beider Aspekte wäre also zu hinterfragen (bzw. wurde im Falle des Löschtokens hinterfragt).
+
+Insgesamt kann die hier untersuchte Hypothese nur zum Teil bestätigt werden, da der vermutete Beschleunigungseffekt nicht nachzuweisen war.
+
 \subsubsection{Ergebnis} 
+
+\textbf{Hypothese \ref{hyp:gewöhnung} kann auf Basis der vorliegenden Daten teilweise bestätigt werden.} Während kein signifikanter Beschleunigungseffekt bei wiederholter Verwendung des Werkzeugs gemessen werden konnte, war eine signifikante Verringerung der Anzahl der Fehlbedienungen des Werkzeugs bei wiederholtem Einsatz feststellbar.
 
 % subsection gewöhnung_an_das_werkzeug (end)
 
@@ -499,7 +596,7 @@ Aufgrund der großen Rolle der Aufgabenstellung ist bei der Überprüfung der Hy
 
 \subsubsection{Ergebnis} % (fold)
 
-Die Auswertung zeigt eine signifikant höhere Verwendung von Verbindern bei Verfügbarkeit der alternativen Funktionalität zur Verbindungs-Herstellung. Auch die Natur der Aufgabenstellung scheint hohen Einfluss auf die Verwendung von Verbindern zu haben (siehe dazu auch die Diskussion von Hypothese \ref{hyp:keine_verbinder} in Abschnitt \ref{sub:abbildung_von_zusammenhängen_ohne_verbinder}). \textbf{Hypothese \ref{hyp:verbinder} kann auf Basis der vorliegenden Daten angenommen werden.}
+Die Auswertung zeigt eine signifikant höhere Verwendung von Verbindern bei Verfügbarkeit der alternativen Funktionalität zur Verbindungs-Herstellung. Auch die Natur der Aufgabenstellung scheint hohen Einfluss auf die Verwendung von Verbindern zu haben (siehe dazu auch die Diskussion von Hypothese \ref{hyp:keine_verbinder} in Abschnitt \ref{sub:abbildung_von_zusammenhängen_ohne_verbinder}). \textbf{Hypothese \ref{hyp:verbinder} kann auf Basis der vorliegenden Daten bestätigt werden.}
 
 % subsection herstellung_von_verbindern (end)
 
