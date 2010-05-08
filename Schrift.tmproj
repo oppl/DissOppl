@@ -133,15 +133,13 @@
 					<key>filename</key>
 					<string>EvalUeberblick.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-06T21:09:37Z</date>
+					<date>2010-05-07T07:42:26Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>EvalTUI.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-06T21:09:37Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2010-05-08T11:35:48Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -287,28 +285,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>200</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>379</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>567</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>363</integer>
+			<integer>0</integer>
 		</dict>
 		<key>EvalUeberblick.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>99</integer>
+				<integer>435</integer>
 				<key>line</key>
-				<integer>372</integer>
+				<integer>367</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>349</integer>
+			<integer>352</integer>
 		</dict>
 		<key>ImplementierungAnforderungen.tex</key>
 		<dict>
@@ -447,6 +445,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{350, 34}, {1072, 830}}</string>
+	<string>{{199, 48}, {1072, 830}}</string>
 </dict>
 </plist>
