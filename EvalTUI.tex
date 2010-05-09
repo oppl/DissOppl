@@ -206,7 +206,7 @@ Die Verwendbarkeit des Löschtokens ist unabhängig von der Modellierungsaufgabe
 
 Zur Beurteilung der intuitiven Verwendbarkeit werden quantitative und qualitative Merkmale der Werkzeugverwendung herangezogen. Quantitativ beurteilbar ist der Anteil der Fehlbedienungen des Löschtokens in Bezug auf alle Anwendungen des Werkzeugs, in denen es grundsätzlich verwendet wurde. Qualitativ wird die Art des Missverständnisses, das zu den jeweiligen Fehlbedienungen führt, beurteilt.
 
-Zur Messung der quantitativen Variablen wird für jede Anwendung die Anzahl der Fehlbedienungen erhoben, die durch das Löschtoken verursacht wurden. Dieser Wert wird in Bezug zur Gesamtanzahl der Fehlbedienungen gesetzt, so dass der Anteil der durch das Löschtoken verursachten Fehlbedienungen berechnet werden kann. Bei "gleich guter" intuitiver Bedienbarkeit aller Werkzeuge wäre eine Gleichverteilung der Fehler zu erwarten. Ist der Anteil der durch das Löschtoken verursachten Fehlbedienungen höher als der Anteil, der bei Gleichverteilung zu erwarten wäre, so deutet dies auf eine Ablehnung der Hypothese hin.
+Zur Messung der quantitativen Variablen wird für jede Anwendung die Anzahl der Fehlbedienungen erhoben, die durch das Löschtoken verursacht wurden. Diese Anzahl wird ins Verhältnis zur Gesamtzahl der Anwendungen des Löschtokens bzw. zur gesamten Anzahl der Löschvorgänge gesetzt. Zu letzterer zählen neben den Anwendungen des Löschtokens auch Fehlerkorrekturen durch Verwendung der Wiederherstellungsfunkion. Da die zweite Möglichkeit sowohl zeit- als auch ressourcenaufwändiger zu verwenden ist als der Einsatz der Löschtokens deutet ein hoher Anteil der Verwendung dieser Funktion auf funktionale Probleme oder Verständnisprobleme der eigentlichen Löschfunktion mittels dem Löschtoken hin.  
 
 Qualitativ werden Modellierungssituationen betrachtet, in denen das Löschtoken zum Einsatz kommt. Auf Basis von Transkripten der Interaktion zwischen den Benutzern und dem Werkzeug, bei denen es zu Fehlbedierungen kam, werden die aufgetretenen Missverständnisse explizit identifziert.
 
@@ -648,7 +648,7 @@ Insgesamt kann die hier geprüfte Hypothese aus den angeführten Gründen nicht 
 
 \subsubsection{Ergebnis} 
 
-\textbf{Hypothese \ref{hyp:behinderung} kann auf Basis der Untersuchung nicht bestätigt werden.} Bei der Benutzung des Werkzeugs traten vor allem in den ersten Evaluierungsblöcken Fehlfunktionen auf, die die Modellbildung massiv behinderten oder teilweise verhinderten. Durch Stabilisierung und Überarbeitung der technischen Plattform konnten diese Fehlfunktionen zwar minimiert werden, insgesamt können die Verbesserungen die gemessenen Werte nicht soweit verbessern, dass die Hypothese statistisch signifikant bestätigt werden könnte. 
+\textbf{Hypothese \ref{hyp:behinderung} kann auf Basis der Untersuchung nicht bestätigt werden.} Bei der Benutzung des Werkzeugs traten vor allem in den ersten Evaluierungsblöcken Fehlfunktionen auf, die die Modellbildung massiv behinderten oder teilweise verhinderten. Durch Stabilisierung und Überarbeitung der technischen Plattform konnten diese Fehlfunktionen zwar minimiert werden, insgesamt können die Verbesserungen die gemessenen Werte nicht soweit verbessern, dass die Hypothese statistisch signifikant bestätigt werden könnte.
 
 % subsection nicht_behinderung (end)
 
@@ -717,7 +717,7 @@ Insgesamt kann die hier untersuchte Hypothese nur zum Teil bestätigt werden, da
 
 \subsubsection{Ergebnis} 
 
-\textbf{Hypothese \ref{hyp:gewöhnung} kann auf Basis der vorliegenden Daten teilweise bestätigt werden.} Während kein signifikanter Beschleunigungseffekt bei wiederholter Verwendung des Werkzeugs gemessen werden konnte, war eine signifikante Verringerung der Anzahl der Fehlbedienungen des Werkzeugs bei wiederholtem Einsatz feststellbar.
+\textbf{Hypothese \ref{hyp:gewöhnung} kann auf Basis der vorliegenden Daten teilweise bestätigt werden.} Während kein signifikanter Beschleunigungseffekt bei wiederholter Verwendung des Werkzeugs festgestellt werden konnte, war eine signifikante Verringerung der Anzahl der Fehlbedienungen des Werkzeugs bei wiederholtem Einsatz feststellbar.
 
 % subsection gewöhnung_an_das_werkzeug (end)
 
@@ -751,15 +751,13 @@ Grundlage der Auswertung ist das Modellmerkmal „Connectedness“, worunter hie
 	\label{fig:img_Evaluierung_connectednessConceptMapping}
 \end{figure}
 
-Zu prüfen ist, ob die Connectedness in jenem Evaluierungs-Blöcken bzw. -Durchgängen, in denen die alternative Funktionalität zur Verbindungs-Herstellung verfügbar war, signifikant höher ist, als in jenen, in denen dies nicht der Fall war. Berechnet wird die Signifikanz zwischen den Ergebnissen der beiden Durchgänge von Block 2 ($conn_{B21}$ und $conn_{B22}$) sowie zwischen den Ergebnissen ersten Durchgang von Block 2 und den Ergebnissen von Block 3 ($conn_{B3}$). Im zweiten Fall ist zu beachten, dass die Aufgabenstellung nicht identisch war und diese Einfluss auf die Connectedness des Modells haben kann. Aufgrund der geringen Stichprobengröße und nicht zu bestätigenden Normalverteilung der Stichproben \todo (Sharpiro-Wilk-Test für XY ) kommt zur Prüfung der Signifikanz der t-Test nicht in Frage, es wird der Wilcoxon-Test herangezogen.
+Zu prüfen ist, ob die Connectedness in jenem Evaluierungs-Blöcken bzw. -Durchgängen, in denen die alternative Funktionalität zur Verbindungs-Herstellung verfügbar war, signifikant höher ist, als in jenen, in denen dies nicht der Fall war. Berechnet wird die Signifikanz zwischen den Ergebnissen der beiden Durchgänge von Block 2 ($conn_{2-1}$ und $conn_{2-2}$) sowie zwischen den Ergebnissen ersten Durchgang von Block 2 und den Ergebnissen von Block 3 ($conn_{3}$). Im zweiten Fall ist zu beachten, dass die Aufgabenstellung nicht identisch war und diese Einfluss auf die Connectedness des Modells haben kann. Aufgrund der geringen Stichprobengröße und nicht zu bestätigenden Normalverteilung der Stichproben \todo (Sharpiro-Wilk-Test für XY ) kommt zur Prüfung der Signifikanz der t-Test nicht in Frage, es wird der Wilcoxon-Test herangezogen.
 
-Die Null-Hypothese des Wilcoxon-Tests ist, das die beiden Verteilungen identisch verteilt sind. Entsprechend dem erwarteten Ergebnis (dass die mit der alternativen Funktionalität durchgeführten Anwendungen höhere Connectedness aufweisen) wurde die Alternativ-Hypothese so festgelegt, dass sie angenommen wird, wenn die Verteilung des zweiten Blocks gegenüber dem ersten Block nach rechts verschoben (also wertemäßig höher) ist.
+Der einseitige Wilcoxon-Test für gepaarte Stichproben ergibt für $conn_{2-1}$ und $conn_{2-2}$ eine signifikant höhere Connectedness in der zweiten Stichprobe (jene mit Einsatz der alternativen Funktionalität der Verbindungsherstellung) als in der erste Stichprobe (ohne diese Funktionalität). 
 
-Der Wilcoxon-Test für gepaarte Stichproben ergibt für $conn_{B21}$ und $conn_{B22}$ und der eben beschriebenen Alternativ-Hypothese \todo XY -- die Alternativ-Hypothese ist damit anzunehmen, die zweite Verteilung (jene mit Einsatz der alternativen Funktionalität der Verbindungsherstellung) weist eine signifikant höhere Connectedness auf als die erste Verteilung (ohne diese Funktionalität). 
+Für $conn_{2-1}$ und $conn_{3}$ ergibt der einseitige Wilcoxon-Test für ungepaarte Stichproben ein ähnliches Ergebnis -- auch hier ist im der zweiten Stichprobe bei einsatz der alternativen Funktionalität zur Verbiundungsherstellung eine signifikant höhere Connectedness festzustellen.
 
-Für $conn_{B21}$ und $conn_{B3}$ ergibt der Wilcoxon-Test für ungepaarte Stichproben mit der gleichen Alternativ-Hypothese \todo XY -- auch hier ist die Alternativ-Hypothese anzunehmen.
-
-Für $conn_{B22}$ und $conn_{B3}$ ergibt der Wilcoxon-Test für ungepaarte Stichproben mit der gleichen Alternativ-Hypothese \todo XY -- auch hier ist die Alternativ-Hypothese anzunehmen.
+Für $conn_{2-2}$ und $conn_{3}$ zeigt der einseitige Wilcoxon-Test für ungepaarte Stichproben ebenfalls eine signifikant höhere Connectedness für den zweitgenannten Block -- in diesem Fall kam in beiden Stichproben die alternative Möglichkeit zur Herstellung von Verbindungen zum Einsatz.
 
 \subsubsection{Diskussion} % (fold)
 
@@ -767,9 +765,9 @@ Aufgrund der Ergebnisse der berechneten Signifikanztests ist die Hypothese anzun
 
 Die Connectedness eignet sich als Parameter zur vergleichenden Beurteilung des Ausmaßes der Verwendung von Verbindern, da durch die Einbeziehung der Größe des Modells (repräsentiert durch die Anzahl der verwendeten Modellelemente) in die Berechnung den Wert für unterschiedliche Modelle vergleichbar macht. 
 
-Einfluss auf die Höhe der Connectedness hat aber die Aufgabenstellung, die zur Bildung des Modells führt. Unterschiedliche Modellierungsaufgaben führen zu unterschiedlichen Modell-Topologien, die sich wiederum in der Anzahl der verwendeten Verbinder auswirkt. Dies zeigt sich am Ergebnis des Wilcoxon-Tests für $conn_{B22}$ und $conn_{B3}$ -- in beiden Fällen stand die alternative Möglichkeit zur Verbindungsherstellung zur Verfügung $conn_{B3}$ ist trotzdem signifikant höher als $conn_{B22}$. Die kann darin begründet liegen, dass die Concept-Mapping-Aufgabe aus $conn_{B3}$ eher zu stärker verbundenen Modellen führt als eher zur ablauforientierten Modellen führende Arbeitsabstimmungs-Aufgabe aus $conn_{B22}$. Während bei Concept Mapping beliebige Konzepte in Beziehung stehen können, stehen Elemente bei ablauf-orientierten Modellen vor allem mit ihren kausalen Vorgängern und Nachfolgern in Beziehung, was die Anzahl der Verbinder einschränkt.
+Einfluss auf die Höhe der Connectedness hat aber die Aufgabenstellung, die zur Bildung des Modells führt. Unterschiedliche Modellierungsaufgaben führen zu unterschiedlichen Modell-Topologien, die sich wiederum in der Anzahl der verwendeten Verbinder auswirkt. Dies zeigt sich am Ergebnis des Wilcoxon-Tests für $conn_{2-2}$ und $conn_{3}$ -- in beiden Fällen stand die alternative Möglichkeit zur Verbindungsherstellung zur Verfügung. $conn_{3}$ ist trotzdem signifikant höher als $conn_{2-2}$. Died kann darin begründet liegen, dass die Concept-Mapping-Aufgabe, die $conn_{3}$ zugrunde liegt, eher zu stärker verbundenen Modellen führt als eher zur ablauforientierten Modellen führende Arbeitsabstimmungs-Aufgabe, auf der $conn_{2-2}$ basiert. Während bei Concept Mapping beliebige Konzepte in Beziehung stehen können, stehen Elemente bei ablauf-orientierten Modellen vor allem mit ihren kausalen Vorgängern und Nachfolgern in Beziehung, was die Anzahl der Verbinder einschränkt.
 
-Aufgrund des Einflusses der Aufgabenstellung auf die Connectedness ist bei der Überprüfung der Hypothese wichtig, diesen Faktor möglichst zu kompensieren bzw. dessen Auftreten zu vermeiden. Zur Beurteilung wird deswegen ausschließlich der Wilcoxon-Test zwischen $conn_{B21}$ und $conn_{B22}$ herangezogen, da in diese beiden Verteilungen mit der gleichen Aufgabenstellung und identischer Stichprobe (jedoch in zeitlichem Abstand von ca. einem Monat) zustande gekommen sind (da die Messungen unabhängig voneinander entstanden, wird ein Wilcoxon-Test für ungepaarte Variablen verwendet). Das Resultat des Wilcoxon-Tests spricht für die Annahme der Hypothese \ref{hyp:verbinder}. Zu berücksichtigen ist hier jedoch die geringe Stichprobengröße, die die Aussagekraft des Ergebnisses in Frage stellt.
+Aufgrund des Einflusses der Aufgabenstellung auf die Connectedness ist bei der Überprüfung der Hypothese wichtig, diesen Faktor möglichst zu kompensieren bzw. dessen Auftreten zu vermeiden. Zur Beurteilung wird deswegen ausschließlich der Wilcoxon-Test zwischen $conn_{2-1}$ und $conn_{2-2}$ herangezogen, da in diese beiden Verteilungen mit der gleichen Aufgabenstellung und identischer Stichprobe (jedoch in zeitlichem Abstand von ca. einem Monat) zustande gekommen sind. Das Resultat des Wilcoxon-Tests spricht für die Annahme der Hypothese \ref{hyp:verbinder}. Zu berücksichtigen ist hier jedoch die geringe Stichprobengröße, die die Aussagekraft des Ergebnisses schmälert.
 
 \subsubsection{Ergebnis} % (fold)
 
@@ -780,9 +778,31 @@ Die Auswertung zeigt eine signifikant höhere Verwendung von Verbindern bei Verf
 \subsection{Verwendung des Löschtokens} % (fold)
 \label{sub:verwendung_des_löschtokens}
 
-In diesem Abschnitt werden die Ergebnisse der Überprüfung der Hypothese \ref{hyp:radierer} („Das Löschtoken ermöglicht intuitives Löschen von Modellelementen.“) vorgestellt. Die Auswertung basiert auf den Ergebnissen der Modellierungsblöcke 2, 3, 4 und 5, wobei zwischen Evaluierungsblöcken 3 und 4 die Funktionaliät und Verwendungsweise des Tokens verändert wurde.
+In diesem Abschnitt werden die Ergebnisse der Überprüfung der Hypothese \ref{hyp:radierer} („Das Löschtoken ermöglicht intuitives Löschen von Modellelementen.“) vorgestellt. Die Auswertung basiert auf den Ergebnissen der Modellierungsblöcke 2, 3, 4 und 5, wobei zwischen Evaluierungsblöcken 3 und 4 die Funktionaliät und Verwendungsweise des Tokens überarbeitet wurde.
 
 \subsubsection{Auswertung} % (fold)
+
+Zur Auswertung wurde erhoben, in welchem Ausmaß das Löschtoken zum Entfernen unerwünschter Verbinder im Gegensatz zur alternativen Möglichkeit -- dem Einsatz der Wiederherstellungsfunktion -- verwendet wurde. Zusätzlich wurde erhoben, in wie vielen Fällen die Verwendung des Löschtokens scheiterte, weil die Benutzer dessen Einsatzmöglichkeit inkorrekt interpretierten. Tabelle \ref{tab:fehlinterpretationen} zeigt diese Daten für die Evaluierungsblöcke 2 bis 5.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Verwendung des Löschtokens}
+\begin{tabular}{| c || c || c | c | c | c |}
+  \hline
+   EB    & Anw. & $Lösch_{ges}$ & $Lösch_{Token}$ & $FI_{Token}$ & $Lösch_{WH}$ \\ \hline
+   2     & 18 & 55 & 11 & 10 & 44 \\ 
+   3     & 18 & 68 &  8 &  7 & 60 \\ 
+   4     & 10 & 35 & 20 &  0 & 15 \\ 
+   5     & 11 & 95 & 83 &  0 & 12 \\ \hline
+   Ges.  & 57 & 253 & 122 & 17 & 131 \\ \hline
+\end{tabular} \\
+\footnotesize EB \ldots Evaluierungsblock, $Lösch_{ges}$ \ldots Gesamtanzahl der Löschvorgänge, $Lösch_{Token}$ \ldots Löschvorgänge mit Löschtoken, $FI_{Token}$ \ldots Fehlinterpretationen bei der Verwendung des Löschtokens, $Lösch_{WH}$ \ldots Löschvorgänge mit Wiederherstellungsfunktion
+	\label{tab:fehlinterpretationen}
+\end{table}
+
+Die Fehlintepretation der Verwendung des Löschtokens kann durch die nähere Betrachtung mittels der durchgeführten Interaktionsanalyse exakter bestimmt werden. Ausgewählt wurden hier Beispiele aus den Modellierungsblöcken 2 und 3. Die gesammelten Transkripte sind in den in Anhang \ref{cha:daten_der_empirischen_untersuchung} genannten Quellen verfügbar.
+
+In der ersten hier angeführten Szene versuchen die Teilnehmer, die Beschriftung eines Blocks mit dem Löschtoken auszuradieren. Dies scheitert, da das Löschtoken als Zustandsschalter fungiert und das eigentliche Löschen separat ausgelöst werden muss. Außerdem wirkt das Löschtoken nur auf Verbindungen.
 
 \begin{transkript}
 	\emph{Die Teilnehmer möchten einen Block umbenennen.}\\
@@ -796,7 +816,7 @@ In diesem Abschnitt werden die Ergebnisse der Überprüfung der Hypothese \ref{h
 	\emph{A legt den Block zur Seite.} 
 \end{transkript}
 
-Ein ähnliches Missverständnis zeigt sich auch in folgender Situation:
+Ein ähnliches Missverständnis zeigt sich auch in dem im folgenden angegebenen Situation. Hier sollte eine Verbindung gelöscht werden, das Löschtoken wurde jedoch wiederum nicht als Zustandsschalter, sondern für den Vorgang des Löschens selbst verwendet.
 
 \begin{transkript}
 	\emph{TLN A und B stellen jeweils ihren Marker zu den Blöcken, die verbunden werden sollen. Dabei wird eine gerichtete Verbindung erstellt.}\\
@@ -813,6 +833,8 @@ Ein ähnliches Missverständnis zeigt sich auch in folgender Situation:
 	\textbf{A:} Nein der Radiergummi vernichtet nur Verbindungen. Nur welche? \emph{(schiebt beide Blöcke wieder zusammen – nimmt Radiergummi weg und schiebt Blöcke in die Ausgangsposition)}
 \end{transkript}
 
+In der folgenden Szene zeigen sich wiederum die Fehlinterpretationen der am Beginn angeführten Interaktion. Wieder wird das Token zum Radieren verwendet, Zielobjekt ist in diesem Fall die Beschriftung einer Verbindung.
+
 \begin{transkript}
 	\emph{Es wird eine falsche Beschriftung eingefügt. Die Teilnehmer wollen diese löschen, verwenden den Radiergummi allerdings falsch.}\\
 	\textbf{B:} Aber irgendwie steht jetzt Ereignisse nicht bei dem Ding \emph{(zeigt auf gelben Block)} sondern dort \emph{(zeigt auf beschriftete Verbindung)}.\\
@@ -825,6 +847,8 @@ Ein ähnliches Missverständnis zeigt sich auch in folgender Situation:
 	\emph{A nimmt Radiergummi wieder weg. System erstellt eine Verbindung zwischen zwei roten Blöcken. Teilnehmer lachen. \textbf{A legt Radiergummi auf die erstellte Verbindung, und nimmt ihn wieder weg.} A nimmt die beiden verbundenen Blöcke und verschiebt sie.}\\
 	\textbf{A:} Vielleicht so. \emph{(führt die Blöcke zusammen)}
 \end{transkript}
+
+In der folgenden Szene sind die Teilnehmer durch den Farbwechsel der Oberfläche beim Aufsetzen des Löschtokens (zur Indikation des Zustandswechsels) irritiert, da sie ebenfalls versuchen, das Token zum Radieren zu verwenden.
 
 \begin{transkript}
 	\emph{In der Szene erstellt das System einen ungewollten Verbinder, die Teilnehmer versuchen auf verschiedene Arten den Verbinder zu löschen.}\\
@@ -841,13 +865,15 @@ Ein ähnliches Missverständnis zeigt sich auch in folgender Situation:
 	\textbf{B:} Nein, es will eh nicht.\\
 \end{transkript}
 
+Die nachstehende Interaktion zeigt wiederum die in den anderen Szenen bereits beschriebene Fehlinterpretation in der Verwendung des Löschtokens. Zusätzlich verwirrt eine Fehlfunktion des Werkzeugs, das anstelle eines Löschvorgangs einen Verbinder hinzufügt.
+
 \begin{transkript}
 	\emph{C versucht die Benennung eines Verbinders mittels Radiergummi zu entfernen.}\\
 	\textbf{B:} Aber irgendwie steht jetzt Ereignisse nicht bei dem Ding \emph{(deutet auf einen Block)} sondern dort \emph{(deutet auf einen Verbinder)}. Das wollen wir nicht oder?\\
 	\textbf{A:} Nein.\\
 	\textbf{C:} Ich glaube das. \emph{\textbf{(nimmt den Radiergummi und legt ihn auf den Verbinder den die Teilnehmer entfernen wollen.)}}\\
 	\textbf{A:} Aber nicht alles.\\
-	\emph{C entfernt den Radiergummi wieder von der Modellierungsoberfläche. In diesem Moment erstellt das System automatisch einen neuen Verbinder. C versucht den neuen Verbinder mittels Radiergummi zu entfernen.}\\
+	\emph{C entfernt den Radiergummi wieder von der Modellierungsoberfläche. In diesem Moment erstellt das System durch Fehlerkennungen automatisch einen neuen Verbinder. C versucht den neuen Verbinder mittels Radiergummi zu entfernen.}\\
 	\textbf{A:} Oh Gott.\\
 	\textbf{C:} Vielleicht so \emph{(schiebt die beiden betroffenen Blöcke zusammen)}, nein.\\
 	\textbf{B:} Nein.\\
@@ -855,6 +881,8 @@ Ein ähnliches Missverständnis zeigt sich auch in folgender Situation:
 	\textbf{B:} Gehen wir einen Prozessschritt zurück.\\
 	\textbf{C:} Genau.\\
 \end{transkript}
+
+In der letzten hier angeführten Szene interagieren die Teilnehmer beinahe wie im Interaktionsdesign ursprünglich intendiert mit dem System. Sie scheitern letztendlich trotzdem und greifen zu alternativen Möglichkeit der Fehlerkorrektur, der Wiederherstellungsfunktion.
 
 \begin{transkript}
 	\emph{Teilnehmer versuchen mit dem Radiergummi und nur einem anderen Marker einen Verbinder zu entfernen.}\\
@@ -869,10 +897,18 @@ Ein ähnliches Missverständnis zeigt sich auch in folgender Situation:
 
 \subsubsection{Diskussion} % (fold)
 
+In der quantitativen Auswertung ist klar zu erkennen, dass die ursprüngliche Implementierung der Löschfunktion, in der das Löschtoken als Zustandsumschalter fungierte, von den Benutzern kaum verwendet wurde und in jenen Fällen, in dem sie zum Einsatz kam, falsch interpretiert wurde, was letztendlich zum Scheitern des Löschvorgangs führte. Beginnend mit Block 4 wurde die Löschfunktion in einer vollständig erneuerten Implementierung eingesetzt, in der das Löschtoken tatsächlich zum Löschen einer Verbindung verwendet werden konnte. Damit wurde der vorherrschenden Interpretation der Funktionalität durch die Benutzer Rechnung getragen, was sich dadurch äußert, dass die Anzahl der Fehlinterpretationen auf 0 sank und das Löschtoken in weitaus höherem Ausmaß als die Wiederherstellungsfunktion zur Fehlerkorrektur verwendet wurde.
+
+Bei der Betrachtung der Hypothese muss also zwischen der ursprünglichen Implementierung und deren neuen Umsetzung unterschieden werden. Für die ursprüngliche Implementierung kann die Hypothese nicht bestätigt werden, das Werkzeug war in der vorliegenden Form für die Benutzer nicht verständlich. In der Neuimplementierung wurden die ursprünglichen Fehlinterpretationen berücksichtigt und das Werkzeug zu modifiziert, dass es entsprechend der beobachteten Benutzerinterpretation verwendet werden konnte. In dieser Variante sprechen die erhobenen Daten für eine Bestätigung der Hypothese.
 
 \subsubsection{Ergebnis} % (fold)
 
+\textbf{Hypothese \ref{hyp:radierer} muss für die ursprüngliche Umsetzung der Löschfunktion abgelehnt werden, kann aber für die neu konzipierte und implementierte Variante bestätigt werden.} In der ursprünglichen Umsetzung war die Verwendung des Werkzeugs für die Benutzer nicht verständlich, die eigentlich aufwändigere Alternativfunktion zur Fehlerkorrektur wurde außerdem weitaus häufiger verwendet. Nach der Neukonzeption kam es zu keinen Fehlinterpretationen mehr, das Löschtoken wurde außerdem in weitaus höherem Ausmaß verwendet.
+
 % subsection verwendung_des_löschtokens (end)
 % section ergebnisse (end)
+
+\section{Zusammenfassung}
+\label{sec:t_zusammenfassung}
 
 % chapter eval_tui (end) 

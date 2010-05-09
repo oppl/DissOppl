@@ -145,7 +145,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=206
 mode=LaTeX
-open=true
+open=false
 order=8
 
 [item:AnhangEmpirie.tex]
@@ -155,7 +155,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=99
 mode=LaTeX
-open=true
+open=false
 order=7
 
 [item:ArticulationWork.tex]
@@ -175,7 +175,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=6
 
 [item:Einfuehrung.tex]
@@ -185,7 +185,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=51
 mode=LaTeX
-open=true
+open=false
 order=5
 
 [item:EvalAW.tex]
@@ -195,7 +195,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=135
 mode=LaTeX
-open=true
+open=false
 order=3
 
 [item:EvalModell.tex]
@@ -206,17 +206,17 @@ highlight=LaTeX
 line=252
 mode=LaTeX
 open=true
-order=0
+order=1
 
 [item:EvalTUI.tex]
 archive=true
-column=0
+column=36
 encoding=UTF-8
 highlight=LaTeX
-line=300
+line=794
 mode=LaTeX
 open=true
-order=1
+order=0
 
 [item:EvalUeberblick.tex]
 archive=true
@@ -225,7 +225,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=367
 mode=LaTeX
-open=true
+open=false
 order=4
 
 [item:Evaluierung.tex]
@@ -335,7 +335,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=77
 mode=LaTeX
-open=true
+open=false
 order=2
 
 [item:Schrift.tex]
@@ -397,8 +397,8 @@ CursorColumn=0
 CursorLine=252
 
 [view-settings,view=0,item:EvalTUI.tex]
-CursorColumn=0
-CursorLine=300
+CursorColumn=36
+CursorLine=794
 
 [view-settings,view=0,item:EvalUeberblick.tex]
 CursorColumn=0
