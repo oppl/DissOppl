@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>AnhangEmpirie.tex</string>
+	<string>EvalUeberblick.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -121,7 +121,7 @@
 					<key>filename</key>
 					<string>Evaluierung.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-13T12:44:57Z</date>
+					<date>2010-05-13T23:33:35Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -133,19 +133,21 @@
 					<key>filename</key>
 					<string>EvalUeberblick.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-13T22:11:38Z</date>
+					<date>2010-05-13T23:41:54Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>EvalTUI.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-13T22:45:02Z</date>
+					<date>2010-05-13T23:41:54Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>EvalModell.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-13T23:07:01Z</date>
+					<date>2010-05-13T23:33:37Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -163,7 +165,7 @@
 			<key>filename</key>
 			<string>Schlussbetrachtungen.tex</string>
 			<key>lastUsed</key>
-			<date>2010-05-10T21:26:53Z</date>
+			<date>2010-05-13T23:33:28Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -178,9 +180,7 @@
 					<key>filename</key>
 					<string>AnhangEmpirie.tex</string>
 					<key>lastUsed</key>
-					<date>2010-05-13T23:07:01Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2010-05-13T23:22:06Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -245,7 +245,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>221</integer>
+				<integer>220</integer>
 				<key>line</key>
 				<integer>3</integer>
 			</dict>
@@ -265,7 +265,7 @@
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>221</integer>
+				<integer>220</integer>
 				<key>line</key>
 				<integer>3</integer>
 			</dict>
@@ -340,69 +340,37 @@
 				<integer>242</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>273</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>519</integer>
+			<integer>516</integer>
 		</dict>
 		<key>EvalTUI.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>348</integer>
+				<integer>438</integer>
 				<key>line</key>
-				<integer>887</integer>
+				<integer>503</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>350</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>887</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>307</integer>
-				<key>line</key>
-				<integer>887</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>348</integer>
-				<key>line</key>
-				<integer>887</integer>
-			</dict>
+			<integer>489</integer>
 		</dict>
 		<key>EvalUeberblick.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>569</integer>
 				<key>line</key>
-				<integer>372</integer>
+				<integer>379</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>180</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>360</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>372</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>5</integer>
-				<key>line</key>
-				<integer>372</integer>
-			</dict>
+			<integer>0</integer>
 		</dict>
 		<key>Evaluierung.tex</key>
 		<dict>
@@ -486,7 +454,7 @@
 				<integer>73</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>282</integer>
+			<integer>100</integer>
 			<key>firstVisibleLine</key>
 			<integer>58</integer>
 		</dict>
@@ -556,6 +524,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{80, 51}, {813, 827}}</string>
+	<string>{{116, 51}, {813, 827}}</string>
 </dict>
 </plist>

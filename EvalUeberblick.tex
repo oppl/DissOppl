@@ -365,14 +365,20 @@ Der Kruskal-Wallis-Test kann ab drei Verteilungen mit einer Stichprobengröße v
 \subsection{Korrelationstest} % (fold)
 \label{sub:korrelationstest}
 
-Mittels Korrelationstests wird geprüft, ob zwischen zwei Datenreihen ein Zusammenhang besteht oder nicht. Je höher der Betrag des positiven oder negativen Wert des berechneten Korrelationskoeffizienten ist, desto stärker ausgeprägt ist der positive bzw. negative Zusammenhang zwischen den geprüften Stichproben. Um auf eine Korrelation in der Grundgesamtheit schließen zu können, muss wiederum ein Signifikanztest (siehe Abschnitt \ref{sub:signifikanztests}) verwendet werden, um zu prüfen, ob der berechnete Korrelationskoeffizient signifikant unterschiedlich von 0 ist.
+Mit Korrelationstests wird geprüft, ob zwischen zwei Merkmalen ein Zusammenhang besteht oder nicht. Je höher der Betrag des positiven oder negativen Wert des berechneten Korrelationskoeffizienten ist, desto stärker ausgeprägt ist der positive bzw. negative Zusammenhang zwischen den geprüften Stichproben. Um auf eine Korrelation in der Grundgesamtheit schließen zu können, muss wiederum ein Signifikanztest (siehe Abschnitt \ref{sub:signifikanztests}) verwendet werden, um zu prüfen, ob der berechnete Korrelationskoeffizient signifikant unterschiedlich von 0 ist.
 
 \subsubsection{Pearson-Test} % (fold)
 \label{ssub:pearson_test}
 
-\todo Der Pearsonsche Korrelationskoeffizient kann verwendet werden, wenn \cite{Duller08}
+Der Pearsonsche Korrelationskoeffizient kann verwendet werden, um den Zusammenhang zwischen zwei metrischen Merkmalen zu berechnen. Zur Berechnung wird die Kovarianz herangezogen, die als Maß für die Streuung der beiden Merkmale interpretiert werden kann. Ist die Kovarianz gleich 0, so besteht kein Zusammenhang zwischen den beiden Merkmalen. Das Vorzeichen der Kovarianz beschreibt, ob ein gleich- oder gegensinniger Zusammenhang vorliegt. Je näher der Betrag des Korrelationskoeffizienten (Kovarianz in Bezug zum Produkt der Standardabweichungen der Merkmale) bei 1 liegt, desto stärker ist der Zusammenhang der beiden Merkmale. Der Korrelationskoeffizient misst lediglich linear Zusammenhänge. Voraussetzung der Anwendung des Pearson-Tests ist eine annähernde Normalverteilung der Merkmale. Ist diese nicht gegeben, muss auf die ordinalen Korrelationskoeffizienten nach Spearman oder Kendall zurückgegriffen werden, wobei letzterer hier nicht näher betrachtet wird. \cite{Duller08}
 
 % subsubsection pearson_test (end)
+
+\subsubsection{Spearman-Test} % (fold)
+\label{ssub:spearman_test}
+
+Der Spearmansche Rangkorrelationskoeffizient kann verwendet werden, um den Zusammenhang zwischen zwei ordinalen Merkmalen zu berechnen. Wiederum zeigt das Vorzeichen des Koeffizienten an, ob ein gleich- oder gegensinniger Zusammenhang gegeben ist, der betragsmäßige Wert des Koeffizienten gibt die Stärke der Korrelation an (wobei 0 keinen Zusammenhang anzeigt und gegen 1 gehende Werte einen starken Zusammengang indizieren). Für den Test nach Spearman gelten die Voraussetzungen des Pearson-Test nicht, insbesondere muss keine Normalverteilung der Merkmale vorliegen.
+% subsubsection spearman_test (end)
 
 % subsection korrelationstest (end)
 
