@@ -316,20 +316,20 @@ Im Bereich der qualitativen Auswertung war vor allem die Benutzung des Tabletop 
 
 Signifikanztests werden verwendet, um zu ermitteln, ob die Unterschiede zwischen zwei Stichproben tatsächlich signifikant sind, d.h. ob sich mit einer gegebenen Irrtumswahrscheinlichkeit (etwa $p<0.05$) auch die beiden den Stichproben zugrunde liegenden Grundgesamtheiten unterscheiden \citep[][S. 496]{Bortz03}. Signifikanztests sind deshalb ein zentraler Bestandteil der quantitativen Hypothesenprüfung.
 
-Je nach Eigenschaften der zugrunde liegenden Grundgesamtheiten und Umfang der Stichprobe müssen unterschiedliche Verfahren zur Signifikanzprüfung eingesetzt werden. In den folgenden Unterabschnitten werden die hier verwendeten Tests kurz beschrieben und die Voraussetzungen für deren Einsatz angeführt. Eine umfassende Beschreibung der Methoden würde den Umfang dieser Arbeit sprengen. Als Grundlage für die Auswahl dienten in dieser Arbeit das einführende Werk von \citet{Bortz03} sowie die Website „Using R for statistical analyses“\footnote{http://gardenersown.co.uk/Education/Lectures/R}. Für eine umfassendere Beschreibung der Methoden sei hier auf diese Quellen verwiesen.
+Je nach Eigenschaften der zugrunde liegenden Grundgesamtheiten und Umfang der Stichprobe müssen unterschiedliche Verfahren zur Signifikanzprüfung eingesetzt werden. In den folgenden Unterabschnitten werden die hier verwendeten Tests kurz beschrieben und die Voraussetzungen für deren Einsatz angeführt. Eine umfassende Beschreibung der Methoden würde den Umfang dieser Arbeit sprengen. Als Grundlage für die Auswahl dienten in dieser Arbeit das einführende Werke von \citet{Bortz03} und \citet{Duller08} sowie die Website „Using R for statistical analyses“\footnote{http://gardenersown.co.uk/Education/Lectures/R}. Für eine umfassendere Beschreibung der Methoden sei hier auf diese Quellen verwiesen.
 
 \subsubsection{t-Test} % (fold)
 \label{ssub:t_test}
 
 Der t-Test nach Student prüft in der Grundvariante anhand einer Stichprobe, ob der erwartete Mittelwert der entsprechenden Grundgesamtheit gleich, kleiner oder größer einem gegebenen Wert ist. In der -- hier eingesetzten -- Variante für zwei Stichproben prüft der Test, ob der erwartete Mittelwert der der ersten Stichprobe zugrunde liegenden Grundgesamtheit gleich, kleiner oder größer ist als jener der Grundgesamtheit zur zweiten Stichprobe. Für mehr als zwei Stichproben kann der t-Test nicht eingesetzt werden, alternativ kann der Kruskal-Wallis-Test (siehe unten) zur Anwendung gebracht werden.
 
-Der t-Test geht von einer intervallskalierten, normalverteilten Grundgesamtheit aus. Bei Grundgesamtheiten, deren Verteilung unbekannt ist, kann bei ausreichender Stichprobengröße (häufig: $n>30$) auf Grund des zentralen Grenzwertsatzes von einer Normalverteilung ausgegangen werden und der t-Test wiederum eingesetzt werden. Bei kleineren Stichproben kann der t-Test nur dann verwendet werden, wenn eine Normalverteilung der Grundgesamtheit zu erwarten ist. Dies kann auch für kleine Stichproben mit dem Sharpiro-Wilk-Test (siehe unten) überprüft werden. Eine weitere Bedingung für den Einsatz des t-Tests ist, dass die Varianz der Grundgesamtheiten der beiden Stichproben identisch ist. Dies kann mit dem F-Test (siehe unten) festgestellt werden.
+Der t-Test geht von einer intervallskalierten, normalverteilten Grundgesamtheit aus. Bei Grundgesamtheiten, deren Verteilung unbekannt ist, kann bei ausreichender Stichprobengröße (häufig: $n>30$) auf Grund des zentralen Grenzwertsatzes von einer Normalverteilung ausgegangen werden und der t-Test wiederum eingesetzt werden. Bei kleineren Stichproben kann der t-Test nur dann verwendet werden, wenn eine Normalverteilung der Grundgesamtheit zu erwarten ist. Dies kann auch für kleine Stichproben mit dem Sharpiro-Wilk-Test (siehe unten) überprüft werden. Eine weitere Bedingung für den Einsatz des t-Tests ist, dass die Varianz der Grundgesamtheiten der beiden Stichproben identisch ist. Dies kann mit dem F-Test (siehe unten) festgestellt werden.  \citet{Bortz03}
 
 % subsubsection t_test (end)
 
 \subsubsection{Wilcoxon-Test} % (fold)
 \label{ssub:wilcoxon_text}
-Der Wilcoxon-Rangsummentest (oder alternativ: Mann-Whitney-U-Test) ist ein Verfahren zur Überprüfung ob zwei Verteilungen signifikant übereinstimmen. Die Verteilungen müssen im Gegensatz zum t-Test nicht normalverteilt sein, sollten aber eine ähnliche Form aufweisen. Der Wilcoxon-Test ist auch für kleine Stichproben geeignet.
+Der Wilcoxon-Rangsummentest (oder alternativ: Mann-Whitney-U-Test) ist ein Verfahren zur Überprüfung ob zwei Verteilungen signifikant übereinstimmen. Die Verteilungen müssen im Gegensatz zum t-Test nicht normalverteilt sein, sollten aber eine ähnliche Form aufweisen. Der Wilcoxon-Test ist auch für kleine Stichproben geeignet. \citep{Duller08}
 
 Aufgrund der Stichprobengrößen in den vorliegenden Untersuchungen ist der Wilcoxon-Test dem t-Test hier im Allgemeinen vorzuziehen. 
 
@@ -338,7 +338,7 @@ Aufgrund der Stichprobengrößen in den vorliegenden Untersuchungen ist der Wilc
 \subsubsection{Sharpiro-Wilk-Test} % (fold)
 \label{ssub:sharpiro_wilk_test}
 
-Der Sharpiro-Wilk-Test \citep{Shapiro65} testet eine Verteilung auf „Nicht-Normaliät“ (d.h. die Nullhypothese ist, dass die Verteilung nicht normalverteilt ist). Mit einer Irrtumswahrscheinlichkeit von $p<0.05$ kann daher bei Ablehnung der Nullhypothese davon ausgegangen werden, dass die geprüfte Verteilung nicht normalverteilt ist. Dieser Test eignet sich auch für kleine Stichproben (ab $n>3$).
+Der Sharpiro-Wilk-Test \citep{Shapiro65} testet eine Verteilung auf „Nicht-Normaliät“ (d.h. die Nullhypothese ist, dass die Verteilung nicht normalverteilt ist). Mit einer Irrtumswahrscheinlichkeit von $p<0.05$ kann daher bei Ablehnung der Nullhypothese davon ausgegangen werden, dass die geprüfte Verteilung nicht normalverteilt ist. Dieser Test eignet sich auch für kleine Stichproben (ab $n>3$). \citep{Duller08}
 
 Er wird hier eingesetzt, um zu prüfen, ob der t-Test eingesetzt werden kann oder nicht (da dieser eine Normalverteilung der Parameter voraussetzt).
 
@@ -347,7 +347,7 @@ Er wird hier eingesetzt, um zu prüfen, ob der t-Test eingesetzt werden kann ode
 \subsubsection{F-Test} % (fold)
 \label{ssub:f_test}
 
-Der F-Test (oder: Varianzquotienten-Test) überprüft, ob die Varianzen zweier normalverteilter Grundgesamtheiten signifikant übereinstimmen. Er wird hier eingesetzt, um die entsprechende Voraussetzung für den Einsatz des t-Tests zu überprüfen. Muss die Nullhypothese verworfen werden, so muss anstelle des t-Tests der Welch-Test eingesetzt werden, auf den hier nicht näher eingeangen wird.
+Der F-Test (oder: Varianzquotienten-Test) überprüft, ob die Varianzen zweier normalverteilter Grundgesamtheiten signifikant übereinstimmen. Er wird hier eingesetzt, um die entsprechende Voraussetzung für den Einsatz des t-Tests zu überprüfen. Muss die Nullhypothese verworfen werden, so muss anstelle des t-Tests der Welch-Test eingesetzt werden, auf den hier nicht näher eingegangen wird. \citep{Duller08}
 
 % subsubsection f_test (end)
 
@@ -356,7 +356,7 @@ Der F-Test (oder: Varianzquotienten-Test) überprüft, ob die Varianzen zweier n
 
 Der Kruskal-Wallis-Test ist wie der Wilcoxon-Test ein Verfahren, mit dem die Übereinstimmung von Verteilungen auf Signifikanz überprüft werden kann. Wie dieser setzt er keine Normalverteilung voraus und eignet sich auch für kleine Stichproben. 
 
-Der Kruskal-Wallis-Test kann jedoch Gegensatz zu den anderen Verfahren auch für die Überprüfung von mehr als zwei Verteilungen gleichzeitig eingesetzt werden. Die Nullhypothese ist, dass sich die Verteilungen nicht unterscheiden. Werden detailliertere Hypothesen benötigt, so muss eine paarweise Überprüfung der Verteilungen mit einem der oben beschriebenen Verfahren vorgenommen werden.
+Der Kruskal-Wallis-Test kann jedoch Gegensatz zu den anderen Verfahren auch für die Überprüfung von mehr als zwei Verteilungen gleichzeitig eingesetzt werden. Die Nullhypothese ist, dass sich die Verteilungen nicht unterscheiden. Werden detailliertere Hypothesen benötigt, so muss eine paarweise Überprüfung der Verteilungen mit einem der oben beschriebenen Verfahren vorgenommen werden.  \citep{Duller08}
 
 Der Kruskal-Wallis-Test kann ab drei Verteilungen mit einer Stichprobengröße von jeweils mindestens 6 sinnvoll eingesetzt werden. In dieser Arbeit kommt er nur selten zum Einsatz, da großteils lediglich die Signifikanz der Übereinstimmung zweier Verteilungen überprüft werden muss.
 
@@ -370,7 +370,7 @@ Mittels Korrelationstests wird geprüft, ob zwischen zwei Datenreihen ein Zusamm
 \subsubsection{Pearson-Test} % (fold)
 \label{ssub:pearson_test}
 
-\todo Der Pearsonsche Korrelationskoeffizient kann verwendet werden, wenn ... aus Bortz extrahieren
+\todo Der Pearsonsche Korrelationskoeffizient kann verwendet werden, wenn \cite{Duller08}
 
 % subsubsection pearson_test (end)
 
