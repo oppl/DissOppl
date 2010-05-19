@@ -255,36 +255,75 @@ Grundlage der Einordnung in diesem Abschnitt ist der Ansatzes von \citet{Shaer04
 
 \subsubsection{Abbildung}
 
-Das „Token and Constraints“-Schema (\gls{TAC}) erlaubt es, ein Tangible Interface sowohl hinsichtliche dessen Struktur als auch dessen Verwendung zu beschreiben. In Tabelle \ref{tab:tac} wird das Schema auf das hier vorgestellte Werkzeug angewandt. 
-\todo
-	\begin{longtable}{| p{0.8cm} || p{2.2cm} | p{2cm} || p{2cm} | p{2cm} | p{3cm} |} \caption{Spezifikation des Werkzeug mittels TAC-Schema}\label{tab:tac} \\ \hline	 
-		TAC & \multicolumn{2}{|c||}{Struktur} & \multicolumn{3}{c|}{Verhalten} \\ 
-		& Token & Constraint & Variable & Aktion & Feedback \\ \hline \hline
-		\endfirsthead 
-		\caption[]{(Fortsetzung)}\\ 
-		\hline
-			TAC & \multicolumn{2}{|c||}{Struktur} & \multicolumn{3}{c|}{Verhalten} \\ \hline 
-			& Token & Constraint & Variable & Aktion & Feedback \\ \hline \hline
-		\endhead
-		\multirow{3}{*}{1} & Modell\-ierungs-  & Oberfläche & Modell\-element  & Auflegen & Modell\-element anzeigen \\ \cline{5-6} 
-						   & token &			   &  & Bewegen & Modell\-element bewegen \\ \cline{5-6} 
-						   & 	  &			   &		  & Entfernen & Modell\-element entfernen \\ \hline
-		\multirow{2}{*}{2} & einbett\-bares Token & Modell\-ierungs-    & Modell\-element		  & Hinein\-legen & Daten einbetten \\ \cline{5-6}
-						   &  & token   &  & Heraus\-nehmen & Container-Kopplung aufheben \\ \hline
-		3 & einbett\-bares Token & Regist\-rierungs\-kamera & einbett\-bares Modell\-element & Vor die Kamera halten & ungebunden: Datenbindung auslösen; gebunden: Gebundene Daten anzeigen \\ \hline
-		4 & Markierungs\-token & Modell\-ierungs\-token & Modell\-element & Neben Modell\-ierungs\-token platzieren	& Markierung anzeigen \\ \hline
-		5 & Markierungs\-token & Modell\-ierungs\-token, markiertes Modell\-ierungs\-token & Verbindung & Neben unmarkiertem Modell\-ierungs\-token platzieren	& Verbindung herstellen und anzeigen \\ \hline  
-		6 & Tastatur & markiertes Modell\-ierungs\-token & Modell\-element & Tastatur\-eingabe & Benennung des markierten Modellelements \\ \hline
-		7 & Tastatur & Verbind\-ungen, kein markiertes Modell\-ierungs\-token & zuletzt hergestellte Verbindung & Tastatur\-eingabe & Benennung der zuletzt hergestellten Verbindung \\ \hline
-		\multirow{2}{*}{8} & Lösch\-token & Oberfläche & Modell\-element & Auflegen & Löschmodus aktivieren \\ \cline{5-6}
-		 				   &    	& 			 &  & Entfernen & Löschmodus deaktivieren \\ \hline
-		9 & Snapshot\-token & Oberfläche & Modell\-ierungs\-historie & Auflegen & Aktuellen Modellzustand sichern, Blitz anzeigen \\ \hline
-		\multirow{3}{*}{10} & Historien\-kontroll\-token & Oberfläche & Modell\-ierungs\-historie  & Auflegen & Letzten gespeicherten Snapshot anzeigen \\ \cline{5-6}
-						   &   &			 &  & Drehen & Durch die gespeicherten Snapshots navigieren \\ \cline{5-6}
-						   &   &			 &  & Entfernen & Aktuelles Modell anzeigen \\ \hline
-		11 & Wieder\-herstellungs\-token & Oberfläche, vorhandenes Historien\-kontroll\-token & Modell\-zustand & Auflegen & Aktuell angezeigten Snapshot wiederherstellen \\ \hline
+Das „Token and Constraints“-Schema (\gls{TAC}) erlaubt es, ein Tangible Interface sowohl hinsichtliche dessen Struktur als auch dessen Verwendung zu beschreiben. In den Tabellen \ref{tab:tac1} und \ref{tab:tac2} wird das Schema auf das hier vorgestellte Werkzeug angewandt. 
 
-	\end{longtable}
+\begin{table}[htbp]
+	\centering
+	\caption{Spezifikation des Werkzeug mittels TAC-Schema -- Teil 1}
+\begin{tabular}{| p{0.8cm} || p{2.2cm} | p{2cm} || p{2cm} | p{2cm} | p{3cm} |}
+  \hline
+	TAC & \multicolumn{2}{|c||}{Struktur} & \multicolumn{3}{c|}{Verhalten} \\ 
+	& Token & Constraint & Variable & Aktion & Feedback \\ \hline \hline
+	\multirow{3}{*}{1} & Modell\-ierungs-  & Oberfläche & Modell\-element  & Auflegen & Modell\-element anzeigen \\ \cline{5-6} 
+					   & token &			   &  & Bewegen & Modell\-element bewegen \\ \cline{5-6} 
+					   & 	  &			   &		  & Entfernen & Modell\-element entfernen \\ \hline
+	\multirow{2}{*}{2} & einbett\-bares Token & Modell\-ierungs-    & Modell\-element		  & Hinein\-legen & Daten einbetten \\ \cline{5-6}
+					   &  & token   &  & Heraus\-nehmen & Container-Kopplung aufheben \\ \hline
+	3 & einbett\-bares Token & Regist\-rierungs\-kamera & einbett\-bares Modell\-element & Vor die Kamera halten & ungebunden: Datenbindung auslösen; gebunden: Gebundene Daten anzeigen \\ \hline
+	4 & Markierungs\-token & Modell\-ierungs\-token & Modell\-element & Neben Modell\-ierungs\-token platzieren	& Markierung anzeigen \\ \hline
+	5 & Markierungs\-token & Modell\-ierungs\-token, markiertes Modell\-ierungs\-token & Verbindung & Neben unmarkiertem Modell\-ierungs\-token platzieren	& Verbindung herstellen und anzeigen \\ \hline  
+	6 & Tastatur & markiertes Modell\-ierungs\-token & Modell\-element & Tastatur\-eingabe & Benennung des markierten Modellelements \\ \hline
+\end{tabular} \\
+	\label{tab:tac1}
+\end{table}
+
+\begin{table}[htbp]
+	\centering
+	\caption{Spezifikation des Werkzeug mittels TAC-Schema -- Teil 2}
+\begin{tabular}{| p{0.8cm} || p{2.2cm} | p{2cm} || p{2cm} | p{2cm} | p{3cm} |}
+  \hline
+	TAC & \multicolumn{2}{|c||}{Struktur} & \multicolumn{3}{c|}{Verhalten} \\ 
+	& Token & Constraint & Variable & Aktion & Feedback \\ \hline \hline
+	7 & Tastatur & Verbind\-ungen, kein markiertes Modell\-ierungs\-token & zuletzt hergestellte Verbindung & Tastatur\-eingabe & Benennung der zuletzt hergestellten Verbindung \\ \hline
+	\multirow{2}{*}{8} & Lösch\-token & Oberfläche & Modell\-element & Auflegen & Löschmodus aktivieren \\ \cline{5-6}
+	 				   &    	& 			 &  & Entfernen & Löschmodus deaktivieren \\ \hline
+	9 & Snapshot\-token & Oberfläche & Modell\-ierungs\-historie & Auflegen & Aktuellen Modellzustand sichern, Blitz anzeigen \\ \hline
+	\multirow{3}{*}{10} & Historien\-kontroll\-token & Oberfläche & Modell\-ierungs\-historie  & Auflegen & Letzten gespeicherten Snapshot anzeigen \\ \cline{5-6}
+					   &   &			 &  & Drehen & Durch die gespeicherten Snapshots navigieren \\ \cline{5-6}
+					   &   &			 &  & Entfernen & Aktuelles Modell anzeigen \\ \hline
+	11 & Wieder\-herstellungs\-token & Oberfläche, vorhandenes Historien\-kontroll\-token & Modell\-zustand & Auflegen & Aktuell angezeigten Snapshot wiederherstellen \\ \hline
+\end{tabular} \\
+	\label{tab:tac2}
+\end{table}
+
+	% \begin{longtable}{| p{0.8cm} || p{2.2cm} | p{2cm} || p{2cm} | p{2cm} | p{3cm} |} \caption{Spezifikation des Werkzeug mittels TAC-Schema}\label{tab:tac} \\ \hline	 
+	% 	TAC & \multicolumn{2}{|c||}{Struktur} & \multicolumn{3}{c|}{Verhalten} \\ 
+	% 	& Token & Constraint & Variable & Aktion & Feedback \\ \hline \hline
+	% 	\endfirsthead 
+	% 	\caption[]{(Fortsetzung)}\\ 
+	% 	\hline
+	% 		TAC & \multicolumn{2}{|c||}{Struktur} & \multicolumn{3}{c|}{Verhalten} \\ \hline 
+	% 		& Token & Constraint & Variable & Aktion & Feedback \\ \hline \hline
+	% 	\endhead
+	% 	\multirow{3}{*}{1} & Modell\-ierungs-  & Oberfläche & Modell\-element  & Auflegen & Modell\-element anzeigen \\ \cline{5-6} 
+	% 					   & token &			   &  & Bewegen & Modell\-element bewegen \\ \cline{5-6} 
+	% 					   & 	  &			   &		  & Entfernen & Modell\-element entfernen \\ \hline
+	% 	\multirow{2}{*}{2} & einbett\-bares Token & Modell\-ierungs-    & Modell\-element		  & Hinein\-legen & Daten einbetten \\ \cline{5-6}
+	% 					   &  & token   &  & Heraus\-nehmen & Container-Kopplung aufheben \\ \hline
+	% 	3 & einbett\-bares Token & Regist\-rierungs\-kamera & einbett\-bares Modell\-element & Vor die Kamera halten & ungebunden: Datenbindung auslösen; gebunden: Gebundene Daten anzeigen \\ \hline
+	% 	4 & Markierungs\-token & Modell\-ierungs\-token & Modell\-element & Neben Modell\-ierungs\-token platzieren	& Markierung anzeigen \\ \hline
+	% 	5 & Markierungs\-token & Modell\-ierungs\-token, markiertes Modell\-ierungs\-token & Verbindung & Neben unmarkiertem Modell\-ierungs\-token platzieren	& Verbindung herstellen und anzeigen \\ \hline  
+	% 	6 & Tastatur & markiertes Modell\-ierungs\-token & Modell\-element & Tastatur\-eingabe & Benennung des markierten Modellelements \\ \hline
+	% 	7 & Tastatur & Verbind\-ungen, kein markiertes Modell\-ierungs\-token & zuletzt hergestellte Verbindung & Tastatur\-eingabe & Benennung der zuletzt hergestellten Verbindung \\ \hline
+	% 	\multirow{2}{*}{8} & Lösch\-token & Oberfläche & Modell\-element & Auflegen & Löschmodus aktivieren \\ \cline{5-6}
+	% 	 				   &    	& 			 &  & Entfernen & Löschmodus deaktivieren \\ \hline
+	% 	9 & Snapshot\-token & Oberfläche & Modell\-ierungs\-historie & Auflegen & Aktuellen Modellzustand sichern, Blitz anzeigen \\ \hline
+	% 	\multirow{3}{*}{10} & Historien\-kontroll\-token & Oberfläche & Modell\-ierungs\-historie  & Auflegen & Letzten gespeicherten Snapshot anzeigen \\ \cline{5-6}
+	% 					   &   &			 &  & Drehen & Durch die gespeicherten Snapshots navigieren \\ \cline{5-6}
+	% 					   &   &			 &  & Entfernen & Aktuelles Modell anzeigen \\ \hline
+	% 	11 & Wieder\-herstellungs\-token & Oberfläche, vorhandenes Historien\-kontroll\-token & Modell\-zustand & Auflegen & Aktuell angezeigten Snapshot wiederherstellen \\ \hline
+	% 
+	% \end{longtable}
 
 Jene Interaktionsabläufe, bei denen das System die Aktionen der Benutzer anleitet (z.B. bei der Unterstützung der Wiederherstellung) können in diesem Schema nicht abgebildet werden, da die Constraints keine keine physischen Objekte sondern lediglich projizierte Information sind.
 

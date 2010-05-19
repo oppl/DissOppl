@@ -685,25 +685,82 @@ Seltener anzutreffen sind Arbeiten, die explizit auf die Beschreibung oder Evalu
 
 \subsubsection{Nomenklatur}
 
-Hinsichtlich der Bezeichnung der Elemente eines \gls{TUI} existiert keine einheitliche Nomenklatur, die konsistent über mehrere Arbeiten hinweg verwendet wird. Tabelle \ref{tab:tui_nomenklatur} gibt eine Übersicht über die für die einzelnen konzeptionellen Elemente verwendeten Begriffe.
-\todo
-\begin{longtable}{| p{1.9cm} || p{1.8cm} | p{2.4cm} | p{2.4cm} | p{1.8cm} | p{1.8cm} |} 
-	\caption{Gegenüberstellung der Nomenklatur zur Beschreibung der Elemente eines TUI} \label{tab:tui_nomenklatur} \\
-	\hline
-	Arbeit & physisches Objekt & physisches Objekt zur Informations\-repräsentation & physisches Werkzeug zur Informations\-manipulation & physische Beschränkung des Interaktionsraums & digitale Objekte \\ \hline \hline
-	Bricks & --- & --- & Brick & --- & --- \\ \hline
-	Graspable User Interfaces & --- & --- & --- & --- & --- \\ \hline
-	Tangible Bits & --- & Phicon & Phandle (Informationsmanipulation), Instrument (Systemsteuerung) & Tray & --- \\ \hline
-	Containers, Tokens und Tools & --- & Container (unspezifische Form), Token (spezifische Form) & Tool & --- & --- \\ \hline
-	Tangible Objects Meaning & Object & Object as pure object (unspezifische Form), Object as attribute (teilspezifisch), Object as noun (spezifische Form) & Object as verb (fix gebundene Funktionalität), Object as reconfigurable tool (konfigurierbare Funktionalität) & --- & --- \\ \hline
-	MCRpd Inter\-aktions-Modell & Represen\-tation & Rep-P & Control & --- & Model, Rep-D (Manifestation)\\ \hline
-	Tokens+\-Constraints & --- & Tokens & Tokens+\-Constraints & Constraints & --- \\ \hline
-	Degree of Coherence & --- & Identifier (unspezifische Form), Proxy (von hier an: spezifische Form, Enge der Bindung ansteigend), Projection, Illusion of same objects & General purpose tools (konfigurierbare Funktionalität), Specialized tools (fix gebundene Funktionalität) & --- & --- \\ \hline
-	TAC & Pyfo & Token & Token & Constraint & Variable \\ \hline
-	Kategorien von TUI-Anwendungen & --- & --- & --- & --- & --- \\ \hline
-	Taxonomie für TUIs & --- & --- & --- & --- & --- \\ \hline
-	Tangible Bits: Beyond Pixels & Represen\-tation & tangible Represen\-tation & Control & --- & digital information, intangible representation (Manifestation) \\ \hline
-\end{longtable}
+Hinsichtlich der Bezeichnung der Elemente eines \gls{TUI} existiert keine einheitliche Nomenklatur, die konsistent über mehrere Arbeiten hinweg verwendet wird. Die Tabellen \ref{tab:tui_nomenklatur1} und \ref{tab:tui_nomenklatur2} gibt eine Übersicht über die für die einzelnen konzeptionellen Elemente verwendeten Begriffe.
+
+\begin{table}[htbp]
+		\centering
+	\caption{Gegenüberstellung der Nomenklatur zur Beschreibung der Elemente eines TUI -- Teil 1}  
+	\begin{tabular}{|p{2.2cm}||p{3cm}|p{3cm}|p{2cm}|p{2cm}|} \hline
+			Arbeit & physisches Objekt zur Informations\-repräsentation & physisches Werkzeug zur Informations\-manipulation & physische Beschränkung des Interaktionsraums & digitale Objekte \\ \hline \hline
+		
+		Bricks & --- & Brick & --- & --- \\ \hline
+		Graspable User Interfaces & --- & --- & --- & --- \\ \hline
+		Tangible Bits & Phicon & Phandle (Informationsmanipulation), Instrument (Systemsteuerung) & Tray & --- \\ \hline
+		Containers, Tokens und Tools & Container (unspezifische Form), Token (spezifische Form) & Tool & --- & --- \\ \hline
+		Tangible Objects Meaning & Object as pure object (unspezifische Form), Object as attribute (teilspezifisch), Object as noun (spezifische Form) & Object as verb (fix gebundene Funktionalität), Object as reconfigurable tool (konfigurierbare Funktionalität) & --- & --- \\ \hline
+		MCRpd Inter\-aktions-Modell &  Rep-P & Control & --- & Model, Rep-D (Manifestation)\\ \hline
+	\end{tabular}
+
+			\label{tab:tui_nomenklatur1}
+\end{table}
+
+\begin{table}[htbp]
+		\centering
+	\caption{Gegenüberstellung der Nomenklatur zur Beschreibung der Elemente eines TUI -- Teil 2}  
+	\begin{tabular}{|p{2.2cm}||p{3cm}|p{3cm}|p{2cm}|p{2cm}|} \hline
+			Arbeit & physisches Objekt zur Informations\-repräsentation & physisches Werkzeug zur Informations\-manipulation & physische Beschränkung des Interaktionsraums & digitale Objekte \\ \hline \hline
+		Tokens + Constraints & Tokens & Tokens + Constraints & Constraints & --- \\ \hline
+		Degree of Coherence & Identifier (unspezifische Form), Proxy (von hier an: spezifische Form, Enge der Bindung ansteigend), Projection, Illusion of same objects & General purpose tools (konfigurierbare Funktionalität), Specialized tools (fix gebundene Funktionalität) & --- & --- \\ \hline
+		TAC & Token-Pyfo & Token-Pyfo & Constraint-Pyfo & Variable \\ \hline
+		TUI-Anwendungs-Kategorien & --- & --- & --- & --- \\ \hline
+		Taxonomie für TUIs & --- & --- & --- & --- \\ \hline
+		Tangible Bits: Beyond Pixels & tangible Represen\-tation & Control & --- & digital information, intangible representation (Manifestation) \\ \hline
+	\end{tabular}
+	\label{tab:tui_nomenklatur2}
+\end{table}
+
+
+% \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+% % \begin{center}
+% \begin{longtable}{@{}p{0.04\textwidth}@{}p{0.72\textwidth}>{\RaggedLeft}p{0.12\textwidth}>{\RaggedLeft}p{0.12\textwidth}@{}}%
+% \begin{longtable}{|p{2cm}||p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|} \hline
+%  \caption{Gegenüberstellung der Nomenklatur zur Beschreibung der Elemente eines TUI}  \label{tab:tui_nomenklatur} \\
+% 
+% 	% 	Arbeit & 
+% 	% 	physisches Objekt & 
+% 	% 	physisches Objekt zur Informations\-repräsentation & 
+% 	% 	physisches Werkzeug zur Informations\-manipulation & 
+% 	% 	physische Beschränkung des Interaktionsraums & 
+% 	% 	digitale Objekte \\ \hline \hline 
+% 	% \endfirsthead
+% 	
+% 	%   \multicolumn{6}{c}{{\tablename} \thetable{} -- Fortsetzung} \\
+% 	% \hline \\
+% 	% 	Arbeit & physisches Objekt & physisches Objekt zur Informations\-repräsentation & physisches Werkzeug zur Informations\-manipulation & physische Beschränkung des Interaktionsraums & digitale Objekte \\ \hline \hline
+% 	% \endhead
+% 	% 
+% 	%   \multicolumn{6}{r}{Fortsetzung auf der nächsten Seite\ldots} \\
+% 	% \endfoot
+% 	% 
+% 	% %This is the footer for the last page of the table...
+% 	%   \\ \hline
+% 	% \endlastfoot
+% 	
+% 	Bricks & --- & --- & Brick & --- & --- \\ 
+% 	Graspable User Interfaces & --- & --- & --- & --- & --- \\ 
+% 	Tangible Bits & --- & Phicon & Phandle (Informationsmanipulation), Instrument (Systemsteuerung) & Tray & --- \\ 
+% 	Containers, Tokens und Tools & --- & Container (unspezifische Form), Token (spezifische Form) & Tool & --- & --- \\ 
+% 	Tangible Objects Meaning & Object & Object as pure object (unspezifische Form), Object as attribute (teilspezifisch), Object as noun (spezifische Form) & Object as verb (fix gebundene Funktionalität), Object as reconfigurable tool (konfigurierbare Funktionalität) & --- & --- \\
+% 	MCRpd Inter\-aktions-Modell & Represen\-tation & Rep-P & Control & --- & Model, Rep-D (Manifestation)\\
+% 	Tokens+\-Constraints & --- & Tokens & Tokens+\-Constraints & Constraints & --- \\
+% 	Degree of Coherence & --- & Identifier (unspezifische Form), Proxy (von hier an: spezifische Form, Enge der Bindung ansteigend), Projection, Illusion of same objects & General purpose tools (konfigurierbare Funktionalität), Specialized tools (fix gebundene Funktionalität) & --- & --- \\ 
+% 	TAC & Pyfo & Token & Token & Constraint & Variable \\ 
+% 	Kategorien von TUI-Anwendungen & --- & --- & --- & --- & --- \\
+% 	Taxonomie für TUIs & --- & --- & --- & --- & --- \\ 
+% 	Tangible Bits: Beyond Pixels & Represen\-tation & tangible Represen\-tation & Control & --- & digital information, intangible representation (Manifestation)
+% 	
+% \end{longtable}
+% % \end{center}
 
 Diese Arbeit folgt in der Bezeichnung der physischen Elemente dem TAC-Ansatz von \citep{Shaer04} und verwendet generell der Begriff des \emph{„Tokens“}. Zur Abgrenzung wird, wo nötig, von „Modellierungstokens“ (jene Tokens, die Information repräsentieren) und „Werkzeugtokens“ (jene Tokens, die Funktionalität auslösen) unterschieden. Der digitale Aspekt eines \gls{TUI} wird selten explizit benannt, der von \citep{Shaer04} gewählte Begriff der „Variable“ erscheint im Kontext der Repräsentation von Modellen aber als zu spezifisch bzw. unpassend vorbelegt. Deshalb wird im Allgemeinen nach \citep{Ishii08} von \emph{„digitaler Information“} gesprochen, wenn explizit auf die digitale Repräsentation des Modells Bezug genommen wird, wird der Begriff \emph{„Modell-Elemente“} verwendet. Eine weitere Ausdifferenzierung der Nomenklatur zur Bezeichnung von anwendungsspezifischen Eigenschaften des hier vorgestellten Werkzeugs erfolgt im Rahmen der folgenden Kapitel.
 
