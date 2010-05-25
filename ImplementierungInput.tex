@@ -492,7 +492,7 @@ Die einbettbaren Tokens wurden aus flexiblen Kunststoffmatten gefertigt und mit 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[height=2in]{img/SystemNeu/EinbettbareTokens.jpg}
+		\includegraphics[width=10cm]{img/SystemNeu/EinbettbareTokens.jpg}
 	\caption{Einbettbare Tokens}
 	\label{fig:img_SystemNeu_EinbettbareTokens}
 \end{figure}
@@ -513,7 +513,7 @@ Die bei der Verwendung des Systems wichtigsten Werkzeug-Tokens sind jene, die zu
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[height=2in]{img/SystemNeu/Markierungstoken_alle.jpg}
+		\includegraphics[width=10cm]{img/SystemNeu/Markierungstoken_alle.jpg}
 	\caption{Markierung-Token}
 	\label{fig:img_SystemNeu_Markierungstoken_alle}
 \end{figure}
@@ -527,7 +527,7 @@ Dem hingegen ist das nächste hier behandelte Token der Kategorie der den System
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[height=2in]{img/SystemNeu/Loeschtoken.jpg}
+		\includegraphics[width=10cm]{img/SystemNeu/Loeschtoken.jpg}
 	\caption{Lösch-Token}
 	\label{fig:img_SystemNeu_Loeschtoken}
 \end{figure}
@@ -539,7 +539,7 @@ Ein weiteres Werkzeug im Kontext der Manipulation des Modells ist das \emph{Regi
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[height=2in]{img/SystemNeu/Benennungstoken.jpg}
+		\includegraphics[width=10cm]{img/SystemNeu/Benennungstoken.jpg}
 	\caption{Registrierungstoken}
 	\label{fig:img_SystemNeu_Benennungstoken}
 \end{figure}
@@ -556,7 +556,7 @@ Das \emph{Snapshot-Token} dient der durch die Benutzer ausgelösten Speicherung 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[height=2in]{img/SystemNeu/Snapshottoken.jpg}
+		\includegraphics[width=10cm]{img/SystemNeu/Snapshottoken.jpg}
 	\caption{Snapshot-Token}
 	\label{fig:img_SystemNeu_Snapshottoken}
 \end{figure}
@@ -565,7 +565,7 @@ Neben der Speicherung von Modellzuständen können diese auch wieder abgerufen u
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[height=2in]{img/SystemNeu/Historytoken.jpg}
+		\includegraphics[width=10cm]{img/SystemNeu/Historytoken.jpg}
 	\caption{History-Token}
 	\label{fig:img_SystemNeu_Historytoken}
 \end{figure}
@@ -659,7 +659,7 @@ Beim Löschen muss zwischen dem Entfernen von Elementen und Verbindungen untersc
 
 Das Löschen eines Modellelements aus dem aktuellen Modell erfolgt durch Entfernen der zugehörigen Tokens auf der Oberfläche. Hier muss zwischen Entfernungsvorgängen unterschieden werden, die vom Benutzer intendiert sind und solchen, die durch die Manipulation des Modells unabsichtlich und kurzzeitig auftreten. Nur in ersterem Fall dürfen die Verbindungen, die an einem Element hängen, ebenfalls gelöscht werden. Die Unterscheidung zwischen den beiden Fällen wurde durch die Einführung eines Zeitintervalls von 5 Sekunden gelöst, nachdem die betroffenen Verbinder ebenfalls entfernt werden. Wird also ein Modellelement nur an eine andere Stelle verschoben (und verschwindet so kurzzeitig aus dem Blickfeld der Kamera), bleiben die Verbindungen erhalten. Wird das Element zur Seite gestellt, wird es und seine abhängigen Verbindungen zwar auf den Ausgabekanälen nicht mehr dargestellt, das tatsächliche Löschen erfolgt aber erst nach 5 Sekunden. Wird das Element innerhalb dieser Zeitspanne wieder auf der Oberfläche platziert, wird es und seine abhängigen Verbindungen so behandelt, als ob es nicht verschwunden gewesen wäre.
 
-Das Löschen von Verbindern ist durch den Einsatz der Lösch-Tokens möglich, das das System in den Lösch-Modus schaltet, sobald es auf der Oberfläche platziert wird (und diesen wieder deaktiviert, wenn es entfernt wird). Im Lösch-Modus wird der Einsatz von Markierungstokens alternativ interpretiert. Anstatt der Herstellung einer Verbindung wird bei Markierung von zwei Modellelementen eine eventuell zwischen diesen vorhandene Verbindung endgültig entfernt. Dabei ist keine Unterscheidung zwischen gerichteten und ungerichteten Verbindungen notwendig, es können durchgängig die einfachen Markierungstokens eingesetzt werden.
+Das Löschen von Verbindern ist durch den Einsatz der Lösch-Tokens möglich, das das System in den Lösch-Modus schaltet, sobald es auf der Oberfläche platziert wird (und diesen wieder deaktiviert, wenn es entfernt wird)\footnote{Diese Verhalten wurde aufgrund von Erkenntnissen in der empirischen Untersuchung später modifiziert. Das Löschtoken fungierte dann nicht mehr als Schalter zum Aktivieren eines Löschmodus, sondern ermöglichte ein unmittelbares Entfernen der Verbinder, auf dem es aufgesetzt wird. Details zu dieser Veränderung und deren Auswirkungen sind in den Abschnitten \ref{sec:einordnung_in_die_taxonomie_von_fishkin}, \ref{sub:explorativ_gebildete_hypothesen} sowie \ref{sub:verwendung_des_löschtokens} angeführt.}. Im Lösch-Modus wird der Einsatz von Markierungstokens alternativ interpretiert. Anstatt der Herstellung einer Verbindung wird bei Markierung von zwei Modellelementen eine eventuell zwischen diesen vorhandene Verbindung endgültig entfernt. Dabei ist keine Unterscheidung zwischen gerichteten und ungerichteten Verbindungen notwendig, es können durchgängig die einfachen Markierungstokens eingesetzt werden.
 
 % subsection löschen_von_elementen (end)
 
