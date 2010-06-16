@@ -1,9 +1,13 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[12pt,a4paper,cleardoubleempty, headsepline, footnosepline, nochapterprefix, appendixprefix, bibtotoc, abstracton]{scrreprt}
+
+%\documentclass[12pt,a4paper,cleardoubleempty, headsepline, footnosepline, nochapterprefix, appendixprefix, bibtotoc, abstracton]{scrreprt}
 
 %\documentclass[12pt,a4paper,twoside, openright, cleardoubleempty, headsepline, footnosepline, nochapterprefix, appendixprefix, bibtotoc, abstracton]{scrreprt}
+
+\documentclass[12pt,a4paper, cleardoubleempty, headsepline, footnosepline, bibtotoc, BCOR=5mm]{scrbook}
+
 
 \usepackage{pdfsync}
 \usepackage{ngerman}
@@ -15,17 +19,17 @@
 \usepackage{natbib}
 \usepackage{enumerate}
 \usepackage{multirow}
-\usepackage{longtable}
-\usepackage{lscape}
+%\usepackage{longtable}
+%\usepackage{lscape}
 
 % Surround parts of graphics with box
 \usepackage{boxedminipage}
 
 % Package for including code in the document
-\usepackage{listings}
+%\usepackage{listings}
 
 % If you want to generate a toc for each chapter (use with book)
-\usepackage{minitoc}
+%\usepackage{minitoc}
 
 \usepackage{fontspec}
 \defaultfontfeatures{Mapping=tex-text}
@@ -34,7 +38,7 @@
 %%\setromanfont{LucidaGrande}
 %%\setsansfont{Gill Sans}
 %%\setsansfont{Helvetica Neue}
-\setmonofont{Courier}
+%\setmonofont{Courier}
 \makeindex
 
 % This is now the recommended way for checking for PDFLaTeX:
@@ -46,7 +50,9 @@
 \usepackage{graphicx}
 \fi
 
-\usepackage{geometry}
+\usepackage[final]{pdfpages}
+
+%\usepackage{geometry}
 
 \usepackage[final, activate, verbose=true]{microtype}
 \usepackage{color}
@@ -55,6 +61,7 @@
 \renewcommand*{\backrefpagesname}{\footnotesize Referenziert auf S.}
 \renewcommand*{\backref}{\backrefpagesname\ }
 
+\usepackage[ngerman]{translator}
 \usepackage[
 nonumberlist, %keine Seitenzahlen anzeigen
 acronym,      %ein Abkürzungsverzeichnis erstellen
@@ -109,40 +116,65 @@ footnote]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 }
 \newcommand{\todo}{\marginpar{\rule[-25mm]{3mm}{20mm}}}
 
-\title{Unterstützung expliziter Articulation Work}
-\subtitle{Ein Werkzeug für Externalisierung und Abgleich mentaler Modelle}
-\author{Stefan Oppl}
-\publishers{Dissertation\\\normalsize zur Erlangung des Grades eines Doktors der Technischen Wissenschaften\\vorgelegt an der Fakultät für Informatik an der Technischen Universität Wien
-
-\vspace{4cm}
-
-Erstgutachter: o. Univ.-Prof. DI Dr. Christian Stary\\Zweitgutachter: o. Univ.-Prof. DI Dr. Christian Breiteneder}
-%\dedication{Für Felix und Sabrina}
+%\typearea[8mm]{calc}
+%\openright
 
 \begin{document}
 
 \pagestyle{empty}
 
-\maketitle
+%\maketitle
+\include{Titel}
+
+%\cleardoublepage
+\frontmatter
+
+\include{EidesstErkl}
+
+\cleardoublepage
 
 \include{Abstract}
 
 \cleardoublepage
 
-%\include{Vorwort}
+\include{Vorwort}
+
+\pagenumbering{roman}
+
+\newpage
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+
+\cleardoublepage
 
 \pagestyle{scrheadings}
 \automark[section]{chapter} 
 
-\pagenumbering{roman}
-
 \uebersicht
+
+\newpage
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+
+\cleardoublepage
+
 \tableofcontents
 
 \newpage
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+
 \cleardoublepage
 
-\pagenumbering{arabic}
+%\pagenumbering{arabic}
+
+\mainmatter
 
 \include{Einfuehrung}
 
@@ -155,13 +187,16 @@ Erstgutachter: o. Univ.-Prof. DI Dr. Christian Stary\\Zweitgutachter: o. Univ.-P
 \include{Schlussbetrachtungen}
 
 \appendix
-\pagenumbering{Roman}
+%\pagenumbering{Roman}
 
 \part*{Anhang}
 \addcontentsline{toc}{part}{Anhänge}
 
 \include{ArticulationWorkLiteratur}
+
 \include{AnhangEmpirie}
+
+\backmatter
 
 \part*{Verzeichnisse}
 \addcontentsline{toc}{part}{Verzeichnisse}
@@ -169,23 +204,88 @@ Erstgutachter: o. Univ.-Prof. DI Dr. Christian Stary\\Zweitgutachter: o. Univ.-P
 \addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
 \listoffigures
 
+\newpage
+\pagestyle{empty}
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+\pagestyle{scrheadings}
+
+\cleardoublepage
+
 \addcontentsline{toc}{chapter}{Tabellenverzeichnis}
 \listoftables
+
+\newpage
+\pagestyle{empty}
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+\pagestyle{scrheadings}
+
+\cleardoublepage
 
 %\addcontentsline{toc}{chapter}{Stichwortverzeichnis}
 %\printindex
 
 \addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
-\printglossary[type=\acronymtype,style=long,title=Abkürzungsverzeichnis]
+\deftranslation[to=German]{Acronyms}{Abkürzungsverzeichnis}
+\printglossary[type=\acronymtype,style=long]
+
+\newpage
+\pagestyle{empty}
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+\pagestyle{scrheadings}
+
+\cleardoublepage
+
+\manualmark
 
 \addcontentsline{toc}{chapter}{Bildquellen}
+\markboth{Abbildungsquellen}{Abbildungsquellen}
 \include{Bildquellen}
 
+\newpage
+\pagestyle{empty}
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+\pagestyle{scrheadings}
+
+
 \addcontentsline{toc}{chapter}{Publikationen im Kontext dieser Arbeit}
+\markboth{Publikationen im Kontext dieser Arbeit}{Publikationen im Kontext dieser Arbeit}
 \include{Publikationen}
+
+\automark[section]{chapter} 
 
 %\bibliography{/home/oppl/Dokumente/Literatur/Archiv}
 \bibliography{/Users/oppl/Documents/Dokumente/Literatur/Archiv}
+
+\newpage
+\pagestyle{empty}
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+\cleardoublepage
+
+\addcontentsline{toc}{chapter}{Lebenslauf}
+\includepdf[pages=-]{cv}
+
+\newpage
+\pagestyle{empty}
+\textcolor{white}
+.
+\textcolor{black}
+\newpage
+\cleardoublepage
 
 \include{Epilog}
 

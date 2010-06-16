@@ -1,6 +1,7 @@
 \vspace*{\fill}
 
 \begin{center}
+\Large
 für \\
 Felix und Sabrina
 \end{center}
@@ -12,26 +13,28 @@ Felix und Sabrina
 \section*{Vorwort} % (fold)
 \label{sec:vorwort}
 
-Arbeiten wie diese entstehen nie ohne Einfluss und Unterstützung von außen. Zahlreiche Menschen haben mich auf meinem Weg zum Abschluss dieser Arbeit begleitet. Diesen Menschen die ihnen zustehende Würdigung zukommen zu lassen ist das Ziel dieser einleitenden Sätze.
+Arbeiten wie diese entstehen nie ohne Unterstützung und Einfluss von außen. Zahlreiche Menschen haben mich auf meinem Weg zum Abschluss dieser Arbeit begleitet. Diesen Menschen möchte ich an dieser Stelle danken.
 
-Prof. Alois Ferscha habe ich zu verdanken, dass sich das weite Feld der Forschung als Perspektive für mich auftat. Er nahm mich noch während meines Informatik-Studiums am Institut für Pervasive Computing an der Johannes Kepler Universität Linz auf und ermöglichte mir erste zaghafte Schritte in der Welt der Forschung. Für seine visionäre Anleitung und Unterstützung möchte ich mich bedanken.
+Prof. Alois Ferscha habe ich zu verdanken, dass sich das Feld der Forschung als persönliche und berufliche Perspektive für mich auftat. Er nahm mich noch während meines Informatik-Studiums am Institut für Pervasive Computing an der Johannes Kepler Universität Linz auf und ermöglichte mir erste Erfahrungen im wissenschaftlichen Alltag zu sammeln. Für seine visionäre Anleitung und Unterstützung möchte ich mich bedanken.
 
-uni
+Andreas Auinger hat mir den Weg in in die interdisziplinäre Forschung eröffnet, indem er zum richtigen Zeitpunkt an mich dachte und mich für die Stelle am Institut für Wirschaftsinformatik -- Communications Engineering vorschlug. Er stand mir danach als Bürokollege und Freund mit Rat und Tat zur Seite und ist mir auch heute noch ein wichtiger Diskussionspartner. Meinen ehemaligen Kollegen Peter Eberle und Jeannette Hemmecke danke ich für die Erweiterung meines fachlichen Horizonts, die Rückspiegelung meiner Arbeit aus anderen Disziplinen und ihren methodischen Input zu den Grundlagen und zum empirischen Teil dieser Arbeit. In Peter Eberles Garage entstand außerdem unter seiner federführenden Mitwirkung der Tisch, der das zentrale Element des hier vorgestellten Systems ist. Simon Vogl begleitet mich seit Beginn meiner Tätigkeit an der Universität Linz und trug mit seinen Ideen und technischen Kenntnissen wesentlich zum aktuellen Entwicklungsstand des hier vorgestellten Werkzeugs bei. Matthias Neubauer war und ist mir als Studierender, Diplomand und nun Kollege eine große Stütze, wertvoller Diskussionspartner und Freund. 
 
-Peter, Jeannette, Matthias, Simon Vogl
+Auch meinen übrigen ehemaligen und aktuellen Arbeitskollegen gebührt Dank für ihre Unterstützung, ihr Verständnis und ihre Bereitschaft, meine Experimente über sich ergehen zu lassen. An dieser Stelle ist auch den unzähligen Studierenden zu danken, die an der Evaluierung des entwickelten Werkzeugs mitgewirkt haben. Ohne die Unterstützung meiner Diplomanden Florian Furtmüller, Thomas Feiner, Matthias Neubauer, Josef Bohninger, Daniel Bindreiter und Patrick Wahlmüller wäre das Werkzeug heute funktional nicht so erweiterbar und so umfassend evaluiert, wie es sich nun darstellt.
 
-übrige Arbeitskollegen
+Prof. Christian Stary hat mich in den vergangenen fünf Jahren wie kein zweiter in meiner Denk- und Arbeitsweise geprägt. Seiner (verdeckten) Führung und Anleitung, seinem Vorbild und seiner Sichtweise von wissenschaftlicher Arbeit ist es zu verdanken, dass diese Arbeit in der vorliegenden Form fertiggestellt wurde. Er hat mir ermöglicht, meinen fachlichen Horizont zu erweitern, über den Tellerrand der Informatik hinaus zu sehen und „Unberechenbarkeit“ als wesentliches Prinzip der Wissenschaften und den dort handelnden Akteuren zu erkennen. Sowohl in Forschung als auch Lehre habe ich von ihm fürs Leben gelernt.
 
-Christian
+Prof. Christian Breiteneder hat mich in seiner Arbeitsgruppe an der TU Wien aufgenommen, als meine interdisziplinären Ansprüche die Möglichkeiten an der Universität Linz überstiegen. Für seine Offenheit, seine jederzeitige Bereitschaft zur Unterstützung und die Begutachtung dieser Arbeit möchte ich mich herzlich bedanken.
 
-Breiteneder
+Prof. Markus Peschl danke ich für die zahlreichen Diskussionen, die Motivation in Zeiten, in denen kein Fortschritt erkennbar war und der Möglichkeit, mein System in einem Beitrag zu seinem Buch über Kognition und Technologie im kooperativen Lernen zu beschreiben. Dieser Beitrag bildete den Nukleus für die vorliegende Dissertation und zwang mich, endlich mit dem Explizieren meiner Arbeit zu beginnen. Die leider viel zu seltenen Treffen mit Prof. Tom Gross und Jürgen Steimle waren stets motivierend für mich und bestärkten mich, die Dissertation letztendlich zu einem guten Abschluss zu bringen.
 
-evtl. Tom Gross
+Neben all diesen Personen aus dem beruflichen Umfeld gebührt vor allem meiner Familie besonderer Dank. Meine Eltern haben mir meine Neugier mit auf den Weg gegeben, mir meine Ausbildung ermöglicht und mich immer in meinen Entscheidungen bestärkt. Meiner Mutter danke ich außerdem für die tagelange akribische Korrektur dieser Arbeit, der viele Buchstabendreher und verirrte Beistriche zum Opfer gefallen sind.
 
-Diplomanden: Florian Furtmüller, Thomas Feiner, Matthias Neubauer, Josef Bohninger, Daniel Bindreiter, Patrick Wahlmüller und zahllose andere Studierende in Praktika und Projektstudien. Alle Studienteilnehmer
+Sabrina hat mit mir seit nunmehr beinahe 10 Jahren alle privaten und beruflichen Höhen gefeiert und Tiefen durchgestanden. Sie ergänzt und kompensiert meine chaotische Ader perfekt und hat mir wann immer notwendig die vollkommene Vertiefung in die Arbeit an meiner Dissertation ermöglicht. Gleichzeitig hat sie immer dafür gesorgt, dass ich das „echte“ Leben nicht aus den Augen verliere und war dann ein Regulativ, wenn mir der Blick für die Verhältnismäßigkeit meines Tuns abhanden kam. Danke für deine Unterstützung und dein Verständnis.
 
-Eltern
+Seit zweieinhalb Jahren zeigt mir Felix, was im Leben wirklich wesentlich ist. Sein sonniges Gemüt und seine bedingungslose Liebe waren und sind mir ein stetiger Quell der Freude und Motivation. 
 
-Sabrina & Felix
+\begin{flushright}
+ Steyr, am \today
+\end{flushright}
 
 % section vorwort (end)
