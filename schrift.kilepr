@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.0.85
-lastDocument=KonzeptuelleEvaluierung.tex
+lastDocument=EvalUeberblick.tex
 masterDocument=Schrift.tex
 name=Schrift
 pkg_extIsRegExp=false
@@ -227,7 +227,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=34
 mode=LaTeX
-open=true
+open=false
 order=0
 
 [item:AnhangEmpirie.tex]
@@ -277,7 +277,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=9
 mode=LaTeX
-open=true
+open=false
 order=5
 
 [item:Einfuehrung.tex]
@@ -287,7 +287,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=94
 mode=LaTeX
-open=true
+open=false
 order=10
 
 [item:EvalAW.tex]
@@ -307,28 +307,28 @@ encoding=UTF-8
 highlight=LaTeX
 line=252
 mode=LaTeX
-open=true
+open=false
 order=8
 
 [item:EvalTUI.tex]
 archive=true
-column=216
+column=0
 encoding=UTF-8
 highlight=LaTeX
 line=902
 mode=LaTeX
-open=true
+open=false
 order=7
 
 [item:EvalUeberblick.tex]
 archive=true
-column=1
+column=536
 encoding=UTF-8
 highlight=LaTeX
-line=38
+line=467
 mode=LaTeX
 open=true
-order=9
+order=0
 
 [item:Evaluierung.tex]
 archive=true
@@ -337,7 +337,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=33
 mode=LaTeX
-open=true
+open=false
 order=6
 
 [item:Grundlagen.tex]
@@ -347,7 +347,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=8
 mode=LaTeX
-open=true
+open=false
 order=11
 
 [item:ImplementierungAnforderungen.tex]
@@ -382,12 +382,12 @@ order=2
 
 [item:ImplementierungPersistence.tex]
 archive=true
-column=178
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=361
+line=365
 mode=LaTeX
-open=true
+open=false
 order=13
 
 [item:ImplementierungUeberblick.tex]
@@ -402,12 +402,12 @@ order=0
 
 [item:KonzeptuelleEvaluierung.tex]
 archive=true
-column=0
+column=40
 encoding=UTF-8
 highlight=LaTeX
-line=478
+line=482
 mode=LaTeX
-open=true
+open=false
 order=1
 
 [item:MentaleModelle.tex]
@@ -447,7 +447,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=238
 mode=LaTeX
-open=true
+open=false
 order=3
 
 [item:Schrift.tex]
@@ -457,7 +457,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=140
 mode=LaTeX
-open=true
+open=false
 order=4
 
 [item:Vorwort.tex]
@@ -467,7 +467,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=34
 mode=LaTeX
-open=true
+open=false
 order=2
 
 [item:Werkzeug.tex]
@@ -477,7 +477,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=8
 mode=LaTeX
-open=true
+open=false
 order=12
 
 [item:schrift.kilepr]
@@ -527,12 +527,12 @@ CursorColumn=0
 CursorLine=252
 
 [view-settings,view=0,item:EvalTUI.tex]
-CursorColumn=216
+CursorColumn=0
 CursorLine=902
 
 [view-settings,view=0,item:EvalUeberblick.tex]
-CursorColumn=1
-CursorLine=38
+CursorColumn=536
+CursorLine=467
 
 [view-settings,view=0,item:Evaluierung.tex]
 CursorColumn=0
@@ -555,16 +555,16 @@ CursorColumn=262
 CursorLine=487
 
 [view-settings,view=0,item:ImplementierungPersistence.tex]
-CursorColumn=178
-CursorLine=361
+CursorColumn=0
+CursorLine=365
 
 [view-settings,view=0,item:ImplementierungUeberblick.tex]
 CursorColumn=9
 CursorLine=146
 
 [view-settings,view=0,item:KonzeptuelleEvaluierung.tex]
-CursorColumn=0
-CursorLine=478
+CursorColumn=40
+CursorLine=482
 
 [view-settings,view=0,item:Schlussbetrachtungen.tex]
 CursorColumn=0
