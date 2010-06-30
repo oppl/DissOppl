@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Schrift.tex</string>
+	<string>Abstract.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2010-06-28T11:53:01Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2010-06-29T18:34:37Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -30,7 +28,9 @@
 			<key>filename</key>
 			<string>Abstract.tex</string>
 			<key>lastUsed</key>
-			<date>2010-06-28T11:53:01Z</date>
+			<date>2010-06-29T19:01:25Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -42,7 +42,7 @@
 			<key>filename</key>
 			<string>Einfuehrung.tex</string>
 			<key>lastUsed</key>
-			<date>2010-06-28T11:51:50Z</date>
+			<date>2010-06-29T19:01:20Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -57,7 +57,7 @@
 					<key>filename</key>
 					<string>ArticulationWork.tex</string>
 					<key>lastUsed</key>
-					<date>2010-06-27T21:32:32Z</date>
+					<date>2010-06-29T19:01:21Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -102,7 +102,7 @@
 					<key>filename</key>
 					<string>ImplementierungUeberblick.tex</string>
 					<key>lastUsed</key>
-					<date>2010-06-27T20:54:05Z</date>
+					<date>2010-06-29T19:01:25Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -177,7 +177,7 @@
 			<key>filename</key>
 			<string>Schlussbetrachtungen.tex</string>
 			<key>lastUsed</key>
-			<date>2010-06-27T20:52:59Z</date>
+			<date>2010-06-29T19:00:18Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -257,30 +257,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>838</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>21</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>523</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>7</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>13</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>16</integer>
-				<key>line</key>
-				<integer>18</integer>
-			</dict>
+			<integer>14</integer>
 		</dict>
 		<key>Acronyme.tex</key>
 		<dict>
@@ -317,14 +301,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>264</integer>
+				<integer>202</integer>
 				<key>line</key>
-				<integer>285</integer>
+				<integer>478</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>270</integer>
+			<integer>464</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>198</integer>
+				<key>line</key>
+				<integer>478</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>202</integer>
+				<key>line</key>
+				<integer>478</integer>
+			</dict>
 		</dict>
 		<key>ArticulationWorkLiteratur.tex</key>
 		<dict>
@@ -375,14 +375,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>755</integer>
+				<integer>1778</integer>
 				<key>line</key>
-				<integer>178</integer>
+				<integer>7</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>402</integer>
+			<integer>300</integer>
 			<key>firstVisibleLine</key>
-			<integer>170</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Epilog.tex</key>
 		<dict>
@@ -524,6 +524,20 @@
 			<key>firstVisibleLine</key>
 			<integer>6</integer>
 		</dict>
+		<key>Schlussbetrachtungen.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>244</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>1116</integer>
+			<key>firstVisibleLine</key>
+			<integer>234</integer>
+		</dict>
 		<key>Schrift.tex</key>
 		<dict>
 			<key>caret</key>
@@ -588,6 +602,7 @@
 	<key>openDocuments</key>
 	<array>
 		<string>Einfuehrung.tex</string>
+		<string>Schlussbetrachtungen.tex</string>
 		<string>Schrift.tex</string>
 		<string>Titel.tex</string>
 		<string>EvalTUI.tex</string>
