@@ -3,20 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Publikationen.tex</string>
+	<string>Titel.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2011-05-12T09:05:14Z</date>
+			<date>2011-05-12T11:05:52Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Titel.tex</string>
 			<key>lastUsed</key>
-			<date>2011-05-02T11:28:01Z</date>
+			<date>2011-05-12T11:05:52Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -40,7 +42,7 @@
 			<key>filename</key>
 			<string>Einfuehrung.tex</string>
 			<key>lastUsed</key>
-			<date>2011-02-01T10:06:49Z</date>
+			<date>2011-05-12T11:05:31Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -217,9 +219,7 @@
 					<key>filename</key>
 					<string>Publikationen.tex</string>
 					<key>lastUsed</key>
-					<date>2011-05-12T09:05:14Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-05-12T11:05:28Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -398,7 +398,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>60</integer>
+			<integer>57</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
@@ -799,30 +799,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>7</integer>
+				<integer>57</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>39</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>12</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>2</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
+			<integer>19</integer>
 		</dict>
 		<key>Vorwort.tex</key>
 		<dict>
