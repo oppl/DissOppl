@@ -3,22 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Titel.tex</string>
+	<string>Publikationen.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Schrift.tex</string>
 			<key>lastUsed</key>
-			<date>2011-04-10T17:39:24Z</date>
+			<date>2011-05-12T09:05:14Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Titel.tex</string>
 			<key>lastUsed</key>
-			<date>2011-04-10T17:39:24Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2011-05-02T11:28:01Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -153,7 +151,7 @@
 					<key>filename</key>
 					<string>EvalTUI.tex</string>
 					<key>lastUsed</key>
-					<date>2010-06-30T10:34:51Z</date>
+					<date>2011-05-02T11:39:35Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -219,7 +217,9 @@
 					<key>filename</key>
 					<string>Publikationen.tex</string>
 					<key>lastUsed</key>
-					<date>2011-02-01T11:44:21Z</date>
+					<date>2011-05-12T09:05:14Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -498,7 +498,7 @@
 				<integer>1080</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>200</integer>
+			<integer>237</integer>
 			<key>firstVisibleLine</key>
 			<integer>1076</integer>
 		</dict>
@@ -748,9 +748,9 @@
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>302</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>8</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
@@ -785,14 +785,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>313</integer>
+				<integer>89</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>109</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Titel.tex</key>
 		<dict>
@@ -920,6 +920,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{304, 80}, {813, 815}}</string>
+	<string>{{781, 341}, {813, 687}}</string>
 </dict>
 </plist>
